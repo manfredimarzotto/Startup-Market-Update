@@ -1,0 +1,58 @@
+name: Startup Fundraise Pipeline
+
+on:
+  schedule:
+    - cron: '0 8,18 * * *'  # 8:00 AM and 6:00 PM UTC
+  workflow_dispatch:  # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+        run: python run.py
+
+      - name: Deploy to GitHub Pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Copy output to a temp location
+          cp output/index.html /tmp/index.html
+          cp deals.db /tmp/deals.db 2>/dev/null || true
+
+          # Switch to gh-pages branch (create if needed)
+          git fetch origin gh-pages 2>/dev/null || true
+          if git show-ref --verify --quiet refs/remotes/origin/gh-pages; then
+            git checkout gh-pages
+          else
+            git checkout --orphan gh-pages
+            git rm -rf . 2>/dev/null || true
+          fi
+
+          # Copy files
+          cp /tmp/index.html index.html
+          mkdir -p data
+          cp /tmp/deals.db data/deals.db 2>/dev/null || true
+
+          # Commit and push
+          git add index.html data/
+          git diff --cached --quiet || git commit -m "Update dashboard - $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push origin gh-pages
