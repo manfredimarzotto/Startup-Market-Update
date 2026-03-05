@@ -3,7 +3,7 @@ __pycache__/
 *.pyo
 .env
 deals.db
-output/
+# output/ — tracked so preview is visible on GitHub
 logs/
 *.egg-info/
 dist/
