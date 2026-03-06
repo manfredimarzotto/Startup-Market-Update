@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Startup Fundraise Radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #0A0E17;
+  --surface: #151B26;
+  --border: #1E2736;
+  --text: #E6EDF3;
+  --text-muted: #7D8590;
+  --green: #3FB950;
+  --amber: #D29922;
+  --cyan: #58A6FF;
+  --red: #F85149;
+  --purple: #BC8CFF;
+  --mono: 'JetBrains Mono', monospace;
+  --sans: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+/* TICKER BAR */
+.ticker {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 6px 12px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  overflow-x: auto;
+}
+.ticker-item {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 0 16px;
+  border-right: 1px solid var(--border);
+  white-space: nowrap;
+}
+.ticker-item:last-child { border-right: none; }
+.ticker-label {
+  font-size: 10px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.ticker-value {
+  font-family: var(--mono);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--green);
+}
+.ticker-value.neutral { color: var(--text); }
+
+/* FILTER BAR */
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+.filters select, .filters input {
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 4px 8px;
+  font-family: var(--mono);
+  font-size: 11px;
+  border-radius: 3px;
+  outline: none;
+}
+.filters select:focus, .filters input:focus {
+  border-color: var(--cyan);
+}
+.filters label {
+  font-size: 10px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* MAIN LAYOUT */
+.main {
+  display: flex;
+  gap: 0;
+}
+.table-area {
+  flex: 1;
+  overflow-x: auto;
+  padding: 0;
+}
+
+/* DEAL TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+thead th {
+  position: sticky;
+  top: 36px;
+  background: var(--surface);
+  color: var(--text-muted);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 6px 8px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+thead th:hover { color: var(--cyan); }
+thead th .sort-arrow { font-size: 9px; margin-left: 3px; }
+tbody tr {
+  border-bottom: 1px solid var(--border);
+}
+tbody tr:nth-child(even) { background: rgba(21,27,38,0.5); }
+tbody tr:hover { background: var(--border); }
+td {
+  padding: 5px 8px;
+  vertical-align: top;
+  white-space: nowrap;
+}
+td.company {
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--text);
+  white-space: normal;
+  max-width: 200px;
+}
+td.amount {
+  font-family: var(--mono);
+  color: var(--green);
+  text-align: right;
+  font-weight: 600;
+}
+td.amount-raw {
+  font-family: var(--mono);
+  color: var(--text-muted);
+  font-size: 11px;
+  text-align: right;
+}
+td.date {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-muted);
+}
+td.investors {
+  font-size: 11px;
+  color: var(--text-muted);
+  white-space: normal;
+  max-width: 220px;
+}
+td.sector-cell {
+  font-size: 11px;
+}
+td.hq {
+  font-size: 11px;
+}
+td.source-cell {
+  text-align: center;
+}
+td.source-cell a {
+  color: var(--cyan);
+  text-decoration: none;
+  font-size: 11px;
+}
+td.source-cell a:hover { text-decoration: underline; }
+td.desc {
+  font-size: 11px;
+  color: var(--text-muted);
+  white-space: normal;
+  max-width: 250px;
+}
+
+/* ROUND BADGES */
+.badge {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.badge-seed { background: rgba(210,153,34,0.2); color: var(--amber); }
+.badge-series-a { background: rgba(63,185,80,0.2); color: var(--green); }
+.badge-series-b { background: rgba(88,166,255,0.2); color: var(--cyan); }
+.badge-series-c { background: rgba(188,140,255,0.2); color: var(--purple); }
+.badge-growth { background: rgba(125,133,144,0.2); color: var(--text-muted); }
+.badge-unknown { background: rgba(125,133,144,0.15); color: var(--text-muted); }
+
+/* SIDEBAR / SUMMARY */
+.summary {
+  width: 340px;
+  min-width: 340px;
+  background: var(--surface);
+  border-left: 1px solid var(--border);
+  padding: 12px;
+  overflow-y: auto;
+}
+.summary h3 {
+  font-size: 10px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+.summary h3:first-child { margin-top: 0; }
+.summary .investor-list {
+  list-style: none;
+  font-size: 12px;
+}
+.summary .investor-list li {
+  padding: 2px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.summary .investor-list .count {
+  font-family: var(--mono);
+  color: var(--cyan);
+  font-size: 11px;
+}
+.summary-toggle {
+  display: none;
+}
+
+/* PAGINATION */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px;
+}
+.pagination button {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-family: var(--mono);
+  font-size: 11px;
+  padding: 4px 12px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.pagination button:hover { border-color: var(--cyan); }
+.pagination button:disabled { opacity: 0.4; cursor: default; }
+.pagination .page-info {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 28px;
+}
+
+/* FOOTER */
+footer {
+  padding: 10px 12px;
+  border-top: 1px solid var(--border);
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+/* FLAG EMOJI */
+.flag { font-size: 12px; margin-right: 2px; }
+
+/* NO DEALS */
+.no-deals {
+  text-align: center;
+  padding: 48px 12px;
+  color: var(--text-muted);
+  font-family: var(--mono);
+}
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+  .summary { display: none; }
+  .summary-toggle { display: block; }
+}
+</style>
+</head>
+<body>
+
+<!-- TICKER BAR -->
+<div class="ticker">
+  <div class="ticker-item">
+    <span class="ticker-label">Deals Today</span>
+    <span class="ticker-value neutral">0</span>
+  </div>
+  <div class="ticker-item">
+    <span class="ticker-label">Capital Today</span>
+    <span class="ticker-value">$0</span>
+  </div>
+  <div class="ticker-item">
+    <span class="ticker-label">Deals 7d</span>
+    <span class="ticker-value neutral">0</span>
+  </div>
+  <div class="ticker-item">
+    <span class="ticker-label">Avg Round 7d</span>
+    <span class="ticker-value">$0</span>
+  </div>
+  <div class="ticker-item">
+    <span class="ticker-label">Top Sector 7d</span>
+    <span class="ticker-value neutral">N/A</span>
+  </div>
+</div>
+
+<!-- FILTER BAR -->
+<div class="filters">
+  <label>Round</label>
+  <select id="filter-round">
+    <option value="">All</option>
+    <option>Pre-Seed</option><option>Seed</option>
+    <option>Series A</option><option>Series B</option>
+    <option>Series C</option><option>Series D+</option>
+    <option>Growth</option><option>Debt</option><option>Grant</option><option>Unknown</option>
+  </select>
+  <label>Sector</label>
+  <select id="filter-sector"><option value="">All</option></select>
+  <label>Geo</label>
+  <select id="filter-geo">
+    <option value="">All</option>
+    <option value="US">US</option>
+    <option value="Europe">Europe</option>
+  </select>
+  <label>Period</label>
+  <select id="filter-period">
+    <option value="7">7 Days</option>
+    <option value="1">Today</option>
+    <option value="30">30 Days</option>
+  </select>
+  <label>Search</label>
+  <input type="text" id="filter-search" placeholder="Company name..." style="width:140px;">
+</div>
+
+<!-- MAIN -->
+<div class="main">
+  <div class="table-area">
+    <table>
+      <thead>
+        <tr>
+          <th data-col="date">Date <span class="sort-arrow"></span></th>
+          <th data-col="company">Company <span class="sort-arrow"></span></th>
+          <th data-col="round">Round <span class="sort-arrow"></span></th>
+          <th data-col="amount" style="text-align:right">Amount (USD) <span class="sort-arrow"></span></th>
+          <th data-col="amount_raw" style="text-align:right">Original <span class="sort-arrow"></span></th>
+          <th data-col="sector">Sector <span class="sort-arrow"></span></th>
+          <th data-col="hq">HQ <span class="sort-arrow"></span></th>
+          <th data-col="investors">Lead Investors</th>
+          <th data-col="desc">Description</th>
+          <th>Src</th>
+        </tr>
+      </thead>
+      <tbody id="deal-table-body"></tbody>
+    </table>
+    <div class="pagination">
+      <button id="prev-btn" disabled>&laquo; Prev</button>
+      <span class="page-info" id="page-info"></span>
+      <button id="next-btn">Next &raquo;</button>
+    </div>
+    <div class="no-deals" id="no-deals" style="display:none;">No deals match your filters.</div>
+  </div>
+
+  <!-- SUMMARY PANEL -->
+  <div class="summary" id="summary-panel">
+    <h3>Deals by Round (7d)</h3>
+    
+    <h3>Deals by Sector (7d)</h3>
+    
+    <h3>Geography Split (7d)</h3>
+    <svg width="320" height="48" xmlns="http://www.w3.org/2000/svg">
+<text x="0" y="12" fill="#7D8590" font-family="monospace" font-size="11">US vs Europe</text>
+<rect x="0" y="18" width="320" height="28" fill="#7D8590" rx="2"/>
+<text x="4" y="35" fill="#0A0E17" font-family="monospace" font-size="10">Other 0</text>
+</svg>
+    <h3>Top Investors (7d)</h3>
+    <ul class="investor-list">
+      
+      
+      <li><span style="color:var(--text-muted)">No data yet</span></li>
+      
+    </ul>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  STARTUP FUNDRAISE RADAR &nbsp;|&nbsp; Last scan: 2026-03-06 09:59 UTC &nbsp;|&nbsp;
+  Sources: TechCrunch, Sifted, EU-Startups, Tech.eu, VentureBeat, NewsAPI &nbsp;|&nbsp;
+  Extraction: Claude Haiku
+</footer>
+
+<!-- DATA EMBED -->
+<script>
+const DEALS_DATA = [];
+</script>
+
+<script>
+(function() {
+  const EUROPE = new Set([
+    "United Kingdom","Germany","France","Netherlands","Spain","Italy","Sweden",
+    "Denmark","Finland","Norway","Ireland","Belgium","Austria","Switzerland",
+    "Portugal","Poland","Czech Republic","Estonia","Latvia","Lithuania",
+    "Romania","Bulgaria","Croatia","Hungary","Luxembourg"
+  ]);
+
+  const COUNTRY_FLAGS = {
+    "United States":"\u{1F1FA}\u{1F1F8}","United Kingdom":"\u{1F1EC}\u{1F1E7}","Germany":"\u{1F1E9}\u{1F1EA}",
+    "France":"\u{1F1EB}\u{1F1F7}","Netherlands":"\u{1F1F3}\u{1F1F1}","Spain":"\u{1F1EA}\u{1F1F8}",
+    "Italy":"\u{1F1EE}\u{1F1F9}","Sweden":"\u{1F1F8}\u{1F1EA}","Denmark":"\u{1F1E9}\u{1F1F0}",
+    "Finland":"\u{1F1EB}\u{1F1EE}","Norway":"\u{1F1F3}\u{1F1F4}","Ireland":"\u{1F1EE}\u{1F1EA}",
+    "Belgium":"\u{1F1E7}\u{1F1EA}","Austria":"\u{1F1E6}\u{1F1F9}","Switzerland":"\u{1F1E8}\u{1F1ED}",
+    "Portugal":"\u{1F1F5}\u{1F1F9}","Poland":"\u{1F1F5}\u{1F1F1}","Israel":"\u{1F1EE}\u{1F1F1}",
+    "Canada":"\u{1F1E8}\u{1F1E6}","India":"\u{1F1EE}\u{1F1F3}","Singapore":"\u{1F1F8}\u{1F1EC}",
+    "Australia":"\u{1F1E6}\u{1F1FA}","Japan":"\u{1F1EF}\u{1F1F5}","South Korea":"\u{1F1F0}\u{1F1F7}",
+    "Brazil":"\u{1F1E7}\u{1F1F7}","Estonia":"\u{1F1EA}\u{1F1EA}",
+  };
+
+  const BADGE_CLASS = {
+    "Pre-Seed":"badge-seed","Seed":"badge-seed",
+    "Series A":"badge-series-a","Series B":"badge-series-b",
+    "Series C":"badge-series-c","Series D+":"badge-series-c",
+    "Growth":"badge-growth","Debt":"badge-growth","Grant":"badge-growth",
+    "Unknown":"badge-unknown",
+  };
+
+  const PAGE_SIZE = 50;
+  let currentPage = 0;
+  let filteredDeals = [];
+  let sortCol = "date";
+  let sortAsc = false;
+
+  // Populate sector filter
+  const sectors = [...new Set(DEALS_DATA.map(d => d.sector).filter(Boolean))].sort();
+  const sectorSel = document.getElementById("filter-sector");
+  sectors.forEach(s => {
+    const o = document.createElement("option");
+    o.value = s; o.textContent = s;
+    sectorSel.appendChild(o);
+  });
+
+  function formatUSD(n) {
+    if (!n) return "—";
+    if (n >= 1e9) return "$" + (n/1e9).toFixed(1) + "B";
+    if (n >= 1e6) return "$" + (n/1e6).toFixed(1) + "M";
+    if (n >= 1e3) return "$" + (n/1e3).toFixed(0) + "K";
+    return "$" + n.toFixed(0);
+  }
+
+  function esc(s) {
+    if (!s) return "";
+    const d = document.createElement("div");
+    d.textContent = s;
+    return d.innerHTML;
+  }
+
+  function daysBetween(dateStr) {
+    if (!dateStr) return 999;
+    const d = new Date(dateStr);
+    const now = new Date();
+    return Math.floor((now - d) / 86400000);
+  }
+
+  function applyFilters() {
+    const round = document.getElementById("filter-round").value;
+    const sector = document.getElementById("filter-sector").value;
+    const geo = document.getElementById("filter-geo").value;
+    const period = parseInt(document.getElementById("filter-period").value);
+    const search = document.getElementById("filter-search").value.toLowerCase();
+
+    filteredDeals = DEALS_DATA.filter(d => {
+      if (round && d.round_type !== round) return false;
+      if (sector && d.sector !== sector) return false;
+      if (geo === "US" && d.company_hq_country !== "United States") return false;
+      if (geo === "Europe" && !EUROPE.has(d.company_hq_country)) return false;
+      if (period && daysBetween(d.published_date) > period) return false;
+      if (search && !(d.company_name || "").toLowerCase().includes(search)) return false;
+      return true;
+    });
+
+    sortDeals();
+    currentPage = 0;
+    renderTable();
+  }
+
+  function sortDeals() {
+    filteredDeals.sort((a, b) => {
+      let va, vb;
+      switch(sortCol) {
+        case "date": va = a.published_date || ""; vb = b.published_date || ""; break;
+        case "company": va = (a.company_name||"").toLowerCase(); vb = (b.company_name||"").toLowerCase(); break;
+        case "round": va = a.round_type||""; vb = b.round_type||""; break;
+        case "amount": va = a.amount_usd||0; vb = b.amount_usd||0; break;
+        case "amount_raw": va = a.amount_usd||0; vb = b.amount_usd||0; break;
+        case "sector": va = a.sector||""; vb = b.sector||""; break;
+        case "hq": va = a.company_hq_country||""; vb = b.company_hq_country||""; break;
+        default: va = a.published_date||""; vb = b.published_date||"";
+      }
+      if (va < vb) return sortAsc ? -1 : 1;
+      if (va > vb) return sortAsc ? 1 : -1;
+      return 0;
+    });
+  }
+
+  function renderTable() {
+    const tbody = document.getElementById("deal-table-body");
+    const noDealMsg = document.getElementById("no-deals");
+    const start = currentPage * PAGE_SIZE;
+    const page = filteredDeals.slice(start, start + PAGE_SIZE);
+
+    if (filteredDeals.length === 0) {
+      tbody.innerHTML = "";
+      noDealMsg.style.display = "block";
+    } else {
+      noDealMsg.style.display = "none";
+      tbody.innerHTML = page.map(d => {
+        const flag = COUNTRY_FLAGS[d.company_hq_country] || "";
+        const badgeCls = BADGE_CLASS[d.round_type] || "badge-unknown";
+        const investors = (d.lead_investors || []).join(", ") || "—";
+        const sourceUrl = (d.source_urls && d.source_urls[0]) || "#";
+        const sourceName = (d.source_names && d.source_names[0]) || "src";
+        const dateStr = (d.published_date || "").slice(0, 10);
+        return `<tr>
+          <td class="date">${esc(dateStr)}</td>
+          <td class="company">${esc(d.company_name)}</td>
+          <td><span class="badge ${badgeCls}">${esc(d.round_type)}</span></td>
+          <td class="amount">${formatUSD(d.amount_usd)}</td>
+          <td class="amount-raw">${esc(d.amount_raw || "—")}</td>
+          <td class="sector-cell">${esc(d.sector)}</td>
+          <td class="hq"><span class="flag">${flag}</span>${esc(d.company_hq_country || "—")}</td>
+          <td class="investors">${esc(investors)}</td>
+          <td class="desc">${esc(d.short_description || "")}</td>
+          <td class="source-cell"><a href="${esc(sourceUrl)}" target="_blank" rel="noopener">${esc(sourceName)} &#x2197;</a></td>
+        </tr>`;
+      }).join("");
+    }
+
+    // Pagination
+    const totalPages = Math.ceil(filteredDeals.length / PAGE_SIZE);
+    document.getElementById("page-info").textContent =
+      filteredDeals.length > 0 ? `${currentPage+1} / ${totalPages} (${filteredDeals.length} deals)` : "";
+    document.getElementById("prev-btn").disabled = currentPage === 0;
+    document.getElementById("next-btn").disabled = currentPage >= totalPages - 1;
+  }
+
+  // Sort on header click
+  document.querySelectorAll("thead th[data-col]").forEach(th => {
+    th.addEventListener("click", () => {
+      const col = th.dataset.col;
+      if (sortCol === col) { sortAsc = !sortAsc; }
+      else { sortCol = col; sortAsc = true; }
+      // Update arrows
+      document.querySelectorAll(".sort-arrow").forEach(s => s.textContent = "");
+      th.querySelector(".sort-arrow").textContent = sortAsc ? "\u25B2" : "\u25BC";
+      sortDeals();
+      renderTable();
+    });
+  });
+
+  // Filter listeners
+  ["filter-round","filter-sector","filter-geo","filter-period"].forEach(id => {
+    document.getElementById(id).addEventListener("change", applyFilters);
+  });
+  document.getElementById("filter-search").addEventListener("input", applyFilters);
+
+  // Pagination
+  document.getElementById("prev-btn").addEventListener("click", () => { currentPage--; renderTable(); });
+  document.getElementById("next-btn").addEventListener("click", () => { currentPage++; renderTable(); });
+
+  // Initial render
+  applyFilters();
+})();
+</script>
+</body>
+</html>
