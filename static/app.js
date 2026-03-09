@@ -389,7 +389,11 @@
     applyFilters();
   }
 
-  /* ── Generate button (mock in Phase 1) ── */
+  /* ── Generate button → triggers GitHub Actions workflow_dispatch ── */
+  const GITHUB_REPO = 'manfredimarzotto/Startup-Market-Update';
+  const WORKFLOW_FILE = 'pipeline.yml';
+  const ACTIONS_URL = `https://github.com/${GITHUB_REPO}/actions/workflows/${WORKFLOW_FILE}`;
+
   function setupGenerateButton() {
     const btn = document.getElementById('generate-btn');
     if (!btn) return;
@@ -398,12 +402,14 @@
       btn.classList.add('loading');
       btn.disabled = true;
 
-      // Simulate pipeline running (Phase 1 = mock)
+      // Open GitHub Actions dispatch page (secure — no token exposure)
+      window.open(ACTIONS_URL, '_blank', 'noopener');
+
+      // Reset button after short delay
       setTimeout(function () {
         btn.classList.remove('loading');
         btn.disabled = false;
-        applyFilters(); // "refresh" with current data
-      }, 2500);
+      }, 2000);
     });
   }
 
