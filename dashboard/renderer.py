@@ -7,10 +7,10 @@ from datetime import datetime
 
 from jinja2 import Environment, FileSystemLoader
 
-import db
+from pipeline import db
 
 TEMPLATE_DIR = os.path.join(os.path.dirname(__file__), "templates")
-OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "output")
+OUTPUT_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "output")
 
 
 def render_dashboard():
@@ -170,5 +170,6 @@ def _geo_bar_svg(geo, width=320, height=28):
 
 
 if __name__ == "__main__":
-    db.init_db()
+    from pipeline import db as _db
+    _db.init_db()
     render_dashboard()

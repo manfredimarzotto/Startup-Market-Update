@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 import requests
 
-from config import NEWSAPI_KEY
+from pipeline.config import NEWSAPI_KEY
 
 logger = logging.getLogger(__name__)
 

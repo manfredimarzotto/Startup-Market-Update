@@ -12,24 +12,31 @@ Live site: https://manfredimarzotto.github.io/Startup-Market-Update/
 RSS Feeds / NewsAPI → Filter (keywords) → Scrape full text → Extract deals (Claude Haiku) → Normalize → Deduplicate → SQLite DB → HTML Dashboard
 ```
 
-### Key Files
+## Project Structure
 
-| File | Purpose |
-|------|---------|
-| `run.py` | Main pipeline orchestrator |
-| `config.py` | API keys, RSS feeds, keywords, settings |
-| `rss.py` | RSS feed fetcher |
-| `newsapi.py` | NewsAPI fetcher |
-| `scraper.py` | Full article text scraper |
-| `extractor.py` | Deal extraction via Claude Haiku |
-| `normalize.py` | Data normalization (amounts, dates, etc.) |
-| `dedup.py` | Fuzzy deduplication of deals |
-| `db.py` | SQLite database layer |
-| `dashboard.py` | Jinja2 HTML dashboard renderer |
-| `templates/dashboard.html` | Dashboard HTML template |
-| `generate_preview.py` | Preview generator with sample data |
-| `index.html` | Root redirect for GitHub Pages |
-| `output/index.html` | Generated dashboard output |
+```
+├── run.py                          # Entry point — orchestrates the full pipeline
+├── pipeline/                       # Data ingestion and processing
+│   ├── config.py                   #   Settings: API keys, RSS feeds, keywords
+│   ├── rss.py                      #   RSS feed fetcher (TechCrunch, Sifted, etc.)
+│   ├── newsapi.py                  #   NewsAPI fetcher with funding queries
+│   ├── scraper.py                  #   Full article scraper (newspaper3k, robots.txt)
+│   ├── extractor.py                #   Deal extraction via Claude Haiku
+│   ├── normalize.py                #   Data normalization (countries, currencies, rounds)
+│   ├── dedup.py                    #   Fuzzy deduplication (fuzzywuzzy)
+│   └── db.py                       #   SQLite database layer
+├── dashboard/                      # Dashboard rendering
+│   ├── renderer.py                 #   Jinja2 HTML renderer with SVG charts
+│   ├── preview.py                  #   Sample data preview generator
+│   └── templates/
+│       └── dashboard.html          #   Jinja2 HTML template
+├── output/
+│   └── index.html                  # Generated dashboard (sample data)
+├── index.html                      # Root redirect for GitHub Pages
+├── .github/workflows/pipeline.yml  # GitHub Actions: runs 2x daily, deploys to gh-pages
+├── requirements.txt                # Python dependencies
+└── CLAUDE.md                       # This file
+```
 
 ## Tech Stack
 
@@ -55,14 +62,14 @@ pip install -r requirements.txt
 python run.py
 
 # Generate preview dashboard with sample data
-python generate_preview.py
+python -m dashboard.preview
 ```
 
 ## Development Notes
 
 - Pipeline runs as a GitHub Actions workflow (`.github/workflows/pipeline.yml`)
 - Dashboard output goes to `output/index.html`
-- SQLite DB and logs are gitignored
-- RSS feeds are configured in `config.py` (TechCrunch, Sifted, EU-Startups, Tech.eu, VentureBeat)
+- SQLite DB (`deals.db`) and logs are gitignored
+- RSS feeds are configured in `pipeline/config.py`
 - Keyword filtering happens on article titles before scraping to minimize API/scrape calls
 - Geography filtering is available but currently disabled (`ALLOWED_COUNTRIES = []`)

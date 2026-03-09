@@ -3,7 +3,7 @@ import time
 
 import feedparser
 
-from config import RSS_FEEDS
+from pipeline.config import RSS_FEEDS
 
 logger = logging.getLogger(__name__)
 
