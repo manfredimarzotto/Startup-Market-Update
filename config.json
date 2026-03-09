@@ -1,0 +1,14 @@
+{
+  "preferred_sectors": ["FinTech", "CleanTech", "HealthTech", "AI/ML", "SaaS", "DeepTech"],
+  "geography_weights": {
+    "Nordics": 1.0,
+    "DACH": 0.8,
+    "UK": 0.8,
+    "Benelux": 0.7,
+    "Southern Europe": 0.6,
+    "US": 0.5
+  },
+  "minimum_signal_tier": "tier_3_weak",
+  "daily_opportunities": 15,
+  "recency_decay_days": 45
+}

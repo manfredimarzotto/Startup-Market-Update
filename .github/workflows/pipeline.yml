@@ -1,15 +1,16 @@
-name: Startup Fundraise Pipeline
+name: Nordic Signal Intelligence Pipeline
 
 on:
-  schedule:
-    - cron: '0 8,18 * * *'  # 8:00 AM and 6:00 PM UTC
-  workflow_dispatch:  # Allow manual trigger
+  workflow_dispatch:  # Manual trigger from dashboard "Generate" button
+  # schedule:
+  #   - cron: '0 6 * * *'  # Optional: daily at 06:00 UTC
 
 permissions:
   contents: write
+  pages: write
 
 jobs:
-  run-pipeline:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,22 +24,25 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run pipeline
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
-        run: python run.py
+      # Phase 2+ : run pipeline here
+      # - name: Run pipeline
+      #   env:
+      #     ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      #     NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+      #   run: python run.py
+
+      - name: Build dashboard
+        run: python build.py
 
       - name: Deploy to GitHub Pages
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Copy output to a temp location
-          cp output/index.html /tmp/index.html
-          cp deals.db /tmp/deals.db 2>/dev/null || true
+          # Copy built output to temp
+          cp -r docs /tmp/docs-output
 
-          # Switch to gh-pages branch (create if needed)
+          # Switch to gh-pages branch
           git fetch origin gh-pages 2>/dev/null || true
           if git show-ref --verify --quiet refs/remotes/origin/gh-pages; then
             git checkout gh-pages
@@ -47,12 +51,10 @@ jobs:
             git rm -rf . 2>/dev/null || true
           fi
 
-          # Copy files
-          cp /tmp/index.html index.html
-          mkdir -p data
-          cp /tmp/deals.db data/deals.db 2>/dev/null || true
+          # Copy output
+          cp -r /tmp/docs-output/* .
 
           # Commit and push
-          git add index.html data/
+          git add -A
           git diff --cached --quiet || git commit -m "Update dashboard - $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push origin gh-pages
