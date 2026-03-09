@@ -6,15 +6,10 @@ import os
 import sys
 from datetime import datetime
 
-import db
-import rss
-import newsapi
-import scraper
-import extractor
-import normalize as norm
-import dedup
-import dashboard
-from config import FUNDING_KEYWORDS, MAX_SCRAPE_PER_RUN, ALLOWED_COUNTRIES
+from pipeline import db, rss, newsapi, scraper, extractor, dedup
+from pipeline import normalize as norm
+from pipeline.config import FUNDING_KEYWORDS, MAX_SCRAPE_PER_RUN, ALLOWED_COUNTRIES
+from dashboard import renderer as dashboard
 
 # Setup logging
 os.makedirs("logs", exist_ok=True)

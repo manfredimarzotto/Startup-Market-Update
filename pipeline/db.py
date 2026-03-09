@@ -3,7 +3,7 @@ import json
 import os
 from datetime import datetime
 
-DB_PATH = os.path.join(os.path.dirname(__file__), "deals.db")
+DB_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "deals.db")
 
 
 def get_connection():

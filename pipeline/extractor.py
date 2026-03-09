@@ -5,7 +5,7 @@ import time
 
 import anthropic
 
-from config import ANTHROPIC_API_KEY, HAIKU_MODEL
+from pipeline.config import ANTHROPIC_API_KEY, HAIKU_MODEL
 
 logger = logging.getLogger(__name__)
 

@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 from fuzzywuzzy import fuzz
 
-import db
+from pipeline import db
 
 logger = logging.getLogger(__name__)
 

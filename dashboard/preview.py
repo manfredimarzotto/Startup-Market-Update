@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Generate a preview dashboard with sample data — no API keys needed."""
 
-import db
-import dashboard
+from pipeline import db
+from dashboard import renderer as dashboard
 from datetime import datetime, timedelta
 import random
 

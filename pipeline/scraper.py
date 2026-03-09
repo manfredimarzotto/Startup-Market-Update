@@ -6,7 +6,7 @@ from urllib.robotparser import RobotFileParser
 
 import requests
 
-from config import SCRAPE_DELAY_SECONDS, USER_AGENTS
+from pipeline.config import SCRAPE_DELAY_SECONDS, USER_AGENTS
 
 logger = logging.getLogger(__name__)
 
