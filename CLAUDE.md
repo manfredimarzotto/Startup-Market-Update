@@ -65,6 +65,11 @@ python run.py
 python -m dashboard.preview
 ```
 
+## Git Workflow
+
+- Always rebase feature branches onto `main` before merging to keep a linear history
+- Use `git rebase origin/main` (not merge commits) to resolve conflicts
+
 ## Development Notes
 
 - Pipeline runs as a GitHub Actions workflow (`.github/workflows/pipeline.yml`)
