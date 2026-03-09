@@ -1,0 +1,52 @@
+[
+  {
+    "id": "src_001",
+    "name": "Sifted RSS",
+    "type": "rss",
+    "url": "https://sifted.eu/feed",
+    "refresh_interval": "6h",
+    "last_fetched_at": "2026-03-09T06:00:00Z",
+    "is_active": true,
+    "geography_tag": "Europe"
+  },
+  {
+    "id": "src_002",
+    "name": "TechCrunch RSS",
+    "type": "rss",
+    "url": "https://techcrunch.com/feed/",
+    "refresh_interval": "6h",
+    "last_fetched_at": "2026-03-09T06:00:00Z",
+    "is_active": true,
+    "geography_tag": "US"
+  },
+  {
+    "id": "src_003",
+    "name": "EU-Startups",
+    "type": "rss",
+    "url": "https://www.eu-startups.com/feed/",
+    "refresh_interval": "12h",
+    "last_fetched_at": "2026-03-09T06:00:00Z",
+    "is_active": true,
+    "geography_tag": "Europe"
+  },
+  {
+    "id": "src_004",
+    "name": "The Nordic Web",
+    "type": "scrape",
+    "url": "https://thenordicweb.com",
+    "refresh_interval": "24h",
+    "last_fetched_at": "2026-03-08T12:00:00Z",
+    "is_active": true,
+    "geography_tag": "Nordics"
+  },
+  {
+    "id": "src_005",
+    "name": "Tech.eu",
+    "type": "rss",
+    "url": "https://tech.eu/feed/",
+    "refresh_interval": "12h",
+    "last_fetched_at": "2026-03-09T06:00:00Z",
+    "is_active": true,
+    "geography_tag": "Europe"
+  }
+]
