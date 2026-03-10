@@ -1,4 +1,4 @@
-# Nordic Signal Intelligence
+# Startup Radar Intelligence
 
 AI-powered opportunity radar for startup and tech market signals. Aggregates funding rounds, hiring waves, partnerships, and product launches — then scores and ranks opportunities with Claude Haiku.
 
