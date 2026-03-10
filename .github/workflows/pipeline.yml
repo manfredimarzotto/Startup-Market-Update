@@ -1,9 +1,9 @@
 name: Nordic Signal Intelligence Pipeline
 
 on:
-  workflow_dispatch:  # Manual trigger from dashboard "Generate" button
-  # schedule:
-  #   - cron: '0 6 * * *'  # Optional: daily at 06:00 UTC
+  workflow_dispatch:  # Manual trigger (Generate button / GitHub UI)
+  schedule:
+    - cron: '0 6 * * *'  # Daily at 06:00 UTC
 
 permissions:
   contents: write
@@ -24,15 +24,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # Phase 2+ : run pipeline here
-      # - name: Run pipeline
-      #   env:
-      #     ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-      #     NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
-      #   run: python run.py
-
-      - name: Build dashboard
-        run: python build.py
+      - name: Run pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python run.py
 
       - name: Deploy to GitHub Pages
         run: |
