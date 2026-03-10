@@ -41,7 +41,7 @@
   },
   {
     "id": "per_005",
-    "name": "Kristian Rönn",
+    "name": "Kristian R\u00f6nn",
     "role": "CEO & Co-Founder",
     "company_id": "co_005",
     "investor_id": null,
@@ -111,7 +111,7 @@
   },
   {
     "id": "per_012",
-    "name": "Hjalmar Ståhlberg Nordegren",
+    "name": "Hjalmar St\u00e5hlberg Nordegren",
     "role": "CEO & Co-Founder",
     "company_id": "co_012",
     "investor_id": null,
@@ -141,7 +141,7 @@
   },
   {
     "id": "per_015",
-    "name": "Anna Lindström",
+    "name": "Anna Lindstr\u00f6m",
     "role": "CEO & Founder",
     "company_id": "co_016",
     "investor_id": null,
@@ -211,12 +211,202 @@
   },
   {
     "id": "per_022",
-    "name": "Niklas Östberg",
+    "name": "Niklas \u00d6stberg",
     "role": "CEO",
     "company_id": "co_017",
     "investor_id": null,
     "linkedin_url": "https://linkedin.com/in/niklasostberg",
     "email_guess": "niklas@wolt.com",
     "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_5501b71e",
+    "name": "Yann LeCun",
+    "role": "Founder",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_3d6979d4",
+    "name": "Ram Iyer",
+    "role": "Author",
+    "company_id": "co_befc92b3",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_20de3aca",
+    "name": "Mira Murati",
+    "role": "Founder & CEO",
+    "company_id": "co_8f71c487",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_a074aaf3",
+    "name": "Andrew Tulloch",
+    "role": "Co-founder",
+    "company_id": "co_8f71c487",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_dcbffb58",
+    "name": "Barret Zoph",
+    "role": "Co-founder",
+    "company_id": "co_8f71c487",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_32cdbe90",
+    "name": "Luke Metz",
+    "role": "Co-founder",
+    "company_id": "co_8f71c487",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_2794fbc1",
+    "name": "Sam Schoenholz",
+    "role": "Co-founder",
+    "company_id": "co_8f71c487",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_ecd7b976",
+    "name": "Jensen Huang",
+    "role": "CEO",
+    "company_id": "co_8f71c487",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_13987f9f",
+    "name": "Anna Heim",
+    "role": "journalist",
+    "company_id": "co_22dc0248",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": null
+  },
+  {
+    "id": "per_2ac3e3a8",
+    "name": "Amanda Silberling",
+    "role": "journalist",
+    "company_id": "co_1041fc57",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_4698c6ed",
+    "name": "Sarah Perez",
+    "role": "journalist",
+    "company_id": "co_24e6654b",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_985ab104",
+    "name": "Ivan Mehta",
+    "role": "Author",
+    "company_id": "co_35b357dd",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_87842eff",
+    "name": "Julie Bort",
+    "role": "journalist",
+    "company_id": "co_1acda6c3",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "media"
+  },
+  {
+    "id": "per_e0066de4",
+    "name": "Jagmeet Singh",
+    "role": "Author",
+    "company_id": "co_65875803",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": null
+  },
+  {
+    "id": "per_a1bdedd8",
+    "name": "Mark O'Hare",
+    "role": "Founder of Valhalla Ventures",
+    "company_id": "co_ce44be71",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_4cd37d22",
+    "name": "Lindy O'Hare",
+    "role": "Founder of Valhalla Ventures",
+    "company_id": "co_ce44be71",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_a1c563d6",
+    "name": "Sheryl Sandberg",
+    "role": "Board Member",
+    "company_id": "co_eb6cf0bb",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_41c601ab",
+    "name": "Nick Clegg",
+    "role": "Board Member",
+    "company_id": "co_eb6cf0bb",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_fd948590",
+    "name": "Primo Ventu",
+    "role": null,
+    "company_id": "co_ac77d469",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "founder"
   }
 ]

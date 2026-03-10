@@ -13,10 +13,21 @@
     "geography": "Nordics",
     "country": "SE",
     "ai_confidence": 0.97,
-    "company_ids": ["co_001"],
-    "investor_ids": ["inv_001", "inv_011"],
-    "person_ids": ["per_001"],
-    "metadata": {"amount_usd": 500000000, "round_stage": "Series C", "currency": "USD"}
+    "company_ids": [
+      "co_001"
+    ],
+    "investor_ids": [
+      "inv_001",
+      "inv_011"
+    ],
+    "person_ids": [
+      "per_001"
+    ],
+    "metadata": {
+      "amount_usd": 500000000,
+      "round_stage": "Series C",
+      "currency": "USD"
+    }
   },
   {
     "id": "sig_002",
@@ -32,10 +43,21 @@
     "geography": "Nordics",
     "country": "SE",
     "ai_confidence": 0.89,
-    "company_ids": ["co_001"],
+    "company_ids": [
+      "co_001"
+    ],
     "investor_ids": [],
-    "person_ids": ["per_001"],
-    "metadata": {"positions": 200, "locations": ["Stockholm", "Berlin", "Austin"]}
+    "person_ids": [
+      "per_001"
+    ],
+    "metadata": {
+      "positions": 200,
+      "locations": [
+        "Stockholm",
+        "Berlin",
+        "Austin"
+      ]
+    }
   },
   {
     "id": "sig_003",
@@ -51,10 +73,17 @@
     "geography": "Nordics",
     "country": "DK",
     "ai_confidence": 0.95,
-    "company_ids": ["co_002"],
+    "company_ids": [
+      "co_002"
+    ],
     "investor_ids": [],
-    "person_ids": ["per_002"],
-    "metadata": {"target": "ExpenseAI", "deal_value": "undisclosed"}
+    "person_ids": [
+      "per_002"
+    ],
+    "metadata": {
+      "target": "ExpenseAI",
+      "deal_value": "undisclosed"
+    }
   },
   {
     "id": "sig_004",
@@ -63,17 +92,29 @@
     "source_name": "Sifted",
     "signal_type": "funding_round",
     "signal_tier": "tier_1_strong",
-    "headline": "Vaayu raises €30M Series A for automated carbon tracking",
+    "headline": "Vaayu raises \u20ac30M Series A for automated carbon tracking",
     "raw_text": "",
     "published_at": "2026-03-09T08:00:00Z",
     "ingested_at": "2026-03-09T08:15:00Z",
     "geography": "DACH",
     "country": "DE",
     "ai_confidence": 0.96,
-    "company_ids": ["co_003"],
-    "investor_ids": ["inv_002", "inv_012"],
-    "person_ids": ["per_003"],
-    "metadata": {"amount_usd": 32400000, "round_stage": "Series A", "currency": "EUR", "amount_local": 30000000}
+    "company_ids": [
+      "co_003"
+    ],
+    "investor_ids": [
+      "inv_002",
+      "inv_012"
+    ],
+    "person_ids": [
+      "per_003"
+    ],
+    "metadata": {
+      "amount_usd": 32400000,
+      "round_stage": "Series A",
+      "currency": "EUR",
+      "amount_local": 30000000
+    }
   },
   {
     "id": "sig_005",
@@ -89,10 +130,22 @@
     "geography": "US",
     "country": "US",
     "ai_confidence": 0.98,
-    "company_ids": ["co_004"],
-    "investor_ids": ["inv_004", "inv_003"],
-    "person_ids": ["per_004"],
-    "metadata": {"amount_usd": 75000000, "round_stage": "Series B", "currency": "USD", "valuation": 450000000}
+    "company_ids": [
+      "co_004"
+    ],
+    "investor_ids": [
+      "inv_004",
+      "inv_003"
+    ],
+    "person_ids": [
+      "per_004"
+    ],
+    "metadata": {
+      "amount_usd": 75000000,
+      "round_stage": "Series B",
+      "currency": "USD",
+      "valuation": 450000000
+    }
   },
   {
     "id": "sig_006",
@@ -108,10 +161,17 @@
     "geography": "Nordics",
     "country": "SE",
     "ai_confidence": 0.88,
-    "company_ids": ["co_005"],
+    "company_ids": [
+      "co_005"
+    ],
     "investor_ids": [],
-    "person_ids": ["per_005"],
-    "metadata": {"new_market": "US", "new_office": "New York"}
+    "person_ids": [
+      "per_005"
+    ],
+    "metadata": {
+      "new_market": "US",
+      "new_office": "New York"
+    }
   },
   {
     "id": "sig_007",
@@ -120,17 +180,29 @@
     "source_name": "Sifted",
     "signal_type": "funding_round",
     "signal_tier": "tier_1_strong",
-    "headline": "Volt.io secures £60M Series B to scale open banking payments",
+    "headline": "Volt.io secures \u00a360M Series B to scale open banking payments",
     "raw_text": "",
     "published_at": "2026-03-05T11:00:00Z",
     "ingested_at": "2026-03-05T11:15:00Z",
     "geography": "UK",
     "country": "GB",
     "ai_confidence": 0.94,
-    "company_ids": ["co_006"],
-    "investor_ids": ["inv_006", "inv_007"],
-    "person_ids": ["per_006"],
-    "metadata": {"amount_usd": 76200000, "round_stage": "Series B", "currency": "GBP", "amount_local": 60000000}
+    "company_ids": [
+      "co_006"
+    ],
+    "investor_ids": [
+      "inv_006",
+      "inv_007"
+    ],
+    "person_ids": [
+      "per_006"
+    ],
+    "metadata": {
+      "amount_usd": 76200000,
+      "round_stage": "Series B",
+      "currency": "GBP",
+      "amount_local": 60000000
+    }
   },
   {
     "id": "sig_008",
@@ -146,10 +218,20 @@
     "geography": "Nordics",
     "country": "FI",
     "ai_confidence": 0.96,
-    "company_ids": ["co_007"],
-    "investor_ids": ["inv_009"],
-    "person_ids": ["per_007"],
-    "metadata": {"amount_usd": 210000000, "round_stage": "Series D", "currency": "USD"}
+    "company_ids": [
+      "co_007"
+    ],
+    "investor_ids": [
+      "inv_009"
+    ],
+    "person_ids": [
+      "per_007"
+    ],
+    "metadata": {
+      "amount_usd": 210000000,
+      "round_stage": "Series D",
+      "currency": "USD"
+    }
   },
   {
     "id": "sig_009",
@@ -165,10 +247,22 @@
     "geography": "UK",
     "country": "GB",
     "ai_confidence": 0.99,
-    "company_ids": ["co_008"],
-    "investor_ids": ["inv_011", "inv_004"],
-    "person_ids": ["per_008"],
-    "metadata": {"amount_usd": 1050000000, "round_stage": "Series C", "currency": "USD", "valuation": 4500000000}
+    "company_ids": [
+      "co_008"
+    ],
+    "investor_ids": [
+      "inv_011",
+      "inv_004"
+    ],
+    "person_ids": [
+      "per_008"
+    ],
+    "metadata": {
+      "amount_usd": 1050000000,
+      "round_stage": "Series C",
+      "currency": "USD",
+      "valuation": 4500000000
+    }
   },
   {
     "id": "sig_010",
@@ -184,10 +278,17 @@
     "geography": "Nordics",
     "country": "NO",
     "ai_confidence": 0.85,
-    "company_ids": ["co_009"],
+    "company_ids": [
+      "co_009"
+    ],
     "investor_ids": [],
-    "person_ids": ["per_009"],
-    "metadata": {"new_market": "US", "new_office": "Houston"}
+    "person_ids": [
+      "per_009"
+    ],
+    "metadata": {
+      "new_market": "US",
+      "new_office": "Houston"
+    }
   },
   {
     "id": "sig_011",
@@ -203,10 +304,17 @@
     "geography": "Nordics",
     "country": "SE",
     "ai_confidence": 0.93,
-    "company_ids": ["co_001"],
+    "company_ids": [
+      "co_001"
+    ],
     "investor_ids": [],
-    "person_ids": ["per_001"],
-    "metadata": {"partner": "Maersk", "deal_type": "commercial partnership"}
+    "person_ids": [
+      "per_001"
+    ],
+    "metadata": {
+      "partner": "Maersk",
+      "deal_type": "commercial partnership"
+    }
   },
   {
     "id": "sig_012",
@@ -222,10 +330,19 @@
     "geography": "Benelux",
     "country": "NL",
     "ai_confidence": 0.72,
-    "company_ids": ["co_010"],
+    "company_ids": [
+      "co_010"
+    ],
     "investor_ids": [],
-    "person_ids": ["per_010"],
-    "metadata": {"amount_usd": 200000000, "round_stage": "Growth", "currency": "USD", "valuation": 6000000000}
+    "person_ids": [
+      "per_010"
+    ],
+    "metadata": {
+      "amount_usd": 200000000,
+      "round_stage": "Growth",
+      "currency": "USD",
+      "valuation": 6000000000
+    }
   },
   {
     "id": "sig_013",
@@ -241,10 +358,16 @@
     "geography": "US",
     "country": "US",
     "ai_confidence": 0.91,
-    "company_ids": ["co_011"],
+    "company_ids": [
+      "co_011"
+    ],
     "investor_ids": [],
-    "person_ids": ["per_011"],
-    "metadata": {"product": "Vercel AI SDK v5"}
+    "person_ids": [
+      "per_011"
+    ],
+    "metadata": {
+      "product": "Vercel AI SDK v5"
+    }
   },
   {
     "id": "sig_014",
@@ -259,11 +382,23 @@
     "ingested_at": "2026-03-07T08:30:00Z",
     "geography": "Nordics",
     "country": "SE",
-    "ai_confidence": 0.90,
-    "company_ids": ["co_012"],
-    "investor_ids": ["inv_008", "inv_010"],
-    "person_ids": ["per_012"],
-    "metadata": {"amount_usd": 11400000, "round_stage": "Series A", "currency": "SEK", "amount_local": 120000000}
+    "ai_confidence": 0.9,
+    "company_ids": [
+      "co_012"
+    ],
+    "investor_ids": [
+      "inv_008",
+      "inv_010"
+    ],
+    "person_ids": [
+      "per_012"
+    ],
+    "metadata": {
+      "amount_usd": 11400000,
+      "round_stage": "Series A",
+      "currency": "SEK",
+      "amount_local": 120000000
+    }
   },
   {
     "id": "sig_015",
@@ -279,10 +414,17 @@
     "geography": "DACH",
     "country": "DE",
     "ai_confidence": 0.86,
-    "company_ids": ["co_013"],
+    "company_ids": [
+      "co_013"
+    ],
     "investor_ids": [],
-    "person_ids": ["per_013"],
-    "metadata": {"target": "LogiSur", "deal_value": "undisclosed"}
+    "person_ids": [
+      "per_013"
+    ],
+    "metadata": {
+      "target": "LogiSur",
+      "deal_value": "undisclosed"
+    }
   },
   {
     "id": "sig_016",
@@ -291,17 +433,28 @@
     "source_name": "Sifted",
     "signal_type": "funding_round",
     "signal_tier": "tier_2_medium",
-    "headline": "Hadean raises £18M Series A for distributed spatial computing",
+    "headline": "Hadean raises \u00a318M Series A for distributed spatial computing",
     "raw_text": "",
     "published_at": "2026-03-06T16:00:00Z",
     "ingested_at": "2026-03-06T16:20:00Z",
     "geography": "UK",
     "country": "GB",
     "ai_confidence": 0.91,
-    "company_ids": ["co_014"],
-    "investor_ids": ["inv_005"],
-    "person_ids": ["per_014"],
-    "metadata": {"amount_usd": 22860000, "round_stage": "Series A", "currency": "GBP", "amount_local": 18000000}
+    "company_ids": [
+      "co_014"
+    ],
+    "investor_ids": [
+      "inv_005"
+    ],
+    "person_ids": [
+      "per_014"
+    ],
+    "metadata": {
+      "amount_usd": 22860000,
+      "round_stage": "Series A",
+      "currency": "GBP",
+      "amount_local": 18000000
+    }
   },
   {
     "id": "sig_017",
@@ -317,10 +470,17 @@
     "geography": "UK",
     "country": "GB",
     "ai_confidence": 0.87,
-    "company_ids": ["co_008"],
+    "company_ids": [
+      "co_008"
+    ],
     "investor_ids": [],
-    "person_ids": ["per_008"],
-    "metadata": {"positions": 150, "roles": "ML engineers"}
+    "person_ids": [
+      "per_008"
+    ],
+    "metadata": {
+      "positions": 150,
+      "roles": "ML engineers"
+    }
   },
   {
     "id": "sig_018",
@@ -336,10 +496,21 @@
     "geography": "Nordics",
     "country": "SE",
     "ai_confidence": 0.88,
-    "company_ids": ["co_016"],
-    "investor_ids": ["inv_014"],
-    "person_ids": ["per_015"],
-    "metadata": {"amount_usd": 4750000, "round_stage": "Seed", "currency": "SEK", "amount_local": 50000000}
+    "company_ids": [
+      "co_016"
+    ],
+    "investor_ids": [
+      "inv_014"
+    ],
+    "person_ids": [
+      "per_015"
+    ],
+    "metadata": {
+      "amount_usd": 4750000,
+      "round_stage": "Seed",
+      "currency": "SEK",
+      "amount_local": 50000000
+    }
   },
   {
     "id": "sig_019",
@@ -355,10 +526,17 @@
     "geography": "US",
     "country": "US",
     "ai_confidence": 0.95,
-    "company_ids": ["co_018"],
+    "company_ids": [
+      "co_018"
+    ],
     "investor_ids": [],
-    "person_ids": ["per_016"],
-    "metadata": {"product": "WSE-3", "transistors": "5 trillion"}
+    "person_ids": [
+      "per_016"
+    ],
+    "metadata": {
+      "product": "WSE-3",
+      "transistors": "5 trillion"
+    }
   },
   {
     "id": "sig_020",
@@ -374,10 +552,20 @@
     "geography": "Nordics",
     "country": "SE",
     "ai_confidence": 0.96,
-    "company_ids": ["co_019"],
-    "investor_ids": ["inv_015"],
-    "person_ids": ["per_017"],
-    "metadata": {"amount_usd": 1200000000, "instrument": "Green Bond", "currency": "USD"}
+    "company_ids": [
+      "co_019"
+    ],
+    "investor_ids": [
+      "inv_015"
+    ],
+    "person_ids": [
+      "per_017"
+    ],
+    "metadata": {
+      "amount_usd": 1200000000,
+      "instrument": "Green Bond",
+      "currency": "USD"
+    }
   },
   {
     "id": "sig_021",
@@ -393,10 +581,16 @@
     "geography": "Nordics",
     "country": "DK",
     "ai_confidence": 0.65,
-    "company_ids": ["co_002"],
+    "company_ids": [
+      "co_002"
+    ],
     "investor_ids": [],
-    "person_ids": ["per_002"],
-    "metadata": {"rumored_valuation": 5000000000}
+    "person_ids": [
+      "per_002"
+    ],
+    "metadata": {
+      "rumored_valuation": 5000000000
+    }
   },
   {
     "id": "sig_022",
@@ -412,10 +606,21 @@
     "geography": "US",
     "country": "US",
     "ai_confidence": 0.97,
-    "company_ids": ["co_011"],
-    "investor_ids": ["inv_013"],
-    "person_ids": ["per_011"],
-    "metadata": {"amount_usd": 250000000, "round_stage": "Series D", "currency": "USD", "valuation": 3500000000}
+    "company_ids": [
+      "co_011"
+    ],
+    "investor_ids": [
+      "inv_013"
+    ],
+    "person_ids": [
+      "per_011"
+    ],
+    "metadata": {
+      "amount_usd": 250000000,
+      "round_stage": "Series D",
+      "currency": "USD",
+      "valuation": 3500000000
+    }
   },
   {
     "id": "sig_023",
@@ -431,10 +636,17 @@
     "geography": "UK",
     "country": "GB",
     "ai_confidence": 0.92,
-    "company_ids": ["co_006"],
+    "company_ids": [
+      "co_006"
+    ],
     "investor_ids": [],
-    "person_ids": ["per_006"],
-    "metadata": {"partner": "Stripe", "deal_type": "integration partnership"}
+    "person_ids": [
+      "per_006"
+    ],
+    "metadata": {
+      "partner": "Stripe",
+      "deal_type": "integration partnership"
+    }
   },
   {
     "id": "sig_024",
@@ -450,10 +662,14 @@
     "geography": "Europe",
     "country": "FR",
     "ai_confidence": 0.83,
-    "company_ids": ["co_020"],
+    "company_ids": [
+      "co_020"
+    ],
     "investor_ids": [],
     "person_ids": [],
-    "metadata": {"product": "Ledger Enterprise Custody"}
+    "metadata": {
+      "product": "Ledger Enterprise Custody"
+    }
   },
   {
     "id": "sig_025",
@@ -469,10 +685,17 @@
     "geography": "Nordics",
     "country": "SE",
     "ai_confidence": 0.97,
-    "company_ids": ["co_019"],
+    "company_ids": [
+      "co_019"
+    ],
     "investor_ids": [],
-    "person_ids": ["per_017"],
-    "metadata": {"partner": "BMW", "deal_value_usd": 2000000000}
+    "person_ids": [
+      "per_017"
+    ],
+    "metadata": {
+      "partner": "BMW",
+      "deal_value_usd": 2000000000
+    }
   },
   {
     "id": "sig_026",
@@ -488,10 +711,17 @@
     "geography": "Nordics",
     "country": "SE",
     "ai_confidence": 0.86,
-    "company_ids": ["co_016"],
+    "company_ids": [
+      "co_016"
+    ],
     "investor_ids": [],
-    "person_ids": ["per_015"],
-    "metadata": {"partner": "WHO", "program": "Diagnostic Pilot"}
+    "person_ids": [
+      "per_015"
+    ],
+    "metadata": {
+      "partner": "WHO",
+      "program": "Diagnostic Pilot"
+    }
   },
   {
     "id": "sig_027",
@@ -507,10 +737,17 @@
     "geography": "UK",
     "country": "GB",
     "ai_confidence": 0.94,
-    "company_ids": ["co_008"],
+    "company_ids": [
+      "co_008"
+    ],
     "investor_ids": [],
-    "person_ids": ["per_008"],
-    "metadata": {"partner": "undisclosed European OEM", "deal_type": "licensing"}
+    "person_ids": [
+      "per_008"
+    ],
+    "metadata": {
+      "partner": "undisclosed European OEM",
+      "deal_type": "licensing"
+    }
   },
   {
     "id": "sig_028",
@@ -527,9 +764,14 @@
     "country": "US",
     "ai_confidence": 0.91,
     "company_ids": [],
-    "investor_ids": ["inv_009"],
+    "investor_ids": [
+      "inv_009"
+    ],
     "person_ids": [],
-    "metadata": {"fund_size_usd": 6000000000, "fund_name": "Fund XIV"}
+    "metadata": {
+      "fund_size_usd": 6000000000,
+      "fund_name": "Fund XIV"
+    }
   },
   {
     "id": "sig_029",
@@ -544,11 +786,18 @@
     "ingested_at": "2026-03-08T11:20:00Z",
     "geography": "DACH",
     "country": "DE",
-    "ai_confidence": 0.80,
-    "company_ids": ["co_003"],
+    "ai_confidence": 0.8,
+    "company_ids": [
+      "co_003"
+    ],
     "investor_ids": [],
-    "person_ids": ["per_003"],
-    "metadata": {"new_market": "UK", "new_office": "London"}
+    "person_ids": [
+      "per_003"
+    ],
+    "metadata": {
+      "new_market": "UK",
+      "new_office": "London"
+    }
   },
   {
     "id": "sig_030",
@@ -564,9 +813,1098 @@
     "geography": "US",
     "country": "US",
     "ai_confidence": 0.78,
-    "company_ids": ["co_018"],
+    "company_ids": [
+      "co_018"
+    ],
     "investor_ids": [],
-    "person_ids": ["per_016"],
-    "metadata": {"event": "IPO filing", "expected_date": "H2 2026"}
+    "person_ids": [
+      "per_016"
+    ],
+    "metadata": {
+      "event": "IPO filing",
+      "expected_date": "H2 2026"
+    }
+  },
+  {
+    "id": "sig_4699cb4e957c",
+    "source_url": "https://sifted.eu/articles/legal-tech-legora-raises-550m/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Legal tech Legora raises $550m Series D at $5.55bn valuation",
+    "raw_text": "",
+    "published_at": "2026-03-10T13:01:32+00:00",
+    "ingested_at": "2026-03-10T16:27:17.927447+00:00",
+    "geography": "US",
+    "country": null,
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_22dc0248"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 550000000,
+      "amount_raw": "$550m",
+      "round_stage": "Series D",
+      "currency": "USD",
+      "valuation": 5550000000
+    }
+  },
+  {
+    "id": "sig_f0072be93115",
+    "source_url": "https://sifted.eu/articles/yann-lecun-ami-labs-meta-funding-round-nvidia/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Yann LeCun's AI startup raises $1bn seed round backed by Nvidia and Temasek",
+    "raw_text": "",
+    "published_at": "2026-03-10T07:53:45+00:00",
+    "ingested_at": "2026-03-10T16:27:20.260430+00:00",
+    "geography": "US",
+    "country": null,
+    "ai_confidence": 0.95,
+    "company_ids": [],
+    "investor_ids": [
+      "inv_8d4321d9",
+      "inv_4fbddb45"
+    ],
+    "person_ids": [
+      "per_5501b71e"
+    ],
+    "metadata": {
+      "amount_usd": 1000000000,
+      "amount_raw": "$1bn",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_b587b3458593",
+    "source_url": "https://sifted.eu/articles/post-coding-startup/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Startup hiring priorities shifting from coders to strategic thinkers",
+    "raw_text": "",
+    "published_at": "2026-03-10T05:00:49+00:00",
+    "ingested_at": "2026-03-10T16:27:22.591639+00:00",
+    "geography": null,
+    "country": null,
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_81d5a87edf65",
+    "source_url": "https://sifted.eu/articles/isembard-funding-round-ai-deeptech/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Isembard raises $50m to strengthen Europe's industrial manufacturing base",
+    "raw_text": "",
+    "published_at": "2026-03-09T14:09:28+00:00",
+    "ingested_at": "2026-03-10T16:27:24.921311+00:00",
+    "geography": "DACH",
+    "country": null,
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_18402552"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 50000000,
+      "amount_raw": "$50m",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_6e955d3f0fd5",
+    "source_url": "https://sifted.eu/articles/nscale-raises-2bn-series-c/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Nscale raises $2bn Series C at $14.6bn valuation",
+    "raw_text": "",
+    "published_at": "2026-03-09T08:44:19+00:00",
+    "ingested_at": "2026-03-10T16:27:27.145263+00:00",
+    "geography": null,
+    "country": null,
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_eb6cf0bb"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2000000000,
+      "amount_raw": "$2bn",
+      "round_stage": "Series C",
+      "currency": "USD",
+      "valuation": 14600000000
+    }
+  },
+  {
+    "id": "sig_0fd26256da61",
+    "source_url": "https://sifted.eu/articles/quantum-scaleup-pasqal-spac/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Quantum computing company Pasqal to go public at $2bn valuation",
+    "raw_text": "",
+    "published_at": "2026-03-05T09:13:50+00:00",
+    "ingested_at": "2026-03-10T16:27:29.173165+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_b203eef9"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "valuation": 2000000000
+    }
+  },
+  {
+    "id": "sig_f961f60a1327",
+    "source_url": "https://techcrunch.com/2026/03/10/agentmail-raises-6m-to-build-an-email-service-for-ai-agents/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "AgentMail raises $6M to build email service for AI agents",
+    "raw_text": "",
+    "published_at": "2026-03-10T16:00:00+00:00",
+    "ingested_at": "2026-03-10T16:27:31.669475+00:00",
+    "geography": "US",
+    "country": null,
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_befc92b3"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_3d6979d4"
+    ],
+    "metadata": {
+      "amount_usd": 6000000,
+      "amount_raw": "$6M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_8249281eb06f",
+    "source_url": "https://techcrunch.com/2026/03/10/thinking-machines-lab-inks-massive-compute-deal-with-nvidia/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Thinking Machines Lab signs multi-year strategic partnership with Nvidia including 1GW+ compute deployment",
+    "raw_text": "",
+    "published_at": "2026-03-10T15:08:39+00:00",
+    "ingested_at": "2026-03-10T16:27:34.619215+00:00",
+    "geography": "US",
+    "country": "US",
+    "ai_confidence": 0.98,
+    "company_ids": [
+      "co_8f71c487"
+    ],
+    "investor_ids": [
+      "inv_013",
+      "inv_006",
+      "inv_8d4321d9",
+      "inv_22e4e42d"
+    ],
+    "person_ids": [
+      "per_20de3aca",
+      "per_a074aaf3",
+      "per_dcbffb58",
+      "per_32cdbe90",
+      "per_2794fbc1",
+      "per_ecd7b976"
+    ],
+    "metadata": {
+      "valuation": 12000000000
+    }
+  },
+  {
+    "id": "sig_6bf535dd4d65",
+    "source_url": "https://techcrunch.com/2026/03/10/legora-reaches-5-55-billion-valuation-as-ai-legaltech-boom-endures/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Legora reaches $5.55 billion valuation as AI legal tech boom endures",
+    "raw_text": "",
+    "published_at": "2026-03-10T14:34:24+00:00",
+    "ingested_at": "2026-03-10T16:27:36.953515+00:00",
+    "geography": "US",
+    "country": null,
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_22dc0248"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_13987f9f"
+    ],
+    "metadata": {
+      "valuation": 5550000000
+    }
+  },
+  {
+    "id": "sig_a1a51b543fd7",
+    "source_url": "https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Meta acquired Moltbook, an AI agent social network platform",
+    "raw_text": "",
+    "published_at": "2026-03-10T14:32:05+00:00",
+    "ingested_at": "2026-03-10T16:27:39.150863+00:00",
+    "geography": "US",
+    "country": null,
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_1041fc57"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_2ac3e3a8"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_1a2bbc6a2ba7",
+    "source_url": "https://techcrunch.com/2026/03/10/youtube-expands-ai-deepfake-detection-to-politicians-government-officials-and-journalists/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "product_launch",
+    "signal_tier": "tier_2_medium",
+    "headline": "YouTube expands AI deepfake detection capabilities to protect politicians, government officials, and journalists",
+    "raw_text": "",
+    "published_at": "2026-03-10T14:00:00+00:00",
+    "ingested_at": "2026-03-10T16:27:41.416127+00:00",
+    "geography": "US",
+    "country": "US",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_24e6654b"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_4698c6ed"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_a850d64d6de4",
+    "source_url": "https://techcrunch.com/2026/03/10/sandbar-secures-23m-series-a-for-its-ai-note-taking-ring/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Sandbar raises $23M Series A for AI-powered note-taking ring",
+    "raw_text": "",
+    "published_at": "2026-03-10T12:40:37+00:00",
+    "ingested_at": "2026-03-10T16:27:43.616416+00:00",
+    "geography": "US",
+    "country": null,
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_35b357dd"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_985ab104"
+    ],
+    "metadata": {
+      "amount_usd": 23000000,
+      "amount_raw": "$23M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_d44492ced180",
+    "source_url": "https://techcrunch.com/2026/03/10/ai-network-startup-eridu-emerges-from-stealth-with-hefty-200m-series-a/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "AI network startup Eridu raises $200M Series A from stealth",
+    "raw_text": "",
+    "published_at": "2026-03-10T12:00:00+00:00",
+    "ingested_at": "2026-03-10T16:27:46.111241+00:00",
+    "geography": "US",
+    "country": null,
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_1acda6c3"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_87842eff"
+    ],
+    "metadata": {
+      "amount_usd": 200000000,
+      "amount_raw": "$200M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_68a687467caa",
+    "source_url": "https://techcrunch.com/2026/03/10/whoop-launches-a-new-blood-test-focused-on-womens-health/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "product_launch",
+    "signal_tier": "tier_2_medium",
+    "headline": "Whoop launches new blood test product focused on women's health",
+    "raw_text": "",
+    "published_at": "2026-03-10T10:00:00+00:00",
+    "ingested_at": "2026-03-10T16:27:48.621158+00:00",
+    "geography": "US",
+    "country": "US",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_f4e12479"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_985ab104"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_c70209a2e1bc",
+    "source_url": "https://techcrunch.com/2026/03/10/uzbekistans-uzum-valuation-rises-1-5x-in-seven-months-to-2-3b/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Uzbekistan's Uzum valuation reaches $2.3B, up 50% in seven months",
+    "raw_text": "",
+    "published_at": "2026-03-10T07:15:00+00:00",
+    "ingested_at": "2026-03-10T16:27:50.914597+00:00",
+    "geography": "Asia",
+    "country": "UZ",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_65875803"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_e0066de4"
+    ],
+    "metadata": {
+      "valuation": 2300000000
+    }
+  },
+  {
+    "id": "sig_5b985508c44e",
+    "source_url": "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Yann LeCun's AMI Labs raises $1.03 billion for world models development",
+    "raw_text": "",
+    "published_at": "2026-03-10T05:00:00+00:00",
+    "ingested_at": "2026-03-10T16:27:53.196276+00:00",
+    "geography": "US",
+    "country": "US",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_a83a3af1"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_5501b71e"
+    ],
+    "metadata": {
+      "amount_usd": 1030000000,
+      "amount_raw": "$1.03 billion",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_064b2cba5e74",
+    "source_url": "https://www.eu-startups.com/2026/03/british-startup-outpost-raises-e15-million-to-build-liability-free-cross-border-commerce-platform/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Outpost raises \u20ac15M Series A for liability-free cross-border commerce platform",
+    "raw_text": "",
+    "published_at": "2026-03-10T15:07:20+00:00",
+    "ingested_at": "2026-03-10T16:27:55.390792+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7daf48f9"
+    ],
+    "investor_ids": [
+      "inv_c2fde737"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 17500000,
+      "amount_raw": "\u20ac15 million ($17.5 million)",
+      "round_stage": "Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_7f2dbda8f2fc",
+    "source_url": "https://www.eu-startups.com/2026/03/beyond-llms-ai-pioneer-yann-lecuns-new-venture-ami-raises-e890-million-to-build-world-model-ai-systems/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Yann LeCun's AMI raises \u20ac890M to develop world model AI systems",
+    "raw_text": "",
+    "published_at": "2026-03-10T09:46:38+00:00",
+    "ingested_at": "2026-03-10T16:27:57.867273+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7518ffbb"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_5501b71e"
+    ],
+    "metadata": {
+      "amount_usd": 1030000000,
+      "amount_raw": "\u20ac890 million",
+      "currency": "EUR",
+      "valuation": 3500000000
+    }
+  },
+  {
+    "id": "sig_1c2e5d3b10ba",
+    "source_url": "https://www.eu-startups.com/2026/03/inspired-by-the-cyphochilus-beetle-fribourgs-seprify-raises-e13-4-million-to-develop-cellulose-based-industrial-ingredients/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Seprify raises \u20ac13.4M Series A for cellulose-based industrial ingredients",
+    "raw_text": "",
+    "published_at": "2026-03-10T08:13:08+00:00",
+    "ingested_at": "2026-03-10T16:28:00.067282+00:00",
+    "geography": "DACH",
+    "country": "CH",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_4e35a72b"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 14440000,
+      "amount_raw": "\u20ac13.4 million",
+      "round_stage": "Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_ca6252d0557f",
+    "source_url": "https://www.eu-startups.com/2026/03/yc-backed-escape-raises-e15-4m-series-a-led-by-balderton-for-its-ai-powered-offensive-security-engineering-platform/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Escape raises \u20ac15.4M Series A for AI-powered offensive security engineering platform",
+    "raw_text": "",
+    "published_at": "2026-03-10T06:41:15+00:00",
+    "ingested_at": "2026-03-10T16:28:02.260135+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_b3140286"
+    ],
+    "investor_ids": [
+      "inv_005",
+      "inv_94982a68",
+      "inv_47612b31",
+      "inv_cefa8820"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 18000000,
+      "amount_raw": "\u20ac15.4 million",
+      "round_stage": "Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_203e3c7e5f3a",
+    "source_url": "https://www.eu-startups.com/2026/03/paris-based-qevlar-ai-raises-e25-8-million-to-automate-security-operations-centre-investigations-with-agentic-ai/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Qevlar AI secures \u20ac25.8M to automate SOC investigations with agentic AI",
+    "raw_text": "",
+    "published_at": "2026-03-10T05:07:23+00:00",
+    "ingested_at": "2026-03-10T16:28:04.511412+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_62522b5f"
+    ],
+    "investor_ids": [
+      "inv_4d84920d",
+      "inv_7e0e806d",
+      "inv_001"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 30000000,
+      "amount_raw": "\u20ac25.8 million ($30 million)",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_89bb5decfb60",
+    "source_url": "https://www.eu-startups.com/2026/03/driving-progress-in-cardiovascular-health-signacor-therapeutics-lands-e288k-investment-as-pat-of-e1-1-million-seed-round/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "SignaCor Therapeutics raises \u20ac288k from Zinc as part of \u20ac1.1M seed round for cardiovascular treatment",
+    "raw_text": "",
+    "published_at": "2026-03-09T16:31:48+00:00",
+    "ingested_at": "2026-03-10T16:28:06.790763+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_e0c216ce"
+    ],
+    "investor_ids": [
+      "inv_f78ea752"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 310000,
+      "amount_raw": "\u20ac288k (\u00a3250k) as part of \u20ac1.1 million seed round",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_5f39586ca427",
+    "source_url": "https://www.eu-startups.com/2026/03/industrial-startup-isembard-bags-e43-million-to-scale-software-powered-factories-for-aerospace-and-energy-sectors/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Isembard raises \u20ac43M Series A to scale software-powered factories across aerospace and energy",
+    "raw_text": "",
+    "published_at": "2026-03-09T15:37:23+00:00",
+    "ingested_at": "2026-03-10T16:28:09.001801+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_18402552"
+    ],
+    "investor_ids": [
+      "inv_c0a746b0"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 50000000,
+      "amount_raw": "\u20ac43 million ($50 million)",
+      "round_stage": "Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_a920e095797f",
+    "source_url": "https://tech.eu/2026/03/10/eic-scaling-club-companies-double-peer-funding-growth-with-66-increase/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "EIC Scaling Club companies achieve 66% average funding growth, double the control group",
+    "raw_text": "",
+    "published_at": "2026-03-10T15:59:43+00:00",
+    "ingested_at": "2026-03-10T16:28:11.036948+00:00",
+    "geography": "US",
+    "country": null,
+    "ai_confidence": 0.6,
+    "company_ids": [
+      "co_67056e58"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_3566e9a238bc",
+    "source_url": "https://tech.eu/2026/03/10/legaltech-legora-raises-550m-series-d-at-5-55b-valuation-to-accelerate-us-expansion/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Legora raises $550M Series D at $5.55B valuation for US expansion",
+    "raw_text": "",
+    "published_at": "2026-03-10T12:41:00+00:00",
+    "ingested_at": "2026-03-10T16:28:13.064467+00:00",
+    "geography": "US",
+    "country": null,
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_22dc0248"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 550000000,
+      "amount_raw": "$550M",
+      "round_stage": "Series D",
+      "currency": "USD",
+      "valuation": 5550000000
+    }
+  },
+  {
+    "id": "sig_68e46a9063e9",
+    "source_url": "https://tech.eu/2026/03/10/avvoka-secures-ps14m-to-advance-ai-drafting-tools-for-law-firms/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Avvoka secures \u00a314M growth funding led by Valhalla Ventures to expand AI drafting tools",
+    "raw_text": "",
+    "published_at": "2026-03-10T12:35:00+00:00",
+    "ingested_at": "2026-03-10T16:28:15.540462+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ce44be71"
+    ],
+    "investor_ids": [
+      "inv_d9a4bda3"
+    ],
+    "person_ids": [
+      "per_a1bdedd8",
+      "per_4cd37d22"
+    ],
+    "metadata": {
+      "amount_usd": 17640000,
+      "amount_raw": "\u00a314M",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_41494045a7bc",
+    "source_url": "https://tech.eu/2026/03/10/watson-grows-up-ibm-s-ai-platform-strategy-comes-of-age/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "IBM's Watson AI platform strategy reaches maturity with business model evolution",
+    "raw_text": "",
+    "published_at": "2026-03-10T12:30:00+00:00",
+    "ingested_at": "2026-03-10T16:28:17.637975+00:00",
+    "geography": "US",
+    "country": "US",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_916a98f0"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_bd9a9bb8e11e",
+    "source_url": "https://tech.eu/2026/03/10/hosel-raises-500k-pre-seed-to-create-the-vinted-for-golf/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Hosel raises \u00a3500K pre-seed funding to build second-hand golf equipment marketplace",
+    "raw_text": "",
+    "published_at": "2026-03-10T11:13:46+00:00",
+    "ingested_at": "2026-03-10T16:28:19.909595+00:00",
+    "geography": "UK",
+    "country": null,
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_42cc2dd3"
+    ],
+    "investor_ids": [
+      "inv_c86189e5"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 630000,
+      "amount_raw": "\u00a3500,000",
+      "round_stage": "Pre-Seed",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_987757af62e1",
+    "source_url": "https://tech.eu/2026/03/10/inter-ikea-group-backs-seprifys-eur134m-series-a-to-scale-cellulose-materials-platform/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Seprify raises \u20ac13.4M Series A from Inter IKEA Group for cellulose materials platform",
+    "raw_text": "",
+    "published_at": "2026-03-10T10:15:22+00:00",
+    "ingested_at": "2026-03-10T16:28:22.073440+00:00",
+    "geography": "DACH",
+    "country": "CH",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_4e35a72b"
+    ],
+    "investor_ids": [
+      "inv_d0635efe"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 14576000,
+      "amount_raw": "\u20ac13.4M",
+      "round_stage": "Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_d5d10354b0fc",
+    "source_url": "https://tech.eu/2026/03/10/mantle8-awarded-eur21m-eu-grant-for-natural-hydrogen-platform/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Mantle8 secures \u20ac2.06M EU grant for natural hydrogen exploration platform",
+    "raw_text": "",
+    "published_at": "2026-03-10T09:30:00+00:00",
+    "ingested_at": "2026-03-10T16:28:24.277389+00:00",
+    "geography": "Benelux",
+    "country": "EU",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_fc688d10"
+    ],
+    "investor_ids": [
+      "inv_50a02539"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2230000,
+      "amount_raw": "\u20ac2.06M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_dda3ecba46cb",
+    "source_url": "https://tech.eu/2026/03/10/yann-lecun-s-paris-based-ai-world-model-startup-raises-more-than-1bn/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Yann LeCun's Paris-based AI world model startup raises over $1BN in Europe's largest seed round",
+    "raw_text": "",
+    "published_at": "2026-03-10T09:15:00+00:00",
+    "ingested_at": "2026-03-10T16:28:26.665217+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_5501b71e"
+    ],
+    "metadata": {
+      "amount_usd": 1000000000,
+      "amount_raw": "more than $1BN",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_caa637f5b89e",
+    "source_url": "https://tech.eu/2026/03/10/qevlar-ai-lands-30m-to-expand-ai-security-operations-platform/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Qevlar AI raises $30M to expand autonomous AI security operations platform",
+    "raw_text": "",
+    "published_at": "2026-03-10T08:00:00+00:00",
+    "ingested_at": "2026-03-10T16:28:28.728867+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_62522b5f"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 30000000,
+      "amount_raw": "$30M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_2ab542caad27",
+    "source_url": "https://tech.eu/2026/03/10/escape-secures-18m-series-a-to-develop-ai-cybersecurity-agents/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Escape raises $18M Series A for AI-powered cybersecurity automation",
+    "raw_text": "",
+    "published_at": "2026-03-10T07:30:00+00:00",
+    "ingested_at": "2026-03-10T16:28:32.227843+00:00",
+    "geography": "UK",
+    "country": null,
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_b3140286"
+    ],
+    "investor_ids": [
+      "inv_005"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 18000000,
+      "amount_raw": "$18M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_6df188822908",
+    "source_url": "https://tech.eu/2026/03/09/february-2026s-top-10-european-tech-deals-you-need-to-know-about/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "February 2026 European tech deals reached 296 transactions with increased funding compared to January",
+    "raw_text": "",
+    "published_at": "2026-03-09T14:00:00+00:00",
+    "ingested_at": "2026-03-10T16:28:34.288882+00:00",
+    "geography": "DACH",
+    "country": null,
+    "ai_confidence": 0.4,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_a42f5f8cda7d",
+    "source_url": "https://tech.eu/2026/03/09/cytotrait-raises-ps3m-for-agricultural-gene-editing-technology/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Cytotrait closes \u00a33M seed funding for agricultural gene-editing technology",
+    "raw_text": "",
+    "published_at": "2026-03-09T13:57:06+00:00",
+    "ingested_at": "2026-03-10T16:28:35.541206+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_0b2817c9"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3800000,
+      "amount_raw": "\u00a33M",
+      "round_stage": "Seed",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_2b04c2aa9ed6",
+    "source_url": "https://tech.eu/2026/03/09/ils-secures-seed-funding-to-expand-provision-legal-workflow-platform/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "ILS secures seed funding led by Chicago Ventures to expand ProVision legal workflow platform",
+    "raw_text": "",
+    "published_at": "2026-03-09T13:00:00+00:00",
+    "ingested_at": "2026-03-10T16:28:37.688315+00:00",
+    "geography": "US",
+    "country": "US",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_ddc741ca"
+    ],
+    "investor_ids": [
+      "inv_b83bb37a"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "round_stage": "Seed"
+    }
+  },
+  {
+    "id": "sig_0479596642f5",
+    "source_url": "https://tech.eu/2026/03/09/saltz-raises-eur20m-to-build-global-chef-supplier-marketplace/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Saltz raises \u20ac20M Series A for global chef-supplier marketplace",
+    "raw_text": "",
+    "published_at": "2026-03-09T12:50:00+00:00",
+    "ingested_at": "2026-03-10T16:28:39.827872+00:00",
+    "geography": "Europe",
+    "country": null,
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_9eb739e8"
+    ],
+    "investor_ids": [
+      "inv_91f7c0c0"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 21800000,
+      "amount_raw": "\u20ac20M",
+      "round_stage": "Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_28d8e5504297",
+    "source_url": "https://tech.eu/2026/03/09/uk-manufacturing-startup-isembard-secures-50m/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "UK manufacturing automation startup Isembard raises $50M Series A",
+    "raw_text": "",
+    "published_at": "2026-03-09T12:30:16+00:00",
+    "ingested_at": "2026-03-10T16:28:41.845588+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_18402552"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 50000000,
+      "amount_raw": "$50M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_8d194caab931",
+    "source_url": "https://tech.eu/2026/03/09/university-of-edinburgh-spin-out-biocaptiva-raises-ps158m-and-launches-liquid-biopsy-technology-in-the-us/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "University of Edinburgh biotech spin-out BIOCAPTIVA raises \u00a31.58M and launches first US product",
+    "raw_text": "",
+    "published_at": "2026-03-09T10:57:03+00:00",
+    "ingested_at": "2026-03-10T16:28:44.110108+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_753594e5"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1987000,
+      "amount_raw": "\u00a31.58M",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_eac640fbbe0c",
+    "source_url": "https://tech.eu/2026/03/09/nvidia-backed-nscale-raises-2bn-appoints-sheryl-sandberg-nick-clegg-to-board/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Nvidia-backed Nscale raises $2BN Series C at $14.6BN valuation, appoints Sheryl Sandberg and Nick Clegg to board",
+    "raw_text": "",
+    "published_at": "2026-03-09T09:34:00+00:00",
+    "ingested_at": "2026-03-10T16:28:46.759149+00:00",
+    "geography": "US",
+    "country": null,
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_eb6cf0bb"
+    ],
+    "investor_ids": [
+      "inv_8d4321d9"
+    ],
+    "person_ids": [
+      "per_a1c563d6",
+      "per_41c601ab"
+    ],
+    "metadata": {
+      "amount_usd": 2000000000,
+      "amount_raw": "$2BN",
+      "round_stage": "Series C",
+      "currency": "USD",
+      "valuation": 14600000000
+    }
+  },
+  {
+    "id": "sig_e3e0ac613a04",
+    "source_url": "https://tech.eu/2026/03/09/mirai-robotics-raises-4-2m-pre-seed-to-build-autonomous-dual-defence-maritime-systems/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Mirai Robotics raises $4.2M Pre-Seed for autonomous maritime defense systems",
+    "raw_text": "",
+    "published_at": "2026-03-09T09:26:00+00:00",
+    "ingested_at": "2026-03-10T16:28:49.283870+00:00",
+    "geography": "Southern Europe",
+    "country": "IT",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_ac77d469"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_fd948590"
+    ],
+    "metadata": {
+      "amount_usd": 4200000,
+      "amount_raw": "$4.2M",
+      "round_stage": "Pre-Seed",
+      "currency": "USD"
+    }
   }
 ]

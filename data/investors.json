@@ -4,8 +4,17 @@
     "name": "EQT Ventures",
     "type": "vc",
     "aum_estimate": "$2B+",
-    "focus_sectors": ["SaaS", "FinTech", "HealthTech", "CleanTech"],
-    "focus_geographies": ["Nordics", "Europe", "US"],
+    "focus_sectors": [
+      "SaaS",
+      "FinTech",
+      "HealthTech",
+      "CleanTech"
+    ],
+    "focus_geographies": [
+      "Nordics",
+      "Europe",
+      "US"
+    ],
     "portfolio_count": 85,
     "website": "https://eqtventures.com",
     "linkedin_url": "https://linkedin.com/company/eqt-ventures",
@@ -16,8 +25,17 @@
     "name": "Northzone",
     "type": "vc",
     "aum_estimate": "$1.5B",
-    "focus_sectors": ["FinTech", "Marketplaces", "SaaS", "Consumer"],
-    "focus_geographies": ["Nordics", "Europe", "US"],
+    "focus_sectors": [
+      "FinTech",
+      "Marketplaces",
+      "SaaS",
+      "Consumer"
+    ],
+    "focus_geographies": [
+      "Nordics",
+      "Europe",
+      "US"
+    ],
     "portfolio_count": 120,
     "website": "https://northzone.com",
     "linkedin_url": "https://linkedin.com/company/northzone",
@@ -28,8 +46,16 @@
     "name": "Atomico",
     "type": "vc",
     "aum_estimate": "$3.5B",
-    "focus_sectors": ["DeepTech", "HealthTech", "FinTech", "CleanTech"],
-    "focus_geographies": ["Europe", "US"],
+    "focus_sectors": [
+      "DeepTech",
+      "HealthTech",
+      "FinTech",
+      "CleanTech"
+    ],
+    "focus_geographies": [
+      "Europe",
+      "US"
+    ],
     "portfolio_count": 100,
     "website": "https://atomico.com",
     "linkedin_url": "https://linkedin.com/company/atomico",
@@ -40,8 +66,17 @@
     "name": "Sequoia Capital",
     "type": "vc",
     "aum_estimate": "$85B",
-    "focus_sectors": ["AI/ML", "SaaS", "FinTech", "HealthTech"],
-    "focus_geographies": ["US", "Europe", "Asia"],
+    "focus_sectors": [
+      "AI/ML",
+      "SaaS",
+      "FinTech",
+      "HealthTech"
+    ],
+    "focus_geographies": [
+      "US",
+      "Europe",
+      "Asia"
+    ],
     "portfolio_count": 400,
     "website": "https://sequoiacap.com",
     "linkedin_url": "https://linkedin.com/company/sequoia-capital",
@@ -52,8 +87,15 @@
     "name": "Balderton Capital",
     "type": "vc",
     "aum_estimate": "$3B",
-    "focus_sectors": ["FinTech", "HealthTech", "SaaS", "Marketplaces"],
-    "focus_geographies": ["Europe"],
+    "focus_sectors": [
+      "FinTech",
+      "HealthTech",
+      "SaaS",
+      "Marketplaces"
+    ],
+    "focus_geographies": [
+      "Europe"
+    ],
     "portfolio_count": 70,
     "website": "https://balderton.com",
     "linkedin_url": "https://linkedin.com/company/balderton-capital",
@@ -64,8 +106,17 @@
     "name": "Accel",
     "type": "vc",
     "aum_estimate": "$50B",
-    "focus_sectors": ["SaaS", "FinTech", "Security", "AI/ML"],
-    "focus_geographies": ["US", "Europe", "India"],
+    "focus_sectors": [
+      "SaaS",
+      "FinTech",
+      "Security",
+      "AI/ML"
+    ],
+    "focus_geographies": [
+      "US",
+      "Europe",
+      "India"
+    ],
     "portfolio_count": 300,
     "website": "https://accel.com",
     "linkedin_url": "https://linkedin.com/company/accel",
@@ -76,8 +127,16 @@
     "name": "Index Ventures",
     "type": "vc",
     "aum_estimate": "$8B",
-    "focus_sectors": ["FinTech", "SaaS", "Marketplaces", "Gaming"],
-    "focus_geographies": ["Europe", "US"],
+    "focus_sectors": [
+      "FinTech",
+      "SaaS",
+      "Marketplaces",
+      "Gaming"
+    ],
+    "focus_geographies": [
+      "Europe",
+      "US"
+    ],
     "portfolio_count": 200,
     "website": "https://indexventures.com",
     "linkedin_url": "https://linkedin.com/company/index-ventures",
@@ -88,8 +147,16 @@
     "name": "Creandum",
     "type": "vc",
     "aum_estimate": "$1B",
-    "focus_sectors": ["SaaS", "FinTech", "Logistics", "Consumer"],
-    "focus_geographies": ["Nordics", "Europe"],
+    "focus_sectors": [
+      "SaaS",
+      "FinTech",
+      "Logistics",
+      "Consumer"
+    ],
+    "focus_geographies": [
+      "Nordics",
+      "Europe"
+    ],
     "portfolio_count": 80,
     "website": "https://creandum.com",
     "linkedin_url": "https://linkedin.com/company/creandum",
@@ -100,8 +167,16 @@
     "name": "Insight Partners",
     "type": "vc",
     "aum_estimate": "$75B",
-    "focus_sectors": ["SaaS", "DevTools", "Security", "Data"],
-    "focus_geographies": ["US", "Europe"],
+    "focus_sectors": [
+      "SaaS",
+      "DevTools",
+      "Security",
+      "Data"
+    ],
+    "focus_geographies": [
+      "US",
+      "Europe"
+    ],
     "portfolio_count": 600,
     "website": "https://insightpartners.com",
     "linkedin_url": "https://linkedin.com/company/insight-partners",
@@ -112,8 +187,17 @@
     "name": "Kinnevik",
     "type": "vc",
     "aum_estimate": "$10B",
-    "focus_sectors": ["HealthTech", "FinTech", "FoodTech", "Consumer"],
-    "focus_geographies": ["Nordics", "Europe", "US"],
+    "focus_sectors": [
+      "HealthTech",
+      "FinTech",
+      "FoodTech",
+      "Consumer"
+    ],
+    "focus_geographies": [
+      "Nordics",
+      "Europe",
+      "US"
+    ],
     "portfolio_count": 50,
     "website": "https://kinnevik.com",
     "linkedin_url": "https://linkedin.com/company/kinnevik",
@@ -124,8 +208,17 @@
     "name": "SoftBank Vision Fund",
     "type": "vc",
     "aum_estimate": "$100B",
-    "focus_sectors": ["AI/ML", "DeepTech", "Mobility", "FinTech"],
-    "focus_geographies": ["US", "Europe", "Asia"],
+    "focus_sectors": [
+      "AI/ML",
+      "DeepTech",
+      "Mobility",
+      "FinTech"
+    ],
+    "focus_geographies": [
+      "US",
+      "Europe",
+      "Asia"
+    ],
     "portfolio_count": 200,
     "website": "https://visionfund.com",
     "linkedin_url": "https://linkedin.com/company/softbank-vision-fund",
@@ -136,8 +229,16 @@
     "name": "Cherry Ventures",
     "type": "vc",
     "aum_estimate": "$500M",
-    "focus_sectors": ["SaaS", "FinTech", "HealthTech", "CleanTech"],
-    "focus_geographies": ["DACH", "Europe"],
+    "focus_sectors": [
+      "SaaS",
+      "FinTech",
+      "HealthTech",
+      "CleanTech"
+    ],
+    "focus_geographies": [
+      "DACH",
+      "Europe"
+    ],
     "portfolio_count": 60,
     "website": "https://cherry.vc",
     "linkedin_url": "https://linkedin.com/company/cherry-ventures",
@@ -148,8 +249,15 @@
     "name": "Andreessen Horowitz",
     "type": "vc",
     "aum_estimate": "$35B",
-    "focus_sectors": ["AI/ML", "Crypto", "SaaS", "Bio"],
-    "focus_geographies": ["US"],
+    "focus_sectors": [
+      "AI/ML",
+      "Crypto",
+      "SaaS",
+      "Bio"
+    ],
+    "focus_geographies": [
+      "US"
+    ],
     "portfolio_count": 450,
     "website": "https://a16z.com",
     "linkedin_url": "https://linkedin.com/company/a16z",
@@ -160,8 +268,14 @@
     "name": "Industrifonden",
     "type": "vc",
     "aum_estimate": "$600M",
-    "focus_sectors": ["DeepTech", "HealthTech", "CleanTech"],
-    "focus_geographies": ["Nordics"],
+    "focus_sectors": [
+      "DeepTech",
+      "HealthTech",
+      "CleanTech"
+    ],
+    "focus_geographies": [
+      "Nordics"
+    ],
     "portfolio_count": 40,
     "website": "https://industrifonden.com",
     "linkedin_url": "https://linkedin.com/company/industrifonden",
@@ -172,11 +286,222 @@
     "name": "Goldman Sachs Growth",
     "type": "pe",
     "aum_estimate": "$20B",
-    "focus_sectors": ["FinTech", "SaaS", "HealthTech"],
-    "focus_geographies": ["US", "Europe"],
+    "focus_sectors": [
+      "FinTech",
+      "SaaS",
+      "HealthTech"
+    ],
+    "focus_geographies": [
+      "US",
+      "Europe"
+    ],
     "portfolio_count": 150,
     "website": "https://goldmansachs.com",
     "linkedin_url": "https://linkedin.com/company/goldman-sachs",
     "last_signal_at": "2026-03-08T08:00:00Z"
+  },
+  {
+    "id": "inv_8d4321d9",
+    "name": "Nvidia",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-10T07:53:45+00:00"
+  },
+  {
+    "id": "inv_4fbddb45",
+    "name": "Temasek",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-10T07:53:45+00:00"
+  },
+  {
+    "id": "inv_22e4e42d",
+    "name": "AMD Ventures",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-10T15:08:39+00:00"
+  },
+  {
+    "id": "inv_c2fde737",
+    "name": "Ribbit",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-10T15:07:20+00:00"
+  },
+  {
+    "id": "inv_94982a68",
+    "name": "Uncorrelated Ventures",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-10T06:41:15+00:00"
+  },
+  {
+    "id": "inv_47612b31",
+    "name": "IRIS",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-10T06:41:15+00:00"
+  },
+  {
+    "id": "inv_cefa8820",
+    "name": "Y Combinator",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-10T06:41:15+00:00"
+  },
+  {
+    "id": "inv_4d84920d",
+    "name": "Partech",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-10T05:07:23+00:00"
+  },
+  {
+    "id": "inv_7e0e806d",
+    "name": "Forgepoint Capital International",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-10T05:07:23+00:00"
+  },
+  {
+    "id": "inv_f78ea752",
+    "name": "Zinc",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-09T16:31:48+00:00"
+  },
+  {
+    "id": "inv_c0a746b0",
+    "name": "Union Square Ventures",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-09T15:37:23+00:00"
+  },
+  {
+    "id": "inv_d9a4bda3",
+    "name": "Valhalla Ventures",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-10T12:35:00+00:00"
+  },
+  {
+    "id": "inv_c86189e5",
+    "name": "Ascension VC",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-10T11:13:46+00:00"
+  },
+  {
+    "id": "inv_d0635efe",
+    "name": "Inter IKEA Group",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-10T10:15:22+00:00"
+  },
+  {
+    "id": "inv_50a02539",
+    "name": "European Union Just Transition Fund",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-10T09:30:00+00:00"
+  },
+  {
+    "id": "inv_b83bb37a",
+    "name": "Chicago Ventures",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-09T13:00:00+00:00"
+  },
+  {
+    "id": "inv_91f7c0c0",
+    "name": "European Bank for Reconstruction and Development (EBRD)",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-09T12:50:00+00:00"
   }
 ]
