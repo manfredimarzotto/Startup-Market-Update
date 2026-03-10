@@ -29,18 +29,23 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python run.py
 
-      - name: Deploy to GitHub Pages
+      - name: Commit updated data to main
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ docs/
+          git diff --cached --quiet || git commit -m "Update signals and dashboard - $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push origin main
 
+      - name: Deploy to GitHub Pages
+        run: |
           # Copy built output to temp
           cp -r docs /tmp/docs-output
 
           # Switch to gh-pages branch
           git fetch origin gh-pages 2>/dev/null || true
           if git show-ref --verify --quiet refs/remotes/origin/gh-pages; then
-            git checkout gh-pages
+            git checkout -f gh-pages
           else
             git checkout --orphan gh-pages
             git rm -rf . 2>/dev/null || true
