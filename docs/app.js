@@ -1,4 +1,4 @@
-/* Nordic Signal Intelligence — Dashboard Client */
+/* Startup Intelligence Radar — Dashboard Client */
 (function () {
   'use strict';
 
@@ -52,6 +52,12 @@
     US: ['US']
   };
 
+  const ENTITY_ICONS = {
+    company: '\u{1F3E2}',
+    investor: '\u{1F4C8}',
+    person: '\u{1F464}'
+  };
+
   function esc(s) {
     if (!s) return '';
     const d = document.createElement('div');
@@ -66,6 +72,10 @@
 
   function formatSignalType(t) {
     return (t || '').replace(/_/g, ' ');
+  }
+
+  function capitalize(s) {
+    return s.charAt(0).toUpperCase() + s.slice(1);
   }
 
   function scoreClass(s) {
@@ -116,17 +126,14 @@
   function buildFilters() {
     const vals = collectFilterValues();
 
-    // Entity type chips
+    // Entity type checkboxes
     const entityContainer = document.getElementById('filter-entity-type');
     ['company', 'investor', 'person'].forEach(t => {
-      const chip = document.createElement('label');
-      chip.className = 'chip active';
-      chip.innerHTML = `<input type="checkbox" value="${t}" checked> ${t}`;
-      chip.querySelector('input').addEventListener('change', function () {
-        chip.classList.toggle('active', this.checked);
-        applyFilters();
-      });
-      entityContainer.appendChild(chip);
+      const label = document.createElement('label');
+      label.className = 'cb-option';
+      label.innerHTML = `<input type="checkbox" value="${t}" checked><span class="entity-icon">${ENTITY_ICONS[t]}</span> ${capitalize(t)}s`;
+      label.querySelector('input').addEventListener('change', applyFilters);
+      entityContainer.appendChild(label);
     });
 
     // Geography dropdown
@@ -145,43 +152,40 @@
       countrySel.appendChild(o);
     });
 
-    // Signal tier chips
+    // Signal tier checkboxes
     const tierContainer = document.getElementById('filter-signal-tier');
+    const tierMeta = {
+      tier_1_strong: { label: 'Tier 1 \u2014 Strong', cls: 'tier-1' },
+      tier_2_medium: { label: 'Tier 2 \u2014 Medium', cls: 'tier-2' },
+      tier_3_weak: { label: 'Tier 3 \u2014 Weak', cls: 'tier-3' }
+    };
     vals.signalTiers.forEach(t => {
-      const label = t.replace('tier_1_strong', 'Tier 1 — Strong')
-                      .replace('tier_2_medium', 'Tier 2 — Medium')
-                      .replace('tier_3_weak', 'Tier 3 — Weak');
-      const chip = document.createElement('label');
-      chip.className = 'chip active';
-      chip.innerHTML = `<input type="checkbox" value="${t}" checked> ${label}`;
-      chip.querySelector('input').addEventListener('change', function () {
-        chip.classList.toggle('active', this.checked);
-        applyFilters();
-      });
-      tierContainer.appendChild(chip);
+      const meta = tierMeta[t] || { label: t, cls: '' };
+      const label = document.createElement('label');
+      label.className = 'cb-option';
+      label.innerHTML = `<input type="checkbox" value="${t}" checked><span class="tier-indicator ${meta.cls}"></span> ${meta.label}`;
+      label.querySelector('input').addEventListener('change', applyFilters);
+      tierContainer.appendChild(label);
     });
 
-    // Signal type chips
+    // Signal type checkboxes
     const typeContainer = document.getElementById('filter-signal-type');
     vals.signalTypes.forEach(t => {
-      const chip = document.createElement('label');
-      chip.className = 'chip active';
-      chip.innerHTML = `<input type="checkbox" value="${t}" checked> ${formatSignalType(t)}`;
-      chip.querySelector('input').addEventListener('change', function () {
-        chip.classList.toggle('active', this.checked);
-        applyFilters();
-      });
-      typeContainer.appendChild(chip);
+      const label = document.createElement('label');
+      label.className = 'cb-option';
+      label.innerHTML = `<input type="checkbox" value="${t}" checked> ${capitalize(formatSignalType(t))}`;
+      label.querySelector('input').addEventListener('change', applyFilters);
+      typeContainer.appendChild(label);
+    });
+
+    // Recency checkboxes
+    document.querySelectorAll('#filter-recency input[type="checkbox"]').forEach(cb => {
+      cb.addEventListener('change', applyFilters);
     });
 
     // Event listeners
     geoSel.addEventListener('change', applyFilters);
     countrySel.addEventListener('change', applyFilters);
-
-    // Recency radios
-    document.querySelectorAll('input[name="recency"]').forEach(r => {
-      r.addEventListener('change', applyFilters);
-    });
 
     // Reset
     document.getElementById('reset-filters').addEventListener('click', resetFilters);
@@ -194,10 +198,44 @@
     const typeChecked = [...document.querySelectorAll('#filter-signal-type input:checked')].map(i => i.value);
     const geo = document.getElementById('filter-geography').value;
     const country = document.getElementById('filter-country').value;
-    const recency = document.querySelector('input[name="recency"]:checked')?.value || '45';
     const sort = document.getElementById('sort-select').value;
 
-    return { entityChecked, tierChecked, typeChecked, geo, country, recency: parseInt(recency), sort };
+    // Recency: collect all checked recency values, use the max
+    const recencyChecked = [...document.querySelectorAll('#filter-recency input:checked')].map(i => parseInt(i.value));
+    const recency = recencyChecked.length > 0 ? Math.max(...recencyChecked) : 45;
+
+    return { entityChecked, tierChecked, typeChecked, geo, country, recency, sort };
+  }
+
+  /* ── Build active filter chips ── */
+  function renderActiveFilters(f) {
+    const container = document.getElementById('active-filters');
+    container.innerHTML = '';
+    const chips = [];
+
+    if (f.geo) {
+      chips.push({ label: f.geo, clear: () => { document.getElementById('filter-geography').value = ''; applyFilters(); } });
+    }
+    if (f.country) {
+      const name = COUNTRY_NAMES[f.country] || f.country;
+      chips.push({ label: name, clear: () => { document.getElementById('filter-country').value = ''; applyFilters(); } });
+    }
+
+    chips.forEach(chip => {
+      const el = document.createElement('span');
+      el.className = 'filter-chip';
+      el.innerHTML = `${esc(chip.label)} <span class="chip-remove">&times;</span>`;
+      el.querySelector('.chip-remove').addEventListener('click', chip.clear);
+      container.appendChild(el);
+    });
+
+    if (chips.length > 0) {
+      const resetLink = document.createElement('span');
+      resetLink.className = 'filter-reset-link';
+      resetLink.textContent = 'Reset all';
+      resetLink.addEventListener('click', resetFilters);
+      container.appendChild(resetLink);
+    }
   }
 
   /* ── Filter + sort opportunities ── */
@@ -258,6 +296,7 @@
         results.sort((a, b) => b.opportunity_score - a.opportunity_score);
     }
 
+    renderActiveFilters(f);
     renderResults(results);
     updateSummaryCards(results);
   }
@@ -268,7 +307,7 @@
     const countEl = document.getElementById('results-count');
     const emptyEl = document.getElementById('empty-state');
 
-    countEl.textContent = `${results.length} opportunit${results.length === 1 ? 'y' : 'ies'}`;
+    countEl.textContent = `${results.length} RESULT${results.length === 1 ? '' : 'S'}`;
 
     if (results.length === 0) {
       container.innerHTML = '';
@@ -361,28 +400,20 @@
     const investorCount = results.filter(o => o.entity_type === 'investor').length;
     const personCount = results.filter(o => o.entity_type === 'person').length;
 
-    const allSignals = new Set();
-    results.forEach(o => (o.signal_ids || []).forEach(id => allSignals.add(id)));
-
     document.getElementById('count-companies').textContent = companyCount;
     document.getElementById('count-investors').textContent = investorCount;
     document.getElementById('count-people').textContent = personCount;
-    document.getElementById('count-signals').textContent = allSignals.size;
   }
 
   /* ── Reset all filters ── */
   function resetFilters() {
-    // Re-check all chips
-    document.querySelectorAll('.chip input').forEach(i => {
+    // Re-check all checkboxes
+    document.querySelectorAll('.checkbox-list input[type="checkbox"], #filter-recency input[type="checkbox"]').forEach(i => {
       i.checked = true;
-      i.closest('.chip').classList.add('active');
     });
     // Reset dropdowns
     document.getElementById('filter-geography').value = '';
     document.getElementById('filter-country').value = '';
-    // Reset recency to 45d
-    const radio45 = document.querySelector('input[name="recency"][value="45"]');
-    if (radio45) radio45.checked = true;
     // Reset sort
     document.getElementById('sort-select').value = 'score_desc';
 
@@ -425,18 +456,11 @@
     });
   }
 
-  /* ── Sort control ── */
-  function setupSort() {
-    const sel = document.getElementById('sort-select');
-    if (sel) sel.addEventListener('change', applyFilters);
-  }
-
   /* ── Init ── */
   function init() {
     buildFilters();
     setupGenerateButton();
     setupSidebarToggle();
-    setupSort();
     applyFilters();
   }
 

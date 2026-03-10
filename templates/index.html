@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nordic Signal Intelligence</title>
+<title>Startup Intelligence Radar</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
@@ -13,32 +13,37 @@
 <!-- HEADER -->
 <div class="header">
   <div class="header-left">
-    <div class="header-title">Nordic Signal Intelligence</div>
-    <div class="header-date">{{ generated_date }}</div>
+    <div class="header-logo">&#x2F2A;</div>
+    <div class="header-title">Startup Intelligence Radar</div>
   </div>
   <button class="generate-btn" id="generate-btn">
     <span class="spinner"></span>
-    <span class="btn-text">Generate Today's Opportunities</span>
+    <span class="btn-text">&#x21BB; Generate Today's Opportunities</span>
   </button>
 </div>
 
 <!-- SUMMARY CARDS -->
 <div class="summary-bar">
   <div class="summary-card">
-    <div class="label">Companies</div>
-    <div class="value cyan" id="count-companies">0</div>
+    <div class="summary-icon companies-icon">&#x1F3E2;</div>
+    <div class="summary-info">
+      <div class="value" id="count-companies">0</div>
+      <div class="label">COMPANIES</div>
+    </div>
   </div>
   <div class="summary-card">
-    <div class="label">Investors</div>
-    <div class="value purple" id="count-investors">0</div>
+    <div class="summary-icon investors-icon">&#x1F4C8;</div>
+    <div class="summary-info">
+      <div class="value" id="count-investors">0</div>
+      <div class="label">INVESTORS</div>
+    </div>
   </div>
   <div class="summary-card">
-    <div class="label">People</div>
-    <div class="value green" id="count-people">0</div>
-  </div>
-  <div class="summary-card">
-    <div class="label">Signals</div>
-    <div class="value amber" id="count-signals">0</div>
+    <div class="summary-icon people-icon">&#x1F464;</div>
+    <div class="summary-info">
+      <div class="value" id="count-people">0</div>
+      <div class="label">PEOPLE</div>
+    </div>
   </div>
 </div>
 
@@ -50,74 +55,87 @@
 
   <!-- FILTER SIDEBAR -->
   <div class="sidebar" id="sidebar">
+    <div class="sidebar-heading">FILTERS</div>
 
     <div class="filter-group">
-      <span class="filter-label">Entity Type</span>
-      <div class="checkbox-group" id="filter-entity-type"></div>
+      <span class="filter-label">ENTITY TYPE</span>
+      <div class="checkbox-list" id="filter-entity-type"></div>
     </div>
 
+    <div class="filter-divider"></div>
+
     <div class="filter-group">
-      <span class="filter-label">Geography</span>
+      <span class="filter-label">GEOGRAPHY</span>
       <select id="filter-geography">
         <option value="">All Geographies</option>
       </select>
     </div>
 
     <div class="filter-group">
-      <span class="filter-label">Country</span>
+      <span class="filter-label">COUNTRY</span>
       <select id="filter-country">
         <option value="">All Countries</option>
       </select>
     </div>
 
-    <div class="filter-group">
-      <span class="filter-label">Signal Tier</span>
-      <div class="checkbox-group" id="filter-signal-tier"></div>
-    </div>
+    <div class="filter-divider"></div>
 
     <div class="filter-group">
-      <span class="filter-label">Signal Type</span>
-      <div class="checkbox-group" id="filter-signal-type"></div>
+      <span class="filter-label">SIGNAL TIER</span>
+      <div class="checkbox-list" id="filter-signal-tier"></div>
     </div>
 
+    <div class="filter-divider"></div>
+
     <div class="filter-group">
-      <span class="filter-label">Recency</span>
-      <div class="radio-group">
-        <label class="radio-option"><input type="radio" name="recency" value="14"> Last 14 days</label>
-        <label class="radio-option"><input type="radio" name="recency" value="30"> Last 30 days</label>
-        <label class="radio-option"><input type="radio" name="recency" value="45" checked> Last 45 days</label>
+      <span class="filter-label">SIGNAL TYPE</span>
+      <div class="checkbox-list" id="filter-signal-type"></div>
+    </div>
+
+    <div class="filter-divider"></div>
+
+    <div class="filter-group">
+      <span class="filter-label">RECENCY</span>
+      <div class="checkbox-list" id="filter-recency">
+        <label class="cb-option"><input type="checkbox" name="recency" value="14"><span class="recency-dot hot"></span> 0–14 days</label>
+        <label class="cb-option"><input type="checkbox" name="recency" value="30"><span class="recency-dot warm"></span> 15–30 days</label>
+        <label class="cb-option"><input type="checkbox" name="recency" value="45" checked><span class="recency-dot cool"></span> 30–45 days</label>
       </div>
     </div>
 
-    <button class="reset-btn" id="reset-filters">Reset All Filters</button>
+    <div class="filter-divider"></div>
+
+    <div class="filter-group">
+      <span class="filter-label">SORT BY</span>
+      <select id="sort-select">
+        <option value="score_desc">Signal Strength</option>
+        <option value="recent">Most Recent</option>
+        <option value="score_asc">Score (Low to High)</option>
+      </select>
+    </div>
+
+    <button class="reset-btn" id="reset-filters">&#x21BA; Reset All Filters</button>
   </div>
 
   <!-- CONTENT -->
   <div class="content">
     <div class="content-header">
-      <span class="results-count" id="results-count">0 opportunities</span>
-      <div class="sort-controls">
-        <label>Sort</label>
-        <select id="sort-select">
-          <option value="score_desc">Score (High to Low)</option>
-          <option value="score_asc">Score (Low to High)</option>
-          <option value="recent">Most Recent</option>
-        </select>
+      <div class="content-header-left">
+        <span class="results-title">TOP OPPORTUNITIES</span>
+        <span class="results-separator">&middot;</span>
+        <span class="results-count" id="results-count">0 RESULTS</span>
+      </div>
+      <div class="content-header-right">
+        <span class="header-date">{{ generated_date }}</span>
       </div>
     </div>
+    <div class="active-filters" id="active-filters"></div>
     <div class="opp-grid" id="opp-grid"></div>
     <div class="empty-state" id="empty-state" style="display:none;">
-      <h3>No opportunities match your filters</h3>
-      <p>Try adjusting your filters or resetting them.</p>
+      <p>No opportunities match the current filters. Try adjusting your criteria.</p>
     </div>
   </div>
 
-</div>
-
-<!-- FOOTER -->
-<div class="footer">
-  NORDIC SIGNAL INTELLIGENCE &nbsp;|&nbsp; Generated: {{ generated_date }} &nbsp;|&nbsp;
-  Sources: {{ source_count }} active feeds &nbsp;|&nbsp; AI: Claude Haiku
 </div>
 
 <!-- DATA EMBED -->

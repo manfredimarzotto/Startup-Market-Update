@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**Nordic Signal Intelligence** — An AI-powered opportunity radar that aggregates market signals (funding rounds, hiring waves, partnerships, product launches) from RSS feeds and web sources, scores and ranks opportunities using Claude Haiku, and renders a static HTML dashboard deployed via GitHub Pages.
+**Startup Intelligence Radar** — An AI-powered opportunity radar that aggregates market signals (funding rounds, hiring waves, partnerships, product launches) from RSS feeds and web sources, scores and ranks opportunities using Claude Haiku, and renders a static HTML dashboard deployed via GitHub Pages.
 
 Live site: https://manfredimarzotto.github.io/Startup-Market-Update/
 
