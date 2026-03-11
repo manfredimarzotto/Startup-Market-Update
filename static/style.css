@@ -375,6 +375,14 @@ body {
   font-weight: 600;
   color: var(--text);
 }
+.entity-link {
+  font-size: 14px;
+  color: var(--text-dim);
+  text-decoration: none;
+  line-height: 1;
+}
+.entity-link:hover { color: var(--accent); }
+
 .opp-entity-badge {
   display: inline-block;
   padding: 2px 8px;

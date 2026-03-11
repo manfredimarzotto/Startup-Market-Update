@@ -98,6 +98,14 @@
     return 'var(--text-dim)';
   }
 
+  function entityUrl(entityType, entity) {
+    if (!entity) return '';
+    if (entityType === 'company' && entity.domain) return 'https://' + entity.domain;
+    if (entityType === 'person' && entity.linkedin_url) return entity.linkedin_url;
+    if (entityType === 'investor' && entity.website) return entity.website;
+    return '';
+  }
+
   /* ── Get enriched opportunity data ── */
   function enrichOpp(opp) {
     const entity = opp.entity_type === 'company' ? companyMap[opp.company_id]
@@ -321,6 +329,7 @@
 
     container.innerHTML = results.map(o => {
       const name = o.entity ? (o.entity.name || 'Unknown') : 'Unknown';
+      const url = entityUrl(o.entity_type, o.entity);
       const sClass = scoreClass(o.opportunity_score);
       const barColor = scoreBarColor(o.opportunity_score);
       const status = o.status;
@@ -373,7 +382,7 @@
         <div class="opp-card status-${esc(status)}" data-opp-id="${esc(o.id)}">
           <div class="opp-top">
             <div class="opp-name-block">
-              <span class="opp-name">${esc(name)}</span>
+              <span class="opp-name">${esc(name)}</span>${url ? `<a class="entity-link" href="${esc(url)}" target="_blank" rel="noopener" title="${o.entity_type === 'person' ? 'LinkedIn' : 'Website'}">&#x2197;</a>` : ''}
               <span class="opp-entity-badge ${esc(o.entity_type)}">${esc(o.entity_type)}</span>
             </div>
             <div class="opp-score">
