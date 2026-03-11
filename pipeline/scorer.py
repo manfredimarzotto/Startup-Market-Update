@@ -209,6 +209,9 @@ def score_signals(all_signals, config):
         elif investor_ids:
             for inv_id in investor_ids:
                 entity_signals[("investor", inv_id)].append(sig)
+        elif sig.get("person_ids"):
+            for per_id in sig["person_ids"]:
+                entity_signals[("person", per_id)].append(sig)
 
     decay_days = config.get("recency_decay_days", 45)
 
@@ -281,8 +284,10 @@ Score: {score}/99
 Write the rationale as a single paragraph, no quotes or prefix:"""
 
 
-def generate_rationales(opportunities, all_signals, companies, investors):
+def generate_rationales(opportunities, all_signals, companies, investors, people=None):
     """Generate AI rationale for each opportunity using Claude Haiku."""
+    if people is None:
+        people = []
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         logger.warning("No ANTHROPIC_API_KEY — skipping rationale generation")
@@ -294,6 +299,7 @@ def generate_rationales(opportunities, all_signals, companies, investors):
     signal_map = {s["id"]: s for s in all_signals}
     company_map = {c["id"]: c for c in companies}
     investor_map = {i["id"]: i for i in investors}
+    person_map = {p["id"]: p for p in people}
 
     for opp in opportunities:
         entity_id = opp["entity_id"]
@@ -301,8 +307,10 @@ def generate_rationales(opportunities, all_signals, companies, investors):
 
         if entity_type == "company":
             entity = company_map.get(entity_id, {})
-        else:
+        elif entity_type == "investor":
             entity = investor_map.get(entity_id, {})
+        else:
+            entity = person_map.get(entity_id, {})
         entity_name = entity.get("name", "Unknown")
 
         sig_summaries = []
@@ -333,9 +341,11 @@ def generate_rationales(opportunities, all_signals, companies, investors):
 
 # ── Build Final Opportunities ──
 
-def build_opportunities(scored, all_signals, companies, investors, config):
+def build_opportunities(scored, all_signals, companies, investors, config, people=None):
     """Build final opportunity records with rationale."""
-    scored = generate_rationales(scored, all_signals, companies, investors)
+    if people is None:
+        people = []
+    scored = generate_rationales(scored, all_signals, companies, investors, people)
 
     today = date.today().isoformat()
     opportunities = []
@@ -349,7 +359,7 @@ def build_opportunities(scored, all_signals, companies, investors, config):
             "generated_date": today,
             "company_id": entity_id if entity_type == "company" else None,
             "investor_id": entity_id if entity_type == "investor" else None,
-            "person_id": None,
+            "person_id": entity_id if entity_type == "person" else None,
             "signal_ids": opp["signal_ids"],
             "contact_ids": opp["contact_ids"],
             "opportunity_score": opp["opportunity_score"],

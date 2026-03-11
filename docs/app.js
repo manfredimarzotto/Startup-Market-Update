@@ -341,6 +341,12 @@
           <span class="opp-detail">AUM: ${esc(inv.aum_estimate || 'N/A')}</span>
           <span class="opp-detail">${esc((inv.focus_geographies || []).join(', '))}</span>
         `;
+      } else if (o.entity_type === 'person' && o.entity) {
+        const p = o.entity;
+        metaHtml = `
+          <span class="opp-detail"><strong>${esc(p.role || '')}</strong></span>
+          <span class="opp-detail">${esc(p.relevance_tag || '')}</span>
+        `;
       }
 
       // Signal badges
