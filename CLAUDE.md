@@ -34,13 +34,12 @@ RSS/Scrape Sources → Ingest & Filter → Scrape Full Text → Claude Haiku Ext
 ├── templates/
 │   └── index.html                  #   Jinja2 dashboard template
 ├── static/
-│   ├── style.css                   #   Dashboard styles (dark terminal theme)
+│   ├── style.css                   #   Dashboard styles (clean light theme)
 │   └── app.js                      #   Client-side filtering, sorting, status tracking
 ├── docs/                           # Built output (served by GitHub Pages)
 │   ├── index.html
 │   ├── style.css
 │   └── app.js
-├── index.html                      # Root redirect → docs/index.html
 ├── .github/workflows/pipeline.yml  # GitHub Actions: daily cron + manual dispatch
 ├── requirements.txt                # Python dependencies
 └── CLAUDE.md                       # This file
@@ -62,8 +61,8 @@ Six JSON files in `data/`:
 - **Language:** Python 3
 - **AI:** Anthropic Claude Haiku (`claude-haiku-4-5-20251001`) for signal extraction and scoring
 - **Templating:** Jinja2
-- **Frontend:** Vanilla JS, CSS (dark terminal theme with IBM Plex Sans + JetBrains Mono)
-- **Deployment:** GitHub Actions → GitHub Pages (served from `docs/`)
+- **Frontend:** Vanilla JS, CSS (clean light theme with IBM Plex Sans + JetBrains Mono)
+- **Deployment:** GitHub Actions → GitHub Pages (deployed to `gh-pages` branch from `docs/`)
 
 ## Environment Variables
 
@@ -89,6 +88,10 @@ python build.py
 
 - Always rebase feature branches onto `main` before merging to keep a linear history
 - Use `git rebase origin/main` (not merge commits) to resolve conflicts
+- **Before opening a PR**, always run `git fetch origin main && git rebase origin/main` to avoid conflicts
+- **After a PR is squash-merged into main**, any other branch that contains the original (pre-squash) commits will conflict because git sees the squash-merge as a different commit. Fix by rebasing — git will auto-skip the already-applied commits
+- **Automated pipeline commits** (`Update signals and dashboard - ...`) run daily on `main` via GitHub Actions. Long-lived feature branches will drift behind these commits. Rebase onto main before pushing to keep the branch current
+- Never commit to `main` directly — always use feature branches and PRs
 
 ## Development Notes
 
