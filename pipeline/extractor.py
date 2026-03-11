@@ -41,7 +41,7 @@ Return ONLY valid JSON, no markdown fences or explanation.
 
 {{
   "signal_type": "funding_round | hiring_wave | acquisition | partnership | product_launch | expansion | new_fund | media_mention",
-  "signal_tier": "tier_1_strong | tier_2_medium | tier_3_weak",
+  "signal_tier": "tier_1_strong (confirmed event with named parties, specific amounts, or official announcements) | tier_2_medium (credible report but missing full details, e.g. unnamed sources, no amount disclosed, unconfirmed) | tier_3_weak (speculation, opinion, tangential mention, or media coverage without new facts)",
   "headline": "one-line summary of the signal",
   "company_name": "primary company mentioned",
   "company_hq_country": "ISO 2-letter country code (e.g. SE, DE, GB, FR, NL, FI, NO, DK, IT, ES, CH, AT, BE, IE, PL, EE) or null. Use the actual country, never use region codes like 'EU'.",
