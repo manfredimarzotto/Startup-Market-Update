@@ -458,5 +458,95 @@
     "linkedin_url": "",
     "email_guess": "",
     "relevance_tag": "partner"
+  },
+  {
+    "id": "per_01e7b96e",
+    "name": "Kirsten Korosec",
+    "role": "journalist",
+    "company_id": "co_69445aa4",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_721ae3ac",
+    "name": "Ben Affleck",
+    "role": "co-founder",
+    "company_id": "co_13ed0704",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_cb40ce10",
+    "name": "Bruno de Carvalho",
+    "role": "photographer",
+    "company_id": "co_2f9cb7cd",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": null
+  },
+  {
+    "id": "per_1357be80",
+    "name": "Amjad Masad",
+    "role": "Founder and CEO",
+    "company_id": "co_53b69ef9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_f331ff4f",
+    "name": "Shaquille O'Neal",
+    "role": "Angel investor",
+    "company_id": "co_53b69ef9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_a663febe",
+    "name": "Jared Leto",
+    "role": "Angel investor",
+    "company_id": "co_53b69ef9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_a089cbac",
+    "name": "Lindy Fishburne",
+    "role": "Managing Director",
+    "company_id": "co_72ab0bc6",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_64c46dff",
+    "name": "Dominic-Madori Davis",
+    "role": "Author",
+    "company_id": "co_72ab0bc6",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": null
+  },
+  {
+    "id": "per_478cf63d",
+    "name": "Jean-Baptiste Rudelle",
+    "role": "Founder of Criteo, Investment Committee Member",
+    "company_id": "co_723ecb43",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
   }
 ]

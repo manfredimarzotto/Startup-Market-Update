@@ -2253,5 +2253,520 @@
       "round_stage": "Pre-Seed",
       "currency": "USD"
     }
+  },
+  {
+    "id": "sig_25f54f1e4433",
+    "source_url": "https://techcrunch.com/2026/03/11/nuro-is-testing-its-autonomous-vehicle-tech-on-tokyos-streets/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "expansion",
+    "signal_tier": "tier_2_medium",
+    "headline": "Nuro expands autonomous vehicle testing to Tokyo streets",
+    "raw_text": "",
+    "published_at": "2026-03-11T23:09:38+00:00",
+    "ingested_at": "2026-03-11T23:54:26.714127+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_69445aa4"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_01e7b96e"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_7371b82bf03a",
+    "source_url": "https://techcrunch.com/2026/03/11/ride-hailing-indrive-acquires-pakistans-kravemart-to-bolster-grocery-delivery/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "inDrive acquires Pakistan's Krave Mart to expand grocery delivery services",
+    "raw_text": "",
+    "published_at": "2026-03-11T22:45:35+00:00",
+    "ingested_at": "2026-03-11T23:54:28.149543+00:00",
+    "geography": "Asia",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_28923418"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_e0066de4"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_3b6ea1d03d03",
+    "source_url": "https://techcrunch.com/2026/03/11/zendesk-acquires-agentic-customer-service-startup-forethought/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Zendesk acquires agentic customer service startup Forethought",
+    "raw_text": "",
+    "published_at": "2026-03-11T22:41:27+00:00",
+    "ingested_at": "2026-03-11T23:54:29.681070+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_e473f24d"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_87842eff"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_37320fd0d57c",
+    "source_url": "https://techcrunch.com/2026/03/11/india-neobank-fi-winds-down-banking-services-on-its-platform/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "India neobank Fi winds down banking services on its platform",
+    "raw_text": "",
+    "published_at": "2026-03-11T22:17:44+00:00",
+    "ingested_at": "2026-03-11T23:54:31.017018+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_0d6f5cbe"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_e0066de4"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_2545e8b44df9",
+    "source_url": "https://techcrunch.com/2026/03/11/netflix-may-have-paid-600-million-for-ben-afflecks-ai-startup/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "acquisition",
+    "signal_tier": "tier_2_medium",
+    "headline": "Netflix acquires Ben Affleck's AI startup InterPositive for up to $600 million",
+    "raw_text": "",
+    "published_at": "2026-03-11T22:00:05+00:00",
+    "ingested_at": "2026-03-11T23:54:32.760339+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_13ed0704"
+    ],
+    "investor_ids": [
+      "inv_13ed0704"
+    ],
+    "person_ids": [
+      "per_721ae3ac"
+    ],
+    "metadata": {
+      "amount_usd": 600000000,
+      "amount_raw": "$600 million",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_80ac38594bf5",
+    "source_url": "https://techcrunch.com/2026/03/11/lovable-says-it-added-100m-in-revenue-last-month-alone-with-just-146-employees/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Lovable reports $100M monthly revenue with 146 employees",
+    "raw_text": "",
+    "published_at": "2026-03-11T21:40:49+00:00",
+    "ingested_at": "2026-03-11T23:54:34.282765+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.6,
+    "company_ids": [
+      "co_2f9cb7cd"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_13987f9f",
+      "per_cb40ce10"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_e8aaed24f3b8",
+    "source_url": "https://techcrunch.com/2026/03/11/quince-series-e-10b-valuation-with-500m-round-led-by-iconiq/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Quince raises $500M at $10B valuation led by Iconiq",
+    "raw_text": "",
+    "published_at": "2026-03-11T20:50:17+00:00",
+    "ingested_at": "2026-03-11T23:54:35.621393+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_4f67642c"
+    ],
+    "investor_ids": [
+      "inv_c9c1361a"
+    ],
+    "person_ids": [
+      "per_87842eff"
+    ],
+    "metadata": {
+      "amount_usd": 500000000,
+      "amount_raw": "$500M",
+      "currency": "USD",
+      "valuation": 10000000000
+    }
+  },
+  {
+    "id": "sig_e462cf265368",
+    "source_url": "https://techcrunch.com/2026/03/11/replit-snags-9b-valuation-6-months-after-hitting-3b/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Replit raises $400M Series D at $9B valuation, 6 months after $3B milestone",
+    "raw_text": "",
+    "published_at": "2026-03-11T18:52:52+00:00",
+    "ingested_at": "2026-03-11T23:54:37.871231+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_53b69ef9"
+    ],
+    "investor_ids": [
+      "inv_9cd4f179",
+      "inv_ac6fdbee",
+      "inv_7876c03c",
+      "inv_10159e97",
+      "inv_013",
+      "inv_ea646099",
+      "inv_cefa8820",
+      "inv_de3e7eef",
+      "inv_0081487d",
+      "inv_744e48aa"
+    ],
+    "person_ids": [
+      "per_1357be80",
+      "per_f331ff4f",
+      "per_a663febe"
+    ],
+    "metadata": {
+      "amount_usd": 400000000,
+      "amount_raw": "$400M",
+      "round_stage": "Series D",
+      "currency": "USD",
+      "valuation": 9000000000
+    }
+  },
+  {
+    "id": "sig_0504558765c6",
+    "source_url": "https://techcrunch.com/2026/03/11/breakout-ventures-raises-114m-fund-to-back-ai-science-startups/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Breakout Ventures closes $114M Fund III for AI science startups in biology and chemistry",
+    "raw_text": "",
+    "published_at": "2026-03-11T18:06:34+00:00",
+    "ingested_at": "2026-03-11T23:54:39.927745+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_72ab0bc6"
+    ],
+    "investor_ids": [
+      "inv_4b69d01d",
+      "inv_a60c4837",
+      "inv_00e9a636",
+      "inv_717f2d28"
+    ],
+    "person_ids": [
+      "per_a089cbac",
+      "per_64c46dff"
+    ],
+    "metadata": {
+      "amount_usd": 114000000,
+      "amount_raw": "$114 million",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_094782901351",
+    "source_url": "https://techcrunch.com/2026/03/11/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Almost 40 new unicorns minted in early 2026",
+    "raw_text": "",
+    "published_at": "2026-03-11T18:00:00+00:00",
+    "ingested_at": "2026-03-11T23:54:41.305242+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.35,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_64c46dff"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_494d61cc529d",
+    "source_url": "https://techcrunch.com/2026/03/11/wordpress-debuts-a-private-workspace-that-runs-in-your-browser-via-a-new-service-my-wordpress-net/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "WordPress launches my.WordPress.net, a private browser-based workspace service",
+    "raw_text": "",
+    "published_at": "2026-03-11T16:43:59+00:00",
+    "ingested_at": "2026-03-11T23:54:48.096527+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_576473d6"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_4698c6ed"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_d12b8fd39f3e",
+    "source_url": "https://www.eu-startups.com/2026/03/portuguese-startup-sybilion-secures-e3-6-million-to-build-ai-powered-decision-layer-for-industrial-companies/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Portuguese AI startup Sybilion raises \u20ac3.6M Seed round for industrial decision-making platform",
+    "raw_text": "",
+    "published_at": "2026-03-11T12:07:44+00:00",
+    "ingested_at": "2026-03-11T23:54:49.599384+00:00",
+    "geography": "Southern Europe",
+    "country": "PT",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_cb35253e"
+    ],
+    "investor_ids": [
+      "inv_306fd4d9",
+      "inv_99e32e8e"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4200000,
+      "amount_raw": "\u20ac3.6 million",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_47dba39c1659",
+    "source_url": "https://www.eu-startups.com/2026/03/paris-based-lemrock-raises-e6-million-to-help-brands-sell-within-ai-agents-like-chatgpt-and-claude/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Lemrock raises \u20ac6M to enable commerce within AI agents like ChatGPT and Claude",
+    "raw_text": "",
+    "published_at": "2026-03-11T10:43:34+00:00",
+    "ingested_at": "2026-03-11T23:54:51.153226+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_723ecb43"
+    ],
+    "investor_ids": [
+      "inv_4439b2ef"
+    ],
+    "person_ids": [
+      "per_478cf63d"
+    ],
+    "metadata": {
+      "amount_usd": 7000000,
+      "amount_raw": "\u20ac6 million ($7 million)",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_00d3dcac8da5",
+    "source_url": "https://www.eu-startups.com/2026/03/albanian-finnish-startup-bliss-raises-e232-4k-to-build-ai-that-understands-the-cultural-layer-of-mental-health/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Bliss raises \u20ac232.4k in angel funding for culturally intelligent AI mental health therapy",
+    "raw_text": "",
+    "published_at": "2026-03-11T09:30:48+00:00",
+    "ingested_at": "2026-03-11T23:54:53.137527+00:00",
+    "geography": "Nordics",
+    "country": "FI",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_3bc5495c"
+    ],
+    "investor_ids": [
+      "inv_5ba192cc",
+      "inv_5eb59c2d",
+      "inv_385433d0"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 270000,
+      "amount_raw": "\u20ac232.4k",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_2f33f09a0768",
+    "source_url": "https://www.eu-startups.com/2026/03/ex-viafintech-founders-new-venture-finperks-raises-e3-4-million-pre-seed-to-build-the-stripe-for-prepaid/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "finperks raises \u20ac3.4M pre-Seed to build API infrastructure for global prepaid market",
+    "raw_text": "",
+    "published_at": "2026-03-11T07:19:39+00:00",
+    "ingested_at": "2026-03-11T23:54:54.644916+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_a8dff0cf"
+    ],
+    "investor_ids": [
+      "inv_21b4b025",
+      "inv_ecefb488"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4000000,
+      "amount_raw": "\u20ac3.4 million ($4 million)",
+      "round_stage": "pre-Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_f44edb04fcd3",
+    "source_url": "https://tech.eu/2026/03/11/spotlight-pathology-has-raised-1-4m-to-catch-blood-cancer-sooner/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Spotlight Pathology raises \u00a31.4M seed funding for AI-powered digital pathology analysis",
+    "raw_text": "",
+    "published_at": "2026-03-11T14:45:00+00:00",
+    "ingested_at": "2026-03-11T23:54:56.062364+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_1331706b"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1771000,
+      "amount_raw": "\u00a31.4M",
+      "round_stage": "Seed",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_94c134a634b4",
+    "source_url": "https://tech.eu/2026/03/11/another-earth-secures-eur35m-to-scale-ai-data-and-simulation-platform/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Another Earth raises \u20ac3.5M to scale AI data and simulation platform for Earth observation",
+    "raw_text": "",
+    "published_at": "2026-03-11T13:20:54+00:00",
+    "ingested_at": "2026-03-11T23:54:57.948885+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_96cfffb5"
+    ],
+    "investor_ids": [
+      "inv_f7c111b0"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3780000,
+      "amount_raw": "\u20ac3.5M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_d2fcef87b077",
+    "source_url": "https://tech.eu/2026/03/11/samaipata-launches-eur110m-fund-iii-to-back-europes-next-generation-of-ai-native-startups/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Samaipata launches \u20ac110M Fund III focused on early-stage AI-native startups in Europe",
+    "raw_text": "",
+    "published_at": "2026-03-11T12:42:31+00:00",
+    "ingested_at": "2026-03-11T23:54:59.373876+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_07cc0cd5"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 119900000,
+      "amount_raw": "\u20ac110M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_7940d5ab36a1",
+    "source_url": "https://tech.eu/2026/03/11/sybilion-secures-42m-to-build-ai-platform-for-industrial-markets/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Sybilion secures $4.2M seed funding for industrial AI decision platform",
+    "raw_text": "",
+    "published_at": "2026-03-11T12:27:22+00:00",
+    "ingested_at": "2026-03-11T23:55:00.837260+00:00",
+    "geography": "Nordics",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_cb35253e"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4200000,
+      "amount_raw": "$4.2M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
   }
 ]
