@@ -40,7 +40,8 @@
     DE: 'Germany', GB: 'United Kingdom', NL: 'Netherlands', FR: 'France',
     US: 'United States', IE: 'Ireland', EE: 'Estonia', CH: 'Switzerland',
     AT: 'Austria', BE: 'Belgium', ES: 'Spain', IT: 'Italy', PT: 'Portugal',
-    PL: 'Poland', IL: 'Israel', CA: 'Canada'
+    PL: 'Poland', IL: 'Israel', CA: 'Canada',
+    Other: 'Other'
   };
 
   const GEO_MAP = {
@@ -56,6 +57,13 @@
     company: '\u{1F3E2}',
     investor: '\u{1F4C8}',
     person: '\u{1F464}'
+  };
+
+  const SIGNAL_TYPE_GROUPS = {
+    funding: ['funding_round', 'new_fund'],
+    deals: ['acquisition', 'partnership'],
+    growth: ['hiring_wave', 'expansion', 'product_launch'],
+    media: ['media_mention']
   };
 
   function esc(s) {
@@ -104,20 +112,17 @@
   function collectFilterValues() {
     const geographies = new Set();
     const countries = new Set();
-    const signalTypes = new Set();
     const signalTiers = new Set();
 
     signals.forEach(s => {
       if (s.geography) geographies.add(s.geography);
       if (s.country) countries.add(s.country);
-      if (s.signal_type) signalTypes.add(s.signal_type);
       if (s.signal_tier) signalTiers.add(s.signal_tier);
     });
 
     return {
       geographies: [...geographies].sort(),
       countries: [...countries].sort(),
-      signalTypes: [...signalTypes].sort(),
       signalTiers: [...signalTiers].sort()
     };
   }
@@ -131,7 +136,8 @@
     ['company', 'investor', 'person'].forEach(t => {
       const label = document.createElement('label');
       label.className = 'cb-option';
-      label.innerHTML = `<input type="checkbox" value="${t}" checked><span class="entity-icon">${ENTITY_ICONS[t]}</span> ${capitalize(t)}s`;
+      const ENTITY_LABELS = { company: 'Companies', investor: 'Investors', person: 'People' };
+      label.innerHTML = `<input type="checkbox" value="${t}" checked><span class="entity-icon">${ENTITY_ICONS[t]}</span> ${ENTITY_LABELS[t] || capitalize(t)}`;
       label.querySelector('input').addEventListener('change', applyFilters);
       entityContainer.appendChild(label);
     });
@@ -168,14 +174,9 @@
       tierContainer.appendChild(label);
     });
 
-    // Signal type checkboxes
-    const typeContainer = document.getElementById('filter-signal-type');
-    vals.signalTypes.forEach(t => {
-      const label = document.createElement('label');
-      label.className = 'cb-option';
-      label.innerHTML = `<input type="checkbox" value="${t}" checked> ${capitalize(formatSignalType(t))}`;
-      label.querySelector('input').addEventListener('change', applyFilters);
-      typeContainer.appendChild(label);
+    // Signal type group checkboxes (static in HTML)
+    document.querySelectorAll('#filter-signal-type input[type="checkbox"]').forEach(cb => {
+      cb.addEventListener('change', applyFilters);
     });
 
     // Recency checkboxes
@@ -186,6 +187,7 @@
     // Event listeners
     geoSel.addEventListener('change', applyFilters);
     countrySel.addEventListener('change', applyFilters);
+    document.getElementById('sort-select').addEventListener('change', applyFilters);
 
     // Reset
     document.getElementById('reset-filters').addEventListener('click', resetFilters);
@@ -195,7 +197,8 @@
   function getFilters() {
     const entityChecked = [...document.querySelectorAll('#filter-entity-type input:checked')].map(i => i.value);
     const tierChecked = [...document.querySelectorAll('#filter-signal-tier input:checked')].map(i => i.value);
-    const typeChecked = [...document.querySelectorAll('#filter-signal-type input:checked')].map(i => i.value);
+    const typeGroupsChecked = [...document.querySelectorAll('#filter-signal-type input:checked')].map(i => i.value);
+    const typeChecked = typeGroupsChecked.flatMap(g => SIGNAL_TYPE_GROUPS[g] || []);
     const geo = document.getElementById('filter-geography').value;
     const country = document.getElementById('filter-country').value;
     const sort = document.getElementById('sort-select').value;
@@ -338,6 +341,12 @@
           <span class="opp-detail"><strong>${esc(inv.type)}</strong></span>
           <span class="opp-detail">AUM: ${esc(inv.aum_estimate || 'N/A')}</span>
           <span class="opp-detail">${esc((inv.focus_geographies || []).join(', '))}</span>
+        `;
+      } else if (o.entity_type === 'person' && o.entity) {
+        const p = o.entity;
+        metaHtml = `
+          <span class="opp-detail"><strong>${esc(p.role || '')}</strong></span>
+          <span class="opp-detail">${esc(p.relevance_tag || '')}</span>
         `;
       }
 

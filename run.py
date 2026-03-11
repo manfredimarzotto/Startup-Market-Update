@@ -73,7 +73,7 @@ def run_pipeline():
     logger.info("=== Step 5: Scoring opportunities ===")
     config = _load_config()
     scored = score_signals(all_signals, config)
-    opportunities = build_opportunities(scored, all_signals, companies, investors, config)
+    opportunities = build_opportunities(scored, all_signals, companies, investors, config, people)
 
     logger.info("Generated %d opportunities", len(opportunities))
 
