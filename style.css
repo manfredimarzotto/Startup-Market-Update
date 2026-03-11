@@ -86,7 +86,7 @@ body {
   animation: spin 0.6s linear infinite;
 }
 .generate-btn.loading .spinner { display: inline-block; }
-.generate-btn.loading .btn-text { display: none; }
+.generate-btn:disabled .btn-text { font-weight: 500; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
 /* ─── SUMMARY CARDS ─── */
@@ -375,6 +375,21 @@ body {
   font-weight: 600;
   color: var(--text);
 }
+a.opp-name-link {
+  text-decoration: none;
+  color: var(--text);
+}
+a.opp-name-link:hover {
+  color: var(--accent);
+}
+.entity-link {
+  font-size: 14px;
+  color: var(--text-dim);
+  text-decoration: none;
+  line-height: 1;
+}
+a.opp-name-link:hover .entity-link { color: var(--accent); }
+
 .opp-entity-badge {
   display: inline-block;
   padding: 2px 8px;
