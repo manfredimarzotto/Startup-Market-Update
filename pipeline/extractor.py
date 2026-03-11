@@ -48,6 +48,7 @@ Return ONLY valid JSON, no markdown fences or explanation.
   "company_hq_city": "city or null",
   "company_sector": "e.g. FinTech, CleanTech, AI/ML, SaaS, HealthTech, Logistics, DeepTech, FoodTech, DevTools",
   "company_sub_sector": "more specific sub-sector or null",
+  "company_domain": "company website domain like 'example.com' (no https://) or null",
   "investor_names": ["list of investor names mentioned"],
   "person_names": [
     {{"name": "person name", "role": "their role", "relevance": "founder | c_suite | partner | hiring_manager"}}
