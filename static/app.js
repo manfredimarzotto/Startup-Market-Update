@@ -441,24 +441,125 @@
   /* ── Generate button → triggers GitHub Actions workflow_dispatch ── */
   const GITHUB_REPO = 'manfredimarzotto/Startup-Market-Update';
   const WORKFLOW_FILE = 'pipeline.yml';
-  const ACTIONS_URL = `https://github.com/${GITHUB_REPO}/actions/workflows/${WORKFLOW_FILE}`;
+  const GH_API = 'https://api.github.com';
+  const TOKEN_KEY = 'nsi_github_token';
+
+  function getToken() {
+    return localStorage.getItem(TOKEN_KEY);
+  }
+
+  function promptForToken() {
+    const token = prompt(
+      'Enter a GitHub Personal Access Token with "actions:write" and "contents:read" permissions.\n\n' +
+      'Create one at: github.com/settings/tokens\n\n' +
+      'The token is stored only in your browser\'s localStorage and sent only to the GitHub API.'
+    );
+    if (token && token.trim()) {
+      localStorage.setItem(TOKEN_KEY, token.trim());
+      return token.trim();
+    }
+    return null;
+  }
+
+  function setBtnStatus(btn, text) {
+    const btnText = btn.querySelector('.btn-text');
+    if (btnText) btnText.textContent = text;
+  }
+
+  async function triggerWorkflow(token) {
+    const resp = await fetch(`${GH_API}/repos/${GITHUB_REPO}/actions/workflows/${WORKFLOW_FILE}/dispatches`, {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Accept': 'application/vnd.github.v3+json',
+      },
+      body: JSON.stringify({ ref: 'main' }),
+    });
+    if (resp.status === 401 || resp.status === 403) {
+      localStorage.removeItem(TOKEN_KEY);
+      throw new Error('Invalid or expired token. Please try again.');
+    }
+    if (!resp.ok) {
+      throw new Error(`GitHub API error: ${resp.status}`);
+    }
+  }
+
+  async function pollWorkflowRun(token) {
+    // Wait a moment for GH to register the new run
+    await new Promise(r => setTimeout(r, 3000));
+
+    const startTime = Date.now();
+    const TIMEOUT = 5 * 60 * 1000; // 5 min timeout
+    const POLL_INTERVAL = 8000;
+
+    while (Date.now() - startTime < TIMEOUT) {
+      const resp = await fetch(`${GH_API}/repos/${GITHUB_REPO}/actions/runs?per_page=1&event=workflow_dispatch`, {
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Accept': 'application/vnd.github.v3+json',
+        },
+      });
+      if (!resp.ok) throw new Error('Failed to check workflow status');
+
+      const data = await resp.json();
+      const run = data.workflow_runs && data.workflow_runs[0];
+
+      if (run) {
+        if (run.status === 'completed') {
+          if (run.conclusion === 'success') return 'success';
+          throw new Error(`Workflow finished with: ${run.conclusion}`);
+        }
+      }
+
+      await new Promise(r => setTimeout(r, POLL_INTERVAL));
+    }
+    throw new Error('Timed out waiting for workflow to complete');
+  }
 
   function setupGenerateButton() {
     const btn = document.getElementById('generate-btn');
     if (!btn) return;
 
-    btn.addEventListener('click', function () {
+    // Add token settings link (right-click to reset token)
+    btn.addEventListener('contextmenu', function (e) {
+      e.preventDefault();
+      if (confirm('Clear saved GitHub token?')) {
+        localStorage.removeItem(TOKEN_KEY);
+        alert('Token cleared. You will be prompted for a new one next time.');
+      }
+    });
+
+    btn.addEventListener('click', async function () {
+      let token = getToken();
+      if (!token) {
+        token = promptForToken();
+        if (!token) return;
+      }
+
       btn.classList.add('loading');
       btn.disabled = true;
 
-      // Open GitHub Actions dispatch page (secure — no token exposure)
-      window.open(ACTIONS_URL, '_blank', 'noopener');
+      try {
+        // Step 1: Trigger the workflow
+        setBtnStatus(btn, 'Triggering...');
+        await triggerWorkflow(token);
 
-      // Reset button after short delay
-      setTimeout(function () {
+        // Step 2: Poll for completion
+        setBtnStatus(btn, 'Pipeline running...');
+        await pollWorkflowRun(token);
+
+        // Step 3: Reload page to get fresh data from GitHub Pages
+        setBtnStatus(btn, 'Reloading...');
+        // Give GitHub Pages a moment to deploy
+        await new Promise(r => setTimeout(r, 5000));
+        window.location.reload();
+
+      } catch (err) {
+        alert('Generate failed: ' + err.message);
         btn.classList.remove('loading');
         btn.disabled = false;
-      }, 2000);
+        setBtnStatus(btn, '\u21BB Generate Today\'s Opportunities');
+      }
     });
   }
 
