@@ -1,4 +1,4 @@
-"""Build script: renders Jinja2 templates with JSON data into docs/ for GitHub Pages."""
+"""Build script: renders Jinja2 templates with JSON data for GitHub Pages."""
 
 import json
 import shutil
@@ -11,7 +11,7 @@ ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
 TEMPLATES_DIR = ROOT / "templates"
 STATIC_DIR = ROOT / "static"
-DOCS_DIR = ROOT / "docs"
+OUTPUT_DIR = ROOT
 
 
 def load_json(filename):
@@ -46,16 +46,15 @@ def build():
         people_json=json.dumps(people),
     )
 
-    # Write to docs/
-    DOCS_DIR.mkdir(exist_ok=True)
-    (DOCS_DIR / "index.html").write_text(html)
+    # Write to repo root
+    (OUTPUT_DIR / "index.html").write_text(html)
 
     # Copy static assets
     for src_file in STATIC_DIR.iterdir():
         if src_file.is_file():
-            shutil.copy2(src_file, DOCS_DIR / src_file.name)
+            shutil.copy2(src_file, OUTPUT_DIR / src_file.name)
 
-    print(f"Built dashboard -> docs/index.html ({len(opportunities)} opportunities, {len(signals)} signals)")
+    print(f"Built dashboard -> index.html ({len(opportunities)} opportunities, {len(signals)} signals)")
 
 
 if __name__ == "__main__":
