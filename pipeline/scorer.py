@@ -86,7 +86,7 @@ def resolve_entities(new_signals, companies, investors, people):
                     "sector": extracted.get("company_sector", ""),
                     "sub_sector": extracted.get("company_sub_sector", ""),
                     "stage": (extracted.get("funding_round_stage") or "").lower().replace(" ", "_"),
-                    "hq_country": extracted.get("company_hq_country", ""),
+                    "hq_country": signal.get("country", ""),  # already normalised by extractor
                     "hq_city": extracted.get("company_hq_city", ""),
                     "employee_count": None,
                     "founded_year": None,

@@ -40,7 +40,8 @@
     DE: 'Germany', GB: 'United Kingdom', NL: 'Netherlands', FR: 'France',
     US: 'United States', IE: 'Ireland', EE: 'Estonia', CH: 'Switzerland',
     AT: 'Austria', BE: 'Belgium', ES: 'Spain', IT: 'Italy', PT: 'Portugal',
-    PL: 'Poland', IL: 'Israel', CA: 'Canada'
+    PL: 'Poland', IL: 'Israel', CA: 'Canada',
+    Other: 'Other'
   };
 
   const GEO_MAP = {

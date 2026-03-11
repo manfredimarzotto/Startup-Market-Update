@@ -1198,8 +1198,8 @@
     "raw_text": "",
     "published_at": "2026-03-10T07:15:00+00:00",
     "ingested_at": "2026-03-10T16:27:50.914597+00:00",
-    "geography": "Asia",
-    "country": "UZ",
+    "geography": "Other",
+    "country": "Other",
     "ai_confidence": 0.85,
     "company_ids": [
       "co_65875803"
@@ -1604,7 +1604,7 @@
     "published_at": "2026-03-10T09:30:00+00:00",
     "ingested_at": "2026-03-10T16:28:24.277389+00:00",
     "geography": "Benelux",
-    "country": "EU",
+    "country": "NL",
     "ai_confidence": 0.92,
     "company_ids": [
       "co_fc688d10"

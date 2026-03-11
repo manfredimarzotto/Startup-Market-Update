@@ -13,6 +13,17 @@ logger = logging.getLogger(__name__)
 MODEL = "claude-haiku-4-5-20251001"
 MAX_TOKENS = 1024
 
+# European country codes accepted by the dashboard. Anything else becomes "Other".
+EUROPEAN_COUNTRY_CODES = {
+    "SE", "DK", "FI", "NO",          # Nordics
+    "DE", "AT", "CH",                 # DACH
+    "GB", "IE",                       # UK & Ireland
+    "NL", "BE", "LU",                 # Benelux
+    "FR", "ES", "IT", "PT",           # Southern Europe
+    "PL", "EE", "LV", "LT",          # Eastern Europe / Baltics
+    "CZ", "RO", "HU", "BG", "HR",    # Central / Southeast Europe
+}
+
 EXTRACTION_PROMPT = """\
 You are a market intelligence analyst. Extract structured signal data from this article.
 
@@ -33,7 +44,7 @@ Return ONLY valid JSON, no markdown fences or explanation.
   "signal_tier": "tier_1_strong | tier_2_medium | tier_3_weak",
   "headline": "one-line summary of the signal",
   "company_name": "primary company mentioned",
-  "company_hq_country": "ISO 2-letter country code or null",
+  "company_hq_country": "ISO 2-letter country code (e.g. SE, DE, GB, FR, NL, FI, NO, DK, IT, ES, CH, AT, BE, IE, PL, EE) or null. Use the actual country, never use region codes like 'EU'.",
   "company_hq_city": "city or null",
   "company_sector": "e.g. FinTech, CleanTech, AI/ML, SaaS, HealthTech, Logistics, DeepTech, FoodTech, DevTools",
   "company_sub_sector": "more specific sub-sector or null",
@@ -103,6 +114,10 @@ def extract_signal(candidate, client):
     url = candidate.get("url", "")
     signal_id = "sig_" + hashlib.sha256(url.encode()).hexdigest()[:12]
 
+    # Normalise country: map non-European codes to "Other"
+    raw_country = (data.get("company_hq_country") or "").strip().upper()
+    country = raw_country if raw_country in EUROPEAN_COUNTRY_CODES else ("Other" if raw_country else "")
+
     signal = {
         "id": signal_id,
         "source_url": url,
@@ -115,7 +130,7 @@ def extract_signal(candidate, client):
         "published_at": candidate.get("published_at", ""),
         "ingested_at": datetime.now(timezone.utc).isoformat(),
         "geography": data.get("geography", candidate.get("geography", "")),
-        "country": data.get("company_hq_country", ""),
+        "country": country,
         "ai_confidence": data.get("ai_confidence", 0.5),
         "company_ids": [],
         "investor_ids": [],
