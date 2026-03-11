@@ -187,6 +187,7 @@
     // Event listeners
     geoSel.addEventListener('change', applyFilters);
     countrySel.addEventListener('change', applyFilters);
+    document.getElementById('sort-select').addEventListener('change', applyFilters);
 
     // Reset
     document.getElementById('reset-filters').addEventListener('click', resetFilters);
