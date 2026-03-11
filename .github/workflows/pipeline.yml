@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
 
 jobs:
   build-and-deploy:
@@ -36,26 +35,3 @@ jobs:
           git add data/ docs/
           git diff --cached --quiet || git commit -m "Update signals and dashboard - $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push origin main
-
-      - name: Deploy to GitHub Pages
-        run: |
-          # Copy built output to temp
-          cp -r docs /tmp/docs-output
-
-          # Switch to gh-pages branch
-          git fetch origin gh-pages 2>/dev/null || true
-          if git show-ref --verify --quiet refs/remotes/origin/gh-pages; then
-            git checkout -f gh-pages
-          else
-            git checkout --orphan gh-pages
-          fi
-
-          # Clean working directory, then copy only built output
-          git rm -rf . 2>/dev/null || true
-          cp -r /tmp/docs-output/* .
-          touch .nojekyll
-
-          # Commit and push
-          git add -A
-          git diff --cached --quiet || git commit -m "Update dashboard - $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push origin gh-pages
