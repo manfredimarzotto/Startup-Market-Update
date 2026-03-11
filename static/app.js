@@ -132,7 +132,8 @@
     ['company', 'investor', 'person'].forEach(t => {
       const label = document.createElement('label');
       label.className = 'cb-option';
-      label.innerHTML = `<input type="checkbox" value="${t}" checked><span class="entity-icon">${ENTITY_ICONS[t]}</span> ${capitalize(t)}s`;
+      const ENTITY_LABELS = { company: 'Companies', investor: 'Investors', person: 'People' };
+      label.innerHTML = `<input type="checkbox" value="${t}" checked><span class="entity-icon">${ENTITY_ICONS[t]}</span> ${ENTITY_LABELS[t] || capitalize(t)}`;
       label.querySelector('input').addEventListener('change', applyFilters);
       entityContainer.appendChild(label);
     });
