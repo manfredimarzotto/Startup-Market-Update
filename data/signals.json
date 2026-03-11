@@ -1906,5 +1906,152 @@
       "round_stage": "Pre-Seed",
       "currency": "USD"
     }
+  },
+  {
+    "id": "sig_544676f48e41",
+    "source_url": "https://sifted.eu/articles/entrepreneurs-first-unicorn-200m-fundraise/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Entrepreneurs First reaches unicorn status with $200M fundraise",
+    "raw_text": "",
+    "published_at": "2026-03-11T05:00:14+00:00",
+    "ingested_at": "2026-03-11T06:53:56.023972+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_0d6f5cbe"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 200000000,
+      "amount_raw": "$200M",
+      "currency": "USD",
+      "valuation": 1000000000
+    }
+  },
+  {
+    "id": "sig_744fdfa90bd4",
+    "source_url": "https://techcrunch.com/2026/03/10/google-and-tesla-think-were-managing-the-electrical-grid-all-wrong/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Google and Tesla propose new approaches to electrical grid management",
+    "raw_text": "",
+    "published_at": "2026-03-10T20:42:44+00:00",
+    "ingested_at": "2026-03-11T06:53:57.474509+00:00",
+    "geography": "US",
+    "country": "US",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_bbdefa29"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_3d12d204"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_67fb9e887f9e",
+    "source_url": "https://techcrunch.com/2026/03/10/amazon-launches-its-healthcare-ai-assistant-on-its-website-and-app/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Amazon launches healthcare AI assistant on website and app",
+    "raw_text": "",
+    "published_at": "2026-03-10T20:10:06+00:00",
+    "ingested_at": "2026-03-11T06:53:58.767081+00:00",
+    "geography": "US",
+    "country": "US",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_cbc62794"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_ee72f68f"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_0d288e902e42",
+    "source_url": "https://techcrunch.com/2026/03/10/doge-employee-stole-social-security-data-and-put-it-on-a-thumb-drive-report-says/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_1_strong",
+    "headline": "DOGE employee allegedly stole Social Security data via thumb drive in security breach",
+    "raw_text": "",
+    "published_at": "2026-03-10T20:09:51+00:00",
+    "ingested_at": "2026-03-11T06:54:00.198943+00:00",
+    "geography": "US",
+    "country": "US",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_c4e793c8"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_ee0100cf"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_afe7d470230a",
+    "source_url": "https://techcrunch.com/2026/03/10/mandiants-founder-just-raised-190m-for-his-autonomous-ai-agent-security-startup/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Mandiant founder raises $190M for autonomous AI agent security startup",
+    "raw_text": "",
+    "published_at": "2026-03-10T18:21:07+00:00",
+    "ingested_at": "2026-03-11T06:54:01.512770+00:00",
+    "geography": "US",
+    "country": "US",
+    "ai_confidence": 0.92,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_e40c66ff"
+    ],
+    "metadata": {
+      "amount_usd": 190000000,
+      "amount_raw": "$190M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_1b33a5da32db",
+    "source_url": "https://www.eu-startups.com/2026/03/samaipata-launches-e110m-fund-iii-to-back-early-stage-ai-native-startups-across-europe/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Samaipata launches \u20ac110M Fund III focused on early-stage AI-native startups across Europe",
+    "raw_text": "",
+    "published_at": "2026-03-11T06:08:31+00:00",
+    "ingested_at": "2026-03-11T06:54:03.585061+00:00",
+    "geography": "Southern Europe",
+    "country": null,
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_07cc0cd5"
+    ],
+    "investor_ids": [
+      "inv_dcd1f07b"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 119900000,
+      "amount_raw": "\u20ac110M",
+      "currency": "EUR"
+    }
   }
 ]

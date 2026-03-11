@@ -408,5 +408,45 @@
     "linkedin_url": "",
     "email_guess": "",
     "relevance_tag": "founder"
+  },
+  {
+    "id": "per_3d12d204",
+    "name": "Tim De Chant",
+    "role": "Author",
+    "company_id": "co_bbdefa29",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_ee72f68f",
+    "name": "Aisha Malik",
+    "role": "Author",
+    "company_id": "co_cbc62794",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": null
+  },
+  {
+    "id": "per_ee0100cf",
+    "name": "Lorenzo Franceschi-Bicchierai",
+    "role": "journalist",
+    "company_id": "co_c4e793c8",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": null
+  },
+  {
+    "id": "per_e40c66ff",
+    "name": "Mandiant's founder",
+    "role": "founder",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "founder"
   }
 ]
