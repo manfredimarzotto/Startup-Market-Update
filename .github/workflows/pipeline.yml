@@ -1,4 +1,4 @@
-name: Nordic Signal Intelligence Pipeline
+name: Startup Radar Intelligence
 
 on:
   workflow_dispatch:  # Manual trigger (Generate button / GitHub UI)
