@@ -12,6 +12,14 @@ Live site: https://manfredimarzotto.github.io/Startup-Market-Update/
 RSS/Scrape Sources → Ingest & Filter → Scrape Full Text → Claude Haiku Extraction → Entity Resolution → Score & Rank → JSON → build.py (Jinja2) → GitHub Pages
 ```
 
+Pipeline steps (orchestrated by `run.py`):
+1. **Ingest** — Fetch active RSS feeds, keyword-filter entries
+2. **Scrape** — Fetch full article text (respects robots.txt, 1.5s rate limit)
+3. **Extract** — Send article text to Claude Haiku for structured signal extraction
+4. **Resolve** — Fuzzy-match extracted entities against existing data, create new records if unmatched
+5. **Score** — Compute opportunity scores from signal strength, recency, velocity, geography
+6. **Build** — Render Jinja2 template with JSON data, copy static assets to repo root
+
 ## Project Structure
 
 ```
@@ -32,7 +40,7 @@ RSS/Scrape Sources → Ingest & Filter → Scrape Full Text → Claude Haiku Ext
 │   ├── opportunities.json          #   Scored & ranked opportunities
 │   └── signal_sources.json         #   Feed/source configuration
 ├── templates/
-│   └── index.html                  #   Jinja2 dashboard template
+│   └── index.html                  #   Jinja2 dashboard template (data injected via window.__NSI_DATA)
 ├── static/
 │   ├── style.css                   #   Dashboard styles (clean light theme)
 │   └── app.js                      #   Client-side filtering, sorting, status tracking
@@ -40,7 +48,10 @@ RSS/Scrape Sources → Ingest & Filter → Scrape Full Text → Claude Haiku Ext
 ├── style.css                       # Built output (copied from static/)
 ├── app.js                          # Built output (copied from static/)
 ├── .github/workflows/pipeline.yml  # GitHub Actions: daily cron + manual dispatch
+├── .nojekyll                       # Disables Jekyll processing on GitHub Pages
+├── .gitignore                      # Ignores __pycache__, .env, .venv, build artifacts
 ├── requirements.txt                # Python dependencies
+├── README.md                       # Project README
 └── CLAUDE.md                       # This file
 ```
 
@@ -48,24 +59,48 @@ RSS/Scrape Sources → Ingest & Filter → Scrape Full Text → Claude Haiku Ext
 
 Six JSON files in `data/`:
 
-- **signal_sources.json** — RSS feeds and scrape targets (id, url, type, refresh interval)
-- **signals.json** — Individual market signals with type, tier, confidence, linked entities
-- **companies.json** — Company profiles (sector, sub-sector, stage, HQ, employee count)
+- **signal_sources.json** — RSS feeds and scrape targets (id, url, type, refresh interval, geography_tag, is_active)
+- **signals.json** — Individual market signals with type, tier, confidence, linked entity IDs, country code, metadata (amount, round stage, valuation)
+- **companies.json** — Company profiles (sector, sub-sector, stage, hq_country, hq_city, employee_count)
 - **investors.json** — Investor profiles (type, AUM, focus sectors/geographies)
-- **people.json** — Key contacts (name, role, company/investor link, LinkedIn)
-- **opportunities.json** — AI-scored opportunities linking signals to entities with rationale
+- **people.json** — Key contacts (name, role, company/investor link, LinkedIn, relevance_tag)
+- **opportunities.json** — AI-scored opportunities linking signals to entities with rationale, score breakdown, and status
+
+## Config Reference (`config.json`)
+
+| Field | Description | Default |
+|---|---|---|
+| `preferred_sectors` | Sector list for filtering | `["FinTech", "CleanTech", "HealthTech", "AI/ML", "SaaS", "DeepTech"]` |
+| `geography_weights` | Multiplier per geography (0.0–1.0) | Nordics: 1.0, DACH: 0.8, UK: 0.8, etc. |
+| `minimum_signal_tier` | Lowest tier to include | `"tier_3_weak"` |
+| `daily_opportunities` | Max opportunities per run | `15` |
+| `recency_decay_days` | Days until a signal scores 0 for recency | `45` |
+
+## Scoring Formula
+
+Opportunity scores are computed per entity (company/investor/person) in `pipeline/scorer.py`:
+
+- **Signal strength** (0–35): Based on best signal tier — `tier_1_strong`=35, `tier_2_medium`=22, `tier_3_weak`=10
+- **Recency** (0–25): Linear decay from 25→0 over `recency_decay_days` (default 45)
+- **Velocity** (0–25): `min(25, signal_count × 8)` — multiple recent signals boost score
+- **Type bonus** (scaled by 0.3): `funding_round`=30, `acquisition`=28, `new_fund`=25, `hiring_wave`=20, `partnership`=18, `expansion`=15, `product_launch`=12, `media_mention`=8
+- **Geography weight**: Multiplier from `config.json` (default 0.5 for unlisted regions)
+
+Final score: `min(99, (strength + recency + velocity) × geo_weight + type_bonus × 0.3)`
 
 ## Tech Stack
 
-- **Language:** Python 3
-- **AI:** Anthropic Claude Haiku (`claude-haiku-4-5-20251001`) for signal extraction and scoring
+- **Language:** Python 3 (CI uses 3.11)
+- **AI:** Anthropic Claude Haiku (`claude-haiku-4-5-20251001`) for signal extraction and rationale generation
 - **Templating:** Jinja2
+- **Scraping:** feedparser (RSS), requests + BeautifulSoup (article text), newspaper3k
+- **Entity resolution:** fuzzywuzzy + python-Levenshtein
 - **Frontend:** Vanilla JS, CSS (clean light theme with IBM Plex Sans + JetBrains Mono)
 - **Deployment:** GitHub Actions → GitHub Pages (served from repo root on `main`)
 
 ## Environment Variables
 
-- `ANTHROPIC_API_KEY` — Required for Claude Haiku signal extraction and rationale generation
+- `ANTHROPIC_API_KEY` — Required for Claude Haiku signal extraction and rationale generation (stored as GitHub Actions secret)
 
 ## Commands
 
@@ -83,6 +118,8 @@ python build.py
 # Output appears in ./index.html (repo root)
 ```
 
+There are currently no automated tests in the project.
+
 ## Git Workflow
 
 - Always rebase feature branches onto `main` before merging to keep a linear history
@@ -98,6 +135,7 @@ python build.py
 - `build.py` renders Jinja2 templates with JSON data into repo root (`index.html`, `style.css`, `app.js`)
 - **Feature branches should only modify source files** (`static/`, `templates/`, `pipeline/`, etc.) — built output (`index.html`, `style.css`, `app.js`) is generated by the pipeline on `main` and should not be committed from feature branches to avoid merge conflicts
 - All data lives in `data/*.json` — no database required
+- Data is embedded in the HTML via `window.__NSI_DATA` (Jinja2 renders JSON directly into a `<script>` block)
 - Client-side JS handles filtering, sorting, and localStorage-based status tracking
 - Generate button opens GitHub Actions dispatch page (no token exposure)
 - Pipeline runs daily at 06:00 UTC via cron, plus on-demand via workflow_dispatch
@@ -107,4 +145,7 @@ python build.py
 - RSS feeds configured in `data/signal_sources.json`
 - Keyword filtering on titles/summaries minimizes unnecessary scraping and API calls
 - Article text truncated to 5000 chars to keep Haiku costs low (~$0.07/day)
-- Entity resolution uses fuzzy name matching; new entities auto-created when unmatched
+- Entity resolution uses fuzzy name matching (substring containment); new entities auto-created when unmatched
+- Country codes are normalized to European ISO-2 codes in `extractor.py`; non-European codes become `"Other"`
+- Scraper respects robots.txt and uses a 1.5s rate limit between requests
+- Scraper user agent: `NordicSignalIntelligence/1.0`
