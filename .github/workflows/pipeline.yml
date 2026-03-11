@@ -48,11 +48,12 @@ jobs:
             git checkout -f gh-pages
           else
             git checkout --orphan gh-pages
-            git rm -rf . 2>/dev/null || true
           fi
 
-          # Copy output
+          # Clean working directory, then copy only built output
+          git rm -rf . 2>/dev/null || true
           cp -r /tmp/docs-output/* .
+          touch .nojekyll
 
           # Commit and push
           git add -A
