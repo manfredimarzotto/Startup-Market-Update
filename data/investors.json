@@ -515,5 +515,65 @@
     "website": "",
     "linkedin_url": "",
     "last_signal_at": "2026-03-11T06:08:31+00:00"
+  },
+  {
+    "id": "inv_5ba192cc",
+    "name": "Keiretsu Forum",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-11T09:30:00+00:00"
+  },
+  {
+    "id": "inv_5eb59c2d",
+    "name": "Finest Love VC",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-11T09:30:00+00:00"
+  },
+  {
+    "id": "inv_385433d0",
+    "name": "Plug and Play",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-11T09:30:00+00:00"
+  },
+  {
+    "id": "inv_21b4b025",
+    "name": "Motive Partners",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-11T07:30:00+00:00"
+  },
+  {
+    "id": "inv_ecefb488",
+    "name": "seed+speed Ventures",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-11T07:30:00+00:00"
   }
 ]

@@ -2053,5 +2053,205 @@
       "amount_raw": "\u20ac110M",
       "currency": "EUR"
     }
+  },
+  {
+    "id": "sig_8b139ca2f97a",
+    "source_url": "https://sifted.eu/articles/alan-health-insurance-startup-index/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Health insurance unicorn Alan reaches \u20ac5bn valuation",
+    "raw_text": "",
+    "published_at": "2026-03-11T11:27:30+00:00",
+    "ingested_at": "2026-03-11T12:19:30.796650+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_db423281"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "currency": "EUR",
+      "valuation": 5376000000
+    }
+  },
+  {
+    "id": "sig_290392ceea2f",
+    "source_url": "https://techcrunch.com/2026/03/11/health-insurance-startup-alan-reaches-e5b-valuation/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Health insurance startup Alan reaches \u20ac5B valuation",
+    "raw_text": "",
+    "published_at": "2026-03-11T10:00:00+00:00",
+    "ingested_at": "2026-03-11T12:19:33.098954+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_db423281"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_13987f9f"
+    ],
+    "metadata": {
+      "currency": "EUR",
+      "valuation": 5376000000
+    }
+  },
+  {
+    "id": "sig_15357f94634c",
+    "source_url": "https://techcrunch.com/2026/03/11/anduril-snaps-up-space-surveillance-firm-exoanalytic-solutions/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Anduril acquires space surveillance firm ExoAnalytic Solutions",
+    "raw_text": "",
+    "published_at": "2026-03-11T07:01:00+00:00",
+    "ingested_at": "2026-03-11T12:19:36.132349+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_83ffd663"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_6e21b5d6"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_37ec0dd35ae1",
+    "source_url": "https://tech.eu/2026/03/11/legora-makes-first-acquisition-as-it-expands-north-america-presence/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "acquisition",
+    "signal_tier": "tier_2_medium",
+    "headline": "Legora acquires Canadian legal AI startup to expand North America presence",
+    "raw_text": "",
+    "published_at": "2026-03-11T12:10:38+00:00",
+    "ingested_at": "2026-03-11T12:19:38.084508+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_22dc0248"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_135950c993c2",
+    "source_url": "https://tech.eu/2026/03/11/decoding-dna-with-ai-living-models-emerges-from-stealth-with-7m/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Living Models raises $7M seed funding to develop AI foundation models for biology",
+    "raw_text": "",
+    "published_at": "2026-03-11T12:00:00+00:00",
+    "ingested_at": "2026-03-11T12:19:43.483754+00:00",
+    "geography": "US",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_8af8ba90"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 7000000,
+      "amount_raw": "$7M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_d38a0c1bf1e4",
+    "source_url": "https://tech.eu/2026/03/11/mental-health-startup-bliss-raises-270k-to-build-culturally-intelligent-ai-for-therapy/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Mental health startup Bliss raises $270K angel funding for culturally intelligent AI therapy platform",
+    "raw_text": "",
+    "published_at": "2026-03-11T09:30:00+00:00",
+    "ingested_at": "2026-03-11T12:19:44.920400+00:00",
+    "geography": "Nordics",
+    "country": "FI",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_3bc5495c"
+    ],
+    "investor_ids": [
+      "inv_5ba192cc",
+      "inv_5eb59c2d",
+      "inv_385433d0"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 270000,
+      "amount_raw": "$270K",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_5e3f92a2872f",
+    "source_url": "https://tech.eu/2026/03/11/deep-science-ventures-launches-new-doctoral-cohort-to-turn-science-into-startups/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Deep Science Ventures launches third cohort of Venture Science Doctorate programme",
+    "raw_text": "",
+    "published_at": "2026-03-11T08:40:30+00:00",
+    "ingested_at": "2026-03-11T12:19:46.272860+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_52ce8b19"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_37caca3226ab",
+    "source_url": "https://tech.eu/2026/03/11/finperks-raises-4m-pre-seed-to-build-the-stripe-for-prepaid/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "finperks raises $4M pre-seed for prepaid payments infrastructure",
+    "raw_text": "",
+    "published_at": "2026-03-11T07:30:00+00:00",
+    "ingested_at": "2026-03-11T12:19:47.896894+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_a8dff0cf"
+    ],
+    "investor_ids": [
+      "inv_21b4b025",
+      "inv_ecefb488"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4000000,
+      "amount_raw": "$4M",
+      "round_stage": "Pre-Seed",
+      "currency": "USD"
+    }
   }
 ]

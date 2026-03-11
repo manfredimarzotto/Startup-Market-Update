@@ -448,5 +448,15 @@
     "linkedin_url": "",
     "email_guess": "",
     "relevance_tag": "founder"
+  },
+  {
+    "id": "per_6e21b5d6",
+    "name": "Tim Fernholz",
+    "role": "journalist",
+    "company_id": "co_83ffd663",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
   }
 ]
