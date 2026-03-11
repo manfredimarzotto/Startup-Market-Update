@@ -382,7 +382,7 @@
         <div class="opp-card status-${esc(status)}" data-opp-id="${esc(o.id)}">
           <div class="opp-top">
             <div class="opp-name-block">
-              <span class="opp-name">${esc(name)}</span>${url ? `<a class="entity-link" href="${esc(url)}" target="_blank" rel="noopener" title="${o.entity_type === 'person' ? 'LinkedIn' : 'Website'}">&#x2197;</a>` : ''}
+              ${url ? `<a class="opp-name opp-name-link" href="${esc(url)}" target="_blank" rel="noopener" title="${o.entity_type === 'person' ? 'LinkedIn' : 'Website'}">${esc(name)} <span class="entity-link">&#x2197;</span></a>` : `<span class="opp-name">${esc(name)}</span>`}
               <span class="opp-entity-badge ${esc(o.entity_type)}">${esc(o.entity_type)}</span>
             </div>
             <div class="opp-score">

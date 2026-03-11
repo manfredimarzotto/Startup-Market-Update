@@ -76,13 +76,16 @@ def resolve_entities(new_signals, companies, investors, people):
             match = _fuzzy_match(company_name, companies)
             if match:
                 signal["company_ids"] = [match["id"]]
+                # Backfill domain if missing
+                if not match.get("domain") and extracted.get("company_domain"):
+                    match["domain"] = extracted["company_domain"]
             else:
                 # Create new company
                 new_id = _make_id("co_", company_name)
                 new_company = {
                     "id": new_id,
                     "name": company_name,
-                    "domain": "",
+                    "domain": extracted.get("company_domain", ""),
                     "sector": extracted.get("company_sector", ""),
                     "sub_sector": extracted.get("company_sub_sector", ""),
                     "stage": (extracted.get("funding_round_stage") or "").lower().replace(" ", "_"),
