@@ -548,5 +548,15 @@
     "linkedin_url": "",
     "email_guess": "",
     "relevance_tag": "partner"
+  },
+  {
+    "id": "per_d5738e04",
+    "name": "Kate Park",
+    "role": "journalist",
+    "company_id": "co_64a9be3e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": null
   }
 ]

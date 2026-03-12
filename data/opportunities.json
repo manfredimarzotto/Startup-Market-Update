@@ -1,7 +1,7 @@
 [
   {
-    "id": "opp_20260311_001",
-    "generated_date": "2026-03-11",
+    "id": "opp_20260312_001",
+    "generated_date": "2026-03-12",
     "company_id": "co_001",
     "investor_id": null,
     "person_id": null,
@@ -20,13 +20,13 @@
       "growth_velocity": 24,
       "geo_weight": 1.0
     },
-    "ai_rationale": "Einride's $500M Series C paired with a transformational Maersk partnership signals the market is moving from autonomous truck R&D to commercial deployment at scale, while aggressive 200+ engineer hiring across three continents indicates the company is positioned to capture first-mover advantage in European and North American autonomous freight logistics before competitors mature their offerings. The 91/99 score reflects institutional confidence that Einride has solved the regulatory and operational puzzles blocking the sector's growth.",
+    "ai_rationale": "Einride's $500M Series C coupled with a Maersk partnership signals that autonomous freight is moving from pilot to commercial scale, while the 200+ engineer hiring spree across three continents indicates the company is building infrastructure to capture this inflection before competitors consolidate the market. The convergence of capital, validation from a tier-one logistics player, and talent acquisition suggests Einride has achieved product-market fit and is now racing to establish operational dominance in European and North American freight corridors.",
     "entity_type": "company",
     "status": "new"
   },
   {
-    "id": "opp_20260311_002",
-    "generated_date": "2026-03-11",
+    "id": "opp_20260312_002",
+    "generated_date": "2026-03-12",
     "company_id": "co_3bc5495c",
     "investor_id": null,
     "person_id": null,
@@ -35,20 +35,20 @@
       "sig_00d3dcac8da5"
     ],
     "contact_ids": [],
-    "opportunity_score": 85,
+    "opportunity_score": 84,
     "score_breakdown": {
       "signal_strength": 35,
-      "recency": 25,
+      "recency": 24,
       "growth_velocity": 16,
       "geo_weight": 1.0
     },
-    "ai_rationale": "Bliss is demonstrating strong product-market validation across geographies with consecutive angel rounds totaling ~$500K in rapid succession, signaling investor confidence in culturally intelligent AI therapy\u2014a high-conviction thesis in the underserved intersection of mental health accessibility and localization where regulatory barriers are lower than traditional pharma but TAM is massive globally.",
+    "ai_rationale": "Bliss is demonstrating strong product-market validation across geographies with back-to-back angel rounds totaling ~$500K USD equivalent, signaling investor confidence in culturally-adapted AI therapy as a differentiated approach to mental health access in underserved markets where cultural relevance is a critical adoption barrier. The timing is noteworthy because mental health AI commoditization is accelerating, making Bliss's cultural intelligence moat a rare defensible angle that addresses both regulatory skepticism and real patient outcomes.",
     "entity_type": "company",
     "status": "new"
   },
   {
-    "id": "opp_20260311_003",
-    "generated_date": "2026-03-11",
+    "id": "opp_20260312_003",
+    "generated_date": "2026-03-12",
     "company_id": "co_019",
     "investor_id": null,
     "person_id": null,
@@ -59,20 +59,20 @@
     "contact_ids": [
       "per_017"
     ],
-    "opportunity_score": 83,
+    "opportunity_score": 82,
     "score_breakdown": {
       "signal_strength": 35,
-      "recency": 23,
+      "recency": 22,
       "growth_velocity": 16,
       "geo_weight": 1.0
     },
-    "ai_rationale": "Northvolt's simultaneous $1.2B green bond issuance and $2B BMW supply agreement signal market validation of both its technology and commercial viability at scale\u2014the former proves institutional capital confidence in its sustainability thesis, while the latter locks in long-term revenue from a tier-one OEM during a critical phase of EV battery localization in Europe. This dual validation arriving together suggests the company has moved beyond proving concept to demonstrating bankable demand, making it a compelling risk-adjusted entry point before competitive pressures intensify.",
+    "ai_rationale": "Northvolt's concurrent $1.2B green bond issuance and $2B BMW supply commitment demonstrate validated demand and de-risked capital access at a critical scaling inflection point, positioning the company to capture outsized market share in the EV battery supply chain as OEM commitments increasingly shift toward secured domestic/European sourcing alternatives to Asian competitors.",
     "entity_type": "company",
     "status": "new"
   },
   {
-    "id": "opp_20260311_004",
-    "generated_date": "2026-03-11",
+    "id": "opp_20260312_004",
+    "generated_date": "2026-03-12",
     "company_id": "co_002",
     "investor_id": null,
     "person_id": null,
@@ -90,13 +90,13 @@
       "growth_velocity": 16,
       "geo_weight": 1.0
     },
-    "ai_rationale": "Pleo's acquisition of an AI expense startup paired with a reported Series D at $5B+ valuation signals confidence that automated bookkeeping is moving from nice-to-have to mission-critical for enterprise finance, positioning the company to capture significant share in the consolidation of spend management and accounting workflows. The timing is notable because this vertical integration occurs as CFOs face acute pressure to reduce manual processes and improve real-time financial visibility, creating strong tailwinds for a platform that can credibly claim end-to-end automation from transaction to reconciliation.",
+    "ai_rationale": "Pleo's acquisition of an AI expense automation startup combined with a reported Series D at $5B+ valuation signals a strategic pivot toward building proprietary intelligence into its core expense management platform, positioning it to compete directly with incumbents like Concur while capturing margin expansion through software-driven automation rather than just transaction volume.",
     "entity_type": "company",
     "status": "new"
   },
   {
-    "id": "opp_20260311_005",
-    "generated_date": "2026-03-11",
+    "id": "opp_20260312_005",
+    "generated_date": "2026-03-12",
     "company_id": "co_007",
     "investor_id": null,
     "person_id": null,
@@ -113,13 +113,13 @@
       "growth_velocity": 8,
       "geo_weight": 1.0
     },
-    "ai_rationale": "Aiven's $210M raise signals strong investor conviction in open-source data infrastructure at a time when enterprises are consolidating fragmented data stacks, and the company's 74/99 scoring indicates proven product-market fit with significant scaling runway ahead. The timing is critical as generative AI workloads are driving unprecedented demand for managed data platforms that can handle complex, multi-cloud deployments\u2014positioning Aiven to capture share from legacy vendors before market consolidation accelerates.",
+    "ai_rationale": "Aiven's $210M funding round signals strong investor confidence in the open-source data platform category at a time when enterprises are actively consolidating fragmented data stacks, positioning the company to capture share from both legacy vendors and point solutions. The substantial capital injection enables rapid product expansion and go-to-market scaling precisely when cloud migration budgets are reallocating toward integrated platforms, making this a critical window for market leadership before larger competitors respond.",
     "entity_type": "company",
     "status": "new"
   },
   {
-    "id": "opp_20260311_006",
-    "generated_date": "2026-03-11",
+    "id": "opp_20260312_006",
+    "generated_date": "2026-03-12",
     "company_id": "co_008",
     "investor_id": null,
     "person_id": null,
@@ -138,13 +138,13 @@
       "growth_velocity": 24,
       "geo_weight": 0.8
     },
-    "ai_rationale": "Wayve's convergence of $1.05B in funding, aggressive ML hiring for a 2027 launch window, and first OEM validation signal that end-market adoption is transitioning from theoretical to executable, positioning the company to capture outsized value as autonomous driving shifts from research to production deployment.",
+    "ai_rationale": "Wayve's $1.05B funding combined with its first OEM partnership validates its end-to-end learning approach just as it mobilizes 150 ML engineers for a 2027 commercial push, signaling the transition from research credibility to manufacturing-scale execution\u2014a critical inflection point where AI-first autonomous driving shifts from technical proof to market deployment.",
     "entity_type": "company",
     "status": "new"
   },
   {
-    "id": "opp_20260311_007",
-    "generated_date": "2026-03-11",
+    "id": "opp_20260312_007",
+    "generated_date": "2026-03-12",
     "company_id": "co_18402552",
     "investor_id": null,
     "person_id": null,
@@ -161,13 +161,13 @@
       "growth_velocity": 24,
       "geo_weight": 0.8
     },
-    "ai_rationale": "Isembard is capturing significant institutional momentum across two continents with back-to-back $50M+ Series A closings, signaling strong cross-border conviction in software-defined manufacturing at a moment when aerospace and energy sectors face acute capacity constraints and reshoring pressures. The timing is critical\u2014Europe's industrial base is actively seeking automation solutions amid supply chain fragmentation and labor shortages, creating an expanding TAM precisely when Isembard has achieved enough product-market fit to scale across multiple verticals.",
+    "ai_rationale": "Isembard's \u20ac43M/$50M Series A validates strong institutional conviction in software-driven factory automation at a moment when Europe is actively incentivizing domestic advanced manufacturing to reduce supply chain dependency\u2014particularly in aerospace and energy, two sectors facing acute capacity constraints and energy transition pressure. The timing is critical: EU industrial policy tailwinds (reshoring investment, green manufacturing requirements) are colliding with demonstrated software-automation unit economics, positioning Isembard to capture outsized share of a fragmented, underdigitized \u20ac500B+ European manufacturing software market.",
     "entity_type": "company",
     "status": "new"
   },
   {
-    "id": "opp_20260311_008",
-    "generated_date": "2026-03-11",
+    "id": "opp_20260312_008",
+    "generated_date": "2026-03-12",
     "company_id": "co_016",
     "investor_id": null,
     "person_id": null,
@@ -185,35 +185,13 @@
       "growth_velocity": 16,
       "geo_weight": 1.0
     },
-    "ai_rationale": "SciLifeLab Diagnostics is capturing both capital and institutional validation simultaneously\u2014a SEK 50M seed round paired with WHO pilot selection signals strong product-market fit and regulatory credibility that de-risks commercialization at scale. The combination of private capital backing and public health authority endorsement creates a rare window to establish market leadership in precision diagnostics before competition intensifies around the same WHO-validated protocols.",
+    "ai_rationale": "SciLifeLab Diagnostics is capturing critical market validation at an inflection point: a substantial SEK 50M seed round demonstrates investor confidence in their precision diagnostics platform, while simultaneous WHO pilot selection provides regulatory credibility and a pathway to global distribution that typically takes years to establish independently. The combination of well-capitalized growth runway and de-risked international market access creates a rare window where a diagnostics player can scale both technology and go-to-market simultaneously.",
     "entity_type": "company",
     "status": "new"
   },
   {
-    "id": "opp_20260311_009",
-    "generated_date": "2026-03-11",
-    "company_id": "co_4e35a72b",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_1c2e5d3b10ba",
-      "sig_987757af62e1"
-    ],
-    "contact_ids": [],
-    "opportunity_score": 69,
-    "score_breakdown": {
-      "signal_strength": 35,
-      "recency": 24,
-      "growth_velocity": 16,
-      "geo_weight": 0.8
-    },
-    "ai_rationale": "Seprify's \u20ac13.4M Series A from Inter IKEA Group signals validation from a major industrial buyer with direct supply-chain leverage, suggesting the cellulose-based ingredients platform has moved beyond proof-of-concept to pilot-stage commercialization with a Fortune 500 customer willing to co-invest. The timing is notable because IKEA's backing de-risks both demand certainty and scaling capital, positioning Seprify to capture the accelerating shift toward bio-based materials in furniture and consumer goods at a moment when supply-chain reshoring and sustainability mandates are creating pricing power for alternatives to petroleum-derived inputs.",
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260311_010",
-    "generated_date": "2026-03-11",
+    "id": "opp_20260312_009",
+    "generated_date": "2026-03-12",
     "company_id": "co_0d6f5cbe",
     "investor_id": null,
     "person_id": null,
@@ -231,13 +209,13 @@
       "growth_velocity": 16,
       "geo_weight": 0.8
     },
-    "ai_rationale": "Entrepreneurs First's ascent to unicorn status validates the founder-first accelerator model at scale, while Fi's collapse signals consolidation risk in the fintech ecosystem\u2014creating an opportune moment for EF to acquire distressed founder talent and portfolios from failed portfolio companies. The $200M raise positions EF to capitalize on this talent arbitrage while demonstrating that its hands-on founder development approach outperforms traditional venture models during market downturns.",
+    "ai_rationale": "Entrepreneurs First's ascent to unicorn status signals strong validation of its founder-first accelerator model just as the broader fintech ecosystem faces consolidation\u2014evidenced by Fi's retreat\u2014creating an opening for EF to position itself as the more resilient alternative for early-stage founder funding and support in markets where traditional venture capital remains fragmented.",
     "entity_type": "company",
     "status": "new"
   },
   {
-    "id": "opp_20260311_011",
-    "generated_date": "2026-03-11",
+    "id": "opp_20260312_010",
+    "generated_date": "2026-03-12",
     "company_id": "co_a8dff0cf",
     "investor_id": null,
     "person_id": null,
@@ -249,17 +227,17 @@
     "opportunity_score": 69,
     "score_breakdown": {
       "signal_strength": 35,
-      "recency": 25,
+      "recency": 24,
       "growth_velocity": 16,
       "geo_weight": 0.8
     },
-    "ai_rationale": "Finperks is capturing critical momentum in the fragmented \u20ac200B+ global prepaid market by securing two successive pre-seed rounds ($4M and \u20ac3.4M) that validate demand for API-first infrastructure\u2014a gap that exists because legacy prepaid providers lack modern integration capabilities, positioning finperks to become the rails for enterprise adoption as B2B fintech players increasingly need embedded prepaid solutions.",
+    "ai_rationale": "Finperks' consecutive pre-seed rounds ($4M and \u20ac3.4M) across different geographies signal investor conviction in API-first prepaid infrastructure at a moment when global payment fragmentation is accelerating adoption of embedded finance solutions. The dual-region funding strategy indicates early traction beyond a single market, making this a critical window to establish developer mindshare before category winners crystallize in the B2B payments stack.",
     "entity_type": "company",
     "status": "new"
   },
   {
-    "id": "opp_20260311_012",
-    "generated_date": "2026-03-11",
+    "id": "opp_20260312_011",
+    "generated_date": "2026-03-12",
     "company_id": "co_003",
     "investor_id": null,
     "person_id": null,
@@ -277,13 +255,35 @@
       "growth_velocity": 16,
       "geo_weight": 0.8
     },
-    "ai_rationale": "Vaayu's \u20ac30M Series A validates strong product-market fit in carbon accounting, while the strategic London expansion into UK retail\u2014a fragmented market facing imminent mandatory emissions reporting under FCA rules\u2014positions the company to capture a wave of compliance-driven demand before competitors scale. The timing is critical as regulatory pressure converges with proven capital availability, creating a narrow window to establish category leadership in a high-growth, underserved vertical.",
+    "ai_rationale": "Vaayu's \u20ac30M Series A validates strong market demand for automated carbon tracking while their London expansion signals immediate commercialization momentum in UK retail\u2014a sector facing imminent mandatory scope 3 emissions reporting under FCA rules, creating urgent customer pull for their solution.",
     "entity_type": "company",
     "status": "new"
   },
   {
-    "id": "opp_20260311_013",
-    "generated_date": "2026-03-11",
+    "id": "opp_20260312_012",
+    "generated_date": "2026-03-12",
+    "company_id": "co_4e35a72b",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_1c2e5d3b10ba",
+      "sig_987757af62e1"
+    ],
+    "contact_ids": [],
+    "opportunity_score": 68,
+    "score_breakdown": {
+      "signal_strength": 35,
+      "recency": 23,
+      "growth_velocity": 16,
+      "geo_weight": 0.8
+    },
+    "ai_rationale": "Seprify's \u20ac13.4M Series A backed by Inter IKEA Group signals serious commercial validation for cellulose-based materials at scale\u2014IKEA's participation suggests a direct pathway to massive industrial deployment across furniture and packaging, de-risking the typical biotech commercialization bottleneck. The timing capitalizes on converging pressures: regulatory tailwinds around sustainable materials, IKEA's public commitments to circular economy goals, and rising input costs for petroleum-based alternatives, positioning Seprify to capture a material-science shift rather than chase speculative demand.",
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260312_013",
+    "generated_date": "2026-03-12",
     "company_id": "co_006",
     "investor_id": null,
     "person_id": null,
@@ -301,13 +301,13 @@
       "growth_velocity": 16,
       "geo_weight": 0.8
     },
-    "ai_rationale": "Volt.io's \u00a360M Series B combined with a Stripe partnership creates a critical distribution inflection\u2014Stripe's merchant network dramatically accelerates adoption of open banking payments across EU markets where regulatory tailwinds (PSD2) are already in place, positioning Volt to capture disproportionate value in the shift from card-based to bank-direct transactions. The timing is acute given Stripe's own push into payments infrastructure and the EU's regulatory momentum, making this a window where Volt can establish category leadership before larger incumbents respond.",
+    "ai_rationale": "Volt.io is capturing structural tailwinds in embedded open banking\u2014the Stripe partnership immediately distributes their payments rails to thousands of EU merchants while the \u00a360M Series B provides capital to build competitive moats before larger incumbents consolidate the space. The timing is acute because PSD2 regulation has matured the infrastructure layer, but merchant adoption remains fragmented, positioning a well-funded, distribution-backed player to become the default rails for bank-to-merchant payments in Europe.",
     "entity_type": "company",
     "status": "new"
   },
   {
-    "id": "opp_20260311_014",
-    "generated_date": "2026-03-11",
+    "id": "opp_20260312_014",
+    "generated_date": "2026-03-12",
     "company_id": "co_1331706b",
     "investor_id": null,
     "person_id": null,
@@ -322,13 +322,13 @@
       "growth_velocity": 8,
       "geo_weight": 0.8
     },
-    "ai_rationale": "Spotlight Pathology's \u00a31.4M seed raise validates market demand for AI-driven pathology automation at a moment when regulatory frameworks for clinical AI are crystallizing and major diagnostic labs face critical staffing shortages\u2014creating a compressed window for first-movers to establish proprietary datasets and clinical integrations before larger medtech players enter the space. The 63/99 score suggests solid fundamentals but unproven differentiation, making this a high-conviction bet on execution rather than concept.",
+    "ai_rationale": "Spotlight Pathology's \u00a31.4M seed raise validates early market demand for AI-powered pathology automation at a moment when hospitals face critical backlogs in diagnostic capacity and regulatory frameworks for clinical AI are solidifying, positioning the company to capture share in a high-stakes, consolidation-prone sector before larger medtech players establish dominance. The 63/99 score suggests meaningful but unproven execution risk, making this a compelling early-stage bet for investors comfortable with clinical validation timelines and reimbursement uncertainty.",
     "entity_type": "company",
     "status": "new"
   },
   {
-    "id": "opp_20260311_015",
-    "generated_date": "2026-03-11",
+    "id": "opp_20260312_015",
+    "generated_date": "2026-03-12",
     "company_id": "co_96cfffb5",
     "investor_id": null,
     "person_id": null,
@@ -343,7 +343,7 @@
       "growth_velocity": 8,
       "geo_weight": 0.8
     },
-    "ai_rationale": "Another Earth's \u20ac3.5M raise to scale its AI-powered Earth observation platform arrives as satellite data accessibility explodes and enterprise demand for climate/environmental intelligence reaches critical mass, positioning the company to capture significant market share in the undermonetized geospatial AI segment before larger players consolidate the space.",
+    "ai_rationale": "Another Earth's \u20ac3.5M funding round validates market demand for AI-powered Earth observation platforms at a critical inflection point where climate tech and geospatial intelligence are converging with enterprise adoption\u2014positioning the company to capture outsized value as governments and corporations systematize environmental monitoring and risk assessment. The timing is noteworthy because this capital injection arrives as satellite data accessibility improves and regulatory pressure on climate/sustainability reporting intensifies, creating a narrowing window for platforms that can aggregate and operationalize this data at scale.",
     "entity_type": "company",
     "status": "new"
   }

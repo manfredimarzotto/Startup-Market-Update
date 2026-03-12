@@ -5,7 +5,7 @@
     "type": "rss",
     "url": "https://sifted.eu/feed",
     "refresh_interval": "6h",
-    "last_fetched_at": "2026-03-11T23:53:53.740936+00:00",
+    "last_fetched_at": "2026-03-12T10:18:52.440146+00:00",
     "is_active": true,
     "geography_tag": "Europe"
   },
@@ -15,7 +15,7 @@
     "type": "rss",
     "url": "https://techcrunch.com/feed/",
     "refresh_interval": "6h",
-    "last_fetched_at": "2026-03-11T23:53:53.740936+00:00",
+    "last_fetched_at": "2026-03-12T10:18:52.440146+00:00",
     "is_active": true,
     "geography_tag": "US"
   },
@@ -25,7 +25,7 @@
     "type": "rss",
     "url": "https://www.eu-startups.com/feed/",
     "refresh_interval": "12h",
-    "last_fetched_at": "2026-03-11T23:53:53.740936+00:00",
+    "last_fetched_at": "2026-03-12T10:18:52.440146+00:00",
     "is_active": true,
     "geography_tag": "Europe"
   },
@@ -45,7 +45,7 @@
     "type": "rss",
     "url": "https://tech.eu/feed/",
     "refresh_interval": "12h",
-    "last_fetched_at": "2026-03-11T23:53:53.740936+00:00",
+    "last_fetched_at": "2026-03-12T10:18:52.440146+00:00",
     "is_active": true,
     "geography_tag": "Europe"
   }

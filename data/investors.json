@@ -791,5 +791,53 @@
     "website": "",
     "linkedin_url": "",
     "last_signal_at": "2026-03-11T13:20:54+00:00"
+  },
+  {
+    "id": "inv_3c522318",
+    "name": "Vanagon Ventures",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-12T09:15:00+00:00"
+  },
+  {
+    "id": "inv_7b86c471",
+    "name": "Bayern Kapital",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-12T09:15:00+00:00"
+  },
+  {
+    "id": "inv_8cf74638",
+    "name": "United Ventures",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-12T09:05:00+00:00"
+  },
+  {
+    "id": "inv_ac02acf1",
+    "name": "eCAPITAL",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "portfolio_count": null,
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-12T09:05:00+00:00"
   }
 ]

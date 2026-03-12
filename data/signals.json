@@ -2768,5 +2768,204 @@
       "round_stage": "Seed",
       "currency": "USD"
     }
+  },
+  {
+    "id": "sig_1653319fb7de",
+    "source_url": "https://sifted.eu/articles/uvc-partners-growth-fund/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "UVC Partners closes \u20ac77m first close of new growth fund, expanding into multi-stage investing",
+    "raw_text": "",
+    "published_at": "2026-03-12T09:00:52+00:00",
+    "ingested_at": "2026-03-12T10:19:06.262511+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_f1da715f"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 84000000,
+      "amount_raw": "\u20ac77m",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_7a3ae151852e",
+    "source_url": "https://sifted.eu/articles/all-the-decacorns-in-europe-listed/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Overview article listing European decacorns",
+    "raw_text": "",
+    "published_at": "2026-03-12T05:00:25+00:00",
+    "ingested_at": "2026-03-12T10:19:07.600447+00:00",
+    "geography": "EU",
+    "country": "",
+    "ai_confidence": 0.2,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_216575446a13",
+    "source_url": "https://sifted.eu/articles/she-is-europes-youngest-female-managing-partner/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Europe's youngest female managing partner discusses VC succession planning challenges",
+    "raw_text": "",
+    "published_at": "2026-03-12T05:00:04+00:00",
+    "ingested_at": "2026-03-12T10:19:09.474701+00:00",
+    "geography": "Europe",
+    "country": "",
+    "ai_confidence": 0.2,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_2da324d5145b",
+    "source_url": "https://techcrunch.com/2026/03/11/bci-startup-gestala-raises-21-million-for-non-invasive-ultrasound-brain-tech/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Chinese brain interface startup Gestala raises $21M just two months after launch",
+    "raw_text": "",
+    "published_at": "2026-03-12T04:00:00+00:00",
+    "ingested_at": "2026-03-12T10:19:10.925939+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_64a9be3e"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_d5738e04"
+    ],
+    "metadata": {
+      "amount_usd": 21000000,
+      "amount_raw": "$21M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_2ef09bee830d",
+    "source_url": "https://tech.eu/2026/03/12/elaia-closes-134m-fund-dts3-to-back-europe-s-next-generation-of-breakthrough-startups/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Elaia closes \u20ac134M third deep tech seed fund, double previous fund size",
+    "raw_text": "",
+    "published_at": "2026-03-12T10:03:49+00:00",
+    "ingested_at": "2026-03-12T10:19:16.775065+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_d646d2b4"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 145800000,
+      "amount_raw": "\u20ac134M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_c833ff3581d6",
+    "source_url": "https://tech.eu/2026/03/12/neuramancer-lands-eur17m-pre-seed-to-scale-deepfake-detection-tools/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Neuramancer AI Solutions closes \u20ac1.7M pre-seed round led by Vanagon Ventures for deepfake detection scaling",
+    "raw_text": "",
+    "published_at": "2026-03-12T09:15:00+00:00",
+    "ingested_at": "2026-03-12T10:19:18.327257+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_260b459b"
+    ],
+    "investor_ids": [
+      "inv_3c522318",
+      "inv_7b86c471"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1870000,
+      "amount_raw": "\u20ac1.7M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_c11465a7d4c0",
+    "source_url": "https://tech.eu/2026/03/12/cleafy-raises-eur12m-to-develop-real-time-bank-fraud-detection-technology/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Cleafy raises \u20ac12M Series B for financial fraud detection expansion",
+    "raw_text": "",
+    "published_at": "2026-03-12T09:05:00+00:00",
+    "ingested_at": "2026-03-12T10:19:19.696996+00:00",
+    "geography": "Southern Europe",
+    "country": "IT",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_671c4bca"
+    ],
+    "investor_ids": [
+      "inv_8cf74638",
+      "inv_ac02acf1"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 13200000,
+      "amount_raw": "\u20ac12M",
+      "round_stage": "Series B",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_62b38c3c00eb",
+    "source_url": "https://tech.eu/2026/03/12/airmo-raises-eur5m-for-airborne-and-space-based-ghg-monitoring/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "AIRMO raises \u20ac5M seed round for satellite-based greenhouse gas monitoring",
+    "raw_text": "",
+    "published_at": "2026-03-12T07:00:00+00:00",
+    "ingested_at": "2026-03-12T10:19:21.210545+00:00",
+    "geography": "Europe",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_20ec9b48"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 5400000,
+      "amount_raw": "\u20ac5M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
   }
 ]
