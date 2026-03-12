@@ -33,27 +33,24 @@ def run_pipeline():
     # Step 1: Ingest RSS feeds
     logger.info("=== Step 1: Ingesting RSS feeds ===")
     candidates = ingest_all()
-    if not candidates:
-        logger.info("No new candidates found. Skipping extraction.")
-        # Still rebuild dashboard with existing data
-        _rebuild_dashboard()
-        return
 
-    logger.info("Found %d new candidates", len(candidates))
+    new_signals = []
+    if candidates:
+        logger.info("Found %d new candidates", len(candidates))
 
-    # Step 2: Scrape full text
-    logger.info("=== Step 2: Scraping article text ===")
-    candidates = scrape_candidates(candidates)
+        # Step 2: Scrape full text
+        logger.info("=== Step 2: Scraping article text ===")
+        candidates = scrape_candidates(candidates)
 
-    # Step 3: Extract signals via Claude Haiku
-    logger.info("=== Step 3: Extracting signals (Claude Haiku) ===")
-    new_signals = extract_all(candidates)
-    if not new_signals:
-        logger.warning("No signals extracted. Rebuilding dashboard with existing data.")
-        _rebuild_dashboard()
-        return
-
-    logger.info("Extracted %d new signals", len(new_signals))
+        # Step 3: Extract signals via Claude Haiku
+        logger.info("=== Step 3: Extracting signals (Claude Haiku) ===")
+        new_signals = extract_all(candidates)
+        if new_signals:
+            logger.info("Extracted %d new signals", len(new_signals))
+        else:
+            logger.warning("No signals extracted from candidates.")
+    else:
+        logger.info("No new candidates found.")
 
     # Step 4: Entity resolution + merge with existing data
     logger.info("=== Step 4: Resolving entities ===")
@@ -62,14 +59,15 @@ def run_pipeline():
     people = _load_json("people.json")
     existing_signals = _load_json("signals.json")
 
-    new_signals, companies, investors, people = resolve_entities(
-        new_signals, companies, investors, people
-    )
+    if new_signals:
+        new_signals, companies, investors, people = resolve_entities(
+            new_signals, companies, investors, people
+        )
 
     # Merge signals (append new, keep existing)
     all_signals = existing_signals + new_signals
 
-    # Step 5: Score and rank opportunities
+    # Step 5: Score and rank opportunities (always re-score for updated recency)
     logger.info("=== Step 5: Scoring opportunities ===")
     config = _load_config()
     scored = score_signals(all_signals, config)
