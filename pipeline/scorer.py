@@ -291,14 +291,18 @@ def generate_rationales(opportunities, all_signals, companies, investors, people
     """Generate AI rationale for each opportunity using Claude Haiku."""
     if people is None:
         people = []
+    auth_token = os.environ.get("ANTHROPIC_AUTH_TOKEN")
     api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        logger.warning("No ANTHROPIC_API_KEY — skipping rationale generation")
+    if not auth_token and not api_key:
+        logger.warning("No ANTHROPIC_AUTH_TOKEN or ANTHROPIC_API_KEY — skipping rationale generation")
         for opp in opportunities:
-            opp["ai_rationale"] = "Rationale generation requires ANTHROPIC_API_KEY."
+            opp["ai_rationale"] = "Rationale generation requires ANTHROPIC_AUTH_TOKEN or ANTHROPIC_API_KEY."
         return opportunities
 
-    client = anthropic.Anthropic(api_key=api_key)
+    if auth_token:
+        client = anthropic.Anthropic(auth_token=auth_token)
+    else:
+        client = anthropic.Anthropic(api_key=api_key)
     signal_map = {s["id"]: s for s in all_signals}
     company_map = {c["id"]: c for c in companies}
     investor_map = {i["id"]: i for i in investors}
