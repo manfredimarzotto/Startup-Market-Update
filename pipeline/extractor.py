@@ -65,11 +65,11 @@ Return ONLY valid JSON, no markdown fences or explanation.
 
 
 def _get_client():
-    """Create Anthropic client."""
+    """Create Anthropic client using API key."""
     api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        raise RuntimeError("ANTHROPIC_API_KEY environment variable is required")
-    return anthropic.Anthropic(api_key=api_key)
+    if api_key:
+        return anthropic.Anthropic(api_key=api_key)
+    raise RuntimeError("ANTHROPIC_API_KEY environment variable is required")
 
 
 def _parse_json_response(text):
