@@ -558,5 +558,65 @@
     "linkedin_url": "",
     "email_guess": "",
     "relevance_tag": null
+  },
+  {
+    "id": "per_a083c07d",
+    "name": "Rebecca Szkutak",
+    "role": "Author",
+    "company_id": "co_8d4321d9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_09ff1c2c",
+    "name": "Marina Temkin",
+    "role": "journalist",
+    "company_id": "co_aca9157b",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": null
+  },
+  {
+    "id": "per_80a741cb",
+    "name": "Tony Zhao",
+    "role": "Founder",
+    "company_id": "co_b6ac44e3",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_5b435607",
+    "name": "Cheng Chi",
+    "role": "Founder",
+    "company_id": "co_b6ac44e3",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_1f0481af",
+    "name": "Bar Winkler",
+    "role": "CEO and co-founder",
+    "company_id": "co_ee04228c",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_18315e5a",
+    "name": "Mykhailo Fedorov",
+    "role": "Minister of Defence of Ukraine",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
   }
 ]

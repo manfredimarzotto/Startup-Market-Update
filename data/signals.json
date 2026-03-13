@@ -2967,5 +2967,658 @@
       "round_stage": "Seed",
       "currency": "EUR"
     }
+  },
+  {
+    "id": "sig_dbe9b6ad9fd5",
+    "source_url": "https://sifted.eu/articles/owkin-spinout-waiv-raises-33m-to-scale-ai-powered-medical-testing/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Owkin spinout Waiv raises $33m to scale AI-powered medical testing",
+    "raw_text": "",
+    "published_at": "2026-03-12T13:00:43+00:00",
+    "ingested_at": "2026-03-13T06:54:00.307454+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_6a5214e7"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 33000000,
+      "amount_raw": "$33m",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_4006c4c9f5f1",
+    "source_url": "https://techcrunch.com/2026/03/12/truecallers-now-lets-you-hang-up-on-scammers-on-behalf-of-your-family/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "product_launch",
+    "signal_tier": "tier_2_medium",
+    "headline": "Truecaller launches family-based call termination feature to combat scammers",
+    "raw_text": "",
+    "published_at": "2026-03-13T04:30:00+00:00",
+    "ingested_at": "2026-03-13T06:54:01.752963+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_c92f0a55"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_985ab104"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_7f0035d3d7a6",
+    "source_url": "https://techcrunch.com/2026/03/12/how-to-watch-jensen-huangs-nvidia-gtc-2026-keynote/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Coverage of Jensen Huang's Nvidia GTC 2026 keynote viewing information",
+    "raw_text": "",
+    "published_at": "2026-03-12T23:25:39+00:00",
+    "ingested_at": "2026-03-13T06:54:03.323316+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.15,
+    "company_ids": [
+      "co_8d4321d9"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_ecd7b976",
+      "per_a083c07d"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_db41a74c4ad9",
+    "source_url": "https://techcrunch.com/2026/03/12/sales-automation-startup-rox-ai-hits-1-2b-valuation-sources-say/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Sales automation startup Rox AI reaches $1.2B valuation",
+    "raw_text": "",
+    "published_at": "2026-03-12T22:25:50+00:00",
+    "ingested_at": "2026-03-13T06:54:04.628718+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_aca9157b"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_09ff1c2c"
+    ],
+    "metadata": {
+      "valuation": 1200000000
+    }
+  },
+  {
+    "id": "sig_7d32d79e29b8",
+    "source_url": "https://techcrunch.com/2026/03/12/substack-launches-a-built-in-recording-studio/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Substack launches a built-in recording studio",
+    "raw_text": "",
+    "published_at": "2026-03-12T18:24:18+00:00",
+    "ingested_at": "2026-03-13T06:54:05.973927+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_d4116333"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_2ac3e3a8"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_e3346eac4e9a",
+    "source_url": "https://techcrunch.com/2026/03/12/facebook-marketplace-now-lets-meta-ai-respond-to-buyers-messages/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Meta AI now responds to buyers' messages on Facebook Marketplace",
+    "raw_text": "",
+    "published_at": "2026-03-12T18:20:33+00:00",
+    "ingested_at": "2026-03-13T06:54:07.364997+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_ea3bd73e"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_ee72f68f"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_0a78faca2836",
+    "source_url": "https://techcrunch.com/2026/03/12/humanoid-robotics-maker-sunday-reaches-1-15b-valuation-to-build-household-robots/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Sunday raises $165M Series B at $1.15B valuation for household humanoid robot",
+    "raw_text": "",
+    "published_at": "2026-03-12T17:04:50+00:00",
+    "ingested_at": "2026-03-13T06:54:09.775743+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_b6ac44e3"
+    ],
+    "investor_ids": [
+      "inv_10159e97",
+      "inv_1e221418",
+      "inv_0e898208",
+      "inv_cd01bc25"
+    ],
+    "person_ids": [
+      "per_80a741cb",
+      "per_5b435607",
+      "per_64c46dff"
+    ],
+    "metadata": {
+      "amount_usd": 165000000,
+      "amount_raw": "$165 million",
+      "round_stage": "Series B",
+      "currency": "USD",
+      "valuation": 1150000000
+    }
+  },
+  {
+    "id": "sig_df009f3e8a24",
+    "source_url": "https://techcrunch.com/2026/03/12/webflow-buys-ai-content-generation-platform-vidoso-to-bolster-its-marketing-suite/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Webflow acquires AI content-generation platform Vidoso to expand marketing suite capabilities",
+    "raw_text": "",
+    "published_at": "2026-03-12T17:00:00+00:00",
+    "ingested_at": "2026-03-13T06:54:11.263925+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_77e5604f"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_985ab104"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_f7a04ce2275e",
+    "source_url": "https://techcrunch.com/2026/03/12/law-enforcement-shuts-down-botnet-made-of-tens-of-thousands-of-hacked-routers/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Law enforcement shuts down botnet made of tens of thousands of hacked routers",
+    "raw_text": "",
+    "published_at": "2026-03-12T16:43:49+00:00",
+    "ingested_at": "2026-03-13T06:54:13.346107+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_ee0100cf"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_f04230649e89",
+    "source_url": "https://techcrunch.com/2026/03/12/gumloop-lands-50m-from-benchmark-to-turn-every-employee-into-an-ai-agent-builder/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Gumloop raises $50M from Benchmark to democratize AI agent building",
+    "raw_text": "",
+    "published_at": "2026-03-12T15:30:00+00:00",
+    "ingested_at": "2026-03-13T06:54:15.188213+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_2d5efaf5"
+    ],
+    "investor_ids": [
+      "inv_0e898208"
+    ],
+    "person_ids": [
+      "per_09ff1c2c"
+    ],
+    "metadata": {
+      "amount_usd": 50000000,
+      "amount_raw": "$50M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_922420d3aba4",
+    "source_url": "https://techcrunch.com/2026/03/12/wonderful-raises-150m-series-b-at-2b-valuation/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Wonderful raises $150M Series B at $2B valuation",
+    "raw_text": "",
+    "published_at": "2026-03-12T15:12:35+00:00",
+    "ingested_at": "2026-03-13T06:54:17.025601+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ee04228c"
+    ],
+    "investor_ids": [
+      "inv_009",
+      "inv_007",
+      "inv_90c12db9",
+      "inv_18eb0649",
+      "inv_77e1fd30"
+    ],
+    "person_ids": [
+      "per_1f0481af"
+    ],
+    "metadata": {
+      "amount_usd": 150000000,
+      "amount_raw": "$150M",
+      "round_stage": "Series B",
+      "currency": "USD",
+      "valuation": 2000000000
+    }
+  },
+  {
+    "id": "sig_dcb65a5675ed",
+    "source_url": "https://www.eu-startups.com/2026/03/uk-agtech-startup-tropic-secures-e91-3-million-to-bring-gene-edited-bananas-and-climate-resilient-crops-to-market/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "UK AgTech startup Tropic raises \u20ac91.3M Series C for gene-edited bananas and climate-resilient crops",
+    "raw_text": "",
+    "published_at": "2026-03-13T06:25:27+00:00",
+    "ingested_at": "2026-03-13T06:54:18.505323+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_f9d373cb"
+    ],
+    "investor_ids": [
+      "inv_19839481",
+      "inv_d6cb2812"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 105000000,
+      "amount_raw": "\u20ac91.3 million",
+      "round_stage": "Series C",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_ed95aeba0ad7",
+    "source_url": "https://www.eu-startups.com/2026/03/amsterdam-based-enterprise-ai-agent-platform-wonderful-raises-e129-8-million-series-b-at-e1-7-billion-valuation/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Wonderful raises \u20ac129.8M Series B at \u20ac1.7B valuation led by Insight Partners",
+    "raw_text": "",
+    "published_at": "2026-03-12T12:06:36+00:00",
+    "ingested_at": "2026-03-13T06:54:19.969164+00:00",
+    "geography": "Benelux",
+    "country": "NL",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ee04228c"
+    ],
+    "investor_ids": [
+      "inv_009",
+      "inv_007",
+      "inv_90c12db9",
+      "inv_18eb0649",
+      "inv_77e1fd30"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 150000000,
+      "amount_raw": "\u20ac129.8 million",
+      "round_stage": "Series B",
+      "currency": "EUR",
+      "valuation": 2000000000
+    }
+  },
+  {
+    "id": "sig_b98c5b65cd69",
+    "source_url": "https://www.eu-startups.com/2026/03/barcelonas-delfos-energy-raises-e3m-to-build-ai-virtual-engineer-for-the-energy-industry-as-it-charges-up-for-series-a/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Delfos Energy raises \u20ac3M seed extension for AI virtual engineer platform, eyes Series A",
+    "raw_text": "",
+    "published_at": "2026-03-12T09:50:29+00:00",
+    "ingested_at": "2026-03-13T06:54:21.608525+00:00",
+    "geography": "Southern Europe",
+    "country": "ES",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_6a2ab638"
+    ],
+    "investor_ids": [
+      "inv_af75400a",
+      "inv_d132580a",
+      "inv_25b1ed96",
+      "inv_cc8ad95d",
+      "inv_059820ca",
+      "inv_10efe505"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3240000,
+      "amount_raw": "\u20ac3 million",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_92b5be4aab15",
+    "source_url": "https://www.eu-startups.com/2026/03/european-deeptech-week-2026-an-invitation-only-event-bringing-europes-deeptech-leaders-to-paris-sponsored/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "European Deeptech Week 2026 invitation-only event scheduled for Paris, March 16-20",
+    "raw_text": "",
+    "published_at": "2026-03-12T09:32:29+00:00",
+    "ingested_at": "2026-03-13T06:54:22.774628+00:00",
+    "geography": "Southern Europe",
+    "country": "",
+    "ai_confidence": 0.6,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_0c8e026d0e5c",
+    "source_url": "https://www.eu-startups.com/2026/03/germanys-airmo-raises-e5-million-to-detect-methane-leaks-from-space-with-satellite-launch-planned-for-2027/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "AIRMO raises \u20ac5M Seed funding for satellite-based methane detection system launching in 2027",
+    "raw_text": "",
+    "published_at": "2026-03-12T07:39:56+00:00",
+    "ingested_at": "2026-03-13T06:54:24.395727+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_20ec9b48"
+    ],
+    "investor_ids": [
+      "inv_d70e21d5",
+      "inv_b3267d62",
+      "inv_2bf98189",
+      "inv_63169bea"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 5400000,
+      "amount_raw": "\u20ac5 million",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_c4c15a674ee7",
+    "source_url": "https://www.eu-startups.com/2026/03/french-vc-elaia-closes-third-deeptech-seed-fund-at-e134-million/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Elaia closes \u20ac134M third DeepTech Seed fund, double previous fund size",
+    "raw_text": "",
+    "published_at": "2026-03-12T05:47:27+00:00",
+    "ingested_at": "2026-03-13T06:54:26.019295+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_d646d2b4"
+    ],
+    "investor_ids": [
+      "inv_6e64b17c",
+      "inv_62481c26",
+      "inv_dc4af45b",
+      "inv_53395646",
+      "inv_ffd809f4",
+      "inv_56046651",
+      "inv_309f471e"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 145800000,
+      "amount_raw": "\u20ac134 million",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_8cbd9bc587cb",
+    "source_url": "https://tech.eu/2026/03/12/ukraine-launches-world-first-programme-giving-startups-access-to-real-war-data-for-ai-training/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "partnership",
+    "signal_tier": "tier_2_medium",
+    "headline": "Ukraine launches world-first programme giving startups access to real war data for AI training",
+    "raw_text": "",
+    "published_at": "2026-03-12T16:01:34+00:00",
+    "ingested_at": "2026-03-13T06:54:27.404874+00:00",
+    "geography": "Eastern Europe",
+    "country": "Other",
+    "ai_confidence": 0.75,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_18315e5a"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_986c47f4abba",
+    "source_url": "https://tech.eu/2026/03/12/ukrainian-estonian-defence-tech-startup-black-forest-systems-raises-400k-to-scale-infantry-drone-platform/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Black Forest Systems raises $400K from Front Ventures and Hede Capital Partners AB",
+    "raw_text": "",
+    "published_at": "2026-03-12T15:32:59+00:00",
+    "ingested_at": "2026-03-13T06:54:30.308358+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_5d7e684c"
+    ],
+    "investor_ids": [
+      "inv_9481e1ef",
+      "inv_1beddbef"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 400000,
+      "amount_raw": "$400,000",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_6ad6d546a748",
+    "source_url": "https://tech.eu/2026/03/12/3m-for-dextools-perptools-from-dexforce-and-orderly/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "DEXTools' PerpTools raises $3M from DEXForce and Orderly",
+    "raw_text": "",
+    "published_at": "2026-03-12T14:00:00+00:00",
+    "ingested_at": "2026-03-13T06:54:31.796520+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_a704bfcc"
+    ],
+    "investor_ids": [
+      "inv_7d67f8ce",
+      "inv_b81791ac"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3000000,
+      "amount_raw": "$3M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_3ba7c9b049f9",
+    "source_url": "https://tech.eu/2026/03/12/kodree-raises-10m-in-user-acquisition-financing-to-expand-ai-powered-edtech-platform-globally/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Kodree secures $10M in user acquisition financing from PvX Partners",
+    "raw_text": "",
+    "published_at": "2026-03-12T13:06:10+00:00",
+    "ingested_at": "2026-03-13T06:54:32.957101+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_0b61a73e"
+    ],
+    "investor_ids": [
+      "inv_739725fd"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 10000000,
+      "amount_raw": "$10M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_3a6684f6a9ce",
+    "source_url": "https://tech.eu/2026/03/12/qdrant-closes-50m-series-b-to-expand-vector-search-infrastructure/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Qdrant closes $50M Series B led by AVP to expand vector search infrastructure",
+    "raw_text": "",
+    "published_at": "2026-03-12T12:37:32+00:00",
+    "ingested_at": "2026-03-13T06:54:34.722981+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_cfc35d18"
+    ],
+    "investor_ids": [
+      "inv_eb5a94c0",
+      "inv_38e9fe9c",
+      "inv_a35003d0",
+      "inv_8032f8ac",
+      "inv_4688a94c"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 50000000,
+      "amount_raw": "$50M",
+      "round_stage": "Series B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_0cd4b92e8088",
+    "source_url": "https://tech.eu/2026/03/12/skyselect-raises-9m-to-modernise-aircraft-parts-procurement-with-ai/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "SkySelect raises $9M to modernise aircraft parts procurement with AI",
+    "raw_text": "",
+    "published_at": "2026-03-12T12:17:32+00:00",
+    "ingested_at": "2026-03-13T06:54:36.013166+00:00",
+    "geography": "Nordics",
+    "country": "EE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_b0423c21"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 9000000,
+      "amount_raw": "$9M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_aa8869fbbbd1",
+    "source_url": "https://tech.eu/2026/03/12/delfos-energy-secures-eur3m-seed-extension-to-scale-ai-virtual-engineer-for-energy-infrastructure/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Delfos Energy closes \u20ac3M Seed extension to scale AI virtual engineer for energy infrastructure",
+    "raw_text": "",
+    "published_at": "2026-03-12T11:09:19+00:00",
+    "ingested_at": "2026-03-13T06:54:37.436036+00:00",
+    "geography": "Southern Europe",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_6a2ab638"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3240000,
+      "amount_raw": "\u20ac3M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
   }
 ]
