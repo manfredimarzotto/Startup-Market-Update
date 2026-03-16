@@ -13,8 +13,8 @@ function loadStatuses() {
 export function useStatus() {
   const [statusMap, setStatusMap] = useState(loadStatuses);
 
-  const getStatus = useCallback((oppId) => {
-    return statusMap[oppId] || 'new';
+  const getStatus = useCallback((oppId, defaultStatus) => {
+    return statusMap[oppId] || defaultStatus || 'new';
   }, [statusMap]);
 
   const setStatus = useCallback((oppId, status) => {

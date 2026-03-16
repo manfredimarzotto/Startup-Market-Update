@@ -363,15 +363,30 @@ def score_signals(all_signals, config):
 # ── AI Rationale Generation ──
 
 RATIONALE_PROMPT = """\
-You are a venture analyst. Given these market signals about {entity_name}, write a 1-2 sentence rationale explaining why this is a noteworthy opportunity right now. Be specific about the signals and what makes the timing interesting. Be concise and direct — no filler.
+Write a factual one-line summary for {entity_name} using ONLY the signals below.
 
 Signals:
 {signal_summaries}
 
-Entity: {entity_name} ({entity_type})
-Score: {score}/99
+Source count: {source_count}
 
-Write the rationale as a single paragraph, no quotes or prefix:"""
+Rules:
+- Maximum 120 characters
+- Lead with the hard fact (round size, or key event if no funding)
+- Use middot (·) to separate facts
+- Include source count as a fact (e.g. "3 sources")
+- Include one concrete market/policy datapoint if available from signals
+- NEVER use these words: validates, signals, positions, captures, conviction, inflection, critical, meaningful, substantial, significant, well-positioned
+- NO narrative framing: "at a moment when", "making this", "positioning the"
+- State facts, not interpretations
+
+Examples of GOOD output:
+- "€30M Series A closed · defence procurement subsystems · 4 sources · NATO 3.5% GDP mandate in effect."
+- "$9M round · AI parts procurement for MRO · 2 sources · investor undisclosed."
+- "€270K across 3 angel closes · AI therapy localisation · 2 sources · no lead identified."
+- "No new round · hiring surge +40% QoQ · 3 sources · German digitisation mandate Q3 2026."
+
+Write ONLY the summary line, nothing else:"""
 
 
 def generate_rationales(opportunities, all_signals, companies, investors, people=None):
@@ -413,15 +428,14 @@ def generate_rationales(opportunities, all_signals, companies, investors, people
 
         prompt = RATIONALE_PROMPT.format(
             entity_name=entity_name,
-            entity_type=entity_type,
             signal_summaries="\n".join(sig_summaries),
-            score=opp["opportunity_score"],
+            source_count=len(opp["signal_ids"]),
         )
 
         try:
             response = client.messages.create(
                 model=MODEL,
-                max_tokens=200,
+                max_tokens=80,
                 messages=[{"role": "user", "content": prompt}],
             )
             total_input_tokens += getattr(response.usage, "input_tokens", 0)
@@ -448,6 +462,120 @@ def generate_rationales(opportunities, all_signals, companies, investors, people
     return opportunities
 
 
+# ── Trigger Generation ──
+
+# Map pipeline signal_type to trigger category
+_TRIGGER_CATEGORY = {
+    "funding_round": "funding",
+    "new_fund": "funding",
+    "acquisition": "competitor",
+    "partnership": "growth",
+    "hiring_wave": "hiring",
+    "expansion": "growth",
+    "product_launch": "growth",
+    "media_mention": "sector",
+}
+
+
+def _relative_time(published_at):
+    """Convert ISO date to relative time string."""
+    days = _days_ago(published_at)
+    if days == 0:
+        return "today"
+    if days == 1:
+        return "1d ago"
+    if days < 7:
+        return f"{days}d ago"
+    if days < 30:
+        return f"{days // 7}w ago"
+    return f"{days // 30}mo ago"
+
+
+def _truncate(text, max_len=80):
+    """Truncate to max_len chars."""
+    if len(text) <= max_len:
+        return text
+    return text[:max_len - 1].rsplit(" ", 1)[0] + "…"
+
+
+def build_triggers(signal_ids, all_signals, entity, entity_type):
+    """Build 1-5 diverse triggers from signals and entity metadata.
+
+    Rules:
+    - Deduplicate signals about the same event (keep best headline)
+    - Add variety: pull from different trigger categories
+    - Each trigger: {type, text, time}
+    - Max 80 chars per trigger text
+    - Factual compression: state what happened, no interpretation
+    """
+    sig_map = {s["id"]: s for s in all_signals}
+    sigs = [sig_map[sid] for sid in signal_ids if sid in sig_map]
+    if not sigs:
+        return []
+
+    # Group signals by type to deduplicate
+    by_type = defaultdict(list)
+    for s in sigs:
+        by_type[s.get("signal_type", "media_mention")].append(s)
+
+    triggers = []
+    seen_categories = set()
+
+    # 1. Pick best signal per type (deduplicated)
+    for sig_type, type_sigs in by_type.items():
+        # Best = shortest headline (more concise) among tier_1 signals, or just first
+        best = sorted(type_sigs, key=lambda s: (
+            0 if s.get("signal_tier") == "tier_1_strong" else 1,
+            len(s.get("headline", "")),
+        ))[0]
+
+        category = _TRIGGER_CATEGORY.get(sig_type, "sector")
+        source_note = ""
+        if len(type_sigs) > 1:
+            source_note = f" ({len(type_sigs)} sources)"
+
+        headline = best.get("headline", "")
+        # Strip company name prefix if present to save space
+        if entity and entity.get("name") and headline.lower().startswith(entity["name"].lower()):
+            headline = headline[len(entity["name"]):].lstrip(" -–—:,")
+
+        text = _truncate(headline + source_note)
+        triggers.append({
+            "type": category,
+            "text": text,
+            "time": _relative_time(best.get("published_at")),
+        })
+        seen_categories.add(category)
+
+    # 2. Synthesize additional triggers from entity metadata if we need variety
+    if entity and entity_type == "company":
+        # Sector trigger from company metadata
+        if "sector" not in seen_categories and entity.get("sector"):
+            sector = entity.get("sector", "")
+            sub = entity.get("sub_sector", "")
+            label = f"{sector}" + (f" / {sub}" if sub else "")
+            triggers.append({
+                "type": "sector",
+                "text": _truncate(f"Active in {label}"),
+                "time": "",
+            })
+            seen_categories.add("sector")
+
+        # Geography trigger
+        if entity.get("hq_country") and entity.get("hq_city"):
+            country = entity.get("hq_country", "")
+            city = entity.get("hq_city", "")
+            if len(triggers) < 4:
+                triggers.append({
+                    "type": "growth",
+                    "text": f"HQ: {city}, {country}",
+                    "time": "",
+                })
+
+    # Cap at 5 triggers
+    return triggers[:5]
+
+
 # ── Build Final Opportunities ──
 
 def build_opportunities(scored, all_signals, companies, investors, config, people=None):
@@ -456,12 +584,23 @@ def build_opportunities(scored, all_signals, companies, investors, config, peopl
         people = []
     scored = generate_rationales(scored, all_signals, companies, investors, people)
 
+    company_map = {c["id"]: c for c in companies}
+    investor_map = {i["id"]: i for i in investors}
+    person_map = {p["id"]: p for p in people}
+
     today = date.today().isoformat()
     opportunities = []
 
     for i, opp in enumerate(scored):
         entity_type = opp["entity_type"]
         entity_id = opp["entity_id"]
+
+        if entity_type == "company":
+            entity = company_map.get(entity_id)
+        elif entity_type == "investor":
+            entity = investor_map.get(entity_id)
+        else:
+            entity = person_map.get(entity_id)
 
         record = {
             "id": f"opp_{today.replace('-', '')}_{i+1:03d}",
@@ -474,6 +613,7 @@ def build_opportunities(scored, all_signals, companies, investors, config, peopl
             "opportunity_score": opp["opportunity_score"],
             "score_breakdown": opp["score_breakdown"],
             "ai_rationale": opp.get("ai_rationale", ""),
+            "triggers": build_triggers(opp["signal_ids"], all_signals, entity, entity_type),
             "entity_type": entity_type,
             "status": "new",
         }

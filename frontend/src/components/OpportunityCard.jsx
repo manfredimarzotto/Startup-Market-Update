@@ -180,15 +180,17 @@ export default function OpportunityCard({ opportunity, onStatusChange, index = 0
 
   const statusStyle = STATUS_COLORS[status] || STATUS_COLORS.new;
 
-  // Build triggers from signals for the drawer
-  const triggers = oppSignals.map(s => ({
-    type: s.signal_type,
-    text: s.headline || formatSignalType(s.signal_type),
-    time: daysSince(s.published_at) === 0 ? 'today'
-      : daysSince(s.published_at) === 1 ? '1d ago'
-      : daysSince(s.published_at) < 7 ? `${daysSince(s.published_at)}d ago`
-      : `${Math.round(daysSince(s.published_at) / 7)}w ago`,
-  }));
+  // Use pre-built triggers from pipeline if available, else build from signals
+  const triggers = opportunity.triggers && opportunity.triggers.length > 0
+    ? opportunity.triggers
+    : oppSignals.map(s => ({
+        type: s.signal_type,
+        text: s.headline || formatSignalType(s.signal_type),
+        time: daysSince(s.published_at) === 0 ? 'today'
+          : daysSince(s.published_at) === 1 ? '1d ago'
+          : daysSince(s.published_at) < 7 ? `${daysSince(s.published_at)}d ago`
+          : `${Math.round(daysSince(s.published_at) / 7)}w ago`,
+      }));
 
   // Score breakdown — keys now match v4 factor names directly
   const bd = opportunity.score_breakdown || {};
@@ -244,7 +246,7 @@ export default function OpportunityCard({ opportunity, onStatusChange, index = 0
               padding: '1px 6px', borderRadius: 999, fontSize: 10, fontWeight: 500,
               background: statusStyle.bg, color: statusStyle.color,
             }}>{status}</span>
-            {(status === 'contacted' || status === 'viewed') && (
+            {opportunity.crmSync && (
               <span style={{ fontSize: 10, color: '#94a3b8', display: 'flex', alignItems: 'center', gap: 3 }}>
                 <svg width="9" height="9" viewBox="0 0 16 16" fill="none"><path d="M2 8.5l4 4 8-9" stroke="#10b981" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
                 CRM
@@ -291,7 +293,13 @@ export default function OpportunityCard({ opportunity, onStatusChange, index = 0
             <span style={{ margin: '0 6px', color: '#e2e8f0' }}>&middot;</span>
             <span>{updatedAgo}</span>
             <span style={{ margin: '0 6px', color: '#e2e8f0' }}>&middot;</span>
-            <OwnerBadge initials={status === 'contacted' ? 'MR' : null} />
+            <OwnerBadge initials={opportunity.owner || null} />
+            {opportunity.lastTouch && (
+              <>
+                <span style={{ margin: '0 6px', color: '#e2e8f0' }}>&middot;</span>
+                <span style={{ fontSize: 10, color: '#94a3b8', fontStyle: 'italic' }}>{opportunity.lastTouch}</span>
+              </>
+            )}
           </div>
 
           {/* Why Surfaced Drawer */}
