@@ -108,10 +108,10 @@ function TriageRow({ opportunity, isSelected, onSelect, isOpen, onToggle, onStat
   }));
 
   const breakdown = {
-    Events: bd.signal_strength || 0,
-    Capital: bd.deal_magnitude || 0,
-    Momentum: bd.recency || 0,
-    Sources: bd.growth_velocity || 0,
+    Events: bd.events || 0,
+    Capital: bd.capital || 0,
+    Momentum: bd.momentum || 0,
+    Sources: bd.sources || 0,
   };
 
   return (

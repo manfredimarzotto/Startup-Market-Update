@@ -190,13 +190,13 @@ export default function OpportunityCard({ opportunity, onStatusChange, index = 0
       : `${Math.round(daysSince(s.published_at) / 7)}w ago`,
   }));
 
-  // Score breakdown mapped to v4 labels
+  // Score breakdown — keys now match v4 factor names directly
   const bd = opportunity.score_breakdown || {};
   const breakdown = {
-    events: bd.signal_strength || 0,
-    capital: bd.deal_magnitude || 0,
-    momentum: bd.recency || 0,
-    sources: bd.growth_velocity || 0,
+    events: bd.events || 0,
+    capital: bd.capital || 0,
+    momentum: bd.momentum || 0,
+    sources: bd.sources || 0,
   };
 
   const fit = deriveFit(opportunity_score);
