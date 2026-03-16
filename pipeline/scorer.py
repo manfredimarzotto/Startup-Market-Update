@@ -363,15 +363,30 @@ def score_signals(all_signals, config):
 # ── AI Rationale Generation ──
 
 RATIONALE_PROMPT = """\
-You are a venture analyst. Given these market signals about {entity_name}, write a 1-2 sentence rationale explaining why this is a noteworthy opportunity right now. Be specific about the signals and what makes the timing interesting. Be concise and direct — no filler.
+Write a factual one-line summary for {entity_name} using ONLY the signals below.
 
 Signals:
 {signal_summaries}
 
-Entity: {entity_name} ({entity_type})
-Score: {score}/99
+Source count: {source_count}
 
-Write the rationale as a single paragraph, no quotes or prefix:"""
+Rules:
+- Maximum 120 characters
+- Lead with the hard fact (round size, or key event if no funding)
+- Use middot (·) to separate facts
+- Include source count as a fact (e.g. "3 sources")
+- Include one concrete market/policy datapoint if available from signals
+- NEVER use these words: validates, signals, positions, captures, conviction, inflection, critical, meaningful, substantial, significant, well-positioned
+- NO narrative framing: "at a moment when", "making this", "positioning the"
+- State facts, not interpretations
+
+Examples of GOOD output:
+- "€30M Series A closed · defence procurement subsystems · 4 sources · NATO 3.5% GDP mandate in effect."
+- "$9M round · AI parts procurement for MRO · 2 sources · investor undisclosed."
+- "€270K across 3 angel closes · AI therapy localisation · 2 sources · no lead identified."
+- "No new round · hiring surge +40% QoQ · 3 sources · German digitisation mandate Q3 2026."
+
+Write ONLY the summary line, nothing else:"""
 
 
 def generate_rationales(opportunities, all_signals, companies, investors, people=None):
@@ -413,15 +428,14 @@ def generate_rationales(opportunities, all_signals, companies, investors, people
 
         prompt = RATIONALE_PROMPT.format(
             entity_name=entity_name,
-            entity_type=entity_type,
             signal_summaries="\n".join(sig_summaries),
-            score=opp["opportunity_score"],
+            source_count=len(opp["signal_ids"]),
         )
 
         try:
             response = client.messages.create(
                 model=MODEL,
-                max_tokens=200,
+                max_tokens=80,
                 messages=[{"role": "user", "content": prompt}],
             )
             total_input_tokens += getattr(response.usage, "input_tokens", 0)

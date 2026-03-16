@@ -19,7 +19,7 @@
       "sources": 15,
       "geo_weight": 1.0
     },
-    "ai_rationale": "Bliss is capturing meaningful angel momentum ($270K-\u20ac233K across multiple closes) for a culturally-adapted AI therapy model at a moment when mental health AI remains largely monolithic and global markets are underserved by localized solutions, positioning the startup to establish category leadership in an adjacent segment of the $5B+ digital mental health market before larger incumbents build comparable cultural intelligence into their platforms.",
+    "ai_rationale": "\u20ac270K across 3 angel closes \u00b7 AI therapy localisation \u00b7 3 sources \u00b7 no lead identified.",
     "entity_type": "company",
     "status": "new"
   },
@@ -43,7 +43,7 @@
       "sources": 15,
       "geo_weight": 0.8
     },
-    "ai_rationale": "Isembard has secured $50M+ in Series A funding to scale software-driven factory automation across aerospace and energy\u2014sectors with chronic underinvestment in digitization and acute labor shortages\u2014positioning the company to capture significant TAM during a period when European industrial policy actively incentivizes manufacturing reshoring and automation investment.",
+    "ai_rationale": "$50M Series A \u00b7 software-driven factory automation \u00b7 3 sources \u00b7 aerospace + energy focus.",
     "entity_type": "company",
     "status": "new"
   },
@@ -68,7 +68,7 @@
       "sources": 9,
       "geo_weight": 0.8
     },
-    "ai_rationale": "Entrepreneurs First's unicorn valuation validates the founder-first accelerator model at scale precisely as the neobank ecosystem faces consolidation\u2014Fi's shutdown signals that operator-dependent fintech platforms are losing viability, making EF's thesis of backing resilient founders rather than betting on specific verticals increasingly attractive to LPs seeking de-risked exposure to startup creation.",
+    "ai_rationale": "$200M raise, unicorn status \u00b7 founder-first accelerator \u00b7 2 sources \u00b7 UK-based.",
     "entity_type": "company",
     "status": "new"
   },
@@ -97,7 +97,7 @@
       "sources": 25,
       "geo_weight": 0.5
     },
-    "ai_rationale": "",
+    "ai_rationale": "$550M Series D at $5.55B valuation \u00b7 AI legal tech \u00b7 6 sources \u00b7 Canadian acquisition.",
     "entity_type": "company",
     "status": "new"
   },
@@ -120,7 +120,7 @@
       "sources": 10,
       "geo_weight": 0.8
     },
-    "ai_rationale": "Tropic's dual large Series C rounds (\u20ac91.3M and $105M) signal investor confidence in commercializing gene-edited tropical crops at scale, while the explicit focus on climate resilience addresses an urgent market need as extreme weather threatens global food security and smallholder farmer livelihoods in tropical regions. The timing is critical as regulatory pathways for gene-edited crops are finally clarifying in key markets, creating a narrow window to establish first-mover advantage in a category that could reshape tropical agriculture's resilience profile.",
+    "ai_rationale": "\u20ac91M + $105M dual Series C \u00b7 gene-edited tropical crops \u00b7 2 sources \u00b7 UK AgTech.",
     "entity_type": "company",
     "status": "new"
   },
@@ -143,7 +143,7 @@
       "sources": 10,
       "geo_weight": 0.8
     },
-    "ai_rationale": "Seprify's \u20ac13.4M Series A from Inter IKEA Group validates both market demand and commercial viability for bio-based cellulose replacements in industrial applications, signaling that a major Fortune 500 buyer is backing the technology with capital\u2014a critical de-risking signal for a materials startup seeking to scale production and displace petrochemical incumbents. The timing is noteworthy because sustainability-driven procurement mandates and carbon pricing are collapsing timelines for alternative materials adoption, making first-mover cellulose platforms valuable acquisition or partnership targets for multinational manufacturers facing regulatory and ESG pressure.",
+    "ai_rationale": "\u20ac13.4M Series A \u00b7 bio-based cellulose materials \u00b7 2 sources \u00b7 Inter IKEA as investor.",
     "entity_type": "company",
     "status": "new"
   },
@@ -171,7 +171,7 @@
       "sources": 19,
       "geo_weight": 0.5
     },
-    "ai_rationale": "",
+    "ai_rationale": "$2B Series C at $14.6B valuation \u00b7 AI hyperscaler \u00b7 4 sources \u00b7 Nvidia-backed.",
     "entity_type": "company",
     "status": "new"
   },
@@ -193,7 +193,7 @@
       "sources": 5,
       "geo_weight": 1.0
     },
-    "ai_rationale": "Frankenburg Technologies' \u20ac30M Series A signals strong institutional validation for European defense tech at a critical moment when NATO members are rapidly rearmament budgets following geopolitical escalation, positioning the Estonian firm to capture substantial procurement demand across allied nations with minimal competitive friction in the missile systems segment.",
+    "ai_rationale": "\u20ac30M Series A \u00b7 defence procurement subsystems \u00b7 1 source \u00b7 Plural-led, Estonia.",
     "entity_type": "company",
     "status": "new"
   },
@@ -216,7 +216,7 @@
       "sources": 10,
       "geo_weight": 0.8
     },
-    "ai_rationale": "",
+    "ai_rationale": "$4M pre-seed \u00b7 prepaid payments API infrastructure \u00b7 2 sources \u00b7 Berlin-based.",
     "entity_type": "company",
     "status": "new"
   },
@@ -238,7 +238,7 @@
       "sources": 5,
       "geo_weight": 1.0
     },
-    "ai_rationale": "Photoncycle's \u20ac15M Series A validates the seasonal hydrogen storage market at a critical inflection point where Europe's renewable overcapacity (driven by aggressive wind/solar buildouts) is creating immediate demand for long-duration energy arbitrage, making this well-capitalized expansion into the Netherlands and Denmark strategically timed to capture first-mover advantage in structurally underpenetrated geographies facing grid balancing constraints.",
+    "ai_rationale": "\u20ac15M Series A \u00b7 seasonal hydrogen storage \u00b7 1 source \u00b7 NL + DK expansion.",
     "entity_type": "company",
     "status": "new"
   },
@@ -260,7 +260,7 @@
       "sources": 5,
       "geo_weight": 1.0
     },
-    "ai_rationale": "SkySelect's $9M funding round signals strong investor conviction in AI-driven supply chain modernization at a critical inflection point when aviation is recovering post-pandemic and facing acute parts inventory inefficiencies, making the company positioned to capture substantial TAM expansion as operators prioritize cost optimization and operational resilience.",
+    "ai_rationale": "$9M round \u00b7 AI parts procurement for aviation MRO \u00b7 1 source \u00b7 Estonia-based.",
     "entity_type": "company",
     "status": "new"
   },
@@ -282,7 +282,7 @@
       "sources": 4,
       "geo_weight": 1.0
     },
-    "ai_rationale": "Maria 01's 76/99 score reflects genuine market validation at a critical inflection point: Finnish startups in its community have tripled funding to \u20ac337M in 2025, signaling that the ecosystem it operates within is experiencing accelerated capital deployment and founder confidence\u2014exactly the conditions where a well-positioned platform or service provider can capture outsized value through network effects and increased transaction volume.",
+    "ai_rationale": "\u20ac337M total community funding in 2025 \u00b7 Finnish startup hub \u00b7 1 source.",
     "entity_type": "company",
     "status": "new"
   },
@@ -304,7 +304,7 @@
       "sources": 5,
       "geo_weight": 1.0
     },
-    "ai_rationale": "Mycoverse's \u20ac2.4M pre-seed validates strong investor conviction in fungal biocontrol as a scalable alternative to chemical fungicides at a critical moment when potato blight resistance to conventional treatments is accelerating across Europe. The timing is notable because regulatory pathways for biological pest control are maturing while commodity price volatility makes growers increasingly receptive to premium solutions that reduce input costs and chemical dependency.",
+    "ai_rationale": "\u20ac2.4M pre-seed \u00b7 fungal biocontrol for potato blight \u00b7 1 source \u00b7 Denmark.",
     "entity_type": "company",
     "status": "new"
   },
@@ -326,7 +326,7 @@
       "sources": 5,
       "geo_weight": 1.0
     },
-    "ai_rationale": "Groundhawk's \u20ac2M seed raise signals strong investor conviction in AI-driven subsurface mapping at a moment when utilities and infrastructure operators face critical digitization gaps\u2014the combination of proven funding traction, a high-confidence analyst score (73/99), and the market's urgent need for underground asset visibility positions this as a timely entry point in the infrastructure intelligence category.",
+    "ai_rationale": "\u20ac2M seed \u00b7 AI underground infrastructure mapping \u00b7 1 source \u00b7 Finland.",
     "entity_type": "company",
     "status": "new"
   },
@@ -352,7 +352,7 @@
       "sources": 15,
       "geo_weight": 0.5
     },
-    "ai_rationale": "",
+    "ai_rationale": "$50M Series B \u00b7 vector search infrastructure \u00b7 3 sources \u00b7 AVP-led.",
     "entity_type": "company",
     "status": "new"
   }
