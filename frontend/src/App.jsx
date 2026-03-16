@@ -1,4 +1,5 @@
 import { useState, useMemo } from 'react';
+import { AnimatePresence, motion } from 'framer-motion';
 import Header from './components/Header';
 import SummaryBar from './components/SummaryBar';
 import Sidebar from './components/Sidebar';
@@ -79,16 +80,23 @@ export default function App() {
           {/* Cards feed */}
           {filteredOpportunities.length > 0 ? (
             <div className="space-y-4">
-              {filteredOpportunities.map(opp => (
-                <OpportunityCard
-                  key={opp.id}
-                  opportunity={opp}
-                  onStatusChange={setStatus}
-                />
-              ))}
+              <AnimatePresence mode="popLayout">
+                {filteredOpportunities.map((opp, i) => (
+                  <OpportunityCard
+                    key={opp.id}
+                    opportunity={opp}
+                    onStatusChange={setStatus}
+                    index={i}
+                  />
+                ))}
+              </AnimatePresence>
             </div>
           ) : (
-            <div className="glass rounded-bento p-12 text-center mt-4">
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="glass rounded-bento p-12 text-center mt-4"
+            >
               <p className="text-white/30">No opportunities match the current filters.</p>
               <button
                 onClick={resetFilters}
@@ -96,7 +104,7 @@ export default function App() {
               >
                 Reset filters
               </button>
-            </div>
+            </motion.div>
           )}
         </main>
       </div>
@@ -107,22 +115,30 @@ export default function App() {
 function ActiveFilters({ filters, setFilter, resetFilters }) {
   const chips = [];
   if (filters.geography) {
-    chips.push({ label: filters.geography, clear: () => setFilter('geography', '') });
+    chips.push({ key: 'geo', label: filters.geography, clear: () => setFilter('geography', '') });
   }
   if (filters.country) {
-    chips.push({ label: filters.country, clear: () => setFilter('country', '') });
+    chips.push({ key: 'country', label: filters.country, clear: () => setFilter('country', '') });
   }
 
   if (chips.length === 0) return null;
 
   return (
     <div className="flex flex-wrap items-center gap-2 mb-4">
-      {chips.map((chip, i) => (
-        <span key={i} className="glass inline-flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs text-white/60">
-          {chip.label}
-          <button onClick={chip.clear} className="text-white/30 hover:text-white/60 transition-colors ml-1">&times;</button>
-        </span>
-      ))}
+      <AnimatePresence>
+        {chips.map(chip => (
+          <motion.span
+            key={chip.key}
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.8 }}
+            className="glass inline-flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs text-white/60"
+          >
+            {chip.label}
+            <button onClick={chip.clear} className="text-white/30 hover:text-white/60 transition-colors ml-1">&times;</button>
+          </motion.span>
+        ))}
+      </AnimatePresence>
       <button
         onClick={resetFilters}
         className="text-xs text-violet-400 hover:text-violet-300 transition-colors ml-1"
