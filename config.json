@@ -10,5 +10,5 @@
   },
   "minimum_signal_tier": "tier_3_weak",
   "daily_opportunities": 15,
-  "recency_decay_days": 30
+  "recency_decay_days": 45
 }

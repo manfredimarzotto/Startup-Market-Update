@@ -88,20 +88,19 @@ Six JSON files in `data/`:
 | `geography_weights` | Multiplier per geography (0.0–1.0) | Nordics: 1.0, DACH: 0.8, UK: 0.8, etc. |
 | `minimum_signal_tier` | Lowest tier to include | `"tier_3_weak"` |
 | `daily_opportunities` | Max opportunities per run | `15` |
-| `recency_decay_days` | Days until a signal scores 0 for recency | `30` |
+| `recency_decay_days` | Days until a signal scores 0 for recency | `45` |
 
 ## Scoring Formula
 
-Opportunity scores are computed per entity (company/investor/person) in `pipeline/scorer.py`:
+Opportunity scores are computed per entity (company/investor/person) in `pipeline/scorer.py` using a four-factor model:
 
-- **Signal strength** (0–25): Based on best signal tier — `tier_1_strong`=25, `tier_2_medium`=15, `tier_3_weak`=5
-- **Recency** (0–30): Linear decay from 30→0 over `recency_decay_days` (default 30)
-- **Deal magnitude** (0–25): Log-scaled funding amount — $100K=5, $1M=10, $10M=15, $100M=20, $1B+=25
-- **Velocity** (0–10): `min(10, signal_count × 4)` — mild bonus for multiple signals
-- **Type bonus** (scaled by 0.3): `funding_round`=30, `acquisition`=28, `new_fund`=25, `hiring_wave`=20, `partnership`=18, `expansion`=15, `product_launch`=12, `media_mention`=8
-- **Geography weight**: Multiplier from `config.json` (default 0.5 for unlisted regions)
+- **Events** (0–25): Observable company actions × recency multiplier. Tier base: `tier_1_strong`=12, `tier_2_medium`=6, `tier_3_weak`=3. Best signal at full value, additional signals at 40%.
+- **Capital** (0–25): Funding signals only. Log-scaled amount ($100K=3, $1M=8, $10M=14, $100M=19, $1B+=25). Returns 0 when no recent funding.
+- **Momentum** (0–25): Signal velocity (`count × 5`, cap 15) + type diversity (`distinct_types × 4`, cap 10). Proxy for sector activity.
+- **Sources** (0–25): Independent source count × quality weight (`tier_1`=5, `tier_2`=4, `tier_3`=3 per source). 1 source = 3–5.
+- **Geography weight**: Final multiplier from `config.json` (default 0.5 for unlisted regions)
 
-Final score: `min(99, (strength + recency + deal_magnitude + velocity) × geo_weight + type_bonus × 0.3)`
+Final score: `min(99, (events + capital + momentum + sources) × geo_weight)`
 
 ## Tech Stack
 

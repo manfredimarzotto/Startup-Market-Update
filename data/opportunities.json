@@ -2,72 +2,6 @@
   {
     "id": "opp_20260316_001",
     "generated_date": "2026-03-16",
-    "company_id": "co_cc072325327d",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_c2c5595a51727f06"
-    ],
-    "contact_ids": [],
-    "opportunity_score": 81,
-    "score_breakdown": {
-      "signal_strength": 25,
-      "recency": 26,
-      "deal_magnitude": 17,
-      "growth_velocity": 4,
-      "geo_weight": 1.0
-    },
-    "ai_rationale": "Frankenburg Technologies' \u20ac30M Series A signals strong institutional validation for European defense tech at a critical moment when NATO members are rapidly rearmament budgets following geopolitical escalation, positioning the Estonian firm to capture substantial procurement demand across allied nations with minimal competitive friction in the missile systems segment.",
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260316_002",
-    "generated_date": "2026-03-16",
-    "company_id": "co_11948bd51226",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_0a2012e56d017fb2"
-    ],
-    "contact_ids": [],
-    "opportunity_score": 80,
-    "score_breakdown": {
-      "signal_strength": 25,
-      "recency": 26,
-      "deal_magnitude": 16,
-      "growth_velocity": 4,
-      "geo_weight": 1.0
-    },
-    "ai_rationale": "Photoncycle's \u20ac15M Series A validates the seasonal hydrogen storage market at a critical inflection point where Europe's renewable overcapacity (driven by aggressive wind/solar buildouts) is creating immediate demand for long-duration energy arbitrage, making this well-capitalized expansion into the Netherlands and Denmark strategically timed to capture first-mover advantage in structurally underpenetrated geographies facing grid balancing constraints.",
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260316_003",
-    "generated_date": "2026-03-16",
-    "company_id": "co_b0423c21",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_0cd4b92e8088"
-    ],
-    "contact_ids": [],
-    "opportunity_score": 78,
-    "score_breakdown": {
-      "signal_strength": 25,
-      "recency": 26,
-      "deal_magnitude": 14,
-      "growth_velocity": 4,
-      "geo_weight": 1.0
-    },
-    "ai_rationale": "SkySelect's $9M funding round signals strong investor conviction in AI-driven supply chain modernization at a critical inflection point when aviation is recovering post-pandemic and facing acute parts inventory inefficiencies, making the company positioned to capture substantial TAM expansion as operators prioritize cost optimization and operational resilience.",
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260316_004",
-    "generated_date": "2026-03-16",
     "company_id": "co_3bc5495c",
     "investor_id": null,
     "person_id": null,
@@ -77,12 +11,12 @@
       "sig_488088968cc2653b"
     ],
     "contact_ids": [],
-    "opportunity_score": 76,
+    "opportunity_score": 61,
     "score_breakdown": {
-      "signal_strength": 25,
-      "recency": 25,
-      "deal_magnitude": 7,
-      "growth_velocity": 10,
+      "events": 21,
+      "capital": 6,
+      "momentum": 19,
+      "sources": 15,
       "geo_weight": 1.0
     },
     "ai_rationale": "Bliss is capturing meaningful angel momentum ($270K-\u20ac233K across multiple closes) for a culturally-adapted AI therapy model at a moment when mental health AI remains largely monolithic and global markets are underserved by localized solutions, positioning the startup to establish category leadership in an adjacent segment of the $5B+ digital mental health market before larger incumbents build comparable cultural intelligence into their platforms.",
@@ -90,51 +24,31 @@
     "status": "new"
   },
   {
-    "id": "opp_20260316_005",
+    "id": "opp_20260316_002",
     "generated_date": "2026-03-16",
-    "company_id": "co_7729ac8faad3",
+    "company_id": "co_18402552",
     "investor_id": null,
     "person_id": null,
     "signal_ids": [
-      "sig_e3557b98a57f69c4"
+      "sig_81d5a87edf65",
+      "sig_5f39586ca427",
+      "sig_28d8e5504297"
     ],
     "contact_ids": [],
-    "opportunity_score": 76,
+    "opportunity_score": 56,
     "score_breakdown": {
-      "signal_strength": 25,
-      "recency": 26,
-      "deal_magnitude": 12,
-      "growth_velocity": 4,
-      "geo_weight": 1.0
+      "events": 21,
+      "capital": 16,
+      "momentum": 19,
+      "sources": 15,
+      "geo_weight": 0.8
     },
-    "ai_rationale": "Mycoverse's \u20ac2.4M pre-seed validates strong investor conviction in fungal biocontrol as a scalable alternative to chemical fungicides at a critical moment when potato blight resistance to conventional treatments is accelerating across Europe. The timing is notable because regulatory pathways for biological pest control are maturing while commodity price volatility makes growers increasingly receptive to premium solutions that reduce input costs and chemical dependency.",
+    "ai_rationale": "Isembard has secured $50M+ in Series A funding to scale software-driven factory automation across aerospace and energy\u2014sectors with chronic underinvestment in digitization and acute labor shortages\u2014positioning the company to capture significant TAM during a period when European industrial policy actively incentivizes manufacturing reshoring and automation investment.",
     "entity_type": "company",
     "status": "new"
   },
   {
-    "id": "opp_20260316_006",
-    "generated_date": "2026-03-16",
-    "company_id": "co_c5668b9c3e49",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_fc50d0c44dcad5b6"
-    ],
-    "contact_ids": [],
-    "opportunity_score": 76,
-    "score_breakdown": {
-      "signal_strength": 15,
-      "recency": 26,
-      "deal_magnitude": 22,
-      "growth_velocity": 4,
-      "geo_weight": 1.0
-    },
-    "ai_rationale": "Maria 01's 76/99 score reflects genuine market validation at a critical inflection point: Finnish startups in its community have tripled funding to \u20ac337M in 2025, signaling that the ecosystem it operates within is experiencing accelerated capital deployment and founder confidence\u2014exactly the conditions where a well-positioned platform or service provider can capture outsized value through network effects and increased transaction volume.",
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260316_007",
+    "id": "opp_20260316_003",
     "generated_date": "2026-03-16",
     "company_id": "co_0d6f5cbe",
     "investor_id": null,
@@ -146,12 +60,12 @@
     "contact_ids": [
       "per_e0066de4"
     ],
-    "opportunity_score": 73,
+    "opportunity_score": 48,
     "score_breakdown": {
-      "signal_strength": 25,
-      "recency": 26,
-      "deal_magnitude": 21,
-      "growth_velocity": 8,
+      "events": 14,
+      "capital": 19,
+      "momentum": 18,
+      "sources": 9,
       "geo_weight": 0.8
     },
     "ai_rationale": "Entrepreneurs First's unicorn valuation validates the founder-first accelerator model at scale precisely as the neobank ecosystem faces consolidation\u2014Fi's shutdown signals that operator-dependent fintech platforms are losing viability, making EF's thesis of backing resilient founders rather than betting on specific verticals increasingly attractive to LPs seeking de-risked exposure to startup creation.",
@@ -159,7 +73,36 @@
     "status": "new"
   },
   {
-    "id": "opp_20260316_008",
+    "id": "opp_20260316_004",
+    "generated_date": "2026-03-16",
+    "company_id": "co_22dc0248",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_4699cb4e957c",
+      "sig_6bf535dd4d65",
+      "sig_3566e9a238bc",
+      "sig_37ec0dd35ae1",
+      "sig_552dcd72743f78c3",
+      "sig_6d76bca446789b71"
+    ],
+    "contact_ids": [
+      "per_13987f9f"
+    ],
+    "opportunity_score": 47,
+    "score_breakdown": {
+      "events": 25,
+      "capital": 21,
+      "momentum": 23,
+      "sources": 25,
+      "geo_weight": 0.5
+    },
+    "ai_rationale": "",
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260316_005",
     "generated_date": "2026-03-16",
     "company_id": "co_f9d373cb",
     "investor_id": null,
@@ -169,12 +112,12 @@
       "sig_99a20501a2b126c5"
     ],
     "contact_ids": [],
-    "opportunity_score": 73,
+    "opportunity_score": 46,
     "score_breakdown": {
-      "signal_strength": 25,
-      "recency": 27,
-      "deal_magnitude": 20,
-      "growth_velocity": 8,
+      "events": 16,
+      "capital": 18,
+      "momentum": 14,
+      "sources": 10,
       "geo_weight": 0.8
     },
     "ai_rationale": "Tropic's dual large Series C rounds (\u20ac91.3M and $105M) signal investor confidence in commercializing gene-edited tropical crops at scale, while the explicit focus on climate resilience addresses an urgent market need as extreme weather threatens global food security and smallholder farmer livelihoods in tropical regions. The timing is critical as regulatory pathways for gene-edited crops are finally clarifying in key markets, creating a narrow window to establish first-mover advantage in a category that could reshape tropical agriculture's resilience profile.",
@@ -182,75 +125,7 @@
     "status": "new"
   },
   {
-    "id": "opp_20260316_009",
-    "generated_date": "2026-03-16",
-    "company_id": "co_8ed7ff25d0e5",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_e9860e35f50180d9"
-    ],
-    "contact_ids": [],
-    "opportunity_score": 73,
-    "score_breakdown": {
-      "signal_strength": 25,
-      "recency": 24,
-      "deal_magnitude": 11,
-      "growth_velocity": 4,
-      "geo_weight": 1.0
-    },
-    "ai_rationale": "Groundhawk's \u20ac2M seed raise signals strong investor conviction in AI-driven subsurface mapping at a moment when utilities and infrastructure operators face critical digitization gaps\u2014the combination of proven funding traction, a high-confidence analyst score (73/99), and the market's urgent need for underground asset visibility positions this as a timely entry point in the infrastructure intelligence category.",
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260316_010",
-    "generated_date": "2026-03-16",
-    "company_id": "co_18402552",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_81d5a87edf65",
-      "sig_5f39586ca427",
-      "sig_28d8e5504297"
-    ],
-    "contact_ids": [],
-    "opportunity_score": 70,
-    "score_breakdown": {
-      "signal_strength": 25,
-      "recency": 24,
-      "deal_magnitude": 18,
-      "growth_velocity": 10,
-      "geo_weight": 0.8
-    },
-    "ai_rationale": "Isembard has secured $50M+ in Series A funding to scale software-driven factory automation across aerospace and energy\u2014sectors with chronic underinvestment in digitization and acute labor shortages\u2014positioning the company to capture significant TAM during a period when European industrial policy actively incentivizes manufacturing reshoring and automation investment.",
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260316_011",
-    "generated_date": "2026-03-16",
-    "company_id": "co_af85ca43a9c1",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_48bcf5db4e7374c4"
-    ],
-    "contact_ids": [],
-    "opportunity_score": 69,
-    "score_breakdown": {
-      "signal_strength": 25,
-      "recency": 30,
-      "deal_magnitude": 16,
-      "growth_velocity": 4,
-      "geo_weight": 0.8
-    },
-    "ai_rationale": "Chorus Intelligence's \u00a315m raise from Maven Capital Partners validates strong institutional confidence in its law enforcement software platform at a time when government agencies are accelerating digital transformation budgets post-pandemic, and the 69/99 score suggests meaningful commercial traction that justifies the premium valuation typical of specialized B2G software plays.",
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260316_012",
+    "id": "opp_20260316_006",
     "generated_date": "2026-03-16",
     "company_id": "co_4e35a72b",
     "investor_id": null,
@@ -260,12 +135,12 @@
       "sig_987757af62e1"
     ],
     "contact_ids": [],
-    "opportunity_score": 66,
+    "opportunity_score": 43,
     "score_breakdown": {
-      "signal_strength": 25,
-      "recency": 24,
-      "deal_magnitude": 15,
-      "growth_velocity": 8,
+      "events": 16,
+      "capital": 14,
+      "momentum": 14,
+      "sources": 10,
       "geo_weight": 0.8
     },
     "ai_rationale": "Seprify's \u20ac13.4M Series A from Inter IKEA Group validates both market demand and commercial viability for bio-based cellulose replacements in industrial applications, signaling that a major Fortune 500 buyer is backing the technology with capital\u2014a critical de-risking signal for a materials startup seeking to scale production and displace petrochemical incumbents. The timing is noteworthy because sustainability-driven procurement mandates and carbon pricing are collapsing timelines for alternative materials adoption, making first-mover cellulose platforms valuable acquisition or partnership targets for multinational manufacturers facing regulatory and ESG pressure.",
@@ -273,68 +148,211 @@
     "status": "new"
   },
   {
-    "id": "opp_20260316_013",
+    "id": "opp_20260316_007",
     "generated_date": "2026-03-16",
-    "company_id": "co_f1da715f",
+    "company_id": "co_eb6cf0bb",
     "investor_id": null,
     "person_id": null,
     "signal_ids": [
-      "sig_1653319fb7de"
+      "sig_6e955d3f0fd5",
+      "sig_eac640fbbe0c",
+      "sig_f76ca1ef2b8242a2",
+      "sig_29d591f70f10ad7c"
+    ],
+    "contact_ids": [
+      "per_a1c563d6",
+      "per_41c601ab"
+    ],
+    "opportunity_score": 42,
+    "score_breakdown": {
+      "events": 24,
+      "capital": 23,
+      "momentum": 19,
+      "sources": 19,
+      "geo_weight": 0.5
+    },
+    "ai_rationale": "",
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260316_008",
+    "generated_date": "2026-03-16",
+    "company_id": "co_cc072325327d",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_c2c5595a51727f06"
     ],
     "contact_ids": [],
-    "opportunity_score": 66,
+    "opportunity_score": 41,
     "score_breakdown": {
-      "signal_strength": 25,
-      "recency": 26,
-      "deal_magnitude": 19,
-      "growth_velocity": 4,
+      "events": 12,
+      "capital": 15,
+      "momentum": 9,
+      "sources": 5,
+      "geo_weight": 1.0
+    },
+    "ai_rationale": "Frankenburg Technologies' \u20ac30M Series A signals strong institutional validation for European defense tech at a critical moment when NATO members are rapidly rearmament budgets following geopolitical escalation, positioning the Estonian firm to capture substantial procurement demand across allied nations with minimal competitive friction in the missile systems segment.",
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260316_009",
+    "generated_date": "2026-03-16",
+    "company_id": "co_a8dff0cf",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_37caca3226ab",
+      "sig_2f33f09a0768"
+    ],
+    "contact_ids": [],
+    "opportunity_score": 40,
+    "score_breakdown": {
+      "events": 16,
+      "capital": 11,
+      "momentum": 14,
+      "sources": 10,
       "geo_weight": 0.8
     },
-    "ai_rationale": "UVC Partners' \u20ac77m first close signals a strategic pivot from seed-stage specialist to multi-stage investor at a moment when European VCs are consolidating ticket sizes to compete with US mega-funds, positioning them to capture more ownership across portfolio companies' growth trajectories. The 66/99 score suggests execution risk, but the fund expansion indicates strong LP confidence in their track record and a timely bet on the consolidation trend reshaping European venture capital.",
+    "ai_rationale": "",
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260316_010",
+    "generated_date": "2026-03-16",
+    "company_id": "co_11948bd51226",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_0a2012e56d017fb2"
+    ],
+    "contact_ids": [],
+    "opportunity_score": 40,
+    "score_breakdown": {
+      "events": 12,
+      "capital": 14,
+      "momentum": 9,
+      "sources": 5,
+      "geo_weight": 1.0
+    },
+    "ai_rationale": "Photoncycle's \u20ac15M Series A validates the seasonal hydrogen storage market at a critical inflection point where Europe's renewable overcapacity (driven by aggressive wind/solar buildouts) is creating immediate demand for long-duration energy arbitrage, making this well-capitalized expansion into the Netherlands and Denmark strategically timed to capture first-mover advantage in structurally underpenetrated geographies facing grid balancing constraints.",
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260316_011",
+    "generated_date": "2026-03-16",
+    "company_id": "co_b0423c21",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_0cd4b92e8088"
+    ],
+    "contact_ids": [],
+    "opportunity_score": 39,
+    "score_breakdown": {
+      "events": 12,
+      "capital": 13,
+      "momentum": 9,
+      "sources": 5,
+      "geo_weight": 1.0
+    },
+    "ai_rationale": "SkySelect's $9M funding round signals strong investor conviction in AI-driven supply chain modernization at a critical inflection point when aviation is recovering post-pandemic and facing acute parts inventory inefficiencies, making the company positioned to capture substantial TAM expansion as operators prioritize cost optimization and operational resilience.",
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260316_012",
+    "generated_date": "2026-03-16",
+    "company_id": "co_c5668b9c3e49",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_fc50d0c44dcad5b6"
+    ],
+    "contact_ids": [],
+    "opportunity_score": 39,
+    "score_breakdown": {
+      "events": 6,
+      "capital": 20,
+      "momentum": 9,
+      "sources": 4,
+      "geo_weight": 1.0
+    },
+    "ai_rationale": "Maria 01's 76/99 score reflects genuine market validation at a critical inflection point: Finnish startups in its community have tripled funding to \u20ac337M in 2025, signaling that the ecosystem it operates within is experiencing accelerated capital deployment and founder confidence\u2014exactly the conditions where a well-positioned platform or service provider can capture outsized value through network effects and increased transaction volume.",
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260316_013",
+    "generated_date": "2026-03-16",
+    "company_id": "co_7729ac8faad3",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_e3557b98a57f69c4"
+    ],
+    "contact_ids": [],
+    "opportunity_score": 36,
+    "score_breakdown": {
+      "events": 12,
+      "capital": 10,
+      "momentum": 9,
+      "sources": 5,
+      "geo_weight": 1.0
+    },
+    "ai_rationale": "Mycoverse's \u20ac2.4M pre-seed validates strong investor conviction in fungal biocontrol as a scalable alternative to chemical fungicides at a critical moment when potato blight resistance to conventional treatments is accelerating across Europe. The timing is notable because regulatory pathways for biological pest control are maturing while commodity price volatility makes growers increasingly receptive to premium solutions that reduce input costs and chemical dependency.",
     "entity_type": "company",
     "status": "new"
   },
   {
     "id": "opp_20260316_014",
     "generated_date": "2026-03-16",
-    "company_id": "co_c4dc4fd58f60",
+    "company_id": "co_8ed7ff25d0e5",
     "investor_id": null,
     "person_id": null,
     "signal_ids": [
-      "sig_d886f47ff1a88b44"
+      "sig_e9860e35f50180d9"
     ],
     "contact_ids": [],
-    "opportunity_score": 66,
+    "opportunity_score": 36,
     "score_breakdown": {
-      "signal_strength": 25,
-      "recency": 30,
-      "deal_magnitude": 13,
-      "growth_velocity": 4,
-      "geo_weight": 0.8
+      "events": 12,
+      "capital": 10,
+      "momentum": 9,
+      "sources": 5,
+      "geo_weight": 1.0
     },
-    "ai_rationale": "Ternary Therapeutics' \u00a33.6m seed round validates early market demand for AI-driven molecular glue discovery at a time when protein degradation therapeutics are moving from niche to mainstream (Eli Lilly's recent wins, GSK partnership expansions), making this a well-timed entry into a supply-constrained bottleneck. The company's moderate confidence score (66/99) suggests execution risk remains, but the funding injection signals investor conviction that automating glue design can unlock a multi-billion dollar drug pipeline category faster than traditional methods.",
+    "ai_rationale": "Groundhawk's \u20ac2M seed raise signals strong investor conviction in AI-driven subsurface mapping at a moment when utilities and infrastructure operators face critical digitization gaps\u2014the combination of proven funding traction, a high-confidence analyst score (73/99), and the market's urgent need for underground asset visibility positions this as a timely entry point in the infrastructure intelligence category.",
     "entity_type": "company",
     "status": "new"
   },
   {
     "id": "opp_20260316_015",
     "generated_date": "2026-03-16",
-    "company_id": "co_7daf48f9",
+    "company_id": "co_cfc35d18",
     "investor_id": null,
     "person_id": null,
     "signal_ids": [
-      "sig_064b2cba5e74"
+      "sig_3a6684f6a9ce",
+      "sig_9e4dea7298f578d4",
+      "sig_ddc5cc21dd867128"
     ],
-    "contact_ids": [],
-    "opportunity_score": 65,
+    "contact_ids": [
+      "per_68b10f550a3f"
+    ],
+    "opportunity_score": 35,
     "score_breakdown": {
-      "signal_strength": 25,
-      "recency": 25,
-      "deal_magnitude": 16,
-      "growth_velocity": 4,
-      "geo_weight": 0.8
+      "events": 21,
+      "capital": 16,
+      "momentum": 19,
+      "sources": 15,
+      "geo_weight": 0.5
     },
-    "ai_rationale": "Outpost's \u20ac15M Series A validates demand for liability abstraction in cross-border e-commerce at a moment when regulatory fragmentation and logistics complexity are forcing sellers to choose between market access and operational burden. The capital injection signals investor conviction that this infrastructure gap represents a defensible, high-margin opportunity as EU commerce rules tighten and sellers increasingly need intermediaries to manage compliance risk.",
+    "ai_rationale": "",
     "entity_type": "company",
     "status": "new"
   }

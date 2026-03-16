@@ -169,53 +169,118 @@ def resolve_entities(new_signals, companies, investors, people):
 
 # ── Scoring ──
 #
-# Score components (0–99 total):
-#   Signal strength (0–25): Best signal tier
-#   Recency        (0–30): Linear decay over recency_decay_days
-#   Deal magnitude (0–25): Log-scaled funding amount
-#   Velocity       (0–10): Bonus for multiple recent signals (capped low)
-#   Type bonus     (0–9):  Signal type weight × 0.3
-# Geography weight is applied as a multiplier (0.5–1.0) on the raw score.
+# Four-factor model (0–100 total):
+#   Events   (0–25): Observable company actions × recency multiplier
+#   Capital  (0–25): Funding signals only — log-scaled amount + stage bonus. 0 when no funding.
+#   Momentum (0–25): Signal velocity + type diversity (proxy for sector activity)
+#   Sources  (0–25): Independent source count × source quality weight
+#
+# Geography weight is applied as a final multiplier (0.5–1.0).
+# 45-day decay window — events older than 45 days contribute 0.
 
-TIER_SCORES = {"tier_1_strong": 25, "tier_2_medium": 15, "tier_3_weak": 5}
-TYPE_SCORES = {
-    "funding_round": 30, "acquisition": 28, "new_fund": 25,
-    "hiring_wave": 20, "partnership": 18, "expansion": 15,
-    "product_launch": 12, "media_mention": 8,
-}
+TIER_BASE = {"tier_1_strong": 12, "tier_2_medium": 6, "tier_3_weak": 3}
+FUNDING_TYPES = {"funding_round", "new_fund"}
 
 
-def _recency_score(published_at, decay_days=30):
-    """Score from 0-30 based on how recent the signal is."""
+def _days_ago(published_at):
+    """Return days since published_at, or 999 if unparseable."""
     if not published_at:
-        return 0
+        return 999
     try:
         dt = datetime.fromisoformat(published_at.replace("Z", "+00:00"))
-        days = (datetime.now(timezone.utc) - dt).days
+        return max(0, (datetime.now(timezone.utc) - dt).days)
     except (ValueError, TypeError):
-        return 0
-    if days <= 0:
-        return 30
-    if days >= decay_days:
-        return 0
-    return max(0, int(30 * (1 - days / decay_days)))
+        return 999
 
 
-def _deal_magnitude_score(signals):
-    """Score from 0-25 based on the largest funding amount (log-scaled).
+def _recency_mult(days):
+    """Recency multiplier: 0-7d=1.0, 8-15d=0.80, 16-30d=0.60, 31-45d=0.40, >45d=0."""
+    if days <= 7:
+        return 1.0
+    if days <= 15:
+        return 0.80
+    if days <= 30:
+        return 0.60
+    if days <= 45:
+        return 0.40
+    return 0.0
 
-    $100K → 2, $1M → 8, $10M → 14, $100M → 19, $1B+ → 25
+
+def _compute_events(recent_sigs):
+    """Events (0-25): observable company actions × recency multiplier.
+
+    Each signal contributes base points (by tier) × recency multiplier.
+    Best signal counted in full, additional signals add diminishing points.
     """
+    scored = []
+    for s in recent_sigs:
+        base = TIER_BASE.get(s.get("signal_tier"), 2)
+        mult = _recency_mult(_days_ago(s.get("published_at")))
+        scored.append(base * mult)
+    if not scored:
+        return 0
+    scored.sort(reverse=True)
+    # Best signal at full value, subsequent at 40% (diminishing)
+    total = scored[0] + sum(v * 0.4 for v in scored[1:])
+    return min(25, int(total))
+
+
+def _compute_capital(recent_sigs):
+    """Capital (0-25): funding signals only. 0 when no recent funding."""
+    funding_sigs = [s for s in recent_sigs if s.get("signal_type") in FUNDING_TYPES]
+    if not funding_sigs:
+        return 0
+    # Log-scaled amount
     max_amount = 0
-    for sig in signals:
+    for sig in funding_sigs:
         amount = sig.get("metadata", {}).get("amount_usd")
         if amount and isinstance(amount, (int, float)) and amount > 0:
             max_amount = max(max_amount, amount)
     if max_amount <= 0:
-        return 0
-    # Log scale: log10(100K)=5, log10(1B)=9. Map [5,10] → [2,25]
+        # Funding signal exists but no amount extracted — give minimal score
+        return 3
+    # Log scale: $100K=3, $1M=8, $10M=14, $100M=19, $1B+=25
     log_val = math.log10(max_amount)
-    return max(0, min(25, int((log_val - 4) * 5)))
+    return max(1, min(25, int((log_val - 4) * 4.5)))
+
+
+def _compute_momentum(recent_sigs):
+    """Momentum (0-25): signal velocity + type diversity.
+
+    Proxy for sector-level activity when real sector data unavailable.
+    Velocity: signals per 2-week window. Diversity: distinct signal types.
+    """
+    if not recent_sigs:
+        return 0
+    # Velocity: more signals in shorter time = higher momentum
+    count = len(recent_sigs)
+    velocity_pts = min(15, count * 5)  # 1=5, 2=10, 3+=15
+
+    # Type diversity bonus: distinct signal types
+    types = set(s.get("signal_type") for s in recent_sigs)
+    diversity_pts = min(10, len(types) * 4)  # 1=4, 2=8, 3+=10
+
+    return min(25, velocity_pts + diversity_pts)
+
+
+def _compute_sources(recent_sigs):
+    """Sources (0-25): independent source count × quality weight.
+
+    1 source → 3-5, 2 sources → 8-10, 3 → 13-15, 4 → 18-20, 5+ → 25.
+    Quality weight: tier_1=5, tier_2=4, tier_3=3.
+    """
+    if not recent_sigs:
+        return 0
+    # Count unique source URLs as independent sources
+    source_urls = set()
+    quality_sum = 0
+    for s in recent_sigs:
+        url = s.get("source_url", "")
+        if url and url not in source_urls:
+            source_urls.add(url)
+            tier = s.get("signal_tier", "tier_3_weak")
+            quality_sum += {"tier_1_strong": 5, "tier_2_medium": 4, "tier_3_weak": 3}.get(tier, 3)
+    return min(25, quality_sum)
 
 
 def _geo_weight(geography, config):
@@ -225,8 +290,11 @@ def _geo_weight(geography, config):
 
 
 def score_signals(all_signals, config):
-    """Group signals by entity and compute opportunity scores."""
-    # Group by primary company
+    """Group signals by entity and compute opportunity scores.
+
+    Score = Events + Capital + Momentum + Sources (each 0-25), scaled by geo weight.
+    """
+    # Group by primary entity
     entity_signals = defaultdict(list)
     for sig in all_signals:
         company_ids = sig.get("company_ids", [])
@@ -241,37 +309,27 @@ def score_signals(all_signals, config):
             for per_id in sig["person_ids"]:
                 entity_signals[("person", per_id)].append(sig)
 
-    decay_days = config.get("recency_decay_days", 30)
+    decay_days = config.get("recency_decay_days", 45)
 
     scored = []
     for (entity_type, entity_id), sigs in entity_signals.items():
-        # Only consider recent signals
-        recent_sigs = [s for s in sigs if _recency_score(s.get("published_at"), decay_days) > 0]
+        # Only consider signals within decay window
+        recent_sigs = [s for s in sigs if _days_ago(s.get("published_at")) <= decay_days]
         if not recent_sigs:
             continue
 
-        # Compute score components
-        signal_strength = max(
-            TIER_SCORES.get(s.get("signal_tier"), 0) for s in recent_sigs
-        )
-        type_bonus = max(
-            TYPE_SCORES.get(s.get("signal_type"), 0) for s in recent_sigs
-        )
-        recency = max(
-            _recency_score(s.get("published_at"), decay_days) for s in recent_sigs
-        )
-        # Deal magnitude: large rounds score higher
-        deal_magnitude = _deal_magnitude_score(recent_sigs)
+        # Compute four factors
+        events = _compute_events(recent_sigs)
+        capital = _compute_capital(recent_sigs)
+        momentum = _compute_momentum(recent_sigs)
+        sources = _compute_sources(recent_sigs)
 
-        # Velocity: mild bonus for multiple signals (capped at 10)
-        velocity = min(10, len(recent_sigs) * 4)
+        raw_score = events + capital + momentum + sources
 
         # Geography weight
         geo = recent_sigs[0].get("geography", "")
         geo_mult = _geo_weight(geo, config)
-
-        raw_score = signal_strength + recency + deal_magnitude + velocity
-        weighted_score = min(99, int(raw_score * geo_mult + type_bonus * 0.3))
+        final_score = min(99, int(raw_score * geo_mult))
 
         # Collect all contact IDs
         contact_ids = []
@@ -284,12 +342,12 @@ def score_signals(all_signals, config):
             "entity_id": entity_id,
             "signal_ids": [s["id"] for s in recent_sigs],
             "contact_ids": contact_ids,
-            "opportunity_score": weighted_score,
+            "opportunity_score": final_score,
             "score_breakdown": {
-                "signal_strength": signal_strength,
-                "recency": recency,
-                "deal_magnitude": deal_magnitude,
-                "growth_velocity": velocity,
+                "events": events,
+                "capital": capital,
+                "momentum": momentum,
+                "sources": sources,
                 "geo_weight": round(geo_mult, 2),
             },
         })
