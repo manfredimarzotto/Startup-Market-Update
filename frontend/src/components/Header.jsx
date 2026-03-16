@@ -5,7 +5,22 @@ const WORKFLOW_FILE = 'pipeline.yml';
 const GH_API = 'https://api.github.com';
 const TOKEN_KEY = 'nsi_github_token';
 
-export default function Header() {
+const GridIcon = () => (
+  <svg width="12" height="12" viewBox="0 0 16 16" fill="none">
+    <rect x="1" y="1" width="6" height="6" rx="1.5" stroke="currentColor" strokeWidth="1.2"/>
+    <rect x="9" y="1" width="6" height="6" rx="1.5" stroke="currentColor" strokeWidth="1.2"/>
+    <rect x="1" y="9" width="6" height="6" rx="1.5" stroke="currentColor" strokeWidth="1.2"/>
+    <rect x="9" y="9" width="6" height="6" rx="1.5" stroke="currentColor" strokeWidth="1.2"/>
+  </svg>
+);
+
+const ListIcon = () => (
+  <svg width="12" height="12" viewBox="0 0 16 16" fill="none">
+    <path d="M1 3h14M1 8h14M1 13h14" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
+  </svg>
+);
+
+export default function Header({ view, onViewChange }) {
   const [loading, setLoading] = useState(false);
   const [btnText, setBtnText] = useState('Refresh');
 
@@ -80,10 +95,14 @@ export default function Header() {
     }
   }
 
+  const views = [
+    { key: 'discovery', label: 'Discovery', Icon: GridIcon },
+    { key: 'triage', label: 'Triage', Icon: ListIcon },
+  ];
+
   return (
     <header className="glass-strong sticky top-0 z-50 px-6 py-2.5 flex items-center justify-between">
       <div className="flex items-center gap-2">
-        {/* S logo */}
         <div className="w-[22px] h-[22px] rounded-[5px] bg-[#0f172a] flex items-center justify-center text-white text-[10px] font-bold flex-shrink-0">
           S
         </div>
@@ -95,8 +114,28 @@ export default function Header() {
         </span>
       </div>
 
-      <div className="flex items-center gap-3">
-        <span className="text-[10.5px] text-[#cbd5e1]">
+      <div className="flex items-center gap-1.5">
+        {/* View toggle */}
+        <div style={{ display: 'flex', background: '#f1f5f9', borderRadius: 5, padding: 1.5 }}>
+          {views.map(({ key, label, Icon }) => (
+            <button
+              key={key}
+              onClick={() => onViewChange(key)}
+              style={{
+                padding: '3px 9px', borderRadius: 4, border: 'none', cursor: 'pointer',
+                background: view === key ? '#fff' : 'transparent',
+                color: view === key ? '#0f172a' : '#94a3b8',
+                boxShadow: view === key ? '0 1px 2px rgba(0,0,0,0.05)' : 'none',
+                display: 'flex', alignItems: 'center', gap: 4, fontSize: 10.5, fontWeight: 500,
+                transition: 'all 0.12s ease',
+              }}
+            >
+              <Icon />{label}
+            </button>
+          ))}
+        </div>
+
+        <span className="text-[10.5px] text-[#cbd5e1] ml-1.5">
           {new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}
         </span>
         <button

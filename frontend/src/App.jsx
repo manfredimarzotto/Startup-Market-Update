@@ -2,6 +2,7 @@ import { useState, useMemo, useCallback } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import Header from './components/Header';
 import OpportunityCard from './components/OpportunityCard';
+import TriageTable from './components/TriageTable';
 import { useData } from './hooks/useData';
 import { useFilters } from './hooks/useFilters';
 import { useStatus } from './hooks/useStatus';
@@ -18,6 +19,8 @@ export default function App() {
     filteredOpportunities, filterOptions, activeFilterCount,
   } = useFilters(opportunities, lookups, getStatus);
 
+  // View toggle
+  const [view, setView] = useState('discovery');
   // Signal type chip filter (maps to typeGroups)
   const [signalFilter, setSignalFilter] = useState('all');
   // Fit filter (local — thesis fit is not in data model, so this is a UI-only placeholder)
@@ -84,7 +87,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen text-[#0f172a]">
-      <Header />
+      <Header view={view} onViewChange={setView} />
 
       <div style={{ maxWidth: 960, margin: '0 auto', padding: '16px 20px 80px' }}>
         {/* KPI strip */}
@@ -150,38 +153,42 @@ export default function App() {
           </span>
         </div>
 
-        {/* Cards feed */}
-        {filteredOpportunities.length > 0 ? (
-          <div className="space-y-2">
-            <AnimatePresence mode="popLayout">
-              {filteredOpportunities.map((opp, i) => (
-                <OpportunityCard
-                  key={opp.id}
-                  opportunity={opp}
-                  onStatusChange={setStatus}
-                  index={i}
-                  selected={selected.has(opp.id)}
-                  onSelect={toggleSelect}
-                  drawerOpen={openDrawerId === opp.id}
-                  onToggleDrawer={setOpenDrawerId}
-                />
-              ))}
-            </AnimatePresence>
-          </div>
-        ) : (
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="bg-white rounded-bento border border-[#f1f5f9] p-12 text-center mt-4"
-          >
-            <p className="text-slate-400">No opportunities match the current filters.</p>
-            <button
-              onClick={() => { resetFilters(); setSignalFilter('all'); setFitFilter('all'); }}
-              className="mt-3 text-sm text-slate-500 hover:text-slate-700 transition-colors"
-            >
-              Reset filters
-            </button>
-          </motion.div>
+        {/* Discovery view */}
+        {view === 'discovery' && (
+          filteredOpportunities.length > 0 ? (
+            <div className="space-y-2">
+              <AnimatePresence mode="popLayout">
+                {filteredOpportunities.map((opp, i) => (
+                  <OpportunityCard
+                    key={opp.id}
+                    opportunity={opp}
+                    onStatusChange={setStatus}
+                    index={i}
+                    selected={selected.has(opp.id)}
+                    onSelect={toggleSelect}
+                    drawerOpen={openDrawerId === opp.id}
+                    onToggleDrawer={setOpenDrawerId}
+                  />
+                ))}
+              </AnimatePresence>
+            </div>
+          ) : (
+            <EmptyState onReset={() => { resetFilters(); setSignalFilter('all'); setFitFilter('all'); }} />
+          )
+        )}
+
+        {/* Triage view */}
+        {view === 'triage' && (
+          filteredOpportunities.length > 0 ? (
+            <TriageTable
+              opportunities={filteredOpportunities}
+              selected={selected}
+              onSelect={toggleSelect}
+              onStatusChange={setStatus}
+            />
+          ) : (
+            <EmptyState onReset={() => { resetFilters(); setSignalFilter('all'); setFitFilter('all'); }} />
+          )
         )}
 
         {/* Methodology footer */}
@@ -219,5 +226,20 @@ export default function App() {
         </div>
       )}
     </div>
+  );
+}
+
+function EmptyState({ onReset }) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      className="bg-white rounded-bento border border-[#f1f5f9] p-12 text-center mt-4"
+    >
+      <p className="text-slate-400">No opportunities match the current filters.</p>
+      <button onClick={onReset} className="mt-3 text-sm text-slate-500 hover:text-slate-700 transition-colors">
+        Reset filters
+      </button>
+    </motion.div>
   );
 }
