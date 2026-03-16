@@ -9,7 +9,14 @@ const DEFAULT_FILTERS = {
   country: '',
   recencyDays: [14, 30, 45],
   sort: 'score_desc',
+  fit: 'all',
 };
+
+function deriveFit(score) {
+  if (score >= 75) return 'high';
+  if (score >= 50) return 'medium';
+  return 'low';
+}
 
 export function useFilters(opportunities, lookups, getStatus) {
   const [filters, setFilters] = useState(DEFAULT_FILTERS);
@@ -30,11 +37,25 @@ export function useFilters(opportunities, lookups, getStatus) {
     setFilters(DEFAULT_FILTERS);
   }, []);
 
+  // Enrich once, then compute percentile ranks before filtering
+  const enrichedOpportunities = useMemo(() => {
+    const enriched = opportunities.map(opp => enrichOpportunity(opp, lookups, getStatus));
+    // Sort by score to compute percentile rank
+    const sorted = [...enriched].sort((a, b) => a.opportunity_score - b.opportunity_score);
+    const total = sorted.length;
+    sorted.forEach((opp, idx) => {
+      // Percentile = % of opportunities this one scores above
+      opp.percentile = total > 1 ? Math.round(((idx + 1) / total) * 100) : 1;
+      opp.fit = deriveFit(opp.opportunity_score);
+    });
+    return enriched;
+  }, [opportunities, lookups, getStatus]);
+
   const filteredOpportunities = useMemo(() => {
     const typeChecked = filters.typeGroups.flatMap(g => SIGNAL_TYPE_GROUPS[g] || []);
     const maxRecency = filters.recencyDays.length > 0 ? Math.max(...filters.recencyDays) : 45;
 
-    let results = opportunities.map(opp => enrichOpportunity(opp, lookups, getStatus));
+    let results = enrichedOpportunities;
 
     // Entity type
     results = results.filter(o => filters.entityTypes.includes(o.entity_type));
@@ -70,6 +91,11 @@ export function useFilters(opportunities, lookups, getStatus) {
       o.oppSignals.some(s => daysSince(s.published_at) <= maxRecency)
     );
 
+    // Fit filter
+    if (filters.fit !== 'all') {
+      results = results.filter(o => o.fit === filters.fit);
+    }
+
     // Sort
     switch (filters.sort) {
       case 'score_asc':
@@ -87,13 +113,12 @@ export function useFilters(opportunities, lookups, getStatus) {
     }
 
     return results;
-  }, [opportunities, lookups, getStatus, filters]);
+  }, [enrichedOpportunities, filters]);
 
   // Collect available filter values from signals
   const filterOptions = useMemo(() => {
     const geographies = new Set();
     const countries = new Set();
-    // Use lookups to get all signals
     const allSignals = Object.values(lookups.signalMap);
     allSignals.forEach(s => {
       if (s.geography) geographies.add(s.geography);
@@ -113,6 +138,7 @@ export function useFilters(opportunities, lookups, getStatus) {
     if (filters.tiers.length < 3) count++;
     if (filters.typeGroups.length < 4) count++;
     if (filters.recencyDays.length < 3) count++;
+    if (filters.fit !== 'all') count++;
     return count;
   }, [filters]);
 

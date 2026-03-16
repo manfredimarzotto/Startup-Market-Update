@@ -97,6 +97,44 @@ def _parse_json_response(text):
     return result
 
 
+VALID_SIGNAL_TYPES = {
+    "funding_round", "hiring_wave", "acquisition", "partnership",
+    "product_launch", "expansion", "new_fund", "media_mention",
+}
+VALID_SIGNAL_TIERS = {"tier_1_strong", "tier_2_medium", "tier_3_weak"}
+
+
+def _validate_extracted(data):
+    """Normalise and validate extracted fields, falling back to safe defaults."""
+    # Signal type
+    st = (data.get("signal_type") or "").strip().lower()
+    if st not in VALID_SIGNAL_TYPES:
+        logger.warning("Invalid signal_type '%s', defaulting to media_mention", st)
+        st = "media_mention"
+    data["signal_type"] = st
+
+    # Signal tier
+    tier = (data.get("signal_tier") or "").strip().lower()
+    # Handle Claude sometimes returning the full description
+    for valid in VALID_SIGNAL_TIERS:
+        if tier.startswith(valid):
+            tier = valid
+            break
+    if tier not in VALID_SIGNAL_TIERS:
+        logger.warning("Invalid signal_tier '%s', defaulting to tier_3_weak", tier)
+        tier = "tier_3_weak"
+    data["signal_tier"] = tier
+
+    # ai_confidence clamped to [0, 1]
+    conf = data.get("ai_confidence")
+    if isinstance(conf, (int, float)):
+        data["ai_confidence"] = max(0.0, min(1.0, float(conf)))
+    else:
+        data["ai_confidence"] = 0.5
+
+    return data
+
+
 def extract_all(candidates):
     """Extract signals from all candidates using Claude Haiku."""
     if not candidates:
@@ -152,6 +190,8 @@ def _extract_signal_with_usage(candidate, client):
     data = _parse_json_response(raw)
     if not data:
         return None, usage
+
+    data = _validate_extracted(data)
 
     url = candidate.get("url", "")
     signal_id = "sig_" + hashlib.sha256(url.encode("utf-8")).hexdigest()[:16]

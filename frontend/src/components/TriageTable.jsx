@@ -1,49 +1,6 @@
 import { useState } from 'react';
 import { COUNTRY_NAMES, daysSince, formatSignalType } from '../hooks/useData';
-
-const TRIGGER_ICONS = {
-  funding_round: '\u{1F4B0}', new_fund: '\u{1F4B0}', hiring_wave: '\u{1F464}',
-  acquisition: '\u{2694}\u{FE0F}', partnership: '\u{1F91D}', expansion: '\u{1F680}',
-  product_launch: '\u{1F680}', media_mention: '\u{1F4F0}',
-};
-
-function scoreColor(s) {
-  if (s >= 75) return '#10b981';
-  if (s >= 50) return '#d97706';
-  return '#94a3b8';
-}
-
-function Spark({ data, color = '#10b981', w = 44, h = 14 }) {
-  if (!data || data.length < 2) return null;
-  const max = Math.max(...data), min = Math.min(...data), rng = max - min || 1;
-  const pts = data.map((v, i) => `${(i / (data.length - 1)) * w},${h - ((v - min) / rng) * (h - 3) - 1.5}`);
-  return (
-    <svg width={w} height={h} viewBox={`0 0 ${w} ${h}`} style={{ display: 'block', flexShrink: 0 }}>
-      <polyline points={pts.join(' ')} fill="none" stroke={color} strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-  );
-}
-
-function FitDot({ fit }) {
-  const c = { high: '#059669', medium: '#d97706', low: '#94a3b8' };
-  return (
-    <span style={{ display: 'inline-flex', alignItems: 'center', gap: 4, fontSize: 11, color: c[fit] || c.low, fontWeight: 500 }}>
-      <span style={{ width: 6, height: 6, borderRadius: '50%', background: c[fit] || c.low, opacity: 0.7 }} />
-      {fit}
-    </span>
-  );
-}
-
-function OwnerBadge({ initials }) {
-  if (!initials) return <span style={{ fontSize: 10, color: '#cbd5e1', fontStyle: 'italic' }}>—</span>;
-  return (
-    <span style={{
-      display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
-      width: 20, height: 20, borderRadius: '50%', background: '#0f172a',
-      color: '#fff', fontSize: 8.5, fontWeight: 600,
-    }}>{initials}</span>
-  );
-}
+import { TRIGGER_ICONS, scoreColor, deriveFit, Spark, OwnerBadge, FitDot } from './shared';
 
 const TH = {
   padding: '7px 6px', fontSize: 9.5, fontWeight: 600, color: '#94a3b8',
@@ -57,10 +14,8 @@ export default function TriageTable({ opportunities, selected, onSelect, onStatu
   const allSelected = selected.size === opportunities.length && opportunities.length > 0;
   const toggleAll = () => {
     if (allSelected) {
-      // Deselect all
       opportunities.forEach(o => { if (selected.has(o.id)) onSelect(o.id); });
     } else {
-      // Select all
       opportunities.forEach(o => { if (!selected.has(o.id)) onSelect(o.id); });
     }
   };
@@ -131,8 +86,8 @@ function TriageRow({ opportunity, isSelected, onSelect, isOpen, onToggle, onStat
   }, 999);
   const updatedAgo = mostRecent === 0 ? 'today' : mostRecent === 1 ? '1d' : mostRecent < 7 ? `${mostRecent}d` : mostRecent < 30 ? `${Math.round(mostRecent / 7)}w` : `${Math.round(mostRecent / 30)}mo`;
 
-  const fit = opportunity_score >= 75 ? 'high' : opportunity_score >= 50 ? 'medium' : 'low';
-  const percentile = opportunity_score >= 80 ? 6 : 100 - opportunity_score;
+  const fit = deriveFit(opportunity_score);
+  const percentile = opportunity.percentile;
 
   // Sparkline data from score_breakdown
   const bd = opportunity.score_breakdown || {};
@@ -193,7 +148,7 @@ function TriageRow({ opportunity, isSelected, onSelect, isOpen, onToggle, onStat
         <td style={{ padding: '9px 6px' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
             <span style={{ fontSize: 13, fontWeight: 700, color: sc, fontVariantNumeric: 'tabular-nums' }}>{opportunity_score}</span>
-            <Spark data={sparkData} color={sc} />
+            <Spark data={sparkData} color={sc} w={44} h={14} />
             <span style={{ fontSize: 9, color: '#94a3b8' }}>Top {percentile}%</span>
           </div>
         </td>

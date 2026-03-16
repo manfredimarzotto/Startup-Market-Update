@@ -185,7 +185,7 @@ TYPE_SCORES = {
 }
 
 
-def _recency_score(published_at, decay_days=45):
+def _recency_score(published_at, decay_days=30):
     """Score from 0-30 based on how recent the signal is."""
     if not published_at:
         return 0
@@ -241,7 +241,7 @@ def score_signals(all_signals, config):
             for per_id in sig["person_ids"]:
                 entity_signals[("person", per_id)].append(sig)
 
-    decay_days = config.get("recency_decay_days", 45)
+    decay_days = config.get("recency_decay_days", 30)
 
     scored = []
     for (entity_type, entity_id), sigs in entity_signals.items():

@@ -10,6 +10,7 @@ import { useStatus } from './hooks/useStatus';
 const SIGNAL_OPTIONS = ['all', 'funding', 'growth', 'deals', 'media'];
 const FIT_OPTIONS = ['all', 'high', 'medium', 'low'];
 
+
 export default function App() {
   const { opportunities, signals, companies, investors, people, loading, error, signalMap, companyMap, investorMap, personMap } = useData();
   const lookups = useMemo(() => ({ signalMap, companyMap, investorMap, personMap }), [signalMap, companyMap, investorMap, personMap]);
@@ -23,8 +24,6 @@ export default function App() {
   const [view, setView] = useState('discovery');
   // Signal type chip filter (maps to typeGroups)
   const [signalFilter, setSignalFilter] = useState('all');
-  // Fit filter (local — thesis fit is not in data model, so this is a UI-only placeholder)
-  const [fitFilter, setFitFilter] = useState('all');
   // Bulk selection
   const [selected, setSelected] = useState(new Set());
   const toggleSelect = useCallback((id) => {
@@ -130,15 +129,15 @@ export default function App() {
           {FIT_OPTIONS.map((f) => (
             <button
               key={f}
-              onClick={() => setFitFilter(f)}
+              onClick={() => setFilter('fit', f)}
               className="transition-all duration-100 capitalize"
               style={{
                 padding: '3px 10px',
                 borderRadius: 999,
                 border: '1px solid',
-                borderColor: fitFilter === f ? '#059669' : '#e2e8f0',
-                background: fitFilter === f ? '#ecfdf5' : '#fff',
-                color: fitFilter === f ? '#059669' : '#94a3b8',
+                borderColor: filters.fit === f ? '#059669' : '#e2e8f0',
+                background: filters.fit === f ? '#ecfdf5' : '#fff',
+                color: filters.fit === f ? '#059669' : '#94a3b8',
                 fontSize: '10.5px',
                 fontWeight: 500,
                 cursor: 'pointer',
@@ -173,7 +172,7 @@ export default function App() {
               </AnimatePresence>
             </div>
           ) : (
-            <EmptyState onReset={() => { resetFilters(); setSignalFilter('all'); setFitFilter('all'); }} />
+            <EmptyState onReset={() => { resetFilters(); setSignalFilter('all'); }} />
           )
         )}
 
@@ -187,7 +186,7 @@ export default function App() {
               onStatusChange={setStatus}
             />
           ) : (
-            <EmptyState onReset={() => { resetFilters(); setSignalFilter('all'); setFitFilter('all'); }} />
+            <EmptyState onReset={() => { resetFilters(); setSignalFilter('all'); }} />
           )
         )}
 
