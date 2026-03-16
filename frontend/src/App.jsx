@@ -22,6 +22,11 @@ export default function App() {
   const [signalFilter, setSignalFilter] = useState('all');
   // Fit filter (local — thesis fit is not in data model, so this is a UI-only placeholder)
   const [fitFilter, setFitFilter] = useState('all');
+  // Bulk selection
+  const [selected, setSelected] = useState(new Set());
+  const toggleSelect = useCallback((id) => {
+    setSelected(prev => { const n = new Set(prev); n.has(id) ? n.delete(id) : n.add(id); return n; });
+  }, []);
 
   const handleSignalFilter = useCallback((value) => {
     setSignalFilter(value);
@@ -153,6 +158,8 @@ export default function App() {
                   opportunity={opp}
                   onStatusChange={setStatus}
                   index={i}
+                  selected={selected.has(opp.id)}
+                  onSelect={toggleSelect}
                 />
               ))}
             </AnimatePresence>
@@ -181,6 +188,32 @@ export default function App() {
           <span className="font-semibold text-[#64748b]">Signal Strength</span> = Events (observable company actions, 0–25) + Capital (funding signals, 0–25) + Momentum (sector tailwinds, 0–25) + Sources (independent corroboration, 0–25). 45-day decay window. Not an investment recommendation. <span className="font-semibold text-[#64748b]">Thesis Fit</span> is a separate, user-configured filter.
         </div>
       </div>
+
+      {/* Bulk action bar */}
+      {selected.size > 0 && (
+        <div style={{
+          position: 'fixed', bottom: 20, left: '50%', transform: 'translateX(-50%)',
+          display: 'flex', alignItems: 'center', gap: 10,
+          padding: '9px 18px', borderRadius: 10,
+          background: '#0f172a', color: '#fff',
+          boxShadow: '0 8px 32px rgba(0,0,0,0.18)',
+          fontSize: 12, fontWeight: 500, zIndex: 20,
+        }}>
+          <span>{selected.size} selected</span>
+          <span style={{ width: 1, height: 14, background: 'rgba(255,255,255,0.15)' }} />
+          {['Mark viewed', 'Assign to me', 'Export', 'Archive'].map((a) => (
+            <button key={a} style={{
+              padding: '4px 10px', borderRadius: 5, border: '1px solid rgba(255,255,255,0.12)',
+              background: 'transparent', color: '#fff', fontSize: 10.5, fontWeight: 500,
+              cursor: 'pointer',
+            }}>{a}</button>
+          ))}
+          <button
+            onClick={() => setSelected(new Set())}
+            style={{ background: 'none', border: 'none', color: 'rgba(255,255,255,0.35)', cursor: 'pointer', fontSize: 15, padding: '0 3px' }}
+          >&times;</button>
+        </div>
+      )}
     </div>
   );
 }

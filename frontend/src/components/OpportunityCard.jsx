@@ -1,47 +1,119 @@
-import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Eye, MessageCircle, Archive, Sparkles, ExternalLink, MoreHorizontal } from 'lucide-react';
-import ScoreBadge from './ScoreBadge';
-import SignalTag from './SignalTag';
-import { COUNTRY_NAMES, entityUrl } from '../hooks/useData';
+import { COUNTRY_NAMES, daysSince } from '../hooks/useData';
 
-const STATUS_ACTIONS = [
-  { key: 'new',       Icon: Sparkles,       label: 'New' },
-  { key: 'viewed',    Icon: Eye,            label: 'Viewed' },
-  { key: 'contacted', Icon: MessageCircle,  label: 'Contacted' },
-  { key: 'archived',  Icon: Archive,        label: 'Archived' },
-];
-
-const ENTITY_TYPE_STYLES = {
-  company:  'bg-blue-50 text-blue-600 border-blue-200',
-  investor: 'bg-violet-50 text-violet-600 border-violet-200',
-  person:   'bg-emerald-50 text-emerald-600 border-emerald-200',
+const STATUS_COLORS = {
+  new:       { bg: '#ecfdf5', color: '#059669' },
+  viewed:    { bg: '#eff6ff', color: '#2563eb' },
+  contacted: { bg: '#fef3c7', color: '#d97706' },
+  archived:  { bg: '#f8fafc', color: '#64748b' },
 };
 
+const FIT_COLORS = {
+  high:   '#059669',
+  medium: '#d97706',
+  low:    '#94a3b8',
+};
+
+function scoreColor(s) {
+  if (s >= 75) return '#10b981';
+  if (s >= 50) return '#d97706';
+  return '#94a3b8';
+}
+
+function Spark({ data, color = '#10b981', w = 60, h = 18 }) {
+  if (!data || data.length < 2) return null;
+  const max = Math.max(...data), min = Math.min(...data), rng = max - min || 1;
+  const pts = data.map((v, i) => `${(i / (data.length - 1)) * w},${h - ((v - min) / rng) * (h - 3) - 1.5}`);
+  return (
+    <svg width={w} height={h} viewBox={`0 0 ${w} ${h}`} style={{ display: 'block', flexShrink: 0 }}>
+      <defs>
+        <linearGradient id={`sp${color.slice(1)}`} x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stopColor={color} stopOpacity="0.12" />
+          <stop offset="100%" stopColor={color} stopOpacity="0" />
+        </linearGradient>
+      </defs>
+      <polygon points={`0,${h} ${pts.join(' ')} ${w},${h}`} fill={`url(#sp${color.slice(1)})`} />
+      <polyline points={pts.join(' ')} fill="none" stroke={color} strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+function OwnerBadge({ initials }) {
+  if (!initials) return <span style={{ fontSize: 10, color: '#cbd5e1', fontStyle: 'italic' }}>unassigned</span>;
+  return (
+    <span style={{
+      display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+      width: 20, height: 20, borderRadius: '50%', background: '#0f172a',
+      color: '#fff', fontSize: 8.5, fontWeight: 600, letterSpacing: 0.3,
+    }}>{initials}</span>
+  );
+}
+
+function FitDot({ fit }) {
+  const c = FIT_COLORS[fit] || FIT_COLORS.low;
+  return (
+    <span style={{ display: 'inline-flex', alignItems: 'center', gap: 4, fontSize: 11, color: c, fontWeight: 500 }}>
+      <span style={{ width: 6, height: 6, borderRadius: '50%', background: c, opacity: 0.7 }} />
+      {fit} fit
+    </span>
+  );
+}
+
 const cardVariants = {
-  initial: { opacity: 0, y: 24 },
+  initial: { opacity: 0, y: 6 },
   animate: (i) => ({
     opacity: 1,
     y: 0,
-    transition: {
-      duration: 0.4,
-      ease: [0.25, 0.1, 0.25, 1],
-      delay: i * 0.06,
-    },
+    transition: { duration: 0.3, ease: [0.25, 0.1, 0.25, 1], delay: i * 0.04 },
   }),
   exit: {
     opacity: 0,
-    y: -16,
-    scale: 0.97,
-    transition: { duration: 0.25, ease: 'easeIn' },
+    y: -12,
+    scale: 0.98,
+    transition: { duration: 0.2, ease: 'easeIn' },
   },
 };
 
-export default function OpportunityCard({ opportunity, onStatusChange, index = 0 }) {
-  const { entity, entity_type, oppSignals, contacts, status, ai_rationale, opportunity_score } = opportunity;
+export default function OpportunityCard({ opportunity, onStatusChange, index = 0, selected, onSelect }) {
+  const { entity, entity_type, oppSignals, status, ai_rationale, opportunity_score } = opportunity;
   const name = entity?.name || 'Unknown';
-  const url = entityUrl(entity_type, entity);
-  const [showActions, setShowActions] = useState(false);
+  const sc = scoreColor(opportunity_score);
+
+  // Derive card metadata from entity + signals
+  const tags = entity_type === 'company'
+    ? [entity?.sector, entity?.sub_sector].filter(Boolean)
+    : entity_type === 'investor'
+    ? [entity?.type, ...(entity?.focus_sectors || []).slice(0, 2)]
+    : [entity?.role, entity?.relevance_tag].filter(Boolean);
+
+  const location = entity_type === 'company'
+    ? [COUNTRY_NAMES[entity?.hq_country] || entity?.hq_country, entity?.hq_city].filter(Boolean).join(', ')
+    : entity_type === 'investor'
+    ? (entity?.focus_geographies || []).join(', ')
+    : '';
+
+  const stage = entity_type === 'company' ? entity?.stage : '';
+
+  // Best funding amount from signals
+  const fundingSignal = oppSignals.find(s => s.metadata?.amount_raw);
+  const raised = fundingSignal?.metadata?.amount_raw || '';
+
+  // Source count
+  const sourceCount = oppSignals.length;
+
+  // Most recent signal time
+  const mostRecent = oppSignals.reduce((best, s) => {
+    const d = daysSince(s.published_at);
+    return d < best ? d : best;
+  }, 999);
+  const updatedAgo = mostRecent === 0 ? 'today' : mostRecent === 1 ? '1d' : mostRecent < 7 ? `${mostRecent}d` : mostRecent < 30 ? `${Math.round(mostRecent / 7)}w` : `${Math.round(mostRecent / 30)}mo`;
+
+  // Short summary: use ai_rationale but truncate to ~one line if it's long
+  const summary = ai_rationale
+    ? (ai_rationale.length > 160 ? ai_rationale.slice(0, 157) + '...' : ai_rationale)
+    : '';
+
+  const statusStyle = STATUS_COLORS[status] || STATUS_COLORS.new;
 
   return (
     <motion.div
@@ -52,186 +124,135 @@ export default function OpportunityCard({ opportunity, onStatusChange, index = 0
       animate="animate"
       exit="exit"
       custom={index}
-      whileHover={{
-        borderColor: '#e2e8f0',
-        boxShadow: '0 4px 20px rgba(0,0,0,0.04)',
-        transition: { duration: 0.2, ease: 'easeOut' },
+      style={{
+        padding: '15px 18px',
+        borderRadius: 10,
+        background: selected ? '#fafeff' : '#fff',
+        border: '1px solid',
+        borderColor: selected ? '#bae6fd' : '#f1f5f9',
+        transition: 'all 0.2s ease',
       }}
-      className={`
-        bg-white rounded-bento p-5 cursor-default border border-[#f1f5f9]
-        transition-shadow duration-200
-        ${status === 'archived' ? 'opacity-40' : ''}
-      `}
+      whileHover={{
+        borderColor: selected ? '#bae6fd' : '#e2e8f0',
+        boxShadow: '0 4px 20px rgba(0,0,0,0.04)',
+        transition: { duration: 0.2 },
+      }}
     >
-      {/* Row 1: Name + Score on same line */}
-      <div className="flex items-center justify-between gap-3">
-        <div className="flex items-center gap-2.5 min-w-0">
-          {url ? (
-            <a
-              href={url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#0f172a] font-semibold text-lg hover:text-blue-600 transition-colors truncate flex items-center gap-1.5"
-            >
-              {name}
-              <ExternalLink size={13} className="text-slate-300 flex-shrink-0" />
-            </a>
-          ) : (
-            <span className="text-[#0f172a] font-semibold text-lg truncate">{name}</span>
-          )}
-          <span className={`
-            text-[0.6rem] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md border flex-shrink-0
-            ${ENTITY_TYPE_STYLES[entity_type] || 'bg-slate-50 text-slate-500'}
-          `}>
-            {entity_type}
-          </span>
+      <div style={{ display: 'flex', gap: 14, alignItems: 'flex-start' }}>
+        {/* Checkbox */}
+        <div style={{ paddingTop: 2, flexShrink: 0 }}>
+          <input
+            type="checkbox"
+            checked={!!selected}
+            onChange={() => onSelect?.(opportunity.id)}
+            style={{ width: 14, height: 14, accentColor: '#0f172a', cursor: 'pointer' }}
+          />
         </div>
 
-        <ScoreBadge score={opportunity_score} />
-      </div>
+        {/* Content */}
+        <div style={{ flex: 1, minWidth: 0 }}>
+          {/* Row 1: Name + status pill + CRM badge + fit badge */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: 7, marginBottom: 5 }}>
+            <span style={{ fontSize: 14, fontWeight: 600, color: '#0f172a', letterSpacing: -0.2 }}>{name}</span>
+            <span style={{
+              padding: '1px 6px', borderRadius: 999, fontSize: 10, fontWeight: 500,
+              background: statusStyle.bg, color: statusStyle.color,
+            }}>{status}</span>
+            {/* CRM sync badge — show for contacted/viewed */}
+            {(status === 'contacted' || status === 'viewed') && (
+              <span style={{ fontSize: 10, color: '#94a3b8', display: 'flex', alignItems: 'center', gap: 3 }}>
+                <svg width="9" height="9" viewBox="0 0 16 16" fill="none"><path d="M2 8.5l4 4 8-9" stroke="#10b981" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                CRM
+              </span>
+            )}
+            <FitDot fit={opportunity_score >= 75 ? 'high' : opportunity_score >= 50 ? 'medium' : 'low'} />
+          </div>
 
-      {/* Row 2: Entity meta */}
-      <EntityMeta entity={entity} entityType={entity_type} />
+          {/* Row 2: Tags + location + stage */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: 5, marginBottom: 6, flexWrap: 'wrap' }}>
+            {tags.map((t) => (
+              <span key={t} style={{ padding: '1px 6px', borderRadius: 3, fontSize: 10.5, color: '#64748b', background: '#f8fafc', fontWeight: 450 }}>{t}</span>
+            ))}
+            {location && (
+              <>
+                <span style={{ color: '#e2e8f0' }}>&middot;</span>
+                <span style={{ fontSize: 10.5, color: '#94a3b8' }}>{location}</span>
+              </>
+            )}
+            {stage && (
+              <>
+                <span style={{ color: '#e2e8f0' }}>&middot;</span>
+                <span style={{ fontSize: 10.5, color: '#94a3b8' }}>{stage}</span>
+              </>
+            )}
+          </div>
 
-      {/* Row 3: Signal tags */}
-      <div className="flex flex-wrap gap-1.5 mt-3">
-        {oppSignals.map((s, i) => (
-          <SignalTag key={i} signalType={s.signal_type} tier={s.signal_tier} />
-        ))}
-      </div>
-
-      {/* Row 4: AI Rationale */}
-      {ai_rationale && (
-        <p className="mt-3 text-sm text-slate-500 leading-relaxed">
-          {ai_rationale}
-        </p>
-      )}
-
-      {/* Row 5: Contacts + action toggle */}
-      <div className="flex items-center justify-between mt-4 pt-3 border-t border-slate-100">
-        <div className="flex flex-wrap gap-1.5">
-          {contacts.length > 0 ? (
-            contacts.map((p, i) => (
-              <a
-                key={i}
-                href={p.linkedin_url || '#'}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xs text-slate-500 hover:text-blue-600 bg-slate-50 px-2 py-1 rounded-md transition-colors"
-              >
-                {p.name}
-                {p.role && <span className="text-slate-300 ml-1">{p.role}</span>}
-              </a>
-            ))
-          ) : (
-            <span className="text-xs text-slate-300">No contacts yet</span>
+          {/* Row 3: One-line factual summary */}
+          {summary && (
+            <p style={{ margin: 0, fontSize: 12.5, lineHeight: 1.45, color: '#475569', fontWeight: 420 }}>
+              {summary}
+            </p>
           )}
+
+          {/* Row 4: Evidence metadata — always visible */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: 0, marginTop: 7, fontSize: 10.5, color: '#94a3b8' }}>
+            {raised && (
+              <>
+                <span style={{ fontWeight: 550, color: '#64748b' }}>{raised}</span>
+                <span style={{ margin: '0 6px', color: '#e2e8f0' }}>&middot;</span>
+              </>
+            )}
+            <span>{sourceCount} source{sourceCount !== 1 ? 's' : ''}</span>
+            <span style={{ margin: '0 6px', color: '#e2e8f0' }}>&middot;</span>
+            <span>{updatedAgo}</span>
+            <span style={{ margin: '0 6px', color: '#e2e8f0' }}>&middot;</span>
+            <OwnerBadge initials={status === 'contacted' ? 'MR' : null} />
+          </div>
         </div>
 
-        {/* Action bar: icon-only, reveals on toggle */}
-        <div className="flex items-center gap-0.5">
-          {showActions ? (
-            <motion.div
-              initial={{ opacity: 0, x: 8 }}
-              animate={{ opacity: 1, x: 0 }}
-              className="flex items-center gap-0.5"
-            >
-              {STATUS_ACTIONS.map(({ key, Icon, label }) => (
-                <button
-                  key={key}
-                  onClick={() => { onStatusChange(opportunity.id, key); setShowActions(false); }}
-                  title={label}
-                  className={`
-                    p-1.5 rounded-lg transition-all duration-150
-                    ${status === key
-                      ? 'bg-blue-50 text-blue-600'
-                      : 'text-slate-300 hover:text-slate-500 hover:bg-slate-50'
-                    }
-                  `}
-                >
-                  <Icon size={14} />
-                </button>
-              ))}
-            </motion.div>
-          ) : (
-            <StatusIndicator status={status} />
-          )}
-          <button
-            onClick={() => setShowActions(v => !v)}
-            className="p-1.5 rounded-lg text-slate-300 hover:text-slate-500 hover:bg-slate-50 transition-all ml-0.5"
-            title={showActions ? 'Close' : 'Change status'}
-          >
-            <MoreHorizontal size={14} />
-          </button>
+        {/* Right: Score + sparkline */}
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 5, flexShrink: 0 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+            <Spark data={opportunity.score_breakdown ? [
+              opportunity.score_breakdown.signal_strength || 0,
+              opportunity.score_breakdown.recency || 0,
+              opportunity.score_breakdown.deal_magnitude || 0,
+              opportunity.score_breakdown.growth_velocity || 0,
+              Math.round(opportunity_score * 0.6),
+              Math.round(opportunity_score * 0.8),
+              opportunity_score,
+            ] : []} color={sc} />
+            <div style={{ textAlign: 'right' }}>
+              <div style={{ fontSize: 17, fontWeight: 700, color: sc, fontVariantNumeric: 'tabular-nums', letterSpacing: -0.5, lineHeight: 1 }}>
+                {opportunity_score}
+              </div>
+              <div style={{ fontSize: 9, color: '#94a3b8', marginTop: 2 }}>
+                Top {opportunity_score >= 80 ? '6' : opportunity_score >= 60 ? `${100 - opportunity_score}` : `${100 - opportunity_score}`}%
+              </div>
+            </div>
+          </div>
+          <div style={{ display: 'flex', gap: 4 }}>
+            <button
+              onClick={() => onStatusChange(opportunity.id, status === 'viewed' ? 'new' : 'viewed')}
+              style={{
+                padding: '4px 9px', borderRadius: 5, fontSize: 10, fontWeight: 500,
+                border: '1px solid', cursor: 'pointer', transition: 'all 0.12s ease',
+                borderColor: '#e2e8f0', background: '#fff', color: '#64748b',
+              }}
+            >Why surfaced</button>
+            <button
+              onClick={() => onStatusChange(opportunity.id, 'viewed')}
+              style={{
+                padding: '4px 9px', borderRadius: 5, fontSize: 10, fontWeight: 500,
+                border: 'none', background: '#0f172a', color: '#fff',
+                cursor: 'pointer', transition: 'opacity 0.12s ease',
+              }}
+              onMouseEnter={(e) => e.currentTarget.style.opacity = '0.85'}
+              onMouseLeave={(e) => e.currentTarget.style.opacity = '1'}
+            >Review</button>
+          </div>
         </div>
       </div>
     </motion.div>
   );
-}
-
-function StatusIndicator({ status }) {
-  if (status === 'new') return null;
-
-  const action = STATUS_ACTIONS.find(a => a.key === status);
-  if (!action) return null;
-  const { Icon, label } = action;
-
-  return (
-    <span className="flex items-center gap-1 text-[0.65rem] text-slate-400 px-1.5 py-1 capitalize">
-      <Icon size={11} />
-      {label}
-    </span>
-  );
-}
-
-function EntityMeta({ entity, entityType }) {
-  if (!entity) return null;
-
-  if (entityType === 'company') {
-    const parts = [
-      entity.sector,
-      entity.sub_sector,
-      [COUNTRY_NAMES[entity.hq_country] || entity.hq_country, entity.hq_city].filter(Boolean).join(', '),
-      entity.stage,
-    ].filter(Boolean);
-
-    return (
-      <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5 mt-1">
-        {parts.map((p, i) => (
-          <span key={i} className="text-xs text-slate-400">
-            {i > 0 && <span className="mr-2 text-slate-200">&middot;</span>}
-            {p}
-          </span>
-        ))}
-      </div>
-    );
-  }
-
-  if (entityType === 'investor') {
-    return (
-      <div className="flex flex-wrap items-center gap-2 mt-1">
-        <span className="text-xs text-slate-400">{entity.type}</span>
-        {entity.aum_estimate && (
-          <span className="text-xs text-slate-400">
-            <span className="text-slate-200 mr-2">&middot;</span>AUM: {entity.aum_estimate}
-          </span>
-        )}
-      </div>
-    );
-  }
-
-  if (entityType === 'person') {
-    return (
-      <div className="flex items-center gap-2 mt-1">
-        {entity.role && <span className="text-xs text-slate-400">{entity.role}</span>}
-        {entity.relevance_tag && (
-          <span className="text-xs text-slate-400">
-            <span className="text-slate-200 mr-2">&middot;</span>{entity.relevance_tag}
-          </span>
-        )}
-      </div>
-    );
-  }
-
-  return null;
 }
