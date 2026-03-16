@@ -81,10 +81,20 @@ def _parse_json_response(text):
         lines = [l for l in lines if not l.strip().startswith("```")]
         text = "\n".join(lines)
     try:
-        return json.loads(text)
+        result = json.loads(text)
     except json.JSONDecodeError as e:
         logger.warning("Failed to parse extraction JSON: %s", e)
         return None
+
+    # Handle case where Claude returns a list instead of a dict
+    if isinstance(result, list):
+        if result and isinstance(result[0], dict):
+            return result[0]
+        return None
+    if not isinstance(result, dict):
+        logger.warning("Unexpected JSON type: %s", type(result).__name__)
+        return None
+    return result
 
 
 def extract_all(candidates):
