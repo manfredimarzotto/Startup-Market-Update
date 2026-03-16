@@ -1,19 +1,16 @@
+import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { Eye, MessageCircle, Archive, Sparkles, ExternalLink, MoreHorizontal } from 'lucide-react';
 import ScoreBadge from './ScoreBadge';
-import { COUNTRY_NAMES, formatSignalType, entityUrl } from '../hooks/useData';
+import SignalTag from './SignalTag';
+import { COUNTRY_NAMES, entityUrl } from '../hooks/useData';
 
-const STATUS_OPTIONS = ['new', 'viewed', 'contacted', 'archived'];
-
-const SIGNAL_TYPE_COLORS = {
-  funding_round:  'bg-emerald-500/15 text-emerald-400 border-emerald-500/20',
-  new_fund:       'bg-teal-500/15 text-teal-400 border-teal-500/20',
-  acquisition:    'bg-rose-500/15 text-rose-400 border-rose-500/20',
-  partnership:    'bg-blue-500/15 text-blue-400 border-blue-500/20',
-  hiring_wave:    'bg-amber-500/15 text-amber-400 border-amber-500/20',
-  expansion:      'bg-violet-500/15 text-violet-400 border-violet-500/20',
-  product_launch: 'bg-cyan-500/15 text-cyan-400 border-cyan-500/20',
-  media_mention:  'bg-slate-500/15 text-slate-400 border-slate-500/20',
-};
+const STATUS_ACTIONS = [
+  { key: 'new',       Icon: Sparkles,       label: 'New' },
+  { key: 'viewed',    Icon: Eye,            label: 'Viewed' },
+  { key: 'contacted', Icon: MessageCircle,  label: 'Contacted' },
+  { key: 'archived',  Icon: Archive,        label: 'Archived' },
+];
 
 const ENTITY_TYPE_STYLES = {
   company:  'bg-blue-500/15 text-blue-400 border-blue-500/30',
@@ -44,6 +41,7 @@ export default function OpportunityCard({ opportunity, onStatusChange, index = 0
   const { entity, entity_type, oppSignals, contacts, status, ai_rationale, opportunity_score } = opportunity;
   const name = entity?.name || 'Unknown';
   const url = entityUrl(entity_type, entity);
+  const [showActions, setShowActions] = useState(false);
 
   return (
     <motion.div
@@ -65,66 +63,51 @@ export default function OpportunityCard({ opportunity, onStatusChange, index = 0
       `}
       style={{ borderColor: 'rgba(255, 255, 255, 0.08)' }}
     >
-      {/* Top row: name + entity badge + score */}
-      <div className="flex items-start justify-between gap-4">
-        <div className="flex-1 min-w-0">
-          <div className="flex items-center gap-2.5 flex-wrap">
-            {url ? (
-              <a
-                href={url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white font-semibold text-lg hover:text-violet-300 transition-colors truncate"
-              >
-                {name}
-                <span className="text-white/30 ml-1 text-sm">&#x2197;</span>
-              </a>
-            ) : (
-              <span className="text-white font-semibold text-lg truncate">{name}</span>
-            )}
-            <span className={`
-              text-[0.6rem] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md border
-              ${ENTITY_TYPE_STYLES[entity_type] || 'bg-white/10 text-white/60'}
-            `}>
-              {entity_type}
-            </span>
-          </div>
-
-          {/* Entity meta */}
-          <EntityMeta entity={entity} entityType={entity_type} />
+      {/* Row 1: Name + Score on same line */}
+      <div className="flex items-center justify-between gap-3">
+        <div className="flex items-center gap-2.5 min-w-0">
+          {url ? (
+            <a
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white font-semibold text-lg hover:text-cyan-300 transition-colors truncate flex items-center gap-1.5"
+            >
+              {name}
+              <ExternalLink size={13} className="text-white/20 flex-shrink-0" />
+            </a>
+          ) : (
+            <span className="text-white font-semibold text-lg truncate">{name}</span>
+          )}
+          <span className={`
+            text-[0.6rem] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md border flex-shrink-0
+            ${ENTITY_TYPE_STYLES[entity_type] || 'bg-white/10 text-white/60'}
+          `}>
+            {entity_type}
+          </span>
         </div>
 
         <ScoreBadge score={opportunity_score} />
       </div>
 
-      {/* Signal pills */}
+      {/* Row 2: Entity meta */}
+      <EntityMeta entity={entity} entityType={entity_type} />
+
+      {/* Row 3: Signal tags */}
       <div className="flex flex-wrap gap-1.5 mt-3">
-        {oppSignals.map((s, i) => {
-          const tierCls = s.signal_tier === 'tier_1_strong' ? 'tier-1'
-                        : s.signal_tier === 'tier_2_medium' ? 'tier-2' : 'tier-3';
-          return (
-            <span
-              key={i}
-              className={`
-                signal-pill inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg border
-                ${SIGNAL_TYPE_COLORS[s.signal_type] || 'bg-white/5 text-white/50 border-white/10'}
-              `}
-            >
-              <span className={`tier-dot ${tierCls}`} />
-              {formatSignalType(s.signal_type)}
-            </span>
-          );
-        })}
+        {oppSignals.map((s, i) => (
+          <SignalTag key={i} signalType={s.signal_type} tier={s.signal_tier} />
+        ))}
       </div>
 
-      {/* AI Rationale */}
+      {/* Row 4: AI Rationale */}
       {ai_rationale && (
-        <p className="mt-3 text-sm text-white/50 leading-relaxed">
+        <p className="mt-3 text-sm text-white/45 leading-relaxed">
           {ai_rationale}
         </p>
       )}
 
-      {/* Bottom: contacts + status */}
+      {/* Row 5: Contacts + action toggle */}
       <div className="flex items-center justify-between mt-4 pt-3 border-t border-white/5">
         <div className="flex flex-wrap gap-1.5">
           {contacts.length > 0 ? (
@@ -134,7 +117,7 @@ export default function OpportunityCard({ opportunity, onStatusChange, index = 0
                 href={p.linkedin_url || '#'}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-xs text-white/40 hover:text-violet-300 bg-white/5 px-2 py-1 rounded-md transition-colors"
+                className="text-xs text-white/40 hover:text-cyan-300 bg-white/5 px-2 py-1 rounded-md transition-colors"
               >
                 {p.name}
                 {p.role && <span className="text-white/20 ml-1">{p.role}</span>}
@@ -145,25 +128,59 @@ export default function OpportunityCard({ opportunity, onStatusChange, index = 0
           )}
         </div>
 
-        <div className="flex gap-1">
-          {STATUS_OPTIONS.map(s => (
-            <button
-              key={s}
-              onClick={() => onStatusChange(opportunity.id, s)}
-              className={`
-                text-[0.65rem] px-2.5 py-1 rounded-lg transition-all duration-200 capitalize
-                ${status === s
-                  ? 'bg-violet-600/30 text-violet-300 border border-violet-500/30'
-                  : 'text-white/25 hover:text-white/50 hover:bg-white/5 border border-transparent'
-                }
-              `}
+        {/* Action bar: icon-only, reveals on toggle */}
+        <div className="flex items-center gap-0.5">
+          {showActions ? (
+            <motion.div
+              initial={{ opacity: 0, x: 8 }}
+              animate={{ opacity: 1, x: 0 }}
+              className="flex items-center gap-0.5"
             >
-              {s}
-            </button>
-          ))}
+              {STATUS_ACTIONS.map(({ key, Icon, label }) => (
+                <button
+                  key={key}
+                  onClick={() => { onStatusChange(opportunity.id, key); setShowActions(false); }}
+                  title={label}
+                  className={`
+                    p-1.5 rounded-lg transition-all duration-150
+                    ${status === key
+                      ? 'bg-cyan-500/20 text-cyan-400'
+                      : 'text-white/20 hover:text-white/60 hover:bg-white/5'
+                    }
+                  `}
+                >
+                  <Icon size={14} />
+                </button>
+              ))}
+            </motion.div>
+          ) : (
+            <StatusIndicator status={status} />
+          )}
+          <button
+            onClick={() => setShowActions(v => !v)}
+            className="p-1.5 rounded-lg text-white/20 hover:text-white/50 hover:bg-white/5 transition-all ml-0.5"
+            title={showActions ? 'Close' : 'Change status'}
+          >
+            <MoreHorizontal size={14} />
+          </button>
         </div>
       </div>
     </motion.div>
+  );
+}
+
+function StatusIndicator({ status }) {
+  if (status === 'new') return null;
+
+  const action = STATUS_ACTIONS.find(a => a.key === status);
+  if (!action) return null;
+  const { Icon, label } = action;
+
+  return (
+    <span className="flex items-center gap-1 text-[0.65rem] text-white/30 px-1.5 py-1 capitalize">
+      <Icon size={11} />
+      {label}
+    </span>
   );
 }
 
@@ -181,7 +198,7 @@ function EntityMeta({ entity, entityType }) {
     return (
       <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5 mt-1">
         {parts.map((p, i) => (
-          <span key={i} className="text-xs text-white/30">
+          <span key={i} className="text-xs text-white/25">
             {i > 0 && <span className="mr-2 text-white/10">&middot;</span>}
             {p}
           </span>
@@ -193,9 +210,9 @@ function EntityMeta({ entity, entityType }) {
   if (entityType === 'investor') {
     return (
       <div className="flex flex-wrap items-center gap-2 mt-1">
-        <span className="text-xs text-white/30">{entity.type}</span>
+        <span className="text-xs text-white/25">{entity.type}</span>
         {entity.aum_estimate && (
-          <span className="text-xs text-white/30">
+          <span className="text-xs text-white/25">
             <span className="text-white/10 mr-2">&middot;</span>AUM: {entity.aum_estimate}
           </span>
         )}
@@ -206,9 +223,9 @@ function EntityMeta({ entity, entityType }) {
   if (entityType === 'person') {
     return (
       <div className="flex items-center gap-2 mt-1">
-        {entity.role && <span className="text-xs text-white/30">{entity.role}</span>}
+        {entity.role && <span className="text-xs text-white/25">{entity.role}</span>}
         {entity.relevance_tag && (
-          <span className="text-xs text-white/30">
+          <span className="text-xs text-white/25">
             <span className="text-white/10 mr-2">&middot;</span>{entity.relevance_tag}
           </span>
         )}
