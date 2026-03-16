@@ -21,68 +21,6 @@
     "last_signal_at": "2026-03-08T10:00:00Z"
   },
   {
-    "id": "inv_002",
-    "name": "Northzone",
-    "type": "vc",
-    "aum_estimate": "$1.5B",
-    "focus_sectors": [
-      "FinTech",
-      "Marketplaces",
-      "SaaS",
-      "Consumer"
-    ],
-    "focus_geographies": [
-      "Nordics",
-      "Europe",
-      "US"
-    ],
-    "portfolio_count": 120,
-    "website": "https://northzone.com",
-    "linkedin_url": "https://linkedin.com/company/northzone",
-    "last_signal_at": "2026-03-09T08:00:00Z"
-  },
-  {
-    "id": "inv_003",
-    "name": "Atomico",
-    "type": "vc",
-    "aum_estimate": "$3.5B",
-    "focus_sectors": [
-      "DeepTech",
-      "HealthTech",
-      "FinTech",
-      "CleanTech"
-    ],
-    "focus_geographies": [
-      "Europe",
-      "US"
-    ],
-    "portfolio_count": 100,
-    "website": "https://atomico.com",
-    "linkedin_url": "https://linkedin.com/company/atomico",
-    "last_signal_at": "2026-03-08T16:00:00Z"
-  },
-  {
-    "id": "inv_004",
-    "name": "Sequoia Capital",
-    "type": "vc",
-    "aum_estimate": "$85B",
-    "focus_sectors": [
-      "AI/ML",
-      "SaaS",
-      "FinTech",
-      "HealthTech"
-    ],
-    "focus_geographies": [
-      "US",
-      "Europe",
-      "Asia"
-    ],
-    "portfolio_count": 400,
-    "website": "https://sequoiacap.com",
-    "linkedin_url": "https://linkedin.com/company/sequoia-capital",
-    "last_signal_at": "2026-03-08T16:00:00Z"
-  },
-  {
     "id": "inv_005",
     "name": "Balderton Capital",
     "type": "vc",
@@ -143,26 +81,6 @@
     "last_signal_at": "2026-03-05T14:00:00Z"
   },
   {
-    "id": "inv_008",
-    "name": "Creandum",
-    "type": "vc",
-    "aum_estimate": "$1B",
-    "focus_sectors": [
-      "SaaS",
-      "FinTech",
-      "Logistics",
-      "Consumer"
-    ],
-    "focus_geographies": [
-      "Nordics",
-      "Europe"
-    ],
-    "portfolio_count": 80,
-    "website": "https://creandum.com",
-    "linkedin_url": "https://linkedin.com/company/creandum",
-    "last_signal_at": "2026-03-07T08:00:00Z"
-  },
-  {
     "id": "inv_009",
     "name": "Insight Partners",
     "type": "vc",
@@ -183,68 +101,6 @@
     "last_signal_at": "2026-03-07T10:00:00Z"
   },
   {
-    "id": "inv_010",
-    "name": "Kinnevik",
-    "type": "vc",
-    "aum_estimate": "$10B",
-    "focus_sectors": [
-      "HealthTech",
-      "FinTech",
-      "FoodTech",
-      "Consumer"
-    ],
-    "focus_geographies": [
-      "Nordics",
-      "Europe",
-      "US"
-    ],
-    "portfolio_count": 50,
-    "website": "https://kinnevik.com",
-    "linkedin_url": "https://linkedin.com/company/kinnevik",
-    "last_signal_at": "2026-03-06T09:00:00Z"
-  },
-  {
-    "id": "inv_011",
-    "name": "SoftBank Vision Fund",
-    "type": "vc",
-    "aum_estimate": "$100B",
-    "focus_sectors": [
-      "AI/ML",
-      "DeepTech",
-      "Mobility",
-      "FinTech"
-    ],
-    "focus_geographies": [
-      "US",
-      "Europe",
-      "Asia"
-    ],
-    "portfolio_count": 200,
-    "website": "https://visionfund.com",
-    "linkedin_url": "https://linkedin.com/company/softbank-vision-fund",
-    "last_signal_at": "2026-03-08T08:00:00Z"
-  },
-  {
-    "id": "inv_012",
-    "name": "Cherry Ventures",
-    "type": "vc",
-    "aum_estimate": "$500M",
-    "focus_sectors": [
-      "SaaS",
-      "FinTech",
-      "HealthTech",
-      "CleanTech"
-    ],
-    "focus_geographies": [
-      "DACH",
-      "Europe"
-    ],
-    "portfolio_count": 60,
-    "website": "https://cherry.vc",
-    "linkedin_url": "https://linkedin.com/company/cherry-ventures",
-    "last_signal_at": "2026-03-09T08:00:00Z"
-  },
-  {
     "id": "inv_013",
     "name": "Andreessen Horowitz",
     "type": "vc",
@@ -262,43 +118,6 @@
     "website": "https://a16z.com",
     "linkedin_url": "https://linkedin.com/company/a16z",
     "last_signal_at": "2026-03-08T09:00:00Z"
-  },
-  {
-    "id": "inv_014",
-    "name": "Industrifonden",
-    "type": "vc",
-    "aum_estimate": "$600M",
-    "focus_sectors": [
-      "DeepTech",
-      "HealthTech",
-      "CleanTech"
-    ],
-    "focus_geographies": [
-      "Nordics"
-    ],
-    "portfolio_count": 40,
-    "website": "https://industrifonden.com",
-    "linkedin_url": "https://linkedin.com/company/industrifonden",
-    "last_signal_at": "2026-03-09T06:30:00Z"
-  },
-  {
-    "id": "inv_015",
-    "name": "Goldman Sachs Growth",
-    "type": "pe",
-    "aum_estimate": "$20B",
-    "focus_sectors": [
-      "FinTech",
-      "SaaS",
-      "HealthTech"
-    ],
-    "focus_geographies": [
-      "US",
-      "Europe"
-    ],
-    "portfolio_count": 150,
-    "website": "https://goldmansachs.com",
-    "linkedin_url": "https://linkedin.com/company/goldman-sachs",
-    "last_signal_at": "2026-03-08T08:00:00Z"
   },
   {
     "id": "inv_8d4321d9",
