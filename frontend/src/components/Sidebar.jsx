@@ -22,7 +22,7 @@ const TYPE_GROUPS = [
 const RECENCY_OPTIONS = [
   { value: 14, label: '0–14 days', cls: 'bg-red-500 shadow-red-500/50' },
   { value: 30, label: '15–30 days', cls: 'bg-amber-500 shadow-amber-500/50' },
-  { value: 45, label: '30–45 days', cls: 'bg-slate-500 shadow-slate-500/50' },
+  { value: 45, label: '30–45 days', cls: 'bg-slate-400 shadow-slate-400/50' },
 ];
 
 export default function Sidebar({
@@ -40,7 +40,7 @@ export default function Sidebar({
       {/* Mobile toggle */}
       <button
         onClick={onToggle}
-        className="lg:hidden fixed bottom-4 right-4 z-50 glass-strong px-4 py-2.5 rounded-xl text-white/80 text-sm font-medium shadow-lg"
+        className="lg:hidden fixed bottom-4 right-4 z-50 bg-white border border-slate-200 px-4 py-2.5 rounded-xl text-slate-600 text-sm font-medium shadow-lg"
       >
         {collapsed ? `Filters${activeFilterCount > 0 ? ` (${activeFilterCount})` : ''}` : 'Close'}
       </button>
@@ -49,18 +49,18 @@ export default function Sidebar({
       <aside
         className={`
           sidebar-enter fixed lg:sticky top-0 left-0 z-40 h-screen
-          glass-strong overflow-y-auto
+          bg-white border-r border-slate-100 overflow-y-auto
           ${collapsed ? 'w-0 opacity-0 lg:w-64 lg:opacity-100' : 'w-72 opacity-100'}
           flex-shrink-0
         `}
       >
         <div className={`${collapsed ? 'hidden lg:block' : ''} p-5 space-y-5`}>
           <div className="flex items-center justify-between">
-            <span className="text-xs font-semibold text-white/50 tracking-widest">FILTERS</span>
+            <span className="text-[0.65rem] font-semibold text-slate-400 tracking-widest">FILTERS</span>
             {activeFilterCount > 0 && (
               <button
                 onClick={resetFilters}
-                className="text-xs text-violet-400 hover:text-violet-300 transition-colors"
+                className="text-xs text-slate-500 hover:text-slate-700 transition-colors"
               >
                 Reset all
               </button>
@@ -89,7 +89,7 @@ export default function Sidebar({
             <select
               value={filters.geography}
               onChange={e => setFilter('geography', e.target.value)}
-              className="w-full bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm text-white/80 focus:outline-none focus:border-violet-500/50 transition-colors"
+              className="w-full bg-white border border-slate-200 rounded-lg px-3 py-2 text-sm text-slate-600 focus:outline-none focus:border-slate-400 transition-colors"
             >
               <option value="">All Geographies</option>
               {filterOptions.geographies.map(g => (
@@ -103,7 +103,7 @@ export default function Sidebar({
             <select
               value={filters.country}
               onChange={e => setFilter('country', e.target.value)}
-              className="w-full bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm text-white/80 focus:outline-none focus:border-violet-500/50 transition-colors"
+              className="w-full bg-white border border-slate-200 rounded-lg px-3 py-2 text-sm text-slate-600 focus:outline-none focus:border-slate-400 transition-colors"
             >
               <option value="">All Countries</option>
               {filterOptions.countries.map(c => (
@@ -166,7 +166,7 @@ export default function Sidebar({
             <select
               value={filters.sort}
               onChange={e => setFilter('sort', e.target.value)}
-              className="w-full bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm text-white/80 focus:outline-none focus:border-violet-500/50 transition-colors"
+              className="w-full bg-white border border-slate-200 rounded-lg px-3 py-2 text-sm text-slate-600 focus:outline-none focus:border-slate-400 transition-colors"
             >
               <option value="score_desc">Signal Strength</option>
               <option value="score_asc">Score (Low → High)</option>
@@ -182,7 +182,7 @@ export default function Sidebar({
 function FilterSection({ label, children }) {
   return (
     <div className="space-y-2">
-      <span className="text-[0.65rem] font-semibold text-white/30 tracking-widest">{label}</span>
+      <span className="text-[0.65rem] font-semibold text-slate-300 tracking-widest">{label}</span>
       <div className="space-y-1">
         {children}
       </div>
@@ -200,7 +200,7 @@ function CheckboxItem({ checked, onChange, label }) {
           onChange={onChange}
           className="sr-only peer"
         />
-        <div className="w-4 h-4 rounded border border-white/20 bg-white/5 peer-checked:bg-violet-600 peer-checked:border-violet-500 transition-all flex items-center justify-center">
+        <div className="w-4 h-4 rounded border border-slate-200 bg-white peer-checked:bg-[#0f172a] peer-checked:border-[#0f172a] transition-all flex items-center justify-center">
           {checked && (
             <svg className="w-2.5 h-2.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
@@ -208,7 +208,7 @@ function CheckboxItem({ checked, onChange, label }) {
           )}
         </div>
       </div>
-      <span className="text-sm text-white/60 group-hover:text-white/80 transition-colors">
+      <span className="text-sm text-slate-500 group-hover:text-slate-700 transition-colors">
         {label}
       </span>
     </label>

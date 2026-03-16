@@ -1,12 +1,13 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useCallback } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import Header from './components/Header';
-import SummaryBar from './components/SummaryBar';
-import Sidebar from './components/Sidebar';
 import OpportunityCard from './components/OpportunityCard';
 import { useData } from './hooks/useData';
 import { useFilters } from './hooks/useFilters';
 import { useStatus } from './hooks/useStatus';
+
+const SIGNAL_OPTIONS = ['all', 'funding', 'growth', 'deals', 'media'];
+const FIT_OPTIONS = ['all', 'high', 'medium', 'low'];
 
 export default function App() {
   const { opportunities, signals, companies, investors, people, loading, error, signalMap, companyMap, investorMap, personMap } = useData();
@@ -17,16 +18,40 @@ export default function App() {
     filteredOpportunities, filterOptions, activeFilterCount,
   } = useFilters(opportunities, lookups, getStatus);
 
-  const [sidebarCollapsed, setSidebarCollapsed] = useState(true);
+  // Signal type chip filter (maps to typeGroups)
+  const [signalFilter, setSignalFilter] = useState('all');
+  // Fit filter (local — thesis fit is not in data model, so this is a UI-only placeholder)
+  const [fitFilter, setFitFilter] = useState('all');
 
-  const today = new Date().toISOString().slice(0, 10);
+  const handleSignalFilter = useCallback((value) => {
+    setSignalFilter(value);
+    if (value === 'all') {
+      setFilter('typeGroups', ['funding', 'deals', 'growth', 'media']);
+    } else {
+      setFilter('typeGroups', [value]);
+    }
+  }, [setFilter]);
+
+  // KPI computations
+  const avgScore = useMemo(() => {
+    if (filteredOpportunities.length === 0) return 0;
+    return Math.round(filteredOpportunities.reduce((a, o) => a + o.opportunity_score, 0) / filteredOpportunities.length);
+  }, [filteredOpportunities]);
+
+  const contactedCount = useMemo(() => {
+    return filteredOpportunities.filter(o => o.status === 'contacted').length;
+  }, [filteredOpportunities]);
+
+  const newSignalCount = useMemo(() => {
+    return signals.length;
+  }, [signals]);
 
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="flex flex-col items-center gap-4">
-          <div className="w-8 h-8 border-2 border-violet-500/30 border-t-violet-500 rounded-full animate-spin" />
-          <span className="text-white/40 text-sm">Loading intelligence data...</span>
+          <div className="w-8 h-8 border-2 border-slate-300 border-t-slate-600 rounded-full animate-spin" />
+          <span className="text-slate-400 text-sm">Loading intelligence data...</span>
         </div>
       </div>
     );
@@ -36,115 +61,126 @@ export default function App() {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="glass rounded-bento p-8 max-w-md text-center">
-          <p className="text-red-400 font-medium">Failed to load data</p>
-          <p className="text-white/40 text-sm mt-2">{error}</p>
+          <p className="text-red-500 font-medium">Failed to load data</p>
+          <p className="text-slate-400 text-sm mt-2">{error}</p>
         </div>
       </div>
     );
   }
 
+  const kpis = [
+    { label: 'Companies', value: companies.length },
+    { label: 'Avg signal', value: avgScore },
+    { label: 'New signals', value: newSignalCount },
+    { label: 'Contacted', value: contactedCount },
+  ];
+
   return (
-    <div className="min-h-screen text-white">
+    <div className="min-h-screen text-[#0f172a]">
       <Header />
-      <SummaryBar opportunities={filteredOpportunities} />
 
-      <div className="flex">
-        <Sidebar
-          collapsed={sidebarCollapsed}
-          onToggle={() => setSidebarCollapsed(c => !c)}
-          filters={filters}
-          toggleArrayFilter={toggleArrayFilter}
-          setFilter={setFilter}
-          resetFilters={resetFilters}
-          filterOptions={filterOptions}
-          activeFilterCount={activeFilterCount}
-        />
-
-        {/* Main content */}
-        <main className="flex-1 min-w-0 px-6 pb-8">
-          {/* Content header */}
-          <div className="flex items-center justify-between py-4">
-            <div className="flex items-center gap-3">
-              <h2 className="text-xs font-bold text-white/50 tracking-widest">TOP OPPORTUNITIES</h2>
-              <span className="text-white/15">&middot;</span>
-              <span className="text-xs text-white/30 font-mono">
-                {filteredOpportunities.length} RESULT{filteredOpportunities.length !== 1 ? 'S' : ''}
-              </span>
+      <div style={{ maxWidth: 960, margin: '0 auto', padding: '16px 20px 80px' }}>
+        {/* KPI strip */}
+        <div className="flex gap-4 mb-3.5 px-0.5">
+          {kpis.map((m) => (
+            <div key={m.label} className="flex items-baseline gap-1.5">
+              <span className="text-[9.5px] font-medium text-[#94a3b8] uppercase tracking-wide">{m.label}</span>
+              <span className="text-[15px] font-bold text-[#0f172a] tabular-nums">{m.value}</span>
             </div>
-            <span className="text-xs text-white/20 font-mono">{today}</span>
-          </div>
+          ))}
+        </div>
 
-          {/* Active filter chips */}
-          <ActiveFilters filters={filters} setFilter={setFilter} resetFilters={resetFilters} />
-
-          {/* Cards feed */}
-          {filteredOpportunities.length > 0 ? (
-            <div className="space-y-4">
-              <AnimatePresence mode="popLayout">
-                {filteredOpportunities.map((opp, i) => (
-                  <OpportunityCard
-                    key={opp.id}
-                    opportunity={opp}
-                    onStatusChange={setStatus}
-                    index={i}
-                  />
-                ))}
-              </AnimatePresence>
-            </div>
-          ) : (
-            <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="glass rounded-bento p-12 text-center mt-4"
+        {/* Filter chips: signal type + fit */}
+        <div className="flex items-center gap-1 mb-3 px-0.5 flex-wrap">
+          {SIGNAL_OPTIONS.map((s) => (
+            <button
+              key={s}
+              onClick={() => handleSignalFilter(s)}
+              className="transition-all duration-100 capitalize"
+              style={{
+                padding: '3px 10px',
+                borderRadius: 999,
+                border: '1px solid',
+                borderColor: signalFilter === s ? '#0f172a' : '#e2e8f0',
+                background: signalFilter === s ? '#0f172a' : '#fff',
+                color: signalFilter === s ? '#fff' : '#64748b',
+                fontSize: '10.5px',
+                fontWeight: 500,
+                cursor: 'pointer',
+              }}
             >
-              <p className="text-white/30">No opportunities match the current filters.</p>
-              <button
-                onClick={resetFilters}
-                className="mt-3 text-sm text-violet-400 hover:text-violet-300 transition-colors"
-              >
-                Reset filters
-              </button>
-            </motion.div>
-          )}
-        </main>
-      </div>
-    </div>
-  );
-}
+              {s === 'all' ? 'All signals' : s}
+            </button>
+          ))}
 
-function ActiveFilters({ filters, setFilter, resetFilters }) {
-  const chips = [];
-  if (filters.geography) {
-    chips.push({ key: 'geo', label: filters.geography, clear: () => setFilter('geography', '') });
-  }
-  if (filters.country) {
-    chips.push({ key: 'country', label: filters.country, clear: () => setFilter('country', '') });
-  }
+          {/* Separator */}
+          <span className="w-px h-3.5 bg-[#e2e8f0] mx-1" />
 
-  if (chips.length === 0) return null;
+          {/* Fit filter — green-tinted */}
+          {FIT_OPTIONS.map((f) => (
+            <button
+              key={f}
+              onClick={() => setFitFilter(f)}
+              className="transition-all duration-100 capitalize"
+              style={{
+                padding: '3px 10px',
+                borderRadius: 999,
+                border: '1px solid',
+                borderColor: fitFilter === f ? '#059669' : '#e2e8f0',
+                background: fitFilter === f ? '#ecfdf5' : '#fff',
+                color: fitFilter === f ? '#059669' : '#94a3b8',
+                fontSize: '10.5px',
+                fontWeight: 500,
+                cursor: 'pointer',
+              }}
+            >
+              {f === 'all' ? 'Any fit' : f + ' fit'}
+            </button>
+          ))}
 
-  return (
-    <div className="flex flex-wrap items-center gap-2 mb-4">
-      <AnimatePresence>
-        {chips.map(chip => (
-          <motion.span
-            key={chip.key}
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            exit={{ opacity: 0, scale: 0.8 }}
-            className="glass inline-flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs text-white/60"
+          <span className="ml-auto text-[10.5px] text-[#94a3b8]">
+            {filteredOpportunities.length} result{filteredOpportunities.length !== 1 ? 's' : ''}
+          </span>
+        </div>
+
+        {/* Cards feed */}
+        {filteredOpportunities.length > 0 ? (
+          <div className="space-y-2">
+            <AnimatePresence mode="popLayout">
+              {filteredOpportunities.map((opp, i) => (
+                <OpportunityCard
+                  key={opp.id}
+                  opportunity={opp}
+                  onStatusChange={setStatus}
+                  index={i}
+                />
+              ))}
+            </AnimatePresence>
+          </div>
+        ) : (
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="bg-white rounded-bento border border-[#f1f5f9] p-12 text-center mt-4"
           >
-            {chip.label}
-            <button onClick={chip.clear} className="text-white/30 hover:text-white/60 transition-colors ml-1">&times;</button>
-          </motion.span>
-        ))}
-      </AnimatePresence>
-      <button
-        onClick={resetFilters}
-        className="text-xs text-violet-400 hover:text-violet-300 transition-colors ml-1"
-      >
-        Reset all
-      </button>
+            <p className="text-slate-400">No opportunities match the current filters.</p>
+            <button
+              onClick={() => { resetFilters(); setSignalFilter('all'); setFitFilter('all'); }}
+              className="mt-3 text-sm text-slate-500 hover:text-slate-700 transition-colors"
+            >
+              Reset filters
+            </button>
+          </motion.div>
+        )}
+
+        {/* Methodology footer */}
+        <div
+          className="mt-3.5 rounded-md text-[10.5px] text-[#94a3b8] leading-relaxed"
+          style={{ padding: '8px 14px', background: '#fff', border: '1px solid #f1f5f9' }}
+        >
+          <span className="font-semibold text-[#64748b]">Signal Strength</span> = Events (observable company actions, 0–25) + Capital (funding signals, 0–25) + Momentum (sector tailwinds, 0–25) + Sources (independent corroboration, 0–25). 45-day decay window. Not an investment recommendation. <span className="font-semibold text-[#64748b]">Thesis Fit</span> is a separate, user-configured filter.
+        </div>
+      </div>
     </div>
   );
 }

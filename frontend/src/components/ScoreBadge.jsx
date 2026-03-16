@@ -3,9 +3,9 @@ import { useMemo } from 'react';
 const BAR_COUNT = 7;
 
 function getScoreColor(score) {
-  if (score >= 80) return { text: 'text-emerald-400', glow: 'score-glow-emerald', bar: '#34d399', barDim: '#34d39940' };
-  if (score >= 70) return { text: 'text-amber-400', glow: 'score-glow-amber', bar: '#fbbf24', barDim: '#fbbf2440' };
-  return { text: 'text-slate-400', glow: 'score-glow-slate', bar: '#94a3b8', barDim: '#94a3b840' };
+  if (score >= 80) return { text: 'text-emerald-600', glow: 'score-glow-emerald', bar: '#10b981', barDim: '#10b98130' };
+  if (score >= 70) return { text: 'text-amber-600', glow: 'score-glow-amber', bar: '#d97706', barDim: '#d9770630' };
+  return { text: 'text-slate-400', glow: 'score-glow-slate', bar: '#94a3b8', barDim: '#94a3b830' };
 }
 
 export default function ScoreBadge({ score }) {
@@ -35,7 +35,6 @@ export default function ScoreBadge({ score }) {
             style={{
               height: `${bar.height}%`,
               backgroundColor: bar.active ? colors.bar : colors.barDim,
-              boxShadow: bar.active ? `0 0 6px ${colors.bar}60` : 'none',
             }}
           />
         ))}

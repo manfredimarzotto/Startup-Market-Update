@@ -23,9 +23,9 @@ const PeopleIcon = () => (
 );
 
 const CARDS = [
-  { key: 'company', label: 'COMPANIES', Icon: CompanyIcon, gradient: 'from-blue-500/10 to-cyan-500/10', border: 'border-blue-500/20', iconColor: 'text-blue-400' },
-  { key: 'investor', label: 'INVESTORS', Icon: InvestorIcon, gradient: 'from-violet-500/10 to-purple-500/10', border: 'border-violet-500/20', iconColor: 'text-violet-400' },
-  { key: 'person', label: 'PEOPLE', Icon: PeopleIcon, gradient: 'from-emerald-500/10 to-teal-500/10', border: 'border-emerald-500/20', iconColor: 'text-emerald-400' },
+  { key: 'company', label: 'COMPANIES', Icon: CompanyIcon, bg: 'bg-blue-50', border: 'border-blue-100', iconColor: 'text-blue-500' },
+  { key: 'investor', label: 'INVESTORS', Icon: InvestorIcon, bg: 'bg-violet-50', border: 'border-violet-100', iconColor: 'text-violet-500' },
+  { key: 'person', label: 'PEOPLE', Icon: PeopleIcon, bg: 'bg-emerald-50', border: 'border-emerald-100', iconColor: 'text-emerald-500' },
 ];
 
 export default function SummaryBar({ opportunities }) {
@@ -40,14 +40,14 @@ export default function SummaryBar({ opportunities }) {
       {CARDS.map(card => (
         <div
           key={card.key}
-          className={`glass rounded-bento p-4 flex items-center gap-4 bg-gradient-to-br ${card.gradient} border ${card.border}`}
+          className={`rounded-bento p-4 flex items-center gap-4 ${card.bg} border ${card.border}`}
         >
-          <div className={`${card.iconColor} p-2 rounded-lg bg-white/5`}>
+          <div className={`${card.iconColor} p-2 rounded-lg bg-white`}>
             <card.Icon />
           </div>
           <div>
-            <div className="text-2xl font-bold text-white font-mono">{counts[card.key]}</div>
-            <div className="text-[0.65rem] text-white/40 font-semibold tracking-widest">{card.label}</div>
+            <div className="text-2xl font-bold text-[#0f172a] font-mono">{counts[card.key]}</div>
+            <div className="text-[0.65rem] text-slate-400 font-semibold tracking-widest">{card.label}</div>
           </div>
         </div>
       ))}
