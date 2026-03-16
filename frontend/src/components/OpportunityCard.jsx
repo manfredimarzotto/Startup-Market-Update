@@ -246,7 +246,7 @@ export default function OpportunityCard({ opportunity, onStatusChange, index = 0
               padding: '1px 6px', borderRadius: 999, fontSize: 10, fontWeight: 500,
               background: statusStyle.bg, color: statusStyle.color,
             }}>{status}</span>
-            {(status === 'contacted' || status === 'viewed') && (
+            {opportunity.crmSync && (
               <span style={{ fontSize: 10, color: '#94a3b8', display: 'flex', alignItems: 'center', gap: 3 }}>
                 <svg width="9" height="9" viewBox="0 0 16 16" fill="none"><path d="M2 8.5l4 4 8-9" stroke="#10b981" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
                 CRM
@@ -293,7 +293,13 @@ export default function OpportunityCard({ opportunity, onStatusChange, index = 0
             <span style={{ margin: '0 6px', color: '#e2e8f0' }}>&middot;</span>
             <span>{updatedAgo}</span>
             <span style={{ margin: '0 6px', color: '#e2e8f0' }}>&middot;</span>
-            <OwnerBadge initials={status === 'contacted' ? 'MR' : null} />
+            <OwnerBadge initials={opportunity.owner || null} />
+            {opportunity.lastTouch && (
+              <>
+                <span style={{ margin: '0 6px', color: '#e2e8f0' }}>&middot;</span>
+                <span style={{ fontSize: 10, color: '#94a3b8', fontStyle: 'italic' }}>{opportunity.lastTouch}</span>
+              </>
+            )}
           </div>
 
           {/* Why Surfaced Drawer */}

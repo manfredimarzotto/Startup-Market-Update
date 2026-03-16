@@ -157,7 +157,7 @@ function TriageRow({ opportunity, isSelected, onSelect, isOpen, onToggle, onStat
         <td style={{ padding: '9px 6px' }}><FitDot fit={fit} /></td>
         <td style={{ padding: '9px 6px', fontSize: 11, fontWeight: 550, color: '#475569' }}>{raised}</td>
         <td style={{ padding: '9px 6px', textAlign: 'center' }}>
-          <OwnerBadge initials={status === 'contacted' ? 'MR' : null} />
+          <OwnerBadge initials={opportunity.owner || null} />
         </td>
         <td style={{ padding: '9px 6px', fontSize: 10, color: '#94a3b8' }}>{updatedAgo}</td>
         <td style={{ padding: '9px 6px 9px 2px' }}>

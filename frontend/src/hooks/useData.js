@@ -90,7 +90,7 @@ export function enrichOpportunity(opp, lookups, getStatus) {
     personMap[opp.person_id];
   const oppSignals = (opp.signal_ids || []).map(id => signalMap[id]).filter(Boolean);
   const contacts = (opp.contact_ids || []).map(id => personMap[id]).filter(Boolean);
-  return { ...opp, entity: entity || null, oppSignals, contacts, status: getStatus(opp.id) };
+  return { ...opp, entity: entity || null, oppSignals, contacts, status: getStatus(opp.id, opp.status) };
 }
 
 export function daysSince(dateStr) {
