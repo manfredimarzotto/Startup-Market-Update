@@ -97,15 +97,17 @@ function TriageRow({ opportunity, isSelected, onSelect, isOpen, onToggle, onStat
     Math.round(opportunity_score * 0.8), opportunity_score,
   ];
 
-  // Triggers for expanded row
-  const triggers = oppSignals.map(s => ({
-    type: s.signal_type,
-    text: s.headline || formatSignalType(s.signal_type),
-    time: daysSince(s.published_at) === 0 ? 'today'
-      : daysSince(s.published_at) === 1 ? '1d ago'
-      : daysSince(s.published_at) < 7 ? `${daysSince(s.published_at)}d ago`
-      : `${Math.round(daysSince(s.published_at) / 7)}w ago`,
-  }));
+  // Use pre-built triggers from pipeline if available
+  const triggers = opportunity.triggers && opportunity.triggers.length > 0
+    ? opportunity.triggers
+    : oppSignals.map(s => ({
+        type: s.signal_type,
+        text: s.headline || formatSignalType(s.signal_type),
+        time: daysSince(s.published_at) === 0 ? 'today'
+          : daysSince(s.published_at) === 1 ? '1d ago'
+          : daysSince(s.published_at) < 7 ? `${daysSince(s.published_at)}d ago`
+          : `${Math.round(daysSince(s.published_at) / 7)}w ago`,
+      }));
 
   const breakdown = {
     Events: bd.events || 0,

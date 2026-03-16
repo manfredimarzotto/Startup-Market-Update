@@ -21,7 +21,24 @@
     },
     "ai_rationale": "\u20ac270K across 3 angel closes \u00b7 AI therapy localisation \u00b7 3 sources \u00b7 no lead identified.",
     "entity_type": "company",
-    "status": "new"
+    "status": "new",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "raises \u20ac232.4k in angel funding for culturally intelligent AI mental health\u2026",
+        "time": "5d ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in HealthTech / Mental Health AI",
+        "time": ""
+      },
+      {
+        "type": "growth",
+        "text": "HQ: Helsinki, FI",
+        "time": ""
+      }
+    ]
   },
   {
     "id": "opp_20260316_002",
@@ -45,7 +62,19 @@
     },
     "ai_rationale": "$50M Series A \u00b7 software-driven factory automation \u00b7 3 sources \u00b7 aerospace + energy focus.",
     "entity_type": "company",
-    "status": "new"
+    "status": "new",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "UK manufacturing automation startup Isembard raises $50M Series A (3 sources)",
+        "time": "1w ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in DeepTech / Industrial Manufacturing",
+        "time": ""
+      }
+    ]
   },
   {
     "id": "opp_20260316_003",
@@ -70,7 +99,19 @@
     },
     "ai_rationale": "$200M raise, unicorn status \u00b7 founder-first accelerator \u00b7 2 sources \u00b7 UK-based.",
     "entity_type": "company",
-    "status": "new"
+    "status": "new",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "reaches unicorn status with $200M fundraise",
+        "time": "5d ago"
+      },
+      {
+        "type": "sector",
+        "text": "India neobank Fi winds down banking services on its platform",
+        "time": "4d ago"
+      }
+    ]
   },
   {
     "id": "opp_20260316_004",
@@ -99,7 +140,24 @@
     },
     "ai_rationale": "$550M Series D at $5.55B valuation \u00b7 AI legal tech \u00b7 6 sources \u00b7 Canadian acquisition.",
     "entity_type": "company",
-    "status": "new"
+    "status": "new",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "Legal tech Legora raises $550m Series D at $5.55bn valuation (4 sources)",
+        "time": "6d ago"
+      },
+      {
+        "type": "competitor",
+        "text": "Swedish Legora acquires Canadian legal tech startup Walter AI to expand\u2026",
+        "time": "3d ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in LegalTech / Legal Technology",
+        "time": ""
+      }
+    ]
   },
   {
     "id": "opp_20260316_005",
@@ -122,7 +180,24 @@
     },
     "ai_rationale": "\u20ac91M + $105M dual Series C \u00b7 gene-edited tropical crops \u00b7 2 sources \u00b7 UK AgTech.",
     "entity_type": "company",
-    "status": "new"
+    "status": "new",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "secures $105m Series C funding for gene-edited tropical crops\u2026",
+        "time": "3d ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in FoodTech / Agricultural Biotechnology / Gene Editing",
+        "time": ""
+      },
+      {
+        "type": "growth",
+        "text": "HQ: Norwich, GB",
+        "time": ""
+      }
+    ]
   },
   {
     "id": "opp_20260316_006",
@@ -145,7 +220,24 @@
     },
     "ai_rationale": "\u20ac13.4M Series A \u00b7 bio-based cellulose materials \u00b7 2 sources \u00b7 Inter IKEA as investor.",
     "entity_type": "company",
-    "status": "new"
+    "status": "new",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "raises \u20ac13.4M Series A for cellulose-based industrial ingredients (2 sources)",
+        "time": "6d ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in DeepTech / Biomaterials",
+        "time": ""
+      },
+      {
+        "type": "growth",
+        "text": "HQ: Fribourg, CH",
+        "time": ""
+      }
+    ]
   },
   {
     "id": "opp_20260316_007",
@@ -173,7 +265,14 @@
     },
     "ai_rationale": "$2B Series C at $14.6B valuation \u00b7 AI hyperscaler \u00b7 4 sources \u00b7 Nvidia-backed.",
     "entity_type": "company",
-    "status": "new"
+    "status": "new",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "raises $2B in funding round (4 sources)",
+        "time": "3d ago"
+      }
+    ]
   },
   {
     "id": "opp_20260316_008",
@@ -195,7 +294,19 @@
     },
     "ai_rationale": "\u20ac30M Series A \u00b7 defence procurement subsystems \u00b7 1 source \u00b7 Plural-led, Estonia.",
     "entity_type": "company",
-    "status": "new"
+    "status": "new",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "Estonian missile manufacturer Frankenburg Technologies raises \u20ac30M Series A\u2026",
+        "time": "4d ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in DeepTech / Defence Technology",
+        "time": ""
+      }
+    ]
   },
   {
     "id": "opp_20260316_009",
@@ -218,7 +329,24 @@
     },
     "ai_rationale": "$4M pre-seed \u00b7 prepaid payments API infrastructure \u00b7 2 sources \u00b7 Berlin-based.",
     "entity_type": "company",
-    "status": "new"
+    "status": "new",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "raises $4M pre-seed for prepaid payments infrastructure (2 sources)",
+        "time": "5d ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in FinTech / Payments Infrastructure",
+        "time": ""
+      },
+      {
+        "type": "growth",
+        "text": "HQ: Berlin, DE",
+        "time": ""
+      }
+    ]
   },
   {
     "id": "opp_20260316_010",
@@ -240,7 +368,24 @@
     },
     "ai_rationale": "\u20ac15M Series A \u00b7 seasonal hydrogen storage \u00b7 1 source \u00b7 NL + DK expansion.",
     "entity_type": "company",
-    "status": "new"
+    "status": "new",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "raises \u20ac15M Series A for seasonal hydrogen energy storage expansion in\u2026",
+        "time": "4d ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in CleanTech / Energy Storage",
+        "time": ""
+      },
+      {
+        "type": "growth",
+        "text": "HQ: Oslo, NO",
+        "time": ""
+      }
+    ]
   },
   {
     "id": "opp_20260316_011",
@@ -262,7 +407,19 @@
     },
     "ai_rationale": "$9M round \u00b7 AI parts procurement for aviation MRO \u00b7 1 source \u00b7 Estonia-based.",
     "entity_type": "company",
-    "status": "new"
+    "status": "new",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "raises $9M to modernise aircraft parts procurement with AI",
+        "time": "4d ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in AI/ML / Logistics, Procurement, Aviation",
+        "time": ""
+      }
+    ]
   },
   {
     "id": "opp_20260316_012",
@@ -284,7 +441,19 @@
     },
     "ai_rationale": "\u20ac337M total community funding in 2025 \u00b7 Finnish startup hub \u00b7 1 source.",
     "entity_type": "company",
-    "status": "new"
+    "status": "new",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "Finnish startups in Maria 01 community tripled funding to \u20ac337M in 2025",
+        "time": "4d ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in DeepTech / Defence-Tech",
+        "time": ""
+      }
+    ]
   },
   {
     "id": "opp_20260316_013",
@@ -306,7 +475,19 @@
     },
     "ai_rationale": "\u20ac2.4M pre-seed \u00b7 fungal biocontrol for potato blight \u00b7 1 source \u00b7 Denmark.",
     "entity_type": "company",
-    "status": "new"
+    "status": "new",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "Danish agritech startup Mycoverse raises \u20ac2.4M pre-seed to develop fungal\u2026",
+        "time": "4d ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in FoodTech / AgriTech, Biocontrol, Crop Protection",
+        "time": ""
+      }
+    ]
   },
   {
     "id": "opp_20260316_014",
@@ -328,7 +509,19 @@
     },
     "ai_rationale": "\u20ac2M seed \u00b7 AI underground infrastructure mapping \u00b7 1 source \u00b7 Finland.",
     "entity_type": "company",
-    "status": "new"
+    "status": "new",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "raises \u20ac2M seed funding for AI-powered 3D underground infrastructure mapping",
+        "time": "6d ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in DeepTech / Infrastructure Mapping / Spatial Intelligence",
+        "time": ""
+      }
+    ]
   },
   {
     "id": "opp_20260316_015",
@@ -354,6 +547,18 @@
     },
     "ai_rationale": "$50M Series B \u00b7 vector search infrastructure \u00b7 3 sources \u00b7 AVP-led.",
     "entity_type": "company",
-    "status": "new"
+    "status": "new",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "raises $50M Series B from AVP for vector search production AI (3 sources)",
+        "time": "3d ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in AI/ML / Vector Search Infrastructure",
+        "time": ""
+      }
+    ]
   }
 ]

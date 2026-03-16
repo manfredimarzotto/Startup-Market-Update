@@ -14,6 +14,14 @@ const FIT_COLORS = {
 };
 
 export const TRIGGER_ICONS = {
+  // Trigger categories (from pipeline build_triggers)
+  funding: '\u{1F4B0}',
+  policy: '\u{1F4DC}',
+  hiring: '\u{1F464}',
+  sector: '\u{1F4C8}',
+  competitor: '\u{2694}\u{FE0F}',
+  growth: '\u{1F680}',
+  // Legacy signal_type keys (fallback for raw signals)
   funding_round: '\u{1F4B0}',
   new_fund: '\u{1F4B0}',
   hiring_wave: '\u{1F464}',

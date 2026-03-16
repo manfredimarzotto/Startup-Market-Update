@@ -180,15 +180,17 @@ export default function OpportunityCard({ opportunity, onStatusChange, index = 0
 
   const statusStyle = STATUS_COLORS[status] || STATUS_COLORS.new;
 
-  // Build triggers from signals for the drawer
-  const triggers = oppSignals.map(s => ({
-    type: s.signal_type,
-    text: s.headline || formatSignalType(s.signal_type),
-    time: daysSince(s.published_at) === 0 ? 'today'
-      : daysSince(s.published_at) === 1 ? '1d ago'
-      : daysSince(s.published_at) < 7 ? `${daysSince(s.published_at)}d ago`
-      : `${Math.round(daysSince(s.published_at) / 7)}w ago`,
-  }));
+  // Use pre-built triggers from pipeline if available, else build from signals
+  const triggers = opportunity.triggers && opportunity.triggers.length > 0
+    ? opportunity.triggers
+    : oppSignals.map(s => ({
+        type: s.signal_type,
+        text: s.headline || formatSignalType(s.signal_type),
+        time: daysSince(s.published_at) === 0 ? 'today'
+          : daysSince(s.published_at) === 1 ? '1d ago'
+          : daysSince(s.published_at) < 7 ? `${daysSince(s.published_at)}d ago`
+          : `${Math.round(daysSince(s.published_at) / 7)}w ago`,
+      }));
 
   // Score breakdown — keys now match v4 factor names directly
   const bd = opportunity.score_breakdown || {};
