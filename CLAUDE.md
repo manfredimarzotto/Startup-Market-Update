@@ -88,7 +88,7 @@ Six JSON files in `data/`:
 | `geography_weights` | Multiplier per geography (0.0–1.0) | Nordics: 1.0, DACH: 0.8, UK: 0.8, etc. |
 | `minimum_signal_tier` | Lowest tier to include | `"tier_3_weak"` |
 | `daily_opportunities` | Max opportunities per run | `15` |
-| `recency_decay_days` | Days until a signal scores 0 for recency | `45` |
+| `recency_decay_days` | Days until a signal scores 0 for recency | `30` |
 
 ## Scoring Formula
 
