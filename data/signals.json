@@ -2794,5 +2794,1340 @@
       "round_stage": "Seed",
       "currency": "EUR"
     }
+  },
+  {
+    "id": "sig_4b048cafe042ca3f",
+    "source_url": "https://techcrunch.com/2026/03/16/walmart-backed-phonepe-shelves-ipo-as-global-tensions-rattle-markets/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "PhonePe shelves IPO plans amid global market volatility",
+    "raw_text": "",
+    "published_at": "2026-03-16T13:02:47+00:00",
+    "ingested_at": "2026-03-16T13:40:09.691594+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_0f8ec60dd129"
+    ],
+    "investor_ids": [
+      "inv_943c3eeb252d"
+    ],
+    "person_ids": [
+      "per_e0066de4"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_71a1c43d07aef53f",
+    "source_url": "https://techcrunch.com/2026/03/15/the-billionaires-made-a-promise-now-some-want-out/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Billionaires backing away from previous commitments or pledges",
+    "raw_text": "",
+    "published_at": "2026-03-16T04:40:24+00:00",
+    "ingested_at": "2026-03-16T13:41:45.454391+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.2,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_ae29f149ec0c"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_4c471ff2e82349c3",
+    "source_url": "https://techcrunch.com/2026/03/15/bytedance-reportedly-pauses-global-launch-of-its-seedance-2-0-video-generator/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "product_launch",
+    "signal_tier": "tier_2_medium",
+    "headline": "ByteDance pauses global launch of Seedance 2.0 video generator amid IP infringement concerns",
+    "raw_text": "",
+    "published_at": "2026-03-15T21:01:51+00:00",
+    "ingested_at": "2026-03-16T13:41:47.235606+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_5388bc10736a"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_d966f218454c",
+      "per_4addb22687ef"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_e092f057e4a97b51",
+    "source_url": "https://techcrunch.com/2026/03/15/unacademy-to-be-acquired-by-upgrad-in-share-swap-deal-as-indias-edtech-sector-consolidates/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Unacademy acquired by upGrad in share-swap deal as India's edtech sector consolidates",
+    "raw_text": "",
+    "published_at": "2026-03-15T17:19:47+00:00",
+    "ingested_at": "2026-03-16T13:41:48.744102+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_41341a835454"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_e0066de4"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_d40239b502b3e42f",
+    "source_url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "US Army awards Anduril contract worth up to $20B",
+    "raw_text": "",
+    "published_at": "2026-03-14T20:47:47+00:00",
+    "ingested_at": "2026-03-16T13:41:50.976396+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_83ffd663"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_4addb22687ef"
+    ],
+    "metadata": {
+      "amount_usd": 20000000000,
+      "amount_raw": "$20B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_d73a9e65912a1462",
+    "source_url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Meta considering layoffs affecting 20% of workforce to offset AI infrastructure spending",
+    "raw_text": "",
+    "published_at": "2026-03-14T16:28:42+00:00",
+    "ingested_at": "2026-03-16T13:41:52.514802+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_ea3bd73e"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_46b09b212b77"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_8ebaae0adb25a5a2",
+    "source_url": "https://techcrunch.com/2026/03/13/nyne-founded-by-a-father-son-duo-gives-ai-agents-the-human-context-theyre-missing/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Nyne, an AI agents startup founded by a father-son duo, receives media coverage for addressing human context in AI",
+    "raw_text": "",
+    "published_at": "2026-03-13T21:37:01+00:00",
+    "ingested_at": "2026-03-16T13:41:54.269442+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.35,
+    "company_ids": [
+      "co_b625dc2f0608"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_10c6b0928b38747e",
+    "source_url": "https://tech.eu/2026/03/16/choice-secures-71m-series-a-to-expand-its-restaurant-operating-system-across-europe/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Choice raises $7.1M Series A to expand restaurant operating system across Europe",
+    "raw_text": "",
+    "published_at": "2026-03-16T11:34:04+00:00",
+    "ingested_at": "2026-03-16T13:41:55.692004+00:00",
+    "geography": "Southern Europe",
+    "country": "CZ",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_cf83f0f98285"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 7100000,
+      "amount_raw": "$7.1M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_4154e4c841a8647e",
+    "source_url": "https://tech.eu/2026/03/16/italian-startup-alomana-raises-4m-for-its-ai-operating-layer-for-enterprise-workflows/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Italian startup Alomana raises \u20ac4M for its AI operating layer for enterprise workflows",
+    "raw_text": "",
+    "published_at": "2026-03-16T09:50:44+00:00",
+    "ingested_at": "2026-03-16T13:41:57.002565+00:00",
+    "geography": "Southern Europe",
+    "country": "IT",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ce5d5411a7a0"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4400000,
+      "amount_raw": "\u20ac4M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_fdb0cabead102f31",
+    "source_url": "https://tech.eu/2026/03/16/whitebridge-ai-raises-3m-to-redefine-standards-in-people-search-and-research/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "WhiteBridge AI raises $3M seed round for AI-powered people search and research",
+    "raw_text": "",
+    "published_at": "2026-03-16T09:48:32+00:00",
+    "ingested_at": "2026-03-16T13:41:58.555589+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_87dfbd44c62d"
+    ],
+    "investor_ids": [
+      "inv_670cd8fb47b9",
+      "inv_d176ad04ee2f",
+      "inv_0fbfd7b6cdf7",
+      "inv_81868fa80816"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3000000,
+      "amount_raw": "$3M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_9a944f6ec8624a36",
+    "source_url": "https://tech.eu/2026/03/16/european-tech-weekly-recap-more-than-85-tech-funding-deals-worth-over-eur4b/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "European tech sector records 85+ funding deals worth over \u20ac4B in weekly tracking",
+    "raw_text": "",
+    "published_at": "2026-03-16T08:30:00+00:00",
+    "ingested_at": "2026-03-16T13:42:00.066057+00:00",
+    "geography": "Southern Europe",
+    "country": "",
+    "ai_confidence": 0.4,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4400000000,
+      "amount_raw": "\u20ac4B+",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_f76ca1ef2b8242a2",
+    "source_url": "https://tech.eu/2026/03/13/nscale-raises-2b-legora-makes-first-acquisition-and-the-28th-regime-in-trouble/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Nscale raises $2B in funding round",
+    "raw_text": "",
+    "published_at": "2026-03-13T15:39:27+00:00",
+    "ingested_at": "2026-03-16T13:42:03.523977+00:00",
+    "geography": "Europe",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_eb6cf0bb"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2000000000,
+      "amount_raw": "$2B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_4c1a4a9d6f0f0909",
+    "source_url": "https://tech.eu/2026/03/13/expense-management-startup-ramp-takes-on-rival-brex-with-european-acquisition/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Ramp acquires London and Stockholm-based payment company to expand in Europe",
+    "raw_text": "",
+    "published_at": "2026-03-13T14:40:00+00:00",
+    "ingested_at": "2026-03-16T13:42:04.944970+00:00",
+    "geography": "UK",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_f7d9f5a90479"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_2268aa42391c466e",
+    "source_url": "https://tech.eu/2026/03/13/energy-aspects-to-buy-paris-based-kayrros-to-add-satellite-and-geospatial-analytics-capabilities/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Energy Aspects acquires Paris-based Kayrros to expand satellite and geospatial analytics capabilities",
+    "raw_text": "",
+    "published_at": "2026-03-13T09:05:54+00:00",
+    "ingested_at": "2026-03-16T13:42:06.292634+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_9002998d093a"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_4e7998b1dc237b3f",
+    "source_url": "https://tech.eu/2026/03/13/tower-secures-eur55m-to-support-data-engineers-in-the-ai-era/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Tower raises \u20ac5.5M in pre-seed and seed funding to develop data engineering solutions for AI era",
+    "raw_text": "",
+    "published_at": "2026-03-13T08:00:00+00:00",
+    "ingested_at": "2026-03-16T13:42:07.961044+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_ad2015263f33"
+    ],
+    "investor_ids": [
+      "inv_0dce10aceaf8",
+      "inv_38cae481a24b"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 5940000,
+      "amount_raw": "\u20ac5.5M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_15fb2eab3750e7a6",
+    "source_url": "https://news.crunchbase.com/ma/data-small-midsized-venture-backed-startup-acquisitions/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Small and mid-sized startup M&A deals remain below 2021 peak levels",
+    "raw_text": "",
+    "published_at": "2026-03-16T11:00:57+00:00",
+    "ingested_at": "2026-03-16T13:42:09.259896+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.35,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_ed18286e0e5d8781",
+    "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-robotics-ecommerce-quince/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Weekly roundup of 10 largest funding rounds with AI, robotics, and e-commerce dominance; two largest deals in UK and Paris",
+    "raw_text": "",
+    "published_at": "2026-03-13T18:20:26+00:00",
+    "ingested_at": "2026-03-16T13:42:10.930420+00:00",
+    "geography": "UK, France, US",
+    "country": "",
+    "ai_confidence": 0.75,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 500000000,
+      "amount_raw": "$500M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_695affdca5df4202",
+    "source_url": "https://news.crunchbase.com/venture/robotics-semiconductor-led-unicorns-february-2026/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "27 companies joined unicorn status in February 2026, with robotics (6) and semiconductors (4) leading new entrants",
+    "raw_text": "",
+    "published_at": "2026-03-12T11:00:20+00:00",
+    "ingested_at": "2026-03-16T13:42:12.814094+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.6,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_15e22bca0b5c135e",
+    "source_url": "https://news.crunchbase.com/venture/founder-first-investing-ai-khosla-choi/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Khosla Ventures partner Ethan Choi discusses AI impact on entry-level jobs and founder-first investing philosophy",
+    "raw_text": "",
+    "published_at": "2026-03-11T11:00:26+00:00",
+    "ingested_at": "2026-03-16T13:42:14.351296+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_ab6c99c63078"
+    ],
+    "investor_ids": [
+      "inv_ab6c99c63078"
+    ],
+    "person_ids": [
+      "per_f99725a5b23a"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_52eaba336f345d21",
+    "source_url": "https://news.crunchbase.com/venture/world-model-ai-lab-ami-raises-europes-largest-seed-round/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Turing Winner LeCun's Paris-based AMI raises $1B in Europe's largest seed round",
+    "raw_text": "",
+    "published_at": "2026-03-10T19:10:32+00:00",
+    "ingested_at": "2026-03-16T13:42:17.400490+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_a83a3af1"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_5501b71e"
+    ],
+    "metadata": {
+      "amount_usd": 1000000000,
+      "amount_raw": "$1B",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_552dcd72743f78c3",
+    "source_url": "https://news.crunchbase.com/venture/unicorn-legal-tech-ai-startup-legora-triples-valuation/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Swedish Legal Tech Startup Legora Raises $550M Series D, Valuation Triples to $5.55B",
+    "raw_text": "",
+    "published_at": "2026-03-10T17:02:13+00:00",
+    "ingested_at": "2026-03-16T13:42:18.804603+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_22dc0248"
+    ],
+    "investor_ids": [
+      "inv_006"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 550000000,
+      "amount_raw": "$550M",
+      "round_stage": "Series D",
+      "currency": "USD",
+      "valuation": 5550000000
+    }
+  },
+  {
+    "id": "sig_4b82f78237e06490",
+    "source_url": "https://news.crunchbase.com/real-estate-property-tech/ai-generated-hvac-quotes-rebar-seriesa/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Rebar raises $14M Series A for AI-powered HVAC quote generation",
+    "raw_text": "",
+    "published_at": "2026-03-10T13:00:53+00:00",
+    "ingested_at": "2026-03-16T13:42:20.188506+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_6112b742a77f"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 14000000,
+      "amount_raw": "$14M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_0a94b4070e48c426",
+    "source_url": "https://news.crunchbase.com/enterprise/ai-forcing-saas-to-rethink-product-sagie/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "AI coding tools forcing SaaS vendors to rethink product strategy and competitive moats",
+    "raw_text": "",
+    "published_at": "2026-03-10T11:00:10+00:00",
+    "ingested_at": "2026-03-16T13:42:21.648663+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.75,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_30418901b0eb"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_22a43d0bdb352973",
+    "source_url": "https://venturebeat.com/technology/rethinking-aeo-when-software-agents-navigate-the-web-on-behalf-of-users",
+    "source_id": "src_007",
+    "source_name": "VentureBeat",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Amazon's Shashwat Jain discusses implications of AI agents on web analytics and engagement metrics interpretation",
+    "raw_text": "",
+    "published_at": "2026-03-16T05:00:00+00:00",
+    "ingested_at": "2026-03-16T13:42:23.520556+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.15,
+    "company_ids": [
+      "co_cbc62794"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_46e2627a97e1"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_d75ac20e349b6f17",
+    "source_url": "https://venturebeat.com/technology/the-accessibility-gap-why-good-intentions-arent-enough-for-digital",
+    "source_id": "src_007",
+    "source_name": "VentureBeat",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "AudioEye releases 2026 Accessibility Advantage Report showing 59% of business leaders face legal risk from accessibility failures",
+    "raw_text": "",
+    "published_at": "2026-03-16T05:00:00+00:00",
+    "ingested_at": "2026-03-16T13:42:26.107631+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_4b1b329dc199"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_283ad95f6e60"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_13af88e34aae5605",
+    "source_url": "https://venturebeat.com/technology/fixing-ai-failure-three-changes-enterprises-should-make-now",
+    "source_id": "src_007",
+    "source_name": "VentureBeat",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Enterprise AI success requires cultural and organizational transformation beyond technical excellence",
+    "raw_text": "",
+    "published_at": "2026-03-15T19:00:00+00:00",
+    "ingested_at": "2026-03-16T13:42:27.712876+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_21c211debb17"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_a291ec7758b9"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_4ca3e0c77f78c76c",
+    "source_url": "https://venturebeat.com/infrastructure/nanoclaw-and-docker-partner-to-make-sandboxes-the-safest-way-for-enterprises",
+    "source_id": "src_007",
+    "source_name": "VentureBeat",
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "NanoClaw and Docker partner to secure AI agent deployment using Docker Sandboxes",
+    "raw_text": "",
+    "published_at": "2026-03-13T12:00:00+00:00",
+    "ingested_at": "2026-03-16T13:42:30.111401+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_8028a2cf6d29"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_8105489054a5",
+      "per_bbb1caa78668",
+      "per_497c45aa0a32",
+      "per_d2b7ef172833"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_e8c0d5a5431df96b",
+    "source_url": "https://venturebeat.com/orchestration/y-combinator-backed-random-labs-launches-slate-v1-claiming-the-first-swarm",
+    "source_id": "src_007",
+    "source_name": "VentureBeat",
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Y Combinator-backed Random Labs launches Slate V1, a swarm-native autonomous coding agent",
+    "raw_text": "",
+    "published_at": "2026-03-13T00:00:00+00:00",
+    "ingested_at": "2026-03-16T13:42:32.654992+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_6e6b91ac0478"
+    ],
+    "investor_ids": [
+      "inv_cefa8820"
+    ],
+    "person_ids": [
+      "per_df64d4ea5572",
+      "per_1f61a5d6358b",
+      "per_d2b7ef172833"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_9e4dea7298f578d4",
+    "source_url": "https://venturebeat.com/data/agents-dont-replace-vector-search-they-make-it-harder-to-get-right",
+    "source_id": "src_007",
+    "source_name": "VentureBeat",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Qdrant raises $50M Series B as vector search demand accelerates in agentic AI systems",
+    "raw_text": "",
+    "published_at": "2026-03-12T21:30:00+00:00",
+    "ingested_at": "2026-03-16T13:42:34.562090+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_cfc35d18"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_68b10f550a3f"
+    ],
+    "metadata": {
+      "amount_usd": 50000000,
+      "amount_raw": "$50M",
+      "round_stage": "Series B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_4161f56a52edb41b",
+    "source_url": "https://venturebeat.com/infrastructure/the-team-behind-continuous-batching-says-your-idle-gpus-should-be-running",
+    "source_id": "src_007",
+    "source_name": "VentureBeat",
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "FriendliAI launches InferenceSense platform to monetize idle GPU capacity through inference workloads",
+    "raw_text": "",
+    "published_at": "2026-03-12T13:00:00+00:00",
+    "ingested_at": "2026-03-16T13:42:36.651841+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_48bebf25e5bd"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_aeb07328b44d",
+      "per_5e030667e36e"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_762249045976f2c7",
+    "source_url": "https://techfundingnews.com/can-a-simple-ecg-predict-a-heart-attack-early-heartio-raises-4-25m-to-make-it-possible/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "HEARTio secures $4.25M seed funding for ECG-based heart attack prediction platform",
+    "raw_text": "",
+    "published_at": "2026-03-16T13:00:00+00:00",
+    "ingested_at": "2026-03-16T13:42:38.439220+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_d3c4b432a239"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4250000,
+      "amount_raw": "$4.25M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_10074be855d634b2",
+    "source_url": "https://techfundingnews.com/moonshot-ai-1b-funding-18b-valuation-kimi/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Moonshot AI in talks to raise $1B at $18B valuation following recent $10B round",
+    "raw_text": "",
+    "published_at": "2026-03-16T12:05:21+00:00",
+    "ingested_at": "2026-03-16T13:42:39.871397+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_b5251b35f15b"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1000000000,
+      "amount_raw": "$1B",
+      "currency": "USD",
+      "valuation": 18000000000
+    }
+  },
+  {
+    "id": "sig_20f415a5a4766527",
+    "source_url": "https://techfundingnews.com/airwallex-1-1b-europe-expansion-stripe-adyen/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "signal_type": "expansion",
+    "signal_tier": "tier_2_medium",
+    "headline": "Airwallex commits $1.1B to European expansion, drawing attention from Stripe and Adyen",
+    "raw_text": "",
+    "published_at": "2026-03-16T11:15:17+00:00",
+    "ingested_at": "2026-03-16T13:42:41.425920+00:00",
+    "geography": "Southern Europe",
+    "country": "Other",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_fb5ce3e081fa"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1100000000,
+      "amount_raw": "$1.1B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_e1ff04ca1f81130c",
+    "source_url": "https://techfundingnews.com/ai-valuations-outpace-performance-hedge-hype-founders/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "AI startups capture record 65.6% of venture deal share in Q4 2025, raising concerns about valuation-performance gaps",
+    "raw_text": "",
+    "published_at": "2026-03-16T07:00:00+00:00",
+    "ingested_at": "2026-03-16T13:42:42.867144+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.65,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_4f7298f0d5a7453f",
+    "source_url": "https://techfundingnews.com/sunday-165m-series-b-1-15b-valuation-home-robots/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Sunday raises $165M at $1.15B valuation for household robot development",
+    "raw_text": "",
+    "published_at": "2026-03-13T14:39:28+00:00",
+    "ingested_at": "2026-03-16T13:42:44.238653+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_b6ac44e3"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 165000000,
+      "amount_raw": "$165M",
+      "currency": "USD",
+      "valuation": 1150000000
+    }
+  },
+  {
+    "id": "sig_ddc5cc21dd867128",
+    "source_url": "https://techfundingnews.com/qdrant-raises-50m-from-avp-to-redefine-vector-search-for-production-ai/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Qdrant raises $50M Series B from AVP for vector search production AI",
+    "raw_text": "",
+    "published_at": "2026-03-13T14:36:53+00:00",
+    "ingested_at": "2026-03-16T13:42:45.722898+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_cfc35d18"
+    ],
+    "investor_ids": [
+      "inv_eb5a94c0"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 50000000,
+      "amount_raw": "$50M",
+      "round_stage": "Series B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_1c9221c548a78ca1",
+    "source_url": "https://techfundingnews.com/gumloop-50m-series-b-benchmark-ai-agents/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Benchmark invests $50M in Gumloop, AI automation platform for Slack and Teams",
+    "raw_text": "",
+    "published_at": "2026-03-13T14:32:51+00:00",
+    "ingested_at": "2026-03-16T13:42:47.343231+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_2d5efaf5"
+    ],
+    "investor_ids": [
+      "inv_0e898208"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 50000000,
+      "amount_raw": "$50M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_6d76bca446789b71",
+    "source_url": "https://arcticstartup.com/legora-acquires-walter/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Swedish Legora acquires Canadian legal tech startup Walter AI to expand agentic AI platform",
+    "raw_text": "",
+    "published_at": "2026-03-13T12:41:35+00:00",
+    "ingested_at": "2026-03-16T13:42:49.078924+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_22dc0248"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_bf1830e6ee1128ba",
+    "source_url": "https://arcticstartup.com/behavix-partners-with-fair-response/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Behavix partners with Fair Response to expand behavioral data platform in US market",
+    "raw_text": "",
+    "published_at": "2026-03-13T06:51:53+00:00",
+    "ingested_at": "2026-03-16T13:42:50.465629+00:00",
+    "geography": "Nordics",
+    "country": "FI",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_e049dc5ae5be"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_0a2012e56d017fb2",
+    "source_url": "https://arcticstartup.com/photoncycle-raises-e15m-series-a/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Photoncycle raises \u20ac15M Series A for seasonal hydrogen energy storage expansion in Netherlands and Denmark",
+    "raw_text": "",
+    "published_at": "2026-03-12T13:21:59+00:00",
+    "ingested_at": "2026-03-16T13:42:52.387452+00:00",
+    "geography": "Nordics",
+    "country": "NO",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_11948bd51226"
+    ],
+    "investor_ids": [
+      "inv_80eab2306ec1",
+      "inv_28093bdbad5b",
+      "inv_cb47ca2049ae",
+      "inv_e3c822574069",
+      "inv_38debbb5da4c",
+      "inv_446be308664e"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 16350000,
+      "amount_raw": "\u20ac15M",
+      "round_stage": "Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_c932bdefc2115061",
+    "source_url": "https://arcticstartup.com/saltz-raises-e20m-series-a/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Lithuania's Saltz raises \u20ac20M Series A for restaurant food procurement platform",
+    "raw_text": "",
+    "published_at": "2026-03-12T12:42:21+00:00",
+    "ingested_at": "2026-03-16T13:42:54.327264+00:00",
+    "geography": "Nordics",
+    "country": "LT",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_9eb739e8"
+    ],
+    "investor_ids": [
+      "inv_91f7c0c0",
+      "inv_cbe70989b2f5",
+      "inv_cb47ca2049ae",
+      "inv_941e125646d3",
+      "inv_e8486bdef806",
+      "inv_a590e83282aa"
+    ],
+    "person_ids": [
+      "per_e8486bdef806",
+      "per_a590e83282aa"
+    ],
+    "metadata": {
+      "amount_usd": 21800000,
+      "amount_raw": "\u20ac20M",
+      "round_stage": "Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_c2c5595a51727f06",
+    "source_url": "https://arcticstartup.com/frankenburg-technologies-raises-e30m-series-a/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Estonian missile manufacturer Frankenburg Technologies raises \u20ac30M Series A led by Plural",
+    "raw_text": "",
+    "published_at": "2026-03-12T12:15:38+00:00",
+    "ingested_at": "2026-03-16T13:42:55.811323+00:00",
+    "geography": "Nordics",
+    "country": "EE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_cc072325327d"
+    ],
+    "investor_ids": [
+      "inv_61d58cbe5bad",
+      "inv_84a0bbe5a8ef"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 32400000,
+      "amount_raw": "\u20ac30M",
+      "round_stage": "Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_e3557b98a57f69c4",
+    "source_url": "https://arcticstartup.com/mycoverse-raises-e2-4m-pre-seed/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Danish agritech startup Mycoverse raises \u20ac2.4M pre-seed to develop fungal biocontrol for potato blight",
+    "raw_text": "",
+    "published_at": "2026-03-12T08:38:32+00:00",
+    "ingested_at": "2026-03-16T13:42:57.555316+00:00",
+    "geography": "Nordics",
+    "country": "DK",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7729ac8faad3"
+    ],
+    "investor_ids": [
+      "inv_1c069f3a7b31",
+      "inv_56b77439d8ed",
+      "inv_8d15ec89327f"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2640000,
+      "amount_raw": "\u20ac2.4M",
+      "round_stage": "Pre-Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_fc50d0c44dcad5b6",
+    "source_url": "https://arcticstartup.com/maria-01-impact-report-2025/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Finnish startups in Maria 01 community tripled funding to \u20ac337M in 2025",
+    "raw_text": "",
+    "published_at": "2026-03-12T08:26:11+00:00",
+    "ingested_at": "2026-03-16T13:42:59.019761+00:00",
+    "geography": "Nordics",
+    "country": "FI",
+    "ai_confidence": 0.72,
+    "company_ids": [
+      "co_c5668b9c3e49"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 368000000,
+      "amount_raw": "\u20ac337 million",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_97f71d07175f5fda",
+    "source_url": "https://arcticstartup.com/commit-biologics-appoints-thomas-l-f-montgomery-andresen-as-ceo/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "signal_type": "hiring_wave",
+    "signal_tier": "tier_1_strong",
+    "headline": "Commit Biologics appoints serial biotech founder Thomas Andresen as CEO ahead of clinical push",
+    "raw_text": "",
+    "published_at": "2026-03-11T13:36:28+00:00",
+    "ingested_at": "2026-03-16T13:43:00.545791+00:00",
+    "geography": "Nordics",
+    "country": "DK",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_a077dd6e58f9"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_566781e00d49"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_488088968cc2653b",
+    "source_url": "https://arcticstartup.com/bliss-raises-e233k/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Albanian-Finnish startup Bliss raises \u20ac233K angel funding for culturally aware AI therapy",
+    "raw_text": "",
+    "published_at": "2026-03-11T10:23:46+00:00",
+    "ingested_at": "2026-03-16T13:43:03.324278+00:00",
+    "geography": "Southern Europe",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_3bc5495c"
+    ],
+    "investor_ids": [
+      "inv_5ba192cc",
+      "inv_27a39f344351",
+      "inv_385433d0"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 251000,
+      "amount_raw": "\u20ac233K",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_e9860e35f50180d9",
+    "source_url": "https://arcticstartup.com/groundhawk-raises-e2-million-seed/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Groundhawk raises \u20ac2M seed funding for AI-powered 3D underground infrastructure mapping",
+    "raw_text": "",
+    "published_at": "2026-03-10T13:26:07+00:00",
+    "ingested_at": "2026-03-16T13:43:04.970643+00:00",
+    "geography": "Nordics",
+    "country": "FI",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_8ed7ff25d0e5"
+    ],
+    "investor_ids": [
+      "inv_56d00b362155",
+      "inv_3376a99268ea"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2160000,
+      "amount_raw": "\u20ac2 million",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_d886f47ff1a88b44",
+    "source_url": "https://www.uktech.news/medtech/biotech-building-molecular-glues-ai-platform-raises-3-6m-20260316",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Ternary Therapeutics raises \u00a33.6m seed funding for molecular glues AI platform",
+    "raw_text": "",
+    "published_at": "2026-03-16T12:00:21+00:00",
+    "ingested_at": "2026-03-16T13:43:07.295997+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_c4dc4fd58f60"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4536000,
+      "amount_raw": "\u00a33.6m",
+      "round_stage": "Seed",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_fb69e6f38ffc332a",
+    "source_url": "https://www.uktech.news/ai/faculty-founder-named-accenture-cto-after-acquisition-20260316",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Accenture acquires Faculty AI; founder Marc Warner becomes Accenture CTO",
+    "raw_text": "",
+    "published_at": "2026-03-16T11:00:27+00:00",
+    "ingested_at": "2026-03-16T13:43:08.908806+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_6c95fac990ec"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_5263cd16b1d8"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_48bcf5db4e7374c4",
+    "source_url": "https://www.uktech.news/cybersecurity/maven-invests-15m-in-law-enforcement-software-group-20260316",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Maven Capital Partners invests \u00a315m in Chorus Intelligence law enforcement software platform",
+    "raw_text": "",
+    "published_at": "2026-03-16T10:00:10+00:00",
+    "ingested_at": "2026-03-16T13:43:10.482349+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_af85ca43a9c1"
+    ],
+    "investor_ids": [
+      "inv_b5c93741299b"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 18900000,
+      "amount_raw": "\u00a315m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_29d591f70f10ad7c",
+    "source_url": "https://www.uktech.news/news/uk-tech-funding-roundup-this-weeks-deals-from-nscale-to-combat-medical-20260313",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "UK tech funding roundup: \u00a31.64bn invested across six rounds led by Nscale AI hyperscaler",
+    "raw_text": "",
+    "published_at": "2026-03-13T14:00:23+00:00",
+    "ingested_at": "2026-03-16T13:43:12.345139+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_eb6cf0bb"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2073600000,
+      "amount_raw": "\u00a31.64bn",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_99a20501a2b126c5",
+    "source_url": "https://www.uktech.news/agtech/norwich-gene-editing-group-scores-80m-round-20260313",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Tropic secures $105m Series C funding for gene-edited tropical crops commercialisation",
+    "raw_text": "",
+    "published_at": "2026-03-13T12:00:49+00:00",
+    "ingested_at": "2026-03-16T13:43:14.080718+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_f9d373cb"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 105000000,
+      "amount_raw": "$105m / \u00a379.2m",
+      "round_stage": "Series C",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_a21ba34b2e30c129",
+    "source_url": "https://www.uktech.news/news/government-and-policy/tech-firms-handed-major-uk-contract-for-electoral-reform-20260313",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Atos and Softwire awarded \u00a363m seven-year UK government contract for electoral system digital development",
+    "raw_text": "",
+    "published_at": "2026-03-13T10:03:25+00:00",
+    "ingested_at": "2026-03-16T13:43:15.814255+00:00",
+    "geography": "UK",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_0336b04cadcb"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 79500000,
+      "amount_raw": "\u00a363m",
+      "currency": "GBP"
+    }
   }
 ]

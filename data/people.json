@@ -398,5 +398,225 @@
     "linkedin_url": "",
     "email_guess": "",
     "relevance_tag": "partner"
+  },
+  {
+    "id": "per_ae29f149ec0c",
+    "name": "Connie Loizos",
+    "role": "author",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": null
+  },
+  {
+    "id": "per_d966f218454c",
+    "name": "Su Weizhong",
+    "role": "unknown",
+    "company_id": "co_5388bc10736a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": null
+  },
+  {
+    "id": "per_4addb22687ef",
+    "name": "Anthony Ha",
+    "role": "journalist",
+    "company_id": "co_5388bc10736a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": null
+  },
+  {
+    "id": "per_46b09b212b77",
+    "name": "Sam Altman",
+    "role": "CEO",
+    "company_id": "co_ea3bd73e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_f99725a5b23a",
+    "name": "Ethan Choi",
+    "role": "Partner",
+    "company_id": "co_ab6c99c63078",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_30418901b0eb",
+    "name": "Itay Sagie",
+    "role": "guest author and strategic adviser",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_46e2627a97e1",
+    "name": "Shashwat Jain",
+    "role": "Author/Executive",
+    "company_id": "co_cbc62794",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_283ad95f6e60",
+    "name": "Chad Sollis",
+    "role": "Chief Marketing Officer",
+    "company_id": "co_4b1b329dc199",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_a291ec7758b9",
+    "name": "Adi Polak",
+    "role": "Director for Advocacy and Developer Experience Engineering",
+    "company_id": "co_21c211debb17",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_8105489054a5",
+    "name": "Gavriel Cohen",
+    "role": "Creator/Co-founder",
+    "company_id": "co_8028a2cf6d29",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_bbb1caa78668",
+    "name": "Lazer Cohen",
+    "role": "Co-founder",
+    "company_id": "co_8028a2cf6d29",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_497c45aa0a32",
+    "name": "Mark Cavage",
+    "role": "President and COO",
+    "company_id": "co_8028a2cf6d29",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_d2b7ef172833",
+    "name": "Carl Franzen",
+    "role": "Author",
+    "company_id": "co_8028a2cf6d29",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_df64d4ea5572",
+    "name": "Kiran Chintawar",
+    "role": "Co-founder",
+    "company_id": "co_6e6b91ac0478",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_1f61a5d6358b",
+    "name": "Mihir Chintawar",
+    "role": "Co-founder",
+    "company_id": "co_6e6b91ac0478",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_68b10f550a3f",
+    "name": "Andre Zayarni",
+    "role": "CEO and co-founder",
+    "company_id": "co_cfc35d18",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_aeb07328b44d",
+    "name": "Byung-Gon Chun",
+    "role": "Founder and CEO",
+    "company_id": "co_48bebf25e5bd",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_5e030667e36e",
+    "name": "Sean Michael Kerner",
+    "role": "Author",
+    "company_id": "co_48bebf25e5bd",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_e8486bdef806",
+    "name": "Mantas Mikuckas",
+    "role": "angel investor",
+    "company_id": "co_9eb739e8",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_a590e83282aa",
+    "name": "Miki Kuusi",
+    "role": "angel investor",
+    "company_id": "co_9eb739e8",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_566781e00d49",
+    "name": "Thomas L. F. Montgomery Andresen",
+    "role": "Chief Executive Officer",
+    "company_id": "co_a077dd6e58f9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_5263cd16b1d8",
+    "name": "Dr Marc Warner",
+    "role": "Co-founder and Chief Executive",
+    "company_id": "co_6c95fac990ec",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "founder"
   }
 ]
