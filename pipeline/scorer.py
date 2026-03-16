@@ -168,8 +168,16 @@ def resolve_entities(new_signals, companies, investors, people):
 
 
 # ── Scoring ──
+#
+# Score components (0–99 total):
+#   Signal strength (0–25): Best signal tier
+#   Recency        (0–30): Linear decay over recency_decay_days
+#   Deal magnitude (0–25): Log-scaled funding amount
+#   Velocity       (0–10): Bonus for multiple recent signals (capped low)
+#   Type bonus     (0–9):  Signal type weight × 0.3
+# Geography weight is applied as a multiplier (0.5–1.0) on the raw score.
 
-TIER_SCORES = {"tier_1_strong": 35, "tier_2_medium": 22, "tier_3_weak": 10}
+TIER_SCORES = {"tier_1_strong": 25, "tier_2_medium": 15, "tier_3_weak": 5}
 TYPE_SCORES = {
     "funding_round": 30, "acquisition": 28, "new_fund": 25,
     "hiring_wave": 20, "partnership": 18, "expansion": 15,
@@ -178,7 +186,7 @@ TYPE_SCORES = {
 
 
 def _recency_score(published_at, decay_days=45):
-    """Score from 0-25 based on how recent the signal is."""
+    """Score from 0-30 based on how recent the signal is."""
     if not published_at:
         return 0
     try:
@@ -187,10 +195,27 @@ def _recency_score(published_at, decay_days=45):
     except (ValueError, TypeError):
         return 0
     if days <= 0:
-        return 25
+        return 30
     if days >= decay_days:
         return 0
-    return max(0, int(25 * (1 - days / decay_days)))
+    return max(0, int(30 * (1 - days / decay_days)))
+
+
+def _deal_magnitude_score(signals):
+    """Score from 0-25 based on the largest funding amount (log-scaled).
+
+    $100K → 2, $1M → 8, $10M → 14, $100M → 19, $1B+ → 25
+    """
+    max_amount = 0
+    for sig in signals:
+        amount = sig.get("metadata", {}).get("amount_usd")
+        if amount and isinstance(amount, (int, float)) and amount > 0:
+            max_amount = max(max_amount, amount)
+    if max_amount <= 0:
+        return 0
+    # Log scale: log10(100K)=5, log10(1B)=9. Map [5,10] → [2,25]
+    log_val = math.log10(max_amount)
+    return max(0, min(25, int((log_val - 4) * 5)))
 
 
 def _geo_weight(geography, config):
@@ -235,14 +260,17 @@ def score_signals(all_signals, config):
         recency = max(
             _recency_score(s.get("published_at"), decay_days) for s in recent_sigs
         )
-        # Velocity: multiple signals = stronger opportunity
-        velocity = min(25, len(recent_sigs) * 8)
+        # Deal magnitude: large rounds score higher
+        deal_magnitude = _deal_magnitude_score(recent_sigs)
+
+        # Velocity: mild bonus for multiple signals (capped at 10)
+        velocity = min(10, len(recent_sigs) * 4)
 
         # Geography weight
         geo = recent_sigs[0].get("geography", "")
         geo_mult = _geo_weight(geo, config)
 
-        raw_score = signal_strength + recency + velocity
+        raw_score = signal_strength + recency + deal_magnitude + velocity
         weighted_score = min(99, int(raw_score * geo_mult + type_bonus * 0.3))
 
         # Collect all contact IDs
@@ -260,6 +288,7 @@ def score_signals(all_signals, config):
             "score_breakdown": {
                 "signal_strength": signal_strength,
                 "recency": recency,
+                "deal_magnitude": deal_magnitude,
                 "growth_velocity": velocity,
                 "geo_weight": round(geo_mult, 2),
             },
