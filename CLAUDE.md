@@ -9,7 +9,7 @@ Live site: https://manfredimarzotto.github.io/Startup-Market-Update/
 ## Architecture
 
 ```
-RSS/Scrape Sources → Ingest & Filter → Scrape Full Text → Claude Haiku Extraction → Entity Resolution → Score & Rank → JSON → build.py (Jinja2) → GitHub Pages
+RSS/Scrape Sources → Ingest & Filter → Scrape Full Text → Claude Haiku Extraction → Entity Resolution → Score & Rank → JSON → build.py (Vite + React) → GitHub Pages
 ```
 
 Pipeline steps (orchestrated by `run.py`):
@@ -18,35 +18,50 @@ Pipeline steps (orchestrated by `run.py`):
 3. **Extract** — Send article text to Claude Haiku for structured signal extraction
 4. **Resolve** — Fuzzy-match extracted entities against existing data, create new records if unmatched
 5. **Score** — Compute opportunity scores from signal strength, recency, velocity, geography
-6. **Build** — Render Jinja2 template with JSON data, copy static assets to repo root
+6. **Build** — Build React frontend with Vite, copy output to repo root
 
 ## Project Structure
 
 ```
 ├── run.py                          # Pipeline orchestrator (ingest → scrape → extract → score → build)
-├── build.py                        # Dashboard renderer (Jinja2 templates → repo root)
+├── build.py                        # Dashboard builder (runs Vite build, copies output to repo root)
 ├── config.json                     # User preferences (sectors, geo weights, scoring)
 ├── pipeline/                       # Data pipeline modules
 │   ├── __init__.py
 │   ├── ingest.py                   #   RSS feed fetcher with keyword filtering
-│   ├── scraper.py                  #   Full-text article scraper (BeautifulSoup, robots.txt)
+│   ├── scraper.py                  #   Full-text article scraper (Playwright + BeautifulSoup)
 │   ├── extractor.py                #   Claude Haiku signal extraction (structured JSON)
 │   └── scorer.py                   #   Entity resolution, scoring, opportunity generation
-├── data/                           # JSON data layer
+├── data/                           # JSON data layer (fetched at runtime by React app)
 │   ├── signals.json                #   Market signals (funding, hiring, M&A, etc.)
 │   ├── companies.json              #   Company profiles
 │   ├── investors.json              #   Investor profiles
 │   ├── people.json                 #   Key contacts (founders, partners)
 │   ├── opportunities.json          #   Scored & ranked opportunities
 │   └── signal_sources.json         #   Feed/source configuration
-├── templates/
-│   └── index.html                  #   Jinja2 dashboard template (data injected via window.__NSI_DATA)
-├── static/
-│   ├── style.css                   #   Dashboard styles (clean light theme)
-│   └── app.js                      #   Client-side filtering, sorting, status tracking
+├── frontend/                       # React + Tailwind dashboard (Vite)
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── tailwind.config.js
+│   ├── index.html                  #   HTML shell
+│   └── src/
+│       ├── main.jsx                #   React entry point
+│       ├── App.jsx                 #   Main layout (sidebar + card feed)
+│       ├── index.css               #   Tailwind + mesh gradient + glassmorphism
+│       ├── components/
+│       │   ├── Header.jsx          #   Top bar with generate button
+│       │   ├── Sidebar.jsx         #   Collapsible glassmorphism filter panel
+│       │   ├── SummaryBar.jsx      #   Entity count summary cards
+│       │   ├── OpportunityCard.jsx #   Bento-box opportunity card
+│       │   └── ScoreBadge.jsx      #   Score display with color-coded glow
+│       └── hooks/
+│           ├── useData.js          #   Data loading + enrichment utilities
+│           ├── useFilters.js       #   Filter/sort state + logic
+│           └── useStatus.js        #   localStorage status persistence
+├── templates/                      # (legacy) Jinja2 template — replaced by frontend/
+├── static/                         # (legacy) CSS/JS — replaced by frontend/
 ├── index.html                      # Built output (served by GitHub Pages from root)
-├── style.css                       # Built output (copied from static/)
-├── app.js                          # Built output (copied from static/)
+├── assets/                         # Built output (Vite JS/CSS bundles)
 ├── .github/workflows/pipeline.yml  # GitHub Actions: daily cron + manual dispatch
 ├── .nojekyll                       # Disables Jekyll processing on GitHub Pages
 ├── .gitignore                      # Ignores __pycache__, .env, .venv, build artifacts
@@ -91,12 +106,11 @@ Final score: `min(99, (strength + recency + deal_magnitude + velocity) × geo_we
 
 ## Tech Stack
 
-- **Language:** Python 3 (CI uses 3.11)
+- **Language:** Python 3 (CI uses 3.11), Node.js 22 (frontend build)
 - **AI:** Anthropic Claude Haiku (`claude-haiku-4-5-20251001`) for signal extraction and rationale generation
-- **Templating:** Jinja2
-- **Scraping:** feedparser (RSS), requests + BeautifulSoup (article text)
+- **Frontend:** React 19 + Tailwind CSS 3.4 (built with Vite 6), dark Command Center aesthetic
+- **Scraping:** feedparser (RSS), Playwright + BeautifulSoup (article text)
 - **Entity resolution:** fuzzywuzzy + python-Levenshtein
-- **Frontend:** Vanilla JS, CSS (clean light theme with IBM Plex Sans + JetBrains Mono)
 - **Deployment:** GitHub Actions → GitHub Pages (served from repo root on `main`)
 
 ## Environment Variables
@@ -106,17 +120,23 @@ Final score: `min(99, (strength + recency + deal_magnitude + velocity) × geo_we
 ## Commands
 
 ```bash
-# Install dependencies
+# Install Python dependencies
 pip install -r requirements.txt
+
+# Install frontend dependencies
+cd frontend && npm install && cd ..
 
 # Run the full pipeline (ingest → scrape → extract → score → build)
 # Requires ANTHROPIC_API_KEY environment variable
 python run.py
 
-# Build dashboard only (renders templates with current JSON data)
+# Build dashboard only (builds React app with current JSON data)
 python build.py
 
-# Output appears in ./index.html (repo root)
+# Dev mode (hot reload on http://localhost:5173)
+cd frontend && npm run dev
+
+# Output appears in ./index.html + ./assets/ (repo root)
 ```
 
 There are currently no automated tests in the project.
@@ -132,11 +152,11 @@ There are currently no automated tests in the project.
 ## Development Notes
 
 - `run.py` orchestrates the full pipeline: ingest → scrape → extract → resolve → score → build
-- `build.py` renders Jinja2 templates with JSON data into repo root (`index.html`, `style.css`, `app.js`)
-- **Feature branches should only modify source files** (`static/`, `templates/`, `pipeline/`, etc.) — built output (`index.html`, `style.css`, `app.js`) is generated by the pipeline on `main` and should not be committed from feature branches to avoid merge conflicts
+- `build.py` builds the React frontend with Vite and copies output to repo root (`index.html`, `assets/`)
+- **Feature branches should only modify source files** (`frontend/`, `pipeline/`, etc.) — built output (`index.html`, `assets/`) is generated by the pipeline on `main` and should not be committed from feature branches to avoid merge conflicts
 - All data lives in `data/*.json` — no database required
-- Data is embedded in the HTML via `window.__NSI_DATA` (Jinja2 renders JSON directly into a `<script>` block)
-- Client-side JS handles filtering, sorting, and localStorage-based status tracking
+- React app fetches data from `./data/*.json` at runtime (no build-time embedding)
+- React handles filtering, sorting, and localStorage-based status tracking
 - Generate button opens GitHub Actions dispatch page (no token exposure)
 - Pipeline runs daily at 06:00 UTC via cron, plus on-demand via workflow_dispatch
 - Signal types: `funding_round`, `hiring_wave`, `acquisition`, `partnership`, `product_launch`, `expansion`, `new_fund`, `media_mention`
