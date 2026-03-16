@@ -21,7 +21,7 @@
     },
     "ai_rationale": "\u20ac270K across 3 angel closes \u00b7 AI therapy localisation \u00b7 3 sources \u00b7 no lead identified.",
     "entity_type": "company",
-    "status": "new",
+    "status": "contacted",
     "triggers": [
       {
         "type": "funding",
@@ -38,7 +38,10 @@
         "text": "HQ: Helsinki, FI",
         "time": ""
       }
-    ]
+    ],
+    "owner": "MR",
+    "crmSync": true,
+    "lastTouch": "Intro sent 1w ago"
   },
   {
     "id": "opp_20260316_002",
@@ -62,7 +65,7 @@
     },
     "ai_rationale": "$50M Series A \u00b7 software-driven factory automation \u00b7 3 sources \u00b7 aerospace + energy focus.",
     "entity_type": "company",
-    "status": "new",
+    "status": "contacted",
     "triggers": [
       {
         "type": "funding",
@@ -74,7 +77,10 @@
         "text": "Active in DeepTech / Industrial Manufacturing",
         "time": ""
       }
-    ]
+    ],
+    "owner": "MR",
+    "crmSync": true,
+    "lastTouch": "Call scheduled"
   },
   {
     "id": "opp_20260316_003",
@@ -111,7 +117,10 @@
         "text": "India neobank Fi winds down banking services on its platform",
         "time": "4d ago"
       }
-    ]
+    ],
+    "owner": null,
+    "crmSync": false,
+    "lastTouch": null
   },
   {
     "id": "opp_20260316_004",
@@ -140,7 +149,7 @@
     },
     "ai_rationale": "$550M Series D at $5.55B valuation \u00b7 AI legal tech \u00b7 6 sources \u00b7 Canadian acquisition.",
     "entity_type": "company",
-    "status": "new",
+    "status": "viewed",
     "triggers": [
       {
         "type": "funding",
@@ -157,7 +166,10 @@
         "text": "Active in LegalTech / Legal Technology",
         "time": ""
       }
-    ]
+    ],
+    "owner": "MR",
+    "crmSync": true,
+    "lastTouch": "Reviewed 2d ago"
   },
   {
     "id": "opp_20260316_005",
@@ -197,7 +209,10 @@
         "text": "HQ: Norwich, GB",
         "time": ""
       }
-    ]
+    ],
+    "owner": null,
+    "crmSync": false,
+    "lastTouch": null
   },
   {
     "id": "opp_20260316_006",
@@ -220,7 +235,7 @@
     },
     "ai_rationale": "\u20ac13.4M Series A \u00b7 bio-based cellulose materials \u00b7 2 sources \u00b7 Inter IKEA as investor.",
     "entity_type": "company",
-    "status": "new",
+    "status": "viewed",
     "triggers": [
       {
         "type": "funding",
@@ -237,7 +252,10 @@
         "text": "HQ: Fribourg, CH",
         "time": ""
       }
-    ]
+    ],
+    "owner": "MR",
+    "crmSync": false,
+    "lastTouch": "Reviewed 2d ago"
   },
   {
     "id": "opp_20260316_007",
@@ -272,7 +290,10 @@
         "text": "raises $2B in funding round (4 sources)",
         "time": "3d ago"
       }
-    ]
+    ],
+    "owner": null,
+    "crmSync": false,
+    "lastTouch": null
   },
   {
     "id": "opp_20260316_008",
@@ -306,7 +327,10 @@
         "text": "Active in DeepTech / Defence Technology",
         "time": ""
       }
-    ]
+    ],
+    "owner": null,
+    "crmSync": false,
+    "lastTouch": null
   },
   {
     "id": "opp_20260316_009",
@@ -329,7 +353,7 @@
     },
     "ai_rationale": "$4M pre-seed \u00b7 prepaid payments API infrastructure \u00b7 2 sources \u00b7 Berlin-based.",
     "entity_type": "company",
-    "status": "new",
+    "status": "viewed",
     "triggers": [
       {
         "type": "funding",
@@ -346,7 +370,10 @@
         "text": "HQ: Berlin, DE",
         "time": ""
       }
-    ]
+    ],
+    "owner": "MR",
+    "crmSync": true,
+    "lastTouch": "Passed \u2014 wrong stage"
   },
   {
     "id": "opp_20260316_010",
@@ -385,7 +412,10 @@
         "text": "HQ: Oslo, NO",
         "time": ""
       }
-    ]
+    ],
+    "owner": null,
+    "crmSync": false,
+    "lastTouch": null
   },
   {
     "id": "opp_20260316_011",
@@ -419,7 +449,10 @@
         "text": "Active in AI/ML / Logistics, Procurement, Aviation",
         "time": ""
       }
-    ]
+    ],
+    "owner": null,
+    "crmSync": false,
+    "lastTouch": null
   },
   {
     "id": "opp_20260316_012",
@@ -453,7 +486,10 @@
         "text": "Active in DeepTech / Defence-Tech",
         "time": ""
       }
-    ]
+    ],
+    "owner": null,
+    "crmSync": false,
+    "lastTouch": null
   },
   {
     "id": "opp_20260316_013",
@@ -487,7 +523,10 @@
         "text": "Active in FoodTech / AgriTech, Biocontrol, Crop Protection",
         "time": ""
       }
-    ]
+    ],
+    "owner": null,
+    "crmSync": false,
+    "lastTouch": null
   },
   {
     "id": "opp_20260316_014",
@@ -521,7 +560,10 @@
         "text": "Active in DeepTech / Infrastructure Mapping / Spatial Intelligence",
         "time": ""
       }
-    ]
+    ],
+    "owner": null,
+    "crmSync": false,
+    "lastTouch": null
   },
   {
     "id": "opp_20260316_015",
@@ -559,6 +601,9 @@
         "text": "Active in AI/ML / Vector Search Infrastructure",
         "time": ""
       }
-    ]
+    ],
+    "owner": null,
+    "crmSync": false,
+    "lastTouch": null
   }
 ]
