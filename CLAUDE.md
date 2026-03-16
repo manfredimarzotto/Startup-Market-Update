@@ -50,10 +50,9 @@ Pipeline steps (orchestrated by `run.py`):
 │       ├── index.css               #   Tailwind + mesh gradient + glassmorphism
 │       ├── components/
 │       │   ├── Header.jsx          #   Top bar with generate button
-│       │   ├── Sidebar.jsx         #   Collapsible glassmorphism filter panel
-│       │   ├── SummaryBar.jsx      #   Entity count summary cards
-│       │   ├── OpportunityCard.jsx #   Bento-box opportunity card
-│       │   └── ScoreBadge.jsx      #   Score display with color-coded glow
+│       │   ├── shared.jsx          #   Shared UI primitives (scoreColor, FitDot, OwnerBadge, Spark, TriggerIcon)
+│       │   ├── OpportunityCard.jsx #   Bento-box opportunity card (discovery view)
+│       │   └── TriageTable.jsx     #   Tabular triage view
 │       └── hooks/
 │           ├── useData.js          #   Data loading + enrichment utilities
 │           ├── useFilters.js       #   Filter/sort state + logic
@@ -89,7 +88,7 @@ Six JSON files in `data/`:
 | `geography_weights` | Multiplier per geography (0.0–1.0) | Nordics: 1.0, DACH: 0.8, UK: 0.8, etc. |
 | `minimum_signal_tier` | Lowest tier to include | `"tier_3_weak"` |
 | `daily_opportunities` | Max opportunities per run | `15` |
-| `recency_decay_days` | Days until a signal scores 0 for recency | `45` |
+| `recency_decay_days` | Days until a signal scores 0 for recency | `30` |
 
 ## Scoring Formula
 
@@ -108,7 +107,7 @@ Final score: `min(99, (strength + recency + deal_magnitude + velocity) × geo_we
 
 - **Language:** Python 3 (CI uses 3.11), Node.js 22 (frontend build)
 - **AI:** Anthropic Claude Haiku (`claude-haiku-4-5-20251001`) for signal extraction and rationale generation
-- **Frontend:** React 19 + Tailwind CSS 3.4 (built with Vite 6), dark Command Center aesthetic
+- **Frontend:** React 19 + Tailwind CSS 3.4 (built with Vite 6), light theme (#fafbfc bg)
 - **Scraping:** feedparser (RSS), Playwright + BeautifulSoup (article text)
 - **Entity resolution:** fuzzywuzzy + python-Levenshtein
 - **Deployment:** GitHub Actions → GitHub Pages (served from repo root on `main`)
@@ -169,3 +168,97 @@ There are currently no automated tests in the project.
 - Country codes are normalized to European ISO-2 codes in `extractor.py`; non-European codes become `"Other"`
 - Scraper respects robots.txt and uses a 1.5s rate limit between requests
 - Scraper user agent: `NordicSignalIntelligence/1.0`
+
+# ── Startup Intelligence Radar — Project Rules ──
+
+## Scoring Model
+
+The signal strength scoring model is defined in /docs/scoring-model.md. All code must follow it exactly.
+
+### Core rules
+- Score = Events (0–25) + Capital (0–25) + Momentum (0–25) + Sources (0–25) = 0–100
+- Score is ABSOLUTE (81 always means the same thing). Percentile is shown as secondary context.
+- 45-day decay window. Events older than 45 days contribute 0.
+- Thesis Fit is NOT part of the score. It is a separate, user-configured overlay.
+- Scores must be computed mechanically from structured inputs, NEVER generated as a vibes-based number by an LLM.
+
+### Factor definitions
+- **Events**: observable company actions (funding, hires, launches, partnerships). Base points × recency multiplier.
+- **Capital**: funding signals only. Stage-adjusted round size + investor quality indicators. = 0 when no recent funding.
+- **Momentum**: sector-level tailwinds (policy, competitor events, TAM revisions, sector VC volume trends). NOT company-specific.
+- **Sources**: independent corroboration count × source quality weight. A company with 1 source MUST have a Sources score of 1–5. The Sources score shown in the UI must be consistent with the source count shown in the evidence metadata row.
+
+### Score integrity checks
+- If source count = 1, Sources factor must be ≤ 5
+- If no recent funding, Capital factor must be 0
+- Score distribution across all companies should span from single digits to ~85, NOT cluster in 65–81
+- Target distribution: top 5% = 75–100, median = 40–55, bottom 30% = 0–30
+
+## Summary Style
+
+All company summaries must follow factual compression style. This applies to both the pipeline LLM prompt and any manually written text.
+
+### Rules
+1. Lead with the hard fact (round size, or key event if no funding)
+2. Use middot separators (·) between facts
+3. Include source count as a fact
+4. Include one concrete market/policy datapoint if available
+5. Maximum 120 characters
+6. NO interpretation words: "validates", "signals", "positions", "captures", "at a critical moment", "inflection point", "conviction"
+7. NO hedging: "meaningful", "substantial", "significant"
+8. NO narrative framing: "at a moment when", "making this", "positioning the"
+
+### Good examples
+- "€30M Series A closed · defence procurement subsystems · 4 sources · NATO 3.5% GDP mandate in effect."
+- "$9M round · AI parts procurement for MRO · 2 sources · investor undisclosed."
+- "€270K across 3 angel closes · AI therapy localisation · 2 sources · no lead identified."
+- "No new round · hiring surge +40% QoQ · 3 sources · German digitisation mandate Q3 2026."
+
+### Bad examples (never produce these)
+- "signals strong investor conviction in AI-driven supply chain modernization at a critical inflection point"
+- "validates the seasonal hydrogen storage market at a critical inflection point where Europe's renewable overcapacity"
+- "captures meaningful angel momentum for a culturally-adapted AI therapy model at a moment when mental health AI"
+
+### Test
+After generating summaries, grep for banned words. If any summary contains "signals", "validates", "positions", "inflection point", "critical moment", "meaningful", or "substantial", rewrite it.
+
+## Trigger Style (Why Surfaced)
+
+Each company should have 2–5 triggers in the "Why surfaced" drawer.
+
+### Rules
+- Each trigger needs: type (funding/policy/hiring/sector/competitor/growth), text (≤80 chars), time (relative)
+- Triggers should come from DIFFERENT categories per company — not 3x "funding"
+- Same factual compression rules as summaries: state what happened, not what it means
+- If the pipeline can only extract 1–2 real triggers, show 1–2. Do not fabricate triggers to hit a count.
+
+### Good triggers
+- funding: "€30M Series A closed; Nordic defence fund consortium lead"
+- policy: "NATO defence spending mandate raised to 3.5% GDP (binding)"
+- hiring: "3 senior procurement roles posted — Tallinn, Brussels"
+- sector: "European defence tech VC volume +140% YoY (Dealroom)"
+
+### Bad triggers
+- "Company is well-positioned to capture significant market share"
+- "Strong investor conviction validates the thesis"
+
+## UI Design System (v4)
+
+- Theme: light (#fafbfc background, #fff cards, #0f172a primary text)
+- Score colours: >=75 green (#10b981), >=50 amber (#d97706), <50 grey (#94a3b8)
+- Factor labels in UI: Events, Capital, Momentum, Sources (NOT Timing, Market, or Fit)
+- Fit badge: separate from score, coloured dot (green/amber/grey) + "high/medium/low fit"
+- Signal filter chips: dark (#0f172a) when active
+- Fit filter chips: green-tinted (#ecfdf5 bg, #059669 text) when active — visually distinct from signal chips
+- Percentile shown as secondary text: "Top X%"
+- Methodology footer always present at bottom
+- Design reference file: docs/design-reference-v4.jsx
+
+## Data Quality Rules
+
+- Source count in evidence row must match Sources factor in score breakdown
+- Capital factor = 0 when company has no recent funding round
+- ~30% of companies should have owner assigned, CRM sync, and last-touch data
+- Status should be a mix: mostly "new", some "viewed", a few "contacted"
+- Contacted KPI at top must reflect actual count of contacted-status companies
+- All numbers must be internally consistent — if the UI says "4 sources", the pipeline must have found 4 independent sources
