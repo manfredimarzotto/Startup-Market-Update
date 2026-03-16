@@ -102,6 +102,9 @@ def extract_signal(candidate, client):
             max_tokens=MAX_TOKENS,
             messages=[{"role": "user", "content": prompt}],
         )
+        if not response.content:
+            logger.error("Empty response from Claude for %s", candidate.get("url"))
+            return None
         raw = response.content[0].text
     except Exception as e:
         logger.error("Claude API error for %s: %s", candidate.get("url"), e)
@@ -113,7 +116,7 @@ def extract_signal(candidate, client):
 
     # Build signal record
     url = candidate.get("url", "")
-    signal_id = "sig_" + hashlib.sha256(url.encode()).hexdigest()[:12]
+    signal_id = "sig_" + hashlib.sha256(url.encode("utf-8")).hexdigest()[:16]
 
     # Normalise country: map non-European codes to "Other"
     raw_country = (data.get("company_hq_country") or "").strip().upper()

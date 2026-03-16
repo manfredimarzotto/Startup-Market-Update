@@ -40,7 +40,7 @@ def load_sources():
     path = DATA_DIR / "signal_sources.json"
     if not path.exists():
         return []
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -49,13 +49,13 @@ def load_existing_signals():
     path = DATA_DIR / "signals.json"
     if not path.exists():
         return []
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
 def make_signal_id(url):
     """Deterministic signal ID from URL."""
-    return "sig_" + hashlib.sha256(url.encode()).hexdigest()[:12]
+    return "sig_" + hashlib.sha256(url.encode("utf-8")).hexdigest()[:16]
 
 
 def matches_keywords(text):
@@ -151,7 +151,7 @@ def ingest_all():
             source["last_fetched_at"] = now
 
     sources_path = DATA_DIR / "signal_sources.json"
-    with open(sources_path, "w") as f:
+    with open(sources_path, "w", encoding="utf-8") as f:
         json.dump(sources, f, indent=2)
 
     logger.info("Ingested %d new candidates from %d feeds", len(all_candidates), len(active))
