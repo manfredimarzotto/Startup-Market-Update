@@ -3,8 +3,8 @@ import { useMemo } from 'react';
 const BAR_COUNT = 7;
 
 function getScoreColor(score) {
-  if (score >= 80) return { text: 'text-emerald-600', glow: 'score-glow-emerald', bar: '#10b981', barDim: '#10b98130' };
-  if (score >= 70) return { text: 'text-amber-600', glow: 'score-glow-amber', bar: '#d97706', barDim: '#d9770630' };
+  if (score >= 75) return { text: 'text-emerald-600', glow: 'score-glow-emerald', bar: '#10b981', barDim: '#10b98130' };
+  if (score >= 50) return { text: 'text-amber-600', glow: 'score-glow-amber', bar: '#d97706', barDim: '#d9770630' };
   return { text: 'text-slate-400', glow: 'score-glow-slate', bar: '#94a3b8', barDim: '#94a3b830' };
 }
 
