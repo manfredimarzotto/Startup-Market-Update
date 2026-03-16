@@ -26,9 +26,8 @@ export default function SignalTag({ signalType, tier }) {
       className="inline-flex items-center gap-1.5 px-2 py-[3px] rounded-md text-[0.6rem] font-bold tracking-wider uppercase"
       style={{
         color,
-        backgroundColor: `${color}15`,
-        border: `1px solid ${color}25`,
-        boxShadow: `0 0 8px ${color}15`,
+        backgroundColor: `${color}10`,
+        border: `1px solid ${color}20`,
       }}
     >
       <span className={`tier-dot ${tierCls}`} />

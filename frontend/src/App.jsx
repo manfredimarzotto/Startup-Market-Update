@@ -25,8 +25,8 @@ export default function App() {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="flex flex-col items-center gap-4">
-          <div className="w-8 h-8 border-2 border-violet-500/30 border-t-violet-500 rounded-full animate-spin" />
-          <span className="text-white/40 text-sm">Loading intelligence data...</span>
+          <div className="w-8 h-8 border-2 border-slate-300 border-t-slate-600 rounded-full animate-spin" />
+          <span className="text-slate-400 text-sm">Loading intelligence data...</span>
         </div>
       </div>
     );
@@ -36,15 +36,15 @@ export default function App() {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="glass rounded-bento p-8 max-w-md text-center">
-          <p className="text-red-400 font-medium">Failed to load data</p>
-          <p className="text-white/40 text-sm mt-2">{error}</p>
+          <p className="text-red-500 font-medium">Failed to load data</p>
+          <p className="text-slate-400 text-sm mt-2">{error}</p>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen text-white">
+    <div className="min-h-screen text-[#0f172a]">
       <Header />
       <SummaryBar opportunities={filteredOpportunities} />
 
@@ -65,13 +65,13 @@ export default function App() {
           {/* Content header */}
           <div className="flex items-center justify-between py-4">
             <div className="flex items-center gap-3">
-              <h2 className="text-xs font-bold text-white/50 tracking-widest">TOP OPPORTUNITIES</h2>
-              <span className="text-white/15">&middot;</span>
-              <span className="text-xs text-white/30 font-mono">
+              <h2 className="text-xs font-bold text-slate-400 tracking-widest">TOP OPPORTUNITIES</h2>
+              <span className="text-slate-200">&middot;</span>
+              <span className="text-xs text-slate-400 font-mono">
                 {filteredOpportunities.length} RESULT{filteredOpportunities.length !== 1 ? 'S' : ''}
               </span>
             </div>
-            <span className="text-xs text-white/20 font-mono">{today}</span>
+            <span className="text-xs text-slate-300 font-mono">{today}</span>
           </div>
 
           {/* Active filter chips */}
@@ -97,10 +97,10 @@ export default function App() {
               animate={{ opacity: 1, y: 0 }}
               className="glass rounded-bento p-12 text-center mt-4"
             >
-              <p className="text-white/30">No opportunities match the current filters.</p>
+              <p className="text-slate-400">No opportunities match the current filters.</p>
               <button
                 onClick={resetFilters}
-                className="mt-3 text-sm text-violet-400 hover:text-violet-300 transition-colors"
+                className="mt-3 text-sm text-slate-500 hover:text-slate-700 transition-colors"
               >
                 Reset filters
               </button>
@@ -132,16 +132,16 @@ function ActiveFilters({ filters, setFilter, resetFilters }) {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.8 }}
-            className="glass inline-flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs text-white/60"
+            className="glass inline-flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs text-slate-500"
           >
             {chip.label}
-            <button onClick={chip.clear} className="text-white/30 hover:text-white/60 transition-colors ml-1">&times;</button>
+            <button onClick={chip.clear} className="text-slate-300 hover:text-slate-500 transition-colors ml-1">&times;</button>
           </motion.span>
         ))}
       </AnimatePresence>
       <button
         onClick={resetFilters}
-        className="text-xs text-violet-400 hover:text-violet-300 transition-colors ml-1"
+        className="text-xs text-slate-500 hover:text-slate-700 transition-colors ml-1"
       >
         Reset all
       </button>

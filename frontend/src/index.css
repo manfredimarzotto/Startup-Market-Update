@@ -2,68 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ── Mesh gradient background ── */
+/* ── Light theme base ── */
 body {
-  background-color: #0a0f1e;
-  background-image:
-    radial-gradient(ellipse 80% 60% at 10% 20%, rgba(56, 189, 248, 0.08) 0%, transparent 60%),
-    radial-gradient(ellipse 60% 50% at 80% 10%, rgba(139, 92, 246, 0.07) 0%, transparent 55%),
-    radial-gradient(ellipse 70% 55% at 60% 80%, rgba(16, 185, 129, 0.06) 0%, transparent 50%),
-    radial-gradient(ellipse 50% 40% at 30% 70%, rgba(244, 114, 182, 0.05) 0%, transparent 50%);
-  background-attachment: fixed;
+  background-color: #fafbfc;
   min-height: 100vh;
   margin: 0;
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #0f172a;
 }
 
 /* ── Scrollbar ── */
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 4px;
 }
 ::-webkit-scrollbar-track {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 3px;
+  background: #e2e8f0;
+  border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: #cbd5e1;
 }
 
-/* ── Glassmorphism utilities ── */
+/* ── Glass utilities (light mode) ── */
 @layer components {
   .glass {
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(255, 255, 255, 0.85);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    border: 1px solid #f1f5f9;
   }
 
   .glass-hover:hover {
-    background: rgba(255, 255, 255, 0.07);
-    border-color: rgba(255, 255, 255, 0.14);
+    background: rgba(255, 255, 255, 0.95);
+    border-color: #e2e8f0;
   }
 
   .glass-strong {
-    background: rgba(255, 255, 255, 0.06);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(250, 251, 252, 0.88);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid #f1f5f9;
   }
 }
 
-/* ── Score glow effects ── */
+/* ── Score color accents ── */
 .score-glow-emerald {
-  text-shadow: 0 0 20px rgba(16, 185, 129, 0.5), 0 0 40px rgba(16, 185, 129, 0.2);
+  color: #10b981;
 }
 .score-glow-amber {
-  text-shadow: 0 0 20px rgba(245, 158, 11, 0.5), 0 0 40px rgba(245, 158, 11, 0.2);
+  color: #d97706;
 }
 .score-glow-slate {
-  text-shadow: 0 0 20px rgba(148, 163, 184, 0.4), 0 0 40px rgba(148, 163, 184, 0.15);
+  color: #94a3b8;
 }
 
 /* ── Sidebar transition ── */
@@ -85,6 +80,12 @@ body {
   display: inline-block;
   flex-shrink: 0;
 }
-.tier-dot.tier-1 { background: #ef4444; box-shadow: 0 0 6px rgba(239, 68, 68, 0.5); }
-.tier-dot.tier-2 { background: #f59e0b; box-shadow: 0 0 6px rgba(245, 158, 11, 0.5); }
-.tier-dot.tier-3 { background: #6b7280; box-shadow: 0 0 6px rgba(107, 114, 128, 0.3); }
+.tier-dot.tier-1 { background: #ef4444; box-shadow: 0 0 6px rgba(239, 68, 68, 0.4); }
+.tier-dot.tier-2 { background: #f59e0b; box-shadow: 0 0 6px rgba(245, 158, 11, 0.4); }
+.tier-dot.tier-3 { background: #6b7280; box-shadow: 0 0 4px rgba(107, 114, 128, 0.2); }
+
+/* ── Animations ── */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
