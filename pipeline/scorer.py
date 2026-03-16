@@ -304,6 +304,9 @@ def generate_rationales(opportunities, all_signals, companies, investors, people
     investor_map = {i["id"]: i for i in investors}
     person_map = {p["id"]: p for p in people}
 
+    total_input_tokens = 0
+    total_output_tokens = 0
+
     for opp in opportunities:
         entity_id = opp["entity_id"]
         entity_type = opp["entity_type"]
@@ -334,6 +337,8 @@ def generate_rationales(opportunities, all_signals, companies, investors, people
                 max_tokens=200,
                 messages=[{"role": "user", "content": prompt}],
             )
+            total_input_tokens += getattr(response.usage, "input_tokens", 0)
+            total_output_tokens += getattr(response.usage, "output_tokens", 0)
             if not response.content:
                 logger.warning("Empty rationale response for %s", entity_name)
                 opp["ai_rationale"] = f"Multiple signals detected for {entity_name}."
@@ -342,6 +347,16 @@ def generate_rationales(opportunities, all_signals, companies, investors, people
         except Exception as e:
             logger.error("Rationale generation failed for %s: %s", entity_name, e)
             opp["ai_rationale"] = f"Multiple signals detected for {entity_name}."
+
+    # Log cost summary
+    # Claude Haiku pricing: $0.80/MTok input, $4.00/MTok output
+    input_cost = total_input_tokens * 0.80 / 1_000_000
+    output_cost = total_output_tokens * 4.00 / 1_000_000
+    total_cost = input_cost + output_cost
+    logger.info(
+        "API usage [Rationales]: %d input + %d output tokens = $%.4f",
+        total_input_tokens, total_output_tokens, total_cost,
+    )
 
     return opportunities
 

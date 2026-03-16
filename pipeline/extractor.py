@@ -87,8 +87,33 @@ def _parse_json_response(text):
         return None
 
 
-def extract_signal(candidate, client):
-    """Extract a structured signal from a single candidate article."""
+def extract_all(candidates):
+    """Extract signals from all candidates using Claude Haiku."""
+    if not candidates:
+        return []
+
+    client = _get_client()
+    signals = []
+    total_input_tokens = 0
+    total_output_tokens = 0
+
+    for i, candidate in enumerate(candidates):
+        logger.info("Extracting %d/%d: %s", i + 1, len(candidates), candidate.get("title", "")[:60])
+        signal, usage = _extract_signal_with_usage(candidate, client)
+        if signal:
+            signals.append(signal)
+        else:
+            logger.warning("Extraction failed for: %s", candidate.get("url"))
+        total_input_tokens += usage.get("input_tokens", 0)
+        total_output_tokens += usage.get("output_tokens", 0)
+
+    _log_api_cost("Extraction", total_input_tokens, total_output_tokens)
+    logger.info("Extracted %d signals from %d candidates", len(signals), len(candidates))
+    return signals
+
+
+def _extract_signal_with_usage(candidate, client):
+    """Wrapper that returns (signal, usage_dict)."""
     prompt = EXTRACTION_PROMPT.format(
         title=candidate.get("title", ""),
         source_name=candidate.get("source_name", ""),
@@ -102,23 +127,25 @@ def extract_signal(candidate, client):
             max_tokens=MAX_TOKENS,
             messages=[{"role": "user", "content": prompt}],
         )
+        usage = {
+            "input_tokens": getattr(response.usage, "input_tokens", 0),
+            "output_tokens": getattr(response.usage, "output_tokens", 0),
+        }
         if not response.content:
             logger.error("Empty response from Claude for %s", candidate.get("url"))
-            return None
+            return None, usage
         raw = response.content[0].text
     except Exception as e:
         logger.error("Claude API error for %s: %s", candidate.get("url"), e)
-        return None
+        return None, {}
 
     data = _parse_json_response(raw)
     if not data:
-        return None
+        return None, usage
 
-    # Build signal record
     url = candidate.get("url", "")
     signal_id = "sig_" + hashlib.sha256(url.encode("utf-8")).hexdigest()[:16]
 
-    # Normalise country: map non-European codes to "Other"
     raw_country = (data.get("company_hq_country") or "").strip().upper()
     country = raw_country if raw_country in EUROPEAN_COUNTRY_CODES else ("Other" if raw_country else "")
 
@@ -141,28 +168,18 @@ def extract_signal(candidate, client):
         "person_ids": [],
         "metadata": {},
     }
-
-    # Store extracted metadata for scorer to use
     signal["_extracted"] = data
 
-    return signal
+    return signal, usage
 
 
-def extract_all(candidates):
-    """Extract signals from all candidates using Claude Haiku."""
-    if not candidates:
-        return []
-
-    client = _get_client()
-    signals = []
-
-    for i, candidate in enumerate(candidates):
-        logger.info("Extracting %d/%d: %s", i + 1, len(candidates), candidate.get("title", "")[:60])
-        signal = extract_signal(candidate, client)
-        if signal:
-            signals.append(signal)
-        else:
-            logger.warning("Extraction failed for: %s", candidate.get("url"))
-
-    logger.info("Extracted %d signals from %d candidates", len(signals), len(candidates))
-    return signals
+def _log_api_cost(step, input_tokens, output_tokens):
+    """Log estimated API cost for a pipeline step."""
+    # Claude Haiku pricing: $0.80/MTok input, $4.00/MTok output
+    input_cost = input_tokens * 0.80 / 1_000_000
+    output_cost = output_tokens * 4.00 / 1_000_000
+    total = input_cost + output_cost
+    logger.info(
+        "API usage [%s]: %d input + %d output tokens = $%.4f",
+        step, input_tokens, output_tokens, total,
+    )
