@@ -80,20 +80,21 @@ Six JSON files in `data/`:
 
 Opportunity scores are computed per entity (company/investor/person) in `pipeline/scorer.py`:
 
-- **Signal strength** (0–35): Based on best signal tier — `tier_1_strong`=35, `tier_2_medium`=22, `tier_3_weak`=10
-- **Recency** (0–25): Linear decay from 25→0 over `recency_decay_days` (default 45)
-- **Velocity** (0–25): `min(25, signal_count × 8)` — multiple recent signals boost score
+- **Signal strength** (0–25): Based on best signal tier — `tier_1_strong`=25, `tier_2_medium`=15, `tier_3_weak`=5
+- **Recency** (0–30): Linear decay from 30→0 over `recency_decay_days` (default 30)
+- **Deal magnitude** (0–25): Log-scaled funding amount — $100K=5, $1M=10, $10M=15, $100M=20, $1B+=25
+- **Velocity** (0–10): `min(10, signal_count × 4)` — mild bonus for multiple signals
 - **Type bonus** (scaled by 0.3): `funding_round`=30, `acquisition`=28, `new_fund`=25, `hiring_wave`=20, `partnership`=18, `expansion`=15, `product_launch`=12, `media_mention`=8
 - **Geography weight**: Multiplier from `config.json` (default 0.5 for unlisted regions)
 
-Final score: `min(99, (strength + recency + velocity) × geo_weight + type_bonus × 0.3)`
+Final score: `min(99, (strength + recency + deal_magnitude + velocity) × geo_weight + type_bonus × 0.3)`
 
 ## Tech Stack
 
 - **Language:** Python 3 (CI uses 3.11)
 - **AI:** Anthropic Claude Haiku (`claude-haiku-4-5-20251001`) for signal extraction and rationale generation
 - **Templating:** Jinja2
-- **Scraping:** feedparser (RSS), requests + BeautifulSoup (article text), newspaper3k
+- **Scraping:** feedparser (RSS), requests + BeautifulSoup (article text)
 - **Entity resolution:** fuzzywuzzy + python-Levenshtein
 - **Frontend:** Vanilla JS, CSS (clean light theme with IBM Plex Sans + JetBrains Mono)
 - **Deployment:** GitHub Actions → GitHub Pages (served from repo root on `main`)

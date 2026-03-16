@@ -36,7 +36,7 @@
     "url": "https://thenordicweb.com",
     "refresh_interval": "24h",
     "last_fetched_at": "2026-03-08T12:00:00Z",
-    "is_active": true,
+    "is_active": false,
     "geography_tag": "Nordics"
   },
   {
@@ -48,5 +48,55 @@
     "last_fetched_at": "2026-03-13T06:53:22.983271+00:00",
     "is_active": true,
     "geography_tag": "Europe"
+  },
+  {
+    "id": "src_006",
+    "name": "Crunchbase News",
+    "type": "rss",
+    "url": "https://news.crunchbase.com/feed/",
+    "refresh_interval": "6h",
+    "last_fetched_at": null,
+    "is_active": true,
+    "geography_tag": "US"
+  },
+  {
+    "id": "src_007",
+    "name": "VentureBeat",
+    "type": "rss",
+    "url": "https://venturebeat.com/feed/",
+    "refresh_interval": "6h",
+    "last_fetched_at": null,
+    "is_active": true,
+    "geography_tag": "US"
+  },
+  {
+    "id": "src_008",
+    "name": "TechFunding News",
+    "type": "rss",
+    "url": "https://techfundingnews.com/feed/",
+    "refresh_interval": "12h",
+    "last_fetched_at": null,
+    "is_active": true,
+    "geography_tag": "Europe"
+  },
+  {
+    "id": "src_009",
+    "name": "ArcticStartup",
+    "type": "rss",
+    "url": "https://arcticstartup.com/feed/",
+    "refresh_interval": "12h",
+    "last_fetched_at": null,
+    "is_active": true,
+    "geography_tag": "Nordics"
+  },
+  {
+    "id": "src_010",
+    "name": "UKTN",
+    "type": "rss",
+    "url": "https://www.uktech.news/feed",
+    "refresh_interval": "12h",
+    "last_fetched_at": null,
+    "is_active": true,
+    "geography_tag": "UK"
   }
 ]
