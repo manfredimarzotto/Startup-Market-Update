@@ -27,6 +27,8 @@ export default function App() {
   const toggleSelect = useCallback((id) => {
     setSelected(prev => { const n = new Set(prev); n.has(id) ? n.delete(id) : n.add(id); return n; });
   }, []);
+  // Only one drawer open at a time
+  const [openDrawerId, setOpenDrawerId] = useState(null);
 
   const handleSignalFilter = useCallback((value) => {
     setSignalFilter(value);
@@ -160,6 +162,8 @@ export default function App() {
                   index={i}
                   selected={selected.has(opp.id)}
                   onSelect={toggleSelect}
+                  drawerOpen={openDrawerId === opp.id}
+                  onToggleDrawer={setOpenDrawerId}
                 />
               ))}
             </AnimatePresence>

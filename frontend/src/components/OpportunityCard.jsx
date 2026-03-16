@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion';
-import { COUNTRY_NAMES, daysSince } from '../hooks/useData';
+import { motion, AnimatePresence } from 'framer-motion';
+import { COUNTRY_NAMES, daysSince, formatSignalType } from '../hooks/useData';
 
 const STATUS_COLORS = {
   new:       { bg: '#ecfdf5', color: '#059669' },
@@ -59,6 +59,91 @@ function FitDot({ fit }) {
   );
 }
 
+/* ─── TRIGGER ICONS ─── */
+const TRIGGER_ICONS = {
+  funding_round: '\u{1F4B0}',
+  new_fund: '\u{1F4B0}',
+  hiring_wave: '\u{1F464}',
+  acquisition: '\u{2694}\u{FE0F}',
+  partnership: '\u{1F91D}',
+  expansion: '\u{1F680}',
+  product_launch: '\u{1F680}',
+  media_mention: '\u{1F4F0}',
+};
+
+function TriggerIcon({ type }) {
+  return <span style={{ fontSize: 11.5 }}>{TRIGGER_ICONS[type] || '\u{2022}'}</span>;
+}
+
+/* ─── SCORE BAR ─── */
+function ScoreBar({ label, value, max = 25, color }) {
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
+      <span style={{ fontSize: 10, color: '#94a3b8', width: 56, textAlign: 'right', fontWeight: 450, flexShrink: 0 }}>{label}</span>
+      <div style={{ flex: 1, height: 3, background: '#f1f5f9', borderRadius: 2, overflow: 'hidden', minWidth: 36 }}>
+        <div style={{ width: `${(value / max) * 100}%`, height: '100%', background: color, borderRadius: 2, transition: 'width 0.5s ease' }} />
+      </div>
+      <span style={{ fontSize: 9, color: '#64748b', width: 16, fontVariantNumeric: 'tabular-nums', flexShrink: 0, fontWeight: 550 }}>{value}</span>
+    </div>
+  );
+}
+
+/* ─── WHY SURFACED DRAWER ─── */
+function WhySurfaced({ triggers, breakdown, score, pct, color, onClose }) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: -4 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -4 }}
+      transition={{ duration: 0.2 }}
+      style={{
+        marginTop: 12, padding: '14px 16px', borderRadius: 8,
+        background: '#f8fafc', border: '1px solid #f1f5f9',
+      }}
+    >
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 10 }}>
+        <span style={{ fontSize: 11, fontWeight: 600, color: '#475569', textTransform: 'uppercase', letterSpacing: 0.6 }}>Why surfaced</span>
+        <button onClick={onClose} style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: 14, color: '#94a3b8', padding: '0 2px', lineHeight: 1 }}>&times;</button>
+      </div>
+      <div style={{ display: 'flex', gap: 20 }}>
+        {/* Triggers */}
+        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 7 }}>
+          {triggers.map((t, i) => (
+            <div key={i} style={{ display: 'flex', gap: 7, alignItems: 'flex-start' }}>
+              <TriggerIcon type={t.type} />
+              <div style={{ flex: 1 }}>
+                <div style={{ fontSize: 12, color: '#334155', lineHeight: 1.35 }}>{t.text}</div>
+                <div style={{ fontSize: 10, color: '#94a3b8', marginTop: 1 }}>{t.time}</div>
+              </div>
+            </div>
+          ))}
+          {triggers.length === 0 && (
+            <div style={{ fontSize: 12, color: '#94a3b8', fontStyle: 'italic' }}>No trigger details available.</div>
+          )}
+        </div>
+        {/* Score breakdown */}
+        <div style={{ width: 180, flexShrink: 0, borderLeft: '1px solid #e2e8f0', paddingLeft: 14 }}>
+          <div style={{ display: 'flex', alignItems: 'baseline', gap: 4, marginBottom: 3 }}>
+            <span style={{ fontSize: 17, fontWeight: 700, color, fontVariantNumeric: 'tabular-nums' }}>{score}</span>
+            <span style={{ fontSize: 10, color: '#94a3b8' }}>/100</span>
+          </div>
+          <div style={{ fontSize: 10, color: '#94a3b8', marginBottom: 8 }}>Top {pct}% activity this week</div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+            <ScoreBar label="Events" value={breakdown.events} color={color} />
+            <ScoreBar label="Capital" value={breakdown.capital} color={color} />
+            <ScoreBar label="Momentum" value={breakdown.momentum} color={color} />
+            <ScoreBar label="Sources" value={breakdown.sources} color={color} />
+          </div>
+          <div style={{ fontSize: 9, color: '#cbd5e1', marginTop: 6, lineHeight: 1.4, fontStyle: 'italic' }}>
+            Measures observable activity intensity over 45 days. Not an investment recommendation.
+          </div>
+        </div>
+      </div>
+    </motion.div>
+  );
+}
+
+/* ─── CARD VARIANTS ─── */
 const cardVariants = {
   initial: { opacity: 0, y: 6 },
   animate: (i) => ({
@@ -74,7 +159,8 @@ const cardVariants = {
   },
 };
 
-export default function OpportunityCard({ opportunity, onStatusChange, index = 0, selected, onSelect }) {
+/* ─── DISCOVERY CARD ─── */
+export default function OpportunityCard({ opportunity, onStatusChange, index = 0, selected, onSelect, drawerOpen, onToggleDrawer }) {
   const { entity, entity_type, oppSignals, status, ai_rationale, opportunity_score } = opportunity;
   const name = entity?.name || 'Unknown';
   const sc = scoreColor(opportunity_score);
@@ -114,6 +200,27 @@ export default function OpportunityCard({ opportunity, onStatusChange, index = 0
     : '';
 
   const statusStyle = STATUS_COLORS[status] || STATUS_COLORS.new;
+
+  // Build triggers from signals for the drawer
+  const triggers = oppSignals.map(s => ({
+    type: s.signal_type,
+    text: s.headline || formatSignalType(s.signal_type),
+    time: daysSince(s.published_at) === 0 ? 'today'
+      : daysSince(s.published_at) === 1 ? '1d ago'
+      : daysSince(s.published_at) < 7 ? `${daysSince(s.published_at)}d ago`
+      : `${Math.round(daysSince(s.published_at) / 7)}w ago`,
+  }));
+
+  // Score breakdown mapped to v4 labels
+  const bd = opportunity.score_breakdown || {};
+  const breakdown = {
+    events: bd.signal_strength || 0,
+    capital: bd.deal_magnitude || 0,
+    momentum: bd.recency || 0,
+    sources: bd.growth_velocity || 0,
+  };
+
+  const percentile = opportunity_score >= 80 ? 6 : 100 - opportunity_score;
 
   return (
     <motion.div
@@ -158,7 +265,6 @@ export default function OpportunityCard({ opportunity, onStatusChange, index = 0
               padding: '1px 6px', borderRadius: 999, fontSize: 10, fontWeight: 500,
               background: statusStyle.bg, color: statusStyle.color,
             }}>{status}</span>
-            {/* CRM sync badge — show for contacted/viewed */}
             {(status === 'contacted' || status === 'viewed') && (
               <span style={{ fontSize: 10, color: '#94a3b8', display: 'flex', alignItems: 'center', gap: 3 }}>
                 <svg width="9" height="9" viewBox="0 0 16 16" fill="none"><path d="M2 8.5l4 4 8-9" stroke="#10b981" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
@@ -208,6 +314,20 @@ export default function OpportunityCard({ opportunity, onStatusChange, index = 0
             <span style={{ margin: '0 6px', color: '#e2e8f0' }}>&middot;</span>
             <OwnerBadge initials={status === 'contacted' ? 'MR' : null} />
           </div>
+
+          {/* Why Surfaced Drawer */}
+          <AnimatePresence>
+            {drawerOpen && (
+              <WhySurfaced
+                triggers={triggers}
+                breakdown={breakdown}
+                score={opportunity_score}
+                pct={percentile}
+                color={sc}
+                onClose={() => onToggleDrawer(null)}
+              />
+            )}
+          </AnimatePresence>
         </div>
 
         {/* Right: Score + sparkline */}
@@ -227,19 +347,21 @@ export default function OpportunityCard({ opportunity, onStatusChange, index = 0
                 {opportunity_score}
               </div>
               <div style={{ fontSize: 9, color: '#94a3b8', marginTop: 2 }}>
-                Top {opportunity_score >= 80 ? '6' : opportunity_score >= 60 ? `${100 - opportunity_score}` : `${100 - opportunity_score}`}%
+                Top {percentile}%
               </div>
             </div>
           </div>
           <div style={{ display: 'flex', gap: 4 }}>
             <button
-              onClick={() => onStatusChange(opportunity.id, status === 'viewed' ? 'new' : 'viewed')}
+              onClick={() => onToggleDrawer(drawerOpen ? null : opportunity.id)}
               style={{
                 padding: '4px 9px', borderRadius: 5, fontSize: 10, fontWeight: 500,
                 border: '1px solid', cursor: 'pointer', transition: 'all 0.12s ease',
-                borderColor: '#e2e8f0', background: '#fff', color: '#64748b',
+                borderColor: drawerOpen ? '#0f172a' : '#e2e8f0',
+                background: drawerOpen ? '#0f172a' : '#fff',
+                color: drawerOpen ? '#fff' : '#64748b',
               }}
-            >Why surfaced</button>
+            >{drawerOpen ? 'Close' : 'Why surfaced'}</button>
             <button
               onClick={() => onStatusChange(opportunity.id, 'viewed')}
               style={{
