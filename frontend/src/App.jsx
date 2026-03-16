@@ -212,12 +212,27 @@ export default function App() {
         }}>
           <span>{selected.size} selected</span>
           <span style={{ width: 1, height: 14, background: 'rgba(255,255,255,0.15)' }} />
-          {['Mark viewed', 'Assign to me', 'Export', 'Archive'].map((a) => (
-            <button key={a} style={{
+          {[
+            { label: 'Mark viewed', action: () => { selected.forEach(id => setStatus(id, 'viewed')); setSelected(new Set()); } },
+            { label: 'Assign to me', action: () => { /* placeholder — no owner model yet */ } },
+            { label: 'Export', action: () => {
+              const rows = filteredOpportunities.filter(o => selected.has(o.id));
+              const csv = ['Name,Score,Status,Type'].concat(
+                rows.map(o => `"${o.entity?.name || ''}",${o.opportunity_score},${o.status},${o.entity_type}`)
+              ).join('\n');
+              const blob = new Blob([csv], { type: 'text/csv' });
+              const url = URL.createObjectURL(blob);
+              const a = document.createElement('a');
+              a.href = url; a.download = 'opportunities.csv'; a.click();
+              URL.revokeObjectURL(url);
+            }},
+            { label: 'Archive', action: () => { selected.forEach(id => setStatus(id, 'archived')); setSelected(new Set()); } },
+          ].map(({ label, action }) => (
+            <button key={label} onClick={action} style={{
               padding: '4px 10px', borderRadius: 5, border: '1px solid rgba(255,255,255,0.12)',
               background: 'transparent', color: '#fff', fontSize: 10.5, fontWeight: 500,
               cursor: 'pointer',
-            }}>{a}</button>
+            }}>{label}</button>
           ))}
           <button
             onClick={() => setSelected(new Set())}

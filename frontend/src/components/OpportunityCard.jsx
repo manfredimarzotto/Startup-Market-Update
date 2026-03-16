@@ -88,8 +88,58 @@ function ScoreBar({ label, value, max = 25, color }) {
   );
 }
 
+/* ─── STATUS PIPELINE ─── */
+const PIPELINE_STEPS = ['new', 'viewed', 'contacted', 'archived'];
+const PIPELINE_LABELS = { new: 'New', viewed: 'Viewed', contacted: 'Contacted', archived: 'Archived' };
+
+function StatusPipeline({ currentStatus, onStatusChange, opportunityId }) {
+  const currentIdx = PIPELINE_STEPS.indexOf(currentStatus);
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', gap: 0, marginBottom: 12 }}>
+      {PIPELINE_STEPS.map((step, i) => {
+        const isActive = i <= currentIdx;
+        const isCurrent = step === currentStatus;
+        const sc = STATUS_COLORS[step];
+        return (
+          <div key={step} style={{ display: 'flex', alignItems: 'center' }}>
+            <button
+              onClick={() => onStatusChange(opportunityId, step)}
+              style={{
+                display: 'flex', alignItems: 'center', gap: 4,
+                padding: '3px 8px', borderRadius: 999, border: '1px solid',
+                borderColor: isCurrent ? sc.color : isActive ? '#e2e8f0' : '#f1f5f9',
+                background: isCurrent ? sc.bg : isActive ? '#f8fafc' : '#fff',
+                color: isCurrent ? sc.color : isActive ? '#64748b' : '#cbd5e1',
+                fontSize: 10, fontWeight: isCurrent ? 600 : 450,
+                cursor: 'pointer', transition: 'all 0.15s ease',
+                whiteSpace: 'nowrap',
+              }}
+              onMouseEnter={(e) => { if (!isCurrent) { e.currentTarget.style.borderColor = sc.color; e.currentTarget.style.color = sc.color; }}}
+              onMouseLeave={(e) => { if (!isCurrent) { e.currentTarget.style.borderColor = isActive ? '#e2e8f0' : '#f1f5f9'; e.currentTarget.style.color = isActive ? '#64748b' : '#cbd5e1'; }}}
+            >
+              <span style={{
+                width: 6, height: 6, borderRadius: '50%',
+                background: isCurrent ? sc.color : isActive ? '#94a3b8' : '#e2e8f0',
+                transition: 'background 0.15s ease',
+              }} />
+              {PIPELINE_LABELS[step]}
+            </button>
+            {i < PIPELINE_STEPS.length - 1 && (
+              <div style={{
+                width: 16, height: 1,
+                background: i < currentIdx ? '#94a3b8' : '#e2e8f0',
+                transition: 'background 0.15s ease',
+              }} />
+            )}
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
 /* ─── WHY SURFACED DRAWER ─── */
-function WhySurfaced({ triggers, breakdown, score, pct, color, onClose }) {
+function WhySurfaced({ triggers, breakdown, score, pct, color, onClose, status, onStatusChange, opportunityId }) {
   return (
     <motion.div
       initial={{ opacity: 0, y: -4 }}
@@ -105,6 +155,8 @@ function WhySurfaced({ triggers, breakdown, score, pct, color, onClose }) {
         <span style={{ fontSize: 11, fontWeight: 600, color: '#475569', textTransform: 'uppercase', letterSpacing: 0.6 }}>Why surfaced</span>
         <button onClick={onClose} style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: 14, color: '#94a3b8', padding: '0 2px', lineHeight: 1 }}>&times;</button>
       </div>
+      {/* Status pipeline */}
+      <StatusPipeline currentStatus={status} onStatusChange={onStatusChange} opportunityId={opportunityId} />
       <div style={{ display: 'flex', gap: 20 }}>
         {/* Triggers */}
         <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 7 }}>
@@ -325,6 +377,9 @@ export default function OpportunityCard({ opportunity, onStatusChange, index = 0
                 pct={percentile}
                 color={sc}
                 onClose={() => onToggleDrawer(null)}
+                status={status}
+                onStatusChange={onStatusChange}
+                opportunityId={opportunity.id}
               />
             )}
           </AnimatePresence>
