@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import ScoreBadge from './ScoreBadge';
 import { COUNTRY_NAMES, formatSignalType, entityUrl } from '../hooks/useData';
 
@@ -20,16 +21,50 @@ const ENTITY_TYPE_STYLES = {
   person:   'bg-emerald-500/15 text-emerald-400 border-emerald-500/30',
 };
 
-export default function OpportunityCard({ opportunity, onStatusChange }) {
+const cardVariants = {
+  initial: { opacity: 0, y: 24 },
+  animate: (i) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.4,
+      ease: [0.25, 0.1, 0.25, 1],
+      delay: i * 0.06,
+    },
+  }),
+  exit: {
+    opacity: 0,
+    y: -16,
+    scale: 0.97,
+    transition: { duration: 0.25, ease: 'easeIn' },
+  },
+};
+
+export default function OpportunityCard({ opportunity, onStatusChange, index = 0 }) {
   const { entity, entity_type, oppSignals, contacts, status, ai_rationale, opportunity_score } = opportunity;
   const name = entity?.name || 'Unknown';
   const url = entityUrl(entity_type, entity);
 
   return (
-    <div className={`
-      glass glass-hover rounded-bento p-5 transition-all duration-300
-      ${status === 'archived' ? 'opacity-40' : ''}
-    `}>
+    <motion.div
+      layout
+      layoutId={opportunity.id}
+      variants={cardVariants}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+      custom={index}
+      whileHover={{
+        scale: 1.02,
+        borderColor: 'rgba(34, 211, 238, 0.35)',
+        transition: { duration: 0.2, ease: 'easeOut' },
+      }}
+      className={`
+        glass rounded-bento p-5 cursor-default
+        ${status === 'archived' ? 'opacity-40' : ''}
+      `}
+      style={{ borderColor: 'rgba(255, 255, 255, 0.08)' }}
+    >
       {/* Top row: name + entity badge + score */}
       <div className="flex items-start justify-between gap-4">
         <div className="flex-1 min-w-0">
@@ -128,7 +163,7 @@ export default function OpportunityCard({ opportunity, onStatusChange }) {
           ))}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
