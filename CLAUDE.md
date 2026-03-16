@@ -125,8 +125,7 @@ There are currently no automated tests in the project.
 
 - Always rebase feature branches onto `main` before merging to keep a linear history
 - Use `git rebase origin/main` (not merge commits) to resolve conflicts
-- **Before opening a PR**, always run `git fetch origin main && git rebase origin/main` to avoid conflicts
-- **After a PR is squash-merged into main**, any other branch that contains the original (pre-squash) commits will conflict because git sees the squash-merge as a different commit. Fix by rebasing — git will auto-skip the already-applied commits
+- **Before every push**, always run `git fetch origin main && git rebase origin/main` first. This is mandatory — never push without rebasing onto the latest main. PRs are squash-merged, so pushing stale commits will cause merge conflicts that block the PR.
 - **Automated pipeline commits** (`Update signals and dashboard - ...`) run daily on `main` via GitHub Actions. Long-lived feature branches will drift behind these commits. Rebase onto main before pushing to keep the branch current
 - Never commit to `main` directly — always use feature branches and PRs
 
