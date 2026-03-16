@@ -113,7 +113,7 @@
       : personMap[opp.person_id];
     const oppSignals = (opp.signal_ids || []).map(id => signalMap[id]).filter(Boolean);
     const contacts = (opp.contact_ids || []).map(id => personMap[id]).filter(Boolean);
-    return { ...opp, entity, oppSignals, contacts, status: getStatus(opp.id) };
+    return { ...opp, entity: entity || null, oppSignals, contacts, status: getStatus(opp.id) };
   }
 
   /* ── Collect unique filter values from signals ── */
@@ -298,8 +298,8 @@
         break;
       case 'recent':
         results.sort((a, b) => {
-          const aMax = Math.max(...a.oppSignals.map(s => new Date(s.published_at).getTime()));
-          const bMax = Math.max(...b.oppSignals.map(s => new Date(s.published_at).getTime()));
+          const aMax = a.oppSignals.length > 0 ? Math.max(...a.oppSignals.map(s => new Date(s.published_at).getTime())) : 0;
+          const bMax = b.oppSignals.length > 0 ? Math.max(...b.oppSignals.map(s => new Date(s.published_at).getTime())) : 0;
           return bMax - aMax;
         });
         break;
@@ -445,17 +445,17 @@
   const TOKEN_KEY = 'nsi_github_token';
 
   function getToken() {
-    return localStorage.getItem(TOKEN_KEY);
+    return sessionStorage.getItem(TOKEN_KEY);
   }
 
   function promptForToken() {
     const token = prompt(
       'Enter a GitHub Personal Access Token with "actions:write" and "contents:read" permissions.\n\n' +
       'Create one at: github.com/settings/tokens\n\n' +
-      'The token is stored only in your browser\'s localStorage and sent only to the GitHub API.'
+      'The token is stored only for this browser session and sent only to the GitHub API.'
     );
     if (token && token.trim()) {
-      localStorage.setItem(TOKEN_KEY, token.trim());
+      sessionStorage.setItem(TOKEN_KEY, token.trim());
       return token.trim();
     }
     return null;
@@ -476,7 +476,7 @@
       body: JSON.stringify({ ref: 'main' }),
     });
     if (resp.status === 401 || resp.status === 403) {
-      localStorage.removeItem(TOKEN_KEY);
+      sessionStorage.removeItem(TOKEN_KEY);
       throw new Error('Invalid or expired token. Please try again.');
     }
     if (!resp.ok) {
@@ -524,7 +524,7 @@
     btn.addEventListener('contextmenu', function (e) {
       e.preventDefault();
       if (confirm('Clear saved GitHub token?')) {
-        localStorage.removeItem(TOKEN_KEY);
+        sessionStorage.removeItem(TOKEN_KEY);
         alert('Token cleared. You will be prompted for a new one next time.');
       }
     });

@@ -6,6 +6,7 @@ from datetime import date
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader
+from markupsafe import Markup
 
 ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
@@ -18,7 +19,7 @@ def load_json(filename):
     path = DATA_DIR / filename
     if not path.exists():
         return []
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -34,20 +35,20 @@ def build():
     active_sources = sum(1 for s in signal_sources if s.get("is_active"))
 
     # Render template
-    env = Environment(loader=FileSystemLoader(str(TEMPLATES_DIR)), autoescape=False)
+    env = Environment(loader=FileSystemLoader(str(TEMPLATES_DIR)), autoescape=True)
     template = env.get_template("index.html")
     html = template.render(
         generated_date=date.today().isoformat(),
         source_count=active_sources,
-        opportunities_json=json.dumps(opportunities),
-        signals_json=json.dumps(signals),
-        companies_json=json.dumps(companies),
-        investors_json=json.dumps(investors),
-        people_json=json.dumps(people),
+        opportunities_json=Markup(json.dumps(opportunities)),
+        signals_json=Markup(json.dumps(signals)),
+        companies_json=Markup(json.dumps(companies)),
+        investors_json=Markup(json.dumps(investors)),
+        people_json=Markup(json.dumps(people)),
     )
 
     # Write to repo root
-    (OUTPUT_DIR / "index.html").write_text(html)
+    (OUTPUT_DIR / "index.html").write_text(html, encoding="utf-8")
 
     # Copy static assets
     for src_file in STATIC_DIR.iterdir():

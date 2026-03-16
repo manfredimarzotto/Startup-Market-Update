@@ -21,13 +21,13 @@ def _load_json(filename):
     path = DATA_DIR / filename
     if not path.exists():
         return []
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
 def _save_json(filename, data):
     path = DATA_DIR / filename
-    with open(path, "w") as f:
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
 
 
@@ -35,7 +35,7 @@ def _load_config():
     path = DATA_DIR.parent / "config.json"
     if not path.exists():
         return {}
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -60,7 +60,7 @@ def _fuzzy_match(name, entities, key="name", threshold=0.8):
 
 
 def _make_id(prefix, name):
-    return prefix + hashlib.sha256(name.lower().encode()).hexdigest()[:8]
+    return prefix + hashlib.sha256(name.lower().encode("utf-8")).hexdigest()[:12]
 
 
 def resolve_entities(new_signals, companies, investors, people):
@@ -334,6 +334,10 @@ def generate_rationales(opportunities, all_signals, companies, investors, people
                 max_tokens=200,
                 messages=[{"role": "user", "content": prompt}],
             )
+            if not response.content:
+                logger.warning("Empty rationale response for %s", entity_name)
+                opp["ai_rationale"] = f"Multiple signals detected for {entity_name}."
+                continue
             opp["ai_rationale"] = response.content[0].text.strip()
         except Exception as e:
             logger.error("Rationale generation failed for %s: %s", entity_name, e)
