@@ -91,10 +91,6 @@ def resolve_entities(new_signals, companies, investors, people):
                     "stage": (extracted.get("funding_round_stage") or "").lower().replace(" ", "_"),
                     "hq_country": signal.get("country", ""),  # already normalised by extractor
                     "hq_city": extracted.get("company_hq_city", ""),
-                    "employee_count": None,
-                    "founded_year": None,
-                    "linkedin_url": "",
-                    "description": "",
                     "last_signal_at": signal.get("published_at", ""),
                     "signal_count": 1,
                 }
@@ -117,7 +113,6 @@ def resolve_entities(new_signals, companies, investors, people):
                     "aum_estimate": "",
                     "focus_sectors": [],
                     "focus_geographies": [],
-                    "portfolio_count": None,
                     "website": "",
                     "linkedin_url": "",
                     "last_signal_at": signal.get("published_at", ""),
@@ -144,7 +139,6 @@ def resolve_entities(new_signals, companies, investors, people):
                     "company_id": signal["company_ids"][0] if signal["company_ids"] else None,
                     "investor_id": None,
                     "linkedin_url": "",
-                    "email_guess": "",
                     "relevance_tag": person_data.get("relevance", ""),
                 }
                 people.append(new_person)
