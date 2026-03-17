@@ -174,5 +174,16 @@
     "is_active": true,
     "geography_tag": "DACH",
     "source_quality_weight": 2
+  },
+  {
+    "id": "src_017",
+    "name": "Scaling Europe",
+    "type": "rss",
+    "url": "https://scaling-europe.beehiiv.com/feed",
+    "refresh_interval": "12h",
+    "last_fetched_at": null,
+    "is_active": true,
+    "geography_tag": "Europe",
+    "source_quality_weight": 3
   }
 ]
