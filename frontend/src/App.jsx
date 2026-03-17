@@ -147,8 +147,32 @@ export default function App() {
             </button>
           ))}
 
-          <span className="ml-auto text-[10.5px] text-[#94a3b8]">
-            {filteredOpportunities.length} result{filteredOpportunities.length !== 1 ? 's' : ''}
+          <span className="ml-auto flex items-center gap-2">
+            <select
+              value={filters.sort}
+              onChange={(e) => setFilter('sort', e.target.value)}
+              style={{
+                appearance: 'none',
+                WebkitAppearance: 'none',
+                padding: '3px 22px 3px 8px',
+                borderRadius: 999,
+                border: '1px solid #e2e8f0',
+                background: '#fff url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'10\' height=\'6\'%3E%3Cpath d=\'M0 0l5 6 5-6z\' fill=\'%2394a3b8\'/%3E%3C/svg%3E") no-repeat right 8px center',
+                color: '#64748b',
+                fontSize: '10.5px',
+                fontWeight: 500,
+                cursor: 'pointer',
+                outline: 'none',
+              }}
+            >
+              <option value="score_desc">Score: high → low</option>
+              <option value="score_asc">Score: low → high</option>
+              <option value="recent">Most recent</option>
+              <option value="funding_recent">Recent funding</option>
+            </select>
+            <span className="text-[10.5px] text-[#94a3b8]">
+              {filteredOpportunities.length} result{filteredOpportunities.length !== 1 ? 's' : ''}
+            </span>
           </span>
         </div>
 
