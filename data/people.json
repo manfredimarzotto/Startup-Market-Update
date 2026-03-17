@@ -808,5 +808,464 @@
     "linkedin_url": "",
     "email_guess": "",
     "relevance_tag": "partner"
+  },
+  {
+    "id": "per_a20c9d0ba576",
+    "name": "Harsha Kapre",
+    "role": "Head of Snowflake Ventures",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_54a1724b9b66",
+    "name": "Jake Cooper",
+    "role": "Founder and Chief Executive Officer",
+    "company_id": "co_e34d1c9011e0",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_327043fc09d5",
+    "name": "Daniel Lobaton",
+    "role": "Chief Technology Officer at G2X",
+    "company_id": "co_e34d1c9011e0",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_149e96efddc4",
+    "name": "Jack Dorsey",
+    "role": "CEO/Founder",
+    "company_id": "co_496aca80e4d8",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_cd6a4830277d",
+    "name": "Parth Sareen",
+    "role": "Software Engineer",
+    "company_id": "co_496aca80e4d8",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_be1c5efb90ac",
+    "name": "Alfred Wahlforss",
+    "role": "Founder/CEO",
+    "company_id": "co_720d7b20a013",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_877f81dca018",
+    "name": "Romani Patel",
+    "role": "Senior Research Manager",
+    "company_id": "co_720d7b20a013",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_0a50c33d850d",
+    "name": "Gabrielli Tiburi",
+    "role": "Assistant Manager of Customer Insights",
+    "company_id": "co_720d7b20a013",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_ec36ed458ed6",
+    "name": "Parker Harris",
+    "role": "Salesforce co-founder and Slack chief technology officer",
+    "company_id": "co_3ccbd9105a45",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_02cff2d9626a",
+    "name": "Marc Benioff",
+    "role": "Salesforce CEO",
+    "company_id": "co_3ccbd9105a45",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_82d9634bcb68",
+    "name": "Ryan Gavin",
+    "role": "Slack chief marketing officer",
+    "company_id": "co_3ccbd9105a45",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_22f08ac5dfce",
+    "name": "Kate Crotty",
+    "role": "Principal UX researcher at Salesforce",
+    "company_id": "co_3ccbd9105a45",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_7ca5a087ccbf",
+    "name": "Amy Bauer",
+    "role": "Slack product experience designer",
+    "company_id": "co_3ccbd9105a45",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_d1278d327f58",
+    "name": "Boris Cherny",
+    "role": "Engineer",
+    "company_id": "co_c70eca6b0f88",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_91eda6dae64b",
+    "name": "Felix Rieseberg",
+    "role": "Employee",
+    "company_id": "co_c70eca6b0f88",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_559892406d8a",
+    "name": "Joe Li",
+    "role": "researcher in residence at Nous Research, former competitive programmer",
+    "company_id": "co_3eee4f30151d",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_6c95a225a418",
+    "name": "Jaana Dogan",
+    "role": "principal engineer at Google responsible for Gemini API",
+    "company_id": "co_3eee4f30151d",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_b287c2c90b53",
+    "name": "Daniela Amodei",
+    "role": "President of Anthropic",
+    "company_id": "co_c70eca6b0f88",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_c545091d983b",
+    "name": "Jeff Tang",
+    "role": "Developer Community Voice",
+    "company_id": "co_c70eca6b0f88",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_8799212232d6",
+    "name": "Kyle McNease",
+    "role": "Industry Observer",
+    "company_id": "co_c70eca6b0f88",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_3f0b6a8b3398",
+    "name": "Aakash Gupta",
+    "role": "Product Leader",
+    "company_id": "co_c70eca6b0f88",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_9350e2f8e29d",
+    "name": "R\u00e9mi Said",
+    "role": "General Partner",
+    "company_id": "co_4d84920de3b7",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_d412f28ec9c3",
+    "name": "Arnaud Minvielle",
+    "role": "General Partner",
+    "company_id": "co_4d84920de3b7",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_7bf354a93c1f",
+    "name": "Liz Kendall",
+    "role": "Technology Secretary and Chancellor",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_a98c65927b02",
+    "name": "Theresa Loconsolo",
+    "role": "author",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": null
+  },
+  {
+    "id": "per_6a563732c174",
+    "name": "Peter Diamandis",
+    "role": "Founder",
+    "company_id": "co_1fce355b00c3",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_d59cd4615cf2",
+    "name": "Slava Blazer",
+    "role": "Photographer",
+    "company_id": "co_5bf2a470ee1e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": null
+  },
+  {
+    "id": "per_c05405a32278",
+    "name": "Les-leigh A",
+    "role": "article author",
+    "company_id": "co_cbc62794",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_ee6efd8ef95b",
+    "name": "Gr\u00e9goire Vigroux",
+    "role": "Co-founder and CCO",
+    "company_id": "co_54584beb2193",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_57fa100ae6da",
+    "name": "Jasseem Allybokus",
+    "role": "Co-founder and CEO",
+    "company_id": "co_54584beb2193",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_0a68483d3c1c",
+    "name": "Matei Dumitrescu",
+    "role": "Venture Partner at Fil Rouge Capital",
+    "company_id": "co_54584beb2193",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_e9d6f4ab256f",
+    "name": "Kari Briski",
+    "role": "VP of Generative AI Software",
+    "company_id": "co_8d4321d9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_500595c57d7d",
+    "name": "Anders Beck",
+    "role": "VP of AI Robotics Products",
+    "company_id": "co_951262cb32f9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_79d5bc942473",
+    "name": "Ben Levin",
+    "role": "General Manager, Physical AI",
+    "company_id": "co_951262cb32f9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_24255a53f1dc",
+    "name": "Pete Florence",
+    "role": "Founder, Generalist AI; Former Senior Research Scientist at Google DeepMind",
+    "company_id": "co_951262cb32f9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_be2b562ddeae",
+    "name": "Andy Zeng",
+    "role": "Co-founder, Generalist AI; Former DeepMind/MIT researcher",
+    "company_id": "co_951262cb32f9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_8e2c13c53bc2",
+    "name": "Andy Barry",
+    "role": "Co-founder, Generalist AI; Former DeepMind/MIT researcher",
+    "company_id": "co_951262cb32f9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_001a60168947",
+    "name": "Josh Payne",
+    "role": "CEO",
+    "company_id": "co_eb6cf0bb",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_cb02447e6f7d",
+    "name": "Melissa Busen",
+    "role": "Senior Vice President of Electric Power",
+    "company_id": "co_eb6cf0bb",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_264fc7b06195",
+    "name": "\u00d8yvind Eriksen",
+    "role": "CEO, Aker ASA; Board Member, Nscale",
+    "company_id": "co_eb6cf0bb",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_a23ac3bcebd4",
+    "name": "Jon Tinter",
+    "role": "President, Business Development and Ventures",
+    "company_id": "co_eb6cf0bb",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_399e4baec0a4",
+    "name": "Nico Caprez",
+    "role": "Vice President, Global AI Infrastructure Growth",
+    "company_id": "co_eb6cf0bb",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_3fd750c1ce66",
+    "name": "Alex Ilyash",
+    "role": "Founder and CEO",
+    "company_id": "co_cf83f0f98285",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_9355d997874c",
+    "name": "Volodymyr Olyanitsky",
+    "role": "Co-founder",
+    "company_id": "co_cf83f0f98285",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_53f6b69a1b30",
+    "name": "Robert Novosad",
+    "role": "Co-founder",
+    "company_id": "co_cf83f0f98285",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_ba25ea884edc",
+    "name": "Rui Escaleira",
+    "role": "Co-Founder, Alea Capital Partners",
+    "company_id": "co_cf83f0f98285",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_f5d482257c38",
+    "name": "Freddy del Barrio",
+    "role": "Founder",
+    "company_id": "co_f64556226d0b",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_72b6477c698e",
+    "name": "Jason Trindade",
+    "role": "CTO",
+    "company_id": "co_681f075b43d2",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_20f3f09021c9",
+    "name": "Michael Wallace",
+    "role": "CEO",
+    "company_id": "co_8169407379d0",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_15f9e55485c1",
+    "name": "Usman Ali",
+    "role": "Partner at Salica Investments",
+    "company_id": "co_8169407379d0",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_ea2e5209e236",
+    "name": "Dr Nicolaus Henke",
+    "role": "Angel investor, former chairman of QuantumBlack",
+    "company_id": "co_8169407379d0",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
   }
 ]
