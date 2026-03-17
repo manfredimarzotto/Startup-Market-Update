@@ -17,7 +17,7 @@
     "url": "https://techcrunch.com/feed/",
     "refresh_interval": "6h",
     "last_fetched_at": "2026-03-17T07:04:39.581779+00:00",
-    "is_active": true,
+    "is_active": false,
     "geography_tag": "US",
     "source_quality_weight": 4
   },
@@ -39,7 +39,7 @@
     "url": "https://thenordicweb.com/feed/",
     "refresh_interval": "12h",
     "last_fetched_at": "2026-03-08T12:00:00Z",
-    "is_active": true,
+    "is_active": false,
     "geography_tag": "Nordics",
     "source_quality_weight": 3
   },
@@ -138,7 +138,7 @@
     "url": "https://startup-insider.com/feed/",
     "refresh_interval": "12h",
     "last_fetched_at": null,
-    "is_active": true,
+    "is_active": false,
     "geography_tag": "DACH",
     "source_quality_weight": 3
   },
@@ -160,7 +160,7 @@
     "url": "https://nordicstartupnews.com/feed/",
     "refresh_interval": "12h",
     "last_fetched_at": null,
-    "is_active": true,
+    "is_active": false,
     "geography_tag": "Nordics",
     "source_quality_weight": 2
   },
@@ -171,7 +171,7 @@
     "url": "https://www.businessinsider.de/gruenderszene/feed/",
     "refresh_interval": "12h",
     "last_fetched_at": null,
-    "is_active": true,
+    "is_active": false,
     "geography_tag": "DACH",
     "source_quality_weight": 2
   },
@@ -180,6 +180,28 @@
     "name": "Scaling Europe",
     "type": "rss",
     "url": "https://scaling-europe.beehiiv.com/feed",
+    "refresh_interval": "12h",
+    "last_fetched_at": null,
+    "is_active": true,
+    "geography_tag": "Europe",
+    "source_quality_weight": 3
+  },
+  {
+    "id": "src_018",
+    "name": "TechRound",
+    "type": "rss",
+    "url": "https://techround.co.uk/feed/",
+    "refresh_interval": "12h",
+    "last_fetched_at": null,
+    "is_active": true,
+    "geography_tag": "UK",
+    "source_quality_weight": 2
+  },
+  {
+    "id": "src_019",
+    "name": "TNW",
+    "type": "rss",
+    "url": "https://thenextweb.com/latest/feed",
     "refresh_interval": "12h",
     "last_fetched_at": null,
     "is_active": true,
