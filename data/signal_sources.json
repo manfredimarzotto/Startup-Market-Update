@@ -7,7 +7,8 @@
     "refresh_interval": "6h",
     "last_fetched_at": "2026-03-17T07:04:39.581779+00:00",
     "is_active": true,
-    "geography_tag": "Europe"
+    "geography_tag": "Europe",
+    "source_quality_weight": 4
   },
   {
     "id": "src_002",
@@ -17,7 +18,8 @@
     "refresh_interval": "6h",
     "last_fetched_at": "2026-03-17T07:04:39.581779+00:00",
     "is_active": true,
-    "geography_tag": "US"
+    "geography_tag": "US",
+    "source_quality_weight": 4
   },
   {
     "id": "src_003",
@@ -27,17 +29,19 @@
     "refresh_interval": "12h",
     "last_fetched_at": "2026-03-17T07:04:39.581779+00:00",
     "is_active": true,
-    "geography_tag": "Europe"
+    "geography_tag": "Europe",
+    "source_quality_weight": 3
   },
   {
     "id": "src_004",
     "name": "The Nordic Web",
-    "type": "scrape",
-    "url": "https://thenordicweb.com",
-    "refresh_interval": "24h",
+    "type": "rss",
+    "url": "https://thenordicweb.com/feed/",
+    "refresh_interval": "12h",
     "last_fetched_at": "2026-03-08T12:00:00Z",
-    "is_active": false,
-    "geography_tag": "Nordics"
+    "is_active": true,
+    "geography_tag": "Nordics",
+    "source_quality_weight": 3
   },
   {
     "id": "src_005",
@@ -47,7 +51,8 @@
     "refresh_interval": "12h",
     "last_fetched_at": "2026-03-17T07:04:39.581779+00:00",
     "is_active": true,
-    "geography_tag": "Europe"
+    "geography_tag": "Europe",
+    "source_quality_weight": 4
   },
   {
     "id": "src_006",
@@ -57,17 +62,19 @@
     "refresh_interval": "6h",
     "last_fetched_at": "2026-03-17T07:04:39.581779+00:00",
     "is_active": true,
-    "geography_tag": "US"
+    "geography_tag": "US",
+    "source_quality_weight": 4
   },
   {
     "id": "src_007",
-    "name": "VentureBeat",
+    "name": "VentureBeat AI",
     "type": "rss",
-    "url": "https://venturebeat.com/feed/",
+    "url": "https://venturebeat.com/category/ai/feed/",
     "refresh_interval": "6h",
     "last_fetched_at": "2026-03-17T07:04:39.581779+00:00",
     "is_active": true,
-    "geography_tag": "US"
+    "geography_tag": "US",
+    "source_quality_weight": 3
   },
   {
     "id": "src_008",
@@ -77,7 +84,8 @@
     "refresh_interval": "12h",
     "last_fetched_at": "2026-03-17T07:04:39.581779+00:00",
     "is_active": true,
-    "geography_tag": "Europe"
+    "geography_tag": "Europe",
+    "source_quality_weight": 3
   },
   {
     "id": "src_009",
@@ -87,7 +95,8 @@
     "refresh_interval": "12h",
     "last_fetched_at": "2026-03-17T07:04:39.581779+00:00",
     "is_active": true,
-    "geography_tag": "Nordics"
+    "geography_tag": "Nordics",
+    "source_quality_weight": 3
   },
   {
     "id": "src_010",
@@ -97,6 +106,73 @@
     "refresh_interval": "12h",
     "last_fetched_at": "2026-03-17T07:04:39.581779+00:00",
     "is_active": true,
-    "geography_tag": "UK"
+    "geography_tag": "UK",
+    "source_quality_weight": 2
+  },
+  {
+    "id": "src_011",
+    "name": "TechCrunch Venture",
+    "type": "rss",
+    "url": "https://techcrunch.com/category/venture/feed/",
+    "refresh_interval": "6h",
+    "last_fetched_at": null,
+    "is_active": true,
+    "geography_tag": "US",
+    "source_quality_weight": 4
+  },
+  {
+    "id": "src_012",
+    "name": "deutsche-startups.de",
+    "type": "rss",
+    "url": "https://www.deutsche-startups.de/feed/",
+    "refresh_interval": "12h",
+    "last_fetched_at": null,
+    "is_active": true,
+    "geography_tag": "DACH",
+    "source_quality_weight": 3
+  },
+  {
+    "id": "src_013",
+    "name": "Startup Insider",
+    "type": "rss",
+    "url": "https://startup-insider.com/feed/",
+    "refresh_interval": "12h",
+    "last_fetched_at": null,
+    "is_active": true,
+    "geography_tag": "DACH",
+    "source_quality_weight": 3
+  },
+  {
+    "id": "src_014",
+    "name": "Silicon Canals",
+    "type": "rss",
+    "url": "https://siliconcanals.com/feed/",
+    "refresh_interval": "12h",
+    "last_fetched_at": null,
+    "is_active": true,
+    "geography_tag": "Europe",
+    "source_quality_weight": 2
+  },
+  {
+    "id": "src_015",
+    "name": "NordicStartupNews",
+    "type": "rss",
+    "url": "https://nordicstartupnews.com/feed/",
+    "refresh_interval": "12h",
+    "last_fetched_at": null,
+    "is_active": true,
+    "geography_tag": "Nordics",
+    "source_quality_weight": 2
+  },
+  {
+    "id": "src_016",
+    "name": "Gründerszene",
+    "type": "rss",
+    "url": "https://www.businessinsider.de/gruenderszene/feed/",
+    "refresh_interval": "12h",
+    "last_fetched_at": null,
+    "is_active": true,
+    "geography_tag": "DACH",
+    "source_quality_weight": 2
   }
 ]

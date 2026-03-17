@@ -204,6 +204,8 @@ def _extract_signal_with_usage(candidate, client):
         "source_url": url,
         "source_id": candidate.get("source_id", ""),
         "source_name": candidate.get("source_name", ""),
+        "source_domain": candidate.get("source_domain", ""),
+        "source_quality_weight": candidate.get("source_quality_weight", 2),
         "signal_type": data.get("signal_type", "media_mention"),
         "signal_tier": data.get("signal_tier", "tier_3_weak"),
         "headline": data.get("headline", candidate.get("title", "")),

@@ -4,8 +4,10 @@ import hashlib
 import json
 import logging
 import re
+import socket
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 
 import feedparser
 
@@ -30,6 +32,10 @@ SIGNAL_KEYWORDS = [
     r"\bipo\b", r"\bpublic\b", r"\blist(ing|ed)\b", r"\bexit\b",
     # Product
     r"\bproduct\b", r"\bplatform\b", r"\bsdk\b", r"\bapi\b",
+    # German-language signals (DACH feeds)
+    r"\bfinanzierung\w*\b", r"\bmillionen\b", r"\binvestor\w*\b",
+    r"\bübernahme\b", r"\bserie [a-f]\b", r"\bgründer\w*\b",
+    r"\bwachstum\b", r"\bstart-?up\b",
 ]
 
 KEYWORD_PATTERN = re.compile("|".join(SIGNAL_KEYWORDS), re.IGNORECASE)
@@ -76,20 +82,32 @@ def parse_feed_date(entry):
     return datetime.now(timezone.utc).isoformat()
 
 
+FEED_TIMEOUT_SECONDS = 10
+
+
 def fetch_feed(source):
     """Fetch and parse a single RSS feed, returning candidate signals."""
     url = source.get("url", "")
     source_id = source.get("id", "")
     source_name = source.get("name", "")
     geo_tag = source.get("geography_tag", "")
+    quality_weight = source.get("source_quality_weight", 2)
+    source_domain = urlparse(url).netloc.removeprefix("www.")
 
     logger.info("Fetching feed: %s (%s)", source_name, url)
 
+    old_timeout = socket.getdefaulttimeout()
     try:
-        feed = feedparser.parse(url)
+        socket.setdefaulttimeout(FEED_TIMEOUT_SECONDS)
+        feed = feedparser.parse(
+            url,
+            request_headers={"User-Agent": "NordicSignalIntelligence/1.0"},
+        )
     except Exception as e:
         logger.error("Failed to parse feed %s: %s", url, e)
         return []
+    finally:
+        socket.setdefaulttimeout(old_timeout)
 
     if feed.bozo and not feed.entries:
         logger.warning("Feed %s returned no entries (bozo: %s)", url, feed.bozo_exception)
@@ -116,6 +134,8 @@ def fetch_feed(source):
             "published_at": parse_feed_date(entry),
             "source_id": source_id,
             "source_name": source_name,
+            "source_domain": source_domain,
+            "source_quality_weight": quality_weight,
             "geography": geo_tag,
         })
 
