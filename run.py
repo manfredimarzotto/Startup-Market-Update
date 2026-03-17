@@ -83,7 +83,14 @@ def run_pipeline():
     _save_json("people.json", people)
     _save_json("opportunities.json", opportunities)
 
-    # Step 7: Build dashboard
+    # Step 7: Validate score consistency
+    logger.info("=== Step 7: Validating scores ===")
+    from pipeline.validate import validate
+    warnings = validate()
+    for w in warnings:
+        logger.warning("Validation: %s", w)
+
+    # Step 8: Build dashboard
     _rebuild_dashboard()
 
     logger.info("=== Pipeline complete ===")

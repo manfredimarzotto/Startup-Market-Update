@@ -26,6 +26,7 @@ EUROPEAN_COUNTRY_CODES = {
 
 EXTRACTION_PROMPT = """\
 You are a market intelligence analyst. Extract structured signal data from this article.
+The article may be in English, German, or another European language — extract all fields in English regardless of the article language.
 
 Article title: {title}
 Source: {source_name}
@@ -37,6 +38,7 @@ Article text:
 ---
 
 Extract the following as JSON. If a field is unknown, use null.
+All output field values must be in English (translate if the article is in another language).
 Return ONLY valid JSON, no markdown fences or explanation.
 
 {{
