@@ -108,6 +108,17 @@ export function useFilters(opportunities, lookups, getStatus) {
           return bMax - aMax;
         });
         break;
+      case 'funding_recent': {
+        const fundingTypes = ['funding_round', 'new_fund'];
+        results.sort((a, b) => {
+          const aFunding = a.oppSignals.filter(s => fundingTypes.includes(s.signal_type));
+          const bFunding = b.oppSignals.filter(s => fundingTypes.includes(s.signal_type));
+          const aMax = aFunding.length > 0 ? Math.max(...aFunding.map(s => new Date(s.published_at).getTime())) : 0;
+          const bMax = bFunding.length > 0 ? Math.max(...bFunding.map(s => new Date(s.published_at).getTime())) : 0;
+          return bMax - aMax;
+        });
+        break;
+      }
       default:
         results.sort((a, b) => b.opportunity_score - a.opportunity_score);
     }
