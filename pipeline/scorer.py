@@ -260,20 +260,26 @@ def _compute_momentum(recent_sigs):
 def _compute_sources(recent_sigs):
     """Sources (0-25): independent source count × quality weight.
 
-    1 source → 3-5, 2 sources → 8-10, 3 → 13-15, 4 → 18-20, 5+ → 25.
-    Quality weight: tier_1=5, tier_2=4, tier_3=3.
+    Uses source_quality_weight from feed config (2-4 per source).
+    Falls back to tier-based weight if source_quality_weight not present.
+    Counts unique source feeds (source_id), not unique article URLs.
+    1 source → 2-4, 2 sources → 4-8, 3 → 6-12, etc. Capped at 25.
     """
     if not recent_sigs:
         return 0
-    # Count unique source URLs as independent sources
-    source_urls = set()
+    # Count unique feeds (source_id) as independent sources
+    seen_sources = set()
     quality_sum = 0
+    tier_fallback = {"tier_1_strong": 5, "tier_2_medium": 4, "tier_3_weak": 3}
     for s in recent_sigs:
-        url = s.get("source_url", "")
-        if url and url not in source_urls:
-            source_urls.add(url)
-            tier = s.get("signal_tier", "tier_3_weak")
-            quality_sum += {"tier_1_strong": 5, "tier_2_medium": 4, "tier_3_weak": 3}.get(tier, 3)
+        source_id = s.get("source_id", s.get("source_url", ""))
+        if not source_id or source_id in seen_sources:
+            continue
+        seen_sources.add(source_id)
+        weight = s.get("source_quality_weight")
+        if weight is None:
+            weight = tier_fallback.get(s.get("signal_tier", "tier_3_weak"), 3)
+        quality_sum += weight
     return min(25, quality_sum)
 
 
