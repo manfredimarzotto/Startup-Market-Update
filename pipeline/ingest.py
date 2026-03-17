@@ -6,8 +6,9 @@ import logging
 import re
 import socket
 from datetime import datetime, timezone
+from difflib import SequenceMatcher
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import parse_qs, urlencode, urlparse, urlunparse
 
 import feedparser
 
@@ -82,7 +83,48 @@ def parse_feed_date(entry):
     return datetime.now(timezone.utc).isoformat()
 
 
+# Tracking parameters to strip during URL normalization
+_TRACKING_PARAMS = {"utm_source", "utm_medium", "utm_campaign", "utm_term",
+                    "utm_content", "ref", "source", "fbclid", "gclid"}
+
+TITLE_SIMILARITY_THRESHOLD = 0.85
+
 FEED_TIMEOUT_SECONDS = 10
+
+
+def normalize_url(url):
+    """Normalize URL for deduplication: strip tracking params, trailing slash, lowercase host."""
+    parsed = urlparse(url)
+    # Strip tracking query params
+    params = parse_qs(parsed.query, keep_blank_values=False)
+    cleaned = {k: v for k, v in params.items() if k.lower() not in _TRACKING_PARAMS}
+    clean_query = urlencode(cleaned, doseq=True)
+    # Lowercase scheme + host, strip trailing slash from path
+    path = parsed.path.rstrip("/") or "/"
+    return urlunparse((
+        parsed.scheme.lower(),
+        parsed.netloc.lower(),
+        path,
+        parsed.params,
+        clean_query,
+        "",  # drop fragment
+    ))
+
+
+def _normalize_title(title):
+    """Lowercase, strip punctuation for fuzzy title comparison."""
+    return re.sub(r"[^\w\s]", "", title.lower()).strip()
+
+
+def _title_is_duplicate(title, seen_titles):
+    """Check if title is near-duplicate of any seen title."""
+    norm = _normalize_title(title)
+    if not norm:
+        return False
+    for seen in seen_titles:
+        if SequenceMatcher(None, norm, seen).ratio() >= TITLE_SIMILARITY_THRESHOLD:
+            return True
+    return False
 
 
 def fetch_feed(source):
@@ -150,19 +192,31 @@ def ingest_all():
     active = [s for s in sources if s.get("is_active") and s.get("type") == "rss"]
 
     existing_signals = load_existing_signals()
-    existing_urls = {s.get("source_url") for s in existing_signals}
+    existing_urls = {normalize_url(s.get("source_url", "")) for s in existing_signals}
 
     all_candidates = []
     seen_urls = set()
+    seen_titles = []
+    dupes_dropped = 0
 
     for source in active:
         candidates = fetch_feed(source)
         for c in candidates:
-            url = c["url"]
-            if url in existing_urls or url in seen_urls:
+            norm_url = normalize_url(c["url"])
+            if norm_url in existing_urls or norm_url in seen_urls:
+                dupes_dropped += 1
                 continue
-            seen_urls.add(url)
+            # Title similarity check across feeds
+            if _title_is_duplicate(c["title"], seen_titles):
+                logger.debug("Title duplicate dropped: %s", c["title"])
+                dupes_dropped += 1
+                continue
+            seen_urls.add(norm_url)
+            seen_titles.append(_normalize_title(c["title"]))
             all_candidates.append(c)
+
+    if dupes_dropped:
+        logger.info("Dropped %d cross-feed duplicates", dupes_dropped)
 
     # Update last_fetched_at on sources
     now = datetime.now(timezone.utc).isoformat()
