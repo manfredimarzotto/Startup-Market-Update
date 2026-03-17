@@ -207,7 +207,6 @@ def _extract_signal_with_usage(candidate, client):
         "signal_type": data.get("signal_type", "media_mention"),
         "signal_tier": data.get("signal_tier", "tier_3_weak"),
         "headline": data.get("headline", candidate.get("title", "")),
-        "raw_text": "",
         "published_at": candidate.get("published_at", ""),
         "ingested_at": datetime.now(timezone.utc).isoformat(),
         "geography": data.get("geography", candidate.get("geography", "")),

@@ -1,5 +1,6 @@
 import { useState, useMemo, useCallback } from 'react';
 import { daysSince, enrichOpportunity, SIGNAL_TYPE_GROUPS, GEO_MAP } from './useData';
+import { deriveFit } from '../components/shared';
 
 const DEFAULT_FILTERS = {
   entityTypes: ['company', 'investor', 'person'],
@@ -11,12 +12,6 @@ const DEFAULT_FILTERS = {
   sort: 'score_desc',
   fit: 'all',
 };
-
-function deriveFit(score) {
-  if (score >= 75) return 'high';
-  if (score >= 50) return 'medium';
-  return 'low';
-}
 
 export function useFilters(opportunities, lookups, getStatus) {
   const [filters, setFilters] = useState(DEFAULT_FILTERS);

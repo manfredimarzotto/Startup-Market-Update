@@ -237,7 +237,6 @@ export default function App() {
           <span style={{ width: 1, height: 14, background: 'rgba(255,255,255,0.15)' }} />
           {[
             { label: 'Mark viewed', action: () => { selected.forEach(id => setStatus(id, 'viewed')); setSelected(new Set()); } },
-            { label: 'Assign to me', action: () => { /* placeholder — no owner model yet */ } },
             { label: 'Export', action: () => {
               const rows = filteredOpportunities.filter(o => selected.has(o.id));
               const csv = ['Name,Score,Status,Type'].concat(
