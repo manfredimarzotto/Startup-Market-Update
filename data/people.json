@@ -618,5 +618,195 @@
     "linkedin_url": "",
     "email_guess": "",
     "relevance_tag": "founder"
+  },
+  {
+    "id": "per_b787cb79c3f8",
+    "name": "Paul Atkins",
+    "role": "SEC Chairman",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_08682370eb8a",
+    "name": "Donald Trump",
+    "role": "President",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_d22d0a495c7b",
+    "name": "Daniel Balakov",
+    "role": "photographer",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_84b98dca4f8e",
+    "name": "Jez",
+    "role": null,
+    "company_id": "co_835fb9db4493",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_b217333fa4e7",
+    "name": "Andries van der Leij",
+    "role": "co-founder and CTO",
+    "company_id": "co_601934fd3bd1",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_c80dd7193e85",
+    "name": "Dario Amodei",
+    "role": "Chief Executive",
+    "company_id": "co_8d4321d9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_e4b58726ba65",
+    "name": "Ian Buck",
+    "role": "Vice President of Hyperscale and High-Performance Computing",
+    "company_id": "co_8d4321d9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_416b003cbb3a",
+    "name": "Michael Nu\u00f1ez",
+    "role": "Author",
+    "company_id": "co_8d4321d9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_792c2d4e132e",
+    "name": "Zhang Peng",
+    "role": "CEO",
+    "company_id": "co_f7a386a451b7",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_c2cc32b521a4",
+    "name": "Louis Columbus",
+    "role": "Author",
+    "company_id": "co_96a4bc260265",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_818b7ae03dbf",
+    "name": "Peter Steinberger",
+    "role": "Founder",
+    "company_id": "co_96a4bc260265",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_d7c42712078b",
+    "name": "Jamieson O'Reilly",
+    "role": "Security Adviser",
+    "company_id": "co_96a4bc260265",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_6de4624674ca",
+    "name": "Simon Willison",
+    "role": "Security Researcher",
+    "company_id": "co_96a4bc260265",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_396e59497dcb",
+    "name": "Sailesh Mishra",
+    "role": "Researcher at Palo Alto Networks",
+    "company_id": "co_96a4bc260265",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_988dee415eab",
+    "name": "Sean P. Morgan",
+    "role": "Researcher at Palo Alto Networks",
+    "company_id": "co_96a4bc260265",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_188a06f3998c",
+    "name": "Shantanu Narayen",
+    "role": "Chair and CEO",
+    "company_id": "co_8d4321d9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_ee58a93e44d1",
+    "name": "Tim Jurka",
+    "role": "Vice President of Engineering",
+    "company_id": "co_84308bea4540",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_596df776b3b6",
+    "name": "Emilia David",
+    "role": "Author",
+    "company_id": "co_84308bea4540",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_2878915dad19",
+    "name": "Vinted co-founder",
+    "role": "investor",
+    "company_id": "co_57b52b07ad0b",
+    "investor_id": null,
+    "linkedin_url": "",
+    "email_guess": "",
+    "relevance_tag": "partner"
   }
 ]

@@ -4129,5 +4129,906 @@
       "amount_raw": "\u00a363m",
       "currency": "GBP"
     }
+  },
+  {
+    "id": "sig_150a12ce190f58ff",
+    "source_url": "https://techcrunch.com/2026/03/16/picsart-now-allows-creators-to-hire-ai-assistants-through-agent-marketplace/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "product_launch",
+    "signal_tier": "tier_2_medium",
+    "headline": "Picsart launches AI agent marketplace allowing creators to hire AI assistants",
+    "raw_text": "",
+    "published_at": "2026-03-17T04:01:00+00:00",
+    "ingested_at": "2026-03-17T07:06:11.310721+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_ea57c062c647"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_2ac3e3a8"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_030f9a19a9689709",
+    "source_url": "https://techcrunch.com/2026/03/16/sec-eyes-shift-to-twice-yearly-earnings-reports/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "SEC proposes shift from quarterly to semiannual earnings reporting for public companies",
+    "raw_text": "",
+    "published_at": "2026-03-17T00:27:10+00:00",
+    "ingested_at": "2026-03-17T07:06:12.986812+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.65,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_b787cb79c3f8",
+      "per_08682370eb8a",
+      "per_64c46dff"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_3ea80dfdb60ad1f1",
+    "source_url": "https://techcrunch.com/2026/03/16/nvidias-version-of-openclaw-could-solve-its-biggest-problem-security/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "product_launch",
+    "signal_tier": "tier_2_medium",
+    "headline": "Nvidia develops security-focused version of OpenClaw to address security vulnerabilities",
+    "raw_text": "",
+    "published_at": "2026-03-16T22:45:51+00:00",
+    "ingested_at": "2026-03-17T07:06:14.491889+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.45,
+    "company_ids": [
+      "co_8d4321d9"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_a083c07d"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_3907cc7b507a2044",
+    "source_url": "https://techcrunch.com/2026/03/16/samsung-bets-this-island-startup-can-tame-the-grid-with-software-and-batteries/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "partnership",
+    "signal_tier": "tier_2_medium",
+    "headline": "Samsung partners with island startup on grid management using software and batteries",
+    "raw_text": "",
+    "published_at": "2026-03-16T20:00:00+00:00",
+    "ingested_at": "2026-03-17T07:06:16.174128+00:00",
+    "geography": "Asia",
+    "country": "",
+    "ai_confidence": 0.45,
+    "company_ids": [],
+    "investor_ids": [
+      "inv_968e2d5b0868"
+    ],
+    "person_ids": [
+      "per_3d12d204",
+      "per_d22d0a495c7b"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_106dc5b1ac18d34e",
+    "source_url": "https://techcrunch.com/2026/03/16/apple-acquires-video-editing-software-company-motionvfx/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Apple acquires video editing software company MotionVFX",
+    "raw_text": "",
+    "published_at": "2026-03-16T19:23:44+00:00",
+    "ingested_at": "2026-03-17T07:06:17.527217+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_940844f31e45"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_ee72f68f"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_d23c71e9604b020a",
+    "source_url": "https://techcrunch.com/2026/03/16/nvidia-gtc-how-to-watch-jensen-huang-2026-keynote/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "TechCrunch covers Jensen Huang's Nvidia GTC 2026 keynote announcement",
+    "raw_text": "",
+    "published_at": "2026-03-16T17:51:46+00:00",
+    "ingested_at": "2026-03-17T07:06:19.140564+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.15,
+    "company_ids": [
+      "co_8d4321d9"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_ecd7b976",
+      "per_a083c07d"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_b0b32fb379c27861",
+    "source_url": "https://techcrunch.com/2026/03/16/another-deep-tech-chip-startup-becomes-a-unicorn-frore-hits-1-64b/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Frore Systems raises $143M Series D at $1.64B valuation for AI chip liquid-cooling systems",
+    "raw_text": "",
+    "published_at": "2026-03-16T17:47:32+00:00",
+    "ingested_at": "2026-03-17T07:06:21.887444+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_422b689c08ca"
+    ],
+    "investor_ids": [
+      "inv_2913575dfc72",
+      "inv_f611beab4643",
+      "inv_a48b5ad10be7",
+      "inv_77f930e4b1a5",
+      "inv_2ef2ee8a98b5",
+      "inv_66fd3bccc80d"
+    ],
+    "person_ids": [
+      "per_ecd7b976"
+    ],
+    "metadata": {
+      "amount_usd": 143000000,
+      "amount_raw": "$143M",
+      "round_stage": "Series D",
+      "currency": "USD",
+      "valuation": 1640000000
+    }
+  },
+  {
+    "id": "sig_e88b20bdcf4c019e",
+    "source_url": "https://techcrunch.com/2026/03/16/fuse-raises-25m-to-disrupt-aging-loan-origination-systems-used-by-u-s-credit-unions/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Fuse raises $25M to disrupt aging loan origination systems for US credit unions",
+    "raw_text": "",
+    "published_at": "2026-03-16T17:43:27+00:00",
+    "ingested_at": "2026-03-17T07:06:23.419041+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_125c521a95b2"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_09ff1c2c"
+    ],
+    "metadata": {
+      "amount_usd": 25000000,
+      "amount_raw": "$25M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_dfeb2333b7e35c64",
+    "source_url": "https://techcrunch.com/2026/03/16/apple-quietly-launches-airpods-max-2/",
+    "source_id": "src_002",
+    "source_name": "TechCrunch RSS",
+    "signal_type": "product_launch",
+    "signal_tier": "tier_2_medium",
+    "headline": "Apple quietly launches AirPods Max 2",
+    "raw_text": "",
+    "published_at": "2026-03-16T14:12:50+00:00",
+    "ingested_at": "2026-03-17T07:06:24.800694+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_3a7bd3e2360a"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_ee72f68f"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_2a749c7fc42bffa7",
+    "source_url": "https://www.eu-startups.com/2026/03/londons-first-concepts-raises-e871k-to-build-taste-aware-ai-operating-system-for-creative-agencies/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "First Concepts raises \u20ac871.7k pre-Seed for taste-aware AI operating system for creative agencies",
+    "raw_text": "",
+    "published_at": "2026-03-17T06:15:47+00:00",
+    "ingested_at": "2026-03-17T07:06:26.497107+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_835fb9db4493"
+    ],
+    "investor_ids": [
+      "inv_fb214eb96308",
+      "inv_785ee58e52ac"
+    ],
+    "person_ids": [
+      "per_84b98dca4f8e"
+    ],
+    "metadata": {
+      "amount_usd": 1000000,
+      "amount_raw": "\u20ac871.7k ($1 million)",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_c4b607eaa648e6cc",
+    "source_url": "https://www.eu-startups.com/2026/03/madrids-webel-closes-e4-3-million-pre-series-a-round-to-evolve-into-a-home-services-super-app-across-europe/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Webel raises \u20ac4.3M pre-Series A to expand home services super app across Europe",
+    "raw_text": "",
+    "published_at": "2026-03-17T04:48:19+00:00",
+    "ingested_at": "2026-03-17T07:06:28.277077+00:00",
+    "geography": "Southern Europe",
+    "country": "ES",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_57b52b07ad0b"
+    ],
+    "investor_ids": [
+      "inv_ae4834bb0429",
+      "inv_b090ac3b422a",
+      "inv_2cb9dd97d89f"
+    ],
+    "person_ids": [
+      "per_e8486bdef806"
+    ],
+    "metadata": {
+      "amount_usd": 4700000,
+      "amount_raw": "\u20ac4.3 million",
+      "round_stage": "pre-Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_29617377f093a0ea",
+    "source_url": "https://www.eu-startups.com/2026/03/why-malta-is-a-great-launchpad-for-startups-and-investors-from-across-europe-and-beyond/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Malta positioned as emerging startup and venture capital hub for European entrepreneurs",
+    "raw_text": "",
+    "published_at": "2026-03-16T17:31:21+00:00",
+    "ingested_at": "2026-03-17T07:06:29.521234+00:00",
+    "geography": "Southern Europe",
+    "country": "Other",
+    "ai_confidence": 0.35,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_e6ccfab9fefa4348",
+    "source_url": "https://www.eu-startups.com/2026/03/ternary-therapeutics-targets-undruggable-proteins-with-ai-designed-molecular-glues-raising-e4-1-million/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Ternary Therapeutics raises \u20ac4.1M seed funding for AI-designed molecular glue platform targeting undruggable proteins",
+    "raw_text": "",
+    "published_at": "2026-03-16T16:49:33+00:00",
+    "ingested_at": "2026-03-17T07:06:31.283049+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_c4dc4fd58f60"
+    ],
+    "investor_ids": [
+      "inv_d5f086c488af",
+      "inv_1d4c1005495e",
+      "inv_09931bf6ddb3",
+      "inv_e0a4cb5c91cb"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4500000,
+      "amount_raw": "\u20ac4.1 million",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_ef471cd09a9126bb",
+    "source_url": "https://www.eu-startups.com/2026/03/with-europe-reliant-on-foreign-critical-raw-materials-germanys-wesort-ai-raises-e10-million-to-recover-them-from-waste/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "WeSort.AI secures \u20ac10M funding for AI-powered critical raw material recovery from waste",
+    "raw_text": "",
+    "published_at": "2026-03-16T16:05:50+00:00",
+    "ingested_at": "2026-03-17T07:06:33.485581+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_f3bd303059f9"
+    ],
+    "investor_ids": [
+      "inv_0a8e3268fe79",
+      "inv_d32e2f681f11",
+      "inv_5518f7e34ff7",
+      "inv_fed368d38f30"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 10800000,
+      "amount_raw": "\u20ac10 million",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_cf4e3ddb3243269d",
+    "source_url": "https://www.eu-startups.com/2026/03/oxford-medical-simulation-secures-e5-78-million-to-tackle-healthcare-training-gap-with-virtual-reality/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Oxford Medical Simulation secures \u20ac5.78M growth funding from Salica Investments for US expansion",
+    "raw_text": "",
+    "published_at": "2026-03-16T12:01:38+00:00",
+    "ingested_at": "2026-03-17T07:06:35.061726+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_8169407379d0"
+    ],
+    "investor_ids": [
+      "inv_1dd7a5295077"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 6200000,
+      "amount_raw": "\u20ac5.78 million",
+      "round_stage": "Growth",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_1c9ae80463a7fb5a",
+    "source_url": "https://www.eu-startups.com/2026/03/tma-acquires-amsterdams-brainsfirst-to-combine-psychometrics-with-neuroscience-based-talent-insights/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "TMA acquires Amsterdam-based BrainsFirst to combine psychometrics with neuroscience-based talent insights",
+    "raw_text": "",
+    "published_at": "2026-03-16T09:35:42+00:00",
+    "ingested_at": "2026-03-17T07:06:36.610955+00:00",
+    "geography": "Benelux",
+    "country": "NL",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_601934fd3bd1"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_b217333fa4e7"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_b44c2a980e87c7f5",
+    "source_url": "https://www.eu-startups.com/2026/03/utrecht-based-scinus-secures-e3-million-to-tackle-one-of-the-biggest-challenges-in-cell-therapy/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Scinus secures \u20ac3 million strategic investment to accelerate Osilaris cell expansion platform rollout",
+    "raw_text": "",
+    "published_at": "2026-03-16T08:05:17+00:00",
+    "ingested_at": "2026-03-17T07:06:38.032869+00:00",
+    "geography": "Benelux",
+    "country": "NL",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_890be2d33355"
+    ],
+    "investor_ids": [
+      "inv_7bd609e093ee",
+      "inv_d17e0b3a3d53"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3240000,
+      "amount_raw": "\u20ac3 million",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_3d3568ef6135122b",
+    "source_url": "https://www.eu-startups.com/2026/03/weekly-funding-round-up-all-of-the-european-startup-funding-rounds-we-tracked-this-week-mar-09-13/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_3_weak",
+    "headline": "Weekly European startup funding round-up article (content restricted to members)",
+    "raw_text": "",
+    "published_at": "2026-03-13T15:28:04+00:00",
+    "ingested_at": "2026-03-17T07:06:39.340294+00:00",
+    "geography": "EU",
+    "country": "",
+    "ai_confidence": 0.2,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_e713775ebfd9779c",
+    "source_url": "https://tech.eu/2026/03/17/first-concepts-raises-1m-to-develop-ai-native-os-for-creative-work/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "First Concepts raises $1M pre-seed funding to develop AI-native OS for creative work",
+    "raw_text": "",
+    "published_at": "2026-03-17T07:00:00+00:00",
+    "ingested_at": "2026-03-17T07:06:41.422326+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_835fb9db4493"
+    ],
+    "investor_ids": [
+      "inv_fb214eb96308"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1000000,
+      "amount_raw": "$1M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_ea347460fcacdcef",
+    "source_url": "https://tech.eu/2026/03/17/tracebit-raises-20m-series-a-to-expand-cloud-native-deception-tech/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Tracebit raises $20M Series A led by FirstMark for cloud-native deception tech expansion",
+    "raw_text": "",
+    "published_at": "2026-03-17T06:30:00+00:00",
+    "ingested_at": "2026-03-17T07:06:42.936402+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_1b914288fc07"
+    ],
+    "investor_ids": [
+      "inv_c5d673cfa1ad",
+      "inv_006",
+      "inv_fad3ee0ca0fd",
+      "inv_bb10c00263e3",
+      "inv_8b9b3096bb7b"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 20000000,
+      "amount_raw": "$20M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_1dbc03ff093487dd",
+    "source_url": "https://venturebeat.com/infrastructure/nvidia-introduces-vera-rubin-a-seven-chip-ai-platform-with-openai-anthropic",
+    "source_id": "src_007",
+    "source_name": "VentureBeat",
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Nvidia launches Vera Rubin seven-chip AI platform with backing from OpenAI, Anthropic, Meta, and major cloud providers",
+    "raw_text": "",
+    "published_at": "2026-03-16T20:30:00+00:00",
+    "ingested_at": "2026-03-17T07:06:45.132995+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_8d4321d9"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_ecd7b976",
+      "per_c80dd7193e85",
+      "per_46b09b212b77"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_a21e23467b0a8396",
+    "source_url": "https://venturebeat.com/data/nvidia-bluefield-4-stx-adds-a-context-memory-layer-to-storage-to-close-the",
+    "source_id": "src_007",
+    "source_name": "VentureBeat",
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Nvidia announces BlueField-4 STX reference architecture for agentic AI storage optimization with partner ecosystem",
+    "raw_text": "",
+    "published_at": "2026-03-16T20:30:00+00:00",
+    "ingested_at": "2026-03-17T07:06:47.385371+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_8d4321d9"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_5e030667e36e",
+      "per_e4b58726ba65"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_01ecc6a09df38610",
+    "source_url": "https://venturebeat.com/infrastructure/nvidias-dgx-station-is-a-desktop-supercomputer-that-runs-trillion-parameter",
+    "source_id": "src_007",
+    "source_name": "VentureBeat",
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Nvidia launches DGX Station desktop supercomputer capable of running trillion-parameter AI models locally",
+    "raw_text": "",
+    "published_at": "2026-03-16T20:30:00+00:00",
+    "ingested_at": "2026-03-17T07:06:49.356141+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_8d4321d9"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_ecd7b976",
+      "per_416b003cbb3a"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_02ea77f645be0502",
+    "source_url": "https://venturebeat.com/technology/z-ai-debuts-faster-cheaper-glm-5-turbo-model-for-agents-and-claws-but-its",
+    "source_id": "src_007",
+    "source_name": "VentureBeat",
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Z.ai launches GLM-5-Turbo, a faster and cheaper proprietary LLM variant optimized for agent workflows",
+    "raw_text": "",
+    "published_at": "2026-03-16T19:14:00+00:00",
+    "ingested_at": "2026-03-17T07:06:51.167842+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_f7a386a451b7"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_792c2d4e132e",
+      "per_d2b7ef172833"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_8d6105ba6d0126fc",
+    "source_url": "https://venturebeat.com/security/openclaw-can-bypass-your-edr-dlp-and-iam-without-triggering-a-single-alert",
+    "source_id": "src_007",
+    "source_name": "VentureBeat",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "OpenClaw AI agent framework has three critical security gaps that bypass EDR, DLP, and IAM systems",
+    "raw_text": "",
+    "published_at": "2026-03-16T16:00:00+00:00",
+    "ingested_at": "2026-03-17T07:06:55.278811+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_96a4bc260265"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_c2cc32b521a4",
+      "per_818b7ae03dbf",
+      "per_d7c42712078b",
+      "per_6de4624674ca",
+      "per_396e59497dcb",
+      "per_988dee415eab"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_89ac719563833378",
+    "source_url": "https://venturebeat.com/technology/nvidia-launches-enterprise-ai-agent-platform-with-adobe-salesforce-sap-among",
+    "source_id": "src_007",
+    "source_name": "VentureBeat",
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Nvidia launches Agent Toolkit enterprise AI platform with 17 major software company adopters including Adobe, Salesforce, and SAP",
+    "raw_text": "",
+    "published_at": "2026-03-16T08:30:00+00:00",
+    "ingested_at": "2026-03-17T07:06:58.310150+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_8d4321d9"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_ecd7b976",
+      "per_416b003cbb3a",
+      "per_188a06f3998c"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_2cb2b864cfc34b56",
+    "source_url": "https://venturebeat.com/orchestration/how-linkedin-replaced-five-feed-retrieval-systems-with-one-llm-model-at-1-3",
+    "source_id": "src_007",
+    "source_name": "VentureBeat",
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "LinkedIn replaces five feed retrieval systems with unified LLM-based recommendation engine serving 1.3 billion users",
+    "raw_text": "",
+    "published_at": "2026-03-16T08:00:00+00:00",
+    "ingested_at": "2026-03-17T07:07:00.386709+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_84308bea4540"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_ee58a93e44d1",
+      "per_596df776b3b6"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_a5345cd5ee157cf4",
+    "source_url": "https://techfundingnews.com/blify-lands-2-1m-for-ai-learning-in-slack-and-teams/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Blify secures $2.1M pre-seed funding for AI learning platform in Slack and Teams",
+    "raw_text": "",
+    "published_at": "2026-03-17T07:00:00+00:00",
+    "ingested_at": "2026-03-17T07:07:01.994160+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_b29d993eda58"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2100000,
+      "amount_raw": "$2.1M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_8272809e2e80aec4",
+    "source_url": "https://techfundingnews.com/level-nine-4m-seed-nanozyme-catalysts-pitch-deck-europe-chemical-crisis/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Level Nine raises \u20ac4M for catalyst discovery platform described as 'Lego for catalysts'",
+    "raw_text": "",
+    "published_at": "2026-03-17T06:00:00+00:00",
+    "ingested_at": "2026-03-17T07:07:03.451556+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_84e7f404a840"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4400000,
+      "amount_raw": "\u20ac4M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_6859ecccb3203c49",
+    "source_url": "https://techfundingnews.com/wikifarmer-7-7m-ai-agrifood-marketplace-greece/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Wikifarmer raises $7.7M to accelerate AI-powered agricultural deal automation with 45-day cycle target",
+    "raw_text": "",
+    "published_at": "2026-03-17T06:00:00+00:00",
+    "ingested_at": "2026-03-17T07:07:05.163187+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_eace5111b5de"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 7700000,
+      "amount_raw": "$7.7M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_bf7f32c97e673a92",
+    "source_url": "https://techfundingnews.com/as-industrial-labour-shortages-grow-roboforce-grabs-52m-for-ai-robots/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "RoboForce secures $52M in oversubscribed funding round for industrial robotics",
+    "raw_text": "",
+    "published_at": "2026-03-17T04:30:00+00:00",
+    "ingested_at": "2026-03-17T07:07:06.523546+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_bb9781a19c26"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 52000000,
+      "amount_raw": "$52M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_a5c5bffbfeff0962",
+    "source_url": "https://techfundingnews.com/first-concepts-antler-ai-creativity-tfn/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "First Concepts raises oversubscribed $1M round for AI-powered creative agency tools",
+    "raw_text": "",
+    "published_at": "2026-03-17T00:01:00+00:00",
+    "ingested_at": "2026-03-17T07:07:08.006920+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_835fb9db4493"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1000000,
+      "amount_raw": "$1M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_74854f9cf1cfcbc0",
+    "source_url": "https://techfundingnews.com/vinted-co-founder-backs-webels-e4-3m-to-supercharge-home-services-super-app/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Vinted co-founder backs Webel's \u20ac4.3M pre-series A for home services super app",
+    "raw_text": "",
+    "published_at": "2026-03-17T00:01:00+00:00",
+    "ingested_at": "2026-03-17T07:07:09.561268+00:00",
+    "geography": "Southern Europe",
+    "country": "ES",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_57b52b07ad0b"
+    ],
+    "investor_ids": [
+      "inv_2878915dad19"
+    ],
+    "person_ids": [
+      "per_2878915dad19"
+    ],
+    "metadata": {
+      "amount_usd": 4645000,
+      "amount_raw": "\u20ac4.3M",
+      "round_stage": "Pre-Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_580fffc8610000a8",
+    "source_url": "https://techfundingnews.com/why-startups-are-rethinking-cloud-infrastructure-as-their-costs-explode/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Startups reconsidering cloud infrastructure strategies as costs rise",
+    "raw_text": "",
+    "published_at": "2026-03-16T17:30:00+00:00",
+    "ingested_at": "2026-03-17T07:07:11.207132+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_c5186e0de386309c",
+    "source_url": "https://techfundingnews.com/meta-nebius-27b-ai-cloud-deal-nvidia-rubin/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Meta and Nebius sign $27B AI cloud infrastructure deal",
+    "raw_text": "",
+    "published_at": "2026-03-16T13:56:31+00:00",
+    "ingested_at": "2026-03-17T07:07:12.389092+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ea3bd73e"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 27000000000,
+      "amount_raw": "$27B",
+      "currency": "USD"
+    }
   }
 ]
