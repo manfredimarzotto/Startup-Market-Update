@@ -6433,5 +6433,957 @@
       "amount_raw": "\u00a35M",
       "currency": "GBP"
     }
+  },
+  {
+    "id": "sig_f1c8884f5e7f924c",
+    "source_url": "https://sifted.eu/articles/alma-ceo-louis-chatriot-big-interview/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Alma CEO Louis Chatriot discusses startup challenges and criticism of venture capital hype",
+    "published_at": "2026-03-18T05:00:31+00:00",
+    "ingested_at": "2026-03-18T07:03:47.341310+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.3,
+    "company_ids": [
+      "co_cf43e029efe6"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_56abd7f540e4"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_4b4cce8408691cc7",
+    "source_url": "https://sifted.eu/articles/upvest-tencent-funding-round-fintech/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Upvest raises $125m from Tencent and Sapphire Ventures",
+    "published_at": "2026-03-17T10:27:40+00:00",
+    "ingested_at": "2026-03-18T07:03:48.826925+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_8b67990b5648"
+    ],
+    "investor_ids": [
+      "inv_9c8ae69b84f2",
+      "inv_e6cffe4c9b75"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 125000000,
+      "amount_raw": "$125m",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_0472d730518ddff2",
+    "source_url": "https://tech.eu/2026/03/17/agent-debugging-startup-laminar-raises-3m-seed-to-tackle-the-observability-gap-in-ai-agents/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Agent debugging startup Laminar raises $3M seed round led by Atlantic.vc",
+    "published_at": "2026-03-17T16:12:55+00:00",
+    "ingested_at": "2026-03-18T07:03:50.687976+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_165a8c72f498"
+    ],
+    "investor_ids": [
+      "inv_f4cc76d04f0c",
+      "inv_813e17f2598e",
+      "inv_c9ea01146f18"
+    ],
+    "person_ids": [
+      "per_e1baca334e2e",
+      "per_8bae003feed6"
+    ],
+    "metadata": {
+      "amount_usd": 3000000,
+      "amount_raw": "$3M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_af086b86d3b69213",
+    "source_url": "https://tech.eu/2026/03/17/young-bug-bounty-hunter-bags-6m-pre-seed-round-for-security-startup/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "French cybersecurity startup founded by 23-year-old bug bounty hunter raises $6M pre-seed",
+    "published_at": "2026-03-17T16:00:00+00:00",
+    "ingested_at": "2026-03-18T07:03:53.692708+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.85,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 6000000,
+      "amount_raw": "$6M",
+      "round_stage": "Pre-Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_3ea9e0ed60544ebf",
+    "source_url": "https://tech.eu/2026/03/17/workflex-secures-spectrum-equity-backing-to-automate-cross-border-workforce-compliance/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "WorkFlex raises \u20ac37M to automate cross-border workforce compliance",
+    "published_at": "2026-03-17T15:34:00+00:00",
+    "ingested_at": "2026-03-18T07:03:55.372823+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_54c9aef383f0"
+    ],
+    "investor_ids": [
+      "inv_1fd6202c9bb3"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 40700000,
+      "amount_raw": "\u20ac37M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_41ceabd2486c8f3a",
+    "source_url": "https://tech.eu/2026/03/17/ciaodott-raises-eur15m-pre-seed-to-bring-vertical-voice-ai-to-italys-medical-sector/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "CiaoDott raises \u20ac1.5M pre-seed for vertical voice AI in Italian medical sector",
+    "published_at": "2026-03-17T14:29:24+00:00",
+    "ingested_at": "2026-03-18T07:03:57.232670+00:00",
+    "geography": "Southern Europe",
+    "country": "IT",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_6d262bce4887"
+    ],
+    "investor_ids": [
+      "inv_fbc8f9c2a3ab",
+      "inv_0b9c8acadd9f",
+      "inv_5a4a1d806c40",
+      "inv_3aa4d4be22e6",
+      "inv_b1edc6db3fdb"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1620000,
+      "amount_raw": "\u20ac1.5M",
+      "round_stage": "Pre-Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_b3be9a40feb70d17",
+    "source_url": "https://tech.eu/2026/03/17/albion-venture-capital-trusts-close-ps90m-top-up-offer-as-demand-for-uk-innovation-investments-grows/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Albion Venture Capital Trusts close \u00a390M top-up offer as demand for UK innovation investments grows",
+    "published_at": "2026-03-17T13:41:36+00:00",
+    "ingested_at": "2026-03-18T07:03:58.899198+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_f7d04cce3035"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 114000000,
+      "amount_raw": "\u00a390M",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_cffd4f18b59c2949",
+    "source_url": "https://tech.eu/2026/03/17/level-nine-raises-eur4m-to-unlock-local-feedstocks-for-chemicals/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Level Nine raises \u20ac4M seed round for sustainable chemical catalysts",
+    "published_at": "2026-03-17T12:26:00+00:00",
+    "ingested_at": "2026-03-18T07:04:00.507483+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_84e7f404a840"
+    ],
+    "investor_ids": [
+      "inv_99abb63decd9"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4300000,
+      "amount_raw": "\u20ac4M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_679d2061a5cd5b61",
+    "source_url": "https://tech.eu/2026/03/17/eyou-raises-eur300k-to-build-a-european-social-media-platform-focused-on-trust/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "eYou raises \u20ac300K pre-seed funding for European social media platform focused on trust",
+    "published_at": "2026-03-17T12:14:00+00:00",
+    "ingested_at": "2026-03-18T07:04:02.083536+00:00",
+    "geography": "Southern Europe",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_54584beb2193"
+    ],
+    "investor_ids": [
+      "inv_4730e0876ddd"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 330000,
+      "amount_raw": "\u20ac300,000",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_f7c473c8b5731dc6",
+    "source_url": "https://tech.eu/2026/03/17/wikifarmer-raises-77m-to-develop-ai-tools-for-the-agricultural-supply-chain/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Wikifarmer raises $7.7M to develop AI tools for agricultural supply chain",
+    "published_at": "2026-03-17T11:00:00+00:00",
+    "ingested_at": "2026-03-18T07:04:03.661166+00:00",
+    "geography": "Southern Europe",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_eace5111b5de"
+    ],
+    "investor_ids": [
+      "inv_894b03a84755",
+      "inv_feb9429e6f46"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 7700000,
+      "amount_raw": "$7.7M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_2a236cdb169da091",
+    "source_url": "https://tech.eu/2026/03/17/nscale-snaps-up-major-us-data-centre-site-inks-ai-compute-deal-with-microsoft/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Nscale acquires US data centre site and signs AI compute deal with Microsoft",
+    "published_at": "2026-03-17T10:45:00+00:00",
+    "ingested_at": "2026-03-18T07:04:05.764589+00:00",
+    "geography": "US",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_eb6cf0bb"
+    ],
+    "investor_ids": [
+      "inv_8d4321d9"
+    ],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_2d2f389c57227014",
+    "source_url": "https://news.crunchbase.com/venture/fintech-startup-candex-raises-40m-seriesc-extension/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Candex extends Series C to $40M+ with strategic investment from HSBC",
+    "published_at": "2026-03-17T12:00:31+00:00",
+    "ingested_at": "2026-03-18T07:04:07.168174+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_f7f936d88a8b"
+    ],
+    "investor_ids": [
+      "inv_ce749e840dca"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 40000000,
+      "amount_raw": "$40M+",
+      "round_stage": "Series C",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_8f1c7a19d0b45077",
+    "source_url": "https://news.crunchbase.com/venture/unicorn-investment-momentum-ai-sequoia-a16z-2025/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "187 new unicorns joined Crunchbase Unicorn Board in 2025, up 61% YoY driven by AI boom",
+    "published_at": "2026-03-17T11:00:07+00:00",
+    "ingested_at": "2026-03-18T07:04:08.801768+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_24375e21305ed8ba",
+    "source_url": "https://techfundingnews.com/elea-lili-bags-e2-5m-to-replace-microplastics-in-diapers-feminine-hygiene-and-farming-products/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Elea & Lili secures \u20ac2.5M funding to replace microplastics in diapers, feminine hygiene and farming products",
+    "published_at": "2026-03-18T07:00:00+00:00",
+    "ingested_at": "2026-03-18T07:04:10.264712+00:00",
+    "geography": "Nordics",
+    "country": "FI",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_c21b66a958ed"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2700000,
+      "amount_raw": "\u20ac2.5M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_c696ab1e0ef99c73",
+    "source_url": "https://techfundingnews.com/meet-the-sisters-behind-rubi-turning-co%e2%82%82-into-materials-with-7-5m-backing/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Rubi secures $7.5M funding to turn CO\u2082 into materials with offtake agreements",
+    "published_at": "2026-03-17T15:00:00+00:00",
+    "ingested_at": "2026-03-18T07:04:11.903918+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_1e20f337f2ed"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 7500000,
+      "amount_raw": "$7.5M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_6719a4aeb5fb4e5f",
+    "source_url": "https://www.uktech.news/funding/first-concepts-secures-750k-to-boost-its-ai-native-workspace-20260317",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "First Concepts raises \u00a3750k pre-seed funding for AI-native creative workspace",
+    "published_at": "2026-03-17T16:00:55+00:00",
+    "ingested_at": "2026-03-18T07:04:14.467967+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_835fb9db4493"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 937500,
+      "amount_raw": "\u00a3750k",
+      "round_stage": "Seed",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_3ae211a9d624e5d7",
+    "source_url": "https://www.uktech.news/funding/british-business-bank-promises-50m-for-superseeds-physical-ai-fund-20260317",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "British Business Bank commits \u00a350m to SuperSeed Fund III for physical AI startups",
+    "published_at": "2026-03-17T14:00:32+00:00",
+    "ingested_at": "2026-03-18T07:04:15.982466+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_d814af0dff72"
+    ],
+    "investor_ids": [
+      "inv_41bc30b42626"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 63000000,
+      "amount_raw": "\u00a350m",
+      "round_stage": "Seed",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_7ba40d41ddfa6c0c",
+    "source_url": "https://www.uktech.news/ai/hsbc-launches-5bn-ai-and-productivity-initiative-to-support-business-growth-20260317",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "HSBC launches \u00a35bn AI and productivity financing initiative for UK businesses",
+    "published_at": "2026-03-17T13:00:21+00:00",
+    "ingested_at": "2026-03-18T07:04:17.461101+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_c6fb4c659912"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 6300000000,
+      "amount_raw": "\u00a35bn",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_c0c51616f10559ae",
+    "source_url": "https://www.uktech.news/podcast/from-nhs-doctor-to-scaleup-founder-farzana-rahman-ceo-hexarad-20260317",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "NHS doctor turned founder Farzana Rahman discusses Hexarad's AI-powered radiology platform in podcast",
+    "published_at": "2026-03-17T12:00:36+00:00",
+    "ingested_at": "2026-03-18T07:04:19.365614+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_41375314f50c"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_c711bc8c6c53"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_de7921ba6ab40a99",
+    "source_url": "https://www.uktech.news/opinion/the-uk-takes-a-quantum-leap-20260317",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "UK government emphasizes proactive approach to emerging technologies including quantum",
+    "published_at": "2026-03-17T11:00:17+00:00",
+    "ingested_at": "2026-03-18T07:04:20.935101+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.35,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_7658cb1ae4ffc5dd",
+    "source_url": "https://techcrunch.com/2026/03/17/ais-boys-club-could-widen-the-wealth-gap-for-women-says-rana-el-kaliouby/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Rana el Kaliouby discusses AI industry's gender diversity challenges and wealth gap implications for women",
+    "published_at": "2026-03-17T15:16:21+00:00",
+    "ingested_at": "2026-03-18T07:04:22.894090+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.35,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_3d4867084109",
+      "per_4698c6ed"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_83e38a1a0b53d016",
+    "source_url": "https://techcrunch.com/2026/03/11/vc-mega-funds-are-back-with-general-catalyst-spark-rumored-to-be-raising-billions/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_2_medium",
+    "headline": "General Catalyst in talks to raise $10 billion mega-fund, joining Spark Capital and Founders Fund in 2026 mega-raises",
+    "published_at": "2026-03-11T17:53:47+00:00",
+    "ingested_at": "2026-03-18T07:04:25.036257+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.7,
+    "company_ids": [
+      "co_737781796826"
+    ],
+    "investor_ids": [
+      "inv_737781796826",
+      "inv_8032f8ac",
+      "inv_a93dab7b158c",
+      "inv_013",
+      "inv_8365f8634d0f"
+    ],
+    "person_ids": [
+      "per_87842eff"
+    ],
+    "metadata": {
+      "amount_usd": 10000000000,
+      "amount_raw": "$10 billion",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_dc8c39b8bee1ff66",
+    "source_url": "https://www.deutsche-startups.de/2026/03/17/dealmonitor-17-03/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Tower raises \u20ac6.4M, Level Nine raises \u20ac4M, and Diamens receives funding in latest startup financing round",
+    "published_at": "2026-03-17T14:55:00+00:00",
+    "ingested_at": "2026-03-18T07:04:27.439191+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_ad2015263f33"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 6920000,
+      "amount_raw": "\u20ac6,4 Millionen",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_7797601a405a7648",
+    "source_url": "https://www.deutsche-startups.de/2026/03/17/compliance-cirplus-recycling-aonic-finn-startupstowatch/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Startup Ticker featuring Compliance, Cirplus, Recycling, Aonic, and FINN startups",
+    "published_at": "2026-03-17T10:55:00+00:00",
+    "ingested_at": "2026-03-18T07:04:29.539430+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_3313570ad1d61a4e",
+    "source_url": "https://siliconcanals.com/n-people-who-cant-enjoy-a-meal-without-silently-critiquing-the-plating-arent-refined-theyve-replaced-the-ability-to-experience-pleasure-with-the-compulsion-to-assess-quality/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Opinion piece on dining culture and food critique",
+    "published_at": "2026-03-17T21:06:12+00:00",
+    "ingested_at": "2026-03-18T07:04:30.793887+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_d72884cae92927cd",
+    "source_url": "https://siliconcanals.com/sc-w-irans-hormuz-blockade-has-removed-20-of-global-oil-supply-twice-the-1973-shock-heres-who-gets-hurt-most/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Iran's Hormuz blockade removes 20% of global oil supply, creating energy crisis",
+    "published_at": "2026-03-17T13:34:49+00:00",
+    "ingested_at": "2026-03-18T07:04:33.025559+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_06d8f49ee78596e7",
+    "source_url": "https://siliconcanals.com/k-t-f-people-who-recovered-from-burnout-and-never-went-back-didnt-take-a-holiday-or-find-a-new-job-they-all-quit-these-6-habits-that-most-productivity-advice-actively-encourages/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Article discusses burnout recovery strategies based on interviews with survivors who abandoned common productivity habits",
+    "published_at": "2026-03-17T12:00:25+00:00",
+    "ingested_at": "2026-03-18T07:04:36.114939+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.1,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_42ded5fcf30b9c39",
+    "source_url": "https://techround.co.uk/funding/deaku-raises-480k-to-build-missing-infrastructure-for-the-creator-economy/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Deaku raises \u00a3480K pre-seed to build unified AI workspace for creator economy",
+    "published_at": "2026-03-17T12:25:50+00:00",
+    "ingested_at": "2026-03-18T07:04:39.805799+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_aa5c96ac2022"
+    ],
+    "investor_ids": [
+      "inv_f539bc594961",
+      "inv_2cb0d1c46264",
+      "inv_7bd946c9747d",
+      "inv_ec90926f26ff",
+      "inv_1bad19ffa009"
+    ],
+    "person_ids": [
+      "per_720c57be7c38",
+      "per_26547b73c46f",
+      "per_3284509a62e2",
+      "per_1bad19ffa009"
+    ],
+    "metadata": {
+      "amount_usd": 604800,
+      "amount_raw": "\u00a3480,000",
+      "round_stage": "Seed",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_a90f89a3781aba1b",
+    "source_url": "https://thenextweb.com/news/operator-circle-vc-europe-scaleup-executives-decacorn",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_2_medium",
+    "headline": "Former scaleup operators launch Operator Circle VC to back Europe's next decacorn",
+    "published_at": "2026-03-17T14:32:58+00:00",
+    "ingested_at": "2026-03-18T07:04:42.523367+00:00",
+    "geography": "Europe",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_c119237d6012"
+    ],
+    "investor_ids": [
+      "inv_f16fccb4aa35"
+    ],
+    "person_ids": [
+      "per_f16fccb4aa35"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_56e2f42aae6d1d3c",
+    "source_url": "https://thenextweb.com/news/tracebit-20m-series-a-cloud-deception-security",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Tracebit raises $20M Series A led by FirstMark Capital to scale cloud honeypot deception security platform",
+    "published_at": "2026-03-17T14:08:36+00:00",
+    "ingested_at": "2026-03-18T07:04:44.448535+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.98,
+    "company_ids": [
+      "co_1b914288fc07"
+    ],
+    "investor_ids": [
+      "inv_c5d673cfa1ad"
+    ],
+    "person_ids": [
+      "per_b64e92f856a6"
+    ],
+    "metadata": {
+      "amount_usd": 20000000,
+      "amount_raw": "$20M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_b47d4c3d0c1cd6d7",
+    "source_url": "https://thenextweb.com/news/upvest-125m-raise-tencent-sapphire-ventures",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Upvest raises $125M at \u20ac640M valuation with equity led by Sapphire Ventures and Tencent",
+    "published_at": "2026-03-17T13:56:27+00:00",
+    "ingested_at": "2026-03-18T07:04:46.430636+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.98,
+    "company_ids": [
+      "co_8b67990b5648"
+    ],
+    "investor_ids": [
+      "inv_e6cffe4c9b75",
+      "inv_9c8ae69b84f2"
+    ],
+    "person_ids": [
+      "per_435fdaa45579"
+    ],
+    "metadata": {
+      "amount_usd": 125000000,
+      "amount_raw": "$125M",
+      "currency": "USD",
+      "valuation": 694000000
+    }
+  },
+  {
+    "id": "sig_a3986710efbc7e03",
+    "source_url": "https://thenextweb.com/news/steward-ai-5m-aml-compliance-investment-managers",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Steward raises $5M to expand AI-driven AML compliance automation for investment managers",
+    "published_at": "2026-03-17T12:56:09+00:00",
+    "ingested_at": "2026-03-18T07:04:48.086180+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_76faa0295e4f"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_d1278d327f58"
+    ],
+    "metadata": {
+      "amount_usd": 5000000,
+      "amount_raw": "$5M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_2aab247433ea6399",
+    "source_url": "https://thenextweb.com/news/blify-21m-pre-seed-ai-learning-platform",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Blify secures $2.1M pre-seed funding for AI-native training platform integrated with Slack and Teams",
+    "published_at": "2026-03-17T12:43:58+00:00",
+    "ingested_at": "2026-03-18T07:04:49.941573+00:00",
+    "geography": "Benelux",
+    "country": "FR",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_b29d993eda58"
+    ],
+    "investor_ids": [
+      "inv_9c3f9a65d70b",
+      "inv_2d54250bd567",
+      "inv_f1cb18decbab",
+      "inv_d0e7d60d5a14"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2100000,
+      "amount_raw": "$2.1M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_c781bb0d544c63e5",
+    "source_url": "https://thenextweb.com/news/partech-impact-fund-300m-europe-climate-industrial-tech",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Partech closes \u20ac300M debut impact fund targeting European industrial and climate tech scaleups",
+    "published_at": "2026-03-17T12:15:30+00:00",
+    "ingested_at": "2026-03-18T07:04:51.976352+00:00",
+    "geography": "DACH",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_4d84920de3b7"
+    ],
+    "investor_ids": [
+      "inv_dc4af45b",
+      "inv_5cb24401246a",
+      "inv_c29689bb610b",
+      "inv_8f157ec42118",
+      "inv_d9a4ba63397a"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 324000000,
+      "amount_raw": "\u20ac300M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_4bf258c46a3251fe",
+    "source_url": "https://thenextweb.com/news/gecko-robotics-navy-contract-ship-digital-twins",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Gecko Robotics lands $71M Navy contract to deploy wall-climbing robots for vessel inspections and digital twin creation",
+    "published_at": "2026-03-17T11:27:14+00:00",
+    "ingested_at": "2026-03-18T07:04:55.030305+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_81d3fec65927"
+    ],
+    "investor_ids": [
+      "inv_e7ad9853e93c"
+    ],
+    "person_ids": [
+      "per_f1fa42fda29e",
+      "per_1a77cf040779",
+      "per_502266f60129"
+    ],
+    "metadata": {
+      "amount_usd": 71000000,
+      "amount_raw": "$71M",
+      "currency": "USD",
+      "valuation": 1250000000
+    }
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
-    "id": "opp_20260317_001",
-    "generated_date": "2026-03-17",
+    "id": "opp_20260318_001",
+    "generated_date": "2026-03-18",
     "company_id": "co_3bc5495c",
     "investor_id": null,
     "person_id": null,
@@ -19,7 +19,7 @@
       "sources": 15,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac232-270K angel funding \u00b7 culturally intelligent AI therapy \u00b7 3 sources \u00b7 Albanian-Finnish team.",
+    "ai_rationale": "\u20ac233K angel funding \u00b7 culturally aware AI therapy \u00b7 3 sources \u00b7 Albanian-Finnish startup.",
     "triggers": [
       {
         "type": "funding",
@@ -41,109 +41,33 @@
     "status": "new"
   },
   {
-    "id": "opp_20260317_002",
-    "generated_date": "2026-03-17",
-    "company_id": "co_18402552",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_81d5a87edf65",
-      "sig_5f39586ca427",
-      "sig_28d8e5504297"
-    ],
-    "contact_ids": [],
-    "opportunity_score": 56,
-    "score_breakdown": {
-      "events": 21,
-      "capital": 16,
-      "momentum": 19,
-      "sources": 15,
-      "geo_weight": 0.8
-    },
-    "ai_rationale": "$50M Series A \u00b7 software-powered factory automation \u00b7 aerospace and energy sectors \u00b7 3 sources",
-    "triggers": [
-      {
-        "type": "funding",
-        "text": "UK manufacturing automation startup Isembard raises $50M Series A (3 sources)",
-        "time": "1w ago"
-      },
-      {
-        "type": "sector",
-        "text": "Active in DeepTech / Industrial Manufacturing",
-        "time": ""
-      }
-    ],
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260317_003",
-    "generated_date": "2026-03-17",
-    "company_id": "co_a8dff0cf",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_37caca3226ab",
-      "sig_2f33f09a0768",
-      "sig_4772764ccb8e7166"
-    ],
-    "contact_ids": [],
-    "opportunity_score": 51,
-    "score_breakdown": {
-      "events": 21,
-      "capital": 11,
-      "momentum": 19,
-      "sources": 13,
-      "geo_weight": 0.8
-    },
-    "ai_rationale": "Finperks raises \u20ac4M \u00b7 prepaid payments API infrastructure \u00b7 3 sources \u00b7 global prepaid market focus.",
-    "triggers": [
-      {
-        "type": "funding",
-        "text": "raises \u20ac4 million in funding (3 sources)",
-        "time": "5d ago"
-      },
-      {
-        "type": "sector",
-        "text": "Active in FinTech / Payments Infrastructure",
-        "time": ""
-      },
-      {
-        "type": "growth",
-        "text": "HQ: Berlin, DE",
-        "time": ""
-      }
-    ],
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260317_004",
-    "generated_date": "2026-03-17",
+    "id": "opp_20260318_002",
+    "generated_date": "2026-03-18",
     "company_id": "co_835fb9db4493",
     "investor_id": null,
     "person_id": null,
     "signal_ids": [
       "sig_2a749c7fc42bffa7",
       "sig_e713775ebfd9779c",
-      "sig_a5c5bffbfeff0962"
+      "sig_a5c5bffbfeff0962",
+      "sig_6719a4aeb5fb4e5f"
     ],
     "contact_ids": [
       "per_84b98dca4f8e"
     ],
-    "opportunity_score": 51,
+    "opportunity_score": 56,
     "score_breakdown": {
-      "events": 21,
+      "events": 25,
       "capital": 9,
       "momentum": 19,
-      "sources": 15,
+      "sources": 17,
       "geo_weight": 0.8
     },
-    "ai_rationale": "\u20ac871.7k pre-Seed \u00b7 AI operating system for creative agencies \u00b7 3 sources \u00b7 oversubscribed round noted.",
+    "ai_rationale": "First Concepts raises $1M pre-seed \u00b7 AI-native creative workspace \u00b7 4 sources \u00b7 oversubscribed round.",
     "triggers": [
       {
         "type": "funding",
-        "text": "raises oversubscribed $1M round for AI-powered creative agency tools (3 sources)",
+        "text": "raises \u00a3750k pre-seed funding for AI-native creative workspace (4 sources)",
         "time": "today"
       },
       {
@@ -161,8 +85,123 @@
     "status": "new"
   },
   {
-    "id": "opp_20260317_005",
-    "generated_date": "2026-03-17",
+    "id": "opp_20260318_003",
+    "generated_date": "2026-03-18",
+    "company_id": "co_8b67990b5648",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_fcc08a7e2732f76e",
+      "sig_4b4cce8408691cc7",
+      "sig_b47d4c3d0c1cd6d7"
+    ],
+    "contact_ids": [
+      "per_435fdaa45579"
+    ],
+    "opportunity_score": 55,
+    "score_breakdown": {
+      "events": 21,
+      "capital": 18,
+      "momentum": 19,
+      "sources": 11,
+      "geo_weight": 0.8
+    },
+    "ai_rationale": "$125M Series C \u00b7 API investment platform \u00b7 \u20ac640M valuation \u00b7 3 sources \u00b7 led by Sapphire Ventures and Tencent.",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "raises $125m from Tencent and Sapphire Ventures (3 sources)",
+        "time": "today"
+      },
+      {
+        "type": "sector",
+        "text": "Active in FinTech / Investment Infrastructure",
+        "time": ""
+      }
+    ],
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260318_004",
+    "generated_date": "2026-03-18",
+    "company_id": "co_18402552",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_81d5a87edf65",
+      "sig_5f39586ca427",
+      "sig_28d8e5504297"
+    ],
+    "contact_ids": [],
+    "opportunity_score": 53,
+    "score_breakdown": {
+      "events": 17,
+      "capital": 16,
+      "momentum": 19,
+      "sources": 15,
+      "geo_weight": 0.8
+    },
+    "ai_rationale": "$50M Series A \u00b7 software-powered manufacturing automation \u00b7 aerospace and energy sectors \u00b7 3 sources \u00b7 Europe industrial base focus.",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "UK manufacturing automation startup Isembard raises $50M Series A (3 sources)",
+        "time": "1w ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in DeepTech / Industrial Manufacturing",
+        "time": ""
+      }
+    ],
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260318_005",
+    "generated_date": "2026-03-18",
+    "company_id": "co_a8dff0cf",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_37caca3226ab",
+      "sig_2f33f09a0768",
+      "sig_4772764ccb8e7166"
+    ],
+    "contact_ids": [],
+    "opportunity_score": 51,
+    "score_breakdown": {
+      "events": 21,
+      "capital": 11,
+      "momentum": 19,
+      "sources": 13,
+      "geo_weight": 0.8
+    },
+    "ai_rationale": "\u20ac4M pre-seed \u00b7 prepaid payments API infrastructure \u00b7 3 sources \u00b7 global market focus.",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "raises \u20ac4 million in funding (3 sources)",
+        "time": "6d ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in FinTech / Payments Infrastructure",
+        "time": ""
+      },
+      {
+        "type": "growth",
+        "text": "HQ: Berlin, DE",
+        "time": ""
+      }
+    ],
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260318_006",
+    "generated_date": "2026-03-18",
     "company_id": "co_0d6f5cbe",
     "investor_id": null,
     "person_id": null,
@@ -181,25 +220,25 @@
       "sources": 9,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$200M fundraise \u00b7 Entrepreneurs First reaches unicorn status \u00b7 2 sources \u00b7 India neobank Fi winds down services.",
+    "ai_rationale": "$200M fundraise \u00b7 Entrepreneurs First reaches unicorn status \u00b7 2 sources \u00b7 India neobank Fi exits banking services.",
     "triggers": [
       {
         "type": "funding",
         "text": "reaches unicorn status with $200M fundraise",
-        "time": "6d ago"
+        "time": "1w ago"
       },
       {
         "type": "sector",
         "text": "India neobank Fi winds down banking services on its platform",
-        "time": "5d ago"
+        "time": "6d ago"
       }
     ],
     "entity_type": "company",
     "status": "new"
   },
   {
-    "id": "opp_20260317_006",
-    "generated_date": "2026-03-17",
+    "id": "opp_20260318_007",
+    "generated_date": "2026-03-18",
     "company_id": "co_22dc0248",
     "investor_id": null,
     "person_id": null,
@@ -227,12 +266,12 @@
       {
         "type": "funding",
         "text": "Legal tech Legora raises $550m Series D at $5.55bn valuation (4 sources)",
-        "time": "6d ago"
+        "time": "1w ago"
       },
       {
         "type": "competitor",
         "text": "Swedish Legora acquires Canadian legal tech startup Walter AI to expand\u2026",
-        "time": "3d ago"
+        "time": "4d ago"
       },
       {
         "type": "sector",
@@ -244,8 +283,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260317_007",
-    "generated_date": "2026-03-17",
+    "id": "opp_20260318_008",
+    "generated_date": "2026-03-18",
     "company_id": "co_f9d373cb",
     "investor_id": null,
     "person_id": null,
@@ -262,12 +301,12 @@
       "sources": 10,
       "geo_weight": 0.8
     },
-    "ai_rationale": "Tropic raises \u20ac91.3M Series C \u00b7 gene-edited tropical crops \u00b7 2 sources \u00b7 commercialisation focus.",
+    "ai_rationale": "Tropic raises \u20ac91.3M Series C \u00b7 gene-edited tropical crops \u00b7 2 sources \u00b7 commercialisation focus",
     "triggers": [
       {
         "type": "funding",
         "text": "secures $105m Series C funding for gene-edited tropical crops\u2026",
-        "time": "3d ago"
+        "time": "4d ago"
       },
       {
         "type": "sector",
@@ -284,8 +323,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260317_008",
-    "generated_date": "2026-03-17",
+    "id": "opp_20260318_009",
+    "generated_date": "2026-03-18",
     "company_id": "co_eb6cf0bb",
     "investor_id": null,
     "person_id": null,
@@ -294,7 +333,8 @@
       "sig_eac640fbbe0c",
       "sig_f76ca1ef2b8242a2",
       "sig_29d591f70f10ad7c",
-      "sig_ee3fae85f92486b3"
+      "sig_ee3fae85f92486b3",
+      "sig_2a236cdb169da091"
     ],
     "contact_ids": [
       "per_a1c563d6",
@@ -313,16 +353,16 @@
       "sources": 17,
       "geo_weight": 0.5
     },
-    "ai_rationale": "$2B Series C at $14.6bn valuation \u00b7 AI hyperscaler \u00b7 5 sources \u00b7 1.35GW Microsoft LOI for West Virginia AI campus.",
+    "ai_rationale": "$2B Series C at $14.6B valuation \u00b7 AI compute hyperscaler \u00b7 6 sources \u00b7 1.35GW Microsoft LOI signed.",
     "triggers": [
       {
         "type": "funding",
         "text": "raises $2B in funding round (4 sources)",
-        "time": "3d ago"
+        "time": "4d ago"
       },
       {
         "type": "growth",
-        "text": "signs 1.35GW Microsoft LOI for West Virginia AI campus with 430,000 NVIDIA\u2026",
+        "text": "acquires US data centre site and signs AI compute deal with Microsoft (2\u2026",
         "time": "today"
       }
     ],
@@ -330,8 +370,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260317_009",
-    "generated_date": "2026-03-17",
+    "id": "opp_20260318_010",
+    "generated_date": "2026-03-18",
     "company_id": "co_4e35a72b",
     "investor_id": null,
     "person_id": null,
@@ -370,8 +410,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260317_010",
-    "generated_date": "2026-03-17",
+    "id": "opp_20260318_011",
+    "generated_date": "2026-03-18",
     "company_id": "co_cc072325327d",
     "investor_id": null,
     "person_id": null,
@@ -387,12 +427,12 @@
       "sources": 5,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac30M Series A \u00b7 Estonian missile manufacturer \u00b7 Plural-led \u00b7 1 source",
+    "ai_rationale": "\u20ac30M Series A \u00b7 Estonian missile manufacturer \u00b7 Plural led \u00b7 1 source",
     "triggers": [
       {
         "type": "funding",
         "text": "Estonian missile manufacturer Frankenburg Technologies raises \u20ac30M Series A\u2026",
-        "time": "4d ago"
+        "time": "5d ago"
       },
       {
         "type": "sector",
@@ -404,8 +444,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260317_011",
-    "generated_date": "2026-03-17",
+    "id": "opp_20260318_012",
+    "generated_date": "2026-03-18",
     "company_id": "co_cb35253e",
     "investor_id": null,
     "person_id": null,
@@ -430,7 +470,7 @@
       {
         "type": "funding",
         "text": "secures $4.2M seed funding for industrial AI decision platform (3 sources)",
-        "time": "5d ago"
+        "time": "6d ago"
       },
       {
         "type": "sector",
@@ -447,8 +487,48 @@
     "status": "new"
   },
   {
-    "id": "opp_20260317_012",
-    "generated_date": "2026-03-17",
+    "id": "opp_20260318_013",
+    "generated_date": "2026-03-18",
+    "company_id": "co_ad2015263f33",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_4e7998b1dc237b3f",
+      "sig_dc8c39b8bee1ff66"
+    ],
+    "contact_ids": [],
+    "opportunity_score": 40,
+    "score_breakdown": {
+      "events": 16,
+      "capital": 12,
+      "momentum": 14,
+      "sources": 8,
+      "geo_weight": 0.8
+    },
+    "ai_rationale": "\u20ac11.9M raised \u00b7 data engineering for AI \u00b7 2 sources \u00b7 Tower \u20ac5.5M pre-seed/seed round.",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "raises \u20ac5.5M in pre-seed and seed funding to develop data engineering\u2026",
+        "time": "4d ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in DevTools / Data Engineering",
+        "time": ""
+      },
+      {
+        "type": "growth",
+        "text": "HQ: Berlin, DE",
+        "time": ""
+      }
+    ],
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260318_014",
+    "generated_date": "2026-03-18",
     "company_id": "co_11948bd51226",
     "investor_id": null,
     "person_id": null,
@@ -469,7 +549,7 @@
       {
         "type": "funding",
         "text": "raises \u20ac15M Series A for seasonal hydrogen energy storage expansion in\u2026",
-        "time": "4d ago"
+        "time": "5d ago"
       },
       {
         "type": "sector",
@@ -486,8 +566,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260317_013",
-    "generated_date": "2026-03-17",
+    "id": "opp_20260318_015",
+    "generated_date": "2026-03-18",
     "company_id": "co_c4dc4fd58f60",
     "investor_id": null,
     "person_id": null,
@@ -504,12 +584,12 @@
       "sources": 10,
       "geo_weight": 0.8
     },
-    "ai_rationale": "\u00a33.6m seed funding \u00b7 AI-designed molecular glues \u00b7 2 sources \u00b7 undruggable proteins target.",
+    "ai_rationale": "\u00a33.6m seed funding \u00b7 AI molecular glues platform \u00b7 undruggable proteins \u00b7 2 sources",
     "triggers": [
       {
         "type": "funding",
         "text": "raises \u00a33.6m seed funding for molecular glues AI platform (2 sources)",
-        "time": "today"
+        "time": "1d ago"
       },
       {
         "type": "sector",
@@ -519,89 +599,6 @@
       {
         "type": "growth",
         "text": "HQ: London, GB",
-        "time": ""
-      }
-    ],
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260317_014",
-    "generated_date": "2026-03-17",
-    "company_id": "co_8169407379d0",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_cf4e3ddb3243269d",
-      "sig_ddab9eb0e9586326"
-    ],
-    "contact_ids": [
-      "per_20f3f09021c9",
-      "per_15f9e55485c1",
-      "per_ea2e5209e236"
-    ],
-    "opportunity_score": 40,
-    "score_breakdown": {
-      "events": 16,
-      "capital": 12,
-      "momentum": 14,
-      "sources": 8,
-      "geo_weight": 0.8
-    },
-    "ai_rationale": "Oxford Medical Simulation secures \u00a35M+ growth funding from Salica \u00b7 US expansion \u00b7 2 sources",
-    "triggers": [
-      {
-        "type": "funding",
-        "text": "secures \u00a35M growth financing from Salica Investments (2 sources)",
-        "time": "today"
-      },
-      {
-        "type": "sector",
-        "text": "Active in HealthTech / Medical Simulation, Virtual Reality Training",
-        "time": ""
-      },
-      {
-        "type": "growth",
-        "text": "HQ: Oxford, GB",
-        "time": ""
-      }
-    ],
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260317_015",
-    "generated_date": "2026-03-17",
-    "company_id": "co_cfc35d18",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_3a6684f6a9ce",
-      "sig_9e4dea7298f578d4",
-      "sig_ddc5cc21dd867128",
-      "sig_c4afe50a82223fb6"
-    ],
-    "contact_ids": [
-      "per_68b10f550a3f"
-    ],
-    "opportunity_score": 39,
-    "score_breakdown": {
-      "events": 25,
-      "capital": 16,
-      "momentum": 19,
-      "sources": 18,
-      "geo_weight": 0.5
-    },
-    "ai_rationale": "Qdrant raises \u20ac50M Series B \u00b7 vector search infrastructure \u00b7 4 sources \u00b7 agentic AI systems demand accelerating.",
-    "triggers": [
-      {
-        "type": "funding",
-        "text": "raises \u20ac50 million in funding round (4 sources)",
-        "time": "4d ago"
-      },
-      {
-        "type": "sector",
-        "text": "Active in AI/ML / Vector Search Infrastructure",
         "time": ""
       }
     ],

@@ -1267,5 +1267,140 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "partner"
+  },
+  {
+    "id": "per_56abd7f540e4",
+    "name": "Louis Chatriot",
+    "role": "CEO",
+    "company_id": "co_cf43e029efe6",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_e1baca334e2e",
+    "name": "Ben Sigelman",
+    "role": "Angel investor, co-creator of OpenTelemetry",
+    "company_id": "co_165a8c72f498",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_8bae003feed6",
+    "name": "Ant Wilson",
+    "role": "Angel investor",
+    "company_id": "co_165a8c72f498",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_c711bc8c6c53",
+    "name": "Farzana Rahman",
+    "role": "Chief Executive Officer",
+    "company_id": "co_41375314f50c",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_3d4867084109",
+    "name": "Rana el Kaliouby",
+    "role": "Speaker/Expert",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_720c57be7c38",
+    "name": "Oscar Ferguson",
+    "role": "Co-founder",
+    "company_id": "co_aa5c96ac2022",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_26547b73c46f",
+    "name": "Harrison Chapman",
+    "role": "Co-founder",
+    "company_id": "co_aa5c96ac2022",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_3284509a62e2",
+    "name": "Mark Pearson",
+    "role": "Founder of Fuel Ventures",
+    "company_id": "co_aa5c96ac2022",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_1bad19ffa009",
+    "name": "Mario Joos",
+    "role": "Strategist behind MrBeast viral videos",
+    "company_id": "co_aa5c96ac2022",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_f16fccb4aa35",
+    "name": "Enzo W\u00e4lchli",
+    "role": "General Partner, former Chief Commercial Officer at ANYbotics",
+    "company_id": "co_c119237d6012",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_b64e92f856a6",
+    "name": "Andy Smith",
+    "role": "Co-founder and CEO",
+    "company_id": "co_1b914288fc07",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_435fdaa45579",
+    "name": "Andreas Weiskam",
+    "role": "Partner",
+    "company_id": "co_8b67990b5648",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_f1fa42fda29e",
+    "name": "Jake Loosararian",
+    "role": "CEO",
+    "company_id": "co_81d3fec65927",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_1a77cf040779",
+    "name": "Troy Demmer",
+    "role": "President",
+    "company_id": "co_81d3fec65927",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_502266f60129",
+    "name": "Dave McCormick",
+    "role": "Pennsylvania Senator",
+    "company_id": "co_81d3fec65927",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
   }
 ]
