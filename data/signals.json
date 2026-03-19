@@ -7385,5 +7385,1297 @@
       "currency": "USD",
       "valuation": 1250000000
     }
+  },
+  {
+    "id": "sig_b227e03fafdabf64",
+    "source_url": "https://sifted.eu/articles/index-parallel-20m-series-a/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Index Ventures backs YC alum Parallel in $20M Series A for AI agents in hospitals",
+    "published_at": "2026-03-19T05:00:59+00:00",
+    "ingested_at": "2026-03-19T07:01:00.776106+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_83a00300ad6a"
+    ],
+    "investor_ids": [
+      "inv_007"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 20000000,
+      "amount_raw": "$20m",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_440aa7b75fb0ee4e",
+    "source_url": "https://sifted.eu/articles/eqt-and-world-bank-back-candela-e30m/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Candela raises \u20ac30M with backing from EQT and World Bank for global expansion of flying ferry technology",
+    "published_at": "2026-03-18T13:00:44+00:00",
+    "ingested_at": "2026-03-19T07:01:03.497105+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_101e7df3b885"
+    ],
+    "investor_ids": [
+      "inv_001",
+      "inv_ec80eba460f5"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 32400000,
+      "amount_raw": "\u20ac30M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_82fd8075ef01bf11",
+    "source_url": "https://sifted.eu/articles/european-businesses-success-uk-brnd/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "expansion",
+    "signal_tier": "tier_3_weak",
+    "headline": "European businesses finding success in UK market as investment hub",
+    "published_at": "2026-03-18T09:02:07+00:00",
+    "ingested_at": "2026-03-19T07:01:04.764528+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.2,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_915cb30e03aa62c6",
+    "source_url": "https://tech.eu/2026/03/19/ringtime-secures-eur18m-to-improve-blue-collar-hiring-processes/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Ringtime secures \u20ac1.8M seed round led by Volta Ventures for AI-powered blue-collar hiring",
+    "published_at": "2026-03-19T06:00:00+00:00",
+    "ingested_at": "2026-03-19T07:01:06.802316+00:00",
+    "geography": "Benelux",
+    "country": "BE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_c53f2ad989fe"
+    ],
+    "investor_ids": [
+      "inv_6cd92208a0aa",
+      "inv_8dbc7acdd6da",
+      "inv_84f24309366d"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1944000,
+      "amount_raw": "\u20ac1.8M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_287077afd1341829",
+    "source_url": "https://tech.eu/2026/03/19/reson8-collects-eur5m-to-develop-europe-focused-speech-ai/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Reson8 raises \u20ac5M pre-seed for Europe-focused speech AI",
+    "published_at": "2026-03-19T05:30:00+00:00",
+    "ingested_at": "2026-03-19T07:01:08.276090+00:00",
+    "geography": "Benelux",
+    "country": "NL",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_4ae83c2404fa"
+    ],
+    "investor_ids": [
+      "inv_005"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 5400000,
+      "amount_raw": "\u20ac5M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_1ecb4730004f96c4",
+    "source_url": "https://tech.eu/2026/03/19/parallel-raises-20m-to-scale-ai-solutions-for-hospital-administration/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Parallel raises $20M Series A for AI hospital administration solutions",
+    "published_at": "2026-03-19T05:00:00+00:00",
+    "ingested_at": "2026-03-19T07:01:09.932981+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_83a00300ad6a"
+    ],
+    "investor_ids": [
+      "inv_007",
+      "inv_4c452a70e138",
+      "inv_cefa8820",
+      "inv_054939044e71"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 20000000,
+      "amount_raw": "$20M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_2b48afa69ce70dcc",
+    "source_url": "https://tech.eu/2026/03/18/health-lean-analytics-secures-over-eur21m-seed-to-automate-hospital-data-and-optimise-surgical-workflows/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Health Lean Analytics raises \u20ac2.1M seed funding to automate hospital data and optimize surgical workflows",
+    "published_at": "2026-03-18T14:34:24+00:00",
+    "ingested_at": "2026-03-19T07:01:11.504757+00:00",
+    "geography": "Southern Europe",
+    "country": "ES",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_26bb5adc322e"
+    ],
+    "investor_ids": [
+      "inv_69dad69d1f6c",
+      "inv_3587f42dc003",
+      "inv_bbbf7a6412d6"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2280000,
+      "amount_raw": "\u20ac2.1M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_f2ad62c749ab7750",
+    "source_url": "https://tech.eu/2026/03/18/homaio-lands-eur36m-to-extend-access-to-energy-transition-assets/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Homaio raises \u20ac3.6M led by RAISE Ventures to expand energy transition asset access",
+    "published_at": "2026-03-18T13:00:00+00:00",
+    "ingested_at": "2026-03-19T07:01:13.321642+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_e5957c55a2e5"
+    ],
+    "investor_ids": [
+      "inv_4b9247825fc3",
+      "inv_884f5e579daf",
+      "inv_431f3840a4ef",
+      "inv_fa809e700352"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3888000,
+      "amount_raw": "\u20ac3.6M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_7ff4700aac07badd",
+    "source_url": "https://tech.eu/2026/03/18/eu-inc-marks-major-win-for-startups-as-commission-unveils-28th-regime-proposal/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "expansion",
+    "signal_tier": "tier_1_strong",
+    "headline": "European Commission unveils EU Inc. proposal as single corporate regime for startups",
+    "published_at": "2026-03-18T12:29:00+00:00",
+    "ingested_at": "2026-03-19T07:01:14.759323+00:00",
+    "geography": "EU",
+    "country": "",
+    "ai_confidence": 0.75,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_0b17c97a11367538",
+    "source_url": "https://tech.eu/2026/03/18/rivia-raises-15m-to-fix-the-broken-data-infrastructure-behind-clinical-trials/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Rivia raises $15M Series A for clinical trial data infrastructure",
+    "published_at": "2026-03-18T09:35:26+00:00",
+    "ingested_at": "2026-03-19T07:01:16.301779+00:00",
+    "geography": "DACH",
+    "country": "CH",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7f902752c315"
+    ],
+    "investor_ids": [
+      "inv_fb9104f5a2aa",
+      "inv_1cc9ffadf620",
+      "inv_38cae481a24b",
+      "inv_a558dc437ecb"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 15000000,
+      "amount_raw": "$15M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_bcdf1c42ec369d81",
+    "source_url": "https://tech.eu/2026/03/18/pi-labs-leads-7m-round-in-verbaflo-for-ai-real-estate-platform/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "VerbaFlo raises $7M seed round led by Pi Labs for conversational AI real estate platform",
+    "published_at": "2026-03-18T09:00:00+00:00",
+    "ingested_at": "2026-03-19T07:01:17.962868+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_b24d54a819ba"
+    ],
+    "investor_ids": [
+      "inv_b4b4577f909c",
+      "inv_8cabb9873b0f",
+      "inv_78cc0d877682",
+      "inv_1093e191c109",
+      "inv_9ffc21de60b3"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 7000000,
+      "amount_raw": "$7M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_029436d295c72cf2",
+    "source_url": "https://tech.eu/2026/03/18/noru-raises-eur560k-to-develop-an-agentic-compliance-platform/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Noru raises \u20ac560K pre-seed for AI-native regulatory compliance platform",
+    "published_at": "2026-03-18T08:55:00+00:00",
+    "ingested_at": "2026-03-19T07:01:19.593124+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_e3235d318a2f"
+    ],
+    "investor_ids": [
+      "inv_05c879778981"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 605600,
+      "amount_raw": "\u20ac560,000",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_4e420847552305b1",
+    "source_url": "https://tech.eu/2026/03/18/rhonexum-raises-1m-to-advance-cryogenic-electronics-for-quantum-computing/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Rhonexum raises $1M pre-seed funding for cryogenic electronics in quantum computing",
+    "published_at": "2026-03-18T08:00:00+00:00",
+    "ingested_at": "2026-03-19T07:01:21.520755+00:00",
+    "geography": "Benelux",
+    "country": "CH",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_385d4c55ec2f"
+    ],
+    "investor_ids": [
+      "inv_ba2e5eb5a556",
+      "inv_0839d07ec449"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1000000,
+      "amount_raw": "$1M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_eab3acc950aa762f",
+    "source_url": "https://tech.eu/2026/03/18/elea-lili-raises-eur25m-to-scale-fossil-free-absorbent-materials/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Elea & Lili raises \u20ac2.5M seed funding for fossil-free cellulose-based superabsorbent materials",
+    "published_at": "2026-03-18T07:05:00+00:00",
+    "ingested_at": "2026-03-19T07:01:23.156534+00:00",
+    "geography": "Nordics",
+    "country": "FI",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_c21b66a958ed"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2700000,
+      "amount_raw": "\u20ac2.5M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_a1c9c2609c23b4b1",
+    "source_url": "https://news.crunchbase.com/startups/tech-layoffs/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Over 127,000 tech workers laid off in U.S. in 2025, layoffs continue into 2026",
+    "published_at": "2026-03-18T17:34:30+00:00",
+    "ingested_at": "2026-03-19T07:01:24.817029+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_6f2920d8c2ffd095",
+    "source_url": "https://news.crunchbase.com/venture/stripe-alum-raises-online-funeral-planning-startup-meadow/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Stripe alum Sam Gerstenzang raises $9M Series A for Meadow, online funeral planning startup",
+    "published_at": "2026-03-18T13:00:57+00:00",
+    "ingested_at": "2026-03-19T07:01:28.631937+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_48aac73d680e"
+    ],
+    "investor_ids": [
+      "inv_55fc52f447a3",
+      "inv_3f29e2edecdb"
+    ],
+    "person_ids": [
+      "per_5f3459ec3e17",
+      "per_55fc52f447a3"
+    ],
+    "metadata": {
+      "amount_usd": 9000000,
+      "amount_raw": "$9M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_f10782eee4066de2",
+    "source_url": "https://news.crunchbase.com/public/pwc-bellin-qa-2026-ipo-timing-secondary-boom/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "PwC US IPO Lead Discusses 2026 IPO Market Outlook and Secondary Boom",
+    "published_at": "2026-03-18T11:00:53+00:00",
+    "ingested_at": "2026-03-19T07:01:30.263183+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.4,
+    "company_ids": [
+      "co_c97ce19b9c35"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_935d0b51a081"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_c644dcbe9690f3d5",
+    "source_url": "https://techfundingnews.com/tesla-of-water-candela-steers-through-waves-with-e30m-for-manufacturing-facility-in-poland/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Candela raises \u20ac30M from EQT and World Bank's IFC for electric vessel production expansion",
+    "published_at": "2026-03-19T06:11:03+00:00",
+    "ingested_at": "2026-03-19T07:01:31.862475+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_101e7df3b885"
+    ],
+    "investor_ids": [
+      "inv_001",
+      "inv_7e4a87179650"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 32400000,
+      "amount_raw": "\u20ac30M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_b8d605c6f4784177",
+    "source_url": "https://techfundingnews.com/eternal-ag-raises-8m-to-automate-greenhouse-harvesting/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Eternal.ag raises \u20ac8M for autonomous greenhouse robots in Europe",
+    "published_at": "2026-03-19T06:00:00+00:00",
+    "ingested_at": "2026-03-19T07:01:33.381008+00:00",
+    "geography": "Southern Europe",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_3c9e1e4d3620"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 8800000,
+      "amount_raw": "\u20ac8M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_672a9719c0394cb5",
+    "source_url": "https://techfundingnews.com/amidst-labour-shortage-in-europe-ringtime-raises-e1-8m-to-help-recruiters-reach-them-faster/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Ghent startup Ringtime raises \u20ac1.8M to automate blue-collar recruitment calls",
+    "published_at": "2026-03-19T05:00:00+00:00",
+    "ingested_at": "2026-03-19T07:01:35.001126+00:00",
+    "geography": "Benelux",
+    "country": "BE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_c53f2ad989fe"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1944000,
+      "amount_raw": "\u20ac1.8M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_47496fc12f58e250",
+    "source_url": "https://techfundingnews.com/swarmer-1200-ipo-surge-ai-drone-nasdaq/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Swarmer Inc. IPO marks best US listing since Newsmax, driven by Ukraine-tested drone swarm technology",
+    "published_at": "2026-03-18T22:40:59+00:00",
+    "ingested_at": "2026-03-19T07:01:37.407684+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_bbfff6f5a22c"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "round_stage": "IPO"
+    }
+  },
+  {
+    "id": "sig_10232bf65a6d3c0e",
+    "source_url": "https://techfundingnews.com/rivia-raises-15m-to-build-ai-engine-for-clinical-trial-data/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Rivia raises $15M to build AI engine for clinical trial data",
+    "published_at": "2026-03-18T17:49:17+00:00",
+    "ingested_at": "2026-03-19T07:01:39.347540+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_7f902752c315"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 15000000,
+      "amount_raw": "$15M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_7cf2153ac676f0c2",
+    "source_url": "https://techfundingnews.com/ibm-acquires-confluent-to-make-ai-work-faster-with-live-data/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "IBM acquires Confluent to accelerate AI deployments with live data capabilities",
+    "published_at": "2026-03-18T16:46:09+00:00",
+    "ingested_at": "2026-03-19T07:01:41.496033+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_916a98f0"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_f8a2bd114338c646",
+    "source_url": "https://techfundingnews.com/mastercard-to-acquire-bvnk-for-up-to-1-8b-in-stablecoin-push/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Mastercard to acquire stablecoin payments infrastructure firm BVNK for up to $1.8 billion",
+    "published_at": "2026-03-18T16:45:51+00:00",
+    "ingested_at": "2026-03-19T07:01:42.977761+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_07863e7a6a21"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1800000000,
+      "amount_raw": "$1.8B",
+      "currency": "USD",
+      "valuation": 1800000000
+    }
+  },
+  {
+    "id": "sig_73b617ff9232293c",
+    "source_url": "https://arcticstartup.com/legora-raises-550m-series-d/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Swedish legal AI company Legora raises $550M Series D at $5.55B valuation",
+    "published_at": "2026-03-18T13:34:25+00:00",
+    "ingested_at": "2026-03-19T07:01:46.203421+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_22dc0248"
+    ],
+    "investor_ids": [
+      "inv_006",
+      "inv_0e898208",
+      "inv_18eb0649",
+      "inv_737781796826",
+      "inv_c9c1361a",
+      "inv_10efe505",
+      "inv_cefa8820",
+      "inv_cd01bc25",
+      "inv_8e18936867e6"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 550000000,
+      "amount_raw": "$550M",
+      "round_stage": "Series D",
+      "currency": "USD",
+      "valuation": 5550000000
+    }
+  },
+  {
+    "id": "sig_c5dc5757d1c9eb81",
+    "source_url": "https://arcticstartup.com/skyselect-raises-9-million/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "SkySelect raises $9M to scale AI-driven airline parts procurement platform",
+    "published_at": "2026-03-18T12:39:41+00:00",
+    "ingested_at": "2026-03-19T07:01:48.073410+00:00",
+    "geography": "Nordics",
+    "country": "EE",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_b0423c21"
+    ],
+    "investor_ids": [
+      "inv_284a60eec4ea",
+      "inv_8d4303a61937",
+      "inv_84a0bbe5a8ef",
+      "inv_cd01bc25",
+      "inv_e8616bccc210"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 9000000,
+      "amount_raw": "$9 million",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_407e264c41b13b6e",
+    "source_url": "https://arcticstartup.com/elea-lili-has-raises-e2-5m-seed/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Elea & Lili raises \u20ac2.5M seed funding for cellulose-based SAP alternative",
+    "published_at": "2026-03-18T12:06:27+00:00",
+    "ingested_at": "2026-03-19T07:01:49.715559+00:00",
+    "geography": "Nordics",
+    "country": "FI",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_c21b66a958ed"
+    ],
+    "investor_ids": [
+      "inv_cb47ca2049ae",
+      "inv_1f4a02d91709",
+      "inv_77d1e8fb7284"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2700000,
+      "amount_raw": "\u20ac2.5M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_2318799e6678cabd",
+    "source_url": "https://www.uktech.news/news/investment-news/partech-investment-fund-secures-17m-boost-20260318",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "British Business Bank commits \u20ac20m to Partech's \u20ac300m Impact Fund",
+    "published_at": "2026-03-18T16:00:03+00:00",
+    "ingested_at": "2026-03-19T07:01:51.608609+00:00",
+    "geography": "UK",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_4d84920de3b7"
+    ],
+    "investor_ids": [
+      "inv_41bc30b42626"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 21800000,
+      "amount_raw": "\u20ac20m (\u00a317.3m)",
+      "currency": "EUR",
+      "valuation": 327000000
+    }
+  },
+  {
+    "id": "sig_06eaa596b8a1300b",
+    "source_url": "https://www.uktech.news/proptech/verbaflo-real-estate-seed-20260318",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "AI real estate platform VerbaFlo raises \u00a35m seed round",
+    "published_at": "2026-03-18T11:00:12+00:00",
+    "ingested_at": "2026-03-19T07:01:53.947765+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_b24d54a819ba"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 7000000,
+      "amount_raw": "\u00a35.24m ($7m)",
+      "round_stage": "Seed",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_0de343eebf1f60b9",
+    "source_url": "https://www.uktech.news/funding/virgin-startup-launches-new-20m-funding-pot-20260317",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Virgin Startup launches new \u00a320m funding pot for startups",
+    "published_at": "2026-03-18T09:00:52+00:00",
+    "ingested_at": "2026-03-19T07:01:57.435538+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_2156cb7f0d95"
+    ],
+    "investor_ids": [
+      "inv_41bc30b42626"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 25200000,
+      "amount_raw": "\u00a320m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_414f3e19544d5a90",
+    "source_url": "https://techcrunch.com/2026/03/18/sequen-snags-16m-to-bring-tiktok-style-personalization-tech-to-any-consumer-company/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Sequen raises $16M to bring TikTok-style personalization technology to consumer companies",
+    "published_at": "2026-03-18T15:58:50+00:00",
+    "ingested_at": "2026-03-19T07:02:00.867964+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_e003a7e7adbf"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_4698c6ed"
+    ],
+    "metadata": {
+      "amount_usd": 16000000,
+      "amount_raw": "$16M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_3c588d76e258791a",
+    "source_url": "https://www.deutsche-startups.de/2026/03/18/5-neue-startups-ansehn-soneo-dionys-bitsurance-one100/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Five new startups featured: Ansehn, Soneo, DIONYS, bitsurance, One100",
+    "published_at": "2026-03-18T12:55:00+00:00",
+    "ingested_at": "2026-03-19T07:02:02.488620+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_fc1e90805b392dec",
+    "source_url": "https://www.deutsche-startups.de/2026/03/18/startupland-koeln-qdrant-rising-european-startups-omio-hayaway/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "hiring_wave",
+    "signal_tier": "tier_3_weak",
+    "headline": "Deutsche Startups job board features multiple marketing and tech positions across German companies",
+    "published_at": "2026-03-18T10:55:00+00:00",
+    "ingested_at": "2026-03-19T07:02:05.126917+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_3bd314bfb42609b3",
+    "source_url": "https://siliconcanals.com/k-bt-people-who-can-sense-tension-between-two-other-people-before-a-single-word-is-spoken-arent-intuitive-they-were-trained-by-a-household-where-the-space-between-two-adults-was-a-weather-system/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Opinion piece on emotional intelligence and childhood trauma",
+    "published_at": "2026-03-18T16:00:14+00:00",
+    "ingested_at": "2026-03-19T07:02:06.583477+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_1663a71d4c35a02e",
+    "source_url": "https://techround.co.uk/news/if-the-sec-scraps-quarterly-reporting-will-ipos-in-the-us-become-more-attractive-or-more-risky/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "SEC proposes eliminating mandatory quarterly reporting for public companies, raising questions about IPO attractiveness and market transparency",
+    "published_at": "2026-03-18T15:17:11+00:00",
+    "ingested_at": "2026-03-19T07:02:08.952243+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.65,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_077b396a10c1",
+      "per_9b7cbb70b2a7",
+      "per_51c64176fdd1"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_e74d559b7b2d1d11",
+    "source_url": "https://thenextweb.com/news/ringtime-seed-round-blue-collar-recruitment-ai",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Ringtime raises \u20ac1.8M seed round to automate blue-collar recruitment with AI agents",
+    "published_at": "2026-03-19T05:00:54+00:00",
+    "ingested_at": "2026-03-19T07:02:18.250670+00:00",
+    "geography": "Benelux",
+    "country": "BE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_c53f2ad989fe"
+    ],
+    "investor_ids": [
+      "inv_6cd92208a0aa",
+      "inv_8dbc7acdd6da",
+      "inv_84f24309366d",
+      "inv_51039f9b83a3",
+      "inv_55c02a05bc3b"
+    ],
+    "person_ids": [
+      "per_15809ed7daf7",
+      "per_640b7ef60c7e",
+      "per_3c19d9cd6000",
+      "per_f71933571c9a"
+    ],
+    "metadata": {
+      "amount_usd": 1944000,
+      "amount_raw": "\u20ac1.8M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_a584e33be2b4243d",
+    "source_url": "https://thenextweb.com/news/reson8-raises-e5m-to-build-europe-first-speech-ai",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Reson8 raises \u20ac5M pre-seed funding for customisable European speech AI platform",
+    "published_at": "2026-03-19T05:00:43+00:00",
+    "ingested_at": "2026-03-19T07:02:20.834765+00:00",
+    "geography": "Benelux",
+    "country": "NL",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_4ae83c2404fa"
+    ],
+    "investor_ids": [
+      "inv_005",
+      "inv_d25a707d5183"
+    ],
+    "person_ids": [
+      "per_6c4b05ef1ee0",
+      "per_2f4fb489e5da",
+      "per_af76cf29ec99",
+      "per_87b16c77baa5"
+    ],
+    "metadata": {
+      "amount_usd": 5400000,
+      "amount_raw": "\u20ac5M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_068c40d11fafe276",
+    "source_url": "https://thenextweb.com/news/facebook-creator-fast-track",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Meta launches Creator Fast Track programme offering $1,000-$3,000 monthly payments to established creators posting Reels on Facebook",
+    "published_at": "2026-03-18T18:05:16+00:00",
+    "ingested_at": "2026-03-19T07:02:22.725606+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ea3bd73e"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_b1976d797834f0d9",
+    "source_url": "https://thenextweb.com/news/globalcomix-13m-inkr-acquisition",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "GlobalComix raises $13M Series B, acquires INKR AI localization platform, appoints new CEO",
+    "published_at": "2026-03-18T15:48:08+00:00",
+    "ingested_at": "2026-03-19T07:02:26.360431+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_130acfeb9935"
+    ],
+    "investor_ids": [
+      "inv_7e3674c10b36",
+      "inv_7e3b20c0c8a9",
+      "inv_aff1197c4164",
+      "inv_25f2e7054b88",
+      "inv_e0cd9893b3d6",
+      "inv_05dbee6e3cc2"
+    ],
+    "person_ids": [
+      "per_b37258879791",
+      "per_625ef5f3513a",
+      "per_e3649997e3f7",
+      "per_fe6b903aed21",
+      "per_2462e08d43f7",
+      "per_8079e25a62c0"
+    ],
+    "metadata": {
+      "amount_usd": 13000000,
+      "amount_raw": "$13M",
+      "round_stage": "Series B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_f36aac5e28f964f7",
+    "source_url": "https://thenextweb.com/news/homaio-seed-round-carbon-allowances-energy-transition",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Homaio raises \u20ac3.6M seed round to expand carbon allowance investing beyond retail access to energy transition markets",
+    "published_at": "2026-03-18T14:02:33+00:00",
+    "ingested_at": "2026-03-19T07:02:29.324991+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_e5957c55a2e5"
+    ],
+    "investor_ids": [
+      "inv_4b9247825fc3",
+      "inv_32092971d04e",
+      "inv_884f5e579daf",
+      "inv_431f3840a4ef",
+      "inv_fa809e700352"
+    ],
+    "person_ids": [
+      "per_963078497664",
+      "per_d1380982f3e1",
+      "per_2cd581bde77b"
+    ],
+    "metadata": {
+      "amount_usd": 3900000,
+      "amount_raw": "\u20ac3.6M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_63dc8ec29b31bee3",
+    "source_url": "https://thenextweb.com/news/multiply-ai-b2b-advertising-9-5m-mayfield",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Multiply raises $9.5M to build AI agents that automate B2B ad campaign optimization",
+    "published_at": "2026-03-18T13:02:29+00:00",
+    "ingested_at": "2026-03-19T07:02:32.667074+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_0d31bc618d28"
+    ],
+    "investor_ids": [
+      "inv_a48b5ad10be7",
+      "inv_5b4926351495",
+      "inv_7d56d8cda804",
+      "inv_7e43c4142db9",
+      "inv_91b6da07adf5",
+      "inv_82c825401ec3",
+      "inv_9db728d18b9d",
+      "inv_dca6ec9510fc",
+      "inv_0d3fccd661ce"
+    ],
+    "person_ids": [
+      "per_b63734ea06be",
+      "per_27e995550b66",
+      "per_7e43c4142db9",
+      "per_b3b2e8fe3cd5",
+      "per_7d56d8cda804"
+    ],
+    "metadata": {
+      "amount_usd": 9500000,
+      "amount_raw": "$9.5M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_37cbf6d43eb12b5c",
+    "source_url": "https://thenextweb.com/news/kupando-series-a-kup101-phase-1b-innate-immunity",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "German biotech Kupando raises \u20ac10M Series A extension to advance innate immunity drug KUP101 into Phase 1b clinical trials",
+    "published_at": "2026-03-18T12:47:01+00:00",
+    "ingested_at": "2026-03-19T07:02:36.087778+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.98,
+    "company_ids": [
+      "co_9350d54b1d36"
+    ],
+    "investor_ids": [
+      "inv_db3f2d9f4473",
+      "inv_aeae62b0cc46",
+      "inv_48e1af158300",
+      "inv_56b77439d8ed",
+      "inv_4079d6d08bea",
+      "inv_6a5c7112cb61"
+    ],
+    "person_ids": [
+      "per_d1aa97858eef",
+      "per_ba95c7881ce6",
+      "per_aadef27bce85",
+      "per_867149624891"
+    ],
+    "metadata": {
+      "amount_usd": 10900000,
+      "amount_raw": "\u20ac10M",
+      "round_stage": "Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_7be5e006396f1815",
+    "source_url": "https://thenextweb.com/news/rivia-13m-agentic-ai-clinical-trials",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Rivia raises \u20ac13M to build agentic AI agents for clinical trial management",
+    "published_at": "2026-03-18T09:40:09+00:00",
+    "ingested_at": "2026-03-19T07:02:42.011285+00:00",
+    "geography": "DACH",
+    "country": "CH",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7f902752c315"
+    ],
+    "investor_ids": [
+      "inv_38cae481a24b"
+    ],
+    "person_ids": [
+      "per_d1278d327f58"
+    ],
+    "metadata": {
+      "amount_usd": 14300000,
+      "amount_raw": "\u20ac13M",
+      "round_stage": "Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_fad1e1f754998d7a",
+    "source_url": "https://thenextweb.com/news/meta-manus-my-computer-desktop-ai-agent",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Meta launches Manus AI agent desktop app 'My Computer' to compete with open-source OpenClaw",
+    "published_at": "2026-03-18T09:00:07+00:00",
+    "ingested_at": "2026-03-19T07:02:47.421584+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ea3bd73e"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_ecd7b976"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_f0119fcf864f7f10",
+    "source_url": "https://thenextweb.com/news/mastercard-bvnk-18bn-stablecoin-acquisition",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Mastercard acquires UK stablecoin infrastructure firm BVNK for up to $1.8 billion",
+    "published_at": "2026-03-18T08:46:09+00:00",
+    "ingested_at": "2026-03-19T07:02:49.700961+00:00",
+    "geography": "UK",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_07863e7a6a21"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1800000000,
+      "amount_raw": "$1.8 billion",
+      "currency": "USD"
+    }
   }
 ]

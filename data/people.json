@@ -1402,5 +1402,293 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "partner"
+  },
+  {
+    "id": "per_5f3459ec3e17",
+    "name": "Sam Gerstenzang",
+    "role": "Co-founder",
+    "company_id": "co_48aac73d680e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_55fc52f447a3",
+    "name": "Lachy Groom",
+    "role": "Investor",
+    "company_id": "co_48aac73d680e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_935d0b51a081",
+    "name": "Mike Bellin",
+    "role": "U.S. IPO services leader",
+    "company_id": "co_c97ce19b9c35",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_077b396a10c1",
+    "name": "Gina Marrs",
+    "role": "Author",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": null
+  },
+  {
+    "id": "per_9b7cbb70b2a7",
+    "name": "Dr. Yu Zhang",
+    "role": "Assistant Professor of Accountancy at UCD Michael Smurfit Graduate Business School",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_51c64176fdd1",
+    "name": "John Burns",
+    "role": "Expert commentator",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_15809ed7daf7",
+    "name": "Vincent Theeten",
+    "role": "CEO",
+    "company_id": "co_c53f2ad989fe",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_640b7ef60c7e",
+    "name": "Johan Krijgsman",
+    "role": "Co-founder, Owner and CEO of ERA Belgium and Alfabet",
+    "company_id": "co_c53f2ad989fe",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_3c19d9cd6000",
+    "name": "Michiel Vanhaverbeke",
+    "role": "Co-founder",
+    "company_id": "co_c53f2ad989fe",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_f71933571c9a",
+    "name": "Diederik Syoen",
+    "role": "Co-founder, previously Head of Marketing at Cheqroom",
+    "company_id": "co_c53f2ad989fe",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_6c4b05ef1ee0",
+    "name": "Thomas Kluiters",
+    "role": "Co-founder",
+    "company_id": "co_4ae83c2404fa",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_2f4fb489e5da",
+    "name": "Raoul Ritter",
+    "role": "Co-founder",
+    "company_id": "co_4ae83c2404fa",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_af76cf29ec99",
+    "name": "Jarno Verhagen",
+    "role": "Co-founder",
+    "company_id": "co_4ae83c2404fa",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_87b16c77baa5",
+    "name": "James Wise",
+    "role": "Partner at Balderton Capital",
+    "company_id": "co_4ae83c2404fa",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_b37258879791",
+    "name": "Henrik Rydberg",
+    "role": "Chief Executive Officer",
+    "company_id": "co_130acfeb9935",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_625ef5f3513a",
+    "name": "Shohei Yamada",
+    "role": "Managing Partner of SBI US Gateway Fund",
+    "company_id": "co_130acfeb9935",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_e3649997e3f7",
+    "name": "Ishan Sinha",
+    "role": "Partner at Point72 Ventures",
+    "company_id": "co_130acfeb9935",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_fe6b903aed21",
+    "name": "Ken Luong",
+    "role": "Founder of INKR",
+    "company_id": "co_130acfeb9935",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_2462e08d43f7",
+    "name": "Khoa Nguyen",
+    "role": "Founder of INKR",
+    "company_id": "co_130acfeb9935",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_8079e25a62c0",
+    "name": "Hieu Tran",
+    "role": "Founder of INKR",
+    "company_id": "co_130acfeb9935",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_963078497664",
+    "name": "Valentin Lautier",
+    "role": "Founder",
+    "company_id": "co_e5957c55a2e5",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_d1380982f3e1",
+    "name": "P\u00e2ris Mouratoglou",
+    "role": "Co-founder of Groupe Eren",
+    "company_id": "co_e5957c55a2e5",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_2cd581bde77b",
+    "name": "David Corchia",
+    "role": "Co-founder of Groupe Eren",
+    "company_id": "co_e5957c55a2e5",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_b63734ea06be",
+    "name": "Matt Jayson",
+    "role": "Co-founder and CEO",
+    "company_id": "co_0d31bc618d28",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_27e995550b66",
+    "name": "Ashish Warty",
+    "role": "Co-founder and CTO",
+    "company_id": "co_0d31bc618d28",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_7e43c4142db9",
+    "name": "Josh Woodward",
+    "role": "VP of Labs and Gemini at Google",
+    "company_id": "co_0d31bc618d28",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_b3b2e8fe3cd5",
+    "name": "Patrick Salyer",
+    "role": "Partner at Mayfield",
+    "company_id": "co_0d31bc618d28",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_7d56d8cda804",
+    "name": "Max Mullen",
+    "role": "Instacart co-founder",
+    "company_id": "co_0d31bc618d28",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_d1aa97858eef",
+    "name": "Johanna Holldack",
+    "role": "Founder and CEO",
+    "company_id": "co_9350d54b1d36",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_ba95c7881ce6",
+    "name": "J\u00f6rn Aldag",
+    "role": "Chair of Board",
+    "company_id": "co_9350d54b1d36",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_aadef27bce85",
+    "name": "Dennis Carson",
+    "role": "Professor at University of California San Diego",
+    "company_id": "co_9350d54b1d36",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_867149624891",
+    "name": "Martin Raditsch",
+    "role": "Managing Partner of Carma Fund",
+    "company_id": "co_9350d54b1d36",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
   }
 ]
