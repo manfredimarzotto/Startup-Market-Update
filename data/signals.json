@@ -8677,5 +8677,812 @@
       "amount_raw": "$1.8 billion",
       "currency": "USD"
     }
+  },
+  {
+    "id": "sig_6e99cef504ece126",
+    "source_url": "https://tech.eu/2026/03/19/eternalag-raises-eur8m-to-automate-greenhouse-harvesting-with-ai-powered-robots/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Eternal.ag raises \u20ac8M for AI-powered autonomous greenhouse harvesting robots",
+    "published_at": "2026-03-19T15:48:56+00:00",
+    "ingested_at": "2026-03-20T06:57:12.829855+00:00",
+    "geography": "Europe",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_3c9e1e4d3620"
+    ],
+    "investor_ids": [
+      "inv_cddbc108b0fa",
+      "inv_914535a96c0e",
+      "inv_09cea40ca36b"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 8800000,
+      "amount_raw": "\u20ac8M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_f0bd0469bbdd29e2",
+    "source_url": "https://tech.eu/2026/03/19/edra-raises-309m-series-a-to-turn-enterprise-data-into-self-improving-ai-agents/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Sequoia-backed Edra raises $30M Series A to automate enterprise work with self-improving AI agents",
+    "published_at": "2026-03-19T15:04:00+00:00",
+    "ingested_at": "2026-03-20T06:57:14.318157+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_662d2a32a99b"
+    ],
+    "investor_ids": [
+      "inv_8aa206b0c985",
+      "inv_ec292616f239",
+      "inv_ab8fed5662b0"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 30000000,
+      "amount_raw": "$30M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_fd97c36bfca1b48b",
+    "source_url": "https://tech.eu/2026/03/19/cleavr-raises-eur1m-to-develop-an-ai-solution-for-accounts-receivable/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Cleavr raises \u20ac1M for AI-powered accounts receivable management solution",
+    "published_at": "2026-03-19T14:32:14+00:00",
+    "ingested_at": "2026-03-20T06:57:16.386662+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_c96c14e093fc"
+    ],
+    "investor_ids": [
+      "inv_2d54250bd567",
+      "inv_f1cb18decbab",
+      "inv_fe57048c7ee5",
+      "inv_d07954d95113"
+    ],
+    "person_ids": [
+      "per_fe57048c7ee5",
+      "per_d07954d95113"
+    ],
+    "metadata": {
+      "amount_usd": 1080000,
+      "amount_raw": "\u20ac1M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_f6e5357b4a6d9f5f",
+    "source_url": "https://tech.eu/2026/03/19/from-diversified-funding-to-frontier-innovation-the-spanish-tech-ecosystem/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Spanish tech ecosystem raised \u20ac3.1 billion in 2025 with strong late-stage and early-stage funding activity",
+    "published_at": "2026-03-19T09:00:00+00:00",
+    "ingested_at": "2026-03-20T06:57:17.856893+00:00",
+    "geography": "Southern Europe",
+    "country": "ES",
+    "ai_confidence": 0.65,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3400000000,
+      "amount_raw": "\u20ac3.1 billion",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_f7bcbc92f1911b6f",
+    "source_url": "https://tech.eu/2026/03/19/ventech-leads-bountis-eur4m-funding-to-apply-ai-in-the-physical-economy/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Ventech leads Bounti's \u20ac4M funding round to apply AI in the physical economy",
+    "published_at": "2026-03-19T07:00:00+00:00",
+    "ingested_at": "2026-03-20T06:57:19.344648+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_e4702b626caa"
+    ],
+    "investor_ids": [
+      "inv_daea3749c149",
+      "inv_b33853121c98",
+      "inv_2b8ee1ad90a1",
+      "inv_44fa6b772efd"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4400000,
+      "amount_raw": "\u20ac4M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_daf2df0a95df0c0b",
+    "source_url": "https://techfundingnews.com/health-universe-6m-funding-ai-agents-healthcare/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Kleiner Perkins leads $6M funding round in healthcare AI startup Health Universe focused on interpretable clinical trial enrollment",
+    "published_at": "2026-03-19T18:00:00+00:00",
+    "ingested_at": "2026-03-20T06:57:21.110284+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_918897cb9a58"
+    ],
+    "investor_ids": [
+      "inv_e57bc478e273"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 6000000,
+      "amount_raw": "$6M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_d78d5a83d1f68310",
+    "source_url": "https://techfundingnews.com/general-catalyst-backs-californias-autoscience-in-14m-round-to-replace-researchers-with-ai/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "General Catalyst leads $14M funding round for Autoscience to automate AI research",
+    "published_at": "2026-03-19T16:52:48+00:00",
+    "ingested_at": "2026-03-20T06:57:22.919384+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_df7118d27512"
+    ],
+    "investor_ids": [
+      "inv_737781796826"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 14000000,
+      "amount_raw": "$14M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_b68221721ba74c1c",
+    "source_url": "https://techfundingnews.com/pado-raises-6m-to-make-data-centres-more-energy-efficient-amid-the-ai-race/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "PADO raises $6M to improve data centre energy efficiency amid AI infrastructure demand",
+    "published_at": "2026-03-19T13:00:00+00:00",
+    "ingested_at": "2026-03-20T06:57:24.382352+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_6ee8f49db974"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 6000000,
+      "amount_raw": "$6M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_749eb0573ab30fcb",
+    "source_url": "https://techfundingnews.com/hosted-ai-creandum-gpu-efficiency-pitch-deck/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Hosted.ai raises $19M seed funding from Creandum to improve GPU efficiency",
+    "published_at": "2026-03-19T08:00:00+00:00",
+    "ingested_at": "2026-03-20T06:57:26.111072+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_8582bf0325dc"
+    ],
+    "investor_ids": [
+      "inv_04a64ee55f95"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 19000000,
+      "amount_raw": "$19M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_eabc52ba823ca3a8",
+    "source_url": "https://techfundingnews.com/berlin-bounti-raises-e4m-ai-frontline-workers-physical-economy/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Berlin startup Bounti raises \u20ac4M to bring AI to frontline workers",
+    "published_at": "2026-03-19T07:00:00+00:00",
+    "ingested_at": "2026-03-20T06:57:27.585365+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_e4702b626caa"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4400000,
+      "amount_raw": "\u20ac4M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_b687bdddfd551675",
+    "source_url": "https://www.uktech.news/ai/ai-has-yet-to-hurt-sme-jobs-despite-massive-adoption-20260319",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "AI adoption by UK SMEs reaches 54% with no significant workforce impact",
+    "published_at": "2026-03-19T11:00:13+00:00",
+    "ingested_at": "2026-03-20T06:57:29.112533+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_82c745b366cd"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_081ec8af59b986ce",
+    "source_url": "https://www.uktech.news/fintech/ex-klarna-executive-joins-tides-c-suite-20260319",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "hiring_wave",
+    "signal_tier": "tier_1_strong",
+    "headline": "Bernie Miles, ex-Klarna executive, joins Tide as chief data and technology officer",
+    "published_at": "2026-03-19T10:00:45+00:00",
+    "ingested_at": "2026-03-20T06:57:30.566407+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.7,
+    "company_ids": [
+      "co_8a28929ac7f9"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_fe7b7820426d"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_d782fe93bb7f960d",
+    "source_url": "https://www.uktech.news/news/government-and-policy/northern-tech-sectors-to-receive-billion-pound-boost-20260319",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "expansion",
+    "signal_tier": "tier_1_strong",
+    "headline": "UK government announces \u00a31.7bn investment package for northern tech sectors",
+    "published_at": "2026-03-19T09:17:17+00:00",
+    "ingested_at": "2026-03-20T06:57:32.777323+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [],
+    "investor_ids": [
+      "inv_c6d98ffa6a60"
+    ],
+    "person_ids": [
+      "per_23c71b121b04"
+    ],
+    "metadata": {
+      "amount_usd": 2147500000,
+      "amount_raw": "\u00a31.7bn",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_b3980a24202287d6",
+    "source_url": "https://techcrunch.com/2026/03/19/bluesky-announces-100m-series-b-after-ceo-transition/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Bluesky announces $100M Series B after CEO transition",
+    "published_at": "2026-03-19T19:00:00+00:00",
+    "ingested_at": "2026-03-20T06:57:34.363544+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_41a37f5b02ea"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_4698c6ed"
+    ],
+    "metadata": {
+      "amount_usd": 100000000,
+      "amount_raw": "$100M",
+      "round_stage": "Series B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_56f0e54606224e9d",
+    "source_url": "https://techcrunch.com/2026/03/19/techcrunch-startup-battlefield-200-nominations-are-still-open/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "TechCrunch Startup Battlefield 200 nominations still open for startup competition",
+    "published_at": "2026-03-19T15:00:00+00:00",
+    "ingested_at": "2026-03-20T06:57:35.660469+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.35,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_6199531c57dd43e6",
+    "source_url": "https://techcrunch.com/2026/03/18/two-palantir-veterans-just-came-out-of-stealth-with-30-million-and-a-sequoia-stamp-of-approval/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Edra AI raises $30M Series A led by Sequoia with backing from 8VC and A*",
+    "published_at": "2026-03-19T06:11:53+00:00",
+    "ingested_at": "2026-03-20T06:57:38.507006+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_662d2a32a99b"
+    ],
+    "investor_ids": [
+      "inv_8aa206b0c985",
+      "inv_ec292616f239",
+      "inv_ab8fed5662b0"
+    ],
+    "person_ids": [
+      "per_047ccda24602",
+      "per_c10ba3c1734d",
+      "per_0f2db08b788a"
+    ],
+    "metadata": {
+      "amount_usd": 30000000,
+      "amount_raw": "$30M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_38c5941bde00e5a5",
+    "source_url": "https://www.deutsche-startups.de/2026/03/19/einklang-und-energiesysteme-werden-flexibel/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Einklang featured in #StartupsToWatch \u2013 energy systems becoming flexible",
+    "published_at": "2026-03-19T12:55:00+00:00",
+    "ingested_at": "2026-03-20T06:57:39.954732+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.35,
+    "company_ids": [
+      "co_93e0309012bb"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_4b6510f3843112cd",
+    "source_url": "https://www.deutsche-startups.de/2026/03/19/high-performance-wird-in-startups-oft-falsch-verstanden/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Guest article on high performance misunderstandings in startups",
+    "published_at": "2026-03-19T07:15:00+00:00",
+    "ingested_at": "2026-03-20T06:57:41.232609+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.2,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_f4789aaea8136b17",
+    "source_url": "https://siliconcanals.com/sc-a-i-grew-up-in-a-house-where-my-fathers-mood-determined-the-temperature-of-every-room-i-didnt-realize-until-my-thirties-that-id-married-someone-whose-moods-i-could-predict-because-unpredictability/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": null,
+    "published_at": "2026-03-20T05:05:07+00:00",
+    "ingested_at": "2026-03-20T06:57:42.307018+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_cdf78401e100e2d0",
+    "source_url": "https://siliconcanals.com/k-bt-research-suggests-that-people-who-talk-to-themselves-out-loud-while-problem-solving-arent-eccentric-theyre-accessing-a-cognitive-loop-that-processes-information-30-more-efficiently-than-in/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Research on cognitive benefits of talking aloud while problem-solving",
+    "published_at": "2026-03-20T01:00:12+00:00",
+    "ingested_at": "2026-03-20T06:57:43.776681+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_26a47bcd0901e2ff",
+    "source_url": "https://siliconcanals.com/gen-im-66-and-the-thing-i-regret-most-isnt-the-marriage-that-failed-or-the-job-i-quit-its-the-fifteen-years-i-spent-pretending-to-be-someone-my-father-would-approve-of-instead-of-becoming-the/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Personal reflection article on life regrets and authenticity",
+    "published_at": "2026-03-19T22:37:35+00:00",
+    "ingested_at": "2026-03-20T06:57:45.551644+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_7c6ca37adeba3cb6",
+    "source_url": "https://thenextweb.com/news/bluesky-raises-100m-series-b-as-new-ceo-takes-charge",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Bluesky raises $100M Series B led by Bain Capital Crypto as new CEO takes charge",
+    "published_at": "2026-03-19T20:12:52+00:00",
+    "ingested_at": "2026-03-20T06:57:49.070776+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_41a37f5b02ea"
+    ],
+    "investor_ids": [
+      "inv_9a23da5abe27",
+      "inv_66fd3bccc80d",
+      "inv_b80cfcaca663",
+      "inv_07fa9339e668",
+      "inv_45ae9c8dab49",
+      "inv_9472c9201a82"
+    ],
+    "person_ids": [
+      "per_4dd3ec6e623c",
+      "per_6c73e439acc5",
+      "per_149e96efddc4"
+    ],
+    "metadata": {
+      "amount_usd": 100000000,
+      "amount_raw": "$100M",
+      "round_stage": "Series B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_1d8ed383066ba19d",
+    "source_url": "https://thenextweb.com/news/doordash-launches-tasks",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "DoorDash launches Tasks platform for AI data collection and physical world digitization",
+    "published_at": "2026-03-19T19:58:41+00:00",
+    "ingested_at": "2026-03-20T06:57:50.992331+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_b0126946c556"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_9c8af08cb636"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_5f30cb522411ddf9",
+    "source_url": "https://thenextweb.com/news/your-inbox-is-someone-elses-business-model-it-doesnt-have-to-be",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Fastmail featured as privacy-focused email alternative to Gmail in TNW article",
+    "published_at": "2026-03-19T14:28:36+00:00",
+    "ingested_at": "2026-03-20T06:57:52.784912+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.3,
+    "company_ids": [
+      "co_0fc712a7cb8f"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_6f5d03d1da71dab6",
+    "source_url": "https://thenextweb.com/news/taceo-network-launch-private-computation-world-id",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Austrian startup TACEO launches private execution network for encrypted data computation, already live with World ID for 18M users",
+    "published_at": "2026-03-19T14:00:25+00:00",
+    "ingested_at": "2026-03-20T06:57:55.245035+00:00",
+    "geography": "DACH",
+    "country": "AT",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_de1b5090e5d5"
+    ],
+    "investor_ids": [
+      "inv_5e752db931eb",
+      "inv_e6eaf8f7a648"
+    ],
+    "person_ids": [
+      "per_978c32501ff9",
+      "per_d26210883d78"
+    ],
+    "metadata": {
+      "amount_usd": 5500000,
+      "amount_raw": "$5.5M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_b1d9177ba2c8e03e",
+    "source_url": "https://thenextweb.com/news/uber-rivian-robotaxi-deal-r2-autonomous",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Uber invests up to $1.25B in Rivian for exclusive robotaxi platform deployment across North America and Europe",
+    "published_at": "2026-03-19T12:25:13+00:00",
+    "ingested_at": "2026-03-20T06:57:57.775196+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7f902752c315"
+    ],
+    "investor_ids": [
+      "inv_74c860f63661"
+    ],
+    "person_ids": [
+      "per_0ed07e358f98",
+      "per_295afa0193a0"
+    ],
+    "metadata": {
+      "amount_usd": 1250000000,
+      "amount_raw": "$1.25B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_45e95c46b026d80b",
+    "source_url": "https://thenextweb.com/news/alpine-eagle-counter-drone-production-scaling-europe",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "expansion",
+    "signal_tier": "tier_1_strong",
+    "headline": "Alpine Eagle scaling counter-drone production with new 2,000 sqm facility and DeltaQuad partnership",
+    "published_at": "2026-03-19T09:58:26+00:00",
+    "ingested_at": "2026-03-20T06:58:00.062707+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_03355829e0c6"
+    ],
+    "investor_ids": [
+      "inv_389afaf62946",
+      "inv_56b77439d8ed",
+      "inv_3c7b4947fdc6",
+      "inv_ccb3d4a35c99",
+      "inv_737781796826",
+      "inv_990007ec2cd7"
+    ],
+    "person_ids": [
+      "per_2ad41c455c0d",
+      "per_f82c1c073a25"
+    ],
+    "metadata": {
+      "amount_usd": 11200000,
+      "amount_raw": "\u20ac10.25 million",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_69f5f484a3a9ee64",
+    "source_url": "https://thenextweb.com/news/eternal-ag-greenhouse-robot-8m-funding",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "eternal.ag raises \u20ac8M for autonomous greenhouse harvesting robots with simulation-first approach",
+    "published_at": "2026-03-19T09:26:17+00:00",
+    "ingested_at": "2026-03-20T06:58:02.636613+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_3c9e1e4d3620"
+    ],
+    "investor_ids": [
+      "inv_cddbc108b0fa",
+      "inv_914535a96c0e",
+      "inv_09cea40ca36b",
+      "inv_bdce02ee61f7"
+    ],
+    "person_ids": [
+      "per_4b95d99906ca",
+      "per_f296b2402f0d",
+      "per_7dc924a6bb50"
+    ],
+    "metadata": {
+      "amount_usd": 8800000,
+      "amount_raw": "\u20ac8 million",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_f0c0c8a490210ad4",
+    "source_url": "https://thenextweb.com/news/parallel-hospital-ai-agents-20m-index-ventures",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Parallel raises \u20ac20M Series A to deploy AI agents for hospital administrative work across Europe",
+    "published_at": "2026-03-19T09:07:28+00:00",
+    "ingested_at": "2026-03-20T06:58:06.697547+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_83a00300ad6a"
+    ],
+    "investor_ids": [
+      "inv_007",
+      "inv_4c452a70e138",
+      "inv_cefa8820",
+      "inv_054939044e71"
+    ],
+    "person_ids": [
+      "per_e5280d35f1ee",
+      "per_ca37721a28b4",
+      "per_1ac25b0c887d",
+      "per_f0c02048eaad",
+      "per_ee630e0714d1",
+      "per_b72b05821d29"
+    ],
+    "metadata": {
+      "amount_usd": 21600000,
+      "amount_raw": "\u20ac20M",
+      "round_stage": "Series A",
+      "currency": "EUR"
+    }
   }
 ]

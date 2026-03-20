@@ -1690,5 +1690,230 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "partner"
+  },
+  {
+    "id": "per_fe57048c7ee5",
+    "name": "Rapha\u00ebl Nahum",
+    "role": "CFO of Pennylane",
+    "company_id": "co_c96c14e093fc",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_d07954d95113",
+    "name": "R\u00e9gis Samu",
+    "role": "unknown",
+    "company_id": "co_c96c14e093fc",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_fe7b7820426d",
+    "name": "Bernie Miles",
+    "role": "Chief Data and Technology Officer",
+    "company_id": "co_8a28929ac7f9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_23c71b121b04",
+    "name": "The Chancellor",
+    "role": "Government official",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_047ccda24602",
+    "name": "Eugen Alpeza",
+    "role": "Founder",
+    "company_id": "co_662d2a32a99b",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_c10ba3c1734d",
+    "name": "Yannis Karamanlakis",
+    "role": "Founder",
+    "company_id": "co_662d2a32a99b",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_0f2db08b788a",
+    "name": "Kevin Hartz",
+    "role": "Founder of A*",
+    "company_id": "co_662d2a32a99b",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_4dd3ec6e623c",
+    "name": "Lantian Graber",
+    "role": "Founder, Chief Innovation Officer",
+    "company_id": "co_41a37f5b02ea",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_6c73e439acc5",
+    "name": "Toni Schneider",
+    "role": "Interim CEO",
+    "company_id": "co_41a37f5b02ea",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_9c8af08cb636",
+    "name": "Ethan Beatty",
+    "role": "General Manager of DoorDash Tasks",
+    "company_id": "co_b0126946c556",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_978c32501ff9",
+    "name": "Lukas Helminger",
+    "role": "CEO",
+    "company_id": "co_de1b5090e5d5",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_d26210883d78",
+    "name": "Christian Rechberger",
+    "role": "Co-founder and Chief Scientist",
+    "company_id": "co_de1b5090e5d5",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_0ed07e358f98",
+    "name": "Dara Khosrowshahi",
+    "role": "CEO",
+    "company_id": "co_7f902752c315",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_295afa0193a0",
+    "name": "RJ Scaringe",
+    "role": "Founder and CEO",
+    "company_id": "co_7f902752c315",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_2ad41c455c0d",
+    "name": "Jan-Hendrik Boelens",
+    "role": "Founder and CEO",
+    "company_id": "co_03355829e0c6",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_f82c1c073a25",
+    "name": "Timo Breuer",
+    "role": "Co-founder",
+    "company_id": "co_03355829e0c6",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_4b95d99906ca",
+    "name": "Renji John",
+    "role": "Co-founder",
+    "company_id": "co_3c9e1e4d3620",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_f296b2402f0d",
+    "name": "Sherry Kunjachan",
+    "role": "Co-founder and CTO",
+    "company_id": "co_3c9e1e4d3620",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_7dc924a6bb50",
+    "name": "Niklas Leske",
+    "role": "Principal at Simon Capital",
+    "company_id": "co_3c9e1e4d3620",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_e5280d35f1ee",
+    "name": "Paul Lafforgue",
+    "role": "Co-founder and CEO",
+    "company_id": "co_83a00300ad6a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_ca37721a28b4",
+    "name": "Christopher Rydahl",
+    "role": "Co-founder and CTO",
+    "company_id": "co_83a00300ad6a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_1ac25b0c887d",
+    "name": "Julia Andre",
+    "role": "Partner at Index Ventures",
+    "company_id": "co_83a00300ad6a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_f0c02048eaad",
+    "name": "Arthur Mensch",
+    "role": "CEO of Mistral AI",
+    "company_id": "co_83a00300ad6a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_ee630e0714d1",
+    "name": "Felix Blossier",
+    "role": "Co-founder of Pennylane",
+    "company_id": "co_83a00300ad6a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_b72b05821d29",
+    "name": "Quentin de Metz",
+    "role": "Co-founder of Pennylane",
+    "company_id": "co_83a00300ad6a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
   }
 ]

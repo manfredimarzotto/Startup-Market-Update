@@ -1,7 +1,43 @@
 [
   {
-    "id": "opp_20260319_001",
-    "generated_date": "2026-03-19",
+    "id": "opp_20260320_001",
+    "generated_date": "2026-03-20",
+    "company_id": "co_c21b66a958ed",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_24375e21305ed8ba",
+      "sig_eab3acc950aa762f",
+      "sig_407e264c41b13b6e"
+    ],
+    "contact_ids": [],
+    "opportunity_score": 60,
+    "score_breakdown": {
+      "events": 21,
+      "capital": 10,
+      "momentum": 19,
+      "sources": 10,
+      "geo_weight": 1.0
+    },
+    "ai_rationale": "\u20ac2.5M seed round \u00b7 cellulose-based superabsorbent materials for diapers and feminine hygiene \u00b7 3 sources",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "raises \u20ac2.5M seed funding for cellulose-based SAP alternative (3 sources)",
+        "time": "1d ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in DeepTech / CleanTech, Materials Science",
+        "time": ""
+      }
+    ],
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260320_002",
+    "generated_date": "2026-03-20",
     "company_id": "co_3bc5495c",
     "investor_id": null,
     "person_id": null,
@@ -11,15 +47,15 @@
       "sig_488088968cc2653b"
     ],
     "contact_ids": [],
-    "opportunity_score": 61,
+    "opportunity_score": 57,
     "score_breakdown": {
-      "events": 21,
+      "events": 17,
       "capital": 6,
       "momentum": 19,
       "sources": 15,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac232.4K angel funding \u00b7 culturally intelligent AI therapy \u00b7 3 sources \u00b7 Albanian-Finnish team.",
+    "ai_rationale": "\u20ac232-270K angel funding \u00b7 culturally intelligent AI therapy \u00b7 3 sources \u00b7 Albanian-Finnish team.",
     "triggers": [
       {
         "type": "funding",
@@ -41,35 +77,50 @@
     "status": "new"
   },
   {
-    "id": "opp_20260319_002",
-    "generated_date": "2026-03-19",
-    "company_id": "co_c21b66a958ed",
+    "id": "opp_20260320_003",
+    "generated_date": "2026-03-20",
+    "company_id": "co_7f902752c315",
     "investor_id": null,
     "person_id": null,
     "signal_ids": [
-      "sig_24375e21305ed8ba",
-      "sig_eab3acc950aa762f",
-      "sig_407e264c41b13b6e"
+      "sig_0b17c97a11367538",
+      "sig_10232bf65a6d3c0e",
+      "sig_7be5e006396f1815",
+      "sig_b1d9177ba2c8e03e"
     ],
-    "contact_ids": [],
-    "opportunity_score": 60,
+    "contact_ids": [
+      "per_d1278d327f58",
+      "per_0ed07e358f98",
+      "per_295afa0193a0"
+    ],
+    "opportunity_score": 57,
     "score_breakdown": {
-      "events": 21,
-      "capital": 10,
-      "momentum": 19,
+      "events": 25,
+      "capital": 14,
+      "momentum": 23,
       "sources": 10,
-      "geo_weight": 1.0
+      "geo_weight": 0.8
     },
-    "ai_rationale": "\u20ac2.5M seed funding \u00b7 cellulose-based superabsorbent materials for diapers and feminine hygiene \u00b7 3 sources",
+    "ai_rationale": "$15M Series A \u00b7 clinical trial data infrastructure \u00b7 4 sources \u00b7 Note: 1 signal references Rivian/Uber, not Rivia.",
     "triggers": [
       {
         "type": "funding",
-        "text": "raises \u20ac2.5M seed funding for cellulose-based SAP alternative (3 sources)",
+        "text": "raises $15M to build AI engine for clinical trial data (3 sources)",
+        "time": "1d ago"
+      },
+      {
+        "type": "growth",
+        "text": "Uber invests up to $1.25B in Rivian for exclusive robotaxi platform deployment\u2026",
         "time": "today"
       },
       {
         "type": "sector",
-        "text": "Active in DeepTech / CleanTech, Materials Science",
+        "text": "Active in HealthTech / Clinical Trial Intelligence",
+        "time": ""
+      },
+      {
+        "type": "growth",
+        "text": "HQ: Zurich, CH",
         "time": ""
       }
     ],
@@ -77,8 +128,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260319_003",
-    "generated_date": "2026-03-19",
+    "id": "opp_20260320_004",
+    "generated_date": "2026-03-20",
     "company_id": "co_835fb9db4493",
     "investor_id": null,
     "person_id": null,
@@ -104,7 +155,7 @@
       {
         "type": "funding",
         "text": "raises \u00a3750k pre-seed funding for AI-native creative workspace (4 sources)",
-        "time": "1d ago"
+        "time": "2d ago"
       },
       {
         "type": "sector",
@@ -121,8 +172,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260319_004",
-    "generated_date": "2026-03-19",
+    "id": "opp_20260320_005",
+    "generated_date": "2026-03-20",
     "company_id": "co_8b67990b5648",
     "investor_id": null,
     "person_id": null,
@@ -142,12 +193,12 @@
       "sources": 11,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$125M Series funding \u00b7 API investment platform \u00b7 \u20ac640M valuation \u00b7 3 sources \u00b7 led by Sapphire Ventures and Tencent.",
+    "ai_rationale": "$125M Series C \u00b7 API-based investment platform \u00b7 \u20ac640M valuation \u00b7 3 sources \u00b7 Sapphire Ventures and Tencent led round.",
     "triggers": [
       {
         "type": "funding",
         "text": "raises $125m from Tencent and Sapphire Ventures (3 sources)",
-        "time": "1d ago"
+        "time": "2d ago"
       },
       {
         "type": "sector",
@@ -159,8 +210,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260319_005",
-    "generated_date": "2026-03-19",
+    "id": "opp_20260320_006",
+    "generated_date": "2026-03-20",
     "company_id": "co_18402552",
     "investor_id": null,
     "person_id": null,
@@ -178,7 +229,7 @@
       "sources": 15,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$50M Series A \u00b7 software-powered manufacturing automation \u00b7 3 sources \u00b7 aerospace and energy sectors.",
+    "ai_rationale": "$50M Series A \u00b7 software-powered factory automation \u00b7 aerospace and energy sectors \u00b7 3 sources \u00b7 Europe's industrial manufacturing focus.",
     "triggers": [
       {
         "type": "funding",
@@ -195,8 +246,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260319_006",
-    "generated_date": "2026-03-19",
+    "id": "opp_20260320_007",
+    "generated_date": "2026-03-20",
     "company_id": "co_101e7df3b885",
     "investor_id": null,
     "person_id": null,
@@ -213,12 +264,12 @@
       "sources": 7,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac30M funding round \u00b7 electric flying ferries \u00b7 2 sources \u00b7 World Bank IFC backing",
+    "ai_rationale": "\u20ac30M funding round \u00b7 flying ferry technology \u00b7 2 sources \u00b7 electric vessel production expansion.",
     "triggers": [
       {
         "type": "funding",
         "text": "raises \u20ac30M from EQT and World Bank's IFC for electric vessel production\u2026",
-        "time": "today"
+        "time": "1d ago"
       },
       {
         "type": "sector",
@@ -230,8 +281,43 @@
     "status": "new"
   },
   {
-    "id": "opp_20260319_007",
-    "generated_date": "2026-03-19",
+    "id": "opp_20260320_008",
+    "generated_date": "2026-03-20",
+    "company_id": "co_b0423c21",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_0cd4b92e8088",
+      "sig_c5dc5757d1c9eb81"
+    ],
+    "contact_ids": [],
+    "opportunity_score": 51,
+    "score_breakdown": {
+      "events": 16,
+      "capital": 13,
+      "momentum": 14,
+      "sources": 8,
+      "geo_weight": 1.0
+    },
+    "ai_rationale": "$9M round \u00b7 AI-driven aircraft parts procurement \u00b7 2 sources \u00b7 modernisation focus.",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "raises $9M to modernise aircraft parts procurement with AI (2 sources)",
+        "time": "1w ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in AI/ML / Logistics, Procurement, Aviation",
+        "time": ""
+      }
+    ],
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260320_009",
+    "generated_date": "2026-03-20",
     "company_id": "co_a8dff0cf",
     "investor_id": null,
     "person_id": null,
@@ -241,15 +327,15 @@
       "sig_4772764ccb8e7166"
     ],
     "contact_ids": [],
-    "opportunity_score": 51,
+    "opportunity_score": 48,
     "score_breakdown": {
-      "events": 21,
+      "events": 17,
       "capital": 11,
       "momentum": 19,
       "sources": 13,
       "geo_weight": 0.8
     },
-    "ai_rationale": "finperks raises \u20ac4M for prepaid payments API infrastructure \u00b7 global prepaid market \u00b7 3 sources",
+    "ai_rationale": "Finperks raises \u20ac4M \u00b7 prepaid payments API infrastructure \u00b7 3 sources \u00b7 global prepaid market focus.",
     "triggers": [
       {
         "type": "funding",
@@ -271,86 +357,46 @@
     "status": "new"
   },
   {
-    "id": "opp_20260319_008",
-    "generated_date": "2026-03-19",
-    "company_id": "co_b0423c21",
-    "investor_id": null,
+    "id": "opp_20260320_010",
+    "generated_date": "2026-03-20",
+    "company_id": null,
+    "investor_id": "inv_c6d98ffa6a60",
     "person_id": null,
     "signal_ids": [
-      "sig_0cd4b92e8088",
-      "sig_c5dc5757d1c9eb81"
-    ],
-    "contact_ids": [],
-    "opportunity_score": 51,
-    "score_breakdown": {
-      "events": 16,
-      "capital": 13,
-      "momentum": 14,
-      "sources": 8,
-      "geo_weight": 1.0
-    },
-    "ai_rationale": "$9M round \u00b7 AI-driven aircraft parts procurement \u00b7 2 sources \u00b7 airline MRO modernisation.",
-    "triggers": [
-      {
-        "type": "funding",
-        "text": "raises $9M to modernise aircraft parts procurement with AI (2 sources)",
-        "time": "6d ago"
-      },
-      {
-        "type": "sector",
-        "text": "Active in AI/ML / Logistics, Procurement, Aviation",
-        "time": ""
-      }
-    ],
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260319_009",
-    "generated_date": "2026-03-19",
-    "company_id": "co_7f902752c315",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_0b17c97a11367538",
-      "sig_10232bf65a6d3c0e",
-      "sig_7be5e006396f1815"
+      "sig_4685bb84cacba262",
+      "sig_d782fe93bb7f960d"
     ],
     "contact_ids": [
-      "per_d1278d327f58"
+      "per_7bf354a93c1f",
+      "per_23c71b121b04"
     ],
-    "opportunity_score": 51,
+    "opportunity_score": 48,
     "score_breakdown": {
-      "events": 21,
-      "capital": 14,
-      "momentum": 19,
-      "sources": 10,
+      "events": 16,
+      "capital": 24,
+      "momentum": 18,
+      "sources": 2,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$15M Series A \u00b7 clinical trial data AI infrastructure \u00b7 3 sources \u00b7 agentic AI agents for trial management.",
+    "ai_rationale": "\u00a32bn quantum computing procurement \u00b7 \u00a31.7bn northern tech investment \u00b7 2 sources \u00b7 dual sector focus.",
     "triggers": [
       {
         "type": "funding",
-        "text": "raises $15M to build AI engine for clinical trial data (3 sources)",
-        "time": "today"
-      },
-      {
-        "type": "sector",
-        "text": "Active in HealthTech / Clinical Trial Intelligence",
-        "time": ""
+        "text": "to invest \u00a32bn in quantum computing procurement programme",
+        "time": "2d ago"
       },
       {
         "type": "growth",
-        "text": "HQ: Zurich, CH",
-        "time": ""
+        "text": "announces \u00a31.7bn investment package for northern tech sectors",
+        "time": "today"
       }
     ],
-    "entity_type": "company",
+    "entity_type": "investor",
     "status": "new"
   },
   {
-    "id": "opp_20260319_010",
-    "generated_date": "2026-03-19",
+    "id": "opp_20260320_011",
+    "generated_date": "2026-03-20",
     "company_id": "co_22dc0248",
     "investor_id": null,
     "person_id": null,
@@ -374,7 +420,7 @@
       "sources": 25,
       "geo_weight": 0.5
     },
-    "ai_rationale": "$550M Series D \u00b7 Legora legal AI \u00b7 $5.55B valuation \u00b7 7 sources \u00b7 Canadian acquisition included.",
+    "ai_rationale": "$550M Series D \u00b7 Legal AI platform \u00b7 $5.55B valuation \u00b7 7 sources \u00b7 North America expansion underway.",
     "triggers": [
       {
         "type": "funding",
@@ -384,7 +430,7 @@
       {
         "type": "competitor",
         "text": "Swedish Legora acquires Canadian legal tech startup Walter AI to expand\u2026",
-        "time": "5d ago"
+        "time": "6d ago"
       },
       {
         "type": "sector",
@@ -396,45 +442,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260319_011",
-    "generated_date": "2026-03-19",
-    "company_id": "co_0d6f5cbe",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_544676f48e41",
-      "sig_37320fd0d57c"
-    ],
-    "contact_ids": [
-      "per_e0066de4"
-    ],
-    "opportunity_score": 46,
-    "score_breakdown": {
-      "events": 12,
-      "capital": 19,
-      "momentum": 18,
-      "sources": 9,
-      "geo_weight": 0.8
-    },
-    "ai_rationale": "$200M fundraise \u00b7 Entrepreneurs First reaches unicorn status \u00b7 2 sources \u00b7 India neobank Fi winds down banking services.",
-    "triggers": [
-      {
-        "type": "funding",
-        "text": "reaches unicorn status with $200M fundraise",
-        "time": "1w ago"
-      },
-      {
-        "type": "sector",
-        "text": "India neobank Fi winds down banking services on its platform",
-        "time": "1w ago"
-      }
-    ],
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260319_012",
-    "generated_date": "2026-03-19",
+    "id": "opp_20260320_012",
+    "generated_date": "2026-03-20",
     "company_id": "co_f9d373cb",
     "investor_id": null,
     "person_id": null,
@@ -451,12 +460,12 @@
       "sources": 10,
       "geo_weight": 0.8
     },
-    "ai_rationale": "Tropic raises \u20ac91.3M Series C \u00b7 gene-edited tropical crops \u00b7 2 sources \u00b7 commercialisation phase",
+    "ai_rationale": "Tropic raises \u20ac91.3M Series C \u00b7 gene-edited tropical crops \u00b7 2 sources \u00b7 commercialisation focus",
     "triggers": [
       {
         "type": "funding",
         "text": "secures $105m Series C funding for gene-edited tropical crops\u2026",
-        "time": "5d ago"
+        "time": "6d ago"
       },
       {
         "type": "sector",
@@ -473,8 +482,45 @@
     "status": "new"
   },
   {
-    "id": "opp_20260319_013",
-    "generated_date": "2026-03-19",
+    "id": "opp_20260320_013",
+    "generated_date": "2026-03-20",
+    "company_id": "co_0d6f5cbe",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_544676f48e41",
+      "sig_37320fd0d57c"
+    ],
+    "contact_ids": [
+      "per_e0066de4"
+    ],
+    "opportunity_score": 45,
+    "score_breakdown": {
+      "events": 11,
+      "capital": 19,
+      "momentum": 18,
+      "sources": 9,
+      "geo_weight": 0.8
+    },
+    "ai_rationale": "$200M fundraise \u00b7 Entrepreneurs First reaches unicorn status \u00b7 2 sources \u00b7 India neobank Fi winds down services.",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "reaches unicorn status with $200M fundraise",
+        "time": "1w ago"
+      },
+      {
+        "type": "sector",
+        "text": "India neobank Fi winds down banking services on its platform",
+        "time": "1w ago"
+      }
+    ],
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260320_014",
+    "generated_date": "2026-03-20",
     "company_id": "co_eb6cf0bb",
     "investor_id": null,
     "person_id": null,
@@ -503,25 +549,25 @@
       "sources": 17,
       "geo_weight": 0.5
     },
-    "ai_rationale": "Nscale raises $2B Series C at $14.6B valuation \u00b7 AI hyperscaler \u00b7 6 sources \u00b7 1.35GW Microsoft compute deal signed.",
+    "ai_rationale": "$2B Series C at $14.6bn valuation \u00b7 AI compute infrastructure \u00b7 6 sources \u00b7 1.35GW Microsoft deal signed.",
     "triggers": [
       {
         "type": "funding",
         "text": "raises $2B in funding round (4 sources)",
-        "time": "5d ago"
+        "time": "6d ago"
       },
       {
         "type": "growth",
         "text": "acquires US data centre site and signs AI compute deal with Microsoft (2\u2026",
-        "time": "1d ago"
+        "time": "2d ago"
       }
     ],
     "entity_type": "company",
     "status": "new"
   },
   {
-    "id": "opp_20260319_014",
-    "generated_date": "2026-03-19",
+    "id": "opp_20260320_015",
+    "generated_date": "2026-03-20",
     "company_id": "co_c53f2ad989fe",
     "investor_id": null,
     "person_id": null,
@@ -544,12 +590,12 @@
       "sources": 10,
       "geo_weight": 0.7
     },
-    "ai_rationale": "\u20ac1.8M seed round \u00b7 AI-powered blue-collar recruitment \u00b7 3 sources \u00b7 led by Volta Ventures.",
+    "ai_rationale": "\u20ac1.8M seed round \u00b7 AI-powered blue-collar recruitment \u00b7 3 sources \u00b7 Volta Ventures led.",
     "triggers": [
       {
         "type": "funding",
         "text": "Ghent startup Ringtime raises \u20ac1.8M to automate blue-collar recruitment calls\u2026",
-        "time": "today"
+        "time": "1d ago"
       },
       {
         "type": "sector",
@@ -559,40 +605,6 @@
       {
         "type": "growth",
         "text": "HQ: Ghent, BE",
-        "time": ""
-      }
-    ],
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260319_015",
-    "generated_date": "2026-03-19",
-    "company_id": "co_cc072325327d",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_c2c5595a51727f06"
-    ],
-    "contact_ids": [],
-    "opportunity_score": 41,
-    "score_breakdown": {
-      "events": 12,
-      "capital": 15,
-      "momentum": 9,
-      "sources": 5,
-      "geo_weight": 1.0
-    },
-    "ai_rationale": "\u20ac30M Series A \u00b7 Estonian missile manufacturer \u00b7 Plural led \u00b7 1 source",
-    "triggers": [
-      {
-        "type": "funding",
-        "text": "Estonian missile manufacturer Frankenburg Technologies raises \u20ac30M Series A\u2026",
-        "time": "6d ago"
-      },
-      {
-        "type": "sector",
-        "text": "Active in DeepTech / Defence Technology",
         "time": ""
       }
     ],
