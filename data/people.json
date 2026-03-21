@@ -1915,5 +1915,266 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "partner"
+  },
+  {
+    "id": "per_c6faf04b8c6a",
+    "name": "Julia Sabitova",
+    "role": "co-founder",
+    "company_id": "co_fb4d9cf56efd",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_286e0a11f90b",
+    "name": "Jorn Lambert",
+    "role": "Chief Product Officer",
+    "company_id": "co_0337327b69a2",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_ff32d69a5eef",
+    "name": "Melvis Langyintuo",
+    "role": "Executive Director, Canton Foundation",
+    "company_id": "co_0337327b69a2",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_e64034f6c96e",
+    "name": "Charles Buckworth",
+    "role": "Partner at RPC",
+    "company_id": "co_0337327b69a2",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_a38448bc7d32",
+    "name": "Simon Jones",
+    "role": "Co-Founder and CEO at Sumvin, Inc.",
+    "company_id": "co_0337327b69a2",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_c0751223eb7c",
+    "name": "Shantnoo Saxsena",
+    "role": "CEO and Founder, Encryptus",
+    "company_id": "co_0337327b69a2",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_3654763d5ced",
+    "name": "Bjarni Thor Sigurdsson",
+    "role": "Chief Commercial Officer, PAYSTRAX",
+    "company_id": "co_0337327b69a2",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_064d4cf4efcb",
+    "name": "Sid Powell",
+    "role": "CEO and Co-Founder, Maple",
+    "company_id": "co_0337327b69a2",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_d129ddc05a67",
+    "name": "Suzanna Chaplin",
+    "role": "Founder and CEO",
+    "company_id": "co_7aa5532a3517",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_49f0ea2d7cca",
+    "name": "James Taylor",
+    "role": "Founder and CEO",
+    "company_id": "co_a2172dc83d21",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_a2eacc2ad3a7",
+    "name": "Harriet Rees",
+    "role": "Group Chief Information Officer",
+    "company_id": "co_e5e194ff558e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_f39b99ff9e7b",
+    "name": "Raman Bhatia",
+    "role": "Group Chief Executive",
+    "company_id": "co_e5e194ff558e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_7d459a477184",
+    "name": "Graham Drury",
+    "role": "Director of FSI at Google Cloud UK and Ireland",
+    "company_id": "co_e5e194ff558e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_8ab61c307592",
+    "name": "Peter Millenaar",
+    "role": "CEO",
+    "company_id": "co_4dd7ac5a1227",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_5823d000aa8d",
+    "name": "Rieks Kampman",
+    "role": "Co-founder",
+    "company_id": "co_4dd7ac5a1227",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_af5d7e16b161",
+    "name": "Martijn van Alphen",
+    "role": "Co-founder",
+    "company_id": "co_4dd7ac5a1227",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_f5e6c75ffa4d",
+    "name": "Matt Curl",
+    "role": "CEO",
+    "company_id": "co_f8692631bf5a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_f541178b6d0d",
+    "name": "Tim Zheng",
+    "role": "Co-founder, Chairman",
+    "company_id": "co_f8692631bf5a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_623b88a499e7",
+    "name": "Alexa Grabell",
+    "role": "CEO",
+    "company_id": "co_f8692631bf5a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_a6e2d255f389",
+    "name": "Isaac Pohl-Zaretsky",
+    "role": "Co-founder, CTO",
+    "company_id": "co_f8692631bf5a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_809a9c4450a7",
+    "name": "Kristen Valdes",
+    "role": "Founder and CEO",
+    "company_id": "co_45d780f82c92",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_c0efce0a4d11",
+    "name": "\u0141ukasz Dziekoski",
+    "role": "Managing Partner",
+    "company_id": "co_1ce4315e9e59",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_b87b2f004176",
+    "name": "Wojciech Szwankowski",
+    "role": "Managing Partner",
+    "company_id": "co_1ce4315e9e59",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_f4cd726b6735",
+    "name": "Micha\u0142 Gaw\u0119da",
+    "role": "Managing Partner",
+    "company_id": "co_1ce4315e9e59",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_c9368e47feab",
+    "name": "Micha\u0142 Ba\u015b",
+    "role": "Partner",
+    "company_id": "co_1ce4315e9e59",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_de3e528da825",
+    "name": "Taavi R\u00f5ivas",
+    "role": "Venture Partner",
+    "company_id": "co_1ce4315e9e59",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_9046c20fe50c",
+    "name": "Tomasz Misiak",
+    "role": "Venture Partner",
+    "company_id": "co_1ce4315e9e59",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_efb55c3f2a44",
+    "name": "Bart Dujczynski",
+    "role": "Venture Partner",
+    "company_id": "co_1ce4315e9e59",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_0cfc686dd3be",
+    "name": "Bart\u0142omiej Samsonowicz",
+    "role": "Investment Director at PFR Ventures",
+    "company_id": "co_1ce4315e9e59",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
   }
 ]
