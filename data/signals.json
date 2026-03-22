@@ -10309,5 +10309,67 @@
       "amount_raw": "\u20ac50M",
       "currency": "EUR"
     }
+  },
+  {
+    "id": "sig_1008fffa40a7638d",
+    "source_url": "https://siliconcanals.com/sc-a-the-person-in-your-life-who-never-panics-never-raises-their-voice-and-always-has-a-plan-isnt-naturally-calm-theyre-running-an-entire-operating-system-that-was-built-in-a-house-where-someone-elses/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Opinion piece on psychological resilience and childhood trauma",
+    "published_at": "2026-03-22T05:34:54+00:00",
+    "ingested_at": "2026-03-22T06:52:32.327253+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_a38b7f31825e2c62",
+    "source_url": "https://siliconcanals.com/k-bt-adults-who-reach-their-60s-without-close-friends-arent-the-ones-who-couldnt-maintain-connection-theyre-often-the-ones-who-maintained-every-connection-single-handedly-for-decades-until-the/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Opinion piece on adult friendships and social isolation",
+    "published_at": "2026-03-22T02:00:23+00:00",
+    "ingested_at": "2026-03-22T06:52:34.063233+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_188a06f3998c"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_8aebbbec2b9839c7",
+    "source_url": "https://siliconcanals.com/a-research-suggests-the-most-effective-way-to-shut-down-a-manipulator-isnt-arguing-with-their-logic-its-refusing-to-participate-in-the-emotional-transaction-theyre-trying-to-create/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Psychology research on manipulator tactics and emotional responses",
+    "published_at": "2026-03-22T00:00:43+00:00",
+    "ingested_at": "2026-03-22T06:52:35.556753+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.05,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
   }
 ]
