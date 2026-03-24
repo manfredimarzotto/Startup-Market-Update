@@ -10371,5 +10371,1208 @@
     "investor_ids": [],
     "person_ids": [],
     "metadata": {}
+  },
+  {
+    "id": "sig_0cba19a0766af846",
+    "source_url": "https://sifted.eu/articles/stateful-robotics-funding-round/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Oxford spinout secures funding from Amadeus Capital and OSE to address long-term memory challenges in robotics",
+    "published_at": "2026-03-24T05:00:57+00:00",
+    "ingested_at": "2026-03-24T07:06:23.047755+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.85,
+    "company_ids": [],
+    "investor_ids": [
+      "inv_e22562fcd848",
+      "inv_699a9f9d57b2"
+    ],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_7fddda7a901c1c62",
+    "source_url": "https://sifted.eu/articles/the-top-investors-behind-sifteds-uk-ireland-leaderboard/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Sifted publishes UK & Ireland investor leaderboard rankings",
+    "published_at": "2026-03-23T05:00:52+00:00",
+    "ingested_at": "2026-03-24T07:06:24.424525+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.2,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_b8c39226b627382a",
+    "source_url": "https://sifted.eu/articles/egide-8m-seed-round-exclusive/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Air defence startup Egide raises \u20ac8m seed round",
+    "published_at": "2026-03-23T05:00:38+00:00",
+    "ingested_at": "2026-03-24T07:06:26.162302+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_c8b367f73144"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 8700000,
+      "amount_raw": "\u20ac8m",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_67cdc34e78a6bb64",
+    "source_url": "https://sifted.eu/articles/360-capital-85m-deeptech-fund/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "360 Capital raises \u20ac85m for deeptech fund backed by European defence prime",
+    "published_at": "2026-03-23T05:00:24+00:00",
+    "ingested_at": "2026-03-24T07:06:28.332002+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_a3da2604ab68"
+    ],
+    "investor_ids": [
+      "inv_51d2e086ab51"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 92000000,
+      "amount_raw": "\u20ac85m",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_83d363f34841695a",
+    "source_url": "https://tech.eu/2026/03/23/credo-ventures-raises-88m-fund-5-to-double-down-on-pre-seed-in-cee-and-its-global-diaspora/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Credo Ventures closes $88M Fund 5 focused on pre-seed investments in CEE founders",
+    "published_at": "2026-03-23T15:29:39+00:00",
+    "ingested_at": "2026-03-24T07:06:30.838668+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_2e76675b3714"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 88000000,
+      "amount_raw": "$88M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_07b716af1979c2cb",
+    "source_url": "https://tech.eu/2026/03/23/from-a-15000-step-walk-to-a-global-movement-how-walk15-is-turning-steps-into-currency/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "expansion",
+    "signal_tier": "tier_2_medium",
+    "headline": "Walk15 reaches 31% population penetration in Lithuania as walking platform expands globally",
+    "published_at": "2026-03-23T13:16:09+00:00",
+    "ingested_at": "2026-03-24T07:06:32.330273+00:00",
+    "geography": "Southern Europe",
+    "country": "",
+    "ai_confidence": 0.6,
+    "company_ids": [
+      "co_8fad068693c5"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_5b7063c0dced29c2",
+    "source_url": "https://tech.eu/2026/03/23/interloom-raises-165m-to-develop-enterprise-memory-for-ai-agents/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Interloom raises $16.5M seed funding for enterprise AI agent memory platform",
+    "published_at": "2026-03-23T12:30:00+00:00",
+    "ingested_at": "2026-03-24T07:06:33.936682+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_b09ce20d7635"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 16500000,
+      "amount_raw": "$16.5M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_b0fcdd8be7d05800",
+    "source_url": "https://tech.eu/2026/03/23/adzuna-acquires-trovit-and-mitula-jobs-businesses-to-expand-global-footprint/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Adzuna acquires Trovit and Mitula jobs businesses from Lifull Connect to expand global reach",
+    "published_at": "2026-03-23T11:01:00+00:00",
+    "ingested_at": "2026-03-24T07:06:35.317145+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_754c9642baa5"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_4ff2fe50733d68bd",
+    "source_url": "https://tech.eu/2026/03/23/french-defencetech-egide-raises-eur8m-seed-round-to-build-affordable-interceptor-systems-for-modern-warfare/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "French defencetech EGIDE raises \u20ac8M seed round led by Expeditions, Eurazeo, and Heartcore Capital",
+    "published_at": "2026-03-23T10:37:52+00:00",
+    "ingested_at": "2026-03-24T07:06:37.123512+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_c8b367f73144"
+    ],
+    "investor_ids": [
+      "inv_3c7b4947fdc6",
+      "inv_f4afeb698ce0",
+      "inv_468505069152",
+      "inv_4439b2ef",
+      "inv_2d54250bd567"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 8800000,
+      "amount_raw": "\u20ac8M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_86b22efb1749354c",
+    "source_url": "https://tech.eu/2026/03/23/newly-secures-2m-in-funding-to-advance-native-app-creation-platform/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Newly raises $2M+ to advance native app creation platform",
+    "published_at": "2026-03-23T10:00:00+00:00",
+    "ingested_at": "2026-03-24T07:06:38.692280+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_9a290a882789"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2000000,
+      "amount_raw": "$2M+",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_a5fd0531eb92969c",
+    "source_url": "https://tech.eu/2026/03/23/nathan-benaich-s-air-street-raises-232m-fund-iii-becoming-europe-s-largest-solo-gp-venture-firm/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Air Street Capital raises $232M for Fund III, becoming Europe's largest solo GP venture firm",
+    "published_at": "2026-03-23T09:47:45+00:00",
+    "ingested_at": "2026-03-24T07:06:41.969869+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7187cc05cd24"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_fa38d16a789c"
+    ],
+    "metadata": {
+      "amount_usd": 232000000,
+      "amount_raw": "$232M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_801c10af42de216e",
+    "source_url": "https://tech.eu/2026/03/23/european-tech-weekly-recap-more-than-55-tech-funding-deals-worth-over-eur504m/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "European tech sector records 55+ funding deals worth \u20ac504M in weekly tracking",
+    "published_at": "2026-03-23T09:00:00+00:00",
+    "ingested_at": "2026-03-24T07:06:43.748790+00:00",
+    "geography": "DACH | Nordics | Benelux | Southern Europe | UK",
+    "country": "",
+    "ai_confidence": 0.4,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 546000000,
+      "amount_raw": "\u20ac504M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_c1b599c76733c070",
+    "source_url": "https://news.crunchbase.com/business/us-startup-funding-slows-march-2026-data/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "US startup funding declines in March due to fewer AI megarounds closing",
+    "published_at": "2026-03-23T17:36:14+00:00",
+    "ingested_at": "2026-03-24T07:06:45.186812+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_1749fc1654178070",
+    "source_url": "https://news.crunchbase.com/startups/missed-state-federal-tax-credits-garba-burkland/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Tax credit planning guidance for startups to reduce costs and extend runway",
+    "published_at": "2026-03-23T11:00:25+00:00",
+    "ingested_at": "2026-03-24T07:06:46.586141+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_26e824526333"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_4961b06d0a280d17",
+    "source_url": "https://techfundingnews.com/foreverland%e2%80%91italian%e2%80%91chocolate%e2%80%91without%e2%80%91cocoa%e2%80%91startup%e2%80%91raises%e2%80%916m/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Italian chocolate startup Foreverland raises \u20ac6M from Maia Ventures and Kost Capital",
+    "published_at": "2026-03-24T06:00:00+00:00",
+    "ingested_at": "2026-03-24T07:06:48.290850+00:00",
+    "geography": "Southern Europe",
+    "country": "IT",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_5282f6a28064"
+    ],
+    "investor_ids": [
+      "inv_9e60365f2489",
+      "inv_220670610890"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 6600000,
+      "amount_raw": "\u20ac6M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_f0c79ef46c920447",
+    "source_url": "https://techfundingnews.com/after-viral-martial-arts-demos-unitree-robotics-files-for-610m-ipo-in-shanghai/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Unitree Robotics files for $610M IPO on Shanghai Stock Exchange following viral martial arts demonstrations",
+    "published_at": "2026-03-23T17:19:35+00:00",
+    "ingested_at": "2026-03-24T07:06:49.634069+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_24794a38bd06"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 610000000,
+      "amount_raw": "$610M",
+      "round_stage": "IPO",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_5bb66d397ab99a46",
+    "source_url": "https://techfundingnews.com/expert-comment-jeff-bezos-in-early-talks-to-raise-100b-for-ai-automation-fund/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_2_medium",
+    "headline": "Jeff Bezos in early talks to raise $100B for AI automation fund",
+    "published_at": "2026-03-23T16:12:00+00:00",
+    "ingested_at": "2026-03-24T07:06:51.477818+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.75,
+    "company_ids": [],
+    "investor_ids": [
+      "inv_84696fb64613"
+    ],
+    "person_ids": [
+      "per_84696fb64613"
+    ],
+    "metadata": {
+      "amount_usd": 100000000000,
+      "amount_raw": "$100B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_6c889a2d15d7490b",
+    "source_url": "https://techfundingnews.com/cloudberry-ventures-raises-e50m-to-back-ai-compute-and-infrastructure-startups-from-seed-to-series-a/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Cloudberry Ventures launches \u20ac50M fund for AI, compute and infrastructure startups",
+    "published_at": "2026-03-23T15:55:03+00:00",
+    "ingested_at": "2026-03-24T07:06:52.968670+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_d039c7c2bb6e"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 54500000,
+      "amount_raw": "\u20ac50M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_444156a0978be00e",
+    "source_url": "https://techfundingnews.com/nebius-raises-4-3b-to-expand-ai-infrastructure-just-a-week-after-announcing-nvidia-meta-deals/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Nebius raises $4.3B for AI infrastructure expansion following Nvidia and Meta partnership announcements",
+    "published_at": "2026-03-23T13:26:44+00:00",
+    "ingested_at": "2026-03-24T07:06:54.518631+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_59719e65a648"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4300000000,
+      "amount_raw": "$4.3B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_04ce3394335eb902",
+    "source_url": "https://techfundingnews.com/dash0-becomes-a-unicorn-after-balderton-led-110m-round-counts-zalando-and-taco-bell-as-customers/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Dash0 reaches unicorn status with $110M Balderton-led funding round",
+    "published_at": "2026-03-23T12:26:13+00:00",
+    "ingested_at": "2026-03-24T07:06:56.135063+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_3e55ccf4e492"
+    ],
+    "investor_ids": [
+      "inv_005"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 110000000,
+      "amount_raw": "$110M",
+      "currency": "USD",
+      "valuation": 1000000000
+    }
+  },
+  {
+    "id": "sig_0d1e0a6bc245a2d0",
+    "source_url": "https://techfundingnews.com/amazon-backed-x-energy-files-for-ipo-hot-on-the-heels-of-1-4b-raise-to-scale-small-modular-nuclear-reactors/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "X-Energy files for IPO following $1.4B funding round to scale small modular nuclear reactors",
+    "published_at": "2026-03-23T11:59:28+00:00",
+    "ingested_at": "2026-03-24T07:06:57.582863+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_4af85202363f"
+    ],
+    "investor_ids": [
+      "inv_cbc62794911f"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1400000000,
+      "amount_raw": "$1.4B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_a4cebc6912530542",
+    "source_url": "https://techfundingnews.com/partech-backs-happy-pays-5m-round-to-scale-interest-free-bnpl-in-south-africa/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Partech leads $5M funding round for Happy Pay's interest-free BNPL platform in South Africa",
+    "published_at": "2026-03-23T11:22:00+00:00",
+    "ingested_at": "2026-03-24T07:06:59.399927+00:00",
+    "geography": "Southern Europe",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_ae5fddf2a4a4"
+    ],
+    "investor_ids": [
+      "inv_4d84920d"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 5000000,
+      "amount_raw": "$5M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_6973badb5946c364",
+    "source_url": "https://www.uktech.news/foodtech/huel-agrees-to-870m-takeover-deal-20260323",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "French food group Danone acquires British nutrition tech company Huel for \u00a3870m",
+    "published_at": "2026-03-23T14:00:30+00:00",
+    "ingested_at": "2026-03-24T07:07:01.622388+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_226de4441720"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_822f523bd820",
+      "per_04b21555db55",
+      "per_219c4097ddda",
+      "per_c57a0485b7e7"
+    ],
+    "metadata": {
+      "amount_usd": 1087000000,
+      "amount_raw": "\u20ac1bn (\u00a3870m)",
+      "currency": "EUR",
+      "valuation": 1087000000
+    }
+  },
+  {
+    "id": "sig_2ab73f50b8ad36ef",
+    "source_url": "https://www.uktech.news/news/government-and-policy/palantir-handed-sensitive-uk-financial-data-in-fca-deal-20260323",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Palantir secures contract with UK Financial Conduct Authority to combat fraud using AI",
+    "published_at": "2026-03-23T12:04:16+00:00",
+    "ingested_at": "2026-03-24T07:07:03.834020+00:00",
+    "geography": "UK",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_db423281"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_e4ccfb2347e8"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_c1f3bd9801f981b7",
+    "source_url": "https://www.uktech.news/news/investment-news/air-street-capitals-new-175m-fund-to-back-ai-first-companies-20260323",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Air Street Capital raises \u00a3175m third fund for AI-first companies in Europe and North America",
+    "published_at": "2026-03-23T11:01:17+00:00",
+    "ingested_at": "2026-03-24T07:07:06.127248+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7187cc05cd24"
+    ],
+    "investor_ids": [
+      "inv_7187cc05cd24"
+    ],
+    "person_ids": [
+      "per_fa38d16a789c"
+    ],
+    "metadata": {
+      "amount_usd": 220000000,
+      "amount_raw": "\u00a3175m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_cf9dfa1c6c3cb26f",
+    "source_url": "https://www.uktech.news/news/investment-news/ex-google-exec-launches-43m-ai-venture-fund-20260323",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Ex-Google executive Mahir Sahin launches \u20ac50m venture fund targeting European deep tech",
+    "published_at": "2026-03-23T09:27:41+00:00",
+    "ingested_at": "2026-03-24T07:07:08.112049+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_d039c7c2bb6e"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_8e3f29005939"
+    ],
+    "metadata": {
+      "amount_usd": 54500000,
+      "amount_raw": "\u20ac50m (\u00a343.3m)",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_e2790ef21d82dbaf",
+    "source_url": "https://techcrunch.com/2026/03/23/air-street-becomes-one-of-the-largest-solo-vcs-in-europe-with-232m-fund/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Air Street Capital raises $232M Fund III, becoming one of Europe's largest solo VC firms",
+    "published_at": "2026-03-23T22:36:39+00:00",
+    "ingested_at": "2026-03-24T07:07:09.935051+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7187cc05cd24"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_fa38d16a789c",
+      "per_64c46dff"
+    ],
+    "metadata": {
+      "amount_usd": 232000000,
+      "amount_raw": "$232M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_b355ff61c2b31993",
+    "source_url": "https://techcrunch.com/2026/03/23/startup-gimlet-labs-is-solving-the-ai-inference-bottleneck-in-a-surprisingly-elegant-way/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Gimlet Labs solving AI inference bottleneck with elegant approach",
+    "published_at": "2026-03-23T16:00:00+00:00",
+    "ingested_at": "2026-03-24T07:07:11.371153+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.2,
+    "company_ids": [
+      "co_db46aef037a2"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_87842eff"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_48946175a5e0f9ca",
+    "source_url": "https://www.deutsche-startups.de/2026/03/23/upvest-erhaelt-125-millionen-wesort-ai-sammelt-10-millionen-ein-logistikbude-bekommt-5-millionen/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Upvest raises \u20ac125M; WeSort.AI raises \u20ac10M; Logistikbude raises \u20ac5M",
+    "published_at": "2026-03-23T14:55:00+00:00",
+    "ingested_at": "2026-03-24T07:07:13.113388+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_8b67990b5648"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 135625000,
+      "amount_raw": "125 Millionen",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_838c914c88625b17",
+    "source_url": "https://www.deutsche-startups.de/2026/03/23/5-neue-startups-nurdu-dynamobot-b3st-accounting-tasty-petfood-ava/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_3_weak",
+    "headline": "Five new startups featured: nurdu, DynamoBot, B3ST Accounting, tasty petfood, Ava",
+    "published_at": "2026-03-23T12:55:00+00:00",
+    "ingested_at": "2026-03-24T07:07:14.863649+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.35,
+    "company_ids": [
+      "co_9e1d3d3f4d42"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_b1bab5f064a33827",
+    "source_url": "https://www.deutsche-startups.de/2026/03/23/freshx-technology-tado-ipo-taxfix-personio-spacetech/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Startup ticker listing mentions of FreshX Technology, tado, IPO, Taxfix, Personio, and SpaceTech",
+    "published_at": "2026-03-23T10:56:00+00:00",
+    "ingested_at": "2026-03-24T07:07:18.416980+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_4d64cebe05c19253",
+    "source_url": "https://www.deutsche-startups.de/2026/03/23/5-exits-die-alle-mitbekommen-haben-sollten/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Deal Monitor article listing 5 exits on deutsche-startups.de",
+    "published_at": "2026-03-23T07:15:00+00:00",
+    "ingested_at": "2026-03-24T07:07:19.860783+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_c99ee8742ce5fe3f",
+    "source_url": "https://siliconcanals.com/j-a-the-loneliest-generation-in-history-isnt-the-one-glued-to-their-phones-its-the-one-that-raised-everyone-worked-without-complaint-retired-without-ceremony-and-is-now-sitting-in-houses-that-used-to/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Opinion piece on elderly generation experiencing isolation and loneliness",
+    "published_at": "2026-03-24T05:22:00+00:00",
+    "ingested_at": "2026-03-24T07:07:21.214520+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_5371c05f4b68ee35",
+    "source_url": "https://siliconcanals.com/sc-a-theres-a-specific-kind-of-exhaustion-that-hits-people-who-were-raised-to-be-grateful-for-everything-because-gratitude-became-a-cage-where-acknowledging-your-own-unhappiness-felt-like-ingratitude/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Opinion piece on psychological exhaustion from conditional gratitude",
+    "published_at": "2026-03-24T05:08:28+00:00",
+    "ingested_at": "2026-03-24T07:07:22.539291+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_9e95462eaed231ec",
+    "source_url": "https://siliconcanals.com/j-a-people-born-between-1945-and-1965-were-raised-in-a-culture-where-needing-people-was-weakness-asking-for-help-was-failure-and-independence-was-the-highest-virtue-now-theyre-the-most-isolated-genera/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Opinion piece on isolation among Baby Boomer generation and cultural values",
+    "published_at": "2026-03-24T03:19:17+00:00",
+    "ingested_at": "2026-03-24T07:07:23.967130+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.05,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_2be0564464985fd3",
+    "source_url": "https://siliconcanals.com/sc-a-7-behavioral-patterns-people-display-when-they-were-raised-by-a-parent-who-loved-them-deeply-but-had-no-idea-how-to-express-it-without-criticism/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": null,
+    "published_at": "2026-03-24T02:06:58+00:00",
+    "ingested_at": "2026-03-24T07:07:25.197741+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_c8fc50c0a9a81d2f",
+    "source_url": "https://techround.co.uk/news/silicon-valleys-hottest-coding-startup-got-caught-building-on-chinese-ai-and-founders-should-be-asking-why-it-matters/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Cursor AI coding startup caught using undisclosed Chinese AI model, faces licensing dispute",
+    "published_at": "2026-03-23T13:35:01+00:00",
+    "ingested_at": "2026-03-24T07:07:29.190125+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_46a4eebd20d8"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_c05405a32278"
+    ],
+    "metadata": {
+      "valuation": 29000000000
+    }
+  },
+  {
+    "id": "sig_aa24e4aa338670a9",
+    "source_url": "https://techround.co.uk/startups/startup-of-the-week-spaced/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "SpaceD featured as TechRound Startup of the Week; London-based micro data centre platform expanding via Innovate UK programme",
+    "published_at": "2026-03-23T09:30:57+00:00",
+    "ingested_at": "2026-03-24T07:07:31.536204+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.72,
+    "company_ids": [
+      "co_4cf28831d094"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_b37a655d5180"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_4c7054ecaf60870c",
+    "source_url": "https://techround.co.uk/news/uk-unemployment-ons-data/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "UK unemployment holds at 5.2% amid questions about ONS data reliability",
+    "published_at": "2026-03-23T09:05:10+00:00",
+    "ingested_at": "2026-03-24T07:07:33.487925+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.1,
+    "company_ids": [
+      "co_b89d09bd9bc3"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_f6bd799d5a67"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_3ad9722f87029805",
+    "source_url": "https://thenextweb.com/news/jaaq-17m-series-a-mental-health-platform",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "JAAQ raises $17M Series A for clinically governed mental health content platform",
+    "published_at": "2026-03-23T20:08:53+00:00",
+    "ingested_at": "2026-03-24T07:07:35.712044+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_1014f08e4144"
+    ],
+    "investor_ids": [
+      "inv_e8adf67579f1",
+      "inv_f539bc594961",
+      "inv_a86e65f22f3e",
+      "inv_382dd9dff2f1"
+    ],
+    "person_ids": [
+      "per_2ccf3f6ae96e",
+      "per_64d8b0476760"
+    ],
+    "metadata": {
+      "amount_usd": 17000000,
+      "amount_raw": "$17M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_032e088c3c6036fa",
+    "source_url": "https://thenextweb.com/news/credo-ventures-88m-fund",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Credo Ventures closes $88M fifth fund for pre-seed CEE founders and diaspora",
+    "published_at": "2026-03-23T19:51:13+00:00",
+    "ingested_at": "2026-03-24T07:07:38.701222+00:00",
+    "geography": "DACH",
+    "country": "CZ",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_2e76675b3714"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_39e154107b86",
+      "per_ffd87e989cfe",
+      "per_2695e8f2972b",
+      "per_e0458c1b46b0",
+      "per_e744b5dd3e32",
+      "per_988967bd2296"
+    ],
+    "metadata": {
+      "amount_usd": 88000000,
+      "amount_raw": "$88M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_9aeb31797930f03a",
+    "source_url": "https://thenextweb.com/news/openai-is-in-talks-to-buy-fusion-energy-from-helion",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "partnership",
+    "signal_tier": "tier_2_medium",
+    "headline": "OpenAI in advanced talks to purchase 5-50 gigawatts of fusion energy from Helion Energy by 2030-2035",
+    "published_at": "2026-03-23T15:27:54+00:00",
+    "ingested_at": "2026-03-24T07:07:41.834667+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_f35844f42454"
+    ],
+    "investor_ids": [
+      "inv_46b09b212b77",
+      "inv_705ac43cb5f0",
+      "inv_9c41b5c62bad"
+    ],
+    "person_ids": [
+      "per_46b09b212b77",
+      "per_11197c7e6812",
+      "per_29cec27eadc8",
+      "per_faf87c336966",
+      "per_3b1472cc0ab1",
+      "per_064cce71fdf4"
+    ],
+    "metadata": {
+      "amount_usd": 425000000,
+      "amount_raw": "$425M",
+      "round_stage": "Series F",
+      "currency": "USD",
+      "valuation": 5425000000
+    }
+  },
+  {
+    "id": "sig_535cff46144635fd",
+    "source_url": "https://thenextweb.com/news/interloom-16-5m-seed-dn-capital-enterprise",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Munich startup Interloom raised $16.5M Series A led by DN Capital",
+    "published_at": "2026-03-23T15:10:35+00:00",
+    "ingested_at": "2026-03-24T07:07:44.345378+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_b09ce20d7635"
+    ],
+    "investor_ids": [
+      "inv_b66b19a41dd7",
+      "inv_12b531684194",
+      "inv_7187cc05cd24"
+    ],
+    "person_ids": [
+      "per_2d0f167a6023",
+      "per_777b7f7019cf",
+      "per_d5eda6920542"
+    ],
+    "metadata": {
+      "amount_usd": 16500000,
+      "amount_raw": "$16.5M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_f8918287ce2f8e75",
+    "source_url": "https://thenextweb.com/news/adzuna-buys-the-jobs-verticals-of-trovit-and-mitula",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Adzuna acquires jobs verticals of Trovit and Mitula from Lifull Connect",
+    "published_at": "2026-03-23T14:48:57+00:00",
+    "ingested_at": "2026-03-24T07:07:46.903644+00:00",
+    "geography": "Southern Europe",
+    "country": "GB",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_754c9642baa5"
+    ],
+    "investor_ids": [
+      "inv_007",
+      "inv_4f9c21c48e09",
+      "inv_43210181824a"
+    ],
+    "person_ids": [
+      "per_45d8d0dbec1b",
+      "per_668004199059",
+      "per_4b110cabc90a"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_bc28f1b09162a14a",
+    "source_url": "https://thenextweb.com/news/idomoo-strata-ai-foundation-model-layered-video",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Idomoo launches Strata, an AI foundation model for layered video generation with independent editable elements",
+    "published_at": "2026-03-23T13:13:22+00:00",
+    "ingested_at": "2026-03-24T07:07:49.642988+00:00",
+    "geography": "Southern Europe",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_1290870b1409"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_c2852165e81d",
+      "per_41499118e997",
+      "per_a4c0f8240e40"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_c06eeb0fca45502f",
+    "source_url": "https://thenextweb.com/news/egide-air-defence-startup-8m-seed-round-europe",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Air defence startup Egide raises \u20ac8M seed round to address Europe's air defence capability gap",
+    "published_at": "2026-03-23T10:49:44+00:00",
+    "ingested_at": "2026-03-24T07:07:51.527112+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_c8b367f73144"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 8800000,
+      "amount_raw": "\u20ac8M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
   }
 ]

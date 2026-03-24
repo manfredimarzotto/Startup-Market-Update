@@ -2176,5 +2176,302 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "partner"
+  },
+  {
+    "id": "per_fa38d16a789c",
+    "name": "Nathan Benaich",
+    "role": "Founder",
+    "company_id": "co_7187cc05cd24",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_26e824526333",
+    "name": "Harrison Garba",
+    "role": "guest author",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_84696fb64613",
+    "name": "Jeff Bezos",
+    "role": "Investor/Fund Manager",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_822f523bd820",
+    "name": "James Collier",
+    "role": "Founder, nutritionist",
+    "company_id": "co_226de4441720",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_04b21555db55",
+    "name": "Julian Hearn",
+    "role": "Founder",
+    "company_id": "co_226de4441720",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_219c4097ddda",
+    "name": "Idris Elba",
+    "role": "Celebrity backer",
+    "company_id": "co_226de4441720",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_c57a0485b7e7",
+    "name": "Steven Bartlett",
+    "role": "Celebrity backer",
+    "company_id": "co_226de4441720",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_e4ccfb2347e8",
+    "name": "Peter Thiel",
+    "role": "Founder",
+    "company_id": "co_db423281",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_8e3f29005939",
+    "name": "Mahir Sahin",
+    "role": "Founder",
+    "company_id": "co_d039c7c2bb6e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_b37a655d5180",
+    "name": "Micayla de Fleuriot",
+    "role": "Author/Founder or Company Representative",
+    "company_id": "co_4cf28831d094",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_f6bd799d5a67",
+    "name": "Michael Stull",
+    "role": "Managing Director of ManpowerGroup UK",
+    "company_id": "co_b89d09bd9bc3",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_2ccf3f6ae96e",
+    "name": "Dr. Pooja Sikka",
+    "role": "Partner at Meridian Health Ventures",
+    "company_id": "co_1014f08e4144",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_64d8b0476760",
+    "name": "Alex Packham",
+    "role": "CEO",
+    "company_id": "co_1014f08e4144",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_39e154107b86",
+    "name": "Ondrej Bartos",
+    "role": "Founding Partner",
+    "company_id": "co_2e76675b3714",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_ffd87e989cfe",
+    "name": "Jan Habermann",
+    "role": "Founding Partner",
+    "company_id": "co_2e76675b3714",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_2695e8f2972b",
+    "name": "Maciek Gnutek",
+    "role": "Partner",
+    "company_id": "co_2e76675b3714",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_e0458c1b46b0",
+    "name": "Jakub Krikava",
+    "role": "Partner",
+    "company_id": "co_2e76675b3714",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_e744b5dd3e32",
+    "name": "Max Kolowrat-Krakowsky",
+    "role": "Partner",
+    "company_id": "co_2e76675b3714",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_988967bd2296",
+    "name": "Matej Micek",
+    "role": "Partner",
+    "company_id": "co_2e76675b3714",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_11197c7e6812",
+    "name": "David Kirtley",
+    "role": "CEO and founder",
+    "company_id": "co_f35844f42454",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_29cec27eadc8",
+    "name": "Bret Taylor",
+    "role": "OpenAI Chairman",
+    "company_id": "co_f35844f42454",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_faf87c336966",
+    "name": "John Slough",
+    "role": "Founder",
+    "company_id": "co_f35844f42454",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_3b1472cc0ab1",
+    "name": "Chris Pihl",
+    "role": "Founder",
+    "company_id": "co_f35844f42454",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_064cce71fdf4",
+    "name": "George Votroubek",
+    "role": "Founder",
+    "company_id": "co_f35844f42454",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_2d0f167a6023",
+    "name": "Fabian Jakobi",
+    "role": "Founder and CEO",
+    "company_id": "co_b09ce20d7635",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_777b7f7019cf",
+    "name": "Guy Ward Thomas",
+    "role": "Partner at DN Capital",
+    "company_id": "co_b09ce20d7635",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_d5eda6920542",
+    "name": "Mehmet Atici",
+    "role": "Partner at Bek Ventures",
+    "company_id": "co_b09ce20d7635",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_45d8d0dbec1b",
+    "name": "Doug Monro",
+    "role": "CEO and co-founder",
+    "company_id": "co_754c9642baa5",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_668004199059",
+    "name": "Andrew Hunter",
+    "role": "co-founder",
+    "company_id": "co_754c9642baa5",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_4b110cabc90a",
+    "name": "Carlos Ruiz Comes",
+    "role": "Vertical Search General Manager at Lifull Connect",
+    "company_id": "co_754c9642baa5",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_c2852165e81d",
+    "name": "Danny Kalish",
+    "role": "Co-founder and CTO",
+    "company_id": "co_1290870b1409",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_41499118e997",
+    "name": "Yaron Kalish",
+    "role": "Founder",
+    "company_id": "co_1290870b1409",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_a4c0f8240e40",
+    "name": "Assaf Fogel",
+    "role": "Founder",
+    "company_id": "co_1290870b1409",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
   }
 ]
