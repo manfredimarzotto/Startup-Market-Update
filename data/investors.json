@@ -4235,5 +4235,93 @@
     "website": "",
     "linkedin_url": "",
     "last_signal_at": "2026-03-25T08:51:47+00:00"
+  },
+  {
+    "id": "inv_030529696a3f",
+    "name": "Lead Edge Capital",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-25T17:01:48+00:00"
+  },
+  {
+    "id": "inv_fd24bf882b23",
+    "name": "Greylock",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-25T17:01:48+00:00"
+  },
+  {
+    "id": "inv_c3f2199e12fb",
+    "name": "Harmony Partners",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-25T17:01:48+00:00"
+  },
+  {
+    "id": "inv_5b9fcbe57e7f",
+    "name": "Interplay",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-25T17:01:48+00:00"
+  },
+  {
+    "id": "inv_44ad1a61624c",
+    "name": "Soma Capital",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-25T17:01:48+00:00"
+  },
+  {
+    "id": "inv_a5633fe1f100",
+    "name": "The Dorm Room Fund",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-25T17:01:48+00:00"
+  },
+  {
+    "id": "inv_5f7a858fa283",
+    "name": "NFDG",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-25T16:32:14+00:00"
+  },
+  {
+    "id": "inv_7105a46cb4c2",
+    "name": "Goldman Sachs",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-25T15:57:56+00:00"
   }
 ]

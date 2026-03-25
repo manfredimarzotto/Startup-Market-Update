@@ -2833,5 +2833,95 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "hiring_manager"
+  },
+  {
+    "id": "per_e213b6238579",
+    "name": "Jorge Vizcayno",
+    "role": "Chief Executive Officer",
+    "company_id": "co_8cbbcf29d9ce",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_d42b6fd1e78a",
+    "name": "Blanca Espinosa",
+    "role": "Chief Marketing Officer",
+    "company_id": "co_8cbbcf29d9ce",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_0f44fd83f776",
+    "name": "Danny Rimer",
+    "role": "Partner at Index Ventures",
+    "company_id": "co_89601a2c41e3",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_ba98b0ddb6cf",
+    "name": "Mamoon Hamid",
+    "role": "Partner at Kleiner Perkins",
+    "company_id": "co_89601a2c41e3",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_879c2c85309e",
+    "name": "Chris Pedregal",
+    "role": "Founder",
+    "company_id": "co_89601a2c41e3",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_a11a4eb372fc",
+    "name": "Sam Stephenson",
+    "role": "Founder",
+    "company_id": "co_89601a2c41e3",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_e951377df456",
+    "name": "Nat Friedman",
+    "role": "Venture firm founder (NFDG)",
+    "company_id": "co_89601a2c41e3",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_db52f19d7533",
+    "name": "Daniel Gross",
+    "role": "Venture firm founder (NFDG)",
+    "company_id": "co_89601a2c41e3",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_169bd4e32db5",
+    "name": "Romain Moulin",
+    "role": "Cofounder and Chief Executive",
+    "company_id": "co_b5a7ca63b76d",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_3957d14a1230",
+    "name": "Mark Zuckerberg",
+    "role": "CEO",
+    "company_id": "co_ea3bd73e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
   }
 ]

@@ -13688,5 +13688,311 @@
     "investor_ids": [],
     "person_ids": [],
     "metadata": {}
+  },
+  {
+    "id": "sig_2c779d0268ff35ac",
+    "source_url": "https://sifted.eu/articles/ai-notetaking-startup-granola-hits-unicorn-status/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "AI notetaking startup Granola raises $125M Series C and achieves unicorn status",
+    "published_at": "2026-03-25T16:05:01+00:00",
+    "ingested_at": "2026-03-25T18:09:51.928435+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_89601a2c41e3"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 125000000,
+      "amount_raw": "$125M",
+      "round_stage": "Series C",
+      "currency": "USD",
+      "valuation": 1000000000
+    }
+  },
+  {
+    "id": "sig_4e9e140d2741ae83",
+    "source_url": "https://tech.eu/2026/03/25/futurepresent-emerges-from-stealth-with-300m-fund-i-to-back-ai-across-infrastructure-and-industry/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "German-US VC firm futurepresent launches $300M Fund I focused on AI infrastructure and industrial applications",
+    "published_at": "2026-03-25T16:00:00+00:00",
+    "ingested_at": "2026-03-25T18:09:53.553809+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_4e3861f09ed2"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 300000000,
+      "amount_raw": "$300M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_bcf01ef65405a616",
+    "source_url": "https://tech.eu/2026/03/25/granola-raises-125m-at-1-5bn-valuation/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Granola raises $125M at $1.5BN valuation, achieves unicorn status",
+    "published_at": "2026-03-25T15:54:00+00:00",
+    "ingested_at": "2026-03-25T18:09:55.125356+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_89601a2c41e3"
+    ],
+    "investor_ids": [
+      "inv_007"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 125000000,
+      "amount_raw": "$125M",
+      "currency": "USD",
+      "valuation": 1500000000
+    }
+  },
+  {
+    "id": "sig_1913db3e18347025",
+    "source_url": "https://tech.eu/2026/03/25/y-combinator-backed-mandel-ai-raises-3-9m-to-automate-global-supply-chains/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Y Combinator-backed Mandel AI raises $3.9M Seed funding for supply chain automation",
+    "published_at": "2026-03-25T15:51:57+00:00",
+    "ingested_at": "2026-03-25T18:09:56.528923+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_7673a79b5686"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3900000,
+      "amount_raw": "$3.9M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_81dff46b8b9ae2ff",
+    "source_url": "https://siliconcanals.com/d-people-born-in-the-1950s-display-a-type-of-resilience-modern-generations-mistake-for-coldness-but-its-actually-a-survival-adaptation-built-from-being-raised-by-traumatized-parents-who-could/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Opinion piece on generational psychology and resilience in 1950s-born cohort",
+    "published_at": "2026-03-25T17:45:25+00:00",
+    "ingested_at": "2026-03-25T18:09:58.168919+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_55ff179271d2cf62",
+    "source_url": "https://siliconcanals.com/d-the-loneliest-men-arent-the-ones-who-live-alone-theyre-the-married-men-whove-funneled-every-ounce-of-emotional-intimacy-into-one-relationship-and-have-no-backup-system-when-that-well-runs/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Opinion article on male loneliness and emotional intimacy in marriages",
+    "published_at": "2026-03-25T17:30:46+00:00",
+    "ingested_at": "2026-03-25T18:09:59.517950+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.1,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_7ba336b07d12245e",
+    "source_url": "https://thenextweb.com/news/pepper-acquires-alima-ai-food-distribution",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Pepper acquires Y Combinator-backed Alima to expand AI-driven product data infrastructure for food distributors",
+    "published_at": "2026-03-25T17:01:48+00:00",
+    "ingested_at": "2026-03-25T18:10:03.294243+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_8cbbcf29d9ce"
+    ],
+    "investor_ids": [
+      "inv_030529696a3f",
+      "inv_c9c1361a",
+      "inv_007",
+      "inv_fd24bf882b23",
+      "inv_c3f2199e12fb",
+      "inv_5b9fcbe57e7f",
+      "inv_44ad1a61624c",
+      "inv_cefa8820",
+      "inv_a5633fe1f100"
+    ],
+    "person_ids": [
+      "per_e213b6238579",
+      "per_d42b6fd1e78a"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_8a3f6137c44a8418",
+    "source_url": "https://thenextweb.com/news/bill-ap-automation-cost-of-manual-invoicing",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "BILL platforms automates accounts payable for small and mid-market businesses, blocked 8M fraud attacks in FY2025",
+    "published_at": "2026-03-25T16:40:46+00:00",
+    "ingested_at": "2026-03-25T18:10:05.388333+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_623210167553"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_d1278d327f58"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_dd77ff6a965c08be",
+    "source_url": "https://thenextweb.com/news/granola-series-c-meeting-ai-enterprise-context",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Granola raises $125M Series C to expand AI meeting intelligence into enterprise infrastructure",
+    "published_at": "2026-03-25T16:32:14+00:00",
+    "ingested_at": "2026-03-25T18:10:08.717609+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_89601a2c41e3"
+    ],
+    "investor_ids": [
+      "inv_007",
+      "inv_e57bc478e273",
+      "inv_705ac43cb5f0",
+      "inv_8032f8ac",
+      "inv_5f7a858fa283"
+    ],
+    "person_ids": [
+      "per_0f44fd83f776",
+      "per_ba98b0ddb6cf",
+      "per_879c2c85309e",
+      "per_a11a4eb372fc",
+      "per_e951377df456",
+      "per_db52f19d7533"
+    ],
+    "metadata": {
+      "amount_usd": 125000000,
+      "amount_raw": "$125M",
+      "round_stage": "Series C",
+      "currency": "USD",
+      "valuation": 1500000000
+    }
+  },
+  {
+    "id": "sig_99f9a2d63a301a8d",
+    "source_url": "https://thenextweb.com/news/decathlon-exotec-warehouse-robots-europe-productivity",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Decathlon deploys Exotec's Skypod robots across seven European warehouses, doubling output",
+    "published_at": "2026-03-25T15:57:56+00:00",
+    "ingested_at": "2026-03-25T18:10:10.800164+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_b5a7ca63b76d"
+    ],
+    "investor_ids": [
+      "inv_7105a46cb4c2"
+    ],
+    "person_ids": [
+      "per_169bd4e32db5"
+    ],
+    "metadata": {
+      "amount_usd": 335000000,
+      "amount_raw": "$335 million",
+      "currency": "USD",
+      "valuation": 2000000000
+    }
+  },
+  {
+    "id": "sig_fad205e63fcbbb9f",
+    "source_url": "https://thenextweb.com/news/meta-cuts-hundreds-more-jobs-across-reality-labs-recruiting-and-sales-as-ai-spending-doubles",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_1_strong",
+    "headline": "Meta cuts hundreds of jobs across Reality Labs, recruiting, and sales as AI spending doubles to $115-135B",
+    "published_at": "2026-03-25T15:27:55+00:00",
+    "ingested_at": "2026-03-25T18:10:12.985758+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ea3bd73e"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_3957d14a1230",
+      "per_149e96efddc4"
+    ],
+    "metadata": {}
   }
 ]

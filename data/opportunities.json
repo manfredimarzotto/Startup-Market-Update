@@ -23,12 +23,12 @@
       "sources": 14,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$125M Series B \u00b7 API investment platform \u00b7 \u20ac640M valuation \u00b7 5 sources \u00b7 Sapphire Ventures and Tencent co-led.",
+    "ai_rationale": "$125M Series C \u00b7 API investment platform \u00b7 \u20ac640M valuation \u00b7 5 sources \u00b7 led by Sapphire Ventures and Tencent.",
     "triggers": [
       {
         "type": "funding",
         "text": "raises $125M in funding round (5 sources)",
-        "time": "4d ago"
+        "time": "5d ago"
       },
       {
         "type": "sector",
@@ -59,7 +59,7 @@
       "sources": 10,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac2.5M seed funding \u00b7 cellulose-based superabsorbent materials for diapers and hygiene products \u00b7 3 sources \u00b7 replaces microplastics in farming applications.",
+    "ai_rationale": "\u20ac2.5M seed funding \u00b7 cellulose-based superabsorbent materials for diapers and feminine hygiene \u00b7 3 sources",
     "triggers": [
       {
         "type": "funding",
@@ -100,7 +100,7 @@
       "sources": 14,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$40M seed round \u00b7 orbital transfer vehicle technology \u00b7 4 sources \u00b7 space sovereignty concerns cited.",
+    "ai_rationale": "$40M seed round \u00b7 orbital transfer vehicles \u00b7 4 sources \u00b7 space sovereignty concerns cited.",
     "triggers": [
       {
         "type": "funding",
@@ -136,7 +136,7 @@
       "sources": 15,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac232-270K angel funding \u00b7 culturally intelligent AI therapy \u00b7 3 sources \u00b7 Albanian-Finnish team.",
+    "ai_rationale": "\u20ac232K angel funding \u00b7 culturally intelligent AI therapy \u00b7 3 sources \u00b7 Albanian-Finnish team",
     "triggers": [
       {
         "type": "funding",
@@ -182,12 +182,12 @@
       "sources": 10,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$15M Series A \u00b7 clinical trial data infrastructure \u00b7 4 sources \u00b7 Note: one signal references Rivian/Uber (non-Rivia company).",
+    "ai_rationale": "$15M Series A \u00b7 clinical trial data infrastructure \u00b7 4 sources \u00b7 AI agents for trial management",
     "triggers": [
       {
         "type": "funding",
         "text": "raises $15M to build AI engine for clinical trial data (3 sources)",
-        "time": "6d ago"
+        "time": "1w ago"
       },
       {
         "type": "growth",
@@ -231,7 +231,7 @@
       "sources": 2,
       "geo_weight": 0.8
     },
-    "ai_rationale": "\u00a32bn quantum computing procurement \u00b7 \u00a31.7bn northern tech investment \u00b7 \u00a320m Tay Cities cluster \u00b7 3 sources",
+    "ai_rationale": "UK government \u00a32bn quantum computing procurement \u00b7 \u00a31.7bn northern tech investment \u00b7 \u00a320m Tay Cities tech cluster \u00b7 3 sources",
     "triggers": [
       {
         "type": "funding",
@@ -273,7 +273,7 @@
       "sources": 13,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$8M seed/pre-seed \u00b7 AI due diligence for crypto compliance \u00b7 4 sources \u00b7 regulated digital asset markets focus.",
+    "ai_rationale": "$8M seed/pre-seed \u00b7 AI due diligence for crypto compliance \u00b7 4 sources \u00b7 institutional-grade audit-ready platform.",
     "triggers": [
       {
         "type": "funding",
@@ -312,7 +312,7 @@
       "sources": 10,
       "geo_weight": 0.8
     },
-    "ai_rationale": "Air Street Capital raises $232M Fund III \u00b7 AI-first companies Europe/North America \u00b7 3 sources \u00b7 Europe's largest solo GP venture firm.",
+    "ai_rationale": "Air Street Capital raises $232M Fund III \u00b7 AI-first companies \u00b7 3 sources \u00b7 Europe's largest solo GP VC firm",
     "triggers": [
       {
         "type": "funding",
@@ -348,9 +348,9 @@
     "contact_ids": [
       "per_84b98dca4f8e"
     ],
-    "opportunity_score": 54,
+    "opportunity_score": 52,
     "score_breakdown": {
-      "events": 23,
+      "events": 21,
       "capital": 9,
       "momentum": 19,
       "sources": 17,
@@ -431,7 +431,7 @@
       "sources": 8,
       "geo_weight": 1.0
     },
-    "ai_rationale": "$9M round \u00b7 AI-driven aircraft parts procurement \u00b7 2 sources \u00b7 modernization of airline MRO supply chain.",
+    "ai_rationale": "$9M round \u00b7 AI-driven aircraft parts procurement \u00b7 2 sources \u00b7 airline MRO modernization.",
     "triggers": [
       {
         "type": "funding",
@@ -467,7 +467,7 @@
       "sources": 15,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$50M Series A \u00b7 software-powered factory automation \u00b7 aerospace and energy \u00b7 3 sources",
+    "ai_rationale": "$50M Series A \u00b7 software-powered factory automation \u00b7 aerospace & energy sectors \u00b7 3 sources \u00b7 Europe industrial manufacturing focus.",
     "triggers": [
       {
         "type": "funding",
@@ -503,7 +503,7 @@
       "sources": 11,
       "geo_weight": 0.8
     },
-    "ai_rationale": "\u20ac8M seed round \u00b7 air defence systems \u00b7 3 sources \u00b7 European air defence capability gap.",
+    "ai_rationale": "\u20ac8M seed round \u00b7 air defence systems \u00b7 3 sources \u00b7 Europe's air defence capability gap.",
     "triggers": [
       {
         "type": "funding",
@@ -539,7 +539,7 @@
       "sources": 13,
       "geo_weight": 0.8
     },
-    "ai_rationale": "\u20ac4M pre-seed raised \u00b7 prepaid payments API infrastructure \u00b7 3 sources \u00b7 global prepaid market focus.",
+    "ai_rationale": "\u20ac4M pre-seed \u00b7 prepaid payments API infrastructure \u00b7 3 sources \u00b7 global prepaid market focus.",
     "triggers": [
       {
         "type": "funding",
@@ -586,7 +586,7 @@
       "sources": 25,
       "geo_weight": 0.5
     },
-    "ai_rationale": "$550M Series D \u00b7 Legal AI platform \u00b7 7 sources \u00b7 Valuation $5.55B",
+    "ai_rationale": "$550M Series D \u00b7 Legora legal AI \u00b7 $5.55B valuation \u00b7 7 sources \u00b7 Canadian acquisition included",
     "triggers": [
       {
         "type": "funding",
