@@ -2473,5 +2473,176 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "founder"
+  },
+  {
+    "id": "per_8926f2c4cb74",
+    "name": "Amelia Armour",
+    "role": "Partner",
+    "company_id": "co_e22562fcd848",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_9ff1998e9f41",
+    "name": "Georgina Tang",
+    "role": "Founder",
+    "company_id": "co_711722fd10ad",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_8d0cfd6182ef",
+    "name": "Alessio",
+    "role": "Son",
+    "company_id": "co_711722fd10ad",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_000cb57631d4",
+    "name": "Amin Mirzadegan",
+    "role": "Partner at Founders Fund",
+    "company_id": "co_fbbf9190319c",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_5ddd3c92814f",
+    "name": "Craig Piggott",
+    "role": "Founder and CEO",
+    "company_id": "co_fbbf9190319c",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_ff50e7bebaf1",
+    "name": "Robert Piconi",
+    "role": "Chairman and Chief Executive Officer",
+    "company_id": "co_e1705876bb89",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_9297c626de1e",
+    "name": "Gal Krubiner",
+    "role": "CEO",
+    "company_id": "co_c12f52585f37",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_bac291f23482",
+    "name": "William Fairbairn",
+    "role": "CEO",
+    "company_id": "co_4584b2d58196",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_41aa0c28e715",
+    "name": "Hung Hoang",
+    "role": "CTO",
+    "company_id": "co_4584b2d58196",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_9e00d8de3eb1",
+    "name": "Mike Lenz",
+    "role": "CFO of FedEx",
+    "company_id": "co_4584b2d58196",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_555b42ca3522",
+    "name": "Ian Sutherland",
+    "role": "CFO of Tide",
+    "company_id": "co_4584b2d58196",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_7968004b031b",
+    "name": "Paul Forster",
+    "role": "Founder of Indeed",
+    "company_id": "co_4584b2d58196",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_ca37709e53de",
+    "name": "Shalini Agarwal",
+    "role": "Strategic Adviser",
+    "company_id": "co_f0965753b8ec",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "hiring_manager"
+  },
+  {
+    "id": "per_6058b8de638a",
+    "name": "Moshe Tanach",
+    "role": "Co-founder and CEO",
+    "company_id": "co_f0965753b8ec",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_6ba890c46828",
+    "name": "Hiren Majmudar",
+    "role": "President",
+    "company_id": "co_f0965753b8ec",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_1e07dc387649",
+    "name": "Shigeo Taniuchi",
+    "role": "Co-founder and CEO",
+    "company_id": "co_ef2026acee28",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_2717a84262d6",
+    "name": "Ben Richardson",
+    "role": "Co-founder",
+    "company_id": "co_ef2026acee28",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_7aebe1cf1652",
+    "name": "George Wade",
+    "role": "Co-founder",
+    "company_id": "co_ef2026acee28",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_957c21231a1d",
+    "name": "Tomokazu Okuno",
+    "role": "CEO of Spiral Capital",
+    "company_id": "co_ef2026acee28",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
   }
 ]

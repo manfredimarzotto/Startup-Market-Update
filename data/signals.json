@@ -11574,5 +11574,823 @@
       "round_stage": "Seed",
       "currency": "EUR"
     }
+  },
+  {
+    "id": "sig_348368f13be8af6a",
+    "source_url": "https://tech.eu/2026/03/25/german-incirt-secures-eur48m-to-power-next-gen-chip-architecture-in-europe/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "INCIRT secures \u20ac4.8M funding round led by Lifeline Ventures for next-gen chip architecture",
+    "published_at": "2026-03-25T06:15:00+00:00",
+    "ingested_at": "2026-03-25T07:03:52.443392+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_00f2eabb5ac4"
+    ],
+    "investor_ids": [
+      "inv_cb47ca2049ae",
+      "inv_56b77439d8ed"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 5184000,
+      "amount_raw": "\u20ac4.8M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_2c62bca8887ec8e6",
+    "source_url": "https://tech.eu/2026/03/24/nanozymex-secures-venture-kick-backing-to-advance-lipid-nanoparticle-enzyme-therapies-for-rare-diseases/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "NanoZymeX secures \u20ac160K from Venture Kick for lipid nanoparticle enzyme therapies",
+    "published_at": "2026-03-24T15:38:50+00:00",
+    "ingested_at": "2026-03-25T07:03:54.131578+00:00",
+    "geography": "DACH",
+    "country": "CH",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_137db9a924ff"
+    ],
+    "investor_ids": [
+      "inv_0839d07ec449"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 172800,
+      "amount_raw": "\u20ac160,000",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_30eb4d3391a79a22",
+    "source_url": "https://tech.eu/2026/03/24/stateful-robotics-secures-48m-to-advance-long-term-robot-intelligence/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Stateful Robotics secures $4.8M pre-seed funding led by Amadeus Capital Partners and Oxford Science Enterprises",
+    "published_at": "2026-03-24T14:31:47+00:00",
+    "ingested_at": "2026-03-25T07:03:55.814316+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_71aeda7a9bfd"
+    ],
+    "investor_ids": [
+      "inv_e22562fcd848",
+      "inv_63a0092f5bc2"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4800000,
+      "amount_raw": "$4.8M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_c2cf8f26866f9cda",
+    "source_url": "https://tech.eu/2026/03/24/climatetech-platform-zevero-raises-7m-amid-growing-global-demand-for-carbon-data/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Zevero raises $7M in funding for carbon management platform",
+    "published_at": "2026-03-24T12:40:00+00:00",
+    "ingested_at": "2026-03-25T07:03:57.326159+00:00",
+    "geography": "Europe",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_ef2026acee28"
+    ],
+    "investor_ids": [
+      "inv_0d4adf7c1756",
+      "inv_be7f42d8663c"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 7000000,
+      "amount_raw": "$7M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_a3fa3c88c6b5f65d",
+    "source_url": "https://tech.eu/2026/03/24/agents-for-finance-startup-zalos-raises-3-6m-to-transform-finance-departments/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Zalos raises $3.6M seed funding to deploy AI agents for finance departments",
+    "published_at": "2026-03-24T12:00:00+00:00",
+    "ingested_at": "2026-03-25T07:03:58.711116+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_4584b2d58196"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3600000,
+      "amount_raw": "$3.6M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_222e646edd7f6fce",
+    "source_url": "https://tech.eu/2026/03/24/team-scaleup-launches-to-close-europes-post-seed-funding-gap/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_2_medium",
+    "headline": "Team Scaleup launches new venture fund to address Europe's post-Seed funding gap",
+    "published_at": "2026-03-24T11:15:35+00:00",
+    "ingested_at": "2026-03-25T07:04:00.057888+00:00",
+    "geography": "EU",
+    "country": "",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_810736304f2b"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_b3191b46eddeb138",
+    "source_url": "https://tech.eu/2026/03/24/why-top-banking-executives-are-choosing-startups-and-what-it-takes-to-get-them-there/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_2_medium",
+    "headline": "0TO9 fintech venture builder launches with goal to build 1,000 profitable fintechs by 2045",
+    "published_at": "2026-03-24T10:02:00+00:00",
+    "ingested_at": "2026-03-25T07:04:01.600319+00:00",
+    "geography": "Nordics | DACH | UK | Benelux | Southern Europe",
+    "country": "",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_48ddea10af8c"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_82db0398c32b4e9a",
+    "source_url": "https://tech.eu/2026/03/24/foreverland-lands-eur6m-to-tackle-cocoa-supply-with-alternatives/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Foreverland secures \u20ac6M funding for cocoa-free chocolate alternatives",
+    "published_at": "2026-03-24T07:30:00+00:00",
+    "ingested_at": "2026-03-25T07:04:02.991383+00:00",
+    "geography": "Southern Europe",
+    "country": "IT",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_5282f6a28064"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 6480000,
+      "amount_raw": "\u20ac6M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_aa358f0f33c5281c",
+    "source_url": "https://news.crunchbase.com/venture/kleiner-perkins-raises-ai-focused-funds/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Kleiner Perkins raises $3.5B across AI-focused funds for early-stage and growth investments",
+    "published_at": "2026-03-24T16:36:05+00:00",
+    "ingested_at": "2026-03-25T07:04:04.611868+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_e57bc478e273"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3500000000,
+      "amount_raw": "$3.5B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_073141c4072c7a9f",
+    "source_url": "https://techfundingnews.com/best-background-check-software-in-2026-a-data-driven-comparison-for-hr-leaders/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Background check software comparison article published for HR leaders",
+    "published_at": "2026-03-24T17:37:24+00:00",
+    "ingested_at": "2026-03-25T07:04:06.433426+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_7d1df2197970c2e0",
+    "source_url": "https://techfundingnews.com/project-management-tools-that-actually-improve-cross-team-collaboration-in-scaling-startup/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Article about project management tools for cross-team collaboration in scaling startups",
+    "published_at": "2026-03-24T16:53:17+00:00",
+    "ingested_at": "2026-03-25T07:04:07.897346+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.2,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_ecfd4224819536e5",
+    "source_url": "https://techfundingnews.com/when-businesses-should-hire-finance-consultants/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Article discussing when businesses should hire finance consultants",
+    "published_at": "2026-03-24T16:36:57+00:00",
+    "ingested_at": "2026-03-25T07:04:09.319771+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_754d2985d52e2323",
+    "source_url": "https://techfundingnews.com/fidelity-paradigm-back-ziplines-200m-round-at-7-6b-valuation/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Zipline raises $200M at $7.6B valuation backed by Fidelity and Paradigm",
+    "published_at": "2026-03-24T14:54:17+00:00",
+    "ingested_at": "2026-03-25T07:04:11.260082+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_e134c033e88f"
+    ],
+    "investor_ids": [
+      "inv_f611beab4643",
+      "inv_cacd11bd743c"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 200000000,
+      "amount_raw": "$200M",
+      "currency": "USD",
+      "valuation": 7600000000
+    }
+  },
+  {
+    "id": "sig_c30e169064b57298",
+    "source_url": "https://techfundingnews.com/defence-ai-govtech/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Defence and AI driving investment in government technology sector",
+    "published_at": "2026-03-24T13:50:00+00:00",
+    "ingested_at": "2026-03-25T07:04:12.923123+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.65,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_a45c461613dbdbff",
+    "source_url": "https://arcticstartup.com/everdrone-raises-e3-3-million/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Swedish Everdrone raises \u20ac3.3 million to expand autonomous drone emergency response services",
+    "published_at": "2026-03-24T08:06:02+00:00",
+    "ingested_at": "2026-03-25T07:04:14.619377+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_205950f0161d"
+    ],
+    "investor_ids": [
+      "inv_5867fb1891b5"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3630000,
+      "amount_raw": "\u20ac3.3 million",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_15a51c58cd842cad",
+    "source_url": "https://www.uktech.news/podcast/i-realised-my-future-lay-in-finance-during-an-internship-in-a-paint-factory-amelia-armour-amadeus-capital-20260324",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Amelia Armour, partner at Amadeus Capital, featured in podcast discussion on female leadership in VC and AI in entrepreneurship",
+    "published_at": "2026-03-24T12:00:10+00:00",
+    "ingested_at": "2026-03-25T07:04:17.501974+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.15,
+    "company_ids": [
+      "co_e22562fcd848"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_8926f2c4cb74"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_bb6e355d400d7c3c",
+    "source_url": "https://www.uktech.news/climate-tech/carbon-management-platform-zevero-raises-5m-20260324",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Carbon management platform Zevero raises \u00a35.2m ($7m) in funding",
+    "published_at": "2026-03-24T11:00:42+00:00",
+    "ingested_at": "2026-03-25T07:04:19.136133+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_ef2026acee28"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 7000000,
+      "amount_raw": "\u00a35.2m ($7m)",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_f7fdbded784204f2",
+    "source_url": "https://www.uktech.news/fintech/revolut-reports-profit-surge-weeks-after-securing-bank-status-20260324",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Revolut reports profit surge weeks after securing UK bank status",
+    "published_at": "2026-03-24T09:16:12+00:00",
+    "ingested_at": "2026-03-25T07:04:20.464520+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_a5c1835f2f1f"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_4ac8783badab4e31",
+    "source_url": "https://techcrunch.com/2026/03/24/bkr-capital-raises-14-5m-so-far-to-invest-in-black-founders/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "BKR Capital raises $14.5M to invest in Black founders",
+    "published_at": "2026-03-24T17:47:41+00:00",
+    "ingested_at": "2026-03-25T07:04:22.320255+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_e3cbe077f835"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_64c46dff"
+    ],
+    "metadata": {
+      "amount_usd": 14500000,
+      "amount_raw": "$14.5M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_fc70476b27ec486a",
+    "source_url": "https://www.deutsche-startups.de/2026/03/24/dash0-erhaelt-110-millionen-rivia-bekommt-15-millionen-amazon-uebernimmt-rivr/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Dash0 raises \u20ac110 million in funding",
+    "published_at": "2026-03-24T14:54:00+00:00",
+    "ingested_at": "2026-03-25T07:04:25.469034+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.9,
+    "company_ids": [
+      "co_3e55ccf4e492"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 119900000,
+      "amount_raw": "110 Millionen",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_3a32ce0710c7bd89",
+    "source_url": "https://www.deutsche-startups.de/2026/03/24/5-neue-startups-ontoworks-heimstatt-simmetry-ai-bluvero-seads/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Five new startups featured: Ontoworks, Heimstatt, simmetry.ai, bluvero, SEADS",
+    "published_at": "2026-03-24T12:55:00+00:00",
+    "ingested_at": "2026-03-25T07:04:27.013711+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.3,
+    "company_ids": [
+      "co_62083cc77ee9"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_218c70f35602ac57",
+    "source_url": "https://www.deutsche-startups.de/2026/03/24/dash0-unicorn-wesort-ai-operator-circle-gender-funding-gap/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Startup Ticker roundup featuring Dash0, WeSort.AI, Operator Circle and gender funding gap discussion",
+    "published_at": "2026-03-24T10:55:00+00:00",
+    "ingested_at": "2026-03-25T07:04:28.696954+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.25,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_f3cf61c8065c03d4",
+    "source_url": "https://www.deutsche-startups.de/2026/03/24/ein-grosser-lernmoment-war-das-thema-hiring/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "hiring_wave",
+    "signal_tier": "tier_3_weak",
+    "headline": "German startups and companies posting multiple open positions across marketing, tech, and digital roles",
+    "published_at": "2026-03-24T07:15:00+00:00",
+    "ingested_at": "2026-03-25T07:04:30.436089+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.35,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_f0a79580fc99abb1",
+    "source_url": "https://siliconcanals.com/sc-a-7-things-people-raised-in-lower-middle-class-households-still-do-with-money-long-after-they-can-afford-not-to-and-every-single-one-traces-back-to-a-nervous-system-that-learned-to-count-before-it/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Opinion piece on financial habits of people raised in lower middle class households",
+    "published_at": "2026-03-25T02:07:15+00:00",
+    "ingested_at": "2026-03-25T07:04:31.730944+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_1070ca1462bef38d",
+    "source_url": "https://techround.co.uk/startups/founder-of-the-week-georgina-tang/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Georgina Tang featured as Founder of the Week for YNNY, natural skincare brand",
+    "published_at": "2026-03-24T10:00:36+00:00",
+    "ingested_at": "2026-03-25T07:04:33.888862+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_711722fd10ad"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_9ff1998e9f41",
+      "per_8d0cfd6182ef"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_c36ac64108094e60",
+    "source_url": "https://thenextweb.com/news/halter-series-e-virtual-fencing-cattle",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Halter raises $220M Series E at $2B valuation for virtual cattle fencing technology",
+    "published_at": "2026-03-24T19:02:44+00:00",
+    "ingested_at": "2026-03-25T07:04:36.897631+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_fbbf9190319c"
+    ],
+    "investor_ids": [
+      "inv_a93dab7b158c",
+      "inv_3e8192cfa17d",
+      "inv_e2ef5b8ae425",
+      "inv_f21dea74d898",
+      "inv_18eb0649",
+      "inv_460c1155a070",
+      "inv_d147c5d022fe",
+      "inv_9718c745a95a",
+      "inv_8125205ea41e"
+    ],
+    "person_ids": [
+      "per_e4ccfb2347e8",
+      "per_000cb57631d4",
+      "per_5ddd3c92814f"
+    ],
+    "metadata": {
+      "amount_usd": 220000000,
+      "amount_raw": "$220M",
+      "round_stage": "Series E",
+      "currency": "USD",
+      "valuation": 2000000000
+    }
+  },
+  {
+    "id": "sig_594237e95225da74",
+    "source_url": "https://thenextweb.com/news/energy-vault-mcmurtre-battery-texas-acquisition",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Energy Vault acquires 175 MW battery storage project in Texas to support AI data centre power demand",
+    "published_at": "2026-03-24T18:36:53+00:00",
+    "ingested_at": "2026-03-25T07:04:38.898284+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_e1705876bb89"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_ff50e7bebaf1"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_6127420eb35e0784",
+    "source_url": "https://thenextweb.com/news/pagaya-auto-resecuritization-ai-lending-450-million",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Pagaya closes $450M auto loan resecuritization deal, first refinancing of AI-underwritten portfolios",
+    "published_at": "2026-03-24T14:28:49+00:00",
+    "ingested_at": "2026-03-25T07:04:41.298848+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_c12f52585f37"
+    ],
+    "investor_ids": [
+      "inv_bfecbd57fb9d",
+      "inv_e1f68863aa29",
+      "inv_035fe17dc8d1"
+    ],
+    "person_ids": [
+      "per_9297c626de1e"
+    ],
+    "metadata": {
+      "amount_usd": 450000000,
+      "amount_raw": "$450M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_488d0b1d1bbe60da",
+    "source_url": "https://thenextweb.com/news/zalos-raises-3-6m-to-automate-finance-workflows",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Zalos raises $3.6M to automate finance workflows using AI agents trained on screen recordings",
+    "published_at": "2026-03-24T13:55:57+00:00",
+    "ingested_at": "2026-03-25T07:04:44.179425+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_4584b2d58196"
+    ],
+    "investor_ids": [
+      "inv_4151c017b2e5",
+      "inv_2e122e900470",
+      "inv_a8179f3812c3"
+    ],
+    "person_ids": [
+      "per_bac291f23482",
+      "per_41aa0c28e715",
+      "per_9e00d8de3eb1",
+      "per_555b42ca3522",
+      "per_7968004b031b"
+    ],
+    "metadata": {
+      "amount_usd": 3600000,
+      "amount_raw": "$3.6M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_a3aea9dc017d43fc",
+    "source_url": "https://thenextweb.com/news/neureality-google-advisor-nr-nexus-inference",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "hiring_wave",
+    "signal_tier": "tier_1_strong",
+    "headline": "NeuReality appoints former Google AI director Shalini Agarwal as strategic adviser for inference OS go-to-market",
+    "published_at": "2026-03-24T13:45:25+00:00",
+    "ingested_at": "2026-03-25T07:04:47.409963+00:00",
+    "geography": "Southern Europe",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_f0965753b8ec"
+    ],
+    "investor_ids": [
+      "inv_968e2d5b0868",
+      "inv_20518953d06f",
+      "inv_026836921a4d",
+      "inv_9adbdf920fd8"
+    ],
+    "person_ids": [
+      "per_ca37709e53de",
+      "per_6058b8de638a",
+      "per_6ba890c46828",
+      "per_ecd7b976"
+    ],
+    "metadata": {
+      "amount_usd": 70000000,
+      "amount_raw": "$70M",
+      "round_stage": "Series B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_2811f0793bd6e99e",
+    "source_url": "https://thenextweb.com/news/zevero-7m-carbon-management",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Zevero raises $7M Series A to scale carbon management platform globally",
+    "published_at": "2026-03-24T13:33:11+00:00",
+    "ingested_at": "2026-03-25T07:04:50.065042+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ef2026acee28"
+    ],
+    "investor_ids": [
+      "inv_0d4adf7c1756",
+      "inv_be7f42d8663c",
+      "inv_d7b679838e43"
+    ],
+    "person_ids": [
+      "per_1e07dc387649",
+      "per_2717a84262d6",
+      "per_7aebe1cf1652",
+      "per_957c21231a1d"
+    ],
+    "metadata": {
+      "amount_usd": 7000000,
+      "amount_raw": "$7M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
   }
 ]
