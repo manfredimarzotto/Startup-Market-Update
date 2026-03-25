@@ -54,38 +54,15 @@ export default function Header({ view, onViewChange }) {
       }
       if (!resp.ok) throw new Error(`GitHub API error: ${resp.status}`);
 
-      setBtnText('Pipeline running...');
-      await pollWorkflow(token);
-
-      setBtnText('Reloading...');
-      await new Promise(r => setTimeout(r, 5000));
-      window.location.reload();
+      setBtnText('Triggered!');
+      await new Promise(r => setTimeout(r, 2000));
+      alert('Pipeline triggered successfully. Data will update in ~10–15 minutes. Reload the page then to see fresh signals.');
     } catch (err) {
       alert('Refresh failed: ' + err.message);
+    } finally {
       setLoading(false);
       setBtnText('Refresh');
     }
-  }
-
-  async function pollWorkflow(token) {
-    await new Promise(r => setTimeout(r, 3000));
-    const startTime = Date.now();
-    const TIMEOUT = 5 * 60 * 1000;
-    while (Date.now() - startTime < TIMEOUT) {
-      const resp = await fetch(
-        `${GH_API}/repos/${GITHUB_REPO}/actions/runs?per_page=1&event=workflow_dispatch`,
-        { headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github.v3+json' } }
-      );
-      if (!resp.ok) throw new Error('Failed to check workflow status');
-      const data = await resp.json();
-      const run = data.workflow_runs?.[0];
-      if (run?.status === 'completed') {
-        if (run.conclusion === 'success') return;
-        throw new Error(`Workflow finished with: ${run.conclusion}`);
-      }
-      await new Promise(r => setTimeout(r, 8000));
-    }
-    throw new Error('Timed out waiting for workflow');
   }
 
   function handleContextMenu(e) {
