@@ -2644,5 +2644,194 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "partner"
+  },
+  {
+    "id": "per_cdb15451342b",
+    "name": "Nick Candy",
+    "role": "Investor/Backer",
+    "company_id": "co_e5d335620212",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_c4e96eb0e4b2",
+    "name": "Winston Weinberg",
+    "role": "Founder and CEO",
+    "company_id": "co_c9fd53f3265e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_91eddeaea112",
+    "name": "Pat Grady",
+    "role": "Partner",
+    "company_id": "co_c9fd53f3265e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_69c6b1c6f927",
+    "name": "Jake Niarchos",
+    "role": "Director",
+    "company_id": "co_b39c48c4423a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_a95f9a929875",
+    "name": "Jon Neale",
+    "role": "Growth Director, UK and Ireland",
+    "company_id": "co_b39c48c4423a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_e63a73b5f0e5",
+    "name": "Julie B\u00f6hning",
+    "role": "CEO",
+    "company_id": "co_29f59a0423dc",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_576229ee701d",
+    "name": "J\u00e9r\u00e9my Marciacq",
+    "role": "Co-founder",
+    "company_id": "co_29f59a0423dc",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_d8f47dba99dd",
+    "name": "Simon Both",
+    "role": "Co-founder",
+    "company_id": "co_29f59a0423dc",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_bb58316fd3e2",
+    "name": "Chris Bruce",
+    "role": "CEO",
+    "company_id": "co_181fdd46fc4a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_3ee3013a6c4e",
+    "name": "Pete Craghill",
+    "role": "CTO",
+    "company_id": "co_181fdd46fc4a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_df2699e5b33f",
+    "name": "Andy Leaver",
+    "role": "Operating Partner",
+    "company_id": "co_181fdd46fc4a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_0ae019201652",
+    "name": "Ben Faes",
+    "role": "CEO",
+    "company_id": "co_172992865fe0",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_a9008cfb5588",
+    "name": "Aidan Gomez",
+    "role": "CEO and co-founder",
+    "company_id": "co_172992865fe0",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_184ed2469d3f",
+    "name": "Jorge Palomar",
+    "role": "CEO",
+    "company_id": "co_8cd77e13dff3",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_59097e83d3cd",
+    "name": "Baybars K\u00fclebi",
+    "role": "CTO",
+    "company_id": "co_8cd77e13dff3",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_786be19ca88a",
+    "name": "Jacob Nathan",
+    "role": "Founder",
+    "company_id": "co_aa8b8a0831fa",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_b3c23dd3c704",
+    "name": "Rob Cochran",
+    "role": "Co-founder",
+    "company_id": "co_a617eae250d5",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_81dfa89700a4",
+    "name": "Josh Merel",
+    "role": "Co-founder",
+    "company_id": "co_a617eae250d5",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_b01cf869fc41",
+    "name": "Jacob Trefethen",
+    "role": "Head of Life Sciences",
+    "company_id": "co_7d3194f79e64",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "hiring_manager"
+  },
+  {
+    "id": "per_77160f635229",
+    "name": "Wojciech Zaremba",
+    "role": "Head of AI Resilience",
+    "company_id": "co_7d3194f79e64",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_808a1a6e37fc",
+    "name": "Anna Makanju",
+    "role": "Head of AI for Civil Society and Philanthropy",
+    "company_id": "co_7d3194f79e64",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "hiring_manager"
   }
 ]

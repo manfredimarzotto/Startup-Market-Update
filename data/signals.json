@@ -12392,5 +12392,1301 @@
       "round_stage": "Series A",
       "currency": "USD"
     }
+  },
+  {
+    "id": "sig_08017ff9fb648e46",
+    "source_url": "https://sifted.eu/articles/eif-launches-e15bn-fund-of-funds/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "EIF launches \u20ac15bn fund of funds to support 100 growth-stage venture capital firms",
+    "published_at": "2026-03-25T15:00:35+00:00",
+    "ingested_at": "2026-03-25T15:39:11.616919+00:00",
+    "geography": "DACH",
+    "country": "LU",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_5cb24401246a"
+    ],
+    "investor_ids": [
+      "inv_5cb24401246a"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 16500000000,
+      "amount_raw": "\u20ac15bn",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_53115eff98fd56a5",
+    "source_url": "https://sifted.eu/articles/eunice-funding-round-crypto-compliance-ai/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Crypto compliance startup Eunice raises $8M from Speedinvest and Moonfire Ventures",
+    "published_at": "2026-03-25T11:00:17+00:00",
+    "ingested_at": "2026-03-25T15:39:13.052695+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_f4185afa949c"
+    ],
+    "investor_ids": [
+      "inv_38cae481a24b",
+      "inv_758cf3969b56"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 8000000,
+      "amount_raw": "$8m",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_d56e5ef6ecbfdaab",
+    "source_url": "https://sifted.eu/articles/pave-space-fundraise-sovereignty/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Swiss spacetech Pave Space raises $40M seed round amid space sovereignty concerns",
+    "published_at": "2026-03-25T10:00:26+00:00",
+    "ingested_at": "2026-03-25T15:39:14.402298+00:00",
+    "geography": "DACH",
+    "country": "CH",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_29f59a0423dc"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 40000000,
+      "amount_raw": "$40M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_d5f196d2c1a295b3",
+    "source_url": "https://tech.eu/2026/03/25/entrix-raises-eur43m-as-contracted-battery-storage-portfolio-reaches-3gw/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Entrix raises \u20ac43M funding and reaches 3GW contracted battery storage capacity",
+    "published_at": "2026-03-25T12:19:51+00:00",
+    "ingested_at": "2026-03-25T15:39:15.785639+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_af98359cc30e"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 46900000,
+      "amount_raw": "\u20ac43M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_a4430dede8d2283a",
+    "source_url": "https://tech.eu/2026/03/25/with-8m-eunice-brings-institutional-grade-ai-to-due-diligence/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Eunice raises $8M in seed/pre-seed funding for institutional-grade AI due diligence platform",
+    "published_at": "2026-03-25T12:00:00+00:00",
+    "ingested_at": "2026-03-25T15:39:17.398889+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_f4185afa949c"
+    ],
+    "investor_ids": [
+      "inv_758cf3969b56",
+      "inv_38cae481a24b"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 8000000,
+      "amount_raw": "$8M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_4f78d2d15d6d61fa",
+    "source_url": "https://tech.eu/2026/03/25/with-eur30m-series-a-subbyx-scales-its-subscription-model-across-europe/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Subbyx raises \u20ac30M Series A to scale subscription infrastructure across Europe",
+    "published_at": "2026-03-25T12:00:00+00:00",
+    "ingested_at": "2026-03-25T15:39:18.905384+00:00",
+    "geography": "Southern Europe",
+    "country": "IT",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_168821ec5198"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 32400000,
+      "amount_raw": "\u20ac30M",
+      "round_stage": "Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_ddeff027a5fcef7a",
+    "source_url": "https://tech.eu/2026/03/25/building-the-path-to-3d-printed-organs-cellbricks-raises-eur10m-for-biofabricated-tissue-implants/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Cellbricks Therapeutics raises \u20ac10M for 3D-printed organ and biofabricated tissue development",
+    "published_at": "2026-03-25T11:07:00+00:00",
+    "ingested_at": "2026-03-25T15:39:21.672541+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_5777cf82ffe3"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 10900000,
+      "amount_raw": "\u20ac10M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_2eb8781477ce3fef",
+    "source_url": "https://tech.eu/2026/03/25/nick-candy-backed-fintech-vibepay-falls-into-liquidation-job-losses/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_1_strong",
+    "headline": "Nick Candy-backed fintech VibePay enters liquidation with job losses",
+    "published_at": "2026-03-25T11:00:00+00:00",
+    "ingested_at": "2026-03-25T15:39:23.207451+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_e5d335620212"
+    ],
+    "investor_ids": [
+      "inv_cdb15451342b"
+    ],
+    "person_ids": [
+      "per_cdb15451342b"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_0ac627eec071957d",
+    "source_url": "https://tech.eu/2026/03/25/pave-space-secures-40m-to-fast-track-satellite-deployment/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "PAVE Space secures $40M seed funding for satellite deployment technology",
+    "published_at": "2026-03-25T11:00:00+00:00",
+    "ingested_at": "2026-03-25T15:39:24.629148+00:00",
+    "geography": "DACH",
+    "country": "CH",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_29f59a0423dc"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 40000000,
+      "amount_raw": "$40M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_99385e09e2388692",
+    "source_url": "https://tech.eu/2026/03/25/deeptech-startup-renasens-lands-eur10m-to-scale-textile-recycling-in-europe/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Renasens raises \u20ac10M seed funding to scale textile recycling technology in Europe",
+    "published_at": "2026-03-25T11:00:00+00:00",
+    "ingested_at": "2026-03-25T15:39:26.180797+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_dc45dd738d2d"
+    ],
+    "investor_ids": [
+      "inv_13e581f5fc05",
+      "inv_429523e300c1"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 10800000,
+      "amount_raw": "\u20ac10M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_0cd66840c3a0daea",
+    "source_url": "https://tech.eu/2026/03/25/origin-raises-30m-series-a-to-improve-global-benefits-efficiency/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Origin raises $30M Series A+ to improve global benefits efficiency",
+    "published_at": "2026-03-25T10:07:07+00:00",
+    "ingested_at": "2026-03-25T15:39:27.471308+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_181fdd46fc4a"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 30000000,
+      "amount_raw": "$30M",
+      "round_stage": "Series A+",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_7992a02657ea6840",
+    "source_url": "https://tech.eu/2026/03/25/galtea-lands-32m-to-cut-costly-ai-testing-delays/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Galtea raises $3.2M seed funding for AI evaluation infrastructure platform",
+    "published_at": "2026-03-25T08:30:00+00:00",
+    "ingested_at": "2026-03-25T15:39:28.978244+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_8cd77e13dff3"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3200000,
+      "amount_raw": "$3.2M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_72a1928befb609ed",
+    "source_url": "https://tech.eu/2026/03/25/epoch-biodesign-raises-12m-to-bring-recycled-nylon-to-scale/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Epoch Biodesign raises $12M strategic funding for enzymatic nylon recycling technology",
+    "published_at": "2026-03-25T08:00:00+00:00",
+    "ingested_at": "2026-03-25T15:39:30.486832+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_aa8b8a0831fa"
+    ],
+    "investor_ids": [
+      "inv_5d88f45050c2",
+      "inv_50ddde49ff27",
+      "inv_d38333b2d7d8",
+      "inv_13e581f5fc05"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 12000000,
+      "amount_raw": "$12M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_f6f3bde50f9f7fcf",
+    "source_url": "https://news.crunchbase.com/venture/construction-tech-automation-trayd-ai-seriesa/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Trayd raises $10M Series A funding for construction tech back office operating system",
+    "published_at": "2026-03-25T13:00:19+00:00",
+    "ingested_at": "2026-03-25T15:39:31.928926+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_a4e50964c830"
+    ],
+    "investor_ids": [
+      "inv_cefa8820"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 10000000,
+      "amount_raw": "$10M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_460bfffa92d43dca",
+    "source_url": "https://techfundingnews.com/granola-raises-125m-series-c-company-context-ai/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Granola raises $125M from Index and Kleiner Perkins to build AI-powered searchable meeting memory platform",
+    "published_at": "2026-03-25T15:19:19+00:00",
+    "ingested_at": "2026-03-25T15:39:34.789416+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_89601a2c41e3"
+    ],
+    "investor_ids": [
+      "inv_007",
+      "inv_e57bc478e273"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 125000000,
+      "amount_raw": "$125M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_9953be365c421c84",
+    "source_url": "https://techfundingnews.com/openai-raises-120-billion-record-funding-round-2026/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "OpenAI in talks to raise $10B from MGX, Coatue and Thrive",
+    "published_at": "2026-03-25T14:42:28+00:00",
+    "ingested_at": "2026-03-25T15:39:36.450368+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_7d3194f79e64"
+    ],
+    "investor_ids": [
+      "inv_fe23563ae32c",
+      "inv_10159e97",
+      "inv_8365f8634d0f"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 10000000000,
+      "amount_raw": "$10B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_f165f64e4bed48c3",
+    "source_url": "https://techfundingnews.com/kleiner-perkins-3-5b-early-stage-growth-ai-investment/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Kleiner Perkins raises $3.5B across two new funds for early and growth-stage AI startups",
+    "published_at": "2026-03-25T14:32:59+00:00",
+    "ingested_at": "2026-03-25T15:39:37.896286+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_e57bc478e273"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3500000000,
+      "amount_raw": "$3.5B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_8b2d19fe0bea92c5",
+    "source_url": "https://techfundingnews.com/epic-microsystems-emerges-from-stealth-with-21m-from-intel-capital-to-power-ai-data-centres/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "EPIC Microsystems raises $21M Series A from Intel Capital for AI data centre solutions",
+    "published_at": "2026-03-25T14:30:00+00:00",
+    "ingested_at": "2026-03-25T15:39:39.616044+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_9b3d4d8dce1d"
+    ],
+    "investor_ids": [
+      "inv_a5e28faeb077"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 21000000,
+      "amount_raw": "$21M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_ce22a5ab3f911e34",
+    "source_url": "https://techfundingnews.com/y-combinator-backs-female-founded-construction-tech-trayd-in-10m-series-a/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Y Combinator backs female-founded construction tech Trayd in $10M Series A",
+    "published_at": "2026-03-25T14:30:00+00:00",
+    "ingested_at": "2026-03-25T15:39:41.213509+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_a4e50964c830"
+    ],
+    "investor_ids": [
+      "inv_cefa8820"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 10000000,
+      "amount_raw": "$10M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_19149820905a4ff2",
+    "source_url": "https://techfundingnews.com/mandel-ai-raises-3-9m-supply-chain-coordination/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "YC-backed Mandel AI raises $3.9M at $30M valuation for supply chain efficiency",
+    "published_at": "2026-03-25T12:30:00+00:00",
+    "ingested_at": "2026-03-25T15:39:42.691607+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_7673a79b5686"
+    ],
+    "investor_ids": [
+      "inv_cefa8820"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3900000,
+      "amount_raw": "$3.9M",
+      "currency": "USD",
+      "valuation": 30000000
+    }
+  },
+  {
+    "id": "sig_2471e66a2a921a9a",
+    "source_url": "https://techfundingnews.com/londons-eunice-lands-8m-from-speedinvest-and-moonfire-to-deploy-ai-agents-for-audit-ready-due-diligence/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "London-based Eunice raises $8M from Speedinvest and Moonfire for AI-powered audit-ready due diligence",
+    "published_at": "2026-03-25T12:00:00+00:00",
+    "ingested_at": "2026-03-25T15:39:44.351728+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_f4185afa949c"
+    ],
+    "investor_ids": [
+      "inv_38cae481a24b",
+      "inv_758cf3969b56"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 8000000,
+      "amount_raw": "$8M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_6517b7c482efa006",
+    "source_url": "https://techfundingnews.com/female-co-founded-bkr-capital-secures-ca-20m-first-close-to-address-funding-gap-for-black-founders/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "BKR Capital secures CA$20M first close for second fund to support Black founders",
+    "published_at": "2026-03-25T11:39:30+00:00",
+    "ingested_at": "2026-03-25T15:39:46.090879+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_e3cbe077f835"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 14500000,
+      "amount_raw": "CA$20M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_07a65fff5b86c8fb",
+    "source_url": "https://techfundingnews.com/pave-space-40m-seed-orbital-logistics/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "PAVE raises $40M mega seed round led by Visionaries Club and Creandum for satellite orbital transfer technology",
+    "published_at": "2026-03-25T11:00:00+00:00",
+    "ingested_at": "2026-03-25T15:39:48.685322+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_29f59a0423dc"
+    ],
+    "investor_ids": [
+      "inv_33551bb6e0b0",
+      "inv_04a64ee55f95"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 40000000,
+      "amount_raw": "$40M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_5c51a847f54fff9b",
+    "source_url": "https://techfundingnews.com/silicon-roundabout-backs-cellbricks-e10m-round-to-advance-3d-tissue-implants-and-organ-replacement/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Silicon Roundabout leads \u20ac10M funding round for Cellbricks' 3D tissue implants and organ replacement technology",
+    "published_at": "2026-03-25T11:00:00+00:00",
+    "ingested_at": "2026-03-25T15:39:50.697659+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_5777cf82ffe3"
+    ],
+    "investor_ids": [
+      "inv_4d07aa06acd1"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 10800000,
+      "amount_raw": "\u20ac10M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_3de2b1e472ac8f1c",
+    "source_url": "https://www.uktech.news/ai/ai-notepad-granola-secures-unicorn-status-after-series-c-20260325",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Granola secures $125M Series C at $1.5B valuation, reaching unicorn status",
+    "published_at": "2026-03-25T15:09:30+00:00",
+    "ingested_at": "2026-03-25T15:39:52.851308+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_89601a2c41e3"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 125000000,
+      "amount_raw": "$125M",
+      "round_stage": "Series C",
+      "currency": "USD",
+      "valuation": 1500000000
+    }
+  },
+  {
+    "id": "sig_49c5f26855bfd084",
+    "source_url": "https://www.uktech.news/tech-hubs/scotland/scottish-tech-cluster-to-receive-20m-public-investment-20260325",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "UK government announces \u00a320m public investment in Tay Cities Region tech cluster",
+    "published_at": "2026-03-25T14:00:33+00:00",
+    "ingested_at": "2026-03-25T15:39:54.714055+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [],
+    "investor_ids": [
+      "inv_c6d98ffa6a60",
+      "inv_47412a33f182"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 25200000,
+      "amount_raw": "\u00a320m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_d4d4c40394e07734",
+    "source_url": "https://www.uktech.news/fintech/ai-investment-due-diligence-platform-raises-6m-20260325",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Eunice raises \u00a36m ($8m) for AI-powered due diligence platform for regulated digital asset markets",
+    "published_at": "2026-03-25T12:00:28+00:00",
+    "ingested_at": "2026-03-25T15:39:56.282622+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_f4185afa949c"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 8000000,
+      "amount_raw": "\u00a36m ($8m)",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_72bee90ad3bded17",
+    "source_url": "https://www.uktech.news/foodtech/uber-and-starship-expand-robotic-deliveries-to-new-uk-city-20260325",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "expansion",
+    "signal_tier": "tier_2_medium",
+    "headline": "Uber Eats and Starship Technologies expand robotic delivery service to additional UK city following successful Leeds launch",
+    "published_at": "2026-03-25T10:00:19+00:00",
+    "ingested_at": "2026-03-25T15:39:57.779753+00:00",
+    "geography": "UK",
+    "country": "Other",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_286f1f8cdbab"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_916a9458be44d114",
+    "source_url": "https://www.uktech.news/news/government-and-policy/government-launches-social-media-ban-pilot-scheme-20260325",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "UK government launches pilot scheme to test social media restrictions for young people",
+    "published_at": "2026-03-25T09:27:09+00:00",
+    "ingested_at": "2026-03-25T15:39:59.345457+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.65,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_7861423ec174ac03",
+    "source_url": "https://techcrunch.com/2026/03/25/harvey-confirms-11b-valuation-sequoia-triples-down/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Harvey closes $200M funding round at $11B valuation with Sequoia and GIC co-leading",
+    "published_at": "2026-03-25T15:27:15+00:00",
+    "ingested_at": "2026-03-25T15:40:02.001623+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_c9fd53f3265e"
+    ],
+    "investor_ids": [
+      "inv_dcd1f07b",
+      "inv_8aa206b0c985",
+      "inv_013",
+      "inv_10159e97",
+      "inv_80ee6e99b2e1",
+      "inv_c673430004db",
+      "inv_8f63085f4886",
+      "inv_e57bc478e273"
+    ],
+    "person_ids": [
+      "per_c4e96eb0e4b2",
+      "per_91eddeaea112",
+      "per_87842eff"
+    ],
+    "metadata": {
+      "amount_usd": 200000000,
+      "amount_raw": "$200M",
+      "currency": "USD",
+      "valuation": 11000000000
+    }
+  },
+  {
+    "id": "sig_d8c91cbea3488c3e",
+    "source_url": "https://techcrunch.com/2026/03/25/a16z-backed-glimpse-raises-new-funds-accelerates-dispute-tracking-automation-for-cpg-brands/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Y Combinator grad Glimpse raises $35M Series funding led by a16z after pivot",
+    "published_at": "2026-03-25T13:00:00+00:00",
+    "ingested_at": "2026-03-25T15:40:03.557778+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_62c4ea25a122"
+    ],
+    "investor_ids": [
+      "inv_e6eaf8f7a648"
+    ],
+    "person_ids": [
+      "per_64c46dff"
+    ],
+    "metadata": {
+      "amount_usd": 35000000,
+      "amount_raw": "$35M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_abaeaaa834a030ef",
+    "source_url": "https://techcrunch.com/2026/03/25/arinna-4-million-seed-round-solar-energy-space-power-problem/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Arinna raises $4M seed round to solve the space power problem",
+    "published_at": "2026-03-25T13:00:00+00:00",
+    "ingested_at": "2026-03-25T15:40:07.852948+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_fe4d0062f163"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_6e21b5d6"
+    ],
+    "metadata": {
+      "amount_usd": 4000000,
+      "amount_raw": "$4M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_0e6b1f3496f19df7",
+    "source_url": "https://www.deutsche-startups.de/2026/03/25/kandou-ai-bekommt-225-millionen-interloom-sammelt-165-millionen-ein-kewazo-streicht-15-millionen-ein/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Kandou AI raises \u20ac225 million in funding",
+    "published_at": "2026-03-25T14:55:00+00:00",
+    "ingested_at": "2026-03-25T15:40:10.978908+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_101e32680e4b"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 243000000,
+      "amount_raw": "225 Millionen",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_ca2b22a59efc330d",
+    "source_url": "https://www.deutsche-startups.de/2026/03/25/5-neue-startups-freshew-the-ocean-package-mounti-clever-sole-meliodays-medical/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Five new startups featured: freshew, The Ocean Package, Mounti, Clever Sole, Meliodays Medical",
+    "published_at": "2026-03-25T12:56:00+00:00",
+    "ingested_at": "2026-03-25T15:40:12.378414+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.3,
+    "company_ids": [
+      "co_1ad79151cf42"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_e286061f1a8b4ae8",
+    "source_url": "https://www.deutsche-startups.de/2026/03/25/recycling-autodoc-balun-wellster-happyhotel/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Startup Ticker featuring Blacklane, Uber, Recycling, Autodoc, Balun, and happyhotel",
+    "published_at": "2026-03-25T10:55:00+00:00",
+    "ingested_at": "2026-03-25T15:40:13.726803+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_ca669095e44ea868",
+    "source_url": "https://techround.co.uk/artificial-intelligence/%e2%81%a0how-ai-helping-university-graduates-jobs/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Access Learning launches AI-powered Access Careers Centre platform for university graduate employment support",
+    "published_at": "2026-03-25T13:06:02+00:00",
+    "ingested_at": "2026-03-25T15:40:15.889350+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_b39c48c4423a"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_69c6b1c6f927",
+      "per_a95f9a929875"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_affb2d654e7c418d",
+    "source_url": "https://thenextweb.com/news/openai-shut-down-sora",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "OpenAI shuts down Sora video generation app after six months of declining user engagement",
+    "published_at": "2026-03-25T14:02:14+00:00",
+    "ingested_at": "2026-03-25T15:40:17.680451+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7d3194f79e64"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_d1278d327f58"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_a561f992206bcdd0",
+    "source_url": "https://thenextweb.com/news/pave-space-40m-orbital-transfer-vehicle",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "PAVE Space raises $40M seed funding for orbital transfer vehicles",
+    "published_at": "2026-03-25T12:49:29+00:00",
+    "ingested_at": "2026-03-25T15:40:20.976794+00:00",
+    "geography": "DACH",
+    "country": "CH",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_29f59a0423dc"
+    ],
+    "investor_ids": [
+      "inv_33551bb6e0b0",
+      "inv_04a64ee55f95",
+      "inv_334cab6b62b1",
+      "inv_b84419724d43",
+      "inv_62842c753572",
+      "inv_d789b55e3a22",
+      "inv_c8f4d8b7e1a5",
+      "inv_2026fd333848",
+      "inv_30f6442251f0"
+    ],
+    "person_ids": [
+      "per_e63a73b5f0e5",
+      "per_576229ee701d",
+      "per_d8f47dba99dd"
+    ],
+    "metadata": {
+      "amount_usd": 40000000,
+      "amount_raw": "$40M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_e6d63f9332ebe6a1",
+    "source_url": "https://thenextweb.com/news/origin-30m-series-a-plus",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Origin raises $30M Series A+ led by Notion Capital for AI-powered benefits budget visibility platform",
+    "published_at": "2026-03-25T11:29:18+00:00",
+    "ingested_at": "2026-03-25T15:40:25.281622+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_181fdd46fc4a"
+    ],
+    "investor_ids": [
+      "inv_874f60af1631",
+      "inv_0f1f45087118",
+      "inv_7ae2c618a218",
+      "inv_ce749e840dca"
+    ],
+    "person_ids": [
+      "per_bb58316fd3e2",
+      "per_3ee3013a6c4e",
+      "per_df2699e5b33f"
+    ],
+    "metadata": {
+      "amount_usd": 30000000,
+      "amount_raw": "$30M",
+      "round_stage": "Series A+",
+      "currency": "USD",
+      "valuation": 106000000
+    }
+  },
+  {
+    "id": "sig_f9ae6974a74747b5",
+    "source_url": "https://thenextweb.com/news/rws-launches-language-weaver-pro",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "RWS launches Language Weaver Pro, a 100B+ parameter enterprise translation model built with Cohere",
+    "published_at": "2026-03-25T11:03:24+00:00",
+    "ingested_at": "2026-03-25T15:40:27.649310+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_172992865fe0"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_0ae019201652",
+      "per_a9008cfb5588"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_3d7fa438046b8211",
+    "source_url": "https://thenextweb.com/news/galtea-3-2m-ai-evaluation-platform",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Galtea raises $3.2M seed funding for AI agent testing platform",
+    "published_at": "2026-03-25T09:39:52+00:00",
+    "ingested_at": "2026-03-25T15:40:30.708030+00:00",
+    "geography": "Southern Europe",
+    "country": "ES",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_8cd77e13dff3"
+    ],
+    "investor_ids": [
+      "inv_4688a94c",
+      "inv_1b1f07d9321d",
+      "inv_a34cff2d64e8",
+      "inv_1937bdc82fe7",
+      "inv_2e1a2063d6c8"
+    ],
+    "person_ids": [
+      "per_184ed2469d3f",
+      "per_59097e83d3cd"
+    ],
+    "metadata": {
+      "amount_usd": 3200000,
+      "amount_raw": "$3.2M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_80eda59b662ef68e",
+    "source_url": "https://thenextweb.com/news/openreach-google-cloud-ai-full-fibre",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Openreach expands Google Cloud AI collaboration for full-fibre rollout and fleet decarbonisation",
+    "published_at": "2026-03-25T09:21:35+00:00",
+    "ingested_at": "2026-03-25T15:40:32.352833+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_a6717a4bfaa5"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_45450d82ed89ca67",
+    "source_url": "https://thenextweb.com/news/epoch-biodesign-12m-nylon-recycling",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Epoch Biodesign raises $12M Series B to scale nylon 6,6 recycling enzyme technology",
+    "published_at": "2026-03-25T08:51:47+00:00",
+    "ingested_at": "2026-03-25T15:40:34.887816+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_aa8b8a0831fa"
+    ],
+    "investor_ids": [
+      "inv_5d88f45050c2",
+      "inv_13e581f5fc05",
+      "inv_d38333b2d7d8",
+      "inv_50ddde49ff27",
+      "inv_0c79933c593f",
+      "inv_a9ed588527e5",
+      "inv_e2227e0c2a6e"
+    ],
+    "person_ids": [
+      "per_786be19ca88a"
+    ],
+    "metadata": {
+      "amount_usd": 12000000,
+      "amount_raw": "$12M",
+      "round_stage": "Series B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_bfb87a5d14a068ea",
+    "source_url": "https://thenextweb.com/news/amazon-acquires-fauna-robotics-and-its-approachable-humanoid-sprout",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Amazon acquires Fauna Robotics and its approachable humanoid robot Sprout for undisclosed terms",
+    "published_at": "2026-03-25T08:32:19+00:00",
+    "ingested_at": "2026-03-25T15:40:37.534498+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_a617eae250d5"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_b3c23dd3c704",
+      "per_81dfa89700a4"
+    ],
+    "metadata": {
+      "amount_usd": 16600000,
+      "amount_raw": "$16.6 million",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_4fb1941de6c40515",
+    "source_url": "https://thenextweb.com/news/openai-foundation-1-billion-invest",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "expansion",
+    "signal_tier": "tier_1_strong",
+    "headline": "OpenAI Foundation commits to spending at least $1 billion in 2026 across four program areas",
+    "published_at": "2026-03-25T08:01:21+00:00",
+    "ingested_at": "2026-03-25T15:40:40.263521+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7d3194f79e64"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_29cec27eadc8",
+      "per_b01cf869fc41",
+      "per_77160f635229",
+      "per_808a1a6e37fc"
+    ],
+    "metadata": {
+      "amount_usd": 1000000000,
+      "amount_raw": "$1 billion",
+      "currency": "USD",
+      "valuation": 130000000000
+    }
+  },
+  {
+    "id": "sig_ef7fdb9b22c25858",
+    "source_url": "https://thenextweb.com/news/asspack-team-password-manager-deal-2026",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Passpack launches enterprise security features for team password manager at $1.50/user/month",
+    "published_at": "2026-03-25T07:23:30+00:00",
+    "ingested_at": "2026-03-25T15:40:42.143444+00:00",
+    "geography": "Asia",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_1c31148eef28"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
   }
 ]
