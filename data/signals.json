@@ -13994,5 +13994,252 @@
       "per_149e96efddc4"
     ],
     "metadata": {}
+  },
+  {
+    "id": "sig_be3f31e3676ca2ad",
+    "source_url": "https://sifted.eu/articles/these-were-the-most-active-deeptech-investors-in-2025/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Article about most active deeptech investors in 2025",
+    "published_at": "2026-03-26T05:00:37+00:00",
+    "ingested_at": "2026-03-26T07:11:36.408636+00:00",
+    "geography": "EU",
+    "country": "",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_a1003e66e521be9c",
+    "source_url": "https://tech.eu/2026/03/26/sous-secures-eur4m-to-develop-ai-growth-tools-for-restaurants/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "SOUS raises \u20ac4M seed funding to develop AI growth tools for restaurants",
+    "published_at": "2026-03-26T06:15:00+00:00",
+    "ingested_at": "2026-03-26T07:11:37.839512+00:00",
+    "geography": "Benelux",
+    "country": "NL",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_aa32b653a9df"
+    ],
+    "investor_ids": [
+      "inv_5565cabb76df"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4400000,
+      "amount_raw": "\u20ac4M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_57765c5eba8a5a8d",
+    "source_url": "https://techfundingnews.com/mountly-raises-600k-alps-food-delivery/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Mountly raises \u20ac600K from Amitours to launch Deliveroo-style delivery service in French Alps",
+    "published_at": "2026-03-26T07:00:00+00:00",
+    "ingested_at": "2026-03-26T07:11:39.419251+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_09ac23b97c15"
+    ],
+    "investor_ids": [
+      "inv_9b9cf20fa7ab"
+    ],
+    "person_ids": [
+      "per_028132987e1c"
+    ],
+    "metadata": {
+      "amount_usd": 660000,
+      "amount_raw": "\u20ac600K",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_961a54dc4137ebbc",
+    "source_url": "https://techfundingnews.com/amazon-theia-8m-financial-markets-ai/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Ex-Amazon founded Theia Insights raises $8M to build AI model of global economy for financial markets",
+    "published_at": "2026-03-26T06:00:00+00:00",
+    "ingested_at": "2026-03-26T07:11:40.991258+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_a4e1c9c8e117"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 8000000,
+      "amount_raw": "$8M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_2bbac157b699bc30",
+    "source_url": "https://techfundingnews.com/seed-speed-backs-leads-sous-e4m-round-to-build-ai-growth-platform-for-restaurants/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "seed + speed leads \u20ac4M funding round for SOUS AI growth platform for restaurants",
+    "published_at": "2026-03-26T05:00:00+00:00",
+    "ingested_at": "2026-03-26T07:11:42.510861+00:00",
+    "geography": "Southern Europe",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_aa32b653a9df"
+    ],
+    "investor_ids": [
+      "inv_5565cabb76df"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4320000,
+      "amount_raw": "\u20ac4M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_649e2798885e2214",
+    "source_url": "https://techcrunch.com/2026/03/25/riding-the-glp-1-boom-vitl-lands-7-5m-to-overhaul-cash-pay-clinic-prescribing/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "VITL raises $7.5M to transform cash-pay clinic GLP-1 prescribing",
+    "published_at": "2026-03-25T18:45:04+00:00",
+    "ingested_at": "2026-03-26T07:11:43.960029+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_fcd0217bc492"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_09ff1c2c"
+    ],
+    "metadata": {
+      "amount_usd": 7500000,
+      "amount_raw": "$7.5M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_fd73cc7a6a960776",
+    "source_url": "https://techround.co.uk/interviews/inside-mind-anti-fund-partner-steve-han-backing-next-wave-disruptive-founders/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Anti Fund partner Steve Han discusses early-stage funding strategy and investment thesis for disruptive founders",
+    "published_at": "2026-03-25T19:21:20+00:00",
+    "ingested_at": "2026-03-26T07:11:46.669538+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.35,
+    "company_ids": [
+      "co_680765b36f92"
+    ],
+    "investor_ids": [
+      "inv_680765b36f92",
+      "inv_5945a8f3f2ed",
+      "inv_ddcaff469655",
+      "inv_e9666c1896e6",
+      "inv_5cedc55a80a4",
+      "inv_97e5166a1cd1"
+    ],
+    "person_ids": [
+      "per_bb44e0aff994",
+      "per_f9202f9b4215",
+      "per_5c79416ad4c0",
+      "per_a863b44967af"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_aa4d491b5186e443",
+    "source_url": "https://thenextweb.com/news/google-turboquant-ai-compression-memory-stocks",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Google releases TurboQuant compression algorithm for AI model key-value cache, triggering immediate decline in memory stock valuations",
+    "published_at": "2026-03-25T21:06:47+00:00",
+    "ingested_at": "2026-03-26T07:11:49.262044+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_bbdefa29"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_14cd98540860",
+      "per_60888948a5ec",
+      "per_92b99d3f48c1"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_56e8bd656fc69000",
+    "source_url": "https://thenextweb.com/news/friending-app-loneliness-real-world-friendships",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_2_medium",
+    "headline": "Friending app launches to combat loneliness by facilitating in-person meetings with identity verification and proximity detection",
+    "published_at": "2026-03-25T20:28:14+00:00",
+    "ingested_at": "2026-03-26T07:11:51.754287+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.82,
+    "company_ids": [
+      "co_964516a8a096"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_445a5835dc13",
+      "per_05d813869f85"
+    ],
+    "metadata": {}
   }
 ]

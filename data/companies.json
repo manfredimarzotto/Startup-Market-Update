@@ -482,7 +482,7 @@
   {
     "id": "co_bbdefa29",
     "name": "Google",
-    "domain": "",
+    "domain": "google.com",
     "sector": "CleanTech",
     "sub_sector": "Smart Grid Technology",
     "stage": "",
@@ -3981,6 +3981,78 @@
     "hq_country": "FR",
     "hq_city": null,
     "last_signal_at": "2026-03-25T15:57:56+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_aa32b653a9df",
+    "name": "SOUS",
+    "domain": null,
+    "sector": "FoodTech",
+    "sub_sector": "AI-powered growth platform for food and beverage businesses",
+    "stage": "seed",
+    "hq_country": "NL",
+    "hq_city": "Amsterdam",
+    "last_signal_at": "2026-03-26T06:15:00+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_09ac23b97c15",
+    "name": "Mountly",
+    "domain": null,
+    "sector": "Logistics",
+    "sub_sector": "On-demand delivery",
+    "stage": "seed",
+    "hq_country": "FR",
+    "hq_city": null,
+    "last_signal_at": "2026-03-26T07:00:00+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_a4e1c9c8e117",
+    "name": "Theia Insights",
+    "domain": null,
+    "sector": "AI/ML",
+    "sub_sector": "FinTech",
+    "stage": "",
+    "hq_country": "",
+    "hq_city": null,
+    "last_signal_at": "2026-03-26T06:00:00+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_fcd0217bc492",
+    "name": "VITL",
+    "domain": null,
+    "sector": "HealthTech",
+    "sub_sector": "Digital Health, Telemedicine",
+    "stage": "",
+    "hq_country": "",
+    "hq_city": null,
+    "last_signal_at": "2026-03-25T18:45:04+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_680765b36f92",
+    "name": "Anti Fund",
+    "domain": null,
+    "sector": "Venture Capital",
+    "sub_sector": "Early-stage VC",
+    "stage": "",
+    "hq_country": "Other",
+    "hq_city": null,
+    "last_signal_at": "2026-03-25T19:21:20+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_964516a8a096",
+    "name": "Friending",
+    "domain": null,
+    "sector": "SaaS",
+    "sub_sector": "Social Networking",
+    "stage": "",
+    "hq_country": "Other",
+    "hq_city": "Raleigh",
+    "last_signal_at": "2026-03-25T20:28:14+00:00",
     "signal_count": 1
   }
 ]

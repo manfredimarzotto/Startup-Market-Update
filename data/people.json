@@ -2923,5 +2923,95 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_028132987e1c",
+    "name": "Katia Sogreeva-Peyron",
+    "role": "Founder",
+    "company_id": "co_09ac23b97c15",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_bb44e0aff994",
+    "name": "Steve Han",
+    "role": "Partner",
+    "company_id": "co_680765b36f92",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_f9202f9b4215",
+    "name": "Jake Paul",
+    "role": "Co-founder",
+    "company_id": "co_680765b36f92",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_5c79416ad4c0",
+    "name": "Geoffrey Woo",
+    "role": "Co-founder",
+    "company_id": "co_680765b36f92",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_a863b44967af",
+    "name": "David Soffer",
+    "role": "Author",
+    "company_id": "co_680765b36f92",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_14cd98540860",
+    "name": "Amir Zandieh",
+    "role": "Research Scientist at Google",
+    "company_id": "co_bbdefa29",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_60888948a5ec",
+    "name": "Vahab Mirrokni",
+    "role": "Vice President and Google Fellow",
+    "company_id": "co_bbdefa29",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_92b99d3f48c1",
+    "name": "Andrew Rocha",
+    "role": "Analyst at Wells Fargo",
+    "company_id": "co_bbdefa29",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_445a5835dc13",
+    "name": "Gabor Kadas",
+    "role": "Founder",
+    "company_id": "co_964516a8a096",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_05d813869f85",
+    "name": "Vivek Murthy",
+    "role": "US Surgeon General",
+    "company_id": "co_964516a8a096",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
   }
 ]

@@ -4323,5 +4323,93 @@
     "website": "",
     "linkedin_url": "",
     "last_signal_at": "2026-03-25T15:57:56+00:00"
+  },
+  {
+    "id": "inv_5565cabb76df",
+    "name": "Seed + Speed Ventures",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-26T06:15:00+00:00"
+  },
+  {
+    "id": "inv_9b9cf20fa7ab",
+    "name": "Amitours",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-26T07:00:00+00:00"
+  },
+  {
+    "id": "inv_680765b36f92",
+    "name": "Anti Fund",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-25T19:21:20+00:00"
+  },
+  {
+    "id": "inv_5945a8f3f2ed",
+    "name": "March Capital",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-25T19:21:20+00:00"
+  },
+  {
+    "id": "inv_ddcaff469655",
+    "name": "Deutsche Bank",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-25T19:21:20+00:00"
+  },
+  {
+    "id": "inv_e9666c1896e6",
+    "name": "Silver Lake",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-25T19:21:20+00:00"
+  },
+  {
+    "id": "inv_5cedc55a80a4",
+    "name": "Thoma Bravo",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-25T19:21:20+00:00"
+  },
+  {
+    "id": "inv_97e5166a1cd1",
+    "name": "TPG",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-25T19:21:20+00:00"
   }
 ]
