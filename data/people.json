@@ -3013,5 +3013,275 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "partner"
+  },
+  {
+    "id": "per_9e8b2daa5eda",
+    "name": "Laura Modiano",
+    "role": "OpenAI representative",
+    "company_id": "co_7d3194f79e64",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_d62b0f1007dc",
+    "name": "Jenson Brook",
+    "role": "serial entrepreneur and founder",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_4419ff78da75",
+    "name": "Mattias Miksche",
+    "role": "Nordic operator and investor",
+    "company_id": "co_e3235d318a2f",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_86ac23e21147",
+    "name": "Johannes Schildt",
+    "role": "Nordic operator and investor",
+    "company_id": "co_e3235d318a2f",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_d5fd420de796",
+    "name": "Fredrik Uhrstr\u00f6m",
+    "role": "Nordic operator and investor",
+    "company_id": "co_e3235d318a2f",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_8864a68c3e84",
+    "name": "Karin Bjerde",
+    "role": "Nordic operator and investor",
+    "company_id": "co_e3235d318a2f",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_c85e909deb23",
+    "name": "Mark Strande",
+    "role": "CISO at Miro",
+    "company_id": "co_e3235d318a2f",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_540aaea5ae30",
+    "name": "Cristiano Ronaldo",
+    "role": "Investor",
+    "company_id": "co_b48397c03b82",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_d795bfcc27fd",
+    "name": "Diogo Dalot",
+    "role": "Investor",
+    "company_id": "co_b48397c03b82",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_7b0eb727b73a",
+    "name": "Bill Peebles",
+    "role": "Sora Lead",
+    "company_id": "co_7d3194f79e64",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_4610af00ed60",
+    "name": "Fidji Simo",
+    "role": "Product Head",
+    "company_id": "co_7d3194f79e64",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_35dbdb2f691b",
+    "name": "Adam Raine",
+    "role": "User",
+    "company_id": "co_7d3194f79e64",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": null
+  },
+  {
+    "id": "per_7a75ed3a280c",
+    "name": "John Zhao",
+    "role": "CEO",
+    "company_id": "co_db994a57a76e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_5b646ea3f518",
+    "name": "Mathias Schilling",
+    "role": "Co-founder and Managing Partner at Headline",
+    "company_id": "co_db994a57a76e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_69c5e7257641",
+    "name": "Brandon Tseng",
+    "role": "Co-founder",
+    "company_id": "co_4f1788468552",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_aa3005811dba",
+    "name": "Ryan Tseng",
+    "role": "Co-founder",
+    "company_id": "co_4f1788468552",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_20df0a5ce6c9",
+    "name": "Andrew Reiter",
+    "role": "Co-founder",
+    "company_id": "co_4f1788468552",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_51fbc19e1ede",
+    "name": "David Mussafer",
+    "role": "Advent International Chairman",
+    "company_id": "co_4f1788468552",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_49911d346eaf",
+    "name": "Todd Combs",
+    "role": "JPMorgan Chase",
+    "company_id": "co_4f1788468552",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_dbb6c8bf9a25",
+    "name": "Vadim Fedotov",
+    "role": "Founder",
+    "company_id": "co_b48397c03b82",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_a5f1a00ac514",
+    "name": "Dr Ye Tian",
+    "role": "Founder, former PhD research scientist at Amazon Alexa",
+    "company_id": "co_a4e1c9c8e117",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_712ad7aaa6a6",
+    "name": "Patrick Pinschmidt",
+    "role": "Co-managing partner, MiddleGame Ventures",
+    "company_id": "co_a4e1c9c8e117",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_fd27a9994086",
+    "name": "Mate Rimac",
+    "role": "Co-founder",
+    "company_id": "co_1cd7c745864c",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_6f86db5ad14f",
+    "name": "Marko Pejkovic",
+    "role": "CEO",
+    "company_id": "co_1cd7c745864c",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_e34650704831",
+    "name": "James Peng",
+    "role": "CEO",
+    "company_id": "co_1cd7c745864c",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_63c39284a555",
+    "name": "Gijs Coppens",
+    "role": "Founder, registered healthcare psychologist",
+    "company_id": "co_bee3b55d3acd",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_e1bfb84c7b0f",
+    "name": "Floris Rost van Tonningen",
+    "role": "Co-founder",
+    "company_id": "co_bee3b55d3acd",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_3faaad22811b",
+    "name": "J\u00fcrgen Ingels",
+    "role": "Founder of Smartfin",
+    "company_id": "co_bee3b55d3acd",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_ec55a1b185c4",
+    "name": "Adriaan N\u00fchn",
+    "role": "Angel investor",
+    "company_id": "co_bee3b55d3acd",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_f3bf989bb4ca",
+    "name": "David Vismans",
+    "role": "Angel investor",
+    "company_id": "co_bee3b55d3acd",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
   }
 ]

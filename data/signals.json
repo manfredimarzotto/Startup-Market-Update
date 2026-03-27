@@ -14241,5 +14241,1028 @@
       "per_05d813869f85"
     ],
     "metadata": {}
+  },
+  {
+    "id": "sig_43ff8577b301e685",
+    "source_url": "https://sifted.eu/articles/11-spanish-ai-startups-to-watch-according-to-investors/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "11 Spanish AI startups highlighted by investors as ones to watch",
+    "published_at": "2026-03-27T05:00:54+00:00",
+    "ingested_at": "2026-03-27T07:08:58.182092+00:00",
+    "geography": "Southern Europe",
+    "country": "ES",
+    "ai_confidence": 0.95,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_5f4c0318a2541253",
+    "source_url": "https://sifted.eu/articles/investors-hunt-for-the-next-deepmind-in-oxford-amid-deeptech-boom/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Investors searching for next DeepMind-like AI company in Oxford during deeptech investment boom",
+    "published_at": "2026-03-27T05:00:51+00:00",
+    "ingested_at": "2026-03-27T07:08:59.659777+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.35,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_8ab30d7ec0c881f9",
+    "source_url": "https://sifted.eu/articles/laura-modiano-podcast/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "OpenAI's Laura Modiano discusses hackathons, Lovable platform, and startup partnership opportunities",
+    "published_at": "2026-03-26T16:48:51+00:00",
+    "ingested_at": "2026-03-27T07:09:01.134593+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.3,
+    "company_ids": [
+      "co_7d3194f79e64"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_9e8b2daa5eda"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_91e217074bec09b9",
+    "source_url": "https://tech.eu/2026/03/26/allday-goods-raises-ps765k-to-scale-its-cult-recycled-plastic-knife-brand/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Allday Goods raises \u00a3765K funding to scale recycled-plastic knife brand",
+    "published_at": "2026-03-26T12:52:32+00:00",
+    "ingested_at": "2026-03-27T07:09:02.500251+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_d670fb8582b6"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 963000,
+      "amount_raw": "\u00a3765K",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_bcd03d44f8160836",
+    "source_url": "https://tech.eu/2026/03/26/most-uk-startups-aren-t-in-london-but-most-funding-still-is/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "UK startups outside London receive disproportionately lower funding despite representing majority of high-growth businesses",
+    "published_at": "2026-03-26T12:30:54+00:00",
+    "ingested_at": "2026-03-27T07:09:03.952153+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.4,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_d62b0f1007dc"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_53d4b630a6353a53",
+    "source_url": "https://tech.eu/2026/03/26/theia-insights-grabs-8m-to-map-the-global-economy-with-ai/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Theia Insights raises $8M Series A to map global economy with AI",
+    "published_at": "2026-03-26T11:00:00+00:00",
+    "ingested_at": "2026-03-27T07:09:05.464688+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_a4e1c9c8e117"
+    ],
+    "investor_ids": [
+      "inv_faaca474e330",
+      "inv_c4dbd4f2b7db",
+      "inv_85bc4279ae6e"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 8000000,
+      "amount_raw": "$8M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_c54844e28da0499f",
+    "source_url": "https://tech.eu/2026/03/26/klarna-veterans-launch-galdera-with-eur15m-for-ai-financial-modeling/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Klarna veterans launch Galdera with \u20ac1.5M pre-seed for AI financial modeling",
+    "published_at": "2026-03-26T10:45:00+00:00",
+    "ingested_at": "2026-03-27T07:09:06.807129+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_81baf3255507"
+    ],
+    "investor_ids": [
+      "inv_0bfa1c7a0cf9",
+      "inv_785ee58e52ac"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1620000,
+      "amount_raw": "\u20ac1.5M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_b11e4972b5142879",
+    "source_url": "https://tech.eu/2026/03/26/from-early-stage-depth-to-global-scale-ups-the-finnish-tech-ecosystem/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Finnish tech ecosystem raised \u20ac2.9 billion in 2025 with mix of late-stage and early-stage activity",
+    "published_at": "2026-03-26T09:00:00+00:00",
+    "ingested_at": "2026-03-27T07:09:08.340029+00:00",
+    "geography": "Nordics",
+    "country": "FI",
+    "ai_confidence": 0.65,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3160000000,
+      "amount_raw": "\u20ac2.9 billion",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_77b91d4ff599af14",
+    "source_url": "https://tech.eu/2026/03/26/giraffe360-raises-10m-series-b-financing-led-by-cipio-partners/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Giraffe360 raises $10M Series B financing led by Cipio Partners",
+    "published_at": "2026-03-26T08:00:00+00:00",
+    "ingested_at": "2026-03-27T07:09:09.827444+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_8fe55059b06c"
+    ],
+    "investor_ids": [
+      "inv_ca07415d9c22",
+      "inv_a93dab7b158c"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 10000000,
+      "amount_raw": "$10M",
+      "round_stage": "Series B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_e59e3d13dbc06263",
+    "source_url": "https://news.crunchbase.com/venture/seed-funding-skewing-larger-ai-competitive-data/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Seed funding landscape shows larger rounds growing while overall market remains competitive in 2025",
+    "published_at": "2026-03-26T11:00:21+00:00",
+    "ingested_at": "2026-03-27T07:09:11.637959+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.65,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_raw": "$10 million and above",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_011a5c3ce778b088",
+    "source_url": "https://techfundingnews.com/scalvy-raises-13-9m-from-silicon-badia-to-power-next-gen-ai-data-centres-and-energy-systems/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Scalvy raises $13.9M Series A from Silicon Badia for AI data centres and energy systems",
+    "published_at": "2026-03-26T14:00:00+00:00",
+    "ingested_at": "2026-03-27T07:09:13.243960+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_5bcb152e90b1"
+    ],
+    "investor_ids": [
+      "inv_bbc7eb8b816c"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 13900000,
+      "amount_raw": "$13.9M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_0479426ccf170c1c",
+    "source_url": "https://techfundingnews.com/shield-ai-2b-funding-hivemind-aechelon/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Shield AI raises $2B from Advent at $12.7B valuation for autonomous defence scaling",
+    "published_at": "2026-03-26T13:07:45+00:00",
+    "ingested_at": "2026-03-27T07:09:14.660935+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_4f1788468552"
+    ],
+    "investor_ids": [
+      "inv_80c8a5498a7e"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2000000000,
+      "amount_raw": "$2B",
+      "currency": "USD",
+      "valuation": 12700000000
+    }
+  },
+  {
+    "id": "sig_d848e2ec6835dfe5",
+    "source_url": "https://techfundingnews.com/eic-accelerator-backs-arkadia-spaces-e14-5m-round-to-commercialise-green-satellite-fuel/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Arkadia Space secures \u20ac14.5M EIC Accelerator funding for green satellite fuel commercialization",
+    "published_at": "2026-03-26T11:54:02+00:00",
+    "ingested_at": "2026-03-27T07:09:16.212946+00:00",
+    "geography": "Southern Europe",
+    "country": "ES",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ccc5d3697ddd"
+    ],
+    "investor_ids": [
+      "inv_006"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 15700000,
+      "amount_raw": "\u20ac14.5M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_f04ecdfe37c11e19",
+    "source_url": "https://techfundingnews.com/londons-dexory-raises-8-5m-extension-round-from-british-business-bank-to-expand-robotics-led-warehouse/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Dexory raises \u00a38.5M extension round from British Business Bank for warehouse robotics expansion",
+    "published_at": "2026-03-26T11:34:18+00:00",
+    "ingested_at": "2026-03-27T07:09:17.708414+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_9583a6a93cb0"
+    ],
+    "investor_ids": [
+      "inv_41bc30b42626"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 10625000,
+      "amount_raw": "\u00a38.5M",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_9bbf89e845c10e06",
+    "source_url": "https://techfundingnews.com/sequoia-and-gic-co-lead-harveys-200m-round-at-11b-valuation-to-scale-ai-agents-across-law-firms/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Harvey raises $200M Series funding co-led by Sequoia and GIC at $11B valuation",
+    "published_at": "2026-03-26T09:06:28+00:00",
+    "ingested_at": "2026-03-27T07:09:19.320652+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_c9fd53f3265e"
+    ],
+    "investor_ids": [
+      "inv_8aa206b0c985",
+      "inv_dcd1f07b"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 200000000,
+      "amount_raw": "$200M",
+      "currency": "USD",
+      "valuation": 11000000000
+    }
+  },
+  {
+    "id": "sig_09e892018fc1dd90",
+    "source_url": "https://techfundingnews.com/former-openai-and-deepmind-researchers-eye-7b-valuation-for-ai-startup-periodic-labs/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Periodic Labs seeks hundreds of millions at $7B valuation to develop AI scientists",
+    "published_at": "2026-03-26T08:21:08+00:00",
+    "ingested_at": "2026-03-27T07:09:21.019780+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_14d43dfafd83"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_raw": "hundreds of millions of dollars",
+      "currency": "USD",
+      "valuation": 7000000000
+    }
+  },
+  {
+    "id": "sig_e5ebac5e33436a1e",
+    "source_url": "https://techfundingnews.com/barcelona-female-founders-catalonia-40-percent-europe-vc/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "40% of Catalan startups now include female founders, outpacing European average",
+    "published_at": "2026-03-26T07:30:00+00:00",
+    "ingested_at": "2026-03-27T07:09:22.582997+00:00",
+    "geography": "Southern Europe",
+    "country": "ES",
+    "ai_confidence": 0.65,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_bbb5b74f98b834c5",
+    "source_url": "https://arcticstartup.com/galdera-labs-raises-e1-5m-pre-seed/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Klarna alumni-founded Galdera Labs raises \u20ac1.5M pre-seed for AI-native financial modeling platform",
+    "published_at": "2026-03-26T14:08:42+00:00",
+    "ingested_at": "2026-03-27T07:09:24.250644+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_81baf3255507"
+    ],
+    "investor_ids": [
+      "inv_0bfa1c7a0cf9",
+      "inv_785ee58e52ac"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1650000,
+      "amount_raw": "\u20ac1.5M",
+      "round_stage": "Pre-Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_69cfabaa5b062376",
+    "source_url": "https://arcticstartup.com/renasens-raises-e10m-seed/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Renasens raises \u20ac10M seed round for CO\u2082-powered textile recycling technology",
+    "published_at": "2026-03-26T13:23:08+00:00",
+    "ingested_at": "2026-03-27T07:09:26.019243+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_dc45dd738d2d"
+    ],
+    "investor_ids": [
+      "inv_13e581f5fc05",
+      "inv_429523e300c1",
+      "inv_fae7b783ce10"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 10800000,
+      "amount_raw": "\u20ac10M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_83b9aec94b14d474",
+    "source_url": "https://arcticstartup.com/noru-raises-e553-9k/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Swedish AI compliance platform Noru raises \u20ac553.9K in pre-seed round led by Ampli Ventures",
+    "published_at": "2026-03-26T12:55:57+00:00",
+    "ingested_at": "2026-03-27T07:09:30.412623+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_e3235d318a2f"
+    ],
+    "investor_ids": [
+      "inv_05c879778981",
+      "inv_013",
+      "inv_2b53964c34ab",
+      "inv_b28be7e6f1ed"
+    ],
+    "person_ids": [
+      "per_4419ff78da75",
+      "per_86ac23e21147",
+      "per_d5fd420de796",
+      "per_8864a68c3e84",
+      "per_c85e909deb23"
+    ],
+    "metadata": {
+      "amount_usd": 595000,
+      "amount_raw": "\u20ac553.9K (SEK 6 million)",
+      "round_stage": "Pre-Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_51e750ee6d34eb94",
+    "source_url": "https://www.uktech.news/medtech/ronaldo-backed-health-startup-acquired-by-us-giant-20260326",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Cristiano Ronaldo-backed health startup Bioniq acquired by US wellness group Herbalife",
+    "published_at": "2026-03-26T15:00:34+00:00",
+    "ingested_at": "2026-03-27T07:09:32.110128+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_b48397c03b82"
+    ],
+    "investor_ids": [
+      "inv_540aaea5ae30",
+      "inv_d795bfcc27fd"
+    ],
+    "person_ids": [
+      "per_540aaea5ae30",
+      "per_d795bfcc27fd"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_22b492297f46d31f",
+    "source_url": "https://www.uktech.news/fintech/theia-insights-funding-20260326",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Theia Insights raises \u00a36m to address financial asset categorization blind spot",
+    "published_at": "2026-03-26T14:02:05+00:00",
+    "ingested_at": "2026-03-27T07:09:33.499012+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_a4e1c9c8e117"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 8000000,
+      "amount_raw": "\u00a36m ($8m)",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_782c71d2d36555ee",
+    "source_url": "https://www.uktech.news/fintech/tipjar-service-charge-funding-20260326",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "TiPJAR raises \u00a34.5m for service charge allocation platform",
+    "published_at": "2026-03-26T12:00:57+00:00",
+    "ingested_at": "2026-03-27T07:09:34.833831+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_e5482c23f872"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 5670000,
+      "amount_raw": "\u00a34.5m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_d0fc9fce8c179f72",
+    "source_url": "https://www.uktech.news/proptech/proptech-platform-giraffe360-raises-7-5m-20260326",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Giraffe360 raises \u00a37.5m in Series B funding for proptech platform",
+    "published_at": "2026-03-26T10:00:46+00:00",
+    "ingested_at": "2026-03-27T07:09:36.248517+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_8fe55059b06c"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 10000000,
+      "amount_raw": "\u00a37.5m ($10m)",
+      "round_stage": "Series B",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_43f25bdd8ed92bae",
+    "source_url": "https://www.uktech.news/ai/ai-pilots-launched-in-barnsley-in-blueprint-for-tech-towns-20260326",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "expansion",
+    "signal_tier": "tier_2_medium",
+    "headline": "UK government launches AI pilot programmes in Barnsley as part of 'Tech Towns' initiative",
+    "published_at": "2026-03-26T09:29:11+00:00",
+    "ingested_at": "2026-03-27T07:09:37.693302+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.65,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_39341edb31bb571b",
+    "source_url": "https://www.deutsche-startups.de/2026/03/26/entrix-erhaelt-43-millionen-pave-space-sammelt-40-millionen-ein-bending-spoons-kauft-tractive/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Entrix raises \u20ac43 million in funding",
+    "published_at": "2026-03-26T14:55:00+00:00",
+    "ingested_at": "2026-03-27T07:09:40.638286+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_af98359cc30e"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 46344000,
+      "amount_raw": "43 Millionen",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_10cefe26e1004608",
+    "source_url": "https://www.deutsche-startups.de/2026/03/26/tractive-bending-spoons-isar-aerospace-solaris-berlin-muenchen/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "hiring_wave",
+    "signal_tier": "tier_3_weak",
+    "headline": "Deutsche Startups job board features multiple open positions across German companies",
+    "published_at": "2026-03-26T10:55:00+00:00",
+    "ingested_at": "2026-03-27T07:09:42.070948+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_b743ce904cd12b56",
+    "source_url": "https://siliconcanals.com/sc-a-if-a-person-can-sit-with-you-in-complete-silence-and-neither-of-you-reaches-for-a-phone-a-joke-or-an-exit-what-you-have-isnt-awkward-its-the-rarest-form-of-trust-most-adults-will-ever-experience/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Silicon Canals publishes opinion piece on trust and human connection in the digital age",
+    "published_at": "2026-03-27T05:04:53+00:00",
+    "ingested_at": "2026-03-27T07:09:43.532783+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.05,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_19f0c6a067561e81",
+    "source_url": "https://techround.co.uk/tech/openai-built-the-future-of-video-then-pulled-the-plug-what-were-they-thinking/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "OpenAI discontinues Sora video generation product after 4 months, redirects team to robotics and world simulation research",
+    "published_at": "2026-03-26T10:25:27+00:00",
+    "ingested_at": "2026-03-27T07:09:45.888915+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7d3194f79e64"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_7b0eb727b73a",
+      "per_4610af00ed60"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_8935169365e40646",
+    "source_url": "https://thenextweb.com/news/openai-shelves-adult-mode-sora-disney-retreat",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_2_medium",
+    "headline": "OpenAI shelves erotic ChatGPT adult mode after staff, investors, and advisors revolt",
+    "published_at": "2026-03-26T20:14:57+00:00",
+    "ingested_at": "2026-03-27T07:09:47.923843+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_7d3194f79e64"
+    ],
+    "investor_ids": [
+      "inv_34a533dfd727"
+    ],
+    "person_ids": [
+      "per_46b09b212b77",
+      "per_35dbdb2f691b"
+    ],
+    "metadata": {
+      "amount_usd": 1000000000,
+      "amount_raw": "$1 billion",
+      "currency": "USD",
+      "valuation": 300000000000
+    }
+  },
+  {
+    "id": "sig_2a2fba6933fd3a0c",
+    "source_url": "https://thenextweb.com/news/blossom-health-ai-copilot-psychiatry-funding",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Blossom Health raises $20M in seed and Series A funding for AI-powered psychiatric copilots",
+    "published_at": "2026-03-26T19:42:42+00:00",
+    "ingested_at": "2026-03-27T07:09:50.446675+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_db994a57a76e"
+    ],
+    "investor_ids": [
+      "inv_25b1ed96",
+      "inv_45eafe89ec91",
+      "inv_0081487d",
+      "inv_d5ded946eb0a",
+      "inv_fcbb47732438"
+    ],
+    "person_ids": [
+      "per_7a75ed3a280c",
+      "per_5b646ea3f518"
+    ],
+    "metadata": {
+      "amount_usd": 20000000,
+      "amount_raw": "$20M",
+      "round_stage": "Seed and Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_0d716b5080d39f47",
+    "source_url": "https://thenextweb.com/news/xero-anthropic-claude-small-business-financial-ai",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Xero partners with Anthropic to embed Claude AI into accounting platform and integrate financial data into Claude.ai",
+    "published_at": "2026-03-26T17:54:53+00:00",
+    "ingested_at": "2026-03-27T07:09:52.109206+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_1dd8cb03d5dc"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_7ed87fa468da28e0",
+    "source_url": "https://thenextweb.com/news/shield-ai-2-billion-hivemind-autonomous-defence",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Shield AI raises $2 billion at $12.7 billion valuation to scale autonomous combat pilot Hivemind",
+    "published_at": "2026-03-26T17:34:42+00:00",
+    "ingested_at": "2026-03-27T07:09:55.395509+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.98,
+    "company_ids": [
+      "co_4f1788468552"
+    ],
+    "investor_ids": [
+      "inv_80c8a5498a7e",
+      "inv_eb601fef6bdd",
+      "inv_5388a5a5ac08",
+      "inv_e1665a69a7ad",
+      "inv_e4a3b4910627"
+    ],
+    "person_ids": [
+      "per_69c5e7257641",
+      "per_aa3005811dba",
+      "per_20df0a5ce6c9",
+      "per_51fbc19e1ede",
+      "per_49911d346eaf"
+    ],
+    "metadata": {
+      "amount_usd": 2000000000,
+      "amount_raw": "$2 billion",
+      "round_stage": "Series G",
+      "currency": "USD",
+      "valuation": 12700000000
+    }
+  },
+  {
+    "id": "sig_b46eaac08c5e101e",
+    "source_url": "https://thenextweb.com/news/herbalife-acquires-bioniq-150m",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Herbalife acquires Bioniq for up to $150M to integrate personalized supplement technology",
+    "published_at": "2026-03-26T14:08:11+00:00",
+    "ingested_at": "2026-03-27T07:09:57.892029+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_b48397c03b82"
+    ],
+    "investor_ids": [
+      "inv_e181dc89b764",
+      "inv_0e2a58cbed86",
+      "inv_540aaea5ae30",
+      "inv_d795bfcc27fd"
+    ],
+    "person_ids": [
+      "per_dbb6c8bf9a25",
+      "per_540aaea5ae30",
+      "per_d795bfcc27fd"
+    ],
+    "metadata": {
+      "amount_usd": 150000000,
+      "amount_raw": "up to $150M",
+      "currency": "USD",
+      "valuation": 82000000
+    }
+  },
+  {
+    "id": "sig_0399cb9bfe7d6360",
+    "source_url": "https://thenextweb.com/news/theia-insights-8m-series-a",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Theia Insights raises $8M Series A to commercialize AI-driven dynamic company classification system",
+    "published_at": "2026-03-26T11:59:11+00:00",
+    "ingested_at": "2026-03-27T07:10:00.303383+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_a4e1c9c8e117"
+    ],
+    "investor_ids": [
+      "inv_faaca474e330",
+      "inv_c4dbd4f2b7db",
+      "inv_a35003d0"
+    ],
+    "person_ids": [
+      "per_a5f1a00ac514",
+      "per_712ad7aaa6a6"
+    ],
+    "metadata": {
+      "amount_usd": 8000000,
+      "amount_raw": "$8M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_dc22372006cca9aa",
+    "source_url": "https://thenextweb.com/news/uber-pony-ai-verne-zagreb-europe-first-commercial-robotaxi",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Uber, Pony.ai, and Verne announce Europe's first commercial robotaxi service launching in Zagreb",
+    "published_at": "2026-03-26T10:10:52+00:00",
+    "ingested_at": "2026-03-27T07:10:02.605475+00:00",
+    "geography": "Southern Europe",
+    "country": "HR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_1cd7c745864c"
+    ],
+    "investor_ids": [
+      "inv_74c860f63661"
+    ],
+    "person_ids": [
+      "per_fd27a9994086",
+      "per_6f86db5ad14f",
+      "per_e34650704831"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_bbb1876db6da02ac",
+    "source_url": "https://thenextweb.com/news/openup-20m-employee-mental-health",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "OpenUp raises \u20ac20M Series B to expand employee mental health platform across Europe",
+    "published_at": "2026-03-26T09:59:30+00:00",
+    "ingested_at": "2026-03-27T07:10:06.256212+00:00",
+    "geography": "Benelux",
+    "country": "NL",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_bee3b55d3acd"
+    ],
+    "investor_ids": [
+      "inv_aa49332bad4d",
+      "inv_cb5495cda19c",
+      "inv_827e5f8fbbb4"
+    ],
+    "person_ids": [
+      "per_63c39284a555",
+      "per_e1bfb84c7b0f",
+      "per_3faaad22811b",
+      "per_ec55a1b185c4",
+      "per_f3bf989bb4ca"
+    ],
+    "metadata": {
+      "amount_usd": 21800000,
+      "amount_raw": "\u20ac20M",
+      "round_stage": "Series B",
+      "currency": "EUR"
+    }
   }
 ]
