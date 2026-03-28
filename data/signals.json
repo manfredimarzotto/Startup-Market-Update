@@ -15264,5 +15264,908 @@
       "round_stage": "Series B",
       "currency": "EUR"
     }
+  },
+  {
+    "id": "sig_9abfebbb80514d03",
+    "source_url": "https://tech.eu/2026/03/27/kandou-ai-bags-225m-series-a/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Kandou AI raises $225M Series A",
+    "published_at": "2026-03-27T15:23:18+00:00",
+    "ingested_at": "2026-03-28T07:00:52.509399+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_101e32680e4b"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 225000000,
+      "amount_raw": "$225M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_e1d1b9858e7bcdc8",
+    "source_url": "https://tech.eu/2026/03/27/europe-builds-microsoft-compatible-euro-office-to-reclaim-digital-sovereignty/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "European coalition launches Euro-Office, sovereign alternative to Microsoft Office suite",
+    "published_at": "2026-03-27T14:55:00+00:00",
+    "ingested_at": "2026-03-28T07:00:53.883615+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_e88d99629e1a"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_8376c340421ef2cc",
+    "source_url": "https://tech.eu/2026/03/27/aleph-alpha-s-former-ceo-lures-apple-engineer-from-us-to-join-european-startup/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "hiring_wave",
+    "signal_tier": "tier_2_medium",
+    "headline": "Aleph Alpha's former CEO recruits Apple engineer to new European AI startup",
+    "published_at": "2026-03-27T13:30:00+00:00",
+    "ingested_at": "2026-03-28T07:00:55.722796+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.75,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_raw": "multi-million-dollar",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_c056ade24f9029e6",
+    "source_url": "https://tech.eu/2026/03/27/qumulo-launches-cork-hub-to-build-the-backbone-of-ai-scale-data/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "expansion",
+    "signal_tier": "tier_1_strong",
+    "headline": "Qumulo launches European Software R&D hub in Cork with 50 new hires",
+    "published_at": "2026-03-27T13:02:00+00:00",
+    "ingested_at": "2026-03-28T07:00:57.226468+00:00",
+    "geography": "UK",
+    "country": "Other",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_75dcfc985d47"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_88cf206a85f3b109",
+    "source_url": "https://tech.eu/2026/03/27/hiro-capital-boss-on-lecun-clegg-and-ai-investing/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Hiro Capital co-leads \u20ac50M investment in Yann LeCun's AMI Labs world model startup",
+    "published_at": "2026-03-27T09:40:00+00:00",
+    "ingested_at": "2026-03-28T07:00:58.969956+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_a83a3af1"
+    ],
+    "investor_ids": [
+      "inv_1f6481932491"
+    ],
+    "person_ids": [
+      "per_5501b71e",
+      "per_41c601ab"
+    ],
+    "metadata": {
+      "amount_usd": 54000000,
+      "amount_raw": "\u20ac50M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_04c46b7238a105c8",
+    "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-openai-shield/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "OpenAI raises $10 billion in latest funding round",
+    "published_at": "2026-03-27T16:15:30+00:00",
+    "ingested_at": "2026-03-28T07:01:00.208785+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7d3194f79e64"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 10000000000,
+      "amount_raw": "$10 billion",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_d7b57a69024136d1",
+    "source_url": "https://news.crunchbase.com/venture/all-time-high-funding-to-austin-startups-2025-ai-robotics-manufacturing/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Austin startups raise record $7.19 billion in venture funding in 2025",
+    "published_at": "2026-03-27T11:00:26+00:00",
+    "ingested_at": "2026-03-28T07:01:01.535054+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 7190000000,
+      "amount_raw": "$7.19 billion",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_d2262a1d1baf2455",
+    "source_url": "https://techfundingnews.com/reflection-ai-25-billion-valuation-nvidia-deepseek/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Reflection AI eyes $2.5B raise at $25B valuation from JPMorgan to counter DeepSeek",
+    "published_at": "2026-03-27T13:57:34+00:00",
+    "ingested_at": "2026-03-28T07:01:03.231066+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.72,
+    "company_ids": [
+      "co_7bcc8b72ffd6"
+    ],
+    "investor_ids": [
+      "inv_eb601fef6bdd",
+      "inv_d5cf20fe1aa6"
+    ],
+    "person_ids": [
+      "per_50af68ee14de",
+      "per_bb061487d136"
+    ],
+    "metadata": {
+      "amount_usd": 2500000000,
+      "amount_raw": "$2.5B",
+      "currency": "USD",
+      "valuation": 25000000000
+    }
+  },
+  {
+    "id": "sig_752b8d1eb1cb9ffd",
+    "source_url": "https://techfundingnews.com/openai-backs-isara-ai-agents-94-million-funding/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "OpenAI backs Isara's $94M funding round at $650M valuation for AI agent swarms platform",
+    "published_at": "2026-03-27T13:40:51+00:00",
+    "ingested_at": "2026-03-28T07:01:04.758434+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_a794b05894e2"
+    ],
+    "investor_ids": [
+      "inv_7d3194f79e64"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 94000000,
+      "amount_raw": "$94M",
+      "currency": "USD",
+      "valuation": 650000000
+    }
+  },
+  {
+    "id": "sig_fc2dc780f76d75d3",
+    "source_url": "https://techfundingnews.com/meta-9-trillion-valuation-executive-stock-options-2031/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Meta introduces new stock option plan for top executives with potential $921M earnings; targets $9T valuation by 2031",
+    "published_at": "2026-03-27T13:12:32+00:00",
+    "ingested_at": "2026-03-28T07:01:06.432631+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.72,
+    "company_ids": [
+      "co_ea3bd73e"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "valuation": 9000000000000
+    }
+  },
+  {
+    "id": "sig_2023df7c463ba5c9",
+    "source_url": "https://techfundingnews.com/anthropic-ipo-october-raise-60-billion/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Anthropic could raise $60B+ in October IPO according to Bloomberg report",
+    "published_at": "2026-03-27T10:34:50+00:00",
+    "ingested_at": "2026-03-28T07:01:07.736331+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_c70eca6b0f88"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 60000000000,
+      "amount_raw": "$60B+",
+      "round_stage": "IPO",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_bc0dd9d0f13ed9c3",
+    "source_url": "https://techfundingnews.com/thrive-holdings-raises-2-billion-ai-services/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Thrive Holdings in discussions to raise $2B for AI expansion into traditional sectors",
+    "published_at": "2026-03-27T10:24:57+00:00",
+    "ingested_at": "2026-03-28T07:01:10.225520+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_29b90410d135"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_8fd51cea3b93"
+    ],
+    "metadata": {
+      "amount_usd": 2000000000,
+      "amount_raw": "$2B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_a287857cdd103e3b",
+    "source_url": "https://techfundingnews.com/investor-psychology-founders-traits-growth-capital/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Article on investor psychology and traits for unlocking growth capital featuring CodeBase VP",
+    "published_at": "2026-03-27T07:31:33+00:00",
+    "ingested_at": "2026-03-28T07:01:11.766416+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.35,
+    "company_ids": [
+      "co_6461554feca3"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_348511e58a7d"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_f5efe6ef7de5b57b",
+    "source_url": "https://arcticstartup.com/unleash-raises-35-million-series-b/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Norway's Unleash secures $35M Series B led by One Peak for FeatureOps platform",
+    "published_at": "2026-03-27T09:18:47+00:00",
+    "ingested_at": "2026-03-28T07:01:13.669391+00:00",
+    "geography": "Nordics",
+    "country": "NO",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_8509984c0d5a"
+    ],
+    "investor_ids": [
+      "inv_135e33b8d189",
+      "inv_8032f8ac",
+      "inv_a4a39d6f429b",
+      "inv_a245670a477c"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 35000000,
+      "amount_raw": "$35M",
+      "round_stage": "Series B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_b2814b1de34ca1d5",
+    "source_url": "https://www.uktech.news/funding/uk-tech-funding-roundup-granola-tipjar-20260327",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "UK tech funding roundup tracks \u00a3131.1m across seven rounds including Granola AI notetaker at \u00a393.4m",
+    "published_at": "2026-03-27T14:00:50+00:00",
+    "ingested_at": "2026-03-28T07:01:15.175454+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_89601a2c41e3"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 117359000,
+      "amount_raw": "\u00a393.4m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_20d717b33a4c2647",
+    "source_url": "https://www.uktech.news/news/government-and-policy/firms-under-fire-in-cma-fake-review-crackdown-20260327",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "CMA investigates five companies for fake reviews including Autotrader, Feefo, Dignity, Just Eat, and Pasta Evangelists",
+    "published_at": "2026-03-27T12:00:22+00:00",
+    "ingested_at": "2026-03-28T07:01:16.954432+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_372fa0c86f3e"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_15ccb365c7a7678e",
+    "source_url": "https://www.uktech.news/ai/british-business-bank-joins-dexorys-series-c-round-20260327",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "British Business Bank invests \u00a38.5m in Dexory's \u00a3123m Series C round",
+    "published_at": "2026-03-27T10:00:04+00:00",
+    "ingested_at": "2026-03-28T07:01:18.556637+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_9583a6a93cb0"
+    ],
+    "investor_ids": [
+      "inv_41bc30b42626"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 10712500,
+      "amount_raw": "\u00a38.5m",
+      "round_stage": "Series C",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_1b76789dfb3624b3",
+    "source_url": "https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "SoftBank secures $40B unsecured loan to fund $30B OpenAI investment, signaling 2026 IPO expectations",
+    "published_at": "2026-03-27T21:44:45+00:00",
+    "ingested_at": "2026-03-28T07:01:20.414334+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7d3194f79e64"
+    ],
+    "investor_ids": [
+      "inv_ea018f6579de",
+      "inv_eb601fef6bdd",
+      "inv_7105a46cb4c2"
+    ],
+    "person_ids": [
+      "per_09ff1c2c"
+    ],
+    "metadata": {
+      "amount_usd": 110000000000,
+      "amount_raw": "$110 billion",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_53ff2f57ba9a6813",
+    "source_url": "https://www.deutsche-startups.de/2026/03/27/farminsect-enpal-wellster-healthtech-learningsuite-venture-clienting/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "hiring_wave",
+    "signal_tier": "tier_3_weak",
+    "headline": "Startup Ticker featuring FarmInsect, Enpal, Wellster Healthtech, LearningSuite, and Venture Clienting with job postings",
+    "published_at": "2026-03-27T10:55:00+00:00",
+    "ingested_at": "2026-03-28T07:01:21.991568+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.25,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_94a35fb9a433cb38",
+    "source_url": "https://www.deutsche-startups.de/2026/03/27/nach-der-arbeit-helfen-mir-vor-allem-kleine-rituale/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "hiring_wave",
+    "signal_tier": "tier_3_weak",
+    "headline": "Multiple German companies advertising open positions across marketing, engineering, and operations roles",
+    "published_at": "2026-03-27T07:15:00+00:00",
+    "ingested_at": "2026-03-28T07:01:23.286331+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_70a220d6547fee01",
+    "source_url": "https://siliconcanals.com/sc-a-a-letter-to-people-who-keep-choosing-partners-who-need-fixing-the-pattern-isnt-about-generosity-its-about-choosing-someone-whose-damage-is-visible-so-yours-can-stay-invisible-because-the-fixer-ne/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Opinion piece on relationship patterns published by Silicon Canals",
+    "published_at": "2026-03-28T05:04:51+00:00",
+    "ingested_at": "2026-03-28T07:01:24.614615+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_ace14285c5f490ea",
+    "source_url": "https://siliconcanals.com/sc-a-not-everyone-who-keeps-a-mental-inventory-of-every-favor-theyve-done-is-keeping-score-some-of-them-were-raised-in-homes-where-reciprocity-was-the-only-reliable-evidence-that-someone-valued-you/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Opinion piece on psychological patterns of favor-tracking behavior",
+    "published_at": "2026-03-28T02:36:06+00:00",
+    "ingested_at": "2026-03-28T07:01:25.928817+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_98fbeab4dccf155b",
+    "source_url": "https://techround.co.uk/tech/amazon-just-bought-its-second-robot-startup-in-a-week-should-robotics-founders-be-excited-or-nervous/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Amazon acquires Fauna Robotics and Rivr within one week, signaling aggressive consolidation in physical AI and robotics",
+    "published_at": "2026-03-27T10:50:34+00:00",
+    "ingested_at": "2026-03-28T07:01:28.587622+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_cbc62794"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_c05405a32278"
+    ],
+    "metadata": {
+      "valuation": 110000000
+    }
+  },
+  {
+    "id": "sig_9b46725f654531fc",
+    "source_url": "https://techround.co.uk/artificial-intelligence/no-more-dirty-talk-chatgpts-adult-mode-suspended-indefinitely-over-openais-age-prediction-inaccuracy/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_2_medium",
+    "headline": "OpenAI suspends ChatGPT 'Adult Mode' indefinitely due to age prediction accuracy challenges",
+    "published_at": "2026-03-27T10:20:44+00:00",
+    "ingested_at": "2026-03-28T07:01:30.394716+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_7d3194f79e64"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_077b396a10c1"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_f8f8c611eee360f3",
+    "source_url": "https://thenextweb.com/news/lucyd-amazon-market-share-smart-safety-glasses-2026",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "expansion",
+    "signal_tier": "tier_1_strong",
+    "headline": "Lucyd captures 44% Amazon market share in smart safety glasses, expands to major retail channels in 2026",
+    "published_at": "2026-03-27T17:49:36+00:00",
+    "ingested_at": "2026-03-28T07:01:32.227456+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_3d9a114f380e"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_ef4cf3bbdafb1b45",
+    "source_url": "https://thenextweb.com/news/meta-9-trillion-valuation-executive-stock-options-layoffs",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_1_strong",
+    "headline": "Meta grants executives up to $921 million in stock options while laying off 700 workers",
+    "published_at": "2026-03-27T16:01:25+00:00",
+    "ingested_at": "2026-03-28T07:01:35.328533+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_ea3bd73e"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_c7e96e2b79ef",
+      "per_03d722bb2c67",
+      "per_036dffd1c545",
+      "per_212c1df25dbe",
+      "per_478ef85797a6",
+      "per_172643fd5e3e",
+      "per_3957d14a1230"
+    ],
+    "metadata": {
+      "amount_usd": 921000000,
+      "amount_raw": "$921 million",
+      "currency": "USD",
+      "valuation": 1500000000000
+    }
+  },
+  {
+    "id": "sig_e959cdc6fd59e823",
+    "source_url": "https://thenextweb.com/news/papershell-eu-innovation-fund-40m-grant",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "expansion",
+    "signal_tier": "tier_1_strong",
+    "headline": "PaperShell secures \u20ac40.3M EU grant to build full-scale factory in Sweden",
+    "published_at": "2026-03-27T15:12:59+00:00",
+    "ingested_at": "2026-03-28T07:01:37.332689+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.98,
+    "company_ids": [
+      "co_abf1f847ee36"
+    ],
+    "investor_ids": [
+      "inv_e8f321cc7e28",
+      "inv_037b4495bd37"
+    ],
+    "person_ids": [
+      "per_85a0b5b54489"
+    ],
+    "metadata": {
+      "amount_usd": 43800000,
+      "amount_raw": "\u20ac40.3M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_4b434a833696d0c5",
+    "source_url": "https://thenextweb.com/news/activecampaign-free-trial-marketing-automation",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "ActiveCampaign launches Active Intelligence AI suite with 25+ autonomous marketing agents",
+    "published_at": "2026-03-27T14:31:17+00:00",
+    "ingested_at": "2026-03-28T07:01:39.153296+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_3dda2235cf26"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_b1d5e8742a92b4d0",
+    "source_url": "https://thenextweb.com/news/keith-ai-law-firm-2m-seed",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Keith, AI-native law firm, raises \u00a32M seed to automate UK conveyancing",
+    "published_at": "2026-03-27T14:31:13+00:00",
+    "ingested_at": "2026-03-28T07:01:41.663066+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_a4e463d7dec9"
+    ],
+    "investor_ids": [
+      "inv_860ecffedc0f",
+      "inv_cbc61febc513"
+    ],
+    "person_ids": [
+      "per_34fffb18a2fb",
+      "per_3f162a64f32b",
+      "per_443ae9471c82",
+      "per_f1a3cc2c54c2"
+    ],
+    "metadata": {
+      "amount_usd": 2500000,
+      "amount_raw": "\u00a32 million",
+      "round_stage": "Seed",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_53f8f0d033f98aa1",
+    "source_url": "https://thenextweb.com/news/openai-isara-ai-agent-swarms-650m-valuation",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "OpenAI backs Isara, a nine-month-old AI agent swarms startup, at $650 million valuation",
+    "published_at": "2026-03-27T14:24:14+00:00",
+    "ingested_at": "2026-03-28T07:01:44.509920+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.98,
+    "company_ids": [
+      "co_a794b05894e2"
+    ],
+    "investor_ids": [
+      "inv_7d3194f79e64",
+      "inv_e79dd6c197fd",
+      "inv_07670ba43404",
+      "inv_f83f1e6f14fa"
+    ],
+    "person_ids": [
+      "per_e29b407cc80e",
+      "per_d27b0c359087",
+      "per_07670ba43404",
+      "per_f83f1e6f14fa"
+    ],
+    "metadata": {
+      "amount_usd": 94000000,
+      "amount_raw": "$94 million",
+      "currency": "USD",
+      "valuation": 650000000
+    }
+  },
+  {
+    "id": "sig_e377b344e2a1bb40",
+    "source_url": "https://thenextweb.com/news/ysios-capital-inceptionbio-100m-fund",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Ysios Capital launches \u20ac100M InceptionBio fund for Spanish biotech company creation",
+    "published_at": "2026-03-27T14:02:33+00:00",
+    "ingested_at": "2026-03-28T07:01:47.018147+00:00",
+    "geography": "Southern Europe",
+    "country": "ES",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_0c4542f88053"
+    ],
+    "investor_ids": [
+      "inv_144ec2adfb77"
+    ],
+    "person_ids": [
+      "per_42356facc77a",
+      "per_4873083b3c18",
+      "per_71f35269aa2a"
+    ],
+    "metadata": {
+      "amount_usd": 108000000,
+      "amount_raw": "\u20ac100M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_3f494c36380346af",
+    "source_url": "https://thenextweb.com/news/laigo-bio-17m-seed-round",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Laigo Bio closes \u20ac17M seed round to advance SureTACs platform for membrane protein degradation",
+    "published_at": "2026-03-27T13:14:43+00:00",
+    "ingested_at": "2026-03-28T07:01:50.271342+00:00",
+    "geography": "Benelux",
+    "country": "NL",
+    "ai_confidence": 0.98,
+    "company_ids": [
+      "co_b6956091f137"
+    ],
+    "investor_ids": [
+      "inv_7ae173f170c0",
+      "inv_074e8cfb7b09",
+      "inv_bf627de67d30",
+      "inv_8c515ad4e01e",
+      "inv_649b91d9c60f",
+      "inv_f4afeb698ce0",
+      "inv_91a1619dfbd4",
+      "inv_4bacf015445d",
+      "inv_1873af715ee1"
+    ],
+    "person_ids": [
+      "per_48c9134bdf0e",
+      "per_32865b160baf",
+      "per_75a62136bff3"
+    ],
+    "metadata": {
+      "amount_usd": 18700000,
+      "amount_raw": "\u20ac17M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_f3c402208e68ace2",
+    "source_url": "https://thenextweb.com/news/tozero-industrial-battery-recycling-plant",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "tozero launches Europe's first industrial battery recycling plant in Bavaria",
+    "published_at": "2026-03-27T07:57:05+00:00",
+    "ingested_at": "2026-03-28T07:01:52.586873+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_c39fa051c7a5"
+    ],
+    "investor_ids": [
+      "inv_80eab2306ec1",
+      "inv_b84419724d43",
+      "inv_8417659f46b5",
+      "inv_703504ba8cae",
+      "inv_2ba5997a322b",
+      "inv_739a78e4700a",
+      "inv_e1619b1fe92a"
+    ],
+    "person_ids": [
+      "per_f3d3d7557016",
+      "per_e538c8cdb9d0"
+    ],
+    "metadata": {
+      "amount_usd": 18700000,
+      "amount_raw": "\u20ac2.5 million EIC Accelerator grant, approximately \u20ac17 million total",
+      "currency": "EUR"
+    }
   }
 ]

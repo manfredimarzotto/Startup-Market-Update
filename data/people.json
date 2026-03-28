@@ -3283,5 +3283,248 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "partner"
+  },
+  {
+    "id": "per_50af68ee14de",
+    "name": "Misha Laskin",
+    "role": "founder",
+    "company_id": "co_7bcc8b72ffd6",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_bb061487d136",
+    "name": "Ioannis Antonoglou",
+    "role": "founder",
+    "company_id": "co_7bcc8b72ffd6",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_8fd51cea3b93",
+    "name": "Joshua Kushner",
+    "role": "Founder of Thrive Capital",
+    "company_id": "co_29b90410d135",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_348511e58a7d",
+    "name": "Jennifer Forbes Iannolo",
+    "role": "VP Business Acceleration",
+    "company_id": "co_6461554feca3",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_c7e96e2b79ef",
+    "name": "Andrew Bosworth",
+    "role": "Chief Technology Officer",
+    "company_id": "co_ea3bd73e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_03d722bb2c67",
+    "name": "Chris Cox",
+    "role": "Chief Product Officer",
+    "company_id": "co_ea3bd73e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_036dffd1c545",
+    "name": "Javier Olivan",
+    "role": "Chief Operating Officer",
+    "company_id": "co_ea3bd73e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_212c1df25dbe",
+    "name": "Susan Li",
+    "role": "Chief Financial Officer",
+    "company_id": "co_ea3bd73e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_478ef85797a6",
+    "name": "Jennifer Newstead",
+    "role": "Chief Legal Officer",
+    "company_id": "co_ea3bd73e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_172643fd5e3e",
+    "name": "Naomi Gleit",
+    "role": "Head of Product",
+    "company_id": "co_ea3bd73e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_85a0b5b54489",
+    "name": "Anders Breitholtz",
+    "role": "Founder",
+    "company_id": "co_abf1f847ee36",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_34fffb18a2fb",
+    "name": "Andy Shovel",
+    "role": "Co-founder",
+    "company_id": "co_a4e463d7dec9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_3f162a64f32b",
+    "name": "Pete Sharman",
+    "role": "Co-founder",
+    "company_id": "co_a4e463d7dec9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_443ae9471c82",
+    "name": "Sam Tucker",
+    "role": "Co-founder and Product Lead",
+    "company_id": "co_a4e463d7dec9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_f1a3cc2c54c2",
+    "name": "Eddie Goldsmith",
+    "role": "Non-executive director and strategic advisor",
+    "company_id": "co_a4e463d7dec9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_e29b407cc80e",
+    "name": "Eddie Zhang",
+    "role": "Co-founder",
+    "company_id": "co_a794b05894e2",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_d27b0c359087",
+    "name": "Henry Gasztowtt",
+    "role": "Co-founder",
+    "company_id": "co_a794b05894e2",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_07670ba43404",
+    "name": "Michael Ovitz",
+    "role": "Investor, former Creative Artists Agency chairman",
+    "company_id": "co_a794b05894e2",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_f83f1e6f14fa",
+    "name": "Stanley Druckenmiller",
+    "role": "Investor, billionaire hedge fund manager",
+    "company_id": "co_a794b05894e2",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_42356facc77a",
+    "name": "Joan Perell\u00f3",
+    "role": "Managing Partner of InceptionBio",
+    "company_id": "co_0c4542f88053",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_4873083b3c18",
+    "name": "Arturo Urrios",
+    "role": "Partner of InceptionBio",
+    "company_id": "co_0c4542f88053",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_71f35269aa2a",
+    "name": "Jo\u00ebl Jean-Mairet",
+    "role": "Managing Partner of main funds",
+    "company_id": "co_0c4542f88053",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_48c9134bdf0e",
+    "name": "Matthew Baker",
+    "role": "CEO",
+    "company_id": "co_b6956091f137",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_32865b160baf",
+    "name": "Jo\u00e3o Incio",
+    "role": "General Partner at Biovance Capital",
+    "company_id": "co_b6956091f137",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_75a62136bff3",
+    "name": "Madelon Maurice",
+    "role": "Professor",
+    "company_id": "co_b6956091f137",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_f3d3d7557016",
+    "name": "Sarah Fleischer",
+    "role": "Founder",
+    "company_id": "co_c39fa051c7a5",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_e538c8cdb9d0",
+    "name": "Dr. Ksenija Milicevic Neumann",
+    "role": "Co-founder",
+    "company_id": "co_c39fa051c7a5",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
   }
 ]
