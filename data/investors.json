@@ -4994,5 +4994,49 @@
     "website": "",
     "linkedin_url": "",
     "last_signal_at": "2026-03-27T07:57:05+00:00"
+  },
+  {
+    "id": "inv_72ecdb6549c0",
+    "name": "Maverick Silicon",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-28T17:04:15+00:00"
+  },
+  {
+    "id": "inv_2e92046b6f07",
+    "name": "Synopsys",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-28T17:04:15+00:00"
+  },
+  {
+    "id": "inv_c72e480eea90",
+    "name": "Cadence Design Systems",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-28T17:04:15+00:00"
+  },
+  {
+    "id": "inv_4d6f2011502e",
+    "name": "Alchip Technologies",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-28T17:04:15+00:00"
   }
 ]

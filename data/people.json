@@ -3526,5 +3526,41 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "founder"
+  },
+  {
+    "id": "per_ed0122921eaf",
+    "name": "Bryce Durbin",
+    "role": "photographer",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_372db7309811",
+    "name": "Srujan Linga",
+    "role": "Chief Executive Officer",
+    "company_id": "co_101e32680e4b",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_9f0edd126510",
+    "name": "Amin Shokrollahi",
+    "role": "Founder, EPFL Professor of Mathematics and Computer Science",
+    "company_id": "co_101e32680e4b",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_8e9183f1e66b",
+    "name": "Kagehiro Mitsuyami",
+    "role": "Founder",
+    "company_id": "co_a158f259c696",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
   }
 ]

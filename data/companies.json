@@ -4402,5 +4402,17 @@
     "hq_city": "Munich",
     "last_signal_at": "2026-03-27T07:57:05+00:00",
     "signal_count": 1
+  },
+  {
+    "id": "co_a158f259c696",
+    "name": "LockedIn AI",
+    "domain": null,
+    "sector": "AI/ML",
+    "sub_sector": "Interview preparation, HR tech",
+    "stage": "",
+    "hq_country": "Other",
+    "hq_city": null,
+    "last_signal_at": "2026-03-28T10:09:46+00:00",
+    "signal_count": 1
   }
 ]
