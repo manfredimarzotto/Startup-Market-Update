@@ -1,7 +1,7 @@
 [
   {
-    "id": "opp_20260329_001",
-    "generated_date": "2026-03-29",
+    "id": "opp_20260330_001",
+    "generated_date": "2026-03-30",
     "company_id": "co_8b67990b5648",
     "investor_id": null,
     "person_id": null,
@@ -23,7 +23,7 @@
       "sources": 14,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$125M Series C \u00b7 API investment platform \u00b7 \u20ac640M valuation \u00b7 5 sources \u00b7 Sapphire Ventures and Tencent led.",
+    "ai_rationale": "$125M Series C \u00b7 API-based investment platform \u00b7 \u20ac640M valuation \u00b7 5 sources \u00b7 led by Sapphire Ventures and Tencent.",
     "triggers": [
       {
         "type": "funding",
@@ -40,8 +40,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260329_002",
-    "generated_date": "2026-03-29",
+    "id": "opp_20260330_002",
+    "generated_date": "2026-03-30",
     "company_id": "co_29f59a0423dc",
     "investor_id": null,
     "person_id": null,
@@ -64,12 +64,12 @@
       "sources": 14,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$40M seed round \u00b7 orbital transfer vehicle technology \u00b7 4 sources \u00b7 space sovereignty concerns cited.",
+    "ai_rationale": "$40M seed round \u00b7 orbital transfer vehicles \u00b7 4 sources \u00b7 space sovereignty concerns cited.",
     "triggers": [
       {
         "type": "funding",
         "text": "raises $40M seed funding for orbital transfer vehicles (4 sources)",
-        "time": "3d ago"
+        "time": "4d ago"
       },
       {
         "type": "sector",
@@ -81,8 +81,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260329_003",
-    "generated_date": "2026-03-29",
+    "id": "opp_20260330_003",
+    "generated_date": "2026-03-30",
     "company_id": null,
     "investor_id": "inv_c6d98ffa6a60",
     "person_id": null,
@@ -103,7 +103,7 @@
       "sources": 2,
       "geo_weight": 0.8
     },
-    "ai_rationale": "\u00a32bn quantum computing procurement \u00b7 \u00a31.7bn northern tech investment \u00b7 \u00a320m Tay Cities Region fund \u00b7 3 sources",
+    "ai_rationale": "\u00a32bn quantum computing procurement \u00b7 \u00a31.7bn northern tech investment \u00b7 3 sources \u00b7 \u00a320m Tay Cities cluster fund.",
     "triggers": [
       {
         "type": "funding",
@@ -118,15 +118,15 @@
       {
         "type": "funding",
         "text": "announces \u00a320m public investment in Tay Cities Region tech cluster",
-        "time": "3d ago"
+        "time": "4d ago"
       }
     ],
     "entity_type": "investor",
     "status": "new"
   },
   {
-    "id": "opp_20260329_004",
-    "generated_date": "2026-03-29",
+    "id": "opp_20260330_004",
+    "generated_date": "2026-03-30",
     "company_id": "co_c21b66a958ed",
     "investor_id": null,
     "person_id": null,
@@ -144,7 +144,7 @@
       "sources": 10,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac2.5M seed funding \u00b7 cellulose-based superabsorbent materials for diapers and hygiene products \u00b7 3 sources \u00b7 replaces microplastics in farming applications.",
+    "ai_rationale": "\u20ac2.5M seed round \u00b7 cellulose-based superabsorbent materials for diapers and feminine hygiene \u00b7 3 sources",
     "triggers": [
       {
         "type": "funding",
@@ -161,8 +161,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260329_005",
-    "generated_date": "2026-03-29",
+    "id": "opp_20260330_005",
+    "generated_date": "2026-03-30",
     "company_id": "co_f4185afa949c",
     "investor_id": null,
     "person_id": null,
@@ -181,12 +181,12 @@
       "sources": 13,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$8M seed/pre-seed \u00b7 AI due diligence for crypto compliance \u00b7 4 sources \u00b7 institutional-grade audit-ready platform.",
+    "ai_rationale": "$8M seed/pre-seed \u00b7 AI due diligence for crypto compliance \u00b7 4 sources \u00b7 institutional-grade platform for regulated digital assets.",
     "triggers": [
       {
         "type": "funding",
         "text": "Crypto compliance startup Eunice raises $8M from Speedinvest and Moonfire\u2026",
-        "time": "3d ago"
+        "time": "4d ago"
       },
       {
         "type": "sector",
@@ -198,8 +198,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260329_006",
-    "generated_date": "2026-03-29",
+    "id": "opp_20260330_006",
+    "generated_date": "2026-03-30",
     "company_id": "co_7187cc05cd24",
     "investor_id": null,
     "person_id": null,
@@ -220,12 +220,12 @@
       "sources": 10,
       "geo_weight": 0.8
     },
-    "ai_rationale": "Air Street Capital raises $232M Fund III \u00b7 AI-first companies Europe/North America \u00b7 3 sources \u00b7 largest solo GP in Europe",
+    "ai_rationale": "Air Street Capital raises $232M Fund III \u00b7 Europe's largest solo GP VC firm \u00b7 3 sources \u00b7 AI-first focus",
     "triggers": [
       {
         "type": "funding",
         "text": "raises $232M Fund III, becoming one of Europe's largest solo VC firms (3\u2026",
-        "time": "5d ago"
+        "time": "6d ago"
       },
       {
         "type": "sector",
@@ -242,8 +242,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260329_007",
-    "generated_date": "2026-03-29",
+    "id": "opp_20260330_007",
+    "generated_date": "2026-03-30",
     "company_id": "co_101e32680e4b",
     "investor_id": null,
     "person_id": null,
@@ -264,12 +264,12 @@
       "sources": 10,
       "geo_weight": 0.8
     },
-    "ai_rationale": "\"$225M Series A \u00b7 copper-based chip interconnects for AI \u00b7 3 sources \u00b7 led by Maverick Silicon.\"",
+    "ai_rationale": "$225M Series A \u00b7 copper-based chip interconnects for AI \u00b7 3 sources \u00b7 led by Maverick Silicon.",
     "triggers": [
       {
         "type": "funding",
         "text": "raises $225M Series A (3 sources)",
-        "time": "1d ago"
+        "time": "2d ago"
       },
       {
         "type": "sector",
@@ -281,8 +281,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260329_008",
-    "generated_date": "2026-03-29",
+    "id": "opp_20260330_008",
+    "generated_date": "2026-03-30",
     "company_id": "co_7f902752c315",
     "investor_id": null,
     "person_id": null,
@@ -305,7 +305,7 @@
       "sources": 10,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$15M Series A \u00b7 clinical trial data infrastructure \u00b7 4 sources \u00b7 Note: 1 source mentions Rivian/Uber, not Rivia",
+    "ai_rationale": "$15M Series A \u00b7 clinical trial data infrastructure \u00b7 4 sources \u00b7 partnership with Uber noted in signals.",
     "triggers": [
       {
         "type": "funding",
@@ -332,8 +332,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260329_009",
-    "generated_date": "2026-03-29",
+    "id": "opp_20260330_009",
+    "generated_date": "2026-03-30",
     "company_id": "co_3bc5495c",
     "investor_id": null,
     "person_id": null,
@@ -351,7 +351,7 @@
       "sources": 15,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac232K-270K angel funding \u00b7 culturally intelligent AI therapy \u00b7 3 sources \u00b7 Albanian-Finnish startup.",
+    "ai_rationale": "\u20ac232-270K angel funding \u00b7 culturally intelligent AI therapy \u00b7 3 sources \u00b7 Albanian-Finnish team.",
     "triggers": [
       {
         "type": "funding",
@@ -373,8 +373,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260329_010",
-    "generated_date": "2026-03-29",
+    "id": "opp_20260330_010",
+    "generated_date": "2026-03-30",
     "company_id": "co_835fb9db4493",
     "investor_id": null,
     "person_id": null,
@@ -395,7 +395,7 @@
       "sources": 17,
       "geo_weight": 0.8
     },
-    "ai_rationale": "First Concepts raises $1M pre-seed \u00b7 AI-native creative workspace \u00b7 4 sources \u00b7 round oversubscribed.",
+    "ai_rationale": "First Concepts raises $1M pre-seed \u00b7 AI-native creative workspace \u00b7 4 sources \u00b7 oversubscribed round.",
     "triggers": [
       {
         "type": "funding",
@@ -417,8 +417,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260329_011",
-    "generated_date": "2026-03-29",
+    "id": "opp_20260330_011",
+    "generated_date": "2026-03-30",
     "company_id": "co_dc45dd738d2d",
     "investor_id": null,
     "person_id": null,
@@ -435,12 +435,12 @@
       "sources": 7,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac10M seed round \u00b7 CO\u2082-powered textile recycling \u00b7 2 sources \u00b7 scaling in Europe.",
+    "ai_rationale": "\u20ac10M seed round \u00b7 CO\u2082-powered textile recycling \u00b7 2 sources \u00b7 Europe expansion focus.",
     "triggers": [
       {
         "type": "funding",
         "text": "raises \u20ac10M seed round for CO\u2082-powered textile recycling technology (2 sources)",
-        "time": "2d ago"
+        "time": "3d ago"
       },
       {
         "type": "sector",
@@ -457,8 +457,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260329_012",
-    "generated_date": "2026-03-29",
+    "id": "opp_20260330_012",
+    "generated_date": "2026-03-30",
     "company_id": "co_18402552",
     "investor_id": null,
     "person_id": null,
@@ -476,7 +476,7 @@
       "sources": 15,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$50M Series A \u00b7 software-powered factory automation \u00b7 aerospace and energy sectors \u00b7 3 sources \u00b7 Europe industrial manufacturing focus.",
+    "ai_rationale": "$50M Series A \u00b7 software-powered factories \u00b7 aerospace and energy \u00b7 3 sources \u00b7 Europe industrial manufacturing focus.",
     "triggers": [
       {
         "type": "funding",
@@ -493,8 +493,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260329_013",
-    "generated_date": "2026-03-29",
+    "id": "opp_20260330_013",
+    "generated_date": "2026-03-30",
     "company_id": "co_101e7df3b885",
     "investor_id": null,
     "person_id": null,
@@ -511,7 +511,7 @@
       "sources": 7,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac30M funding round \u00b7 electric flying ferries \u00b7 2 sources \u00b7 World Bank IFC backing",
+    "ai_rationale": "\u20ac30M funding round \u00b7 electric flying ferries \u00b7 2 sources \u00b7 World Bank backing expansion",
     "triggers": [
       {
         "type": "funding",
@@ -528,8 +528,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260329_014",
-    "generated_date": "2026-03-29",
+    "id": "opp_20260330_014",
+    "generated_date": "2026-03-30",
     "company_id": "co_c8b367f73144",
     "investor_id": null,
     "person_id": null,
@@ -552,7 +552,7 @@
       {
         "type": "funding",
         "text": "Air defence startup Egide raises \u20ac8m seed round (3 sources)",
-        "time": "6d ago"
+        "time": "1w ago"
       },
       {
         "type": "sector",
@@ -564,8 +564,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260329_015",
-    "generated_date": "2026-03-29",
+    "id": "opp_20260330_015",
+    "generated_date": "2026-03-30",
     "company_id": "co_22dc0248",
     "investor_id": null,
     "person_id": null,
@@ -589,7 +589,7 @@
       "sources": 25,
       "geo_weight": 0.5
     },
-    "ai_rationale": "$550M Series D \u00b7 Legora legal AI \u00b7 $5.55B valuation \u00b7 7 sources \u00b7 acquires Walter AI.",
+    "ai_rationale": "$550M Series D \u00b7 Legora legal AI \u00b7 $5.55B valuation \u00b7 7 sources \u00b7 Canadian startup acquisition included.",
     "triggers": [
       {
         "type": "funding",

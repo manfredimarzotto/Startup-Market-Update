@@ -16295,5 +16295,115 @@
       "per_8e9183f1e66b"
     ],
     "metadata": {}
+  },
+  {
+    "id": "sig_a0314f3b280ee97f",
+    "source_url": "https://tech.eu/2026/03/30/german-deeplify-raises-eur2m-to-modernise-infrastructure-inspections/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "German industrial AI startup deeplify raises \u20ac2M pre-seed funding led by D11Z Ventures",
+    "published_at": "2026-03-30T06:15:00+00:00",
+    "ingested_at": "2026-03-30T07:27:51.614217+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_0392c25bfe20"
+    ],
+    "investor_ids": [
+      "inv_9503a299599e",
+      "inv_3c522318",
+      "inv_f1677e8bac37"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2160000,
+      "amount_raw": "\u20ac2.0 million",
+      "round_stage": "Pre-Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_85f70d7000752be1",
+    "source_url": "https://techfundingnews.com/terraspark-lands-5m-daphni-sake-bosch-space-solar-power/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "TerraSpark raises \u20ac5M pre-seed funding from daphni and Sake Bosch for space solar power technology",
+    "published_at": "2026-03-30T07:21:09+00:00",
+    "ingested_at": "2026-03-30T07:27:53.087829+00:00",
+    "geography": "Benelux",
+    "country": "LU",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_6518e0195c34"
+    ],
+    "investor_ids": [
+      "inv_d5f086c488af",
+      "inv_3c2387d8f400"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 5400000,
+      "amount_raw": "\u20ac5M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_f71eabee6e1f9b28",
+    "source_url": "https://techfundingnews.com/deeplify-raises-e2m-from-d11z-ventures-and-ewor-to-modernise-safety-critical-inspection-workflows/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "deeplify raises \u20ac2M pre-seed from D11Z Ventures for industrial inspection AI",
+    "published_at": "2026-03-30T04:00:00+00:00",
+    "ingested_at": "2026-03-30T07:27:54.579042+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_0392c25bfe20"
+    ],
+    "investor_ids": [
+      "inv_9503a299599e"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2160000,
+      "amount_raw": "\u20ac2M",
+      "round_stage": "Pre-Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_9829e27dbb76041f",
+    "source_url": "https://www.deutsche-startups.de/2026/03/30/7-spannende-startups-aus-hannover-die-alle-kennen-sollten/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Article about 7 startups to watch from Hannover published on deutsche-startups.de",
+    "published_at": "2026-03-30T06:15:00+00:00",
+    "ingested_at": "2026-03-30T07:27:55.943524+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
   }
 ]

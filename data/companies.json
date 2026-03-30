@@ -4414,5 +4414,29 @@
     "hq_city": null,
     "last_signal_at": "2026-03-28T10:09:46+00:00",
     "signal_count": 1
+  },
+  {
+    "id": "co_0392c25bfe20",
+    "name": "deeplify",
+    "domain": null,
+    "sector": "AI/ML",
+    "sub_sector": "Industrial AI, Infrastructure Inspection",
+    "stage": "pre-seed",
+    "hq_country": "DE",
+    "hq_city": null,
+    "last_signal_at": "2026-03-30T06:15:00+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_6518e0195c34",
+    "name": "TerraSpark",
+    "domain": null,
+    "sector": "CleanTech",
+    "sub_sector": "Space Solar Power",
+    "stage": "seed",
+    "hq_country": "LU",
+    "hq_city": "Luxembourg",
+    "last_signal_at": "2026-03-30T07:21:09+00:00",
+    "signal_count": 1
   }
 ]

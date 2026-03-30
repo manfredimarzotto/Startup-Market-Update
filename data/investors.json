@@ -5038,5 +5038,38 @@
     "website": "",
     "linkedin_url": "",
     "last_signal_at": "2026-03-28T17:04:15+00:00"
+  },
+  {
+    "id": "inv_9503a299599e",
+    "name": "D11Z Ventures",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-30T06:15:00+00:00"
+  },
+  {
+    "id": "inv_f1677e8bac37",
+    "name": "EWOR",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-30T06:15:00+00:00"
+  },
+  {
+    "id": "inv_3c2387d8f400",
+    "name": "Sake Bosch",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-03-30T07:21:09+00:00"
   }
 ]
