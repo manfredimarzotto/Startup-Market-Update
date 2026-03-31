@@ -16405,5 +16405,1135 @@
     "investor_ids": [],
     "person_ids": [],
     "metadata": {}
+  },
+  {
+    "id": "sig_e0b0d6742f70e1d2",
+    "source_url": "https://sifted.eu/articles/women-backing-women-fund-departures/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "UK's flagship female founder fund loses two founding partners",
+    "published_at": "2026-03-30T21:10:40+00:00",
+    "ingested_at": "2026-03-31T07:16:05.584394+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.45,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_f8e219b306fc2890",
+    "source_url": "https://tech.eu/2026/03/31/qover-raises-12m-from-cibc-as-it-celebrates-10-years-of-embedded-insurance-growth/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Qover raises $12M growth capital from CIBC Innovation Banking on 10th anniversary",
+    "published_at": "2026-03-31T07:00:00+00:00",
+    "ingested_at": "2026-03-31T07:16:06.933807+00:00",
+    "geography": "Benelux",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_caa71ee293ab"
+    ],
+    "investor_ids": [
+      "inv_1bf7b62ad3d7"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 12000000,
+      "amount_raw": "$12M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_40ca1301018db408",
+    "source_url": "https://tech.eu/2026/03/31/enkei-secures-pre-seed-funding-to-develop-circular-design-materials/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Enkei secures \u20ac3M pre-seed funding for circular design materials",
+    "published_at": "2026-03-31T06:05:00+00:00",
+    "ingested_at": "2026-03-31T07:16:08.509012+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_232528f9daab"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3240000,
+      "amount_raw": "\u20ac3 million",
+      "round_stage": "Seed",
+      "currency": "EUR",
+      "valuation": 3240000
+    }
+  },
+  {
+    "id": "sig_53d7b0a0dc686dd8",
+    "source_url": "https://tech.eu/2026/03/30/maguar-takes-significant-stake-in-globalsuite-solutions-to-capitalise-on-surging-demand-for-compliance-tech/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Maguar acquires significant stake in GlobalSuite Solutions to capitalise on compliance tech demand",
+    "published_at": "2026-03-30T12:18:53+00:00",
+    "ingested_at": "2026-03-31T07:16:09.833049+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_38eb30edbd6f"
+    ],
+    "investor_ids": [
+      "inv_44ec6e312a7d"
+    ],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_0536a677c70dc3c8",
+    "source_url": "https://tech.eu/2026/03/30/midas-closes-50m-series-a-to-scale-onchain-investment-products/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Midas raises $50M Series A led by RRE Ventures and Creandum for on-chain investment products",
+    "published_at": "2026-03-30T11:00:00+00:00",
+    "ingested_at": "2026-03-31T07:16:11.418609+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_3a9023d5efaf"
+    ],
+    "investor_ids": [
+      "inv_e2f7583a3664",
+      "inv_04a64ee55f95",
+      "inv_f1677e8bac37",
+      "inv_e181dc89b764"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 50000000,
+      "amount_raw": "$50M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_c703779ee3e7b210",
+    "source_url": "https://tech.eu/2026/03/30/terraspark-advances-space-based-solar-power-with-eur5m-funding/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "TerraSpark raises \u20ac5M in pre-seed funding for space-based solar power systems",
+    "published_at": "2026-03-30T09:01:39+00:00",
+    "ingested_at": "2026-03-31T07:16:12.878347+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_6518e0195c34"
+    ],
+    "investor_ids": [
+      "inv_d5f086c488af",
+      "inv_6e69ba548076",
+      "inv_bbe45256ffc2"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 5400000,
+      "amount_raw": "\u20ac5M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_b5386efab19950b0",
+    "source_url": "https://tech.eu/2026/03/30/miros-raises-eur11m-to-bring-on-demand-workpods-to-public-spaces/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "miros raises \u20ac1.1M Pre-Seed funding to bring on-demand workpods to public spaces",
+    "published_at": "2026-03-30T09:00:00+00:00",
+    "ingested_at": "2026-03-31T07:16:14.345136+00:00",
+    "geography": "Benelux",
+    "country": "CH",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_4da9b9307cdf"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1210000,
+      "amount_raw": "\u20ac1.1M",
+      "round_stage": "Pre-Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_8e66ff6b0d58985d",
+    "source_url": "https://tech.eu/2026/03/30/mistral-and-accenture-strike-deal-to-help-businesses-deploy-ai/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Mistral secures $830M debt financing for first data centre powered by Nvidia chips",
+    "published_at": "2026-03-30T08:15:00+00:00",
+    "ingested_at": "2026-03-31T07:16:15.722007+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_c04bd5ebd10a"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 830000000,
+      "amount_raw": "$830M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_09cf80a7a99b9b40",
+    "source_url": "https://tech.eu/2026/03/30/european-tech-weekly-recap-more-than-55-tech-funding-deals-worth-over-eur850m/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "European tech sector records over 55 funding deals worth \u20ac850M in weekly tracking",
+    "published_at": "2026-03-30T08:00:00+00:00",
+    "ingested_at": "2026-03-31T07:16:17.140193+00:00",
+    "geography": "Nordics | DACH | UK | Benelux | Southern Europe",
+    "country": "",
+    "ai_confidence": 0.45,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 918000000,
+      "amount_raw": "\u20ac850M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_1998f8e39d476f73",
+    "source_url": "https://tech.eu/2026/03/30/iqm-secures-eur50m-to-accelerate-global-growth/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "IQM Quantum Computers secures \u20ac50M funding from BlackRock-managed funds",
+    "published_at": "2026-03-30T07:30:00+00:00",
+    "ingested_at": "2026-03-31T07:16:18.526694+00:00",
+    "geography": "Nordics",
+    "country": "FI",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_0d40838f3b34"
+    ],
+    "investor_ids": [
+      "inv_7e6578c2e34b"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 54500000,
+      "amount_raw": "\u20ac50M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_61a9492ac9d1324b",
+    "source_url": "https://techfundingnews.com/female-led-enkei-secures-e0-4m-from-radcap-and-ex-tarkett-ceo-to-scale-circular-design-material-receramix/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Enkei raises \u20ac400K pre-seed round led by RadCap and ex-Tarkett CEO",
+    "published_at": "2026-03-31T06:00:00+00:00",
+    "ingested_at": "2026-03-31T07:16:20.468637+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_232528f9daab"
+    ],
+    "investor_ids": [
+      "inv_98f00d17ef68"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 440000,
+      "amount_raw": "\u20ac400K",
+      "round_stage": "Seed",
+      "currency": "EUR",
+      "valuation": 3300000
+    }
+  },
+  {
+    "id": "sig_a305bc3a93e677cf",
+    "source_url": "https://techfundingnews.com/riplo-raises-2-3m-to-build-ai-os-for-consulting-firms/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Cherry Ventures leads Riplo's \u00a32.3M pre-seed round for AI consulting operating system",
+    "published_at": "2026-03-31T05:00:00+00:00",
+    "ingested_at": "2026-03-31T07:16:22.809910+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_5d7729a3bf63"
+    ],
+    "investor_ids": [
+      "inv_083046ed91c7"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2900000,
+      "amount_raw": "\u00a32.3M",
+      "round_stage": "Seed",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_4e9977f466585d9a",
+    "source_url": "https://techfundingnews.com/scaleops-130m-series-c-insight-partners-ai-infra/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Insight Partners leads ScaleOps' $130M Series C funding round for cloud automation",
+    "published_at": "2026-03-30T19:57:28+00:00",
+    "ingested_at": "2026-03-31T07:16:24.298795+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_f1234d707115"
+    ],
+    "investor_ids": [
+      "inv_009"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 130000000,
+      "amount_raw": "$130M",
+      "round_stage": "Series C",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_39e5f1eca312df35",
+    "source_url": "https://techfundingnews.com/maverick-silicon-softbank-back-kandou-ais-225m-raise-to-fix-ai-data-bottlenecks/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Kandou AI raises $225M from Maverick Silicon and SoftBank to address AI data bottlenecks",
+    "published_at": "2026-03-30T14:17:28+00:00",
+    "ingested_at": "2026-03-31T07:16:25.658810+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_101e32680e4b"
+    ],
+    "investor_ids": [
+      "inv_72ecdb6549c0",
+      "inv_9c41b5c62bad"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 225000000,
+      "amount_raw": "$225M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_0e5e14820a5f450d",
+    "source_url": "https://arcticstartup.com/endform-raises-e1-5m/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Swedish Endform raises \u20ac1.5M to accelerate web testing platform for AI-era development",
+    "published_at": "2026-03-31T06:51:17+00:00",
+    "ingested_at": "2026-03-31T07:16:32.044405+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.7,
+    "company_ids": [
+      "co_1ef5b81d2e28"
+    ],
+    "investor_ids": [
+      "inv_c172b75426b3",
+      "inv_d7fcad45512d",
+      "inv_d8b09f5bbbbd",
+      "inv_785ee58e52ac"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1650000,
+      "amount_raw": "\u20ac1.5M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_564410fd9ecec647",
+    "source_url": "https://arcticstartup.com/nordic-air-defence-appoints-james-heappey-nicholas-hogasten/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "expansion",
+    "signal_tier": "tier_1_strong",
+    "headline": "Nordic Air Defence appoints former UK Armed Forces Minister James Heappey to board",
+    "published_at": "2026-03-30T07:27:51+00:00",
+    "ingested_at": "2026-03-31T07:16:34.493325+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_975b2042202e"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_237d3d5aba15",
+      "per_26af931ef23e"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_ba5a8a3364a11dc7",
+    "source_url": "https://www.uktech.news/medtech/ai-diagnostic-startup-raises-9m-in-macmillan-backed-round-20260330",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Lucida Medical raises \u00a38.7m in funding round backed by Macmillan Cancer Support",
+    "published_at": "2026-03-30T13:06:54+00:00",
+    "ingested_at": "2026-03-31T07:16:35.913543+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_c3101155a084"
+    ],
+    "investor_ids": [
+      "inv_8983fa5161ca"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 10957000,
+      "amount_raw": "\u00a38.7m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_fb567b9d104917b3",
+    "source_url": "https://www.uktech.news/cybersecurity/uk-cyber-group-joins-psgs-innovation-accelerator-20260330",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Nothreat joins PSG Labs accelerator programme at Station F in Paris",
+    "published_at": "2026-03-30T11:00:05+00:00",
+    "ingested_at": "2026-03-31T07:16:37.307019+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_533e7219b6d5"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_94dcd5fb6f7fcfe2",
+    "source_url": "https://www.uktech.news/news/investment-news/uk-venture-scientist-fund-secures-10m-commitment-20260330",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Empirical Ventures secures \u00a310m commitment from British Business Bank for Venture Scientist fund",
+    "published_at": "2026-03-30T10:00:20+00:00",
+    "ingested_at": "2026-03-31T07:16:38.832872+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_afc5ed403543"
+    ],
+    "investor_ids": [
+      "inv_41bc30b42626"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 12600000,
+      "amount_raw": "\u00a310m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_b0f8830ffa7ebdbb",
+    "source_url": "https://www.uktech.news/funding/yfm-backs-digital-end-of-life-platform-20260330",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Aura Life secures backing from YFM Equity Partners for digital end-of-life platform growth",
+    "published_at": "2026-03-30T09:03:34+00:00",
+    "ingested_at": "2026-03-31T07:16:40.938225+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_4533c250fda7"
+    ],
+    "investor_ids": [
+      "inv_2bd18c0d6e3a"
+    ],
+    "person_ids": [
+      "per_66b7ef965314",
+      "per_6ffb345627b6",
+      "per_dee86d3b5b1d"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_b387c230cc28d4aa",
+    "source_url": "https://www.uktech.news/ai/university-of-glasgow-and-lloyds-launch-ai-research-programme-20260327",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "University of Glasgow and Lloyds Banking Group launch four-year AI research partnership",
+    "published_at": "2026-03-30T08:00:51+00:00",
+    "ingested_at": "2026-03-31T07:16:42.341501+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_1edc92640051"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_afa7f3db79250046",
+    "source_url": "https://techcrunch.com/2026/03/30/former-coatue-partner-raises-huge-65m-seed-for-enterprise-ai-agent-startup/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Former Coatue partner raises $65M seed for enterprise AI agent startup",
+    "published_at": "2026-03-30T21:53:09+00:00",
+    "ingested_at": "2026-03-31T07:16:43.983986+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_4479ee1b529c"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_87842eff"
+    ],
+    "metadata": {
+      "amount_usd": 65000000,
+      "amount_raw": "$65M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_987ce310098599f1",
+    "source_url": "https://www.deutsche-startups.de/2026/03/31/jede-teilkomponente-muss-bis-zum-letzten-detail-getestet-werden/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "hiring_wave",
+    "signal_tier": "tier_3_weak",
+    "headline": "Multiple German companies posting job openings across marketing, engineering, and operations roles",
+    "published_at": "2026-03-31T06:15:00+00:00",
+    "ingested_at": "2026-03-31T07:16:45.337582+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_0c378cf9bf7b804a",
+    "source_url": "https://www.deutsche-startups.de/2026/03/30/easy-exit-card-yogitier-lipocheck-myspirulina-scharfenstein-treten-vor-die-loewen/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Five startups including Easy Exit Card, Yogitier, LipoCheck, MySpirulina, and Scharfenstein featured on German TV show Die H\u00f6hle der L\u00f6wen",
+    "published_at": "2026-03-30T15:55:00+00:00",
+    "ingested_at": "2026-03-31T07:16:46.863754+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_2762d347ed425ada",
+    "source_url": "https://www.deutsche-startups.de/2026/03/30/nature-robots-erhaelt-4-millionen-deeplify-sammelt-2-millionen-ein/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Uber acquires Blacklane",
+    "published_at": "2026-03-30T13:49:47+00:00",
+    "ingested_at": "2026-03-31T07:16:48.177733+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_286f1f8cdbab"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_5a8d1b1ee59605c0",
+    "source_url": "https://www.deutsche-startups.de/2026/03/30/5-neue-startups-youth-tensorfive-we-connect-work-messpunkt-io-civireach/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Five new startups featured: YOU(th), TensorFive, we connect work, Messpunkt.io, CiviReach",
+    "published_at": "2026-03-30T11:55:00+00:00",
+    "ingested_at": "2026-03-31T07:16:49.730877+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.3,
+    "company_ids": [
+      "co_bbbe8a7d3ba3"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_5eaf75a7d8fa5c13",
+    "source_url": "https://www.deutsche-startups.de/2026/03/30/monco-ai-futurepresent-forward-one-hamburg-hinterland-of-things/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Startup ticker roundup featuring monco.ai, futurepresent, FORWARD.one, and other companies",
+    "published_at": "2026-03-30T09:55:00+00:00",
+    "ingested_at": "2026-03-31T07:16:51.281531+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_3d35669469474f9f",
+    "source_url": "https://siliconcanals.com/sc-n-americans-are-using-ai-more-than-ever-but-only-21-trust-it-and-70-now-fear-it-will-eliminate-jobs/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Quinnipiac University poll reveals Americans using AI more but trust declining to 21%, with 70% fearing job elimination",
+    "published_at": "2026-03-31T04:50:56+00:00",
+    "ingested_at": "2026-03-31T07:16:52.657512+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_bc3e8672deff0d8a",
+    "source_url": "https://siliconcanals.com/sc-n-court-blocks-pentagons-anthropic-blacklisting-finds-trump-administrations-kill-switch-claim-had-no-evidence/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Court blocks Pentagon's Anthropic blacklisting, finds Trump administration's 'kill switch' claim had no evidence",
+    "published_at": "2026-03-31T04:48:33+00:00",
+    "ingested_at": "2026-03-31T07:16:53.921665+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_c70eca6b0f88"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_5f7b24506065ee90",
+    "source_url": "https://siliconcanals.com/gen-i-used-to-be-unhappy-and-i-blamed-everything-around-me-until-i-realized-id-built-an-entire-life-around-avoiding-the-one-conversation-i-needed-to-have-with-myself/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Personal essay on self-reflection and overcoming unhappiness published on Silicon Canals",
+    "published_at": "2026-03-31T03:47:02+00:00",
+    "ingested_at": "2026-03-31T07:16:55.285567+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_5b959713bd60274e",
+    "source_url": "https://siliconcanals.com/sc-a-the-friends-you-made-between-19-and-24-know-a-version-of-you-that-your-current-partner-your-therapist-and-your-coworkers-will-never-meet-and-the-grief-isnt-about-losing-those-friends-its-about-lo/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": null,
+    "published_at": "2026-03-31T00:13:57+00:00",
+    "ingested_at": "2026-03-31T07:16:56.283941+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_e50dabf825994403",
+    "source_url": "https://techround.co.uk/funding/lucida-medical-raises-8-7-million-to-supercharge-same-day-ai-cancer-diagnosis/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Lucida Medical raises \u00a38.7M for AI-powered same-day cancer diagnosis platform",
+    "published_at": "2026-03-30T13:11:32+00:00",
+    "ingested_at": "2026-03-31T07:16:59.196838+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_c3101155a084"
+    ],
+    "investor_ids": [
+      "inv_339bc5be4b7d",
+      "inv_8f39092677d4",
+      "inv_8983fa5161ca"
+    ],
+    "person_ids": [
+      "per_d0cdd0ffd12d",
+      "per_6ac11cead80a",
+      "per_616af3cb03e4",
+      "per_077b396a10c1"
+    ],
+    "metadata": {
+      "amount_usd": 10935000,
+      "amount_raw": "\u00a38.7 million",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_55fbb2920c5c1633",
+    "source_url": "https://techround.co.uk/news/bluesky-new-ai-app-rival-grok/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Bluesky launches Attie, an AI-powered feed customization tool built on AT Protocol to rival X's Grok",
+    "published_at": "2026-03-30T10:00:25+00:00",
+    "ingested_at": "2026-03-31T07:17:02.131695+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_41a37f5b02ea"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_1e2d63d42355"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_9dca5db4b06be7d7",
+    "source_url": "https://techround.co.uk/business/netflix-raises-prices-again-indicating-the-rising-costs-of-ai-and-streaming-tech/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Netflix raises subscription prices again, signaling rising costs of AI and streaming technology",
+    "published_at": "2026-03-30T09:07:26+00:00",
+    "ingested_at": "2026-03-31T07:17:03.967410+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.3,
+    "company_ids": [
+      "co_13ed0704"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_077b396a10c1"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_463b5cef8bc15650",
+    "source_url": "https://techround.co.uk/startups/startup-of-the-week-spor-group/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "SPOR Group featured as TechRound Startup of the Week with \u00a36M turnover and 1,500+ meeting rooms under management",
+    "published_at": "2026-03-30T08:30:40+00:00",
+    "ingested_at": "2026-03-31T07:17:07.087193+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_1c140af5672f"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_ffb2a830f61f",
+      "per_58fda5085fd8",
+      "per_b37a655d5180"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_12b67ecb661817cc",
+    "source_url": "https://thenextweb.com/news/repair-carbon-luxembourg-office",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "expansion",
+    "signal_tier": "tier_1_strong",
+    "headline": "RepAir Carbon opens Luxembourg office to scale electrochemical carbon capture across Europe",
+    "published_at": "2026-03-31T06:50:30+00:00",
+    "ingested_at": "2026-03-31T07:17:09.286046+00:00",
+    "geography": "Benelux",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_d7b9ec58d254"
+    ],
+    "investor_ids": [
+      "inv_aa16123a4300",
+      "inv_13e581f5fc05",
+      "inv_a739421eacce",
+      "inv_8569380a4779",
+      "inv_04eadb45ce2b"
+    ],
+    "person_ids": [
+      "per_b03a80621c7c"
+    ],
+    "metadata": {
+      "amount_usd": 15000000,
+      "amount_raw": "$15 million",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_259113a49a8d448d",
+    "source_url": "https://thenextweb.com/news/europe-space-economy-bjorn-elseth",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Aerospace engineer Bj\u00f8rn Ottar Elseth launches Nordic Space Bridge as strategic advisor for space economy",
+    "published_at": "2026-03-30T19:13:04+00:00",
+    "ingested_at": "2026-03-31T07:17:13.551401+00:00",
+    "geography": "Nordics",
+    "country": "NO",
+    "ai_confidence": 0.45,
+    "company_ids": [
+      "co_4bf626ea3d25"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_aa634be18d77"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_e8df77d5aa2ac74c",
+    "source_url": "https://thenextweb.com/news/rebellions-closes-400m-pre-ipo-round-at-a-2-34b-valuation",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Rebellions closes $400M pre-IPO round at $2.34B valuation, raising $650M in six months",
+    "published_at": "2026-03-30T19:03:43+00:00",
+    "ingested_at": "2026-03-31T07:17:18.721032+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ed9980025e31"
+    ],
+    "investor_ids": [
+      "inv_ba7b2f840efc",
+      "inv_74045d5f1121",
+      "inv_968e2d5b0868",
+      "inv_026836921a4d",
+      "inv_05f84363a37b"
+    ],
+    "person_ids": [
+      "per_06d6772e286c",
+      "per_0cbb579bdfe8",
+      "per_0ec20263f65d"
+    ],
+    "metadata": {
+      "amount_usd": 400000000,
+      "amount_raw": "$400M",
+      "round_stage": "pre-IPO",
+      "currency": "USD",
+      "valuation": 2340000000
+    }
+  },
+  {
+    "id": "sig_2ace9bc3cc18863f",
+    "source_url": "https://thenextweb.com/news/scaleops-130m-series-c",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "ScaleOps raises $130M Series C to autonomously manage Kubernetes and AI infrastructure",
+    "published_at": "2026-03-30T18:40:41+00:00",
+    "ingested_at": "2026-03-31T07:17:21.066327+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_f1234d707115"
+    ],
+    "investor_ids": [
+      "inv_009",
+      "inv_705ac43cb5f0",
+      "inv_188a7e3a2c24",
+      "inv_15e4fbf174ea",
+      "inv_173c2c142192"
+    ],
+    "person_ids": [
+      "per_2be97327fab0"
+    ],
+    "metadata": {
+      "amount_usd": 130000000,
+      "amount_raw": "$130M",
+      "round_stage": "Series C",
+      "currency": "USD",
+      "valuation": 800000000
+    }
+  },
+  {
+    "id": "sig_5f2afe7eb684b78a",
+    "source_url": "https://thenextweb.com/news/midas-50m-series-a-2",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Midas raises $50M Series A led by RRE Ventures and Creandum to solve tokenised finance liquidity",
+    "published_at": "2026-03-30T18:27:15+00:00",
+    "ingested_at": "2026-03-31T07:17:23.699115+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.98,
+    "company_ids": [
+      "co_3a9023d5efaf"
+    ],
+    "investor_ids": [
+      "inv_e2f7583a3664",
+      "inv_04a64ee55f95",
+      "inv_f1677e8bac37",
+      "inv_e181dc89b764",
+      "inv_c854ceabf43d",
+      "inv_c7d1523bad42",
+      "inv_02dfcd535af8",
+      "inv_ce71ce589c60",
+      "inv_d590e8a333ae",
+      "inv_e4e3c94974ae",
+      "inv_0d6bd8bc1070",
+      "inv_7609ad12cb4c"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 50000000,
+      "amount_raw": "$50M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_527816b5bee73aab",
+    "source_url": "https://thenextweb.com/news/uber-acquires-blacklane-luxury-chauffeur",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Uber acquires Berlin-based chauffeur platform Blacklane to expand premium mobility segment",
+    "published_at": "2026-03-30T18:08:04+00:00",
+    "ingested_at": "2026-03-31T07:17:26.050791+00:00",
+    "geography": "DACH",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_286f1f8cdbab"
+    ],
+    "investor_ids": [
+      "inv_74c5961e76fc",
+      "inv_eaac0f48d2cc",
+      "inv_0787f58685ca"
+    ],
+    "person_ids": [
+      "per_0ed07e358f98",
+      "per_d93e88e6f555",
+      "per_d1278d327f58"
+    ],
+    "metadata": {
+      "valuation": 547000000
+    }
+  },
+  {
+    "id": "sig_e0e018a2cbd87a9b",
+    "source_url": "https://thenextweb.com/news/chinese-tech-companies-hong-kong-listings-geopolitical",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "expansion",
+    "signal_tier": "tier_1_strong",
+    "headline": "Mainland Chinese tech firms surge into Hong Kong IPOs as Western barriers tighten, with 153% increase in listings from 2024 to 2025",
+    "published_at": "2026-03-30T16:58:25+00:00",
+    "ingested_at": "2026-03-31T07:17:29.470854+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_3b74a40385d9"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_6392ad706edc",
+      "per_dffa66511485",
+      "per_1b35a2411960",
+      "per_bab97baa32ef",
+      "per_f49b5535f890"
+    ],
+    "metadata": {
+      "amount_usd": 84600000,
+      "amount_raw": "HK$660 million",
+      "currency": "HKD"
+    }
   }
 ]

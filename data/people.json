@@ -3562,5 +3562,212 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "founder"
+  },
+  {
+    "id": "per_237d3d5aba15",
+    "name": "James Heappey",
+    "role": "Board Member",
+    "company_id": "co_975b2042202e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_26af931ef23e",
+    "name": "Nicholas H\u00f6gasten",
+    "role": "Head of Product, Board Member",
+    "company_id": "co_975b2042202e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_66b7ef965314",
+    "name": "Paul Jameson",
+    "role": "Co-founder",
+    "company_id": "co_4533c250fda7",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_6ffb345627b6",
+    "name": "David Jameson",
+    "role": "Co-founder",
+    "company_id": "co_4533c250fda7",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_dee86d3b5b1d",
+    "name": "Ben May",
+    "role": "Co-founder",
+    "company_id": "co_4533c250fda7",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_d0cdd0ffd12d",
+    "name": "Dr. Antony Rix",
+    "role": "Co-founder and CEO",
+    "company_id": "co_c3101155a084",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_6ac11cead80a",
+    "name": "David Fisher",
+    "role": "Senior Investment Director",
+    "company_id": "co_c3101155a084",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_616af3cb03e4",
+    "name": "Anthony Cunliffe",
+    "role": "Lead Medical Advisor",
+    "company_id": "co_c3101155a084",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_1e2d63d42355",
+    "name": "Jay Graber",
+    "role": "Chief Innovation Officer",
+    "company_id": "co_41a37f5b02ea",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_ffb2a830f61f",
+    "name": "Chris Gore",
+    "role": "Founder",
+    "company_id": "co_1c140af5672f",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_58fda5085fd8",
+    "name": "Chris Spence",
+    "role": "Founder",
+    "company_id": "co_1c140af5672f",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_b03a80621c7c",
+    "name": "Jean-Philippe Hiegel",
+    "role": "VP Strategy & Growth",
+    "company_id": "co_d7b9ec58d254",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_aa634be18d77",
+    "name": "Bj\u00f8rn Ottar Elseth",
+    "role": "Founder, Independent Strategic Advisor, COO at Spaceport Norway",
+    "company_id": "co_4bf626ea3d25",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_06d6772e286c",
+    "name": "Sunghyun Park",
+    "role": "Co-Founder and CEO",
+    "company_id": "co_ed9980025e31",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_0cbb579bdfe8",
+    "name": "Eung-Suk Kim",
+    "role": "Vice Chairman and CEO of Mirae Asset Venture Investment",
+    "company_id": "co_ed9980025e31",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_0ec20263f65d",
+    "name": "Marshall Choy",
+    "role": "Chief Business Officer",
+    "company_id": "co_ed9980025e31",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_2be97327fab0",
+    "name": "Yodar Shafrir",
+    "role": "CEO and Co-founder",
+    "company_id": "co_f1234d707115",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_d93e88e6f555",
+    "name": "Jens Wohltorf",
+    "role": "Founder",
+    "company_id": "co_286f1f8cdbab",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_6392ad706edc",
+    "name": "Xie Yunpeng",
+    "role": "Vice President",
+    "company_id": "co_3b74a40385d9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_dffa66511485",
+    "name": "Wu Minghui",
+    "role": "Founder",
+    "company_id": "co_3b74a40385d9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_1b35a2411960",
+    "name": "Xiaomeng Lu",
+    "role": "Director",
+    "company_id": "co_3b74a40385d9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_bab97baa32ef",
+    "name": "Alicia Garcia-Herrero",
+    "role": "Chief Economist for Asia-Pacific",
+    "company_id": "co_3b74a40385d9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_f49b5535f890",
+    "name": "Paul Triolo",
+    "role": "Partner",
+    "company_id": "co_3b74a40385d9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
   }
 ]
