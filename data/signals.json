@@ -17535,5 +17535,1415 @@
       "amount_raw": "HK$660 million",
       "currency": "HKD"
     }
+  },
+  {
+    "id": "sig_3d114a8e64e6f6f4",
+    "source_url": "https://sifted.eu/articles/ranked-europes-top-investors-climate-b2b-saas-fintech/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Sifted publishes ranking of Europe's top investors across climate, B2B SaaS, healthtech, fintech and consumer tech sectors",
+    "published_at": "2026-04-01T05:00:55+00:00",
+    "ingested_at": "2026-04-01T07:22:35.428920+00:00",
+    "geography": "EU",
+    "country": "",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_bed6754a7bbfa4d3",
+    "source_url": "https://sifted.eu/articles/9fin-funding-round-unicorn-fintech/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Credit data startup 9fin raises $170M to achieve unicorn status in Europe",
+    "published_at": "2026-03-31T14:03:09+00:00",
+    "ingested_at": "2026-04-01T07:22:37.027375+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_de6170cfbcc4"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 170000000,
+      "amount_raw": "$170M",
+      "currency": "USD",
+      "valuation": 1000000000
+    }
+  },
+  {
+    "id": "sig_3bee214d8766f4bd",
+    "source_url": "https://sifted.eu/articles/fractile-200m-unicorn-valuation/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Chip maker Fractile in talks to raise $200m at unicorn valuation",
+    "published_at": "2026-03-31T09:06:59+00:00",
+    "ingested_at": "2026-04-01T07:22:39.590219+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_8da5eafb322e"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 200000000,
+      "amount_raw": "$200m",
+      "currency": "USD",
+      "valuation": 1000000000
+    }
+  },
+  {
+    "id": "sig_8e0bec6776056639",
+    "source_url": "https://tech.eu/2026/04/01/audicin-raises-19m-to-expand-real-time-nervous-system-tech/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Audicin raises $1.9M to expand real-time nervous system tech",
+    "published_at": "2026-04-01T07:00:00+00:00",
+    "ingested_at": "2026-04-01T07:22:40.932969+00:00",
+    "geography": "Nordics",
+    "country": "FI",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_655f62e663d8"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1900000,
+      "amount_raw": "$1.9M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_05a24d4ccba9a738",
+    "source_url": "https://tech.eu/2026/04/01/metafuels-awarded-eur192m-to-develop-rotterdam-e-saf-project/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Metafuels awarded \u20ac1.92M grant to develop Rotterdam e-SAF project",
+    "published_at": "2026-04-01T06:00:00+00:00",
+    "ingested_at": "2026-04-01T07:22:42.993207+00:00",
+    "geography": "DACH",
+    "country": "CH",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_ea3bd73e"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2073600,
+      "amount_raw": "\u20ac1.92M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_de70b180316b6991",
+    "source_url": "https://tech.eu/2026/03/31/test-of-things-raises-eur12m-to-automate-cybersecurity-testing-for-connected-devices/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Test of Things raises \u20ac1.2M in Pre-Seed funding for IoT cybersecurity testing automation",
+    "published_at": "2026-03-31T15:32:27+00:00",
+    "ingested_at": "2026-04-01T07:22:44.562869+00:00",
+    "geography": "Nordics",
+    "country": "FI",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ce64e9a314b5"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1320000,
+      "amount_raw": "\u20ac1.2M",
+      "round_stage": "Pre-Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_57d1550d641aee90",
+    "source_url": "https://tech.eu/2026/03/31/afreshed-acquires-etepetete-as-food-waste-startups-consolidate-in-dach/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Afreshed acquires German competitor etepetete in food waste sector consolidation",
+    "published_at": "2026-03-31T15:20:10+00:00",
+    "ingested_at": "2026-04-01T07:22:48.346659+00:00",
+    "geography": "DACH",
+    "country": "AT",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_3754237bd84e"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_113cdcf408784ff7",
+    "source_url": "https://tech.eu/2026/03/31/london-headquartered-fintech-9fin-raises-170m-reaching-a-1-3bn-valuation/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "London fintech 9fin raises $170M Series C, achieves $1.3B unicorn valuation",
+    "published_at": "2026-03-31T13:06:00+00:00",
+    "ingested_at": "2026-04-01T07:22:49.918839+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_de6170cfbcc4"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 170000000,
+      "amount_raw": "$170M",
+      "round_stage": "Series C",
+      "currency": "USD",
+      "valuation": 1300000000
+    }
+  },
+  {
+    "id": "sig_dc2d252fb1887e47",
+    "source_url": "https://tech.eu/2026/03/31/brickken-secures-eur3m-to-expand-tokenization-infrastructure/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Brickken secures \u20ac3M in pre-Series A funding to expand tokenisation infrastructure",
+    "published_at": "2026-03-31T12:05:00+00:00",
+    "ingested_at": "2026-04-01T07:22:52.046503+00:00",
+    "geography": "Southern Europe",
+    "country": "ES",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_f06f56c56d17"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3240000,
+      "amount_raw": "\u20ac3M",
+      "round_stage": "pre-Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_c4241d3f12bef1d3",
+    "source_url": "https://tech.eu/2026/03/31/kestra-raises-25m-series-a-to-build-the-enterprise-orchestration-standard/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Kestra raises $25M Series A led by RTP Global to build enterprise orchestration standard",
+    "published_at": "2026-03-31T12:00:00+00:00",
+    "ingested_at": "2026-04-01T07:22:53.502064+00:00",
+    "geography": "EU",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_4c4140db3d3f"
+    ],
+    "investor_ids": [
+      "inv_92671404f6f7",
+      "inv_85bc4279ae6e",
+      "inv_c67c46b6d1ec",
+      "inv_a57e32cdd05d"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 25000000,
+      "amount_raw": "$25M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_2bc10c9a773a5f7c",
+    "source_url": "https://tech.eu/2026/03/31/belgium-crypto-startup-keyrock-hits-unicorn-status-says-valuation-quadrupled/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Keyrock achieves unicorn status with quadrupled valuation in new funding round",
+    "published_at": "2026-03-31T11:05:00+00:00",
+    "ingested_at": "2026-04-01T07:22:55.014882+00:00",
+    "geography": "Benelux",
+    "country": "BE",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_a464d25e815b"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_d22528320242096b",
+    "source_url": "https://tech.eu/2026/03/31/semarion-raises-38m-to-scale-cell-assay-technology/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Semarion raises $3.8M to scale cell assay technology",
+    "published_at": "2026-03-31T11:00:00+00:00",
+    "ingested_at": "2026-04-01T07:22:56.468331+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_ab578c86e399"
+    ],
+    "investor_ids": [
+      "inv_bef83e423eeb"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3800000,
+      "amount_raw": "$3.8M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_87d2ef89891f4943",
+    "source_url": "https://tech.eu/2026/03/31/riplo-raises-ps23m-to-build-an-ai-operating-system-for-consulting/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Riplo raises \u00a32.3M pre-seed funding to build AI operating system for consulting",
+    "published_at": "2026-03-31T10:00:00+00:00",
+    "ingested_at": "2026-04-01T07:22:58.219770+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_5d7729a3bf63"
+    ],
+    "investor_ids": [
+      "inv_083046ed91c7",
+      "inv_9cbb97a16030"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2900000,
+      "amount_raw": "\u00a32.3M",
+      "round_stage": "Pre-Seed",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_3a4e9cd79c161a30",
+    "source_url": "https://tech.eu/2026/03/31/building-europes-deeptech-backbone-inside-european-deeptech-week-2026/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "European Deeptech Week 2026 convenes founders, investors, and policymakers in Paris",
+    "published_at": "2026-03-31T08:00:00+00:00",
+    "ingested_at": "2026-04-01T07:22:59.505748+00:00",
+    "geography": "Southern Europe",
+    "country": "",
+    "ai_confidence": 0.2,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_7c6e9639e5424e21",
+    "source_url": "https://tech.eu/2026/03/31/standing-ovation-raises-eur30m-to-scale-precision-fermentation-dairy-proteins-globally/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Standing Ovation raises \u20ac30M Series B to scale precision fermentation dairy proteins",
+    "published_at": "2026-03-31T08:00:00+00:00",
+    "ingested_at": "2026-04-01T07:23:01.020780+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_415df7102d56"
+    ],
+    "investor_ids": [
+      "inv_2851ce7ee027"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 32400000,
+      "amount_raw": "\u20ac30M",
+      "round_stage": "Series B",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_b9968c28a7e6018a",
+    "source_url": "https://tech.eu/2026/03/31/endform-secures-eur15m-for-high-performance-web-testing-tools/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Endform raises \u20ac1.5M for high-performance web testing tools",
+    "published_at": "2026-03-31T07:30:00+00:00",
+    "ingested_at": "2026-04-01T07:23:02.645521+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_1ef5b81d2e28"
+    ],
+    "investor_ids": [
+      "inv_c172b75426b3",
+      "inv_785ee58e52ac",
+      "inv_d7fcad45512d",
+      "inv_d8b09f5bbbbd"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1620000,
+      "amount_raw": "\u20ac1.5M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_153bb3e3be83a0e3",
+    "source_url": "https://news.crunchbase.com/venture/wearable-fitness-tech-ai-whoop-seriesg-funding/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Whoop raises $575M Series G at $10.1B valuation for wearable fitness technology",
+    "published_at": "2026-03-31T17:38:55+00:00",
+    "ingested_at": "2026-04-01T07:23:04.354542+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_f4e12479"
+    ],
+    "investor_ids": [
+      "inv_8633e350b797",
+      "inv_703a8f299659",
+      "inv_35b83bf42588"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 575000000,
+      "amount_raw": "$575M",
+      "round_stage": "Series G",
+      "currency": "USD",
+      "valuation": 10100000000
+    }
+  },
+  {
+    "id": "sig_b201b137e7b225a5",
+    "source_url": "https://news.crunchbase.com/venture/data-largest-seed-rounds-ai-startups/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Largest recent seed rounds concentrate in AI companies operating at intersection of AI and physical world",
+    "published_at": "2026-03-31T11:00:33+00:00",
+    "ingested_at": "2026-04-01T07:23:05.797375+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "round_stage": "Seed"
+    }
+  },
+  {
+    "id": "sig_bf8ed9737023fff4",
+    "source_url": "https://techfundingnews.com/audicin-raises-1-6m-oura-co-founder-business-finland-nervous-system-recovery-wearables/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Audicin raises \u20ac1.6M from Oura co-founder and Business Finland for nervous-system recovery wearables",
+    "published_at": "2026-04-01T07:08:02+00:00",
+    "ingested_at": "2026-04-01T07:23:08.755867+00:00",
+    "geography": "Nordics",
+    "country": "FI",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_655f62e663d8"
+    ],
+    "investor_ids": [
+      "inv_bd103b6d9cae",
+      "inv_ebfd63cfea91"
+    ],
+    "person_ids": [
+      "per_bd103b6d9cae"
+    ],
+    "metadata": {
+      "amount_usd": 1744000,
+      "amount_raw": "\u20ac1.6M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_beca9eca2f6b4fa7",
+    "source_url": "https://techfundingnews.com/metafuels-secures-1-92-million-dutch-grant-rotterdam-esaf-plant/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Metafuels secures \u20ac1.92M Dutch government grant for Rotterdam e-SAF plant",
+    "published_at": "2026-04-01T04:00:00+00:00",
+    "ingested_at": "2026-04-01T07:23:10.274434+00:00",
+    "geography": "Benelux",
+    "country": "CH",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ea3bd73e"
+    ],
+    "investor_ids": [
+      "inv_21f522846d37"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2073600,
+      "amount_raw": "\u20ac1.92M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_d97ec138ee993abb",
+    "source_url": "https://techfundingnews.com/enervenue-300m-series-b-extension-aqueous-metal-hydrogen-grid-storage/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "EnerVenue raises $300M Series B led by Full Vision Capital for non-lithium battery manufacturing expansion",
+    "published_at": "2026-03-31T14:47:44+00:00",
+    "ingested_at": "2026-04-01T07:23:14.390213+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_27ab0031d0b6"
+    ],
+    "investor_ids": [
+      "inv_d79222854bdd"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 300000000,
+      "amount_raw": "$300M",
+      "round_stage": "Series B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_751da4f2e2c627b8",
+    "source_url": "https://techfundingnews.com/uber-acquires-blacklane-berlin-premium-chauffeur-service/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Uber acquires Berlin-based Blacklane to scale premium chauffeur services",
+    "published_at": "2026-03-31T13:54:20+00:00",
+    "ingested_at": "2026-04-01T07:23:15.917594+00:00",
+    "geography": "DACH",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_286f1f8cdbab"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_abceab1ddeb7bdea",
+    "source_url": "https://techfundingnews.com/midas-berlin-onchain-investment-platform-raises-50m-series-a/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Midas raises $50M Series A led by RRE Ventures and Creandum for tokenised asset liquidity platform",
+    "published_at": "2026-03-31T13:33:44+00:00",
+    "ingested_at": "2026-04-01T07:23:17.538861+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_3a9023d5efaf"
+    ],
+    "investor_ids": [
+      "inv_e2f7583a3664",
+      "inv_04a64ee55f95",
+      "inv_f1677e8bac37",
+      "inv_e181dc89b764"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 50000000,
+      "amount_raw": "$50M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_26524fd92b863153",
+    "source_url": "https://techfundingnews.com/uk-ai-chip-startup-fractile-in-talks-200m-1b-valuation-accel-nvidia-alternative/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Fractile in talks with Accel to raise $200M at $1B valuation as UK-based NVIDIA alternative",
+    "published_at": "2026-03-31T12:42:54+00:00",
+    "ingested_at": "2026-04-01T07:23:18.970418+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.72,
+    "company_ids": [
+      "co_8da5eafb322e"
+    ],
+    "investor_ids": [
+      "inv_006"
+    ],
+    "person_ids": [
+      "per_856e141bd40d"
+    ],
+    "metadata": {
+      "amount_usd": 200000000,
+      "amount_raw": "$200M",
+      "currency": "USD",
+      "valuation": 1000000000
+    }
+  },
+  {
+    "id": "sig_d79af320d1683c04",
+    "source_url": "https://techfundingnews.com/keyrock-belgian-digital-asset-unicorn-11b-valuation-sc-ventures-ripple/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Keyrock reaches unicorn status with $1.1B valuation in Series C funding round led by SC Ventures",
+    "published_at": "2026-03-31T12:33:42+00:00",
+    "ingested_at": "2026-04-01T07:23:21.003257+00:00",
+    "geography": "Benelux",
+    "country": "BE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_a464d25e815b"
+    ],
+    "investor_ids": [
+      "inv_d0b8c4362454"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "round_stage": "Series C",
+      "valuation": 1100000000
+    }
+  },
+  {
+    "id": "sig_7c6759698983e078",
+    "source_url": "https://techfundingnews.com/corporate-venture-capital-strategic-bets-europe-2026/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "CVC is becoming a long-term money-maker for corporates",
+    "published_at": "2026-03-31T12:00:00+00:00",
+    "ingested_at": "2026-04-01T07:23:22.184545+00:00",
+    "geography": "Europe",
+    "country": "",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_cafc5a9672fab4f3",
+    "source_url": "https://techfundingnews.com/why-rtp-global-backed-kestra-25m-enterprise-orchestration-pitch-deck/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "RTP Global leads $25M funding round in Kestra for enterprise orchestration platform",
+    "published_at": "2026-03-31T12:00:00+00:00",
+    "ingested_at": "2026-04-01T07:23:25.330247+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_4c4140db3d3f"
+    ],
+    "investor_ids": [
+      "inv_92671404f6f7"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 25000000,
+      "amount_raw": "$25M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_3707fe5725fb5e16",
+    "source_url": "https://techfundingnews.com/allbirds-39m-asset-sale-american-exchange-group-4b-ipo-valuation/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Allbirds agrees to sell assets to American Exchange Group for $39M",
+    "published_at": "2026-03-31T11:43:39+00:00",
+    "ingested_at": "2026-04-01T07:23:26.776216+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_4afed26c712a"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 39000000,
+      "amount_raw": "$39M",
+      "currency": "USD",
+      "valuation": 4000000000
+    }
+  },
+  {
+    "id": "sig_3be2b450d1bdbbc5",
+    "source_url": "https://arcticstartup.com/iqm-raises-50m/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Finland's IQM raises \u20ac50 million from BlackRock-managed funds for quantum expansion and public listing",
+    "published_at": "2026-04-01T06:50:43+00:00",
+    "ingested_at": "2026-04-01T07:23:28.426472+00:00",
+    "geography": "Nordics",
+    "country": "FI",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_0d40838f3b34"
+    ],
+    "investor_ids": [
+      "inv_7e6578c2e34b"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 54500000,
+      "amount_raw": "\u20ac50 million",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_8cb52dda0ec97169",
+    "source_url": "https://arcticstartup.com/metaktik-raises-e1-million/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Finland's Metaktik raises \u20ac1 million pre-seed funding for metasurface antenna technology",
+    "published_at": "2026-03-31T12:36:59+00:00",
+    "ingested_at": "2026-04-01T07:23:29.856159+00:00",
+    "geography": "Nordics",
+    "country": "FI",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ea3bd73e"
+    ],
+    "investor_ids": [
+      "inv_edfaf1fe1858"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1100000,
+      "amount_raw": "\u20ac1 million",
+      "round_stage": "Pre-Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_b54c8887a88e86d3",
+    "source_url": "https://arcticstartup.com/test-of-things-raises-e1-2m-pre-seed/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Finnish cybersecurity startup Test of Things raises \u20ac1.2M pre-seed for connected device security automation",
+    "published_at": "2026-03-31T12:02:55+00:00",
+    "ingested_at": "2026-04-01T07:23:32.143146+00:00",
+    "geography": "Nordics",
+    "country": "FI",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ce64e9a314b5"
+    ],
+    "investor_ids": [
+      "inv_f967e9ce978e",
+      "inv_f041dd46c121",
+      "inv_a936b80980db",
+      "inv_1320d8d9ff44",
+      "inv_451b4c84ac11",
+      "inv_904d7273fa1a",
+      "inv_ebfd63cfea91"
+    ],
+    "person_ids": [
+      "per_f041dd46c121",
+      "per_a936b80980db",
+      "per_1320d8d9ff44"
+    ],
+    "metadata": {
+      "amount_usd": 1320000,
+      "amount_raw": "\u20ac1.2 million",
+      "round_stage": "Pre-Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_6b7bb1f50c573ced",
+    "source_url": "https://arcticstartup.com/cernel-raises-e4m-seed/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Danish startup Cernel secures \u20ac4 million seed funding for AI-powered product data infrastructure",
+    "published_at": "2026-03-31T08:55:16+00:00",
+    "ingested_at": "2026-04-01T07:23:33.640030+00:00",
+    "geography": "Nordics",
+    "country": "DK",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_95c32db12cec"
+    ],
+    "investor_ids": [
+      "inv_43edf108e9ba"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4400000,
+      "amount_raw": "\u20ac4 million",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_76d4a9244cf2ee7a",
+    "source_url": "https://www.uktech.news/ai/ico-urges-businesses-to-review-automated-hiring-20260331",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "UK ICO urges businesses to review automated hiring practices and AI safeguards",
+    "published_at": "2026-03-31T14:00:37+00:00",
+    "ingested_at": "2026-04-01T07:23:35.163015+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_dc23cf990903c42e",
+    "source_url": "https://www.uktech.news/fintech/debt-intelligence-platform-9fin-scores-130m-round-20260331",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "9fin raises $170m Series C to become unicorn, valued at $1.3bn",
+    "published_at": "2026-03-31T13:00:24+00:00",
+    "ingested_at": "2026-04-01T07:23:36.869720+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_de6170cfbcc4"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 170000000,
+      "amount_raw": "$170m (\u00a3128.8m)",
+      "round_stage": "Series C",
+      "currency": "USD",
+      "valuation": 1300000000
+    }
+  },
+  {
+    "id": "sig_2aa6140b2c179e7b",
+    "source_url": "https://www.uktech.news/opinion/the-uks-quantum-moment-20260331",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "UK government announces \u00a32bn quantum technology investment",
+    "published_at": "2026-03-31T10:00:20+00:00",
+    "ingested_at": "2026-04-01T07:23:41.816612+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.85,
+    "company_ids": [],
+    "investor_ids": [
+      "inv_c6d98ffa6a60"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2520000000,
+      "amount_raw": "\u00a32bn",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_249ce386b749363b",
+    "source_url": "https://www.uktech.news/ai/databricks-to-invest-over-600m-to-expand-uk-presence-20260331",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "expansion",
+    "signal_tier": "tier_1_strong",
+    "headline": "Databricks announces over $850M investment to expand UK presence and quadruple London headquarters",
+    "published_at": "2026-03-31T08:27:25+00:00",
+    "ingested_at": "2026-04-01T07:23:43.391373+00:00",
+    "geography": "UK",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_2dc010636b9d"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 850000000,
+      "amount_raw": "$850M / \u00a3644M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_cf05e69fa03d795a",
+    "source_url": "https://techcrunch.com/2026/03/31/its-not-your-imagination-ai-seed-startups-are-commanding-higher-valuations/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "AI seed startups commanding higher valuations according to market observation",
+    "published_at": "2026-03-31T21:00:00+00:00",
+    "ingested_at": "2026-04-01T07:23:44.777319+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.65,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_64c46dff"
+    ],
+    "metadata": {
+      "round_stage": "Seed"
+    }
+  },
+  {
+    "id": "sig_952557239fad6a16",
+    "source_url": "https://techcrunch.com/2026/03/31/exclusive-runway-launches-10m-fund-builders-program-to-support-early-stage-ai-startups/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Runway launches $10M fund and Builders program to support early-stage AI startups",
+    "published_at": "2026-03-31T14:00:00+00:00",
+    "ingested_at": "2026-04-01T07:23:46.256689+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ae679821f064"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_e7ace0db0008"
+    ],
+    "metadata": {
+      "amount_usd": 10000000,
+      "amount_raw": "$10M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_a0823b6a08385f24",
+    "source_url": "https://www.deutsche-startups.de/2026/04/01/fake-it-till-you-never-make-it/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "hiring_wave",
+    "signal_tier": "tier_3_weak",
+    "headline": "Multiple German companies posting job openings across marketing, engineering, and operations roles",
+    "published_at": "2026-04-01T06:15:00+00:00",
+    "ingested_at": "2026-04-01T07:23:48.270563+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.35,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_fe89888f18bbbb41",
+    "source_url": "https://www.deutsche-startups.de/2026/03/31/midas-bekommt-50-millionen/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Midas raises \u20ac50 million in funding",
+    "published_at": "2026-03-31T13:55:00+00:00",
+    "ingested_at": "2026-04-01T07:23:51.149361+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_3a9023d5efaf"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 54000000,
+      "amount_raw": "50 Millionen",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_e2a9d9623ba87811",
+    "source_url": "https://www.deutsche-startups.de/2026/03/31/cntr-cellbricks-bergzeit-bergfreunde-speedinvest/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Startup ticker mentions CNTR, Just Spices, Bergzeit, Bergfreunde, and Speedinvest with job listings",
+    "published_at": "2026-03-31T09:11:00+00:00",
+    "ingested_at": "2026-04-01T07:23:52.841402+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.2,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_feb4f548fcad58ad",
+    "source_url": "https://siliconcanals.com/gen-bt-psychology-says-the-reason-walking-away-from-disrespectful-people-feels-like-guilt-instead-of-freedom-is-because-you-were-raised-in-an-environment-where-your-comfort-was-never-a-valid-reason-to/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": null,
+    "published_at": "2026-03-31T23:48:07+00:00",
+    "ingested_at": "2026-04-01T07:23:53.932337+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_cb48c3ce77bbb817",
+    "source_url": "https://techround.co.uk/artificial-intelligence/harvey-just-hit-an-11-billion-valuation-without-building-a-single-ai-model-here-is-what-that-means-for-startups/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Harvey reaches $11 billion valuation after raising $200 million led by GIC and Sequoia",
+    "published_at": "2026-03-31T12:35:58+00:00",
+    "ingested_at": "2026-04-01T07:23:56.057097+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_c9fd53f3265e"
+    ],
+    "investor_ids": [
+      "inv_dcd1f07b",
+      "inv_8aa206b0c985",
+      "inv_013",
+      "inv_10159e97"
+    ],
+    "person_ids": [
+      "per_c05405a32278"
+    ],
+    "metadata": {
+      "amount_usd": 200000000,
+      "amount_raw": "$200 million",
+      "currency": "USD",
+      "valuation": 11000000000
+    }
+  },
+  {
+    "id": "sig_38923327174c02ee",
+    "source_url": "https://techround.co.uk/interviews/avion-gray-ceo-belong/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Belong raises \u00a32.95M pre-seed funding, largest pre-seed round by female founders in Europe",
+    "published_at": "2026-03-31T08:30:00+00:00",
+    "ingested_at": "2026-04-01T07:23:58.823271+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_6d38f6d60728"
+    ],
+    "investor_ids": [
+      "inv_68b808d07680",
+      "inv_155816f7efbf",
+      "inv_e035502493a0",
+      "inv_e9ba74b65599"
+    ],
+    "person_ids": [
+      "per_41110e3a7aa9",
+      "per_f7cbfc0dbdfa",
+      "per_e9ba74b65599"
+    ],
+    "metadata": {
+      "amount_usd": 3712500,
+      "amount_raw": "\u00a32.95M",
+      "round_stage": "Seed",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_e23c2afd0b57f278",
+    "source_url": "https://thenextweb.com/news/decentraland-epic-games-store-mobile-launch",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Decentraland launches on Epic Games Store and mobile platforms to expand user accessibility",
+    "published_at": "2026-03-31T23:14:10+00:00",
+    "ingested_at": "2026-04-01T07:24:01.473759+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_db423281"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_1a87518de358",
+      "per_f1d4859e5a05"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_6d3f1d686de9b2e0",
+    "source_url": "https://thenextweb.com/news/the-multi-hop-challenge-understanding-indirect-blockchain-exposure-in-compliance",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Binance faces compliance scrutiny over multi-hop blockchain transactions linked to Iranian entities",
+    "published_at": "2026-03-31T23:03:00+00:00",
+    "ingested_at": "2026-04-01T07:24:03.955587+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_59bba357145c"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_80cfbc811622",
+      "per_affcd7876019"
+    ],
+    "metadata": {
+      "amount_usd": 1700000000,
+      "amount_raw": "$1.7 billion",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_38cbc25877cda230",
+    "source_url": "https://thenextweb.com/news/openai-122-billion-round-852-billion-valuation-retail-investors",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "OpenAI closes $122 billion funding round at $852 billion valuation, opens to retail investors ahead of anticipated IPO",
+    "published_at": "2026-03-31T21:17:03+00:00",
+    "ingested_at": "2026-04-01T07:24:06.302330+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.98,
+    "company_ids": [
+      "co_7d3194f79e64"
+    ],
+    "investor_ids": [
+      "inv_013",
+      "inv_a3c35e48f34c",
+      "inv_9c41b5c62bad",
+      "inv_cbc62794911f",
+      "inv_8d4321d9",
+      "inv_9fbf261b62c1",
+      "inv_a872dde741e5"
+    ],
+    "person_ids": [
+      "per_46b09b212b77",
+      "per_a49fba6fd17e"
+    ],
+    "metadata": {
+      "amount_usd": 122000000000,
+      "amount_raw": "$122 billion",
+      "currency": "USD",
+      "valuation": 852000000000
+    }
+  },
+  {
+    "id": "sig_b169c12fe18a42c4",
+    "source_url": "https://thenextweb.com/news/south-korea-russian-naphtha-chip-supply-squeeze",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_1_strong",
+    "headline": "South Korea imports Russian naphtha to address semiconductor supply chain disruption from Middle East crisis",
+    "published_at": "2026-03-31T20:53:58+00:00",
+    "ingested_at": "2026-04-01T07:24:08.330142+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_4d899598fa2d"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_8d734c978810d91a",
+    "source_url": "https://thenextweb.com/news/nexus-4-3m-seed",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Nexus raises $4.3M seed round led by General Catalyst for enterprise AI agent deployment platform",
+    "published_at": "2026-03-31T18:49:40+00:00",
+    "ingested_at": "2026-04-01T07:24:11.406750+00:00",
+    "geography": "Benelux",
+    "country": "BE",
+    "ai_confidence": 0.98,
+    "company_ids": [
+      "co_f5cfcb570b7e"
+    ],
+    "investor_ids": [
+      "inv_737781796826",
+      "inv_cefa8820",
+      "inv_699a9f9d57b2",
+      "inv_dc37efc4bd4e",
+      "inv_9b7d9161fa26",
+      "inv_16e513cee8c7",
+      "inv_dab9a98ebc6f",
+      "inv_37b57d3b3e81"
+    ],
+    "person_ids": [
+      "per_942b6ff54cae",
+      "per_d4786e9635fa",
+      "per_9f35534d2b76"
+    ],
+    "metadata": {
+      "amount_usd": 4300000,
+      "amount_raw": "$4.3M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_14b06c68ac189cde",
+    "source_url": "https://thenextweb.com/news/enervenue-300m-series-b-metal-hydrogen-batteries",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "EnerVenue raises $300M Series B extension to scale nickel-hydrogen battery production",
+    "published_at": "2026-03-31T18:36:47+00:00",
+    "ingested_at": "2026-04-01T07:24:14.452607+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_27ab0031d0b6"
+    ],
+    "investor_ids": [
+      "inv_d79222854bdd",
+      "inv_05f84363a37b",
+      "inv_304533a53487",
+      "inv_ff78049b22f4",
+      "inv_8b73e06d30e0",
+      "inv_f8aacda2dc96"
+    ],
+    "person_ids": [
+      "per_12d3aab0163d",
+      "per_2b4967e08a56",
+      "per_4143b018935b"
+    ],
+    "metadata": {
+      "amount_usd": 300000000,
+      "amount_raw": "$300 million",
+      "round_stage": "Series B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_bb2252f071ebf00d",
+    "source_url": "https://thenextweb.com/news/also-rivian-spinoff-200m-series-c",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "ALSO raises $200M Series C led by Greenoaks, achieves $1B valuation with DoorDash partnership for autonomous delivery",
+    "published_at": "2026-03-31T18:34:26+00:00",
+    "ingested_at": "2026-04-01T07:24:16.774923+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.98,
+    "company_ids": [
+      "co_bb8c8605c55d"
+    ],
+    "investor_ids": [
+      "inv_6e100b0614f4",
+      "inv_7876c03c",
+      "inv_b0126946c556"
+    ],
+    "person_ids": [
+      "per_90716a8bac26"
+    ],
+    "metadata": {
+      "amount_usd": 200000000,
+      "amount_raw": "$200M",
+      "round_stage": "Series C",
+      "currency": "USD",
+      "valuation": 1000000000
+    }
   }
 ]

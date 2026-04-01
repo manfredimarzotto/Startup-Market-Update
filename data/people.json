@@ -3769,5 +3769,194 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "partner"
+  },
+  {
+    "id": "per_bd103b6d9cae",
+    "name": "Oura co-founder",
+    "role": "investor",
+    "company_id": "co_655f62e663d8",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_856e141bd40d",
+    "name": "Walter Goodwin",
+    "role": "Founder",
+    "company_id": "co_8da5eafb322e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_f041dd46c121",
+    "name": "Aapo Oksman",
+    "role": "Angel investor",
+    "company_id": "co_ce64e9a314b5",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_a936b80980db",
+    "name": "Zach Shelby",
+    "role": "Angel investor",
+    "company_id": "co_ce64e9a314b5",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_1320d8d9ff44",
+    "name": "Neil Costigan",
+    "role": "Angel investor",
+    "company_id": "co_ce64e9a314b5",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_e7ace0db0008",
+    "name": "Rebecca Bellan",
+    "role": "Author",
+    "company_id": "co_ae679821f064",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_41110e3a7aa9",
+    "name": "Avion Gray",
+    "role": "CEO",
+    "company_id": "co_6d38f6d60728",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_f7cbfc0dbdfa",
+    "name": "Samantha Rosenberg",
+    "role": "COO",
+    "company_id": "co_6d38f6d60728",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_e9ba74b65599",
+    "name": "William Todd",
+    "role": "Co-founder at Nutmeg",
+    "company_id": "co_6d38f6d60728",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_1a87518de358",
+    "name": "Yemel Jardi",
+    "role": "Executive Director",
+    "company_id": "co_db423281",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_f1d4859e5a05",
+    "name": "Gino Cingolani",
+    "role": "Executive Director of DCL Regenesis Labs",
+    "company_id": "co_db423281",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_80cfbc811622",
+    "name": "Astra Cai",
+    "role": "Global Head of Sanctions",
+    "company_id": "co_59bba357145c",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_affcd7876019",
+    "name": "Noah Perlman",
+    "role": "Chief Compliance Officer",
+    "company_id": "co_59bba357145c",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_a49fba6fd17e",
+    "name": "Sarah Friar",
+    "role": "CFO",
+    "company_id": "co_7d3194f79e64",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_942b6ff54cae",
+    "name": "Assem Chammah",
+    "role": "CEO, Founder",
+    "company_id": "co_f5cfcb570b7e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_d4786e9635fa",
+    "name": "Shady Al Shoha",
+    "role": "AI Engineer, Founder",
+    "company_id": "co_f5cfcb570b7e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_9f35534d2b76",
+    "name": "Yuri Sagalov",
+    "role": "Managing Director at General Catalyst",
+    "company_id": "co_f5cfcb570b7e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_12d3aab0163d",
+    "name": "Yi Cui",
+    "role": "Founder, Professor of Materials Science and Engineering at Stanford University",
+    "company_id": "co_27ab0031d0b6",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_2b4967e08a56",
+    "name": "Henning Rath",
+    "role": "Global CEO",
+    "company_id": "co_27ab0031d0b6",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_4143b018935b",
+    "name": "Peter Lee Ka-kit",
+    "role": "Hong Kong billionaire, founder of Full Vision Capital, chairman of Towngas",
+    "company_id": "co_27ab0031d0b6",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_90716a8bac26",
+    "name": "Stanley Tang",
+    "role": "DoorDash co-founder and Head of DoorDash Labs",
+    "company_id": "co_bb8c8605c55d",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
   }
 ]
