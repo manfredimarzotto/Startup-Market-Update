@@ -3958,5 +3958,185 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "partner"
+  },
+  {
+    "id": "per_7e07e1c58f60",
+    "name": "Garri Zmudze",
+    "role": "Business angel investor",
+    "company_id": "co_fc17cada9152",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_e6590ec0ffe0",
+    "name": "Petteri Lahtela",
+    "role": "investor",
+    "company_id": "co_655f62e663d8",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_45e51a707ce2",
+    "name": "Virpi Tuomivaara",
+    "role": "investor",
+    "company_id": "co_655f62e663d8",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_1d4d2aef79d2",
+    "name": "Shefaly Yogendra",
+    "role": "FTSE 250 non-executive director and author",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_2bc1be2a88fa",
+    "name": "Suki Sandhu",
+    "role": "Founder and CEO of INvolve",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_0dcec49cf008",
+    "name": "Guillaume Vandenesch",
+    "role": "CEO",
+    "company_id": "co_eb6753e85de0",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_86ca974e2aad",
+    "name": "Vincent Libis",
+    "role": "CSO",
+    "company_id": "co_eb6753e85de0",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_03842d3d142a",
+    "name": "Frank Petersen",
+    "role": "Advisor, former Executive Director of Novartis Natural Products Chemistry Department",
+    "company_id": "co_eb6753e85de0",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_085a335dc18c",
+    "name": "Nadine Ziemert",
+    "role": "Advisor, expert on microbial biosynthetic gene clusters",
+    "company_id": "co_eb6753e85de0",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_1a9e42bc712f",
+    "name": "Karin Keller-Sutter",
+    "role": "Switzerland Finance Minister, former President",
+    "company_id": "co_add92b9cde2b",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_0aa99e39ee4a",
+    "name": "Elon Musk",
+    "role": "Grok operator",
+    "company_id": "co_add92b9cde2b",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_57ec2c0286fc",
+    "name": "Linda Yaccarino",
+    "role": "X former chief executive",
+    "company_id": "co_add92b9cde2b",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_788cce84b71f",
+    "name": "Max Junestrand",
+    "role": "Cofounder and Chief Executive",
+    "company_id": "co_22dc0248",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_d7b4477281ee",
+    "name": "Sigge Labor",
+    "role": "Chief Technology Officer",
+    "company_id": "co_22dc0248",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_bcc6d18c3c77",
+    "name": "August Ers\u00e9us",
+    "role": "Cofounder",
+    "company_id": "co_22dc0248",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_859034c5f1e1",
+    "name": "Li Shufu",
+    "role": "Billionaire Chairman",
+    "company_id": "co_c85c2e0ad22b",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_c851b13b5b04",
+    "name": "David Dugan",
+    "role": "Vice President of Global Advertising Solutions",
+    "company_id": "co_7d3194f79e64",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_820850017bb0",
+    "name": "Brad Lightcap",
+    "role": "Chief Operating Officer",
+    "company_id": "co_7d3194f79e64",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_709d7e862985",
+    "name": "Denise Dresser",
+    "role": "Chief Revenue Officer",
+    "company_id": "co_7d3194f79e64",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_f291cfdb64dc",
+    "name": "Zoe Hitzig",
+    "role": "Former OpenAI Researcher",
+    "company_id": "co_7d3194f79e64",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
   }
 ]

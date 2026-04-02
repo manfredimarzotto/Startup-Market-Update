@@ -18945,5 +18945,707 @@
       "currency": "USD",
       "valuation": 1000000000
     }
+  },
+  {
+    "id": "sig_8ec9837df0f3af07",
+    "source_url": "https://tech.eu/2026/04/01/digital-brains-for-experts-as-pickmybrain-raises-21m/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Pickmybrain raises $2.1M pre-seed for AI-powered Digital Brains platform",
+    "published_at": "2026-04-01T09:00:00+00:00",
+    "ingested_at": "2026-04-02T07:14:22.624736+00:00",
+    "geography": "Nordics",
+    "country": "EE",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_fc17cada9152"
+    ],
+    "investor_ids": [
+      "inv_b60ad13c7792",
+      "inv_95dd7fd0c8d3"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2100000,
+      "amount_raw": "$2.1M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_0e88806ba0cb3db9",
+    "source_url": "https://tech.eu/2026/04/01/sensmet-secures-1-5m-to-scale-real-time-metals-monitoring-for-europe-s-raw-materials-supply/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Sensmet secures \u20ac1.5M investment from EIT RawMaterials for real-time metals monitoring technology",
+    "published_at": "2026-04-01T08:41:11+00:00",
+    "ingested_at": "2026-04-02T07:14:24.170855+00:00",
+    "geography": "Nordics",
+    "country": "FI",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_8fb6bd7c1e8a"
+    ],
+    "investor_ids": [
+      "inv_84d03fd347d7"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1650000,
+      "amount_raw": "\u20ac1.5M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_0118e066346cd136",
+    "source_url": "https://tech.eu/2026/04/01/monzo-to-exit-us-market/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "expansion",
+    "signal_tier": "tier_1_strong",
+    "headline": "Monzo exits US market to focus on UK and European operations",
+    "published_at": "2026-04-01T07:35:00+00:00",
+    "ingested_at": "2026-04-02T07:14:25.812812+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_efc68bdfc744"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_972dcd0543e0a6aa",
+    "source_url": "https://tech.eu/2026/04/01/six-months-out-of-stealth-credibur-hits-eur2b-in-facility-volume/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Credibur emerges from stealth with pre-seed funding, reaches \u20ac2B in debt facility volume within six months",
+    "published_at": "2026-04-01T07:30:00+00:00",
+    "ingested_at": "2026-04-02T07:14:27.366868+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_44e389f28338"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_847a446754b90124",
+    "source_url": "https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Q1 2026 venture funding reaches record $300B globally, driven by AI investment boom",
+    "published_at": "2026-04-01T11:00:06+00:00",
+    "ingested_at": "2026-04-02T07:14:29.009474+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 300000000000,
+      "amount_raw": "$300B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_6d833b852922f011",
+    "source_url": "https://arcticstartup.com/financial-news-systems-raises-e1-5m-pre-seed/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Financial News Systems raises \u20ac1.5M pre-seed for AI-native financial newsroom platform",
+    "published_at": "2026-04-02T06:54:34+00:00",
+    "ingested_at": "2026-04-02T07:14:30.644564+00:00",
+    "geography": "Nordics",
+    "country": "DK",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_485e81c5d658"
+    ],
+    "investor_ids": [
+      "inv_0f39358d1524"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1620000,
+      "amount_raw": "\u20ac1.5M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_722811391e1d77c0",
+    "source_url": "https://arcticstartup.com/whitebridge-ai-raises-e2-6-seed/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Lithuanian WhiteBridge AI raises \u20ac2.6 million seed round led by FIRSTPICK VC",
+    "published_at": "2026-04-01T12:54:56+00:00",
+    "ingested_at": "2026-04-02T07:14:34.604722+00:00",
+    "geography": "Nordics",
+    "country": "LT",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_87dfbd44c62d"
+    ],
+    "investor_ids": [
+      "inv_670cd8fb47b9",
+      "inv_d176ad04ee2f",
+      "inv_0fbfd7b6cdf7",
+      "inv_81868fa80816",
+      "inv_6249f52280af",
+      "inv_36a36c947d62",
+      "inv_385433d0"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2860000,
+      "amount_raw": "\u20ac2.6 million",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_e1c49635eb6bd8f4",
+    "source_url": "https://arcticstartup.com/validfor-raises-1-2m-pre-seed/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Estonian Validfor raises $1.2 million pre-seed for AI-native pharma validation platform",
+    "published_at": "2026-04-01T12:20:27+00:00",
+    "ingested_at": "2026-04-02T07:14:36.319087+00:00",
+    "geography": "Nordics",
+    "country": "EE",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_24234613f11f"
+    ],
+    "investor_ids": [
+      "inv_d687896915a0",
+      "inv_def3f686073f"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1200000,
+      "amount_raw": "$1.2 million",
+      "round_stage": "Pre-Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_15b2f335da03dd31",
+    "source_url": "https://arcticstartup.com/pickmybrain-raises-2-1m-pre-seed/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Pickmybrain raises $2.1M pre-seed to scale AI Digital Brains platform for expert knowledge monetization",
+    "published_at": "2026-04-01T10:27:27+00:00",
+    "ingested_at": "2026-04-02T07:14:40.602475+00:00",
+    "geography": "Nordics",
+    "country": "EE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_fc17cada9152"
+    ],
+    "investor_ids": [
+      "inv_7e07e1c58f60",
+      "inv_b60ad13c7792"
+    ],
+    "person_ids": [
+      "per_7e07e1c58f60"
+    ],
+    "metadata": {
+      "amount_usd": 2100000,
+      "amount_raw": "$2.1 million",
+      "round_stage": "Pre-Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_14b45df506eeb694",
+    "source_url": "https://arcticstartup.com/audicin-raises-1-9-million/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Finnish neurotech startup Audicin raises $1.9 million for nervous system regulation technology",
+    "published_at": "2026-04-01T08:29:17+00:00",
+    "ingested_at": "2026-04-02T07:14:42.458098+00:00",
+    "geography": "Nordics",
+    "country": "FI",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_655f62e663d8"
+    ],
+    "investor_ids": [
+      "inv_e6590ec0ffe0",
+      "inv_45e51a707ce2",
+      "inv_006"
+    ],
+    "person_ids": [
+      "per_e6590ec0ffe0",
+      "per_45e51a707ce2"
+    ],
+    "metadata": {
+      "amount_usd": 1900000,
+      "amount_raw": "$1.9 million",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_ad15d9ef10f17a00",
+    "source_url": "https://www.uktech.news/ai/how-to-win-the-ai-visibility-war-20260401",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_3_weak",
+    "headline": "Surfacd launches AI visibility tool to help businesses adapt to AI-powered search",
+    "published_at": "2026-04-01T13:00:36+00:00",
+    "ingested_at": "2026-04-02T07:14:44.097668+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.4,
+    "company_ids": [
+      "co_3ed912c0f883"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_aef082d9eb8d0e53",
+    "source_url": "https://www.uktech.news/semiconductor/uk-semiconductor-centre-appoints-new-directors-20260401",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "hiring_wave",
+    "signal_tier": "tier_2_medium",
+    "headline": "UK Semiconductor Centre appoints two new directors to leadership team",
+    "published_at": "2026-04-01T11:00:54+00:00",
+    "ingested_at": "2026-04-02T07:14:45.444812+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_e6afe3b854e9"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_c1a7201212e7909d",
+    "source_url": "https://www.uktech.news/partnership/the-new-competitive-advantage-20260401",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "UK fintech firms gain competitive advantage through regulatory maturity and compliance excellence",
+    "published_at": "2026-04-01T10:00:51+00:00",
+    "ingested_at": "2026-04-02T07:14:46.941082+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.35,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_2dbee207e5549426",
+    "source_url": "https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Cognichip raises $60M to develop AI systems for chip design",
+    "published_at": "2026-04-01T16:00:00+00:00",
+    "ingested_at": "2026-04-02T07:14:53.315767+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ec86a4b81285"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_6e21b5d6"
+    ],
+    "metadata": {
+      "amount_usd": 60000000,
+      "amount_raw": "$60M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_78c1ce8bd3febbac",
+    "source_url": "https://www.deutsche-startups.de/2026/04/01/skalar-taxtech-kewazo-lanch-driveblocks-aprilscherzfrei/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Startup Ticker featuring Skalar, TaxTech, Kewazo, Lanch, driveblocks, and Aprilscherzfrei",
+    "published_at": "2026-04-01T09:55:00+00:00",
+    "ingested_at": "2026-04-02T07:14:54.912895+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.2,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_222b9896dbcbf7d5",
+    "source_url": "https://siliconcanals.com/sc-n-ai-was-supposed-to-be-the-great-equaliser-instead-it-produced-the-most-concentrated-investment-cycle-in-vc-history/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "AI investment concentration reaches historic peak with US startups capturing 75% of global VC funding by 2025",
+    "published_at": "2026-04-02T07:05:34+00:00",
+    "ingested_at": "2026-04-02T07:14:56.470999+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_644c1d6c8e3b89ed",
+    "source_url": "https://siliconcanals.com/sc-a-gig-workers-in-50-countries-are-filming-themselves-doing-chores-to-train-humanoid-robots-for-15-an-hour/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "expansion",
+    "signal_tier": "tier_2_medium",
+    "headline": "Micro1 recruits gig workers across 50+ countries to film themselves performing household chores for humanoid robot training at $15/hour",
+    "published_at": "2026-04-02T05:28:36+00:00",
+    "ingested_at": "2026-04-02T07:14:58.296538+00:00",
+    "geography": "Global",
+    "country": "",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_ec31db2f5fc7"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_c31923f3ac06d4f0",
+    "source_url": "https://siliconcanals.com/gen-bt-theres-a-specific-type-of-unhappiness-that-belongs-to-people-who-did-everything-right-the-right-degree-the-stable-marriage-the-good-job-and-still-wake-up-feeling-like-theyre-living-someone-else/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Opinion piece on existential unhappiness despite achieving conventional life milestones",
+    "published_at": "2026-04-02T03:50:47+00:00",
+    "ingested_at": "2026-04-02T07:14:59.757866+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_e1256a552b05a52b",
+    "source_url": "https://siliconcanals.com/sc-a-not-everyone-who-chooses-a-partner-with-visible-problems-is-making-bad-decisions-some-of-them-are-choosing-people-whose-damage-is-louder-than-their-own-because-as-long-as-theyre-fixing-someone-el/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Opinion piece on relationship psychology published on Silicon Canals",
+    "published_at": "2026-04-02T03:28:35+00:00",
+    "ingested_at": "2026-04-02T07:15:01.247315+00:00",
+    "geography": "Benelux",
+    "country": "",
+    "ai_confidence": 0.05,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_5db7dcf8aaeecd89",
+    "source_url": "https://techround.co.uk/news/diverse-startup-boards-success-why/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Research and expert opinion on diverse startup boards driving better decision-making and company outcomes",
+    "published_at": "2026-04-01T10:09:20+00:00",
+    "ingested_at": "2026-04-02T07:15:03.539039+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_1d4d2aef79d2",
+      "per_2bc1be2a88fa"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_963de417fce0ae30",
+    "source_url": "https://thenextweb.com/news/generare-20m-series-a",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Generare raises \u20ac20M Series A to scale microbial genome screening for drug discovery",
+    "published_at": "2026-04-02T06:21:21+00:00",
+    "ingested_at": "2026-04-02T07:15:06.613378+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_eb6753e85de0"
+    ],
+    "investor_ids": [
+      "inv_85bc4279ae6e",
+      "inv_d5f086c488af",
+      "inv_4439b2ef",
+      "inv_1a2781e74e3b",
+      "inv_e27019c5a8f7"
+    ],
+    "person_ids": [
+      "per_0dcec49cf008",
+      "per_86ca974e2aad",
+      "per_03842d3d142a",
+      "per_085a335dc18c"
+    ],
+    "metadata": {
+      "amount_usd": 21800000,
+      "amount_raw": "\u20ac20M",
+      "round_stage": "Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_1714c7e0333e2f4f",
+    "source_url": "https://thenextweb.com/news/swiss-minister-grok-criminal-charges-defamation",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_1_strong",
+    "headline": "Swiss Finance Minister files criminal charges against Grok over AI-generated defamatory content",
+    "published_at": "2026-04-01T20:48:29+00:00",
+    "ingested_at": "2026-04-02T07:15:09.094396+00:00",
+    "geography": "DACH",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_add92b9cde2b"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_1a9e42bc712f",
+      "per_0aa99e39ee4a",
+      "per_57ec2c0286fc"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_43f5cfeea57e4f85",
+    "source_url": "https://thenextweb.com/news/spacex-just-filed-for-the-largest-ipo-in-history-the-conflicts-of-interest-are-staggering",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "SpaceX confidentially files for largest IPO in history at $1.75 trillion valuation, aiming to raise $75 billion",
+    "published_at": "2026-04-01T20:28:22+00:00",
+    "ingested_at": "2026-04-02T07:15:11.682837+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_e78bdebae031"
+    ],
+    "investor_ids": [
+      "inv_7105a46cb4c2",
+      "inv_eb601fef6bdd",
+      "inv_6228a5824a1e",
+      "inv_2cbb9e58bf3b",
+      "inv_d1d760dba0da",
+      "inv_fbddac437d98"
+    ],
+    "person_ids": [
+      "per_0aa99e39ee4a",
+      "per_08682370eb8a"
+    ],
+    "metadata": {
+      "amount_usd": 75000000000,
+      "amount_raw": "$75 billion",
+      "round_stage": "IPO",
+      "currency": "USD",
+      "valuation": 1750000000000
+    }
+  },
+  {
+    "id": "sig_336f1478da86b3ee",
+    "source_url": "https://thenextweb.com/news/legora-just-hit-100-million-in-revenue-it-took-18-months",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Legora raises $550M Series D at $5.55B valuation, reaches $100M ARR in 18 months",
+    "published_at": "2026-04-01T20:10:46+00:00",
+    "ingested_at": "2026-04-02T07:15:15.567638+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_22dc0248"
+    ],
+    "investor_ids": [
+      "inv_006",
+      "inv_0e898208",
+      "inv_18eb0649",
+      "inv_737781796826",
+      "inv_c9c1361a",
+      "inv_10efe505",
+      "inv_605323e14592",
+      "inv_8e18936867e6",
+      "inv_cd01bc25",
+      "inv_cefa8820"
+    ],
+    "person_ids": [
+      "per_788cce84b71f",
+      "per_d7b4477281ee",
+      "per_bcc6d18c3c77"
+    ],
+    "metadata": {
+      "amount_usd": 550000000,
+      "amount_raw": "$550 million",
+      "round_stage": "Series D",
+      "currency": "USD",
+      "valuation": 5550000000
+    }
+  },
+  {
+    "id": "sig_9de0b64f75c48b37",
+    "source_url": "https://thenextweb.com/news/geely-volvo-factories-tariffs-overcapacity",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "expansion",
+    "signal_tier": "tier_1_strong",
+    "headline": "Geely Holding abandons new factory construction strategy, will leverage existing Volvo production capacity and partner facilities globally",
+    "published_at": "2026-04-01T17:55:30+00:00",
+    "ingested_at": "2026-04-02T07:15:17.709283+00:00",
+    "geography": "Global",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_c85c2e0ad22b"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_859034c5f1e1"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_26e8cca8a721e5db",
+    "source_url": "https://thenextweb.com/news/openai-is-hiring-ad-tech-firms-to-make-chatgpt-ads-talk-back-to-you",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "OpenAI partners with Smartly and Criteo to launch interactive conversational ads in ChatGPT",
+    "published_at": "2026-04-01T15:57:27+00:00",
+    "ingested_at": "2026-04-02T07:15:20.569853+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7d3194f79e64"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_c851b13b5b04",
+      "per_820850017bb0",
+      "per_4610af00ed60",
+      "per_709d7e862985",
+      "per_f291cfdb64dc"
+    ],
+    "metadata": {}
   }
 ]

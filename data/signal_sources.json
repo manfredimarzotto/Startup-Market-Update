@@ -5,7 +5,7 @@
     "type": "rss",
     "url": "https://sifted.eu/feed",
     "refresh_interval": "6h",
-    "last_fetched_at": "2026-04-01T07:20:30.598804+00:00",
+    "last_fetched_at": "2026-04-02T07:13:02.495258+00:00",
     "is_active": true,
     "geography_tag": "Europe",
     "source_quality_weight": 4
@@ -27,7 +27,7 @@
     "type": "rss",
     "url": "https://www.eu-startups.com/feed/",
     "refresh_interval": "12h",
-    "last_fetched_at": "2026-04-01T07:20:30.598804+00:00",
+    "last_fetched_at": "2026-04-02T07:13:02.495258+00:00",
     "is_active": true,
     "geography_tag": "Europe",
     "source_quality_weight": 3
@@ -49,7 +49,7 @@
     "type": "rss",
     "url": "https://tech.eu/feed/",
     "refresh_interval": "12h",
-    "last_fetched_at": "2026-04-01T07:20:30.598804+00:00",
+    "last_fetched_at": "2026-04-02T07:13:02.495258+00:00",
     "is_active": true,
     "geography_tag": "Europe",
     "source_quality_weight": 4
@@ -60,7 +60,7 @@
     "type": "rss",
     "url": "https://news.crunchbase.com/feed/",
     "refresh_interval": "6h",
-    "last_fetched_at": "2026-04-01T07:20:30.598804+00:00",
+    "last_fetched_at": "2026-04-02T07:13:02.495258+00:00",
     "is_active": true,
     "geography_tag": "US",
     "source_quality_weight": 4
@@ -71,7 +71,7 @@
     "type": "rss",
     "url": "https://venturebeat.com/category/ai/feed/",
     "refresh_interval": "6h",
-    "last_fetched_at": "2026-04-01T07:20:30.598804+00:00",
+    "last_fetched_at": "2026-04-02T07:13:02.495258+00:00",
     "is_active": true,
     "geography_tag": "US",
     "source_quality_weight": 3
@@ -82,7 +82,7 @@
     "type": "rss",
     "url": "https://techfundingnews.com/feed/",
     "refresh_interval": "12h",
-    "last_fetched_at": "2026-04-01T07:20:30.598804+00:00",
+    "last_fetched_at": "2026-04-02T07:13:02.495258+00:00",
     "is_active": true,
     "geography_tag": "Europe",
     "source_quality_weight": 3
@@ -93,7 +93,7 @@
     "type": "rss",
     "url": "https://arcticstartup.com/feed/",
     "refresh_interval": "12h",
-    "last_fetched_at": "2026-04-01T07:20:30.598804+00:00",
+    "last_fetched_at": "2026-04-02T07:13:02.495258+00:00",
     "is_active": true,
     "geography_tag": "Nordics",
     "source_quality_weight": 3
@@ -104,7 +104,7 @@
     "type": "rss",
     "url": "https://www.uktech.news/feed",
     "refresh_interval": "12h",
-    "last_fetched_at": "2026-04-01T07:20:30.598804+00:00",
+    "last_fetched_at": "2026-04-02T07:13:02.495258+00:00",
     "is_active": true,
     "geography_tag": "UK",
     "source_quality_weight": 2
@@ -115,7 +115,7 @@
     "type": "rss",
     "url": "https://techcrunch.com/category/venture/feed/",
     "refresh_interval": "6h",
-    "last_fetched_at": "2026-04-01T07:20:30.598804+00:00",
+    "last_fetched_at": "2026-04-02T07:13:02.495258+00:00",
     "is_active": true,
     "geography_tag": "US",
     "source_quality_weight": 4
@@ -126,7 +126,7 @@
     "type": "rss",
     "url": "https://www.deutsche-startups.de/feed/",
     "refresh_interval": "12h",
-    "last_fetched_at": "2026-04-01T07:20:30.598804+00:00",
+    "last_fetched_at": "2026-04-02T07:13:02.495258+00:00",
     "is_active": true,
     "geography_tag": "DACH",
     "source_quality_weight": 3
@@ -148,7 +148,7 @@
     "type": "rss",
     "url": "https://siliconcanals.com/feed/",
     "refresh_interval": "12h",
-    "last_fetched_at": "2026-04-01T07:20:30.598804+00:00",
+    "last_fetched_at": "2026-04-02T07:13:02.495258+00:00",
     "is_active": true,
     "geography_tag": "Europe",
     "source_quality_weight": 2
@@ -181,7 +181,7 @@
     "type": "rss",
     "url": "https://scaling-europe.beehiiv.com/feed",
     "refresh_interval": "12h",
-    "last_fetched_at": "2026-04-01T07:20:30.598804+00:00",
+    "last_fetched_at": "2026-04-02T07:13:02.495258+00:00",
     "is_active": true,
     "geography_tag": "Europe",
     "source_quality_weight": 3
@@ -192,7 +192,7 @@
     "type": "rss",
     "url": "https://techround.co.uk/feed/",
     "refresh_interval": "12h",
-    "last_fetched_at": "2026-04-01T07:20:30.598804+00:00",
+    "last_fetched_at": "2026-04-02T07:13:02.495258+00:00",
     "is_active": true,
     "geography_tag": "UK",
     "source_quality_weight": 2
@@ -203,7 +203,7 @@
     "type": "rss",
     "url": "https://thenextweb.com/latest/feed",
     "refresh_interval": "12h",
-    "last_fetched_at": "2026-04-01T07:20:30.598804+00:00",
+    "last_fetched_at": "2026-04-02T07:13:02.495258+00:00",
     "is_active": true,
     "geography_tag": "Europe",
     "source_quality_weight": 3
