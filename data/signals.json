@@ -19647,5 +19647,1004 @@
       "per_f291cfdb64dc"
     ],
     "metadata": {}
+  },
+  {
+    "id": "sig_dd9a07578487095d",
+    "source_url": "https://sifted.eu/articles/tiny-vc-philipp-moehring-sifted-podcast/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Tiny VC partner Philipp Moehring discusses timing for taking money off the table",
+    "published_at": "2026-04-02T15:45:57+00:00",
+    "ingested_at": "2026-04-03T07:10:15.738637+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.3,
+    "company_ids": [
+      "co_5f8cafbe5a43"
+    ],
+    "investor_ids": [
+      "inv_5f8cafbe5a43"
+    ],
+    "person_ids": [
+      "per_5ea02c213f56"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_825ea3ea8601f1f1",
+    "source_url": "https://sifted.eu/articles/female-founder-fund-of-funds-uk-first-close/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "UK flagship fund of funds backing female investors and founders closes first tranche at \u00a3130m",
+    "published_at": "2026-04-02T10:07:57+00:00",
+    "ingested_at": "2026-04-03T07:10:17.603679+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.85,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 163900000,
+      "amount_raw": "\u00a3130m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_f7f4dcf17e28d813",
+    "source_url": "https://tech.eu/2026/04/02/omniscient-raises-41m-to-strengthen-data-driven-executive-decision-making/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Omniscient raises $4.1M pre-seed funding led by Seedcamp for data-driven executive decision-making platform",
+    "published_at": "2026-04-02T14:45:00+00:00",
+    "ingested_at": "2026-04-03T07:10:19.334956+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_5c71de72d6c6"
+    ],
+    "investor_ids": [
+      "inv_e652558529ef",
+      "inv_c656b6ec8fe4"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4100000,
+      "amount_raw": "$4.1M",
+      "round_stage": "Pre-Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_fa01580ead28bc0c",
+    "source_url": "https://tech.eu/2026/04/02/generare-secures-eur20m-to-scale-molecular-discovery-platform/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Generare raises \u20ac20M Series A for molecular discovery platform",
+    "published_at": "2026-04-02T14:40:00+00:00",
+    "ingested_at": "2026-04-03T07:10:21.019688+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_eb6753e85de0"
+    ],
+    "investor_ids": [
+      "inv_85bc4279ae6e",
+      "inv_d5f086c488af"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 21800000,
+      "amount_raw": "\u20ac20M",
+      "round_stage": "Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_9faf80a8cd626a27",
+    "source_url": "https://tech.eu/2026/04/02/covalo-lands-eur35m-funding-extension-to-advance-personal-care-data-platform/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Covalo raises \u20ac3.5M funding extension for personal care data platform",
+    "published_at": "2026-04-02T14:34:51+00:00",
+    "ingested_at": "2026-04-03T07:10:22.455369+00:00",
+    "geography": "DACH",
+    "country": "CH",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_17d3c67358e9"
+    ],
+    "investor_ids": [
+      "inv_373da4af1617"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3850000,
+      "amount_raw": "\u20ac3.5M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_35ac2eb2104c1067",
+    "source_url": "https://tech.eu/2026/04/02/new-belgian-ai-platform-backbone-aims-to-cut-costly-quality-failures-in-food-production/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Belgian AI platform Backbone raises Seed funding from 100IN for food quality management",
+    "published_at": "2026-04-02T11:27:34+00:00",
+    "ingested_at": "2026-04-03T07:10:24.038474+00:00",
+    "geography": "Benelux",
+    "country": "BE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_b2e78e3a5bb1"
+    ],
+    "investor_ids": [
+      "inv_1edfdff4ae3a"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "round_stage": "Seed"
+    }
+  },
+  {
+    "id": "sig_61796a962cb68bc4",
+    "source_url": "https://tech.eu/2026/04/02/cafeyn-acquires-readlys-non-nordic-operations-to-scale-european-press-platform/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Cafeyn acquires Readly's non-Nordic operations to expand European press platform",
+    "published_at": "2026-04-02T09:24:21+00:00",
+    "ingested_at": "2026-04-03T07:10:25.331085+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_4683fe494336"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_ed7125a7cdc0ddbb",
+    "source_url": "https://tech.eu/2026/04/02/paparuda-studio-lands-eur210k-to-launch-moldovas-next-generation-of-game-development-talent/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Paparuda Studio secures \u20ac210K investment to develop first internationally targeted game",
+    "published_at": "2026-04-02T08:47:37+00:00",
+    "ingested_at": "2026-04-03T07:10:26.705347+00:00",
+    "geography": "Southern Europe",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_651bbba3bc19"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 229000,
+      "amount_raw": "\u20ac210,000",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_435ca934835575ee",
+    "source_url": "https://tech.eu/2026/04/02/from-fragmented-funding-to-growing-maturity-the-italian-tech-ecosystem/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Italian tech ecosystem shows maturity growth but concentrated funding landscape in 2025",
+    "published_at": "2026-04-02T08:00:00+00:00",
+    "ingested_at": "2026-04-03T07:10:28.283699+00:00",
+    "geography": "Southern Europe",
+    "country": "IT",
+    "ai_confidence": 0.5,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2700000000,
+      "amount_raw": "\u20ac2.5 billion",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_c1f6da9c0dbdf9f1",
+    "source_url": "https://news.crunchbase.com/venture/ai-interviewer-miravoice-raises-seed-funding-unusual/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Miravoice raises $6.3M seed funding for AI voice agent phone survey platform",
+    "published_at": "2026-04-02T14:00:29+00:00",
+    "ingested_at": "2026-04-03T07:10:30.013519+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_bf6b2ebf1e7f"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 6300000,
+      "amount_raw": "$6.3M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_c05f1c851ab5256e",
+    "source_url": "https://news.crunchbase.com/robotics/physical-ai-custom-robot-builder-seed-funding-anvil/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Anvil Robotics raises $5.5M seed funding for modular robotics platform",
+    "published_at": "2026-04-02T13:00:41+00:00",
+    "ingested_at": "2026-04-03T07:10:31.473567+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_13bc126738c3"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 5500000,
+      "amount_raw": "$5.5M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_b5b70021ba84db82",
+    "source_url": "https://news.crunchbase.com/venture/foundational-ai-startup-funding-doubled-openai-anthropic-xai-q1-2026/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Foundational AI startups raised $178 billion in Q1 2026, double all of 2025",
+    "published_at": "2026-04-02T11:00:56+00:00",
+    "ingested_at": "2026-04-03T07:10:32.922233+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 178000000000,
+      "amount_raw": "$178 billion",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_d3c1cbf7029782c5",
+    "source_url": "https://techfundingnews.com/exclusive-smey-an-ai-powered-periodic-table-of-oils-is-here-to-rival-palm-and-cocoa/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_2_medium",
+    "headline": "SMEY unveils Lipid Atlas, an AI-powered platform to discover and produce alternative oils",
+    "published_at": "2026-04-02T18:17:08+00:00",
+    "ingested_at": "2026-04-03T07:10:34.468112+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.72,
+    "company_ids": [
+      "co_11e78401b7a3"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_44c35a19fc117682",
+    "source_url": "https://techfundingnews.com/nvidia-2-billion-marvell-nvlink-fusion-ai-ecosystem/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "NVIDIA invests $2B in Marvell Technology to expand chip partnership and NVLink ecosystem integration",
+    "published_at": "2026-04-02T17:18:56+00:00",
+    "ingested_at": "2026-04-03T07:10:36.337139+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_9c9af40cf847"
+    ],
+    "investor_ids": [
+      "inv_8d4321d9"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2000000000,
+      "amount_raw": "$2B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_fa6cbb58ff317688",
+    "source_url": "https://techfundingnews.com/paysend-raises-25m-claret-capital-cross-border-payments/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Paysend raises $25M in growth funding from Claret Capital Partners",
+    "published_at": "2026-04-02T17:09:20+00:00",
+    "ingested_at": "2026-04-03T07:10:37.978975+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_28c69a73c91a"
+    ],
+    "investor_ids": [
+      "inv_1bdc388a796c"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 25000000,
+      "amount_raw": "$25M",
+      "round_stage": "Growth",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_2a649f2a657e787d",
+    "source_url": "https://techfundingnews.com/sona-raises-45m-led-by-n47-to-replace-legacy-workforce-tools-with-ai/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Sona raises $45M Series B led by N47 to replace legacy workforce tools with AI",
+    "published_at": "2026-04-02T13:45:07+00:00",
+    "ingested_at": "2026-04-03T07:10:39.361850+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_9a5a846499c7"
+    ],
+    "investor_ids": [
+      "inv_ef7a74f0e721"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 45000000,
+      "amount_raw": "$45M",
+      "round_stage": "Series B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_c36395690999fbae",
+    "source_url": "https://techfundingnews.com/report-spacex-files-for-75b-ipo-at-1-75t-valuation/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "SpaceX files for $75B IPO at $1.75T valuation targeting June 2026 listing",
+    "published_at": "2026-04-02T13:31:29+00:00",
+    "ingested_at": "2026-04-03T07:10:41.019535+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_e78bdebae031"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 75000000000,
+      "amount_raw": "$75B",
+      "round_stage": "IPO",
+      "currency": "USD",
+      "valuation": 1750000000000
+    }
+  },
+  {
+    "id": "sig_353a59831a840130",
+    "source_url": "https://techfundingnews.com/endform-raises-e1-5m-from-alliance-vc-and-antler-to-cut-browser-test-time-from-30-minutes-to-2/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Endform raises \u20ac1.5M from Alliance VC and Antler to accelerate web testing automation",
+    "published_at": "2026-04-02T12:35:59+00:00",
+    "ingested_at": "2026-04-03T07:10:42.514470+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_1ef5b81d2e28"
+    ],
+    "investor_ids": [
+      "inv_c172b75426b3",
+      "inv_785ee58e52ac"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1620000,
+      "amount_raw": "\u20ac1.5M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_2e4dae3f78fbcdc8",
+    "source_url": "https://techfundingnews.com/omniscient-4-1m-pre-seed-corporate-reputation-ai/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Ex-McKinsey founders raise $4.1M seed funding led by Seedcamp for AI analyst platform",
+    "published_at": "2026-04-02T05:00:00+00:00",
+    "ingested_at": "2026-04-03T07:10:44.205544+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_5c71de72d6c6"
+    ],
+    "investor_ids": [
+      "inv_e652558529ef"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4100000,
+      "amount_raw": "$4.1M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_7cffbac498ef7770",
+    "source_url": "https://arcticstartup.com/enkei-raises-pre-seed/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Swedish Enkei raises oversubscribed pre-seed round at \u20ac3M valuation for circular construction materials platform",
+    "published_at": "2026-04-02T11:53:20+00:00",
+    "ingested_at": "2026-04-03T07:10:46.345580+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_232528f9daab"
+    ],
+    "investor_ids": [
+      "inv_98f00d17ef68"
+    ],
+    "person_ids": [
+      "per_8c9b27e13df6",
+      "per_c757d81e4fe7",
+      "per_e7d747981f24",
+      "per_dc6f49fc847a"
+    ],
+    "metadata": {
+      "round_stage": "Pre-Seed",
+      "currency": "EUR",
+      "valuation": 3240000
+    }
+  },
+  {
+    "id": "sig_ad4e2151e508db9b",
+    "source_url": "https://arcticstartup.com/lace-lithography-raises-40m-series-a/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Lace Lithography raises $40 million Series A for atom-beam lithography technology",
+    "published_at": "2026-04-02T08:14:49+00:00",
+    "ingested_at": "2026-04-03T07:10:48.052817+00:00",
+    "geography": "Nordics",
+    "country": "NO",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_5d916d7d5b65"
+    ],
+    "investor_ids": [
+      "inv_e0e0413b2614",
+      "inv_a8274014a4c6",
+      "inv_25f3eb7a0789",
+      "inv_8581bce4a6ba",
+      "inv_336769b3d70c",
+      "inv_9437b96ff1a1",
+      "inv_9964e52387fb",
+      "inv_f1f61439412b",
+      "inv_ffb018890b1a"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 40000000,
+      "amount_raw": "$40 million",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_ad17e836e38e856d",
+    "source_url": "https://www.uktech.news/databyte/the-uk-is-falling-behind-the-g7-but-change-is-possible-20260402",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "UK falling behind G7 nations in performance metrics according to IPPR analysis",
+    "published_at": "2026-04-02T13:00:51+00:00",
+    "ingested_at": "2026-04-03T07:10:49.469719+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.2,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_3f083c6f055da00a",
+    "source_url": "https://www.uktech.news/ai/alan-turing-institute-deemed-unsatisfactory-in-review-20260402",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Alan Turing Institute receives 'unsatisfactory' rating in government review despite acknowledged scientific excellence",
+    "published_at": "2026-04-02T10:00:11+00:00",
+    "ingested_at": "2026-04-03T07:10:50.932741+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_db423281"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_05ff48ccd2047038",
+    "source_url": "https://www.uktech.news/news/investment-news/women-backing-women-fund-closes-130m-20260402",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Women backing Women fund closes \u00a3130m first close",
+    "published_at": "2026-04-02T09:00:28+00:00",
+    "ingested_at": "2026-04-03T07:10:52.560584+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_7385a5701d19"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 164000000,
+      "amount_raw": "\u00a3130m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_245918dacf4cf98c",
+    "source_url": "https://www.uktech.news/news/government-and-policy/government-funding-boost-unveiled-for-local-tech-clusters-20260402",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "UK government unveils \u00a320m funding boost for local tech clusters across England and Wales",
+    "published_at": "2026-04-02T08:31:14+00:00",
+    "ingested_at": "2026-04-03T07:10:54.076473+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [],
+    "investor_ids": [
+      "inv_c6d98ffa6a60"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 25200000,
+      "amount_raw": "\u00a320m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_a21a19a437631e8a",
+    "source_url": "https://techcrunch.com/2026/04/01/startup-funding-shatters-all-records-in-q1/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "OpenAI raises record $122 billion at $852 billion valuation",
+    "published_at": "2026-04-01T20:25:28+00:00",
+    "ingested_at": "2026-04-03T07:10:58.294667+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.99,
+    "company_ids": [
+      "co_7d3194f79e64"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 122000000000,
+      "amount_raw": "$122 billion",
+      "currency": "USD",
+      "valuation": 852000000000
+    }
+  },
+  {
+    "id": "sig_04c09f1102dde076",
+    "source_url": "https://siliconcanals.com/gen-bt-psychology-says-people-who-apologize-constantly-without-realizing-it-are-more-damaged-than-they-appear-because-they-internalize-blame-and-absorb-conflict-a-survival-response-from-childhood-whic/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Psychology article on excessive apologizing as childhood trauma response",
+    "published_at": "2026-04-03T06:48:22+00:00",
+    "ingested_at": "2026-04-03T07:10:59.576518+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.05,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_d7b0bb7987abf971",
+    "source_url": "https://siliconcanals.com/b-bt-psychology-says-people-who-crave-both-complete-freedom-and-deep-companionship-arent-confused-theyre-experiencing-the-central-tension-of-the-human-condition-and-the-people-who-resolve-it-arent-the/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Psychology article on human need for freedom and companionship published on Silicon Canals",
+    "published_at": "2026-04-03T02:05:11+00:00",
+    "ingested_at": "2026-04-03T07:11:01.050915+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.05,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_a762445ccd9d7944",
+    "source_url": "https://techround.co.uk/artificial-intelligence/oracle-shrinks-to-scale-is-this-a-strategic-reset-or-a-frantic-scramble-to-stay-in-the-ai-race/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Oracle announces mass layoffs amid strategic shift toward AI and cloud technologies",
+    "published_at": "2026-04-02T10:49:57+00:00",
+    "ingested_at": "2026-04-03T07:11:04.280748+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_9202af6ce925"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_077b396a10c1",
+      "per_e3c0d450a45a",
+      "per_424056138e9b",
+      "per_84d818f73e9f",
+      "per_bd97fbb2bf49",
+      "per_2c0619cd9a2d"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_911fcd4ca9d2b97d",
+    "source_url": "https://techround.co.uk/finance/ai-is-replacing-fintech-jobs-faster-than-anyone-predicted-is-this-just-the-beginning/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "AI Is Replacing Fintech Jobs Faster Than Anyone Predicted, triggering mass layoffs across financial services",
+    "published_at": "2026-04-02T09:50:53+00:00",
+    "ingested_at": "2026-04-03T07:11:06.484793+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_496aca80e4d8"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_c05405a32278"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_4679e34ce065c374",
+    "source_url": "https://thenextweb.com/news/google-gemma-4-open-models-apache-2-launch",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Google launches Gemma 4 open-weight models spanning 2B to 31B parameters with Apache 2.0 license",
+    "published_at": "2026-04-02T18:16:22+00:00",
+    "ingested_at": "2026-04-03T07:11:08.516291+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_bbdefa29"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_765cc641dc29",
+      "per_85975435a28d"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_1ddd12c0338dc567",
+    "source_url": "https://thenextweb.com/news/human-governed-ai-fortis-solutions",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Fortis Solutions discusses human-governed AI and intelligent infrastructure approach",
+    "published_at": "2026-04-02T13:28:18+00:00",
+    "ingested_at": "2026-04-03T07:11:10.869843+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.7,
+    "company_ids": [
+      "co_8d11a72d1116"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_75330a4041db",
+      "per_fd7579e4a5c5",
+      "per_486f2682741c"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_25e1484a6952e307",
+    "source_url": "https://thenextweb.com/news/credibility-economy-ai-value",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Dan Pratl discusses credibility economy concept and Quadron's infrastructure vision for AI era",
+    "published_at": "2026-04-02T13:07:47+00:00",
+    "ingested_at": "2026-04-03T07:11:13.391075+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.55,
+    "company_ids": [
+      "co_fcc5c3ebc84d"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_9c401262afb5",
+      "per_d1278d327f58"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_897fa829ca3c7415",
+    "source_url": "https://thenextweb.com/news/amazon-is-in-talks-to-buy-globalstar-for-9-billion",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_2_medium",
+    "headline": "Amazon in advanced talks to acquire Globalstar for approximately $9 billion",
+    "published_at": "2026-04-02T10:43:26+00:00",
+    "ingested_at": "2026-04-03T07:11:15.001390+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_40ce32117a87"
+    ],
+    "investor_ids": [
+      "inv_3a7bd3e2360a"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 9000000000,
+      "amount_raw": "$9 billion",
+      "currency": "USD",
+      "valuation": 9000000000
+    }
+  },
+  {
+    "id": "sig_5825535a9c19706f",
+    "source_url": "https://thenextweb.com/news/omniscient-4-1m-seedcamp",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Omniscient raises $4.1M pre-seed for AI-powered corporate reputation monitoring platform",
+    "published_at": "2026-04-02T10:01:37+00:00",
+    "ingested_at": "2026-04-03T07:11:17.865815+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_5c71de72d6c6"
+    ],
+    "investor_ids": [
+      "inv_e652558529ef",
+      "inv_c656b6ec8fe4",
+      "inv_385433d0",
+      "inv_68eb80efa622",
+      "inv_4b9247825fc3",
+      "inv_dcf86d163409",
+      "inv_266fedf6143a",
+      "inv_dc4af45b"
+    ],
+    "person_ids": [
+      "per_78b16223ad61",
+      "per_43094165a0f5",
+      "per_ef438017aa69"
+    ],
+    "metadata": {
+      "amount_usd": 4100000,
+      "amount_raw": "$4.1M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_c27ea57413093cb6",
+    "source_url": "https://thenextweb.com/news/the-unreleased-ai-metas-model",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_2_medium",
+    "headline": "Meta's unreleased AI model 'Avocado' shifts strategy from open-source to proprietary, delayed due to performance concerns",
+    "published_at": "2026-04-02T09:55:13+00:00",
+    "ingested_at": "2026-04-03T07:11:19.992811+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_ea3bd73e"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_3957d14a1230",
+      "per_4b4225bf3d9e"
+    ],
+    "metadata": {
+      "amount_usd": 14300000000,
+      "amount_raw": "$14.3 billion",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_8f5270741b943119",
+    "source_url": "https://thenextweb.com/news/covalo-3-5m-hi-inov-personal-care-data-infrastructure",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Covalo raises \u20ac3.5M to expand shared data infrastructure for personal care industry",
+    "published_at": "2026-04-02T06:54:59+00:00",
+    "ingested_at": "2026-04-03T07:11:22.586122+00:00",
+    "geography": "DACH",
+    "country": "CH",
+    "ai_confidence": 0.6,
+    "company_ids": [
+      "co_17d3c67358e9"
+    ],
+    "investor_ids": [
+      "inv_373da4af1617",
+      "inv_56b77439d8ed",
+      "inv_5565cabb76df"
+    ],
+    "person_ids": [
+      "per_8b57fac31fc9",
+      "per_feb9e4c03510"
+    ],
+    "metadata": {
+      "amount_usd": 3850000,
+      "amount_raw": "\u20ac3.5M",
+      "currency": "EUR"
+    }
   }
 ]

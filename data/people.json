@@ -4138,5 +4138,203 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "partner"
+  },
+  {
+    "id": "per_5ea02c213f56",
+    "name": "Philipp Moehring",
+    "role": "Partner",
+    "company_id": "co_5f8cafbe5a43",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_8c9b27e13df6",
+    "name": "Anders Lendager",
+    "role": "Investor",
+    "company_id": "co_232528f9daab",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_c757d81e4fe7",
+    "name": "Christina \u00c5qvist",
+    "role": "Investor",
+    "company_id": "co_232528f9daab",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_e7d747981f24",
+    "name": "Ulf Mattsson",
+    "role": "Investor",
+    "company_id": "co_232528f9daab",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_dc6f49fc847a",
+    "name": "Fabian M\u00e5nsson",
+    "role": "Investor",
+    "company_id": "co_232528f9daab",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_e3c0d450a45a",
+    "name": "Ali Gohar",
+    "role": "Chief Human Resources Officer at Software Finder",
+    "company_id": "co_9202af6ce925",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_424056138e9b",
+    "name": "Shubham Choudhary",
+    "role": "Co-founder and CTO at FirstWork",
+    "company_id": "co_9202af6ce925",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_84d818f73e9f",
+    "name": "Noah M. Kenney",
+    "role": "Founder and principal consultant of Digital 520",
+    "company_id": "co_9202af6ce925",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_bd97fbb2bf49",
+    "name": "Syed Asif Ali",
+    "role": "Founder and Digital Identity Architect at Point Media",
+    "company_id": "co_9202af6ce925",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_2c0619cd9a2d",
+    "name": "Marina Davidova",
+    "role": "Co-founder and Managing Partner at DVC",
+    "company_id": "co_9202af6ce925",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_765cc641dc29",
+    "name": "Demis Hassabis",
+    "role": "CEO of Google DeepMind",
+    "company_id": "co_bbdefa29",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_85975435a28d",
+    "name": "Cl\u00e9ment Delangue",
+    "role": "Co-founder of Hugging Face",
+    "company_id": "co_bbdefa29",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_75330a4041db",
+    "name": "Myron Duckens",
+    "role": "President and CEO",
+    "company_id": "co_8d11a72d1116",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_fd7579e4a5c5",
+    "name": "Jeremy Roach",
+    "role": "CTO",
+    "company_id": "co_8d11a72d1116",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_486f2682741c",
+    "name": "Tony Gonzalez",
+    "role": "CIO",
+    "company_id": "co_8d11a72d1116",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_9c401262afb5",
+    "name": "Dan Pratl",
+    "role": "Founder",
+    "company_id": "co_fcc5c3ebc84d",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_78b16223ad61",
+    "name": "Arnaud d'Estienne",
+    "role": "CEO",
+    "company_id": "co_5c71de72d6c6",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_43094165a0f5",
+    "name": "Mehdi Benseghir",
+    "role": "Co-founder",
+    "company_id": "co_5c71de72d6c6",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_ef438017aa69",
+    "name": "Sia Houchangnia",
+    "role": "Partner at Seedcamp",
+    "company_id": "co_5c71de72d6c6",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_4b4225bf3d9e",
+    "name": "Alexandr Wang",
+    "role": "Founder of Scale AI, Lead of Meta Superintelligence Labs",
+    "company_id": "co_ea3bd73e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_8b57fac31fc9",
+    "name": "Yann Chilvers",
+    "role": "Co-Founder and Co-CEO",
+    "company_id": "co_17d3c67358e9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_feb9e4c03510",
+    "name": "Timo von Bargen",
+    "role": "Co-Founder and Co-CEO",
+    "company_id": "co_17d3c67358e9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
   }
 ]
