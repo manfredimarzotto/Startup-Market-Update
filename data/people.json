@@ -4336,5 +4336,59 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "founder"
+  },
+  {
+    "id": "per_becd21ba9f2e",
+    "name": "Samuel Stanton",
+    "role": "Founder",
+    "company_id": "co_c70eca6b0f88",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_74148f4f70d2",
+    "name": "Nathan C. Frey",
+    "role": "Founder",
+    "company_id": "co_c70eca6b0f88",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_4d025105cd25",
+    "name": "Sal Sferlazza",
+    "role": "Founder",
+    "company_id": "co_5c73e9b6e4d3",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_698ad6d9ea97",
+    "name": "John Coogan",
+    "role": "Host, former founder",
+    "company_id": "co_7d3194f79e64",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_5f7ce3e91179",
+    "name": "Jordi Hays",
+    "role": "Host, former founder",
+    "company_id": "co_7d3194f79e64",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_481e2e753d63",
+    "name": "Chris Lehane",
+    "role": "Chief Global Affairs Officer",
+    "company_id": "co_7d3194f79e64",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
   }
 ]

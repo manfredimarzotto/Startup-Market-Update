@@ -5326,5 +5326,113 @@
     "hq_city": null,
     "last_signal_at": "2026-04-02T10:43:26+00:00",
     "signal_count": 1
+  },
+  {
+    "id": "co_c7bc0141495e",
+    "name": "Wearable Robotics",
+    "domain": null,
+    "sector": "HealthTech",
+    "sub_sector": "Medical Robotics, Neuromotor Rehabilitation",
+    "stage": "series_a",
+    "hq_country": "IT",
+    "hq_city": null,
+    "last_signal_at": "2026-04-03T08:58:44+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_f5718edfe321",
+    "name": "Saronic",
+    "domain": null,
+    "sector": "DeepTech",
+    "sub_sector": "Autonomous Vessels",
+    "stage": "series_d",
+    "hq_country": "Other",
+    "hq_city": "Austin",
+    "last_signal_at": "2026-04-03T18:26:11+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_62ecb172fef9",
+    "name": "London Stock Exchange Group (LSEG)",
+    "domain": "lseg.com",
+    "sector": "FinTech",
+    "sub_sector": "Financial Markets Infrastructure",
+    "stage": "",
+    "hq_country": "GB",
+    "hq_city": "London",
+    "last_signal_at": "2026-04-03T08:00:28+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_5b079da668e8",
+    "name": "Delta Labs",
+    "domain": null,
+    "sector": null,
+    "sub_sector": null,
+    "stage": "",
+    "hq_country": "DE",
+    "hq_city": null,
+    "last_signal_at": "2026-04-02T13:55:00+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_9fbf261b62c1",
+    "name": "Microsoft",
+    "domain": "microsoft.com",
+    "sector": "AI/ML",
+    "sub_sector": "Large Language Models, AI Infrastructure",
+    "stage": "",
+    "hq_country": "Other",
+    "hq_city": "Redmond",
+    "last_signal_at": "2026-04-03T19:06:13+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_5c73e9b6e4d3",
+    "name": "NinjaOne",
+    "domain": null,
+    "sector": "SaaS",
+    "sub_sector": "IT Operations Management",
+    "stage": "",
+    "hq_country": "Other",
+    "hq_city": null,
+    "last_signal_at": "2026-04-03T15:12:13+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_86de7bf78fbe",
+    "name": "Tencent Holdings",
+    "domain": "tencent.com",
+    "sector": "AI/ML",
+    "sub_sector": "Enterprise AI Agents",
+    "stage": "",
+    "hq_country": "Other",
+    "hq_city": "Shenzhen",
+    "last_signal_at": "2026-04-03T14:25:13+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_85386ff3a108",
+    "name": "IREX",
+    "domain": null,
+    "sector": "AI/ML",
+    "sub_sector": "Computer Vision, Public Safety",
+    "stage": "",
+    "hq_country": "Other",
+    "hq_city": "Washington",
+    "last_signal_at": "2026-04-03T13:41:16+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_e71bed3c2488",
+    "name": "Penemue",
+    "domain": null,
+    "sector": "AI/ML",
+    "sub_sector": "Content Moderation, TrustTech",
+    "stage": "",
+    "hq_country": "DE",
+    "hq_city": "Freiburg",
+    "last_signal_at": "2026-04-03T11:39:09+00:00",
+    "signal_count": 1
   }
 ]

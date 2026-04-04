@@ -6303,5 +6303,49 @@
     "website": "",
     "linkedin_url": "",
     "last_signal_at": "2026-04-02T10:01:37+00:00"
+  },
+  {
+    "id": "inv_f9202f9b4215",
+    "name": "Jake Paul",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-03T08:02:37+00:00"
+  },
+  {
+    "id": "inv_51c83b193072",
+    "name": "Beiersdorf Venture Capital",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-02T09:55:00+00:00"
+  },
+  {
+    "id": "inv_9aa4be7e22bc",
+    "name": "CDP Venture Capital",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-03T11:23:22+00:00"
+  },
+  {
+    "id": "inv_d5686c9be533",
+    "name": "SIMEST",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-03T11:23:22+00:00"
   }
 ]
