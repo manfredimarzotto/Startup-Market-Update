@@ -6347,5 +6347,27 @@
     "website": "",
     "linkedin_url": "",
     "last_signal_at": "2026-04-03T11:23:22+00:00"
+  },
+  {
+    "id": "inv_e4ccfb2347e8",
+    "name": "Peter Thiel",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-04T21:30:00+00:00"
+  },
+  {
+    "id": "inv_994eb541d058",
+    "name": "sovereign wealth funds",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-04T18:21:57+00:00"
   }
 ]

@@ -4390,5 +4390,14 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_53ca0c573c8a",
+    "name": "Selin Kocalar",
+    "role": "COO",
+    "company_id": "co_9480e2c096bd",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
   }
 ]

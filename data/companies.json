@@ -5434,5 +5434,41 @@
     "hq_city": "Freiburg",
     "last_signal_at": "2026-04-03T11:39:09+00:00",
     "signal_count": 1
+  },
+  {
+    "id": "co_9480e2c096bd",
+    "name": "Delve",
+    "domain": null,
+    "sector": "SaaS",
+    "sub_sector": "Compliance",
+    "stage": "",
+    "hq_country": "",
+    "hq_city": null,
+    "last_signal_at": "2026-04-05T03:22:25+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_13eaa72609cd",
+    "name": "Keeper Security",
+    "domain": "keepersecurity.com",
+    "sector": "SaaS",
+    "sub_sector": "Cybersecurity, Privileged Access Management",
+    "stage": "",
+    "hq_country": "Other",
+    "hq_city": "Chicago",
+    "last_signal_at": "2026-04-04T14:15:31+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_e8f321cc7e28",
+    "name": "European Commission",
+    "domain": null,
+    "sector": "Government",
+    "sub_sector": "Cybersecurity Incident",
+    "stage": "",
+    "hq_country": "BE",
+    "hq_city": "Brussels",
+    "last_signal_at": "2026-04-04T13:45:16+00:00",
+    "signal_count": 1
   }
 ]

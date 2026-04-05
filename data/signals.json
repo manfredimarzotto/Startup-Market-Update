@@ -21246,5 +21246,238 @@
       "per_481e2e753d63"
     ],
     "metadata": {}
+  },
+  {
+    "id": "sig_ccf0cbede1f6092a",
+    "source_url": "https://techcrunch.com/2026/04/04/unpacking-peter-thiels-big-bet-on-solar-powered-cow-collars/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Peter Thiel invests in solar-powered cow collar technology company",
+    "published_at": "2026-04-04T21:30:00+00:00",
+    "ingested_at": "2026-04-05T07:06:54.160634+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.55,
+    "company_ids": [
+      "co_fbbf9190319c"
+    ],
+    "investor_ids": [
+      "inv_e4ccfb2347e8"
+    ],
+    "person_ids": [
+      "per_e4ccfb2347e8",
+      "per_ae29f149ec0c"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_35dac68804980559",
+    "source_url": "https://siliconcanals.com/sc-n-halters-smart-cattle-collars-are-on-1-million-animals-with-a-billion-more-to-go-founders-fund-just-bet-220m-on-it/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Halter closes $220M Series E at $2B valuation led by Founders Fund",
+    "published_at": "2026-04-05T04:22:25+00:00",
+    "ingested_at": "2026-04-05T07:06:56.045365+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_fbbf9190319c"
+    ],
+    "investor_ids": [
+      "inv_a93dab7b158c"
+    ],
+    "person_ids": [
+      "per_e4ccfb2347e8"
+    ],
+    "metadata": {
+      "amount_usd": 220000000,
+      "amount_raw": "$220M",
+      "round_stage": "Series E",
+      "currency": "USD",
+      "valuation": 2000000000
+    }
+  },
+  {
+    "id": "sig_ba14317bed125ca4",
+    "source_url": "https://siliconcanals.com/sc-n-compliance-startup-delve-removed-from-y-combinator-portfolio-after-anonymous-whistleblower-posts-spark-investor-exodus/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Compliance startup Delve removed from Y Combinator portfolio following whistleblower allegations and investor exodus",
+    "published_at": "2026-04-05T03:22:25+00:00",
+    "ingested_at": "2026-04-05T07:06:57.540849+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_9480e2c096bd"
+    ],
+    "investor_ids": [
+      "inv_cefa8820"
+    ],
+    "person_ids": [
+      "per_53ca0c573c8a"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_c66f4b3a06563ae1",
+    "source_url": "https://thenextweb.com/news/meta-mercor-breach-ai-training-secrets-risk",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "partnership",
+    "signal_tier": "tier_2_medium",
+    "headline": "Meta suspends AI data collaboration with Mercor after supply chain breach exposes training methodologies",
+    "published_at": "2026-04-04T18:31:09+00:00",
+    "ingested_at": "2026-04-05T07:06:58.936635+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_ea3bd73e"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "valuation": 10000000000
+    }
+  },
+  {
+    "id": "sig_8538fe931839d02f",
+    "source_url": "https://thenextweb.com/news/whoop-series-g-575m-valuation-ipo-health-platform",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "WHOOP raises $575M Series G at $10.1B valuation, positioning for IPO",
+    "published_at": "2026-04-04T18:21:57+00:00",
+    "ingested_at": "2026-04-05T07:07:03.845088+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_f4e12479"
+    ],
+    "investor_ids": [
+      "inv_994eb541d058"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 575000000,
+      "amount_raw": "$575M",
+      "round_stage": "Series G",
+      "currency": "USD",
+      "valuation": 10100000000
+    }
+  },
+  {
+    "id": "sig_15142fd1e47baf57",
+    "source_url": "https://thenextweb.com/news/keeperdb-zero-trust-database-access",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Keeper Security launches KeeperDB, a zero-trust database access solution for its PAM platform",
+    "published_at": "2026-04-04T14:15:31+00:00",
+    "ingested_at": "2026-04-05T07:07:05.480345+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_13eaa72609cd"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_fc0f80e8076f4c5b",
+    "source_url": "https://thenextweb.com/news/ninjaone-free-trial-it-platform",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_3_weak",
+    "headline": "NinjaOne promotes free trial of IT management platform to 35,000 existing customers",
+    "published_at": "2026-04-04T14:04:56+00:00",
+    "ingested_at": "2026-04-05T07:07:06.698271+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.45,
+    "company_ids": [
+      "co_5c73e9b6e4d3"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_ed00086934aa89ff",
+    "source_url": "https://thenextweb.com/news/european-commission-breach-trivy-supply-chain",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_1_strong",
+    "headline": "European Commission suffers major data breach via supply chain attack on Trivy security tool",
+    "published_at": "2026-04-04T13:45:16+00:00",
+    "ingested_at": "2026-04-05T07:07:08.005470+00:00",
+    "geography": "DACH",
+    "country": "BE",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_e8f321cc7e28"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_e0953d4874db5f8e",
+    "source_url": "https://thenextweb.com/news/nvidia-marvell-nvlink-fusion-ecosystem-lock-in",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Nvidia invests $2 billion in Marvell Technology, integrating it into NVLink Fusion ecosystem",
+    "published_at": "2026-04-04T13:14:58+00:00",
+    "ingested_at": "2026-04-05T07:07:09.664944+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_8d4321d9"
+    ],
+    "investor_ids": [
+      "inv_8d4321d9"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2000000000,
+      "amount_raw": "$2 billion",
+      "currency": "USD"
+    }
   }
 ]
