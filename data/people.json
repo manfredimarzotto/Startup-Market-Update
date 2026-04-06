@@ -4399,5 +4399,14 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_1341a0fe0566",
+    "name": "James Shaw",
+    "role": "Partner",
+    "company_id": "co_5d31f53ed4f6",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
   }
 ]

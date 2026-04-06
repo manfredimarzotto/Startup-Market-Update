@@ -21479,5 +21479,163 @@
       "amount_raw": "$2 billion",
       "currency": "USD"
     }
+  },
+  {
+    "id": "sig_d5118e0bd65ce740",
+    "source_url": "https://techfundingnews.com/european-tech-legal-fragmentation-eu-inc-venture-capital/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Opinion piece argues Europe needs unified legal framework for venture capital markets",
+    "published_at": "2026-04-06T06:00:00+00:00",
+    "ingested_at": "2026-04-06T07:43:05.436643+00:00",
+    "geography": "EU",
+    "country": "",
+    "ai_confidence": 0.3,
+    "company_ids": [
+      "co_5d31f53ed4f6"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_1341a0fe0566"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_f0d29923410b1bc7",
+    "source_url": "https://siliconcanals.com/soc-9-signs-you-have-a-genuinely-sharp-mind-even-if-you-never-thought-of-yourself-as-particularly-intelligent/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Article about signs of intelligence published by Silicon Canals",
+    "published_at": "2026-04-06T04:48:09+00:00",
+    "ingested_at": "2026-04-06T07:43:06.747636+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.05,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_61c19486b68f30bb",
+    "source_url": "https://thenextweb.com/news/monzo-us-exit-europe-ipo",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "expansion",
+    "signal_tier": "tier_1_strong",
+    "headline": "Monzo shuts down US operations following European banking licence approval",
+    "published_at": "2026-04-05T17:57:44+00:00",
+    "ingested_at": "2026-04-06T07:43:08.038743+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_efc68bdfc744"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_9ee6f789bd0d5fad",
+    "source_url": "https://thenextweb.com/news/netflix-italy-price-hikes-refund",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_1_strong",
+    "headline": "Court of Rome rules Netflix price hikes between 2017-2024 violated Italian consumer law; orders refunds up to \u20ac500",
+    "published_at": "2026-04-05T16:58:17+00:00",
+    "ingested_at": "2026-04-06T07:43:10.113305+00:00",
+    "geography": "Southern Europe",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_13ed0704"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_0c0321c161a9ee43",
+    "source_url": "https://thenextweb.com/news/linkedin-browsergate-extension-scanning-privacy-fingerprint",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "LinkedIn secretly scans browser for 6,000 extensions and collects device fingerprints without user consent",
+    "published_at": "2026-04-05T11:35:47+00:00",
+    "ingested_at": "2026-04-06T07:43:11.672849+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_84308bea4540"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_8546a7bcb896e3f8",
+    "source_url": "https://thenextweb.com/news/microsoft-copilot-entertainment-only-disclaimer-adoption",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Microsoft labels Copilot 'entertainment only' in Terms of Use while charging $30/month subscription",
+    "published_at": "2026-04-05T10:58:54+00:00",
+    "ingested_at": "2026-04-06T07:43:13.102536+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_9fbf261b62c1"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_4a671015c53adc9a",
+    "source_url": "https://thenextweb.com/news/europes-top-funding-rounds-30-march-5-april",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Europe's top funding rounds recap week of March 30 - April 5, featuring Mistral's $830M debt raise",
+    "published_at": "2026-04-05T08:29:40+00:00",
+    "ingested_at": "2026-04-06T07:43:14.854580+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_c04bd5ebd10a"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 830000000,
+      "amount_raw": "$830 million",
+      "currency": "USD"
+    }
   }
 ]
