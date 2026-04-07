@@ -5482,5 +5482,53 @@
     "hq_city": null,
     "last_signal_at": "2026-04-06T06:00:00+00:00",
     "signal_count": 1
+  },
+  {
+    "id": "co_d3e9e132383d",
+    "name": "Arago",
+    "domain": null,
+    "sector": "DeepTech",
+    "sub_sector": "Semiconductors",
+    "stage": "",
+    "hq_country": "",
+    "hq_city": null,
+    "last_signal_at": "2026-04-07T05:00:17+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_7aecbe2be98b",
+    "name": "DEScycle",
+    "domain": "descycle.com",
+    "sector": "DeepTech",
+    "sub_sector": "Metals Processing, Circular Economy, E-Waste Recycling",
+    "stage": "",
+    "hq_country": "GB",
+    "hq_city": "London",
+    "last_signal_at": "2026-04-06T08:00:45+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_f3b1e86f7a18",
+    "name": "Xoople",
+    "domain": null,
+    "sector": "DeepTech",
+    "sub_sector": "Geospatial Data & Earth AI",
+    "stage": "series_b",
+    "hq_country": "ES",
+    "hq_city": "Madrid",
+    "last_signal_at": "2026-04-06T20:48:56+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_b1b54863685b",
+    "name": "Satellites on Fire",
+    "domain": null,
+    "sector": "CleanTech",
+    "sub_sector": "Wildfire Detection AI",
+    "stage": "seed",
+    "hq_country": "Other",
+    "hq_city": null,
+    "last_signal_at": "2026-04-06T14:44:59+00:00",
+    "signal_count": 1
   }
 ]
