@@ -22098,5 +22098,883 @@
     "investor_ids": [],
     "person_ids": [],
     "metadata": {}
+  },
+  {
+    "id": "sig_6e55360b6de23437",
+    "source_url": "https://sifted.eu/articles/wallapop-founders-factory/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Wallapop founders' factory: Meet nine alumni turned startup founders",
+    "published_at": "2026-04-08T05:00:48+00:00",
+    "ingested_at": "2026-04-08T07:20:57.925396+00:00",
+    "geography": "Southern Europe",
+    "country": "ES",
+    "ai_confidence": 0.4,
+    "company_ids": [
+      "co_d89879cb3262"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_c8be1bfeece79a73",
+    "source_url": "https://tech.eu/2026/04/07/openai-and-spotify-leaders-back-london-based-ai-security-agent-startup-in-13m-round/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "London-based AI agent security startup raises $13M seed round backed by OpenAI and Spotify leaders",
+    "published_at": "2026-04-07T15:00:00+00:00",
+    "ingested_at": "2026-04-08T07:20:59.431200+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [],
+    "investor_ids": [
+      "inv_7d3194f79e64",
+      "inv_2b78da3dc866"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 13000000,
+      "amount_raw": "$13M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_8fee0e2d224ed0b9",
+    "source_url": "https://tech.eu/2026/04/07/wholesum-tops-up-pre-seed-with-335k-to-fix-ais-trust-problem-in-text-analytics/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "WholeSum raises $335K to bring Pre-Seed total to $1.3M for AI-powered text analytics trust solution",
+    "published_at": "2026-04-07T10:04:32+00:00",
+    "ingested_at": "2026-04-08T07:21:01.305146+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_3c7d63c192b9"
+    ],
+    "investor_ids": [
+      "inv_878cb66777a3",
+      "inv_e25fa2d4082a"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 335000,
+      "amount_raw": "$335K",
+      "round_stage": "Pre-Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_93f76b7287b02125",
+    "source_url": "https://tech.eu/2026/04/07/xoople-raises-130m-series-b-to-build-earths-system-of-record/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Xoople raises $130M Series B for Earth data infrastructure platform",
+    "published_at": "2026-04-07T08:00:00+00:00",
+    "ingested_at": "2026-04-08T07:21:02.956038+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_f3b1e86f7a18"
+    ],
+    "investor_ids": [
+      "inv_e94a0d69d7da",
+      "inv_c0ae40503f70"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 130000000,
+      "amount_raw": "$130M",
+      "round_stage": "Series B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_28e77fcf57e8d19b",
+    "source_url": "https://news.crunchbase.com/venture/interesting-startup-deals-mineral-rights-flying-ferry-ai-clean-tech/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Credit card startup backed by mineral rights featured in startup deals roundup",
+    "published_at": "2026-04-07T11:00:35+00:00",
+    "ingested_at": "2026-04-08T07:21:06.447190+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.2,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_5a227c9180735520",
+    "source_url": "https://techfundingnews.com/airhub-raises-4-4m-europe-drone-operations/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "AirHub raises \u20ac4.4M from Keen Venture Partners for drone software used by Dubai Police and Belgian Federal authorities",
+    "published_at": "2026-04-08T07:00:00+00:00",
+    "ingested_at": "2026-04-08T07:21:08.154650+00:00",
+    "geography": "Benelux",
+    "country": "BE",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_f029433c8452"
+    ],
+    "investor_ids": [
+      "inv_d7e7889e535b"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4752000,
+      "amount_raw": "\u20ac4.4M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_21b4368d72f7f04a",
+    "source_url": "https://techfundingnews.com/aria-networks-125m-ai-networking/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Mansour Karam raises $125M for networking startup, following previous Juniper Networks acquisition",
+    "published_at": "2026-04-07T19:41:04+00:00",
+    "ingested_at": "2026-04-08T07:21:10.069861+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_89879e944889",
+      "per_3121e470c179"
+    ],
+    "metadata": {
+      "amount_usd": 125000000,
+      "amount_raw": "$125M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_a6dec8882a39a2da",
+    "source_url": "https://techfundingnews.com/why-traveltech-startups-are-reinventing-corporate-expense-management/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Traveltech startups reinventing corporate expense management sector",
+    "published_at": "2026-04-07T17:41:28+00:00",
+    "ingested_at": "2026-04-08T07:21:11.444736+00:00",
+    "geography": "EU",
+    "country": "",
+    "ai_confidence": 0.35,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_163d14070d12aaf1",
+    "source_url": "https://techfundingnews.com/jic-launches-e16-3m-venture-fund-to-back-cee-deep-tech-founders-at-the-earliest-stages/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "JIC launches \u20ac16.3M venture fund to back CEE deep tech founders at earliest stages",
+    "published_at": "2026-04-07T13:58:35+00:00",
+    "ingested_at": "2026-04-08T07:21:13.128397+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_523350b0698f"
+    ],
+    "investor_ids": [
+      "inv_bbed6164eb70"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 17700000,
+      "amount_raw": "\u20ac16.3M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_6cc5a84d44f3feb6",
+    "source_url": "https://techfundingnews.com/pld-space-30m-eib-funding-miura-5/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "EIB provides \u20ac30M venture debt to Spanish small launcher company PLD Space",
+    "published_at": "2026-04-07T13:43:49+00:00",
+    "ingested_at": "2026-04-08T07:21:14.804297+00:00",
+    "geography": "Southern Europe",
+    "country": "ES",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ae81d1ad103c"
+    ],
+    "investor_ids": [
+      "inv_6bf286ed21ec"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 32400000,
+      "amount_raw": "\u20ac30M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_38cd4af45a8b20e6",
+    "source_url": "https://techfundingnews.com/cardano-draper-dragon-80m-orion-fund/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Cardano and Draper Dragon launch $80M Orion Fund to drive institutional DeFi adoption",
+    "published_at": "2026-04-07T12:38:08+00:00",
+    "ingested_at": "2026-04-08T07:21:17.875574+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_56549e77eb4b"
+    ],
+    "investor_ids": [
+      "inv_b8991e2112f5"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 80000000,
+      "amount_raw": "$80M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_21f234da3d450f13",
+    "source_url": "https://techfundingnews.com/natter-23m-funding-ai-video-conversations/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Natter raises $23M in funding round led by Renegade Partners to replace enterprise surveys with AI-moderated conversations",
+    "published_at": "2026-04-07T12:00:00+00:00",
+    "ingested_at": "2026-04-08T07:21:19.470691+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_7df5c7691abf"
+    ],
+    "investor_ids": [
+      "inv_d19389d6c52b"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 23000000,
+      "amount_raw": "$23M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_f31e83fcf4ce000c",
+    "source_url": "https://techfundingnews.com/firmus-2b-asx-ipo-10b-debt/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Australian AI infrastructure company Firmus raises $505M from Coatue and NVIDIA, targets $2B IPO",
+    "published_at": "2026-04-07T11:45:25+00:00",
+    "ingested_at": "2026-04-08T07:21:21.661901+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_3af708031d4a"
+    ],
+    "investor_ids": [
+      "inv_10159e97",
+      "inv_8d4321d9"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 505000000,
+      "amount_raw": "$505M",
+      "currency": "USD",
+      "valuation": 2000000000
+    }
+  },
+  {
+    "id": "sig_bf783f116cd8b219",
+    "source_url": "https://techfundingnews.com/conxai-funding-agentic-ai-construction/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Conxai secures \u20ac5M funding for construction agentic AI platform",
+    "published_at": "2026-04-07T10:47:12+00:00",
+    "ingested_at": "2026-04-08T07:21:23.280673+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_8f3bf6ee1503"
+    ],
+    "investor_ids": [
+      "inv_2fecfb18b052"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 5400000,
+      "amount_raw": "\u20ac5M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_03287f92b348a2ed",
+    "source_url": "https://www.uktech.news/the-circuit/in-conversation-with-monumos-jarek-rzepecki-20260407",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Monumo's Jarek Rzepecki discusses AI-driven efficiencies in industrial engineering",
+    "published_at": "2026-04-07T13:00:56+00:00",
+    "ingested_at": "2026-04-08T07:21:25.299393+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_1c85ce8cccfb"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_1a3974b05d6f"
+    ],
+    "metadata": {
+      "amount_usd": 12500000,
+      "amount_raw": "\u00a310m+",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_5d8bf802dc3e850d",
+    "source_url": "https://www.uktech.news/agtech/berry-picking-robot-maker-secures-3m-for-farm-trials-20260407",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Fieldwork Robotics secures \u00a33m funding for berry-picking robot farm trials",
+    "published_at": "2026-04-07T10:00:15+00:00",
+    "ingested_at": "2026-04-08T07:21:26.858736+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_37ebf123fcc6"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3780000,
+      "amount_raw": "\u00a33m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_32730bc9d7ffd9a5",
+    "source_url": "https://www.uktech.news/news/government-and-policy/uk-government-launches-50m-safety-tech-scheme-20260407",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "UK government launches \u00a350m safety tech scheme for street safety solutions",
+    "published_at": "2026-04-07T09:00:07+00:00",
+    "ingested_at": "2026-04-08T07:21:28.534293+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_1d10903fc7ab"
+    ],
+    "investor_ids": [
+      "inv_c6d98ffa6a60"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 63000000,
+      "amount_raw": "\u00a350m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_1a3d2e391d123eb4",
+    "source_url": "https://www.uktech.news/growth-strategy/us-logistics-giant-launches-uk-tech-accelerator-20260407",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "expansion",
+    "signal_tier": "tier_1_strong",
+    "headline": "GXO Logistics launches UK and Ireland tech accelerator programme",
+    "published_at": "2026-04-07T08:24:24+00:00",
+    "ingested_at": "2026-04-08T07:21:30.040158+00:00",
+    "geography": "UK",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_a3358f2dfa2f"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "valuation": 11000000000
+    }
+  },
+  {
+    "id": "sig_4db3711824851c02",
+    "source_url": "https://techcrunch.com/2026/04/07/the-ai-gold-rush-is-pulling-private-wealth-into-riskier-earlier-bets/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "AI gold rush is pulling private wealth into riskier, earlier-stage bets",
+    "published_at": "2026-04-07T13:00:00+00:00",
+    "ingested_at": "2026-04-08T07:21:31.512625+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_e7ace0db0008"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_ea7e0e2e81fa262e",
+    "source_url": "https://www.deutsche-startups.de/2026/04/08/15-exits-die-alle-mitbekommen-haben-sollten/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Article listing 15 exits that should not have been missed",
+    "published_at": "2026-04-08T06:15:00+00:00",
+    "ingested_at": "2026-04-08T07:21:35.034806+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_5d89c19030655fb8",
+    "source_url": "https://www.deutsche-startups.de/2026/04/07/5-neue-startups-telura-fermeta-collabry-deepvac-gainback/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Feature article on 5 new startups: Telura, Fermeta, Collabry, Deepvac, Gainback",
+    "published_at": "2026-04-07T11:55:00+00:00",
+    "ingested_at": "2026-04-08T07:21:36.556184+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.2,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_cc5392605e7a8c92",
+    "source_url": "https://www.deutsche-startups.de/2026/04/07/kopexa-14leafs-taxfix-cellbricks/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "hiring_wave",
+    "signal_tier": "tier_3_weak",
+    "headline": "Multiple German startups and companies posting job openings across marketing, engineering, and growth roles",
+    "published_at": "2026-04-07T10:51:31+00:00",
+    "ingested_at": "2026-04-08T07:21:38.356195+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.35,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_4725061a23ffcc6e",
+    "source_url": "https://siliconcanals.com/sc-n-iranian-hackers-used-strykers-own-security-tools-against-it-and-u-s-agencies-say-its-just-the-beginning/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Iranian hackers exploited Stryker's security tools in cyberattack; U.S. agencies warn of escalating critical infrastructure threats",
+    "published_at": "2026-04-08T05:37:56+00:00",
+    "ingested_at": "2026-04-08T07:21:40.167126+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_09792abb1495"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_1e4553d2b61ab550",
+    "source_url": "https://siliconcanals.com/sc-a-the-middle-easts-real-vulnerability-isnt-oil-its-the-desalination-plants-that-supply-90-of-its-drinking-water/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Middle East's desalination infrastructure exposed as critical vulnerability following Az-Zour plant damage",
+    "published_at": "2026-04-08T03:11:48+00:00",
+    "ingested_at": "2026-04-08T07:21:42.806263+00:00",
+    "geography": "Middle East",
+    "country": "",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_06aec77f93dea71e",
+    "source_url": "https://siliconcanals.com/j-a-y-two-generations-are-currently-arguing-about-work-ethic-when-what-theyre-actually-arguing-about-is-whether-suffering-should-be-a-prerequisite-for-dignity-one-generation-believes-it-is-because-tha/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Opinion piece on generational differences in work ethic and attitudes toward suffering and dignity",
+    "published_at": "2026-04-08T01:18:17+00:00",
+    "ingested_at": "2026-04-08T07:21:44.293656+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_80da2aee662aa8bf",
+    "source_url": "https://techround.co.uk/tech/lloyds-bank-exposed-448000-customers-with-a-single-faulty-update-every-fintech-founder-should-read-this/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_1_strong",
+    "headline": "Lloyds Bank exposed 448,000 customers due to faulty API update caused by concurrency bug in multi-tenant system",
+    "published_at": "2026-04-07T12:35:41+00:00",
+    "ingested_at": "2026-04-08T07:21:46.241648+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_1edc92640051"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_c05405a32278"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_e54c4e6ea1c2298d",
+    "source_url": "https://thenextweb.com/news/utah-let-ai-prescribe-medicine",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_2_medium",
+    "headline": "Utah approves AI system for prescription medicine renewals, raising regulatory and security concerns",
+    "published_at": "2026-04-08T06:30:58+00:00",
+    "ingested_at": "2026-04-08T07:21:47.819436+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_3ef5381d7f76"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_ec2545b5f9177c7a",
+    "source_url": "https://thenextweb.com/news/google-maps-gemini-ai-photo-captions",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Google Maps integrates Gemini AI to auto-generate photo captions for user-shared location photos",
+    "published_at": "2026-04-07T17:48:27+00:00",
+    "ingested_at": "2026-04-08T07:21:49.262210+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_bbdefa29"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_6dd4fdfb504f7f30",
+    "source_url": "https://thenextweb.com/news/paladin-ict-ireland-itad-acquisition-europe",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Paladin EnviroTech acquires ICT for \u20ac60M to expand European ITAD operations",
+    "published_at": "2026-04-07T17:27:08+00:00",
+    "ingested_at": "2026-04-08T07:21:51.463500+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_030dd6552fb9"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 65000000,
+      "amount_raw": "\u20ac60M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_d17c2a3a4c0c1bac",
+    "source_url": "https://thenextweb.com/news/joby-air-space-intelligence-airspace-evtol",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Joby Aviation partners with Air Space Intelligence to integrate AI-driven airspace management for US eVTOL operations",
+    "published_at": "2026-04-07T17:08:41+00:00",
+    "ingested_at": "2026-04-08T07:21:53.027512+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_ab4fe081c6bd"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_6a2a7fdfa1c60322",
+    "source_url": "https://thenextweb.com/news/ai-editorial-advertising-marketplace",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_2_medium",
+    "headline": "Medialister launches MCP server to open editorial media marketplace to AI agents",
+    "published_at": "2026-04-07T15:46:39+00:00",
+    "ingested_at": "2026-04-08T07:21:54.649369+00:00",
+    "geography": "Benelux",
+    "country": "",
+    "ai_confidence": 0.7,
+    "company_ids": [
+      "co_d1849b90a032"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_f67f3497253cc741",
+    "source_url": "https://thenextweb.com/news/hexembio-seed-blood-stem-cell-rejuvenation-therapy",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "HexemBio raises $10.4M seed round for stem cell rejuvenation therapy",
+    "published_at": "2026-04-07T13:09:32+00:00",
+    "ingested_at": "2026-04-08T07:21:57.236746+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ec5608a2c4df"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 10400000,
+      "amount_raw": "$10.4M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_a248a4b1bfc4d363",
+    "source_url": "https://thenextweb.com/news/hermeus-350m-hypersonic-fighter-unicorn",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Hermeus raises $350M at $1B valuation for autonomous hypersonic fighter development",
+    "published_at": "2026-04-07T13:08:59+00:00",
+    "ingested_at": "2026-04-08T07:21:59.071772+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_e2a0ae015b05"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_230f4053c105"
+    ],
+    "metadata": {
+      "amount_usd": 350000000,
+      "amount_raw": "$350M",
+      "currency": "USD",
+      "valuation": 1000000000
+    }
+  },
+  {
+    "id": "sig_536c970806bfc37a",
+    "source_url": "https://thenextweb.com/news/natter-23m-series-a-ai-video-conversations-enterprise",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Natter raises $23M Series A for AI-moderated video conversations to replace enterprise surveys",
+    "published_at": "2026-04-07T12:58:37+00:00",
+    "ingested_at": "2026-04-08T07:22:00.731236+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7df5c7691abf"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 23000000,
+      "amount_raw": "$23M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_13fdd1d17c1bdd20",
+    "source_url": "https://thenextweb.com/news/conxai-5m-agentic-ai-construction",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Conxai raises \u20ac5M to bring agentic AI to construction industry",
+    "published_at": "2026-04-07T12:43:28+00:00",
+    "ingested_at": "2026-04-08T07:22:02.700414+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_8f3bf6ee1503"
+    ],
+    "investor_ids": [
+      "inv_fb9104f5a2aa",
+      "inv_b4b4577f909c",
+      "inv_6e100b0614f4",
+      "inv_7ccdf7ffdc33"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 5400000,
+      "amount_raw": "\u20ac5M",
+      "round_stage": "Series A",
+      "currency": "EUR"
+    }
   }
 ]

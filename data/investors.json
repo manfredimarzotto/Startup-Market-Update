@@ -6457,5 +6457,115 @@
     "website": "",
     "linkedin_url": "",
     "last_signal_at": "2026-04-06T14:44:59+00:00"
+  },
+  {
+    "id": "inv_2b78da3dc866",
+    "name": "Spotify",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-07T15:00:00+00:00"
+  },
+  {
+    "id": "inv_878cb66777a3",
+    "name": "Love Ventures",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-07T10:04:32+00:00"
+  },
+  {
+    "id": "inv_e25fa2d4082a",
+    "name": "Beamline",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-07T10:04:32+00:00"
+  },
+  {
+    "id": "inv_d7e7889e535b",
+    "name": "Keen Venture Partners",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-08T07:00:00+00:00"
+  },
+  {
+    "id": "inv_bbed6164eb70",
+    "name": "JIC",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-07T13:58:35+00:00"
+  },
+  {
+    "id": "inv_6bf286ed21ec",
+    "name": "European Investment Bank (EIB)",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-07T13:43:49+00:00"
+  },
+  {
+    "id": "inv_b8991e2112f5",
+    "name": "Draper Dragon",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-07T12:38:08+00:00"
+  },
+  {
+    "id": "inv_d19389d6c52b",
+    "name": "Renegade Partners",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-07T12:00:00+00:00"
+  },
+  {
+    "id": "inv_2fecfb18b052",
+    "name": "BayBG Venture Capital",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-07T10:47:12+00:00"
+  },
+  {
+    "id": "inv_7ccdf7ffdc33",
+    "name": "Zacua Ventures",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-07T12:43:28+00:00"
   }
 ]

@@ -4408,5 +4408,41 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "partner"
+  },
+  {
+    "id": "per_89879e944889",
+    "name": "Mansour Karam",
+    "role": "CEO & Founder",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_3121e470c179",
+    "name": "Subhachandra Chandra",
+    "role": "CTO & Founder",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_1a3974b05d6f",
+    "name": "Jarek Rzepecki",
+    "role": "Leader at Monumo",
+    "company_id": "co_1c85ce8cccfb",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_230f4053c105",
+    "name": "AJ Piplica",
+    "role": "CEO",
+    "company_id": "co_e2a0ae015b05",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
   }
 ]
