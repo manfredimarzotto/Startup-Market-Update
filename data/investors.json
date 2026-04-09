@@ -6567,5 +6567,104 @@
     "website": "",
     "linkedin_url": "",
     "last_signal_at": "2026-04-07T12:43:28+00:00"
+  },
+  {
+    "id": "inv_b619225ba5a0",
+    "name": "Entourage Capital",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-08T11:00:00+00:00"
+  },
+  {
+    "id": "inv_e112356310d7",
+    "name": "Inovia Capital",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-08T11:00:00+00:00"
+  },
+  {
+    "id": "inv_feb1a3517d95",
+    "name": "e2vc",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-08T11:00:00+00:00"
+  },
+  {
+    "id": "inv_e01f7f46d5d7",
+    "name": "DraperB1",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-09T04:00:00+00:00"
+  },
+  {
+    "id": "inv_53f6b6189ecf",
+    "name": "AENU",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-09T03:00:00+00:00"
+  },
+  {
+    "id": "inv_139e1d704687",
+    "name": "First Drop",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-08T23:01:00+00:00"
+  },
+  {
+    "id": "inv_369514cc8d11",
+    "name": "Imaginary Ventures",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-08T11:22:30+00:00"
+  },
+  {
+    "id": "inv_d9fc35517039",
+    "name": "Creades",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-08T11:22:30+00:00"
+  },
+  {
+    "id": "inv_66b91ed965d7",
+    "name": "St Dominique Capital",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-08T11:22:30+00:00"
   }
 ]

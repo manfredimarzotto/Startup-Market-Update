@@ -4444,5 +4444,59 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_4232364ffb9d",
+    "name": "Oliver Merkel",
+    "role": "Founder",
+    "company_id": "co_7f0253236396",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_8197f6c2edd3",
+    "name": "Paulo Loureiro",
+    "role": "Founder",
+    "company_id": "co_7467583adf69",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_322ec08b1b49",
+    "name": "Emily M. Dickens",
+    "role": "Chief of Staff and Head of Government Affairs",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_d40dcf4d5ab9",
+    "name": "John Faily",
+    "role": "Founder and CEO",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_a89b143907ee",
+    "name": "Chris Sharkey",
+    "role": "Co-founder of Simtheory and Ortto",
+    "company_id": "co_3db1f560db62",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_a80628be9e53",
+    "name": "Mike Sharkey",
+    "role": "Co-founder of Simtheory and Ortto",
+    "company_id": "co_3db1f560db62",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
   }
 ]

@@ -22976,5 +22976,749 @@
       "round_stage": "Series A",
       "currency": "EUR"
     }
+  },
+  {
+    "id": "sig_b099a9aa0c921612",
+    "source_url": "https://sifted.eu/articles/revolut-ai-assistant/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_2_medium",
+    "headline": "Revolut launches AI assistant as part of broader product expansion strategy",
+    "published_at": "2026-04-09T08:00:48+00:00",
+    "ingested_at": "2026-04-09T07:23:06.318634+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_a5c1835f2f1f"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_4f0e0b7be50c9b31",
+    "source_url": "https://tech.eu/2026/04/08/march-2026s-top-10-european-tech-deals-you-need-to-know-about/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "European tech ecosystem records 292 funding deals worth \u20ac7.5 billion in March 2026",
+    "published_at": "2026-04-08T13:00:00+00:00",
+    "ingested_at": "2026-04-09T07:23:07.787433+00:00",
+    "geography": "Nordics | DACH | UK | Benelux | Southern Europe",
+    "country": "",
+    "ai_confidence": 0.65,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 8062500000,
+      "amount_raw": "\u20ac7.5 billion",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_3045a4a0c124bdb1",
+    "source_url": "https://tech.eu/2026/04/08/handhold-raises-eur3m-to-replace-fragmented-software-buying-journeys-with-ai-account-managers/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Handhold raises \u20ac3M Seed funding to deploy AI account managers for software sales",
+    "published_at": "2026-04-08T11:00:00+00:00",
+    "ingested_at": "2026-04-09T07:23:09.525195+00:00",
+    "geography": "Benelux",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7e3dbcae6f6a"
+    ],
+    "investor_ids": [
+      "inv_b619225ba5a0",
+      "inv_e112356310d7",
+      "inv_feb1a3517d95"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3240000,
+      "amount_raw": "\u20ac3M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_be78ac482f1736ce",
+    "source_url": "https://tech.eu/2026/04/08/verne-launches-europes-first-commercial-robotaxi-service-in-zagreb/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Verne launches Europe's first commercial robotaxi service in Zagreb with Pony.ai technology",
+    "published_at": "2026-04-08T09:59:00+00:00",
+    "ingested_at": "2026-04-09T07:23:11.112694+00:00",
+    "geography": "Southern Europe",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_1cd7c745864c"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_54476db1bd108067",
+    "source_url": "https://tech.eu/2026/04/08/funding-dips-but-fundamentals-hold-european-tech-raises-eur75b-in-march/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "European tech raises \u20ac7.5B in March with AI leading investment",
+    "published_at": "2026-04-08T09:09:11+00:00",
+    "ingested_at": "2026-04-09T07:23:12.828135+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 8100000000,
+      "amount_raw": "\u20ac7.5B",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_e6ecb55ae2510338",
+    "source_url": "https://tech.eu/2026/04/08/eilla-ai-executes-europes-first-ai-native-ma-deal/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Eilla AI completes Europe's first AI-native M&A deal advising on acquisition of CreateX and Nativ",
+    "published_at": "2026-04-08T08:00:00+00:00",
+    "ingested_at": "2026-04-09T07:23:14.281117+00:00",
+    "geography": "Central and Eastern Europe",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_66d29306069e"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_2ae8811238934235",
+    "source_url": "https://news.crunchbase.com/venture/data-most-active-highest-spending-startup-investors-q1-2026/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Q1 startup investors show divergence between deal activity and check sizes",
+    "published_at": "2026-04-08T11:00:16+00:00",
+    "ingested_at": "2026-04-09T07:23:15.724782+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_bfc6d01304c376a1",
+    "source_url": "https://techfundingnews.com/blocks-6m-pre-seed-speedinvest-ai-cloud-costs/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Flink founder raises $6M from Speedinvest for AI cloud cost management agent",
+    "published_at": "2026-04-09T06:00:00+00:00",
+    "ingested_at": "2026-04-09T07:23:17.612300+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_7f0253236396"
+    ],
+    "investor_ids": [
+      "inv_38cae481a24b"
+    ],
+    "person_ids": [
+      "per_4232364ffb9d"
+    ],
+    "metadata": {
+      "amount_usd": 6000000,
+      "amount_raw": "$6M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_8c91a311b449fc47",
+    "source_url": "https://techfundingnews.com/arca-digital-1m-seed-pension-tech-spain/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Seville startup Arca Digital raises \u20ac1M from DraperB1 and Robin Capital for pension system platform",
+    "published_at": "2026-04-09T04:00:00+00:00",
+    "ingested_at": "2026-04-09T07:23:20.605959+00:00",
+    "geography": "Southern Europe",
+    "country": "ES",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_ea6150c60ac3"
+    ],
+    "investor_ids": [
+      "inv_e01f7f46d5d7",
+      "inv_2b8ee1ad90a1"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1090000,
+      "amount_raw": "\u20ac1M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_442f466f6e508a9a",
+    "source_url": "https://techfundingnews.com/plume-aenu-funding-agentic-ai-renewables/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Plume secures \u20ac3.3M funding from AENU to build Bloomberg Terminal for clean energy developers",
+    "published_at": "2026-04-09T03:00:00+00:00",
+    "ingested_at": "2026-04-09T07:23:22.712696+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_0ef0c49049e8"
+    ],
+    "investor_ids": [
+      "inv_53f6b6189ecf"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3564000,
+      "amount_raw": "\u20ac3.3M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_d9b4c33ed754379a",
+    "source_url": "https://techfundingnews.com/golden-owl-1-4m-seed-first-drop-intelligence/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Golden Owl raises \u20ac1.4M from First Drop to tackle disinformation and hybrid risks with AI intelligence",
+    "published_at": "2026-04-08T23:01:00+00:00",
+    "ingested_at": "2026-04-09T07:23:24.616236+00:00",
+    "geography": "Southern Europe",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_f6957f305feb"
+    ],
+    "investor_ids": [
+      "inv_139e1d704687"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1512000,
+      "amount_raw": "\u20ac1.4M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_cbb76f1592e23289",
+    "source_url": "https://techfundingnews.com/from-drones-to-body-armour-why-investors-are-backing-the-full-defence-tech-stack/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Venture capital backing accelerates for defense tech startups across the full technology stack",
+    "published_at": "2026-04-08T15:32:00+00:00",
+    "ingested_at": "2026-04-09T07:23:26.159628+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.35,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_32dbc59756f78b07",
+    "source_url": "https://techfundingnews.com/bondstone-ventures-50m-deeptech-fund-portugal/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Two former physicists launch Bondstone's \u20ac50M deep tech fund in Lisbon",
+    "published_at": "2026-04-08T12:57:12+00:00",
+    "ingested_at": "2026-04-09T07:23:28.081190+00:00",
+    "geography": "Southern Europe",
+    "country": "PT",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_7467583adf69"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_8197f6c2edd3"
+    ],
+    "metadata": {
+      "amount_usd": 54500000,
+      "amount_raw": "\u20ac50M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_6b3dd7c2c422100e",
+    "source_url": "https://techfundingnews.com/zero-shot-20m-vc-fund-openai-alumni/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "OpenAI alumni launch Zero Shot venture capital fund with $100M target, raising first $20M",
+    "published_at": "2026-04-08T12:44:25+00:00",
+    "ingested_at": "2026-04-09T07:23:30.088803+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_6f037f20560d"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 20000000,
+      "amount_raw": "$20M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_fd81463c4ee1a067",
+    "source_url": "https://techfundingnews.com/artemis-space-mission-tech-ai/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Artemis missions and SpaceX IPO positioned to create opportunities for startups in $1.8T space industry",
+    "published_at": "2026-04-08T11:40:51+00:00",
+    "ingested_at": "2026-04-09T07:23:31.666968+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.35,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_787a19fa461bae5f",
+    "source_url": "https://arcticstartup.com/aio-and-tilk-partner/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Estonian biotech \u00c4IO launches fermentation-derived facial serum with tilk! using RedOil technology",
+    "published_at": "2026-04-09T06:28:30+00:00",
+    "ingested_at": "2026-04-09T07:23:33.400572+00:00",
+    "geography": "Nordics",
+    "country": "EE",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_78b43dd27704"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_a82e9c5322e83dfc",
+    "source_url": "https://arcticstartup.com/nordic-knots-raises-100-million-investment/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Nordic Knots raises \u20ac86M at \u20ac1.9B valuation led by Imaginary Ventures",
+    "published_at": "2026-04-08T11:22:30+00:00",
+    "ingested_at": "2026-04-09T07:23:35.173162+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_417a30d201ea"
+    ],
+    "investor_ids": [
+      "inv_369514cc8d11",
+      "inv_d9fc35517039",
+      "inv_47612b31",
+      "inv_66b91ed965d7"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 93000000,
+      "amount_raw": "\u20ac86 million",
+      "currency": "EUR",
+      "valuation": 2060000000
+    }
+  },
+  {
+    "id": "sig_7506a8fe6dca86f4",
+    "source_url": "https://arcticstartup.com/papershell-raises-e40-3-million/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Swedish PaperShell secures \u20ac40.3M from EU Innovation Fund for bio-based composite production expansion",
+    "published_at": "2026-04-08T10:37:56+00:00",
+    "ingested_at": "2026-04-09T07:23:36.943397+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_abf1f847ee36"
+    ],
+    "investor_ids": [
+      "inv_e8f321cc7e28"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 43900000,
+      "amount_raw": "\u20ac40.3M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_15270e6c2d4dab3e",
+    "source_url": "https://www.uktech.news/quantum/quantum-coalition-agree-investment-deal-in-london-20260408",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "partnership",
+    "signal_tier": "tier_2_medium",
+    "headline": "Quantum Development Group of 13 nations agrees investment deal to improve quantum sector opportunities",
+    "published_at": "2026-04-08T13:00:55+00:00",
+    "ingested_at": "2026-04-09T07:23:38.711196+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_541d417dbcbe"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_06acfc89a402ffc8",
+    "source_url": "https://www.uktech.news/ai/trent-ai-raises-9-7m-to-boost-its-ai-native-security-agents-20260408",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Trent AI secures \u00a39.7m seed round for AI-native security agents",
+    "published_at": "2026-04-08T11:00:23+00:00",
+    "ingested_at": "2026-04-09T07:23:40.423916+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_0049423ecd21"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 12250000,
+      "amount_raw": "\u00a39.7m",
+      "round_stage": "Seed",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_eb9f887fd6eca670",
+    "source_url": "https://www.uktech.news/government-policy/entrepreneurship-tax-relief-package-comes-into-force-20260408",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "UK government implements entrepreneurship tax relief package to boost startups and scale-ups",
+    "published_at": "2026-04-08T10:00:12+00:00",
+    "ingested_at": "2026-04-09T07:23:42.057327+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.65,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_d34e76f5767d7205",
+    "source_url": "https://www.uktech.news/foodtech/just-eat-and-starship-technologies-launch-delivery-robots-in-barnsley-20260408",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Just Eat and Starship Technologies launch autonomous delivery robots in Barnsley",
+    "published_at": "2026-04-08T09:00:21+00:00",
+    "ingested_at": "2026-04-09T07:23:43.397528+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_372fa0c86f3e"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_6baee0b7ab6c6c16",
+    "source_url": "https://www.uktech.news/ai/narwhal-labs-secures-20m-for-its-autonomous-comms-platform-20260408",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Narwhal Labs secures \u00a320m funding for autonomous communications platform DeepBlue OS",
+    "published_at": "2026-04-08T08:00:47+00:00",
+    "ingested_at": "2026-04-09T07:23:44.952009+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_5b8df6c1395e"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 25200000,
+      "amount_raw": "\u00a320m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_ee70f2076bfa8a7d",
+    "source_url": "https://techround.co.uk/news/hiring-tasks-unpaid-labour-companies/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Article discusses hiring practices and unpaid work in recruitment processes; no specific company event or funding signal",
+    "published_at": "2026-04-08T08:06:42+00:00",
+    "ingested_at": "2026-04-09T07:23:46.958684+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_322ec08b1b49",
+      "per_d40dcf4d5ab9"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_1f2f2de17b6f3ef2",
+    "source_url": "https://thenextweb.com/news/canva-acquires-simtheory-ortto-agentic-ai-marketing",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_2_medium",
+    "headline": "Canva acquires Simtheory and Ortto in dual deal to expand into agentic AI and marketing platform",
+    "published_at": "2026-04-08T21:00:05+00:00",
+    "ingested_at": "2026-04-09T07:23:48.900806+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_3db1f560db62"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_a89b143907ee",
+      "per_a80628be9e53"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_a8b56fbcf30104eb",
+    "source_url": "https://thenextweb.com/news/meta-muse-spark-msl-first-model",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Meta launches Muse Spark, first model from Meta Superintelligence Labs with native multimodality and parallel reasoning",
+    "published_at": "2026-04-08T20:09:31+00:00",
+    "ingested_at": "2026-04-09T07:23:50.792588+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_ea3bd73e"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_4b4225bf3d9e"
+    ],
+    "metadata": {
+      "amount_usd": 14300000000,
+      "amount_raw": "$14.3 billion",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_aa1a75fb2ea00f2e",
+    "source_url": "https://thenextweb.com/news/atlassian-confluence-remix-partner-agents",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Atlassian launches Remix AI visual tool and partner agents for Confluence",
+    "published_at": "2026-04-08T19:56:25+00:00",
+    "ingested_at": "2026-04-09T07:23:52.375962+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_651b2c67d536"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_0afe5c4e1d61af3c",
+    "source_url": "https://thenextweb.com/news/verne-europe-first-commercial-robotaxi-zagreb",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Verne launches Europe's first commercial robotaxi service in Zagreb with safety operators",
+    "published_at": "2026-04-08T16:54:20+00:00",
+    "ingested_at": "2026-04-09T07:23:53.788181+00:00",
+    "geography": "Southern Europe",
+    "country": "HR",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_1cd7c745864c"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_99d65411a21655c4",
+    "source_url": "https://thenextweb.com/news/intel-terafab-elon-musk-foundry-partnership",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Intel becomes primary foundry partner for Elon Musk's Terafab $25B AI compute joint venture",
+    "published_at": "2026-04-08T14:59:04+00:00",
+    "ingested_at": "2026-04-09T07:23:55.888477+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_7518ffbb"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_0aa99e39ee4a"
+    ],
+    "metadata": {
+      "amount_usd": 25000000000,
+      "amount_raw": "$25B",
+      "currency": "USD",
+      "valuation": 25000000000
+    }
+  },
+  {
+    "id": "sig_d81be9733ef5ec29",
+    "source_url": "https://thenextweb.com/news/miro-ai-workspace-team-collaboration",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_2_medium",
+    "headline": "Miro launches AI agents integrated into whiteboard workspace with context awareness",
+    "published_at": "2026-04-08T14:06:39+00:00",
+    "ingested_at": "2026-04-09T07:23:57.861320+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_4da9b9307cdf"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
   }
 ]

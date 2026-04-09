@@ -1,7 +1,7 @@
 [
   {
-    "id": "opp_20260408_001",
-    "generated_date": "2026-04-08",
+    "id": "opp_20260409_001",
+    "generated_date": "2026-04-09",
     "company_id": null,
     "investor_id": "inv_c6d98ffa6a60",
     "person_id": null,
@@ -24,7 +24,7 @@
       "sources": 2,
       "geo_weight": 0.8
     },
-    "ai_rationale": "\"\u00a32bn quantum computing investment \u00b7 regional tech clusters \u00b7 5 sources \u00b7 \u00a31.7bn northern expansion\"",
+    "ai_rationale": "\u00a32bn quantum computing investment \u00b7 \u00a31.7bn northern tech package \u00b7 \u00a320m local tech clusters \u00b7 5 sources \u00b7 UK government procurement focus.",
     "triggers": [
       {
         "type": "funding",
@@ -39,55 +39,15 @@
       {
         "type": "funding",
         "text": "announces \u00a320m public investment in Tay Cities Region tech cluster (2 sources)",
-        "time": "1w ago"
+        "time": "2w ago"
       }
     ],
     "entity_type": "investor",
     "status": "new"
   },
   {
-    "id": "opp_20260408_002",
-    "generated_date": "2026-04-08",
-    "company_id": "co_655f62e663d8",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_8e0bec6776056639",
-      "sig_bf8ed9737023fff4",
-      "sig_14b45df506eeb694"
-    ],
-    "contact_ids": [
-      "per_bd103b6d9cae",
-      "per_e6590ec0ffe0",
-      "per_45e51a707ce2"
-    ],
-    "opportunity_score": 60,
-    "score_breakdown": {
-      "events": 21,
-      "capital": 10,
-      "momentum": 19,
-      "sources": 10,
-      "geo_weight": 1.0
-    },
-    "ai_rationale": "Audicin raises $1.9M \u00b7 nervous system regulation wearables \u00b7 3 sources \u00b7 Finnish founder backing included.",
-    "triggers": [
-      {
-        "type": "funding",
-        "text": "raises $1.9M to expand real-time nervous system tech (3 sources)",
-        "time": "1w ago"
-      },
-      {
-        "type": "sector",
-        "text": "Active in DeepTech / Neurotechnology",
-        "time": ""
-      }
-    ],
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260408_003",
-    "generated_date": "2026-04-08",
+    "id": "opp_20260409_002",
+    "generated_date": "2026-04-09",
     "company_id": "co_232528f9daab",
     "investor_id": null,
     "person_id": null,
@@ -110,7 +70,7 @@
       "sources": 10,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac3M pre-seed round \u00b7 circular construction materials \u00b7 3 sources \u00b7 Swedish startup",
+    "ai_rationale": "\u20ac3M pre-seed round \u00b7 circular construction materials \u00b7 3 sources \u00b7 Swedish company",
     "triggers": [
       {
         "type": "funding",
@@ -132,40 +92,39 @@
     "status": "new"
   },
   {
-    "id": "opp_20260408_004",
-    "generated_date": "2026-04-08",
-    "company_id": "co_1ef5b81d2e28",
+    "id": "opp_20260409_003",
+    "generated_date": "2026-04-09",
+    "company_id": "co_655f62e663d8",
     "investor_id": null,
     "person_id": null,
     "signal_ids": [
-      "sig_0e5e14820a5f450d",
-      "sig_b9968c28a7e6018a",
-      "sig_353a59831a840130"
+      "sig_8e0bec6776056639",
+      "sig_bf8ed9737023fff4",
+      "sig_14b45df506eeb694"
     ],
-    "contact_ids": [],
+    "contact_ids": [
+      "per_bd103b6d9cae",
+      "per_e6590ec0ffe0",
+      "per_45e51a707ce2"
+    ],
     "opportunity_score": 58,
     "score_breakdown": {
-      "events": 20,
-      "capital": 9,
+      "events": 19,
+      "capital": 10,
       "momentum": 19,
       "sources": 10,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac1.5M raised \u00b7 web testing automation platform \u00b7 3 sources \u00b7 AI-era development focus.",
+    "ai_rationale": "Audicin raises $1.9M \u00b7 nervous system regulation wearables \u00b7 3 sources \u00b7 Finland business support active",
     "triggers": [
       {
         "type": "funding",
-        "text": "raises \u20ac1.5M for high-performance web testing tools (3 sources)",
+        "text": "raises $1.9M to expand real-time nervous system tech (3 sources)",
         "time": "1w ago"
       },
       {
         "type": "sector",
-        "text": "Active in DevTools / Software Testing / Quality Assurance",
-        "time": ""
-      },
-      {
-        "type": "growth",
-        "text": "HQ: Stockholm, SE",
+        "text": "Active in DeepTech / Neurotechnology",
         "time": ""
       }
     ],
@@ -173,85 +132,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260408_005",
-    "generated_date": "2026-04-08",
-    "company_id": "co_de6170cfbcc4",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_bed6754a7bbfa4d3",
-      "sig_113cdcf408784ff7",
-      "sig_dc23cf990903c42e",
-      "sig_9586c1e183421a9a"
-    ],
-    "contact_ids": [],
-    "opportunity_score": 58,
-    "score_breakdown": {
-      "events": 25,
-      "capital": 19,
-      "momentum": 19,
-      "sources": 10,
-      "geo_weight": 0.8
-    },
-    "ai_rationale": "$170M Series C \u00b7 AI debt intelligence platform \u00b7 $1.3B valuation \u00b7 4 sources \u00b7 European fintech unicorn status achieved.",
-    "triggers": [
-      {
-        "type": "funding",
-        "text": "raises \u00a3130m in AI debt intelligence platform funding (4 sources)",
-        "time": "4d ago"
-      },
-      {
-        "type": "sector",
-        "text": "Active in FinTech / Credit Data / Financial Intelligence",
-        "time": ""
-      }
-    ],
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260408_006",
-    "generated_date": "2026-04-08",
-    "company_id": "co_8b67990b5648",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_fcc08a7e2732f76e",
-      "sig_4b4cce8408691cc7",
-      "sig_b47d4c3d0c1cd6d7",
-      "sig_1cedc8ae4663416b",
-      "sig_48946175a5e0f9ca"
-    ],
-    "contact_ids": [
-      "per_435fdaa45579"
-    ],
-    "opportunity_score": 57,
-    "score_breakdown": {
-      "events": 21,
-      "capital": 18,
-      "momentum": 19,
-      "sources": 14,
-      "geo_weight": 0.8
-    },
-    "ai_rationale": "$125M Series B \u00b7 API investment platform \u00b7 \u20ac640M valuation \u00b7 5 sources \u00b7 led by Sapphire Ventures and Tencent.",
-    "triggers": [
-      {
-        "type": "funding",
-        "text": "raises $125M in funding round (5 sources)",
-        "time": "2w ago"
-      },
-      {
-        "type": "sector",
-        "text": "Active in FinTech / Investment Infrastructure",
-        "time": ""
-      }
-    ],
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260408_007",
-    "generated_date": "2026-04-08",
+    "id": "opp_20260409_004",
+    "generated_date": "2026-04-09",
     "company_id": "co_101e32680e4b",
     "investor_id": null,
     "person_id": null,
@@ -290,8 +172,49 @@
     "status": "new"
   },
   {
-    "id": "opp_20260408_008",
-    "generated_date": "2026-04-08",
+    "id": "opp_20260409_005",
+    "generated_date": "2026-04-09",
+    "company_id": "co_1ef5b81d2e28",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_0e5e14820a5f450d",
+      "sig_b9968c28a7e6018a",
+      "sig_353a59831a840130"
+    ],
+    "contact_ids": [],
+    "opportunity_score": 57,
+    "score_breakdown": {
+      "events": 19,
+      "capital": 9,
+      "momentum": 19,
+      "sources": 10,
+      "geo_weight": 1.0
+    },
+    "ai_rationale": "\u20ac1.5M funding round \u00b7 web testing automation platform \u00b7 3 sources \u00b7 AI-era development focus.",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "raises \u20ac1.5M for high-performance web testing tools (3 sources)",
+        "time": "1w ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in DevTools / Software Testing / Quality Assurance",
+        "time": ""
+      },
+      {
+        "type": "growth",
+        "text": "HQ: Stockholm, SE",
+        "time": ""
+      }
+    ],
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260409_006",
+    "generated_date": "2026-04-09",
     "company_id": "co_29f59a0423dc",
     "investor_id": null,
     "person_id": null,
@@ -314,12 +237,12 @@
       "sources": 14,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$40M seed round \u00b7 orbital transfer vehicles \u00b7 4 sources \u00b7 space sovereignty concerns cited.",
+    "ai_rationale": "$40M seed round \u00b7 orbital transfer vehicle technology \u00b7 4 sources \u00b7 space sovereignty concerns cited.",
     "triggers": [
       {
         "type": "funding",
         "text": "raises $40M seed funding for orbital transfer vehicles (4 sources)",
-        "time": "1w ago"
+        "time": "2w ago"
       },
       {
         "type": "sector",
@@ -331,8 +254,132 @@
     "status": "new"
   },
   {
-    "id": "opp_20260408_009",
-    "generated_date": "2026-04-08",
+    "id": "opp_20260409_007",
+    "generated_date": "2026-04-09",
+    "company_id": "co_de6170cfbcc4",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_bed6754a7bbfa4d3",
+      "sig_113cdcf408784ff7",
+      "sig_dc23cf990903c42e",
+      "sig_9586c1e183421a9a"
+    ],
+    "contact_ids": [],
+    "opportunity_score": 56,
+    "score_breakdown": {
+      "events": 23,
+      "capital": 19,
+      "momentum": 19,
+      "sources": 10,
+      "geo_weight": 0.8
+    },
+    "ai_rationale": "$170M Series C \u00b7 AI debt intelligence platform \u00b7 $1.3B valuation \u00b7 4 sources \u00b7 European fintech unicorn.",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "raises \u00a3130m in AI debt intelligence platform funding (4 sources)",
+        "time": "5d ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in FinTech / Credit Data / Financial Intelligence",
+        "time": ""
+      }
+    ],
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260409_008",
+    "generated_date": "2026-04-09",
+    "company_id": "co_8b67990b5648",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_fcc08a7e2732f76e",
+      "sig_4b4cce8408691cc7",
+      "sig_b47d4c3d0c1cd6d7",
+      "sig_1cedc8ae4663416b",
+      "sig_48946175a5e0f9ca"
+    ],
+    "contact_ids": [
+      "per_435fdaa45579"
+    ],
+    "opportunity_score": 55,
+    "score_breakdown": {
+      "events": 18,
+      "capital": 18,
+      "momentum": 19,
+      "sources": 14,
+      "geo_weight": 0.8
+    },
+    "ai_rationale": "$125M Series C \u00b7 API-based investment platform \u00b7 \u20ac640M valuation \u00b7 5 sources \u00b7 led by Sapphire Ventures and Tencent.",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "raises $125M in funding round (5 sources)",
+        "time": "2w ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in FinTech / Investment Infrastructure",
+        "time": ""
+      }
+    ],
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260409_009",
+    "generated_date": "2026-04-09",
+    "company_id": "co_abf1f847ee36",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_e959cdc6fd59e823",
+      "sig_7506a8fe6dca86f4"
+    ],
+    "contact_ids": [
+      "per_85a0b5b54489"
+    ],
+    "opportunity_score": 55,
+    "score_breakdown": {
+      "events": 15,
+      "capital": 16,
+      "momentum": 18,
+      "sources": 6,
+      "geo_weight": 1.0
+    },
+    "ai_rationale": "\u20ac40.3M EU Innovation Fund grant \u00b7 bio-based composite factory in Sweden \u00b7 2 sources \u00b7 EU green manufacturing expansion.",
+    "triggers": [
+      {
+        "type": "growth",
+        "text": "secures \u20ac40.3M EU grant to build full-scale factory in Sweden",
+        "time": "1w ago"
+      },
+      {
+        "type": "funding",
+        "text": "Swedish PaperShell secures \u20ac40.3M from EU Innovation Fund for bio-based\u2026",
+        "time": "today"
+      },
+      {
+        "type": "sector",
+        "text": "Active in DeepTech / Advanced Materials",
+        "time": ""
+      },
+      {
+        "type": "growth",
+        "text": "HQ: Tibro, SE",
+        "time": ""
+      }
+    ],
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260409_010",
+    "generated_date": "2026-04-09",
     "company_id": "co_3bc5495c",
     "investor_id": null,
     "person_id": null,
@@ -350,12 +397,12 @@
       "sources": 15,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac232K-\u20ac270K angel funding \u00b7 culturally intelligent AI therapy \u00b7 3 sources \u00b7 Albanian-Finnish team.",
+    "ai_rationale": "\u20ac232K angel funding \u00b7 culturally intelligent AI therapy \u00b7 3 sources \u00b7 Albanian-Finnish team.",
     "triggers": [
       {
         "type": "funding",
         "text": "raises \u20ac232.4k in angel funding for culturally intelligent AI mental health\u2026",
-        "time": "3w ago"
+        "time": "4w ago"
       },
       {
         "type": "sector",
@@ -372,52 +419,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260408_010",
-    "generated_date": "2026-04-08",
-    "company_id": "co_7187cc05cd24",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_a5fd0531eb92969c",
-      "sig_c1f3bd9801f981b7",
-      "sig_e2790ef21d82dbaf"
-    ],
-    "contact_ids": [
-      "per_fa38d16a789c",
-      "per_64c46dff"
-    ],
-    "opportunity_score": 52,
-    "score_breakdown": {
-      "events": 17,
-      "capital": 19,
-      "momentum": 19,
-      "sources": 10,
-      "geo_weight": 0.8
-    },
-    "ai_rationale": "Air Street Capital raises $232M Fund III \u00b7 AI-first companies Europe/North America \u00b7 3 sources \u00b7 largest solo GP in Europe.",
-    "triggers": [
-      {
-        "type": "funding",
-        "text": "raises $232M Fund III, becoming one of Europe's largest solo VC firms (3\u2026",
-        "time": "2w ago"
-      },
-      {
-        "type": "sector",
-        "text": "Active in Venture Capital / AI-focused venture investing",
-        "time": ""
-      },
-      {
-        "type": "growth",
-        "text": "HQ: London, GB",
-        "time": ""
-      }
-    ],
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260408_011",
-    "generated_date": "2026-04-08",
+    "id": "opp_20260409_011",
+    "generated_date": "2026-04-09",
     "company_id": "co_f4185afa949c",
     "investor_id": null,
     "person_id": null,
@@ -441,7 +444,7 @@
       {
         "type": "funding",
         "text": "Crypto compliance startup Eunice raises $8M from Speedinvest and Moonfire\u2026",
-        "time": "1w ago"
+        "time": "2w ago"
       },
       {
         "type": "sector",
@@ -453,48 +456,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260408_012",
-    "generated_date": "2026-04-08",
-    "company_id": "co_0d40838f3b34",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_1998f8e39d476f73",
-      "sig_3be2b450d1bdbbc5"
-    ],
-    "contact_ids": [],
-    "opportunity_score": 52,
-    "score_breakdown": {
-      "events": 15,
-      "capital": 16,
-      "momentum": 14,
-      "sources": 7,
-      "geo_weight": 1.0
-    },
-    "ai_rationale": "\u20ac50M funding round \u00b7 quantum computing expansion \u00b7 2 sources \u00b7 Finland-based \u00b7 public listing planned.",
-    "triggers": [
-      {
-        "type": "funding",
-        "text": "secures \u20ac50M funding from BlackRock-managed funds (2 sources)",
-        "time": "1w ago"
-      },
-      {
-        "type": "sector",
-        "text": "Active in DeepTech / Quantum Computing",
-        "time": ""
-      },
-      {
-        "type": "growth",
-        "text": "HQ: Helsinki, FI",
-        "time": ""
-      }
-    ],
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260408_013",
-    "generated_date": "2026-04-08",
+    "id": "opp_20260409_012",
+    "generated_date": "2026-04-09",
     "company_id": "co_c21b66a958ed",
     "investor_id": null,
     "person_id": null,
@@ -517,7 +480,7 @@
       {
         "type": "funding",
         "text": "raises \u20ac2.5M seed funding for cellulose-based SAP alternative (3 sources)",
-        "time": "2w ago"
+        "time": "3w ago"
       },
       {
         "type": "sector",
@@ -529,8 +492,48 @@
     "status": "new"
   },
   {
-    "id": "opp_20260408_014",
-    "generated_date": "2026-04-08",
+    "id": "opp_20260409_013",
+    "generated_date": "2026-04-09",
+    "company_id": "co_0d40838f3b34",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_1998f8e39d476f73",
+      "sig_3be2b450d1bdbbc5"
+    ],
+    "contact_ids": [],
+    "opportunity_score": 50,
+    "score_breakdown": {
+      "events": 13,
+      "capital": 16,
+      "momentum": 14,
+      "sources": 7,
+      "geo_weight": 1.0
+    },
+    "ai_rationale": "\u20ac50M funding round \u00b7 quantum computing expansion \u00b7 2 sources \u00b7 Finland-based company.",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "secures \u20ac50M funding from BlackRock-managed funds (2 sources)",
+        "time": "1w ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in DeepTech / Quantum Computing",
+        "time": ""
+      },
+      {
+        "type": "growth",
+        "text": "HQ: Helsinki, FI",
+        "time": ""
+      }
+    ],
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260409_014",
+    "generated_date": "2026-04-09",
     "company_id": "co_18402552",
     "investor_id": null,
     "person_id": null,
@@ -548,12 +551,12 @@
       "sources": 15,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$50M Series A \u00b7 software-powered factory automation \u00b7 aerospace and energy \u00b7 3 sources \u00b7 Europe manufacturing focus",
+    "ai_rationale": "$50M Series A \u00b7 software-powered factory automation \u00b7 aerospace and energy \u00b7 3 sources \u00b7 Europe's industrial manufacturing focus.",
     "triggers": [
       {
         "type": "funding",
         "text": "UK manufacturing automation startup Isembard raises $50M Series A (3 sources)",
-        "time": "4w ago"
+        "time": "1mo ago"
       },
       {
         "type": "sector",
@@ -565,8 +568,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260408_015",
-    "generated_date": "2026-04-08",
+    "id": "opp_20260409_015",
+    "generated_date": "2026-04-09",
     "company_id": "co_7f902752c315",
     "investor_id": null,
     "person_id": null,
@@ -589,12 +592,12 @@
       "sources": 10,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$15M Series A \u00b7 clinical trial data infrastructure \u00b7 4 sources \u00b7 Note: Partnership signal involves different company (Rivian, not Rivia).",
+    "ai_rationale": "$15M Series A \u00b7 clinical trial data AI infrastructure \u00b7 4 sources \u00b7 Note: 1 source references Rivian/Uber, not Rivia.",
     "triggers": [
       {
         "type": "funding",
         "text": "raises $15M to build AI engine for clinical trial data (3 sources)",
-        "time": "2w ago"
+        "time": "3w ago"
       },
       {
         "type": "growth",
