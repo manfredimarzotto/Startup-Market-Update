@@ -4498,5 +4498,122 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "founder"
+  },
+  {
+    "id": "per_fc7625dfedb2",
+    "name": "Emil Barr",
+    "role": "Founder",
+    "company_id": "co_076c43680336",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_64bcb2501503",
+    "name": "Markus Villig",
+    "role": "Angel investor",
+    "company_id": "co_7e3dbcae6f6a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_1c033a897795",
+    "name": "Ott Kaukver",
+    "role": "Angel investor",
+    "company_id": "co_7e3dbcae6f6a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_65ecf65d9f23",
+    "name": "Janer Gorohhov",
+    "role": "Angel investor",
+    "company_id": "co_7e3dbcae6f6a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_13aa445cebdd",
+    "name": "Harsh Sinha",
+    "role": "Angel investor",
+    "company_id": "co_7e3dbcae6f6a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_a03b6c979838",
+    "name": "Isabelle Johannessen",
+    "role": "author",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": null
+  },
+  {
+    "id": "per_364d472900bb",
+    "name": "Sid Gutta",
+    "role": "Co-Founder",
+    "company_id": "co_13c329d01de1",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_37bae865ff7d",
+    "name": "Dr Viroshan Naicker",
+    "role": "Co-Founder",
+    "company_id": "co_13c329d01de1",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_1c93b75e7bc8",
+    "name": "Joseph Goodman",
+    "role": "Managing Partner",
+    "company_id": "co_13c329d01de1",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_f22d4b4b4ce2",
+    "name": "David Curtis",
+    "role": "STEM Senior Managing Director at Hays UK and Ireland",
+    "company_id": "co_6e4411e216ea",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_37da93e5b4f2",
+    "name": "Zee",
+    "role": "Author",
+    "company_id": "co_6e4411e216ea",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": null
+  },
+  {
+    "id": "per_afe037ecedc8",
+    "name": "Kayla Manthey",
+    "role": "Author",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "hiring_manager"
+  },
+  {
+    "id": "per_3cd023a34b46",
+    "name": "Marceu Martins",
+    "role": "Systems Designer",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
   }
 ]
