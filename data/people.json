@@ -4615,5 +4615,140 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_1783f9432133",
+    "name": "Krste Asanovi\u0107",
+    "role": "founder",
+    "company_id": "co_35e87826d332",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_ef0a3167a0b0",
+    "name": "Yunsup Lee",
+    "role": "founder",
+    "company_id": "co_35e87826d332",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_51ab9384c202",
+    "name": "Panu Routila",
+    "role": "Chairman of the Board",
+    "company_id": "co_107db9467cd9",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_7f70fcb9b242",
+    "name": "Russell Attwood",
+    "role": "founder and chief executive officer",
+    "company_id": "co_a1b963c0a491",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_10b0d5e9f0d6",
+    "name": "unnamed woman",
+    "role": "publishing entrepreneur",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_8a78e982cab7",
+    "name": "Sendhil Mullainathan",
+    "role": "researcher",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_7e3a35c8a093",
+    "name": "Eldar Shafir",
+    "role": "researcher",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_ad49a8aa6e6b",
+    "name": "Omid Pakseresht",
+    "role": "CEO",
+    "company_id": "co_df3d5ff0a66e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_544a3f18f49c",
+    "name": "Gary Bonilla",
+    "role": "Chief Strategy Officer",
+    "company_id": "co_df3d5ff0a66e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_a156bb2616e5",
+    "name": "Max Ward",
+    "role": "Chief Commercial Officer",
+    "company_id": "co_df3d5ff0a66e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_482e52608435",
+    "name": "Phil Clements",
+    "role": "Chief Platform Officer",
+    "company_id": "co_df3d5ff0a66e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_6eba6c3381c4",
+    "name": "Simon Thompson",
+    "role": "Chief Data Officer",
+    "company_id": "co_df3d5ff0a66e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_2f2047f9a7f6",
+    "name": "Mandy Lamb",
+    "role": "Head of Value-Added Services for Europe",
+    "company_id": "co_e759968ca927",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_89832d17c078",
+    "name": "Lily Varon",
+    "role": "Principal Analyst",
+    "company_id": "co_e759968ca927",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_433481466a8e",
+    "name": "Andy Jassy",
+    "role": "CEO",
+    "company_id": "co_cbc62794",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
   }
 ]
