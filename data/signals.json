@@ -25227,5 +25227,85 @@
     "investor_ids": [],
     "person_ids": [],
     "metadata": {}
+  },
+  {
+    "id": "sig_97fc489ec5528325",
+    "source_url": "https://techcrunch.com/2026/04/11/nvidia-backed-sifive-hits-3-65-billion-valuation-for-open-ai-chips/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "SiFive reaches $3.65 billion valuation in funding round for open-source AI chip development",
+    "published_at": "2026-04-11T14:03:00+00:00",
+    "ingested_at": "2026-04-12T07:14:09.893283+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_35e87826d332"
+    ],
+    "investor_ids": [
+      "inv_8d4321d9"
+    ],
+    "person_ids": [
+      "per_87842eff"
+    ],
+    "metadata": {
+      "valuation": 3650000000
+    }
+  },
+  {
+    "id": "sig_6807c0c1890ab2d3",
+    "source_url": "https://thenextweb.com/news/1417451-altilium-drive35-ev-battery-recycling-plymouth",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Altilium secures \u00a318.5m grant funding to build UK's first commercial EV battery refinery in Plymouth",
+    "published_at": "2026-04-11T08:32:09+00:00",
+    "ingested_at": "2026-04-12T07:14:11.892520+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_19df1b331b0c"
+    ],
+    "investor_ids": [
+      "inv_c6d98ffa6a60"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 23312500,
+      "amount_raw": "\u00a318.5m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_c5c47144c9b0eba3",
+    "source_url": "https://thenextweb.com/news/ai-intelligence-losing-our-own",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_2_medium",
+    "headline": "Steve Yegge launches Gas Town, an open-source platform for orchestrating AI coding agent swarms",
+    "published_at": "2026-04-11T07:30:27+00:00",
+    "ingested_at": "2026-04-12T07:14:13.625818+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_c7dc8779289b"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_2abcd3241c1a"
+    ],
+    "metadata": {}
   }
 ]

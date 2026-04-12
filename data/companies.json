@@ -6286,5 +6286,29 @@
     "hq_city": null,
     "last_signal_at": "2026-04-10T13:49:10+00:00",
     "signal_count": 1
+  },
+  {
+    "id": "co_19df1b331b0c",
+    "name": "Altilium",
+    "domain": null,
+    "sector": "CleanTech",
+    "sub_sector": "Battery recycling and critical minerals recovery",
+    "stage": "",
+    "hq_country": "GB",
+    "hq_city": "Plymouth",
+    "last_signal_at": "2026-04-11T08:32:09+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_c7dc8779289b",
+    "name": "Gas Town",
+    "domain": null,
+    "sector": "AI/ML",
+    "sub_sector": "DevTools",
+    "stage": "",
+    "hq_country": "",
+    "hq_city": null,
+    "last_signal_at": "2026-04-11T07:30:27+00:00",
+    "signal_count": 1
   }
 ]

@@ -4750,5 +4750,14 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_2abcd3241c1a",
+    "name": "Steve Yegge",
+    "role": "Founder/Creator",
+    "company_id": "co_c7dc8779289b",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
   }
 ]

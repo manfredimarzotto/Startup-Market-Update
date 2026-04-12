@@ -1,7 +1,7 @@
 [
   {
-    "id": "opp_20260411_001",
-    "generated_date": "2026-04-11",
+    "id": "opp_20260412_001",
+    "generated_date": "2026-04-12",
     "company_id": null,
     "investor_id": "inv_c6d98ffa6a60",
     "person_id": null,
@@ -24,7 +24,7 @@
       "sources": 2,
       "geo_weight": 0.8
     },
-    "ai_rationale": "\"\u00a32bn quantum computing investment \u00b7 \u00a31.7bn northern tech package \u00b7 \u00a340m local tech clusters \u00b7 5 sources\"",
+    "ai_rationale": "UK government invests \u00a35.7bn in quantum and regional tech \u00b7 5 sources \u00b7 \u00a320m local cluster funding across England and Wales.",
     "triggers": [
       {
         "type": "funding",
@@ -46,8 +46,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260411_002",
-    "generated_date": "2026-04-11",
+    "id": "opp_20260412_002",
+    "generated_date": "2026-04-12",
     "company_id": "co_232528f9daab",
     "investor_id": null,
     "person_id": null,
@@ -70,7 +70,7 @@
       "sources": 10,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac3M pre-seed round \u00b7 circular construction materials \u00b7 3 sources \u00b7 Swedish company",
+    "ai_rationale": "\u20ac3M pre-seed round \u00b7 circular construction materials \u00b7 3 sources \u00b7 Swedish founder team",
     "triggers": [
       {
         "type": "funding",
@@ -92,8 +92,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260411_003",
-    "generated_date": "2026-04-11",
+    "id": "opp_20260412_003",
+    "generated_date": "2026-04-12",
     "company_id": "co_101e32680e4b",
     "investor_id": null,
     "person_id": null,
@@ -115,7 +115,7 @@
       "sources": 13,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$225M Series A \u00b7 copper-based chip interconnects for AI \u00b7 4 sources \u00b7 led by Maverick Silicon and SoftBank.",
+    "ai_rationale": "Kandou AI raises $225M Series A \u00b7 copper-based chip interconnects for AI \u00b7 4 sources \u00b7 led by Maverick Silicon and SoftBank.",
     "triggers": [
       {
         "type": "funding",
@@ -132,45 +132,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260411_004",
-    "generated_date": "2026-04-11",
-    "company_id": "co_de6170cfbcc4",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_bed6754a7bbfa4d3",
-      "sig_113cdcf408784ff7",
-      "sig_dc23cf990903c42e",
-      "sig_9586c1e183421a9a"
-    ],
-    "contact_ids": [],
-    "opportunity_score": 56,
-    "score_breakdown": {
-      "events": 23,
-      "capital": 19,
-      "momentum": 19,
-      "sources": 10,
-      "geo_weight": 0.8
-    },
-    "ai_rationale": "$170M Series C \u00b7 AI debt intelligence platform \u00b7 $1.3B valuation \u00b7 4 sources \u00b7 European fintech unicorn.",
-    "triggers": [
-      {
-        "type": "funding",
-        "text": "raises \u00a3130m in AI debt intelligence platform funding (4 sources)",
-        "time": "1w ago"
-      },
-      {
-        "type": "sector",
-        "text": "Active in FinTech / Credit Data / Financial Intelligence",
-        "time": ""
-      }
-    ],
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260411_005",
-    "generated_date": "2026-04-11",
+    "id": "opp_20260412_004",
+    "generated_date": "2026-04-12",
     "company_id": "co_655f62e663d8",
     "investor_id": null,
     "person_id": null,
@@ -192,7 +155,7 @@
       "sources": 10,
       "geo_weight": 1.0
     },
-    "ai_rationale": "Audicin raises \u20ac1.6M\u2013$1.9M \u00b7 nervous system regulation wearables \u00b7 3 sources \u00b7 Finland",
+    "ai_rationale": "Audicin raises $1.9M for nervous system regulation wearables \u00b7 3 sources \u00b7 Finland tech funding available.",
     "triggers": [
       {
         "type": "funding",
@@ -209,8 +172,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260411_006",
-    "generated_date": "2026-04-11",
+    "id": "opp_20260412_005",
+    "generated_date": "2026-04-12",
     "company_id": "co_8b67990b5648",
     "investor_id": null,
     "person_id": null,
@@ -232,7 +195,7 @@
       "sources": 14,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$125M Series B \u00b7 API investment platform \u00b7 \u20ac640M valuation \u00b7 5 sources \u00b7 Sapphire Ventures and Tencent led.",
+    "ai_rationale": "$125M Series B \u00b7 API investment platform \u00b7 \u20ac640M valuation \u00b7 5 sources \u00b7 led by Sapphire Ventures and Tencent.",
     "triggers": [
       {
         "type": "funding",
@@ -249,8 +212,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260411_007",
-    "generated_date": "2026-04-11",
+    "id": "opp_20260412_006",
+    "generated_date": "2026-04-12",
     "company_id": "co_abf1f847ee36",
     "investor_id": null,
     "person_id": null,
@@ -269,7 +232,7 @@
       "sources": 6,
       "geo_weight": 1.0
     },
-    "ai_rationale": "PaperShell secures \u20ac40.3M EU grant \u00b7 bio-based composite production \u00b7 2 sources \u00b7 Sweden factory expansion.",
+    "ai_rationale": "\u20ac40.3M EU grant \u00b7 bio-based composite production \u00b7 2 sources \u00b7 Sweden factory expansion.",
     "triggers": [
       {
         "type": "growth",
@@ -279,7 +242,7 @@
       {
         "type": "funding",
         "text": "Swedish PaperShell secures \u20ac40.3M from EU Innovation Fund for bio-based\u2026",
-        "time": "2d ago"
+        "time": "3d ago"
       },
       {
         "type": "sector",
@@ -296,8 +259,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260411_008",
-    "generated_date": "2026-04-11",
+    "id": "opp_20260412_007",
+    "generated_date": "2026-04-12",
     "company_id": "co_1ef5b81d2e28",
     "investor_id": null,
     "person_id": null,
@@ -337,40 +300,36 @@
     "status": "new"
   },
   {
-    "id": "opp_20260411_009",
-    "generated_date": "2026-04-11",
-    "company_id": "co_3bc5495c",
+    "id": "opp_20260412_008",
+    "generated_date": "2026-04-12",
+    "company_id": "co_de6170cfbcc4",
     "investor_id": null,
     "person_id": null,
     "signal_ids": [
-      "sig_d38a0c1bf1e4",
-      "sig_00d3dcac8da5",
-      "sig_488088968cc2653b"
+      "sig_bed6754a7bbfa4d3",
+      "sig_113cdcf408784ff7",
+      "sig_dc23cf990903c42e",
+      "sig_9586c1e183421a9a"
     ],
     "contact_ids": [],
-    "opportunity_score": 52,
+    "opportunity_score": 55,
     "score_breakdown": {
-      "events": 12,
-      "capital": 6,
+      "events": 21,
+      "capital": 19,
       "momentum": 19,
-      "sources": 15,
-      "geo_weight": 1.0
+      "sources": 10,
+      "geo_weight": 0.8
     },
-    "ai_rationale": "\u20ac232-270K angel funding \u00b7 culturally intelligent AI therapy \u00b7 3 sources \u00b7 Albanian-Finnish team.",
+    "ai_rationale": "$170M Series C \u00b7 AI debt intelligence platform \u00b7 $1.3B valuation \u00b7 4 sources \u00b7 unicorn status achieved in Europe.",
     "triggers": [
       {
         "type": "funding",
-        "text": "raises \u20ac232.4k in angel funding for culturally intelligent AI mental health\u2026",
-        "time": "1mo ago"
+        "text": "raises \u00a3130m in AI debt intelligence platform funding (4 sources)",
+        "time": "1w ago"
       },
       {
         "type": "sector",
-        "text": "Active in HealthTech / Mental Health AI",
-        "time": ""
-      },
-      {
-        "type": "growth",
-        "text": "HQ: Helsinki, FI",
+        "text": "Active in FinTech / Credit Data / Financial Intelligence",
         "time": ""
       }
     ],
@@ -378,8 +337,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260411_010",
-    "generated_date": "2026-04-11",
+    "id": "opp_20260412_009",
+    "generated_date": "2026-04-12",
     "company_id": "co_c21b66a958ed",
     "investor_id": null,
     "person_id": null,
@@ -397,7 +356,7 @@
       "sources": 10,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac2.5M seed funding \u00b7 cellulose-based superabsorbent materials \u00b7 diapers and feminine hygiene \u00b7 3 sources",
+    "ai_rationale": "\u20ac2.5M seed funding \u00b7 cellulose-based superabsorbent materials for diapers and feminine hygiene \u00b7 3 sources",
     "triggers": [
       {
         "type": "funding",
@@ -414,8 +373,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260411_011",
-    "generated_date": "2026-04-11",
+    "id": "opp_20260412_010",
+    "generated_date": "2026-04-12",
     "company_id": "co_29f59a0423dc",
     "investor_id": null,
     "person_id": null,
@@ -438,7 +397,7 @@
       "sources": 14,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$40M seed round \u00b7 orbital transfer vehicles \u00b7 4 sources \u00b7 space sovereignty concerns cited.",
+    "ai_rationale": "$40M seed round \u00b7 satellite orbital transfer vehicles \u00b7 4 sources \u00b7 space sovereignty concerns cited.",
     "triggers": [
       {
         "type": "funding",
@@ -455,8 +414,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260411_012",
-    "generated_date": "2026-04-11",
+    "id": "opp_20260412_011",
+    "generated_date": "2026-04-12",
     "company_id": "co_0d40838f3b34",
     "investor_id": null,
     "person_id": null,
@@ -473,7 +432,7 @@
       "sources": 7,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac50M funding round \u00b7 quantum computing expansion \u00b7 public listing plan \u00b7 2 sources",
+    "ai_rationale": "\u20ac50M funding round \u00b7 quantum computing expansion \u00b7 2 sources \u00b7 public listing planned.",
     "triggers": [
       {
         "type": "funding",
@@ -495,8 +454,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260411_013",
-    "generated_date": "2026-04-11",
+    "id": "opp_20260412_012",
+    "generated_date": "2026-04-12",
     "company_id": "co_7f902752c315",
     "investor_id": null,
     "person_id": null,
@@ -519,7 +478,7 @@
       "sources": 10,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$15M Series A \u00b7 clinical trial data infrastructure \u00b7 4 sources \u00b7 AI agents for trial management.",
+    "ai_rationale": "$15M Series A \u00b7 clinical trial data infrastructure \u00b7 4 sources \u00b7 partnership note: Uber/Rivian signal unrelated to Rivia.",
     "triggers": [
       {
         "type": "funding",
@@ -546,8 +505,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260411_014",
-    "generated_date": "2026-04-11",
+    "id": "opp_20260412_013",
+    "generated_date": "2026-04-12",
     "company_id": "co_ee8c1ba75112",
     "investor_id": null,
     "person_id": null,
@@ -565,12 +524,12 @@
       "sources": 5,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$60M Series \u00b7 automated FX treasury \u00b7 3 sources \u00b7 Apax Digital led round at $325M valuation.",
+    "ai_rationale": "MillTech raises $60M from Apax Digital \u00b7 automated FX treasury \u00b7 3 sources \u00b7 North American expansion underway.",
     "triggers": [
       {
         "type": "funding",
         "text": "raises $60M from Apax Digital at $325M valuation for automated FX treasury (3\u2026",
-        "time": "today"
+        "time": "1d ago"
       },
       {
         "type": "sector",
@@ -582,8 +541,49 @@
     "status": "new"
   },
   {
-    "id": "opp_20260411_015",
-    "generated_date": "2026-04-11",
+    "id": "opp_20260412_014",
+    "generated_date": "2026-04-12",
+    "company_id": "co_3bc5495c",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_d38a0c1bf1e4",
+      "sig_00d3dcac8da5",
+      "sig_488088968cc2653b"
+    ],
+    "contact_ids": [],
+    "opportunity_score": 48,
+    "score_breakdown": {
+      "events": 8,
+      "capital": 6,
+      "momentum": 19,
+      "sources": 15,
+      "geo_weight": 1.0
+    },
+    "ai_rationale": "\u20ac233K angel funding \u00b7 culturally intelligent AI therapy \u00b7 3 sources \u00b7 Albanian-Finnish startup.",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "raises \u20ac232.4k in angel funding for culturally intelligent AI mental health\u2026",
+        "time": "1mo ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in HealthTech / Mental Health AI",
+        "time": ""
+      },
+      {
+        "type": "growth",
+        "text": "HQ: Helsinki, FI",
+        "time": ""
+      }
+    ],
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260412_015",
+    "generated_date": "2026-04-12",
     "company_id": "co_835fb9db4493",
     "investor_id": null,
     "person_id": null,
@@ -604,7 +604,7 @@
       "sources": 17,
       "geo_weight": 0.8
     },
-    "ai_rationale": "First Concepts raises ~$1M pre-seed \u00b7 AI-native creative workspace \u00b7 4 sources \u00b7 round oversubscribed.",
+    "ai_rationale": "First Concepts raises \u20ac871.7k-$1M pre-seed \u00b7 AI OS for creative agencies \u00b7 4 sources \u00b7 round oversubscribed.",
     "triggers": [
       {
         "type": "funding",
