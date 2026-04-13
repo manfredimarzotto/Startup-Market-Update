@@ -6310,5 +6310,29 @@
     "hq_city": null,
     "last_signal_at": "2026-04-11T07:30:27+00:00",
     "signal_count": 1
+  },
+  {
+    "id": "co_46c39011e79b",
+    "name": "Eka Ventures",
+    "domain": null,
+    "sector": null,
+    "sub_sector": null,
+    "stage": "",
+    "hq_country": "",
+    "hq_city": null,
+    "last_signal_at": "2026-04-13T05:00:56+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_785ee58e52ac",
+    "name": "Antler",
+    "domain": null,
+    "sector": "Venture Capital",
+    "sub_sector": "Early-stage investment platform",
+    "stage": "seed",
+    "hq_country": "",
+    "hq_city": null,
+    "last_signal_at": "2026-04-12T23:01:00+00:00",
+    "signal_count": 1
   }
 ]

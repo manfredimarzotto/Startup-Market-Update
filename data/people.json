@@ -4759,5 +4759,23 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "founder"
+  },
+  {
+    "id": "per_746f16de4fd1",
+    "name": "Adam French",
+    "role": "UK partner",
+    "company_id": "co_785ee58e52ac",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_c50595fd88a0",
+    "name": "Paul English",
+    "role": "Co-founder of Indeed",
+    "company_id": "co_8ed7ff25d0e5",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
   }
 ]

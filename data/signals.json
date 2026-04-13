@@ -25307,5 +25307,375 @@
       "per_2abcd3241c1a"
     ],
     "metadata": {}
+  },
+  {
+    "id": "sig_6031c9a003d5d5da",
+    "source_url": "https://sifted.eu/articles/eka-ventures-fund-ai-health-climate/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Eka Ventures raises \u00a380m fund to invest in startups embracing regulatory compliance",
+    "published_at": "2026-04-13T05:00:56+00:00",
+    "ingested_at": "2026-04-13T08:03:38.644539+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_46c39011e79b"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 101000000,
+      "amount_raw": "\u00a380m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_1cc197be918cad79",
+    "source_url": "https://tech.eu/2026/04/13/european-tech-weekly-recap-eur720m-in-deals-and-marchs-highlights/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "European tech sector tracked \u20ac720M in funding deals over 40 transactions in March",
+    "published_at": "2026-04-13T08:00:00+00:00",
+    "ingested_at": "2026-04-13T08:03:40.311601+00:00",
+    "geography": "DACH | Nordics | Benelux | UK | Southern Europe",
+    "country": "",
+    "ai_confidence": 0.45,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 792000000,
+      "amount_raw": "\u20ac720M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_b01c71d106f7df60",
+    "source_url": "https://tech.eu/2026/04/13/round-raises-6m-to-scale-its-ai-powered-finance-automation-platform/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Round raises $6M seed funding for AI-powered finance automation platform",
+    "published_at": "2026-04-13T07:35:00+00:00",
+    "ingested_at": "2026-04-13T08:03:41.745719+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_8ed7ff25d0e5"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 6000000,
+      "amount_raw": "$6M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_cd92fab8d2b81551",
+    "source_url": "https://techfundingnews.com/round-6m-seed-finance-automation/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Round raises $6M for AI-powered finance automation platform",
+    "published_at": "2026-04-13T07:00:00+00:00",
+    "ingested_at": "2026-04-13T08:03:43.343455+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_8ed7ff25d0e5"
+    ],
+    "investor_ids": [
+      "inv_44b36b7fab9b",
+      "inv_3712a5fd68aa"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 6000000,
+      "amount_raw": "$6M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_29f2ccaeb4849670",
+    "source_url": "https://techfundingnews.com/antler-uk-13-startups-pre-seed-investment/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Antler invests \u00a32.7M in 13 UK AI startups",
+    "published_at": "2026-04-12T23:01:00+00:00",
+    "ingested_at": "2026-04-13T08:03:45.042827+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_785ee58e52ac"
+    ],
+    "investor_ids": [
+      "inv_785ee58e52ac"
+    ],
+    "person_ids": [
+      "per_746f16de4fd1"
+    ],
+    "metadata": {
+      "amount_usd": 3405000,
+      "amount_raw": "\u00a32.7M",
+      "round_stage": "Seed",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_2b943e403e25df30",
+    "source_url": "https://arcticstartup.com/startup-events-do-not-have-an-access-problem/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Commentary on relevance problem at startup events rather than access issues",
+    "published_at": "2026-04-13T06:50:38+00:00",
+    "ingested_at": "2026-04-13T08:03:46.861547+00:00",
+    "geography": "Nordics",
+    "country": "",
+    "ai_confidence": 0.2,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_2e16b72a822be054",
+    "source_url": "https://www.uktech.news/funding/altilium-secures-18-5m-to-scale-ev-battery-recycling-20260413",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Altilium secures \u00a318.5m grant funding for EV battery recycling scale-up",
+    "published_at": "2026-04-13T08:00:55+00:00",
+    "ingested_at": "2026-04-13T08:03:48.617685+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_19df1b331b0c"
+    ],
+    "investor_ids": [
+      "inv_c6d98ffa6a60",
+      "inv_f3ed550c8a38",
+      "inv_553ed0d82fa8",
+      "inv_c33346e9132b"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 23312500,
+      "amount_raw": "\u00a318.5m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_904bffbc52b70124",
+    "source_url": "https://www.deutsche-startups.de/2026/04/13/15-aufstrebende-startups-die-mehr-menschen-kennen-sollten/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Deutsche Startups publishes listicle of 15 emerging startups worth knowing",
+    "published_at": "2026-04-13T06:15:00+00:00",
+    "ingested_at": "2026-04-13T08:03:50.274767+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_0a495de66dd78445",
+    "source_url": "https://siliconcanals.com/gen-a-happiest-year-stopped-trying/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": null,
+    "published_at": "2026-04-13T03:24:59+00:00",
+    "ingested_at": "2026-04-13T08:03:51.579016+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_721053a61bc21724",
+    "source_url": "https://siliconcanals.com/j-a-p-i-retired-two-years-ago-and-the-part-nobody-warned-me-about-isnt-the-boredom-or-the-loss-of-purpose-its-that-the-friendships-i-thought-were-mine-actually-belonged-to-the-job-and-the-job-took-the/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Opinion piece on social isolation after retirement and loss of work-based friendships",
+    "published_at": "2026-04-12T23:00:37+00:00",
+    "ingested_at": "2026-04-13T08:03:56.654974+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_26ebea174e13cb2d",
+    "source_url": "https://siliconcanals.com/gen-somewhere-between-1995-and-2010-patience-stopped-being-a-virtue-and-became-a-market-failure-and-we-built-an-entire-civilization-on-top-of-that-assumption/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Opinion piece on how impatience became infrastructure in digital civilization between 1995-2010",
+    "published_at": "2026-04-12T12:48:14+00:00",
+    "ingested_at": "2026-04-13T08:03:58.106853+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.1,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_3dc982998435b542",
+    "source_url": "https://thenextweb.com/news/round-6m-seed-ai-finance-automation-treasury-payroll",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Round raises $6M seed round led by Alstin Capital to automate finance workflows",
+    "published_at": "2026-04-13T07:48:48+00:00",
+    "ingested_at": "2026-04-13T08:03:59.969122+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_8ed7ff25d0e5"
+    ],
+    "investor_ids": [
+      "inv_d7bd673f4d77",
+      "inv_860ecffedc0f",
+      "inv_878cb66777a3",
+      "inv_8005104389cb"
+    ],
+    "person_ids": [
+      "per_c50595fd88a0"
+    ],
+    "metadata": {
+      "amount_usd": 6000000,
+      "amount_raw": "$6M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_d2fd053d9ca91c34",
+    "source_url": "https://thenextweb.com/news/mac-mini-mac-studio-out-of-stock-dram-shortage-m5-refresh",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_2_medium",
+    "headline": "Mac mini and Mac Studio high-RAM configurations go out of stock, suggesting potential M5 refresh or DRAM shortage",
+    "published_at": "2026-04-12T18:37:18+00:00",
+    "ingested_at": "2026-04-13T08:04:02.899848+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_3a7bd3e2360a"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_9b0e3c72a2017744",
+    "source_url": "https://thenextweb.com/news/openais-new-100-chatgpt-pro-plan-targets-claude-max-with-five-times-the-codex-access",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "OpenAI launches $100/month ChatGPT Pro plan targeting Claude Max with five times Codex access",
+    "published_at": "2026-04-12T18:11:22+00:00",
+    "ingested_at": "2026-04-13T08:04:04.537056+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7d3194f79e64"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_5edf59b9454ff362",
+    "source_url": "https://thenextweb.com/news/dario-amodei-london-united-kingdom",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Anthropic launches Claude integration for Microsoft Word with legal contract review as primary use case",
+    "published_at": "2026-04-12T15:35:28+00:00",
+    "ingested_at": "2026-04-13T08:04:06.893559+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_c70eca6b0f88"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_c80dd7193e85"
+    ],
+    "metadata": {}
   }
 ]
