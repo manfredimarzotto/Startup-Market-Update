@@ -4777,5 +4777,95 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "partner"
+  },
+  {
+    "id": "per_103e6b7fc0e1",
+    "name": "Jeff Stewart",
+    "role": "GPO Fund representative",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_9b920e10b3d2",
+    "name": "Abhinaya Prabhu",
+    "role": "Author",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": null
+  },
+  {
+    "id": "per_9b85a2547c53",
+    "name": "Markus Oksa",
+    "role": "Angel investor",
+    "company_id": "co_437053b9a1e2",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_7a05bc56c809",
+    "name": "Vesa Sironen",
+    "role": "Angel investor",
+    "company_id": "co_437053b9a1e2",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_8f0ceb29ab0d",
+    "name": "Guillermo Rauch",
+    "role": "CEO",
+    "company_id": "co_9d3508a8484e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_ff19d144d0db",
+    "name": "Angela Hodgson",
+    "role": "Founder",
+    "company_id": "co_2b88b2133cf0",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_2233d59ba2cb",
+    "name": "Scott Bessent",
+    "role": "Treasury Secretary",
+    "company_id": "co_c70eca6b0f88",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_b3edaf1350b9",
+    "name": "Jerome Powell",
+    "role": "Fed Chair",
+    "company_id": "co_c70eca6b0f88",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_157b53865d2d",
+    "name": "Mark Gurman",
+    "role": "Bloomberg Reporter",
+    "company_id": "co_3a7bd3e2360a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_ace82f545301",
+    "name": "Tim Cook",
+    "role": "CEO",
+    "company_id": "co_3a7bd3e2360a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
   }
 ]
