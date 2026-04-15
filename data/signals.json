@@ -26567,5 +26567,1239 @@
       "round_stage": "Growth Equity",
       "currency": "EUR"
     }
+  },
+  {
+    "id": "sig_83b3277174570733",
+    "source_url": "https://sifted.eu/articles/newfund-60m-brain-technologies/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Newfund raises \u20ac60m to back brain technologies",
+    "published_at": "2026-04-14T10:00:05+00:00",
+    "ingested_at": "2026-04-15T07:47:41.169052+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_e940ec950204"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 66000000,
+      "amount_raw": "\u20ac60m",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_784738282952801f",
+    "source_url": "https://tech.eu/2026/04/15/mission-control-games-launches-with-4m-to-develop-new-casual-gaming-sub-genres/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Mission Control Games launches with $4M pre-seed funding to develop casual gaming sub-genres",
+    "published_at": "2026-04-15T07:00:00+00:00",
+    "ingested_at": "2026-04-15T07:47:43.793718+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_8ed5ffcf9e5b"
+    ],
+    "investor_ids": [
+      "inv_737781796826"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4000000,
+      "amount_raw": "$4M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_be80fdbce64264af",
+    "source_url": "https://tech.eu/2026/04/14/europe-ramps-up-autonomous-warfare-capabilities-with-german-ukrainian-drone-production-pact/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Germany and Ukraine sign cooperation agreement for autonomous drone production via Auterion Airlogix Joint Venture",
+    "published_at": "2026-04-14T15:08:41+00:00",
+    "ingested_at": "2026-04-15T07:47:45.376273+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_6e6eef4118e6"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_b0aed39a1d838654",
+    "source_url": "https://tech.eu/2026/04/14/modern-relay-raises-3m-to-build-shared-infrastructure-layer-for-ai-agents-in-the-enterprise/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Modern Relay raises $3M from Point Nine, Emerge, Amino Collective and others for AI agent infrastructure",
+    "published_at": "2026-04-14T14:21:24+00:00",
+    "ingested_at": "2026-04-15T07:47:47.518142+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_05e87d1f16dd"
+    ],
+    "investor_ids": [
+      "inv_cd02a3c73323",
+      "inv_15275743f9d3",
+      "inv_a558dc437ecb",
+      "inv_44fa6b772efd"
+    ],
+    "person_ids": [
+      "per_f91b371d34e1",
+      "per_ebd24dcd966f"
+    ],
+    "metadata": {
+      "amount_usd": 3000000,
+      "amount_raw": "$3M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_c85b24404a0c8931",
+    "source_url": "https://tech.eu/2026/04/14/clean-food-group-raises-ps45m-to-scale-yeast-derived-oils-and-fats-from-food-waste/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Clean Food Group raises \u00a34.5M to scale yeast-derived oils and fats from food waste",
+    "published_at": "2026-04-14T14:11:44+00:00",
+    "ingested_at": "2026-04-15T07:47:49.270039+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_74f15beabd5d"
+    ],
+    "investor_ids": [
+      "inv_79e8f349695a",
+      "inv_7a6bf8e09cb7"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 5670000,
+      "amount_raw": "\u00a34.5M",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_3fbd838a41bdf3cd",
+    "source_url": "https://tech.eu/2026/04/14/helical-secures-10m-to-advance-virtual-ai-lab-for-pharma-research/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Helical raises $10M seed funding for virtual AI lab in pharma R&D",
+    "published_at": "2026-04-14T12:00:00+00:00",
+    "ingested_at": "2026-04-15T07:47:50.741940+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_10886804512a"
+    ],
+    "investor_ids": [
+      "inv_a04dcf1e008f"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 10000000,
+      "amount_raw": "$10M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_becb8a3c4e2227bc",
+    "source_url": "https://tech.eu/2026/04/14/traqcheck-raises-8m-to-turn-hiring-into-an-ai-run-workflow/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "TraqCheck raises $8M Series A to automate hiring workflows with AI",
+    "published_at": "2026-04-14T11:18:41+00:00",
+    "ingested_at": "2026-04-15T07:47:52.182906+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_94756f18e1aa"
+    ],
+    "investor_ids": [
+      "inv_e7f80ee4a1fd",
+      "inv_8209742a142c"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 8000000,
+      "amount_raw": "$8M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_b5b3ef1da5665348",
+    "source_url": "https://tech.eu/2026/04/14/stirlight-raises-ps125m-to-bring-real-time-quality-assurance-to-friction-stir-welding-at-scale/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "StirLight secures \u00a31.25M funding for real-time quality assurance in friction stir welding",
+    "published_at": "2026-04-14T10:57:49+00:00",
+    "ingested_at": "2026-04-15T07:47:53.909543+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7e412445cebe"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1562500,
+      "amount_raw": "\u00a31.25M",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_c8cef52ff461fb78",
+    "source_url": "https://tech.eu/2026/04/14/graftcode-secures-eur21m-to-simplify-ai-era-software-integration/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Graftcode raises \u20ac2.1M to simplify AI-era software integration",
+    "published_at": "2026-04-14T10:41:33+00:00",
+    "ingested_at": "2026-04-15T07:47:55.580649+00:00",
+    "geography": "DACH",
+    "country": "PL",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_23e7b233ebc7"
+    ],
+    "investor_ids": [
+      "inv_c31685da4f74",
+      "inv_4281d9a9f8c4"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2280000,
+      "amount_raw": "\u20ac2.1M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_e63d355af74f2919",
+    "source_url": "https://tech.eu/2026/04/14/stegra-bags-1-4bn-rescue-funding-package-for-giant-european-green-steel-plant/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Stegra secures \u20ac1.4bn rescue funding for European green-steel plant construction",
+    "published_at": "2026-04-14T10:10:00+00:00",
+    "ingested_at": "2026-04-15T07:47:57.893155+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_523fbad3a03d"
+    ],
+    "investor_ids": [
+      "inv_1a7b8dc8cd5b"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1512000000,
+      "amount_raw": "\u20ac1.4bn",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_8f12b1a4ccae11f5",
+    "source_url": "https://tech.eu/2026/04/14/obriy-ai-raises-500k-to-take-multi-agent-enterprise-automation-global/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Obriy AI raises $500K from N1 Investment Company for multi-agent enterprise automation",
+    "published_at": "2026-04-14T09:59:12+00:00",
+    "ingested_at": "2026-04-15T07:47:59.314438+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_a591c93f00ce"
+    ],
+    "investor_ids": [
+      "inv_684c62f85100"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 500000,
+      "amount_raw": "$500,000",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_09c6933ef45ec23a",
+    "source_url": "https://tech.eu/2026/04/14/locai-labs-and-civo-launch-project-mercury-to-end-uk-reliance-on-foreign-ai/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Locai Labs and Civo launch Project Mercury partnership to reduce UK reliance on foreign AI",
+    "published_at": "2026-04-14T09:21:00+00:00",
+    "ingested_at": "2026-04-15T07:48:00.793726+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_12e8d50d4b51"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_5a8bfc7b36fb807c",
+    "source_url": "https://tech.eu/2026/04/14/wamo-closes-eur10m-series-a-to-power-european-smes/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Wamo closes \u20ac10M Series A to expand in Italy and Nordic region",
+    "published_at": "2026-04-14T09:15:00+00:00",
+    "ingested_at": "2026-04-15T07:48:02.207015+00:00",
+    "geography": "Southern Europe",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_0eb567a3ac28"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 10800000,
+      "amount_raw": "\u20ac10M",
+      "round_stage": "Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_842f0b4468076bed",
+    "source_url": "https://tech.eu/2026/04/14/europes-biggest-seed-rounds-of-q1-2026-top-tech-startups-to-watch/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "European tech companies raised \u20ac20.2 billion across 855 deals in Q1 2026",
+    "published_at": "2026-04-14T09:00:00+00:00",
+    "ingested_at": "2026-04-15T07:48:04.569149+00:00",
+    "geography": "Nordics | DACH | UK | Benelux | Southern Europe",
+    "country": "",
+    "ai_confidence": 0.55,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 21954000000,
+      "amount_raw": "\u20ac20.2 billion",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_d121f7d068fafba8",
+    "source_url": "https://tech.eu/2026/04/14/peak-quantum-reaches-eur5m-in-total-funding-for-quantum-chips/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Peak Quantum raises \u20ac2.2M in pre-seed funding for superconducting quantum processor technology",
+    "published_at": "2026-04-14T07:49:18+00:00",
+    "ingested_at": "2026-04-15T07:48:07.072195+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_334bf6fe1051"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2376000,
+      "amount_raw": "\u20ac2.2M",
+      "round_stage": "Pre-Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_3006d90e81e0fc3f",
+    "source_url": "https://news.crunchbase.com/venture/funding-picked-up-ai-led-europe-q1-2026/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_1_strong",
+    "headline": "European venture funding reached $17.6B in Q1 2026, up 30% YoY, with AI claiming over 50% of total funding",
+    "published_at": "2026-04-14T11:00:55+00:00",
+    "ingested_at": "2026-04-15T07:48:08.977895+00:00",
+    "geography": "DACH | Nordics | Benelux | UK | Southern Europe",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 17600000000,
+      "amount_raw": "$17.6 billion",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_7378574a2e44d3ca",
+    "source_url": "https://techfundingnews.com/10-uk-healthtech-startups-transforming-nhs-parkwalk/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "10 UK startups revolutionising patient care through digital health",
+    "published_at": "2026-04-15T07:00:00+00:00",
+    "ingested_at": "2026-04-15T07:48:10.439705+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_10555e0e3c6197cc",
+    "source_url": "https://techfundingnews.com/agriodor-15m-series-a-crop-protection/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Agriodor raises \u20ac15M from Cr\u00e9dit Mutuel Impact for sustainable pesticides",
+    "published_at": "2026-04-15T06:00:00+00:00",
+    "ingested_at": "2026-04-15T07:48:11.911415+00:00",
+    "geography": "Southern Europe",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_23ef414f0429"
+    ],
+    "investor_ids": [
+      "inv_0c4f6602c637"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 16500000,
+      "amount_raw": "\u20ac15M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_811a8d368d91268c",
+    "source_url": "https://techfundingnews.com/synera-35m-series-b-ai-engineering-agents/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Revaia backs Synera's \u20ac35M round to integrate AI agents into engineering workflows",
+    "published_at": "2026-04-14T15:00:15+00:00",
+    "ingested_at": "2026-04-15T07:48:13.844089+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ea005aa2517a"
+    ],
+    "investor_ids": [
+      "inv_45f82cdd4980"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 38500000,
+      "amount_raw": "\u20ac35M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_6672c1ee67cbfe07",
+    "source_url": "https://techfundingnews.com/traqcheck-8m-series-a-hr-ai-agents/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "TraqCheck secures $8M funding from IvyCap Ventures to automate hiring processes",
+    "published_at": "2026-04-14T13:37:25+00:00",
+    "ingested_at": "2026-04-15T07:48:15.334423+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_94756f18e1aa"
+    ],
+    "investor_ids": [
+      "inv_e7f80ee4a1fd"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 8000000,
+      "amount_raw": "$8M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_7feef3f709172d8c",
+    "source_url": "https://techfundingnews.com/neato-25m-2p-commerce-funding/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Neato raises $25M from Advantage Capital to expand 2P eCommerce model beyond Amazon",
+    "published_at": "2026-04-14T13:00:00+00:00",
+    "ingested_at": "2026-04-15T07:48:16.863227+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_7f3b39d3efba"
+    ],
+    "investor_ids": [
+      "inv_ed6cda8e8df7"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 25000000,
+      "amount_raw": "$25M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_97bd9228541c3b79",
+    "source_url": "https://techfundingnews.com/japan-rapidus-4b-funding-semiconductors/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Japan invests $4 billion in Rapidus to strengthen semiconductor supply chain",
+    "published_at": "2026-04-14T12:22:02+00:00",
+    "ingested_at": "2026-04-15T07:48:18.524121+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_41322839e489"
+    ],
+    "investor_ids": [
+      "inv_928b11df8b13"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4000000000,
+      "amount_raw": "$4B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_e43242d386b5ac41",
+    "source_url": "https://techfundingnews.com/collide-capital-95m-fund-ii/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Collide Capital closes $95M fund to back early-stage fintech and supply chain startups",
+    "published_at": "2026-04-14T11:52:45+00:00",
+    "ingested_at": "2026-04-15T07:48:20.208616+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_11af29e51ad0"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 95000000,
+      "amount_raw": "$95M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_20866b1dff90e0d9",
+    "source_url": "https://arcticstartup.com/a-lot-of-startup-activity-is-built-around-visibility/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Opinion piece on startup ecosystem building emphasizing access over visibility",
+    "published_at": "2026-04-15T06:29:13+00:00",
+    "ingested_at": "2026-04-15T07:48:21.742367+00:00",
+    "geography": "Nordics",
+    "country": "",
+    "ai_confidence": 0.2,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_761cb5eab040a08a",
+    "source_url": "https://www.uktech.news/news/applications-open-for-natwests-100k-accelerator-pitch-20260414",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "NatWest launches \u00a3100k Accelerator Pitch competition with three regional finals",
+    "published_at": "2026-04-14T14:00:08+00:00",
+    "ingested_at": "2026-04-15T07:48:23.308227+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_61d452998bdc"
+    ],
+    "investor_ids": [
+      "inv_61d452998bdc"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 126000,
+      "amount_raw": "\u00a3100,000",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_00e9477a56c4e504",
+    "source_url": "https://www.uktech.news/funding/traqcheck-raises-5-9m-to-scale-its-ai-agents-for-recruitment-20260414",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "TraqCheck raises \u00a35.9m Series A led by IvyCap Ventures for AI recruitment agents",
+    "published_at": "2026-04-14T13:00:31+00:00",
+    "ingested_at": "2026-04-15T07:48:24.832902+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_94756f18e1aa"
+    ],
+    "investor_ids": [
+      "inv_e7f80ee4a1fd",
+      "inv_8209742a142c"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 7425000,
+      "amount_raw": "\u00a35.9m",
+      "round_stage": "Series A",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_31c48aa9b6839f5c",
+    "source_url": "https://www.uktech.news/ai/ralio-raises-1-8m-for-its-agentic-business-payments-platform-20260414",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Ralio raises \u00a31.8m pre-seed funding for AI agent payments platform",
+    "published_at": "2026-04-14T10:00:01+00:00",
+    "ingested_at": "2026-04-15T07:48:27.055643+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_948aad5d74dc"
+    ],
+    "investor_ids": [
+      "inv_79fbc438f7d5",
+      "inv_16e151e03040",
+      "inv_878cb66777a3",
+      "inv_385433d0",
+      "inv_c6906a88a1c9",
+      "inv_47f25afefac5",
+      "inv_d74b904f16a7",
+      "inv_747dec29e700",
+      "inv_785ee58e52ac"
+    ],
+    "person_ids": [
+      "per_d3e04c7bf30c"
+    ],
+    "metadata": {
+      "amount_usd": 2280000,
+      "amount_raw": "\u00a31.8m",
+      "round_stage": "Seed",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_aa9a08216cdc4fc3",
+    "source_url": "https://www.uktech.news/partnership/complying-with-smart-energy-data-governance-20260414",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "UK energy sector discusses smart data governance compliance for net zero and cost reduction",
+    "published_at": "2026-04-14T09:00:46+00:00",
+    "ingested_at": "2026-04-15T07:48:28.597117+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_7c3289ef593cc334",
+    "source_url": "https://techcrunch.com/2026/04/14/financial-risk-management-platform-pillar-raises-20m-seed-in-round-led-by-a16z/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Financial risk management platform Pillar raises $20M seed round led by a16z",
+    "published_at": "2026-04-14T16:05:00+00:00",
+    "ingested_at": "2026-04-15T07:48:30.365113+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_14cc3e8d95ce"
+    ],
+    "investor_ids": [
+      "inv_e6eaf8f7a648"
+    ],
+    "person_ids": [
+      "per_64c46dff"
+    ],
+    "metadata": {
+      "amount_usd": 20000000,
+      "amount_raw": "$20M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_f2b159ecd8335c1e",
+    "source_url": "https://www.deutsche-startups.de/2026/04/15/vcs-die-jetzt-millionen-investieren/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "hiring_wave",
+    "signal_tier": "tier_3_weak",
+    "headline": "German startups and tech companies posting multiple job openings across engineering, sales, and finance roles",
+    "published_at": "2026-04-15T06:15:00+00:00",
+    "ingested_at": "2026-04-15T07:48:32.023440+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_c7f1bb190a799578",
+    "source_url": "https://www.deutsche-startups.de/2026/04/14/schwarz-gruppe-setzt-auf-1global-nesto-erhalt-11-millionen-lucy-group-kauft-nuventura/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Lucy Group acquires Nuventura; Schwarz-Gruppe partners with 1Global; Nesto raises \u20ac11 million",
+    "published_at": "2026-04-14T13:55:00+00:00",
+    "ingested_at": "2026-04-15T07:48:33.560601+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.45,
+    "company_ids": [
+      "co_3875d6693110"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 12000000,
+      "amount_raw": "\u20ac11 million",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_695bb51affa477d6",
+    "source_url": "https://www.deutsche-startups.de/2026/04/14/5-neue-startups-noxon-janus-b2b-hero-playace-finto/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Five new startups featured: Noxon, Janus, B2B Hero, PlayAce, Finto",
+    "published_at": "2026-04-14T11:55:00+00:00",
+    "ingested_at": "2026-04-15T07:48:35.128910+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.2,
+    "company_ids": [
+      "co_62fa77464526"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_af8989f7fbe12f6c",
+    "source_url": "https://www.deutsche-startups.de/2026/04/14/quandoo-aleph-alpha-cohere-ames-foundation-klavierloft/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Startup Ticker featuring Quandoo, Aleph Alpha, Cohere, Ames Foundation, and KlavierLoft",
+    "published_at": "2026-04-14T09:55:00+00:00",
+    "ingested_at": "2026-04-15T07:48:36.809227+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_dd9bfc39e27d6f40",
+    "source_url": "https://siliconcanals.com/b-bt-im-42-and-the-steve-jobs-quote-about-doing-what-you-love-has-been-on-my-desk-for-eight-years-and-last-month-i-finally-admitted-that-i-dont-actually-love-what-i-do-i-just-loved-the-idea-of-being-s/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Opinion piece on work satisfaction and identity in tech culture",
+    "published_at": "2026-04-15T03:47:07+00:00",
+    "ingested_at": "2026-04-15T07:48:38.460856+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.1,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_e28bde4d9e57"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_5e10f31a888d355c",
+    "source_url": "https://siliconcanals.com/b-bt-psychology-says-people-who-are-single-in-their-40s-arent-commitment-phobic-or-too-picky-theyve-developed-a-relationship-with-solitude-that-makes-most-partnerships-feel-like-a-downgrade-and-that-r/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": null,
+    "published_at": "2026-04-15T03:35:24+00:00",
+    "ingested_at": "2026-04-15T07:48:39.760703+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_761b97fa819192db",
+    "source_url": "https://techround.co.uk/news/uk-workers-losing-jobs-not-ai-related/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "79% of UK workers fear job loss due to economic concerns, not AI",
+    "published_at": "2026-04-14T10:00:35+00:00",
+    "ingested_at": "2026-04-15T07:48:41.908250+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.15,
+    "company_ids": [
+      "co_302cc0c54e12"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_aeed70f081a7"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_35a3a351cc59a9b7",
+    "source_url": "https://techround.co.uk/news/scail-launches-to-help-regulated-saas-businesses-navigate-the-ai-perfect-storm/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Scail launches as AI growth partner for regulated SaaS businesses ahead of EU AI Act enforcement",
+    "published_at": "2026-04-14T10:00:19+00:00",
+    "ingested_at": "2026-04-15T07:48:44.110524+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ff132ba6c7d7"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_febe8ca36359",
+      "per_077b396a10c1"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_7de5be550b0f1eab",
+    "source_url": "https://techround.co.uk/interviews/joao-moura-ceo-co-founder-fraudio/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Fraudio CEO Jo\u00e3o Moura discusses transaction risk platform growth and 4x revenue increase in 2025",
+    "published_at": "2026-04-14T08:30:29+00:00",
+    "ingested_at": "2026-04-15T07:48:46.467561+00:00",
+    "geography": "Europe",
+    "country": "",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_a15f8b4fc476"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_a57bdbb81bfb"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_819e3306ad7431f5",
+    "source_url": "https://thenextweb.com/news/fluidstack-is-in-talks-to-raise-1b-at-an-18b-valuation",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "FluidStack in talks to raise $1B at $18B valuation with Jane Street and Situational Awareness",
+    "published_at": "2026-04-15T07:14:43+00:00",
+    "ingested_at": "2026-04-15T07:48:48.346467+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_c10ef8fac87c"
+    ],
+    "investor_ids": [
+      "inv_fff54f474949",
+      "inv_11740cc8809a"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1000000000,
+      "amount_raw": "$1B",
+      "currency": "USD",
+      "valuation": 18000000000
+    }
+  },
+  {
+    "id": "sig_b5e228d8c9c084b3",
+    "source_url": "https://thenextweb.com/news/anthropic-pentagon-ban-ai-governance-europe",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "US Pentagon designates Anthropic a supply chain risk to national security",
+    "published_at": "2026-04-15T07:02:09+00:00",
+    "ingested_at": "2026-04-15T07:48:50.107742+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_c70eca6b0f88"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_5c0974d18fb1"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_756b3b978dd1a509",
+    "source_url": "https://thenextweb.com/news/youtube-livestream-ads-peak-engagement-pause-super-chat",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "YouTube launches automatic ad pause feature during peak chat engagement in livestreams",
+    "published_at": "2026-04-14T19:24:09+00:00",
+    "ingested_at": "2026-04-15T07:48:52.576091+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_24e6654b"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_a6ed4d89d7a28850",
+    "source_url": "https://thenextweb.com/news/appdirect-acquires-partnerstack-partner-led-growth-b2b-commerce",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "AppDirect acquires PartnerStack to expand B2B software distribution platform",
+    "published_at": "2026-04-14T18:57:56+00:00",
+    "ingested_at": "2026-04-15T07:48:54.227527+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_37a9a152c42f"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_6f36de28bde5a2c4",
+    "source_url": "https://thenextweb.com/news/synera-40m-series-b-agentic-ai-engineering",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Synera raises $40M Series B for agentic AI in engineering workflows",
+    "published_at": "2026-04-14T13:01:35+00:00",
+    "ingested_at": "2026-04-15T07:48:55.729722+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ea005aa2517a"
+    ],
+    "investor_ids": [
+      "inv_45f82cdd4980",
+      "inv_f55a85b2f2eb",
+      "inv_655a5eb3d8ca"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 40000000,
+      "amount_raw": "$40M",
+      "round_stage": "Series B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_7d3e05e80f81f4c6",
+    "source_url": "https://thenextweb.com/news/amazon-agrees-to-acquire-globalstar-in-an-11-6b-deal",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Amazon acquires Globalstar for $11.6 billion to launch direct-to-device satellite services",
+    "published_at": "2026-04-14T12:40:10+00:00",
+    "ingested_at": "2026-04-15T07:48:57.330482+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_cbc62794"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 11600000000,
+      "amount_raw": "$11.6B",
+      "currency": "USD",
+      "valuation": 11600000000
+    }
+  },
+  {
+    "id": "sig_30c3805638acf700",
+    "source_url": "https://thenextweb.com/news/hexagon-acquires-waygate-technologies-baker-hughes-1-45-billion",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Hexagon acquires Waygate Technologies from Baker Hughes for $1.45 billion",
+    "published_at": "2026-04-14T12:17:57+00:00",
+    "ingested_at": "2026-04-15T07:48:58.728979+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_866091acb5ff"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1450000000,
+      "amount_raw": "$1.45 billion",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_7de929212d5b6dd8",
+    "source_url": "https://thenextweb.com/news/helical-10m-seed-bio-foundation-models-pharma-ai",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Helical raises $10M seed round led by redalpine to commercialize bio foundation models for pharma",
+    "published_at": "2026-04-14T12:00:36+00:00",
+    "ingested_at": "2026-04-15T07:49:00.558408+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_10886804512a"
+    ],
+    "investor_ids": [
+      "inv_a04dcf1e008f"
+    ],
+    "person_ids": [
+      "per_38b762309abd",
+      "per_c0fa508a1683"
+    ],
+    "metadata": {
+      "amount_usd": 10000000,
+      "amount_raw": "$10M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_d263b33c4bc0c1f8",
+    "source_url": "https://thenextweb.com/news/france-quantum-computing-alice-bob-proqcima-europe",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "France commits \u20ac500 million government funding to quantum computing startups",
+    "published_at": "2026-04-14T11:46:34+00:00",
+    "ingested_at": "2026-04-15T07:49:03.946498+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_bb56ea181cc8"
+    ],
+    "investor_ids": [
+      "inv_266b5b53f849"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 540000000,
+      "amount_raw": "\u20ac500 million",
+      "currency": "EUR"
+    }
   }
 ]

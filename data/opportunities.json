@@ -1,7 +1,7 @@
 [
   {
-    "id": "opp_20260414_001",
-    "generated_date": "2026-04-14",
+    "id": "opp_20260415_001",
+    "generated_date": "2026-04-15",
     "company_id": "co_8ed7ff25d0e5",
     "investor_id": null,
     "person_id": null,
@@ -24,12 +24,12 @@
       "sources": 17,
       "geo_weight": 1.0
     },
-    "ai_rationale": "Groundhawk raises \u20ac2M seed \u00b7 AI-powered 3D underground infrastructure mapping \u00b7 1 source.",
+    "ai_rationale": "\u20ac2M seed round \u00b7 AI 3D underground infrastructure mapping \u00b7 5 sources \u00b7 funding amounts vary \u20ac2M-$6M across reports.",
     "triggers": [
       {
         "type": "funding",
         "text": "Round raises $6M for AI-powered finance automation platform (5 sources)",
-        "time": "1d ago"
+        "time": "2d ago"
       },
       {
         "type": "sector",
@@ -41,8 +41,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260414_002",
-    "generated_date": "2026-04-14",
+    "id": "opp_20260415_002",
+    "generated_date": "2026-04-15",
     "company_id": null,
     "investor_id": "inv_c6d98ffa6a60",
     "person_id": null,
@@ -65,12 +65,12 @@
       "sources": 2,
       "geo_weight": 0.8
     },
-    "ai_rationale": "\u00a32bn quantum computing investment \u00b7 \u00a31.7bn northern tech expansion \u00b7 \u00a320m local tech clusters \u00b7 5 sources \u00b7 UK government procurement programme active.",
+    "ai_rationale": "\u00a32bn quantum computing investment \u00b7 \u00a31.7bn northern tech expansion \u00b7 \u00a320m local tech clusters \u00b7 5 sources \u00b7 UK government procurement focus.",
     "triggers": [
       {
         "type": "funding",
         "text": "announces \u00a32bn quantum technology investment (2 sources)",
-        "time": "1w ago"
+        "time": "2w ago"
       },
       {
         "type": "growth",
@@ -87,8 +87,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260414_003",
-    "generated_date": "2026-04-14",
+    "id": "opp_20260415_003",
+    "generated_date": "2026-04-15",
     "company_id": "co_232528f9daab",
     "investor_id": null,
     "person_id": null,
@@ -133,8 +133,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260414_004",
-    "generated_date": "2026-04-14",
+    "id": "opp_20260415_004",
+    "generated_date": "2026-04-15",
     "company_id": "co_655f62e663d8",
     "investor_id": null,
     "person_id": null,
@@ -156,12 +156,12 @@
       "sources": 10,
       "geo_weight": 1.0
     },
-    "ai_rationale": "Audicin raises $1.9M\u2013\u20ac1.6M \u00b7 nervous system regulation wearables \u00b7 3 sources \u00b7 Business Finland backing.",
+    "ai_rationale": "Audicin raises $1.9M\u2013\u20ac1.6M \u00b7 nervous system regulation wearables \u00b7 3 sources \u00b7 Finnish startup.",
     "triggers": [
       {
         "type": "funding",
         "text": "raises $1.9M to expand real-time nervous system tech (3 sources)",
-        "time": "1w ago"
+        "time": "2w ago"
       },
       {
         "type": "sector",
@@ -173,8 +173,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260414_005",
-    "generated_date": "2026-04-14",
+    "id": "opp_20260415_005",
+    "generated_date": "2026-04-15",
     "company_id": "co_8b67990b5648",
     "investor_id": null,
     "person_id": null,
@@ -213,8 +213,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260414_006",
-    "generated_date": "2026-04-14",
+    "id": "opp_20260415_006",
+    "generated_date": "2026-04-15",
     "company_id": "co_101e32680e4b",
     "investor_id": null,
     "person_id": null,
@@ -253,8 +253,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260414_007",
-    "generated_date": "2026-04-14",
+    "id": "opp_20260415_007",
+    "generated_date": "2026-04-15",
     "company_id": "co_1ef5b81d2e28",
     "investor_id": null,
     "person_id": null,
@@ -272,7 +272,7 @@
       "sources": 10,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac1.5M raised \u00b7 web testing platform for AI-era development \u00b7 3 sources \u00b7 Alliance VC and Antler backers.",
+    "ai_rationale": "\u20ac1.5M raised \u00b7 web testing automation platform \u00b7 3 sources \u00b7 AI-era development focus.",
     "triggers": [
       {
         "type": "funding",
@@ -294,8 +294,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260414_008",
-    "generated_date": "2026-04-14",
+    "id": "opp_20260415_008",
+    "generated_date": "2026-04-15",
     "company_id": "co_de6170cfbcc4",
     "investor_id": null,
     "person_id": null,
@@ -314,7 +314,7 @@
       "sources": 10,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$170M Series C \u00b7 AI debt intelligence platform \u00b7 $1.3B valuation \u00b7 4 sources \u00b7 European fintech unicorn.",
+    "ai_rationale": "$170M Series C \u00b7 AI debt intelligence platform \u00b7 $1.3B unicorn valuation \u00b7 4 sources",
     "triggers": [
       {
         "type": "funding",
@@ -331,8 +331,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260414_009",
-    "generated_date": "2026-04-14",
+    "id": "opp_20260415_009",
+    "generated_date": "2026-04-15",
     "company_id": "co_abf1f847ee36",
     "investor_id": null,
     "person_id": null,
@@ -361,7 +361,7 @@
       {
         "type": "funding",
         "text": "Swedish PaperShell secures \u20ac40.3M from EU Innovation Fund for bio-based\u2026",
-        "time": "5d ago"
+        "time": "6d ago"
       },
       {
         "type": "sector",
@@ -378,8 +378,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260414_010",
-    "generated_date": "2026-04-14",
+    "id": "opp_20260415_010",
+    "generated_date": "2026-04-15",
     "company_id": "co_46c39011e79b",
     "investor_id": null,
     "person_id": null,
@@ -402,15 +402,15 @@
       {
         "type": "funding",
         "text": "Eka closes $107M Fund II, becoming UK's largest early-stage impact VC (3\u2026",
-        "time": "today"
+        "time": "1d ago"
       }
     ],
     "entity_type": "company",
     "status": "new"
   },
   {
-    "id": "opp_20260414_011",
-    "generated_date": "2026-04-14",
+    "id": "opp_20260415_011",
+    "generated_date": "2026-04-15",
     "company_id": "co_c21b66a958ed",
     "investor_id": null,
     "person_id": null,
@@ -428,7 +428,7 @@
       "sources": 10,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac2.5M seed funding \u00b7 cellulose-based superabsorbent materials \u00b7 diapers, feminine hygiene, farming \u00b7 3 sources.",
+    "ai_rationale": "\u20ac2.5M seed funding \u00b7 cellulose-based superabsorbent materials \u00b7 diapers, feminine hygiene, farming \u00b7 3 sources",
     "triggers": [
       {
         "type": "funding",
@@ -445,8 +445,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260414_012",
-    "generated_date": "2026-04-14",
+    "id": "opp_20260415_012",
+    "generated_date": "2026-04-15",
     "company_id": "co_29f59a0423dc",
     "investor_id": null,
     "person_id": null,
@@ -469,7 +469,7 @@
       "sources": 14,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$40M seed round \u00b7 satellite orbital transfer vehicles \u00b7 4 sources \u00b7 space sovereignty concerns cited.",
+    "ai_rationale": "$40M seed round \u00b7 orbital transfer vehicle technology \u00b7 4 sources \u00b7 space sovereignty concerns noted.",
     "triggers": [
       {
         "type": "funding",
@@ -486,48 +486,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260414_013",
-    "generated_date": "2026-04-14",
-    "company_id": "co_0d40838f3b34",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_1998f8e39d476f73",
-      "sig_3be2b450d1bdbbc5"
-    ],
-    "contact_ids": [],
-    "opportunity_score": 50,
-    "score_breakdown": {
-      "events": 13,
-      "capital": 16,
-      "momentum": 14,
-      "sources": 7,
-      "geo_weight": 1.0
-    },
-    "ai_rationale": "\u20ac50M funding round \u00b7 quantum computing expansion \u00b7 2 sources \u00b7 public listing planned.",
-    "triggers": [
-      {
-        "type": "funding",
-        "text": "secures \u20ac50M funding from BlackRock-managed funds (2 sources)",
-        "time": "2w ago"
-      },
-      {
-        "type": "sector",
-        "text": "Active in DeepTech / Quantum Computing",
-        "time": ""
-      },
-      {
-        "type": "growth",
-        "text": "HQ: Helsinki, FI",
-        "time": ""
-      }
-    ],
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260414_014",
-    "generated_date": "2026-04-14",
+    "id": "opp_20260415_013",
+    "generated_date": "2026-04-15",
     "company_id": "co_7f902752c315",
     "investor_id": null,
     "person_id": null,
@@ -550,7 +510,7 @@
       "sources": 10,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$15M Series A \u00b7 clinical trial data AI \u00b7 4 sources \u00b7 note: one signal references Rivian/Uber, not Rivia.",
+    "ai_rationale": "$15M Series A \u00b7 clinical trial data infrastructure \u00b7 4 sources \u00b7 note: one signal references Rivian/Uber, not Rivia.",
     "triggers": [
       {
         "type": "funding",
@@ -577,8 +537,48 @@
     "status": "new"
   },
   {
-    "id": "opp_20260414_015",
-    "generated_date": "2026-04-14",
+    "id": "opp_20260415_014",
+    "generated_date": "2026-04-15",
+    "company_id": "co_0d40838f3b34",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_1998f8e39d476f73",
+      "sig_3be2b450d1bdbbc5"
+    ],
+    "contact_ids": [],
+    "opportunity_score": 49,
+    "score_breakdown": {
+      "events": 12,
+      "capital": 16,
+      "momentum": 14,
+      "sources": 7,
+      "geo_weight": 1.0
+    },
+    "ai_rationale": "\u20ac50M funding round \u00b7 quantum computing expansion \u00b7 2 sources \u00b7 Finland-based company pursuing public listing.",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "secures \u20ac50M funding from BlackRock-managed funds (2 sources)",
+        "time": "2w ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in DeepTech / Quantum Computing",
+        "time": ""
+      },
+      {
+        "type": "growth",
+        "text": "HQ: Helsinki, FI",
+        "time": ""
+      }
+    ],
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260415_015",
+    "generated_date": "2026-04-15",
     "company_id": "co_ee8c1ba75112",
     "investor_id": null,
     "person_id": null,
@@ -596,12 +596,12 @@
       "sources": 5,
       "geo_weight": 0.8
     },
-    "ai_rationale": "MillTech raises $60M from Apax Digital \u00b7 automated FX treasury \u00b7 3 sources \u00b7 \u00a344.8m for North American expansion.",
+    "ai_rationale": "$60M Series \u00b7 automated FX treasury \u00b7 3 sources \u00b7 North American expansion underway.",
     "triggers": [
       {
         "type": "funding",
         "text": "raises $60M from Apax Digital at $325M valuation for automated FX treasury (3\u2026",
-        "time": "4d ago"
+        "time": "5d ago"
       },
       {
         "type": "sector",

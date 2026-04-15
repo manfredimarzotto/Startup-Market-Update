@@ -4867,5 +4867,95 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_f91b371d34e1",
+    "name": "Charlie Songhurst",
+    "role": "board member at Meta",
+    "company_id": "co_05e87d1f16dd",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_ebd24dcd966f",
+    "name": "Michael Boehler",
+    "role": "former (role not specified)",
+    "company_id": "co_05e87d1f16dd",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_d3e04c7bf30c",
+    "name": "Alan Morgan",
+    "role": "fintech investor",
+    "company_id": "co_948aad5d74dc",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_e28bde4d9e57",
+    "name": "Steve Jobs",
+    "role": "founder",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_aeed70f081a7",
+    "name": "Dr. Jasmine Escalera",
+    "role": "Career Expert",
+    "company_id": "co_302cc0c54e12",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_febe8ca36359",
+    "name": "Alastair Cole",
+    "role": "Co-founder, Value Partner \u2013 Governance",
+    "company_id": "co_ff132ba6c7d7",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_a57bdbb81bfb",
+    "name": "Jo\u00e3o Moura",
+    "role": "CEO and Co-Founder",
+    "company_id": "co_a15f8b4fc476",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_5c0974d18fb1",
+    "name": "Pete Hegseth",
+    "role": "US Secretary of Defense",
+    "company_id": "co_c70eca6b0f88",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_38b762309abd",
+    "name": "CEO of Cohere",
+    "role": "Angel investor",
+    "company_id": "co_10886804512a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_c0fa508a1683",
+    "name": "CEO of HuggingFace",
+    "role": "Angel investor",
+    "company_id": "co_10886804512a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
   }
 ]
