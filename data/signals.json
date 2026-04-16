@@ -27801,5 +27801,1390 @@
       "amount_raw": "\u20ac500 million",
       "currency": "EUR"
     }
+  },
+  {
+    "id": "sig_d6f995f89917bce7",
+    "source_url": "https://sifted.eu/articles/flare-3-6m-pre-seed-exclusive/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "20VC leads $3.6m pre-seed funding for Flare, a 'TikTok meets Wikipedia' startup",
+    "published_at": "2026-04-16T05:00:19+00:00",
+    "ingested_at": "2026-04-16T07:47:46.269523+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_7797993a4b23"
+    ],
+    "investor_ids": [
+      "inv_a8179f3812c3"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3600000,
+      "amount_raw": "$3.6m",
+      "round_stage": "Pre-Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_536e63366ea36762",
+    "source_url": "https://sifted.eu/articles/self-driving-scaleup-wayve-raises-fresh-funds/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Wayve raises fresh funding from AMD, Qualcomm and Arm",
+    "published_at": "2026-04-15T15:46:02+00:00",
+    "ingested_at": "2026-04-16T07:47:49.030007+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_1adc12a65fe6"
+    ],
+    "investor_ids": [
+      "inv_22e4e42d",
+      "inv_2ef2ee8a98b5",
+      "inv_6a5c7112cb61"
+    ],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_320c3b5cca3363e4",
+    "source_url": "https://sifted.eu/articles/sumup-potential-london-ipo/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "SumUp engages top banks for potential London IPO",
+    "published_at": "2026-04-15T10:47:15+00:00",
+    "ingested_at": "2026-04-16T07:47:50.537031+00:00",
+    "geography": "UK",
+    "country": "DE",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_00201cf717c0"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_72c92c774cf20715",
+    "source_url": "https://tech.eu/2026/04/16/outcraft-ai-raises-eur2m-to-support-autonomous-sales-and-revenue-agents/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Outcraft AI raises \u20ac2M in pre-seed funding from Practica Capital for autonomous sales and revenue agents",
+    "published_at": "2026-04-16T06:15:00+00:00",
+    "ingested_at": "2026-04-16T07:47:52.540503+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_aeeb61170ca9"
+    ],
+    "investor_ids": [
+      "inv_b478f7b50e92"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2160000,
+      "amount_raw": "\u20ac2M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_db79e9e9e8396ffd",
+    "source_url": "https://tech.eu/2026/04/16/audrey-ai-secures-18m-to-develop-ai-platform-for-financial-auditors/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Audrey AI raises $1.8M pre-seed funding for AI platform serving financial auditors",
+    "published_at": "2026-04-16T06:00:00+00:00",
+    "ingested_at": "2026-04-16T07:47:54.262014+00:00",
+    "geography": "UK",
+    "country": "IE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_b7726f502d7d"
+    ],
+    "investor_ids": [
+      "inv_79fbc438f7d5",
+      "inv_0e263ebe2f9d"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1800000,
+      "amount_raw": "$1.8M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_f715fc0ab1f1020e",
+    "source_url": "https://tech.eu/2026/04/16/yc-backed-openlaw-closes-33m-seed-to-digitise-europes-notary-nightmare/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "YC-backed Openlaw closes $3.3M seed round for digital legal and notary infrastructure platform",
+    "published_at": "2026-04-16T05:00:00+00:00",
+    "ingested_at": "2026-04-16T07:47:56.668314+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_b1832f297eb4"
+    ],
+    "investor_ids": [
+      "inv_cefa8820",
+      "inv_98f7a052177a"
+    ],
+    "person_ids": [
+      "per_98f7a052177a"
+    ],
+    "metadata": {
+      "amount_usd": 3300000,
+      "amount_raw": "$3.3M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_8114f88a5adee06c",
+    "source_url": "https://tech.eu/2026/04/15/ukrainian-startups-get-uk-market-gateway-as-techbridge-accelerator-returns-for-2026/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "expansion",
+    "signal_tier": "tier_1_strong",
+    "headline": "UK-Ukraine TechBridge accelerator launches 2026 phase to help Ukrainian startups enter UK market",
+    "published_at": "2026-04-15T14:27:54+00:00",
+    "ingested_at": "2026-04-16T07:47:58.564301+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_0ff2b065ab85"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_f8e554cbd6958857",
+    "source_url": "https://tech.eu/2026/04/15/stendr-secures-54m-pre-seed-to-develop-ai-driven-defence-systems/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Stendr secures $5.4M pre-seed to develop AI-driven defence systems",
+    "published_at": "2026-04-15T14:00:00+00:00",
+    "ingested_at": "2026-04-16T07:48:00.332508+00:00",
+    "geography": "Nordics",
+    "country": "NO",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_facfb0969a66"
+    ],
+    "investor_ids": [
+      "inv_91bcb5a9bbf8",
+      "inv_8c7f9425b53c",
+      "inv_7b8a9aba1218"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 5400000,
+      "amount_raw": "$5.4M",
+      "round_stage": "Pre-Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_8f6c2b2210c75848",
+    "source_url": "https://tech.eu/2026/04/15/trade-republic-axes-customer-service-chatbots-replacing-them-with-over-1000-human-agents/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "hiring_wave",
+    "signal_tier": "tier_1_strong",
+    "headline": "Trade Republic replaces customer service chatbots with over 1,000 human agents",
+    "published_at": "2026-04-15T13:21:00+00:00",
+    "ingested_at": "2026-04-16T07:48:05.520374+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_68359c84a51c"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "valuation": 13625000000
+    }
+  },
+  {
+    "id": "sig_632b20d731744a9e",
+    "source_url": "https://tech.eu/2026/04/15/gizmo-secures-22m-series-a-to-advance-ai-powered-education/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Gizmo raises $22M Series A for AI-powered education platform expansion",
+    "published_at": "2026-04-15T13:00:00+00:00",
+    "ingested_at": "2026-04-16T07:48:06.966661+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_51713377f3eb"
+    ],
+    "investor_ids": [
+      "inv_6d7cbfe8a1ce"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 22000000,
+      "amount_raw": "$22M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_e17abfbfbfb1ef27",
+    "source_url": "https://tech.eu/2026/04/15/brix-raises-55m-to-support-tokenisation-of-emerging-market-assets/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Brix raises $5.5M for emerging market asset tokenisation platform",
+    "published_at": "2026-04-15T13:00:00+00:00",
+    "ingested_at": "2026-04-16T07:48:08.859054+00:00",
+    "geography": "Asia",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_f5cf54db6908"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 5500000,
+      "amount_raw": "$5.5M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_219da5695a7207fa",
+    "source_url": "https://tech.eu/2026/04/15/crowdcube-achieves-hard-fought-profit-driven-by-boost-in-secondary-shares/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Crowdcube reports full-year profit driven by secondary shares liquidity and cost reduction",
+    "published_at": "2026-04-15T10:53:19+00:00",
+    "ingested_at": "2026-04-16T07:48:13.242374+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.72,
+    "company_ids": [
+      "co_74a724f65a42"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_7c506482307d"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_a587dea3a3bde148",
+    "source_url": "https://tech.eu/2026/04/15/agriodor-raises-eur15-million-to-expand-scent-based-crop-protection-globally/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Agriodor raises \u20ac15 million Series A for scent-based crop protection expansion",
+    "published_at": "2026-04-15T08:35:08+00:00",
+    "ingested_at": "2026-04-16T07:48:15.285225+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_23ef414f0429"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 16500000,
+      "amount_raw": "\u20ac15 million",
+      "round_stage": "Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_db72e8f545e5f42e",
+    "source_url": "https://tech.eu/2026/04/15/solvapay-raises-eur24m-to-build-payment-infrastructure-for-agentic-commerce/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "SolvaPay raises \u20ac2.4M pre-seed funding for agentic commerce payment infrastructure",
+    "published_at": "2026-04-15T08:00:00+00:00",
+    "ingested_at": "2026-04-16T07:48:16.763085+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_eea0f786344b"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2600000,
+      "amount_raw": "\u20ac2.4M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_de65e50537dd1ee7",
+    "source_url": "https://news.crunchbase.com/venture/fintech-compliance-founders-20m-seriesa-spektr/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Spektr raises $20M Series A for AI-powered fintech compliance",
+    "published_at": "2026-04-16T06:00:56+00:00",
+    "ingested_at": "2026-04-16T07:48:18.148447+00:00",
+    "geography": "Nordics",
+    "country": "DK",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_f21440892985"
+    ],
+    "investor_ids": [
+      "inv_11e74850959a"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 20000000,
+      "amount_raw": "$20M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_c77eada19927929b",
+    "source_url": "https://news.crunchbase.com/venture/most-active-fintech-investors-yc-q1-2026/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "YC remains most active fintech investor in Q1 2026 as global fintech funding reaches $12B across 751 deals",
+    "published_at": "2026-04-15T11:00:32+00:00",
+    "ingested_at": "2026-04-16T07:48:19.797757+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_cefa8820a789"
+    ],
+    "investor_ids": [
+      "inv_cefa8820"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 12000000000,
+      "amount_raw": "$12 billion",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_3d4e29767a379525",
+    "source_url": "https://news.crunchbase.com/ma/selling-healthcare-ai-startup-success-blankemeier-cognita/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_2_medium",
+    "headline": "Cognita co-founder Louis Blankemeier sold healthcare AI startup one year after founding",
+    "published_at": "2026-04-15T11:00:04+00:00",
+    "ingested_at": "2026-04-16T07:48:21.840224+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_069f056d5267"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_cfb9ac84baae"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_0216d878ea8fb0dc",
+    "source_url": "https://techfundingnews.com/proteins-1-4-7m-pre-seed-pcr-for-proteins/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Proteins.1 raises \u20ac4.7M from Lifeline Ventures to develop protein analysis technology",
+    "published_at": "2026-04-16T07:00:00+00:00",
+    "ingested_at": "2026-04-16T07:48:23.980367+00:00",
+    "geography": "Southern Europe",
+    "country": "",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_51f4771e133e"
+    ],
+    "investor_ids": [
+      "inv_cb47ca2049ae"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 5100000,
+      "amount_raw": "\u20ac4.7M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_a929bfb3203fc63e",
+    "source_url": "https://techfundingnews.com/outcraft-ai-2m-pre-seed-autonomous-revenue-agents/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Practica Capital invests \u20ac2M in Outcraft AI for revenue agents",
+    "published_at": "2026-04-16T06:00:00+00:00",
+    "ingested_at": "2026-04-16T07:48:25.507723+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_aeeb61170ca9"
+    ],
+    "investor_ids": [
+      "inv_b478f7b50e92"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2160000,
+      "amount_raw": "\u20ac2M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_cda4bdc42e01e618",
+    "source_url": "https://techfundingnews.com/gizmo-22m-series-a-ai-learning-app/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Shine Capital backs Gizmo in $22M raise to make studying as addictive as TikTok",
+    "published_at": "2026-04-16T05:59:01+00:00",
+    "ingested_at": "2026-04-16T07:48:27.136448+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_51713377f3eb"
+    ],
+    "investor_ids": [
+      "inv_6d7cbfe8a1ce"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 22000000,
+      "amount_raw": "$22M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_24a3364ed54ec72b",
+    "source_url": "https://techfundingnews.com/fluidstack-1b-funding-talks-18b-valuation/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "AI infrastructure startup Fluidstack to raise $1B at $18B valuation from Jane Street",
+    "published_at": "2026-04-15T21:04:28+00:00",
+    "ingested_at": "2026-04-16T07:48:28.582405+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_c10ef8fac87c"
+    ],
+    "investor_ids": [
+      "inv_fff54f474949"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1000000000,
+      "amount_raw": "$1B",
+      "currency": "USD",
+      "valuation": 18000000000
+    }
+  },
+  {
+    "id": "sig_e0e8b6924b25f2a5",
+    "source_url": "https://techfundingnews.com/chad-rigetti-sygaldry-139m-quantum-ai-hardware/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Sygaldry Technologies raises $139M from Breakthrough Energy Ventures for quantum AI servers",
+    "published_at": "2026-04-15T20:01:06+00:00",
+    "ingested_at": "2026-04-16T07:48:31.095834+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_e53a822747ff"
+    ],
+    "investor_ids": [
+      "inv_c7cf1429a06e"
+    ],
+    "person_ids": [
+      "per_1ff16244d1c4"
+    ],
+    "metadata": {
+      "amount_usd": 139000000,
+      "amount_raw": "$139M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_aad865fe2af34d79",
+    "source_url": "https://techfundingnews.com/stendr-5-4m-ai-drone-detection-defence/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Ex-unicorn founder raises $5.4M for defence startup focused on drone counter-measures",
+    "published_at": "2026-04-15T14:00:00+00:00",
+    "ingested_at": "2026-04-16T07:48:32.734360+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.65,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 5400000,
+      "amount_raw": "$5.4M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_f68652a5147ba2f4",
+    "source_url": "https://arcticstartup.com/what-is-more-valuable-to-you-at-events/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Opinion piece discussing investor preferences for event filtering over event invitations",
+    "published_at": "2026-04-16T06:25:42+00:00",
+    "ingested_at": "2026-04-16T07:48:34.168711+00:00",
+    "geography": "Nordics",
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_1c2e48064f92d2d3",
+    "source_url": "https://arcticstartup.com/stegra-raises-e1-4bn/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Stegra secures \u20ac1.4B financing for green steel plant in Boden, Sweden",
+    "published_at": "2026-04-15T13:19:14+00:00",
+    "ingested_at": "2026-04-16T07:48:36.226355+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_523fbad3a03d"
+    ],
+    "investor_ids": [
+      "inv_459d170a71f1",
+      "inv_4fbddb45",
+      "inv_7755ed0cfbe8",
+      "inv_8ee21a7edc56",
+      "inv_3d4c69e6c452",
+      "inv_6203439b5cd0"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1512000000,
+      "amount_raw": "\u20ac1.4B",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_cf707971928df2ba",
+    "source_url": "https://arcticstartup.com/sapient-perception-raises-e2m-pre-seed/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Denmark's Sapient Perception secures \u20ac2M pre-seed for drone perception technology",
+    "published_at": "2026-04-15T12:45:22+00:00",
+    "ingested_at": "2026-04-16T07:48:37.828319+00:00",
+    "geography": "Nordics",
+    "country": "DK",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_c61445805141"
+    ],
+    "investor_ids": [
+      "inv_7a93b78f66bb",
+      "inv_65a1650b430d"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2160000,
+      "amount_raw": "\u20ac2M",
+      "round_stage": "Pre-Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_9bd5b3a9e0525ec2",
+    "source_url": "https://arcticstartup.com/kelluu-raises-e15m-series-a/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Finnish deeptech startup Kelluu secures \u20ac15 million Series A led by NATO Innovation Fund",
+    "published_at": "2026-04-15T12:26:45+00:00",
+    "ingested_at": "2026-04-16T07:48:39.485993+00:00",
+    "geography": "Nordics",
+    "country": "FI",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_db660ab6f00d"
+    ],
+    "investor_ids": [
+      "inv_77e0788691be",
+      "inv_d7e7889e535b",
+      "inv_3f91ef09f9d9",
+      "inv_072bbc789933"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 16500000,
+      "amount_raw": "\u20ac15 million",
+      "round_stage": "Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_ef9f5abad33f10cf",
+    "source_url": "https://arcticstartup.com/solvapay-raises-e2-4-million-in-a-pre-seed/",
+    "source_id": "src_009",
+    "source_name": "ArcticStartup",
+    "source_domain": "arcticstartup.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Swedish SolvaPay raises \u20ac2.4 million in pre-seed for autonomous digital commerce payment infrastructure",
+    "published_at": "2026-04-15T08:48:08+00:00",
+    "ingested_at": "2026-04-16T07:48:41.055132+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_eea0f786344b"
+    ],
+    "investor_ids": [
+      "inv_fa809e700352",
+      "inv_68eb80efa622",
+      "inv_785ee58e52ac",
+      "inv_d8b09f5bbbbd"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2590000,
+      "amount_raw": "\u20ac2.4 million",
+      "round_stage": "Pre-Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_ce3eef5c8fed2842",
+    "source_url": "https://www.uktech.news/ai/wayve-raises-fresh-funds-20260415",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Wayve raises \u00a344m ($60m) from chip giants for autonomous driving platform",
+    "published_at": "2026-04-15T15:32:39+00:00",
+    "ingested_at": "2026-04-16T07:48:42.660362+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_1adc12a65fe6"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 60000000,
+      "amount_raw": "\u00a344m ($60m)",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_352496ce010b7e93",
+    "source_url": "https://www.uktech.news/fintech/zeller-uk-fintech-market-20260415",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "expansion",
+    "signal_tier": "tier_2_medium",
+    "headline": "Australian fintech unicorn Zeller expands to UK market",
+    "published_at": "2026-04-15T13:00:50+00:00",
+    "ingested_at": "2026-04-16T07:48:44.236568+00:00",
+    "geography": "UK",
+    "country": "Other",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_07bea691e117"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "valuation": 1000000000
+    }
+  },
+  {
+    "id": "sig_917cc19cdc3c0fe3",
+    "source_url": "https://www.uktech.news/fashion-tech/the-little-loop-raises-750k-to-drive-sustainable-fashion-resale-20260415",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "The Little Loop raises \u00a3750k from FSE Group growth fund for sustainable fashion resale",
+    "published_at": "2026-04-15T11:00:11+00:00",
+    "ingested_at": "2026-04-16T07:48:46.040313+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_69717ef080d2"
+    ],
+    "investor_ids": [
+      "inv_eaa581fc4d7d",
+      "inv_e14d6f7bfe04"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 937500,
+      "amount_raw": "\u00a3750k",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_54a9c733c18b0ec0",
+    "source_url": "https://www.uktech.news/funding/stirlight-secures-1-25m-for-friction-stir-welding-quality-assurance-platform-20260415",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "StirLight secures \u00a31.25m for friction stir welding quality assurance platform",
+    "published_at": "2026-04-15T10:00:25+00:00",
+    "ingested_at": "2026-04-16T07:48:47.741186+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7e412445cebe"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1562500,
+      "amount_raw": "\u00a31.25m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_8d07589ff56ad25e",
+    "source_url": "https://www.uktech.news/news/investment-news/clean-food-group-raises-4-5m-to-scale-its-sustainable-oils-factory-20260415",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Clean Food Group raises \u00a34.5m led by Clean Growth Fund and New Agrarian for sustainable oils factory scaling",
+    "published_at": "2026-04-15T09:00:00+00:00",
+    "ingested_at": "2026-04-16T07:48:49.376889+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_74f15beabd5d"
+    ],
+    "investor_ids": [
+      "inv_79e8f349695a",
+      "inv_7a6bf8e09cb7",
+      "inv_c33346e9132b"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 5700000,
+      "amount_raw": "\u00a34.5m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_3c65ca275377c1fe",
+    "source_url": "https://www.uktech.news/funding/vc-funding/ai-and-megarounds-drive-vc-investment-surge-in-q1-20260415",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "UK startups raise \u00a35.7bn in Q1 2026, up 60% YoY, driven by AI and late-stage megarounds",
+    "published_at": "2026-04-15T08:00:05+00:00",
+    "ingested_at": "2026-04-16T07:48:51.134238+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [],
+    "investor_ids": [
+      "inv_ce749e840dca",
+      "inv_3d7141585eab"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 7200000000,
+      "amount_raw": "\u00a35.7bn",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_3660b35fc67f14e2",
+    "source_url": "https://techcrunch.com/2026/04/15/accel-raises-5b-to-back-late-stage-bets/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Accel raises $5B for late-stage AI-focused investment fund",
+    "published_at": "2026-04-15T17:37:56+00:00",
+    "ingested_at": "2026-04-16T07:48:53.760849+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ab9b29074a98"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_64c46dff"
+    ],
+    "metadata": {
+      "amount_usd": 5000000000,
+      "amount_raw": "$5B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_43de0b2c65eb6b62",
+    "source_url": "https://techcrunch.com/2026/04/15/anthropic-shrugs-off-vc-funding-offers-valuing-it-at-800b-for-now/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Anthropic declines $800B+ valuation funding offers from VCs despite strong revenue growth",
+    "published_at": "2026-04-15T16:21:21+00:00",
+    "ingested_at": "2026-04-16T07:48:55.555096+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_c70eca6b0f88"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_c80dd7193e85"
+    ],
+    "metadata": {
+      "valuation": 800000000000
+    }
+  },
+  {
+    "id": "sig_4bfdfd8cf975e98e",
+    "source_url": "https://www.deutsche-startups.de/2026/04/15/synera-sammelt-35-millionen-ein-connectome-health-erhaelt-2-millionen/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Synera raises \u20ac35 million; Connectome Health secures \u20ac2 million",
+    "published_at": "2026-04-15T13:55:00+00:00",
+    "ingested_at": "2026-04-16T07:48:57.085506+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_ea005aa2517a"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 38500000,
+      "amount_raw": "\u20ac35 million",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_e99f3974511c4f3e",
+    "source_url": "https://www.deutsche-startups.de/2026/04/15/syntropy-emma-blocks-langdock-storebox-seal-robotics/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Startup Ticker featuring Syntropy, Emma, Blocks, Langdock, Storebox, and SEAL Robotics",
+    "published_at": "2026-04-15T09:55:00+00:00",
+    "ingested_at": "2026-04-16T07:48:58.576107+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_074a9333e96bc50a",
+    "source_url": "https://siliconcanals.com/s-bt-psychology-says-people-who-are-warm-in-public-but-distant-in-private-arent-being-fake-in-either-setting-theyve-built-an-entire-social-identity-around-the-version-of-themselves-that-performs-well/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Psychology article on public vs private personas published by Silicon Canals",
+    "published_at": "2026-04-16T03:57:26+00:00",
+    "ingested_at": "2026-04-16T07:49:00.155350+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_d88cf938e66f4272",
+    "source_url": "https://siliconcanals.com/j-a-p-some-people-are-exhausted-not-because-they-do-too-much-but-because-they-feel-too-much-and-have-nowhere-to-put-it-the-emotion-doesnt-leave-when-its-unexpressed-it-circulates-looking-for-an-exit-t/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Opinion piece on emotional exhaustion and unexpressed feelings",
+    "published_at": "2026-04-15T23:37:00+00:00",
+    "ingested_at": "2026-04-16T07:49:02.581149+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_6c3c212d088f4e98",
+    "source_url": "https://techround.co.uk/business/do-startups-lose-their-edge-after-an-ipo/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Analysis of how IPOs impact startup innovation and value creation",
+    "published_at": "2026-04-15T14:03:35+00:00",
+    "ingested_at": "2026-04-16T07:49:04.242821+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_077b396a10c1"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_46316bfa69baab7e",
+    "source_url": "https://techround.co.uk/artificial-intelligence/openai-stargate-pause-why/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "expansion",
+    "signal_tier": "tier_2_medium",
+    "headline": "OpenAI pauses Stargate UK data centre project citing unfavourable regulatory environment and high energy costs",
+    "published_at": "2026-04-15T10:09:58+00:00",
+    "ingested_at": "2026-04-16T07:49:06.144795+00:00",
+    "geography": "UK",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7d3194f79e64"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_46b09b212b77",
+      "per_0a7d4e0a7d2c"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_73cb07e4f6b02f14",
+    "source_url": "https://thenextweb.com/news/cadence-nvidia-robotics-physics-simulation-ai",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Cadence and Nvidia expand partnership to improve robot training simulation and accelerate physical AI deployment",
+    "published_at": "2026-04-16T07:24:56+00:00",
+    "ingested_at": "2026-04-16T07:49:09.446583+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_c72e480eea90"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_6b43442472039939",
+    "source_url": "https://thenextweb.com/news/sygaldry-139m-quantum-accelerated-ai-servers-rigetti",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Sygaldry Technologies raises $105M Series A for quantum-accelerated AI servers",
+    "published_at": "2026-04-16T07:16:11+00:00",
+    "ingested_at": "2026-04-16T07:49:11.210923+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_e53a822747ff"
+    ],
+    "investor_ids": [
+      "inv_c7cf1429a06e",
+      "inv_d1b203f00248"
+    ],
+    "person_ids": [
+      "per_e9688cc7db29"
+    ],
+    "metadata": {
+      "amount_usd": 105000000,
+      "amount_raw": "$105M Series A + $34M Seed",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_2951fe059d88592d",
+    "source_url": "https://thenextweb.com/news/x-energy-ipo-800m-amazon-nuclear-small-modular-reactor",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "X-energy files for IPO targeting $814M valuation with Amazon backing and 5GW nuclear power commitment",
+    "published_at": "2026-04-16T07:05:22+00:00",
+    "ingested_at": "2026-04-16T07:49:12.725350+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_4af85202363f"
+    ],
+    "investor_ids": [
+      "inv_cbc62794911f"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 814000000,
+      "amount_raw": "$814M",
+      "round_stage": "IPO",
+      "currency": "USD",
+      "valuation": 814000000
+    }
+  },
+  {
+    "id": "sig_8fd9082d11a515c8",
+    "source_url": "https://thenextweb.com/news/camgraphic-2d-photonics-graphene-photonics-eu-grant",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "CamGraPhIC receives \u20ac211M in Italian state funding for graphene photonic interconnect industrialization",
+    "published_at": "2026-04-16T06:53:00+00:00",
+    "ingested_at": "2026-04-16T07:49:14.538462+00:00",
+    "geography": "Southern Europe",
+    "country": "IT",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_91d9dededf69"
+    ],
+    "investor_ids": [
+      "inv_e8f321cc7e28",
+      "inv_98fa24b0e460"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 230000000,
+      "amount_raw": "\u20ac211M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_9e3e0c3c559b842e",
+    "source_url": "https://thenextweb.com/news/accel-5-billion-fund-ai-anthropic-cursor-venture-capital",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Accel raises $5 billion for AI-focused fund targeting late-stage infrastructure investments",
+    "published_at": "2026-04-15T18:00:37+00:00",
+    "ingested_at": "2026-04-16T07:49:17.024510+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ab9b29074a98"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 5000000000,
+      "amount_raw": "$5 billion",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_850d91241c73307e",
+    "source_url": "https://thenextweb.com/news/anthropic-800-billion-valuation-revenue-30-billion-ipo",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Anthropic receives $800 billion valuation offers following $30 billion annualized revenue milestone",
+    "published_at": "2026-04-15T17:50:28+00:00",
+    "ingested_at": "2026-04-16T07:49:19.030057+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.72,
+    "company_ids": [
+      "co_c70eca6b0f88"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 30000000000,
+      "amount_raw": "$30 billion",
+      "currency": "USD",
+      "valuation": 800000000000
+    }
+  },
+  {
+    "id": "sig_c92ae765f9775347",
+    "source_url": "https://thenextweb.com/news/athena-faborchestrator-agentic-ai-mes-semiconductor-manufacturing",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Athena Technology Solutions launches FabOrchestrator, an agentic AI platform for semiconductor manufacturing execution systems",
+    "published_at": "2026-04-15T17:33:15+00:00",
+    "ingested_at": "2026-04-16T07:49:20.590241+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_4283a2b2bb8b"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_8ab15722f66f45b2",
+    "source_url": "https://thenextweb.com/news/jane-street-coreweave-6-billion-cloud-1-billion-equity-ai",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Jane Street commits $6 billion to CoreWeave and takes $1 billion equity stake",
+    "published_at": "2026-04-15T17:17:07+00:00",
+    "ingested_at": "2026-04-16T07:49:22.390278+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_8348e0915fc7"
+    ],
+    "investor_ids": [
+      "inv_fff54f474949"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 6000000000,
+      "amount_raw": "$6 billion",
+      "currency": "USD",
+      "valuation": 10900000000
+    }
+  },
+  {
+    "id": "sig_2d24ad1255ad5d12",
+    "source_url": "https://thenextweb.com/news/accenture-general-robotics-grid-physical-ai-manufacturing",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Accenture Ventures invests in General Robotics to unify factory AI across multiple robot brands",
+    "published_at": "2026-04-15T16:52:27+00:00",
+    "ingested_at": "2026-04-16T07:49:23.851519+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_86d3f8255401"
+    ],
+    "investor_ids": [
+      "inv_de3e7eef"
+    ],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_8ff3dcd8e486c8b4",
+    "source_url": "https://thenextweb.com/news/astroport-vermeer-lunar-iron-autonomous-construction-moon-base",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Astroport and Vermeer announce collaboration to deploy autonomous lunar construction equipment for Moon base development",
+    "published_at": "2026-04-15T16:36:55+00:00",
+    "ingested_at": "2026-04-16T07:49:25.635242+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_d5de43964237"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
   }
 ]
