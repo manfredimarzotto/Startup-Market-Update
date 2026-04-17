@@ -29186,5 +29186,1158 @@
     "investor_ids": [],
     "person_ids": [],
     "metadata": {}
+  },
+  {
+    "id": "sig_08dadc3915a4cffa",
+    "source_url": "https://sifted.eu/articles/ai-startups-swallow-half-funding/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "AI startups capture half of European tech funding",
+    "published_at": "2026-04-17T05:00:08+00:00",
+    "ingested_at": "2026-04-17T07:48:33.243946+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_a9bf2f3507b82d05",
+    "source_url": "https://www.eu-startups.com/2026/04/swedish-semiconductor-startup-alixlabs-closes-e15-million-series-a-to-scale-atomic-level-etching-technology/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Swedish semiconductor startup AlixLabs closes \u20ac15 million Series A funding",
+    "published_at": "2026-04-17T07:43:58+00:00",
+    "ingested_at": "2026-04-17T07:48:34.909749+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_20e44c88d520"
+    ],
+    "investor_ids": [
+      "inv_7f95e5517757",
+      "inv_bbbf7a6412d6"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 16500000,
+      "amount_raw": "\u20ac15 million",
+      "round_stage": "Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_bd61deeb09bebd15",
+    "source_url": "https://www.eu-startups.com/2026/04/stockholms-biolamina-secures-e20-million-eib-loan-to-scale-cell-therapies-for-chronic-diseases/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "BioLamina secures \u20ac20 million EIB venture debt loan for cell therapy scaling",
+    "published_at": "2026-04-17T05:30:24+00:00",
+    "ingested_at": "2026-04-17T07:48:36.513782+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ac5498b75fa2"
+    ],
+    "investor_ids": [
+      "inv_6bf286ed21ec"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 21600000,
+      "amount_raw": "\u20ac20 million",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_133a62f058a06251",
+    "source_url": "https://www.eu-startups.com/2026/04/london-based-startup-lua-raises-e4-9-million-to-scale-its-human-agent-collaboration-platform/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "London-based Lua raises \u20ac4.9 million for human-agent collaboration platform",
+    "published_at": "2026-04-16T15:08:54+00:00",
+    "ingested_at": "2026-04-17T07:48:38.251780+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_dc436b329f4d"
+    ],
+    "investor_ids": [
+      "inv_2342553a971e",
+      "inv_588939340116",
+      "inv_a8179f3812c3",
+      "inv_e847992ab81d",
+      "inv_9b7d9161fa26",
+      "inv_cefa8820"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 5800000,
+      "amount_raw": "\u20ac4.9 million",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_808be597afea4c5b",
+    "source_url": "https://www.eu-startups.com/2026/04/as-the-ai-era-strains-human-verification-danish-startup-flare-bags-e3-6-million-to-support-knowledge-validation/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Danish startup Flare raises \u20ac3.6 million pre-Seed funding for knowledge validation infrastructure",
+    "published_at": "2026-04-16T11:59:56+00:00",
+    "ingested_at": "2026-04-17T07:48:39.877780+00:00",
+    "geography": "Nordics",
+    "country": "DK",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7797993a4b23"
+    ],
+    "investor_ids": [
+      "inv_a8179f3812c3",
+      "inv_4a3c907c559f",
+      "inv_b8cba63c7975"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3960000,
+      "amount_raw": "\u20ac3.6 million",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_12d9e9448e5550db",
+    "source_url": "https://www.eu-startups.com/2026/04/storm-therapeutics-raises-e47-5-million-series-c-to-harness-the-power-of-rna-modification-to-treat-cancer/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "STORM Therapeutics raises \u20ac47.5 million Series C for RNA modification cancer therapies",
+    "published_at": "2026-04-16T10:32:57+00:00",
+    "ingested_at": "2026-04-17T07:48:41.625848+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_2c4aa4a76c0b"
+    ],
+    "investor_ids": [
+      "inv_2ef2ee8a98b5",
+      "inv_01132347bb38",
+      "inv_1496addd7a5a",
+      "inv_2712642af21c",
+      "inv_66d8c945b634"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 56000000,
+      "amount_raw": "\u20ac47.5 million ($56 million)",
+      "round_stage": "Series C",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_73c3029c375f6891",
+    "source_url": "https://www.eu-startups.com/2026/04/the-eu-startups-podcast-interview-with-patrick-andrae-co-founder-and-ceo-of-hometogo/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "HomeToGo CEO Patrick Andrae discusses future of travel and AI impact in EU-Startups Podcast interview",
+    "published_at": "2026-04-16T08:46:01+00:00",
+    "ingested_at": "2026-04-17T07:48:43.604982+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.25,
+    "company_ids": [
+      "co_d14bafc84fad"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_2b0df4959e02"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_9d75579ddbf2cf53",
+    "source_url": "https://www.eu-startups.com/2026/04/all-things-raises-e4-1-million-after-chef-thomas-strakers-viral-butter-series-sparked-a-dairy-brand/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "ALL THINGS dairy brand raises \u20ac4.1M led by The Equity Studio after viral butter content",
+    "published_at": "2026-04-16T08:24:37+00:00",
+    "ingested_at": "2026-04-17T07:48:45.592684+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_440538ad8e55"
+    ],
+    "investor_ids": [
+      "inv_243d37b41995",
+      "inv_23e0254d3caf",
+      "inv_a4502bca3c78"
+    ],
+    "person_ids": [
+      "per_d9025a98750d",
+      "per_8c5417833ee7"
+    ],
+    "metadata": {
+      "amount_usd": 4400000,
+      "amount_raw": "\u20ac4.1 million",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_b32f8d1f7952ed8c",
+    "source_url": "https://www.eu-startups.com/2026/04/startup-advisor-charles-hope-joins-the-speaker-lineup-at-the-eu-startups-summit-2026-in-malta/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Startup advisor Charles Hope confirmed as speaker at EU-Startups Summit 2026 in Malta",
+    "published_at": "2026-04-16T07:00:22+00:00",
+    "ingested_at": "2026-04-17T07:48:48.050766+00:00",
+    "geography": "Southern Europe",
+    "country": "",
+    "ai_confidence": 0.65,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_0a4d985e150b"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_697c4612caeb6594",
+    "source_url": "https://www.eu-startups.com/2026/04/vilnius-based-outcraft-ai-raises-e2-million-to-build-an-autonomous-revenue-engine/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Outcraft AI raises \u20ac2 million pre-Seed funding from Practica Capital",
+    "published_at": "2026-04-16T06:05:04+00:00",
+    "ingested_at": "2026-04-17T07:48:49.825442+00:00",
+    "geography": "Nordics",
+    "country": "LT",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_aeeb61170ca9"
+    ],
+    "investor_ids": [
+      "inv_b478f7b50e92",
+      "inv_5d72e2b28742"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2160000,
+      "amount_raw": "\u20ac2 million",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_b60d0533b24a663f",
+    "source_url": "https://www.eu-startups.com/2026/04/londons-qalzy-secures-pre-seed-backing-after-raising-e204k-in-kickstarter-pre-orders-for-its-ai-nutrition-scale/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Qalzy secures pre-Seed funding after raising \u20ac204k in Kickstarter pre-orders for AI nutrition scale",
+    "published_at": "2026-04-16T04:54:18+00:00",
+    "ingested_at": "2026-04-17T07:48:51.871671+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_e44bd3e9d4e5"
+    ],
+    "investor_ids": [
+      "inv_6a99ac7a4a54"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 241000,
+      "amount_raw": "\u20ac204k",
+      "round_stage": "pre-Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_a147cd229e3b2cbc",
+    "source_url": "https://tech.eu/2026/04/16/solidroad-scores-25m-series-a-to-turn-customer-conversations-into-actionable-data/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Solidroad raises $25M Series A led by Hedosophia to improve customer conversations with AI",
+    "published_at": "2026-04-16T14:00:00+00:00",
+    "ingested_at": "2026-04-17T07:48:53.423528+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_5d85337743a6"
+    ],
+    "investor_ids": [
+      "inv_d0cf36bb405b"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 25000000,
+      "amount_raw": "$25M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_d963eb3d71fd7a84",
+    "source_url": "https://tech.eu/2026/04/16/et-capital-launches-cambridge-venture-index-fund-2-to-broaden-access-to-deeptech-investing/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "ET Capital launches Cambridge Venture Index SEIS/EIS Fund 2 for early-stage deeptech investing",
+    "published_at": "2026-04-16T13:46:14+00:00",
+    "ingested_at": "2026-04-17T07:48:54.793616+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_7187cc05cd24"
+    ],
+    "investor_ids": [
+      "inv_7187cc05cd24"
+    ],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_344761798b13169e",
+    "source_url": "https://tech.eu/2026/04/16/we-are-where-chatgpt-was-five-years-ago-says-european-3d-ai-foundation-model-startup-boss/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "European 3D AI foundation model startup CEO compares industry maturity to ChatGPT five years ago",
+    "published_at": "2026-04-16T13:18:42+00:00",
+    "ingested_at": "2026-04-17T07:48:56.706537+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.65,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_21fec4f8882d"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_5a0954e315a948ff",
+    "source_url": "https://tech.eu/2026/04/16/spektr-raises-20m-series-a-to-streamline-financial-compliance/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "spektr raises $20M Series A to streamline financial compliance",
+    "published_at": "2026-04-16T10:23:40+00:00",
+    "ingested_at": "2026-04-17T07:48:58.274734+00:00",
+    "geography": "Nordics",
+    "country": "DK",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_f21440892985"
+    ],
+    "investor_ids": [
+      "inv_11e74850959a"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 20000000,
+      "amount_raw": "$20M",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_b610a5ec1d12ea28",
+    "source_url": "https://tech.eu/2026/04/16/inside-the-numbers-ten-industries-leading-europes-tech-investment-in-2025/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "European tech investment reached \u20ac72 billion in 2025, second-strongest year in three years with 3,740+ deals",
+    "published_at": "2026-04-16T08:00:00+00:00",
+    "ingested_at": "2026-04-17T07:48:59.999671+00:00",
+    "geography": "EU",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 78480000000,
+      "amount_raw": "\u20ac72 billion",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_c8e7f63f3a310649",
+    "source_url": "https://news.crunchbase.com/venture/customer-intelligence-ai-getwhys-raises-more-seed-boutros/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "GetWhys raises $5.2M in funding for AI-powered customer intelligence platform",
+    "published_at": "2026-04-16T14:00:02+00:00",
+    "ingested_at": "2026-04-17T07:49:01.349469+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_1de360bb8bbb"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 5200000,
+      "amount_raw": "$5.2M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_e775532a75665ade",
+    "source_url": "https://news.crunchbase.com/venture/capital-concentrated-ai-global-q1-2026/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Venture capital concentration at top accelerates in Q1 2026 with AI companies dominating funding",
+    "published_at": "2026-04-16T11:00:19+00:00",
+    "ingested_at": "2026-04-17T07:49:02.938797+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_0c62b719f9c227c9",
+    "source_url": "https://techfundingnews.com/urfuture-raises-1-7m-to-replace-cvs/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Urfuture secures \u00a31.7M from River Capital to improve entry-level hiring using AI",
+    "published_at": "2026-04-17T07:00:00+00:00",
+    "ingested_at": "2026-04-17T07:49:04.689196+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_05f1fe45c73d"
+    ],
+    "investor_ids": [
+      "inv_9d5a910a14fe"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2146000,
+      "amount_raw": "\u00a31.7M",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_63100b4544d35f84",
+    "source_url": "https://techfundingnews.com/startups-removing-fossil-fuels-supply-chains/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "French AI SaaS WeGrow raises \u20ac7M to enable companies to share and scale business best practices",
+    "published_at": "2026-04-17T06:00:00+00:00",
+    "ingested_at": "2026-04-17T07:49:06.401867+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_e54546e294e9"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_9b920e10b3d2"
+    ],
+    "metadata": {
+      "amount_usd": 7560000,
+      "amount_raw": "\u20ac7M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_6beb1347d1b77b05",
+    "source_url": "https://techfundingnews.com/spektr-20m-series-a-ai-compliance-agents/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Spektr secures $20M Series funding from NEA to automate KYC processes with AI agents for banks",
+    "published_at": "2026-04-16T21:02:58+00:00",
+    "ingested_at": "2026-04-17T07:49:09.229270+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_f21440892985"
+    ],
+    "investor_ids": [
+      "inv_11e74850959a"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 20000000,
+      "amount_raw": "$20M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_45120708c2f59f5e",
+    "source_url": "https://techfundingnews.com/solidroad-25m-series-a-ai-customer-support-qa/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "YC alum Solidroad raises $25M from Hedosophia for AI quality monitoring in customer support",
+    "published_at": "2026-04-16T14:00:00+00:00",
+    "ingested_at": "2026-04-17T07:49:10.778529+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_5d85337743a6"
+    ],
+    "investor_ids": [
+      "inv_d0cf36bb405b"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 25000000,
+      "amount_raw": "$25M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_0c17c76b75e366e3",
+    "source_url": "https://techfundingnews.com/coreweave-secures-6b-cloud-deal-and-1b-equity-from-jane-street/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "CoreWeave secures $6B cloud deal and $1B equity investment from Jane Street",
+    "published_at": "2026-04-16T12:32:58+00:00",
+    "ingested_at": "2026-04-17T07:49:12.207858+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_8348e0915fc7"
+    ],
+    "investor_ids": [
+      "inv_fff54f474949"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1000000000,
+      "amount_raw": "$1B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_b9639e22563ff806",
+    "source_url": "https://techfundingnews.com/etoro-acquires-crypto-wallet-startup-zengo-for-70m/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "eToro acquires crypto wallet startup Zengo for $70M",
+    "published_at": "2026-04-16T12:31:47+00:00",
+    "ingested_at": "2026-04-17T07:49:13.644961+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_c63ba9bf2313"
+    ],
+    "investor_ids": [
+      "inv_7228b777adcc"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 70000000,
+      "amount_raw": "$70M",
+      "currency": "USD",
+      "valuation": 70000000
+    }
+  },
+  {
+    "id": "sig_19244e93fff8aa03",
+    "source_url": "https://techfundingnews.com/safe-messaging-a16z-accel-kleiner-perkins/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Sisters messaging app raises $3M from a16z, Accel and Kleiner Perkins scout funds",
+    "published_at": "2026-04-16T12:00:00+00:00",
+    "ingested_at": "2026-04-17T07:49:15.399398+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_0127ea1e956b"
+    ],
+    "investor_ids": [
+      "inv_013",
+      "inv_006",
+      "inv_e57bc478e273"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3000000,
+      "amount_raw": "$3M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_74a6b8cc66d31dde",
+    "source_url": "https://techfundingnews.com/alphabet-could-make-over-100b-from-spacex-ipo-report/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Alphabet could make over $100B from SpaceX IPO: report",
+    "published_at": "2026-04-16T09:51:36+00:00",
+    "ingested_at": "2026-04-17T07:49:19.477712+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.3,
+    "company_ids": [
+      "co_4dd4f3835505"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_6e517a8d6823a6d5",
+    "source_url": "https://www.uktech.news/databyte/a-look-at-one-of-the-biggest-years-in-quantum-20260416",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Media coverage reflecting on quantum computing's progress as a commercializing technology",
+    "published_at": "2026-04-16T13:00:20+00:00",
+    "ingested_at": "2026-04-17T07:49:20.978628+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.25,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_546a645f81e017de",
+    "source_url": "https://www.uktech.news/medtech/british-business-bank-makes-biggest-commitment-to-date-with-100m-for-health-fund-20260416",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "British Business Bank commits \u00a3100m to Apposite Healthcare Growth I fund",
+    "published_at": "2026-04-16T11:00:08+00:00",
+    "ingested_at": "2026-04-17T07:49:22.774039+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_41bc30b42626"
+    ],
+    "investor_ids": [
+      "inv_41bc30b42626",
+      "inv_7897fcd468e3"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 126000000,
+      "amount_raw": "\u00a3100m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_5513c3f6b272f258",
+    "source_url": "https://www.uktech.news/agtech/new-50m-fund-to-bring-ai-and-robotics-to-uk-farms-20260416",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "UK government launches \u00a350m fund to deploy AI and robotics innovations on farms",
+    "published_at": "2026-04-16T10:00:34+00:00",
+    "ingested_at": "2026-04-17T07:49:24.456121+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.85,
+    "company_ids": [],
+    "investor_ids": [
+      "inv_c6d98ffa6a60"
+    ],
+    "person_ids": [
+      "per_1f2fc6b86ce9"
+    ],
+    "metadata": {
+      "amount_usd": 63000000,
+      "amount_raw": "\u00a350m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_e8f8af187b861008",
+    "source_url": "https://www.uktech.news/space-tech/seraphim-establishes-global-space-advisory-council-20260416",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "partnership",
+    "signal_tier": "tier_2_medium",
+    "headline": "Seraphim Space establishes Global Space Futures Advisory Council with leading space specialists",
+    "published_at": "2026-04-16T09:00:35+00:00",
+    "ingested_at": "2026-04-17T07:49:29.474390+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.72,
+    "company_ids": [
+      "co_fea365e2ef3f"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_b703e7ab6bfd5d28",
+    "source_url": "https://www.uktech.news/government-policy/uk-government-launches-500m-sovereign-ai-unit-20260416",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "UK government launches \u00a3500m Sovereign AI Unit to support AI companies and drive innovation",
+    "published_at": "2026-04-16T08:00:43+00:00",
+    "ingested_at": "2026-04-17T07:49:31.240359+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ab74fe32d4bb"
+    ],
+    "investor_ids": [
+      "inv_c6d98ffa6a60"
+    ],
+    "person_ids": [
+      "per_7bf354a93c1f"
+    ],
+    "metadata": {
+      "amount_usd": 630000000,
+      "amount_raw": "\u00a3500m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_959435b17543fb4a",
+    "source_url": "https://techcrunch.com/2026/04/16/new-leaders-new-fund-sequoia-has-raised-7b-to-expand-its-ai-bets/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Sequoia Capital raises $7B expansion fund, nearly doubling previous comparable fund size",
+    "published_at": "2026-04-17T02:55:06+00:00",
+    "ingested_at": "2026-04-17T07:49:33.561098+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_8aa206b0c985"
+    ],
+    "investor_ids": [
+      "inv_8aa206b0c985"
+    ],
+    "person_ids": [
+      "per_139955733eca",
+      "per_91eddeaea112",
+      "per_ae29f149ec0c"
+    ],
+    "metadata": {
+      "amount_usd": 7000000000,
+      "amount_raw": "$7 billion",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_e199069a4a4dcacd",
+    "source_url": "https://techcrunch.com/2026/04/16/upscale-ai-in-talks-to-raise-at-2b-valuation-says-report/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Upscale AI in talks to raise $180-200M at $2B valuation for Series B round",
+    "published_at": "2026-04-16T20:41:13+00:00",
+    "ingested_at": "2026-04-17T07:49:35.343982+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7e3b7031ca2a"
+    ],
+    "investor_ids": [
+      "inv_1e221418",
+      "inv_3bd5cb00f9dd",
+      "inv_afc7e853735c"
+    ],
+    "person_ids": [
+      "per_64c46dff"
+    ],
+    "metadata": {
+      "amount_usd": 190000000,
+      "amount_raw": "$180-200 million",
+      "round_stage": "Series B",
+      "currency": "USD",
+      "valuation": 2000000000
+    }
+  },
+  {
+    "id": "sig_1fb7f5dbe0491095",
+    "source_url": "https://www.deutsche-startups.de/2026/04/17/so-funktioniert-selfpublishing-als-bootstrapping-projekt/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Guest article about self-publishing as a bootstrapping project published on Deutsche Startups",
+    "published_at": "2026-04-17T06:15:00+00:00",
+    "ingested_at": "2026-04-17T07:49:36.810302+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.2,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_faa5351ecda007c7",
+    "source_url": "https://www.deutsche-startups.de/2026/04/16/gruender-kaufen-ankerkraut-von-nestle-zurueck/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Founders acquire Ankerkraut back from Nestl\u00e9",
+    "published_at": "2026-04-16T13:55:00+00:00",
+    "ingested_at": "2026-04-17T07:49:38.387619+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_fc9a209686fd"
+    ],
+    "investor_ids": [
+      "inv_6dbe2312a44d"
+    ],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_37ce9fb07b193d2b",
+    "source_url": "https://www.deutsche-startups.de/2026/04/16/ankerkraut-coachwhisperer-the-green-deal-show-trade-republic-venture-capital/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "hiring_wave",
+    "signal_tier": "tier_3_weak",
+    "headline": "German startup job board publishes weekly hiring listings across multiple sectors",
+    "published_at": "2026-04-16T09:55:00+00:00",
+    "ingested_at": "2026-04-17T07:49:39.948884+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_4f20c9c8579a6b81",
+    "source_url": "https://siliconcanals.com/t-psychology-says-people-who-always-choose-the-aisle-seat-arent-just-planning-for-bathroom-access-theyre-preserving-what-researchers-call-autonomous-exit-t/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Psychology article discusses autonomous exit behavior and seat selection preferences",
+    "published_at": "2026-04-17T05:03:21+00:00",
+    "ingested_at": "2026-04-17T07:49:41.205154+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_4519fc1dd4fb43f2",
+    "source_url": "https://techround.co.uk/guides/what-is-a-minimum-viable-product/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Educational article explaining the concept of Minimum Viable Product (MVP) in startup development",
+    "published_at": "2026-04-16T14:00:44+00:00",
+    "ingested_at": "2026-04-17T07:49:42.893351+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_077b396a10c1"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_3b96bee30c46540d",
+    "source_url": "https://techround.co.uk/news/uk-government-launch-sovereign-ai-unit/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "UK Government launches \u00a3500 million Sovereign AI Unit to invest in and support UK AI companies",
+    "published_at": "2026-04-16T10:00:10+00:00",
+    "ingested_at": "2026-04-17T07:49:45.874185+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ab74fe32d4bb"
+    ],
+    "investor_ids": [
+      "inv_767483d452d1"
+    ],
+    "person_ids": [
+      "per_87b16c77baa5",
+      "per_7bf354a93c1f",
+      "per_0cff4b7392eb",
+      "per_55e83247fa51",
+      "per_300325d3ec4e",
+      "per_947998512059"
+    ],
+    "metadata": {
+      "amount_usd": 630000000,
+      "amount_raw": "\u00a3500 million",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_4336d39914f6e62a",
+    "source_url": "https://thenextweb.com/news/envision-aesc-hong-kong-ipo-2-billion",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Envision AESC considering $2 billion Hong Kong IPO, shifting from US listing plans",
+    "published_at": "2026-04-17T07:22:04+00:00",
+    "ingested_at": "2026-04-17T07:49:47.662038+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_d02568abe37c"
+    ],
+    "investor_ids": [
+      "inv_dcd1f07b",
+      "inv_510a68caf6c5"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2000000000,
+      "amount_raw": "$2 billion",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_4e033445d4bfc92d",
+    "source_url": "https://thenextweb.com/news/sequoia-7-billion-expansion-fund-ai",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Sequoia Capital closes $7 billion expansion-stage fund, nearly double its 2022 vehicle",
+    "published_at": "2026-04-17T07:07:06+00:00",
+    "ingested_at": "2026-04-17T07:49:49.892583+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_8aa206b0c985"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_139955733eca",
+      "per_91eddeaea112"
+    ],
+    "metadata": {
+      "amount_usd": 7000000000,
+      "amount_raw": "$7 billion",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_813b4a54e5e01397",
+    "source_url": "https://thenextweb.com/news/solidroad-25-million-series-a-ai-customer-support-qa",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Solidroad raises $25M Series A to automate customer support QA with AI",
+    "published_at": "2026-04-16T17:15:34+00:00",
+    "ingested_at": "2026-04-17T07:49:51.653885+00:00",
+    "geography": "UK",
+    "country": "IE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_5d85337743a6"
+    ],
+    "investor_ids": [
+      "inv_d0cf36bb405b"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 25000000,
+      "amount_raw": "$25 million",
+      "round_stage": "Series A",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_4e7cc90166d50e02",
+    "source_url": "https://thenextweb.com/news/google-gives-gemini-image-generation-that-knows-your-lifegoogle-gemini-nano-banana-personal-intelligence-image-generation",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Google launches Gemini image generation with personal context awareness powered by Nano Banana",
+    "published_at": "2026-04-16T16:33:20+00:00",
+    "ingested_at": "2026-04-17T07:49:54.021382+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_bbdefa29"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
   }
 ]

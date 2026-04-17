@@ -5011,5 +5011,104 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "founder"
+  },
+  {
+    "id": "per_2b0df4959e02",
+    "name": "Patrick Andrae",
+    "role": "Co-founder and CEO",
+    "company_id": "co_d14bafc84fad",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_d9025a98750d",
+    "name": "Anna Sweeting",
+    "role": "Founder and Investor",
+    "company_id": "co_440538ad8e55",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_8c5417833ee7",
+    "name": "Thomas Straker",
+    "role": "Chef",
+    "company_id": "co_440538ad8e55",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_0a4d985e150b",
+    "name": "Charles Hope",
+    "role": "startup advisor, 4-time founder, mentor",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_21fec4f8882d",
+    "name": "Matthias Niessner",
+    "role": "CEO",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_1f2fc6b86ce9",
+    "name": "Angela Eagle",
+    "role": "Farming Minister",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_139955733eca",
+    "name": "Alfred Lin",
+    "role": "Co-steward",
+    "company_id": "co_8aa206b0c985",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_0cff4b7392eb",
+    "name": "Konstantin Sietz",
+    "role": "Staff member",
+    "company_id": "co_ab74fe32d4bb",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_55e83247fa51",
+    "name": "Peter Anstey",
+    "role": "Staff member",
+    "company_id": "co_ab74fe32d4bb",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_300325d3ec4e",
+    "name": "Eliza Cudmore",
+    "role": "Staff member",
+    "company_id": "co_ab74fe32d4bb",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_947998512059",
+    "name": "Rob Reynolds",
+    "role": "Staff member",
+    "company_id": "co_ab74fe32d4bb",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
   }
 ]
