@@ -5110,5 +5110,14 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "partner"
+  },
+  {
+    "id": "per_9afd5cd1c184",
+    "name": "Palmer Luckey",
+    "role": "Founder and Billionaire",
+    "company_id": "co_83ffd663",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
   }
 ]

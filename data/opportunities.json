@@ -1,7 +1,7 @@
 [
   {
-    "id": "opp_20260417_001",
-    "generated_date": "2026-04-17",
+    "id": "opp_20260418_001",
+    "generated_date": "2026-04-18",
     "company_id": "co_8ed7ff25d0e5",
     "investor_id": null,
     "person_id": null,
@@ -24,12 +24,12 @@
       "sources": 17,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac2M seed \u00b7 AI-powered 3D underground infrastructure mapping \u00b7 5 sources \u00b7 multiple funding rounds reported.",
+    "ai_rationale": "\u20ac2M seed \u00b7 AI 3D underground infrastructure mapping \u00b7 5 sources \u00b7 funding amounts vary \u20ac2M-$6M across reports.",
     "triggers": [
       {
         "type": "funding",
         "text": "Round raises $6M for AI-powered finance automation platform (5 sources)",
-        "time": "4d ago"
+        "time": "5d ago"
       },
       {
         "type": "sector",
@@ -41,8 +41,44 @@
     "status": "new"
   },
   {
-    "id": "opp_20260417_002",
-    "generated_date": "2026-04-17",
+    "id": "opp_20260418_002",
+    "generated_date": "2026-04-18",
+    "company_id": "co_523fbad3a03d",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_e63d355af74f2919",
+      "sig_1c2e48064f92d2d3",
+      "sig_12bbe5d5cd800981"
+    ],
+    "contact_ids": [],
+    "opportunity_score": 70,
+    "score_breakdown": {
+      "events": 21,
+      "capital": 23,
+      "momentum": 19,
+      "sources": 7,
+      "geo_weight": 1.0
+    },
+    "ai_rationale": "\u20ac1.4B rescue funding \u00b7 green steel plant in Boden, Sweden \u00b7 3 sources \u00b7 EU decarbonisation policy driver.",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "secures \u20ac1.4B rescue funding package (3 sources)",
+        "time": "today"
+      },
+      {
+        "type": "sector",
+        "text": "Active in CleanTech / green steel manufacturing",
+        "time": ""
+      }
+    ],
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260418_003",
+    "generated_date": "2026-04-18",
     "company_id": "co_f21440892985",
     "investor_id": null,
     "person_id": null,
@@ -60,12 +96,12 @@
       "sources": 11,
       "geo_weight": 1.0
     },
-    "ai_rationale": "$20M Series A \u00b7 AI-powered financial compliance automation \u00b7 3 sources \u00b7 KYC process automation for banks.",
+    "ai_rationale": "$20M Series A \u00b7 AI-powered financial compliance automation \u00b7 3 sources \u00b7 KYC process focus for banks.",
     "triggers": [
       {
         "type": "funding",
         "text": "raises $20M Series A for AI-powered fintech compliance (3 sources)",
-        "time": "1d ago"
+        "time": "2d ago"
       },
       {
         "type": "sector",
@@ -82,8 +118,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260417_003",
-    "generated_date": "2026-04-17",
+    "id": "opp_20260418_004",
+    "generated_date": "2026-04-18",
     "company_id": null,
     "investor_id": "inv_c6d98ffa6a60",
     "person_id": null,
@@ -108,7 +144,7 @@
       "sources": 2,
       "geo_weight": 0.8
     },
-    "ai_rationale": "\u00a32bn quantum computing investment \u00b7 \u00a31.7bn northern tech package \u00b7 \u00a370m local tech clusters and farm AI \u00b7 6 sources",
+    "ai_rationale": "\u00a32bn quantum computing investment \u00b7 \u00a31.7bn northern tech package \u00b7 \u00a350m farm AI fund \u00b7 6 sources \u00b7 tech cluster expansion across UK regions.",
     "triggers": [
       {
         "type": "funding",
@@ -123,81 +159,55 @@
       {
         "type": "funding",
         "text": "launches \u00a350m fund to deploy AI and robotics innovations on farms (3 sources)",
-        "time": "today"
+        "time": "1d ago"
       }
     ],
     "entity_type": "investor",
     "status": "new"
   },
   {
-    "id": "opp_20260417_004",
-    "generated_date": "2026-04-17",
-    "company_id": "co_523fbad3a03d",
+    "id": "opp_20260418_005",
+    "generated_date": "2026-04-18",
+    "company_id": "co_ab74fe32d4bb",
     "investor_id": null,
     "person_id": null,
     "signal_ids": [
-      "sig_e63d355af74f2919",
-      "sig_1c2e48064f92d2d3"
-    ],
-    "contact_ids": [],
-    "opportunity_score": 60,
-    "score_breakdown": {
-      "events": 16,
-      "capital": 23,
-      "momentum": 14,
-      "sources": 7,
-      "geo_weight": 1.0
-    },
-    "ai_rationale": "Stegra secures \u20ac1.4bn for green steel plant in Boden, Sweden \u00b7 2 sources",
-    "triggers": [
-      {
-        "type": "funding",
-        "text": "secures \u20ac1.4B financing for green steel plant in Boden, Sweden (2 sources)",
-        "time": "1d ago"
-      },
-      {
-        "type": "sector",
-        "text": "Active in CleanTech / green steel manufacturing",
-        "time": ""
-      }
-    ],
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260417_005",
-    "generated_date": "2026-04-17",
-    "company_id": "co_8b67990b5648",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_fcc08a7e2732f76e",
-      "sig_4b4cce8408691cc7",
-      "sig_b47d4c3d0c1cd6d7",
-      "sig_1cedc8ae4663416b",
-      "sig_48946175a5e0f9ca"
+      "sig_b703e7ab6bfd5d28",
+      "sig_3b96bee30c46540d",
+      "sig_0503b764a815f69e",
+      "sig_a785e700ac9a3c27"
     ],
     "contact_ids": [
-      "per_435fdaa45579"
+      "per_7bf354a93c1f",
+      "per_87b16c77baa5",
+      "per_0cff4b7392eb",
+      "per_55e83247fa51",
+      "per_300325d3ec4e",
+      "per_947998512059"
     ],
-    "opportunity_score": 55,
+    "opportunity_score": 57,
     "score_breakdown": {
-      "events": 18,
-      "capital": 18,
+      "events": 25,
+      "capital": 21,
       "momentum": 19,
-      "sources": 14,
+      "sources": 7,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$125M Series B \u00b7 API-based investment platform \u00b7 \u20ac640M valuation \u00b7 5 sources \u00b7 led by Sapphire Ventures and Tencent.",
+    "ai_rationale": "\u00a3500m Sovereign AI Unit launched \u00b7 UK AI company investment \u00b7 4 sources \u00b7 reduce US capital reliance.",
     "triggers": [
       {
         "type": "funding",
-        "text": "raises $125M in funding round (5 sources)",
-        "time": "3w ago"
+        "text": "UK launches \u00a3500m Sovereign AI fund to reduce reliance on US capital (4 sources)",
+        "time": "today"
       },
       {
         "type": "sector",
-        "text": "Active in FinTech / Investment Infrastructure",
+        "text": "Active in AI/ML / Government AI Investment Fund",
+        "time": ""
+      },
+      {
+        "type": "growth",
+        "text": "HQ: London, GB",
         "time": ""
       }
     ],
@@ -205,8 +215,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260417_006",
-    "generated_date": "2026-04-17",
+    "id": "opp_20260418_006",
+    "generated_date": "2026-04-18",
     "company_id": "co_232528f9daab",
     "investor_id": null,
     "person_id": null,
@@ -229,7 +239,7 @@
       "sources": 10,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac3M pre-seed round \u00b7 circular construction materials \u00b7 3 sources \u00b7 Swedish startup",
+    "ai_rationale": "\u20ac3M pre-seed round \u00b7 circular construction materials \u00b7 3 sources \u00b7 Swedish company",
     "triggers": [
       {
         "type": "funding",
@@ -251,8 +261,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260417_007",
-    "generated_date": "2026-04-17",
+    "id": "opp_20260418_007",
+    "generated_date": "2026-04-18",
     "company_id": "co_7187cc05cd24",
     "investor_id": null,
     "person_id": null,
@@ -274,7 +284,7 @@
       "sources": 10,
       "geo_weight": 0.8
     },
-    "ai_rationale": "Air Street Capital raises $232M Fund III \u00b7 AI-first companies Europe/North America \u00b7 3 sources \u00b7 Europe's largest solo GP venture firm.",
+    "ai_rationale": "Air Street Capital raises $232M Fund III \u00b7 Europe's largest solo GP VC firm \u00b7 3 sources \u00b7 invests in AI-first companies.",
     "triggers": [
       {
         "type": "funding",
@@ -296,48 +306,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260417_008",
-    "generated_date": "2026-04-17",
-    "company_id": "co_655f62e663d8",
-    "investor_id": null,
-    "person_id": null,
-    "signal_ids": [
-      "sig_8e0bec6776056639",
-      "sig_bf8ed9737023fff4",
-      "sig_14b45df506eeb694"
-    ],
-    "contact_ids": [
-      "per_bd103b6d9cae",
-      "per_e6590ec0ffe0",
-      "per_45e51a707ce2"
-    ],
-    "opportunity_score": 54,
-    "score_breakdown": {
-      "events": 15,
-      "capital": 10,
-      "momentum": 19,
-      "sources": 10,
-      "geo_weight": 1.0
-    },
-    "ai_rationale": "Audicin raises $1.9M \u00b7 nervous system regulation wearables \u00b7 3 sources \u00b7 Finnish startup",
-    "triggers": [
-      {
-        "type": "funding",
-        "text": "raises $1.9M to expand real-time nervous system tech (3 sources)",
-        "time": "2w ago"
-      },
-      {
-        "type": "sector",
-        "text": "Active in DeepTech / Neurotechnology",
-        "time": ""
-      }
-    ],
-    "entity_type": "company",
-    "status": "new"
-  },
-  {
-    "id": "opp_20260417_009",
-    "generated_date": "2026-04-17",
+    "id": "opp_20260418_008",
+    "generated_date": "2026-04-18",
     "company_id": "co_46c39011e79b",
     "investor_id": null,
     "person_id": null,
@@ -355,20 +325,20 @@
       "sources": 10,
       "geo_weight": 0.8
     },
-    "ai_rationale": "Eka Ventures raises \u00a380m Fund II \u00b7 UK early-stage health and sustainability startups \u00b7 3 sources \u00b7 regulatory compliance focus",
+    "ai_rationale": "Eka Ventures closes \u00a380m Fund II \u00b7 UK health and sustainability startups \u00b7 3 sources \u00b7 regulatory compliance focus.",
     "triggers": [
       {
         "type": "funding",
         "text": "Eka closes $107M Fund II, becoming UK's largest early-stage impact VC (3\u2026",
-        "time": "3d ago"
+        "time": "4d ago"
       }
     ],
     "entity_type": "company",
     "status": "new"
   },
   {
-    "id": "opp_20260417_010",
-    "generated_date": "2026-04-17",
+    "id": "opp_20260418_009",
+    "generated_date": "2026-04-18",
     "company_id": "co_1ef5b81d2e28",
     "investor_id": null,
     "person_id": null,
@@ -386,7 +356,7 @@
       "sources": 10,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac1.5M funding round \u00b7 web testing automation platform \u00b7 3 sources \u00b7 AI-era development focus.",
+    "ai_rationale": "\u20ac1.5M raised \u00b7 web testing platform \u00b7 3 sources \u00b7 AI-era development focus.",
     "triggers": [
       {
         "type": "funding",
@@ -408,8 +378,48 @@
     "status": "new"
   },
   {
-    "id": "opp_20260417_011",
-    "generated_date": "2026-04-17",
+    "id": "opp_20260418_010",
+    "generated_date": "2026-04-18",
+    "company_id": "co_8b67990b5648",
+    "investor_id": null,
+    "person_id": null,
+    "signal_ids": [
+      "sig_fcc08a7e2732f76e",
+      "sig_4b4cce8408691cc7",
+      "sig_b47d4c3d0c1cd6d7",
+      "sig_1cedc8ae4663416b",
+      "sig_48946175a5e0f9ca"
+    ],
+    "contact_ids": [
+      "per_435fdaa45579"
+    ],
+    "opportunity_score": 52,
+    "score_breakdown": {
+      "events": 15,
+      "capital": 18,
+      "momentum": 19,
+      "sources": 14,
+      "geo_weight": 0.8
+    },
+    "ai_rationale": "$125M Series B \u00b7 API-based investment platform \u00b7 \u20ac640M valuation \u00b7 5 sources \u00b7 led by Sapphire Ventures and Tencent.",
+    "triggers": [
+      {
+        "type": "funding",
+        "text": "raises $125M in funding round (5 sources)",
+        "time": "4w ago"
+      },
+      {
+        "type": "sector",
+        "text": "Active in FinTech / Investment Infrastructure",
+        "time": ""
+      }
+    ],
+    "entity_type": "company",
+    "status": "new"
+  },
+  {
+    "id": "opp_20260418_011",
+    "generated_date": "2026-04-18",
     "company_id": "co_101e32680e4b",
     "investor_id": null,
     "person_id": null,
@@ -436,7 +446,7 @@
       {
         "type": "funding",
         "text": "raises $225M Series A (4 sources)",
-        "time": "2w ago"
+        "time": "3w ago"
       },
       {
         "type": "sector",
@@ -448,8 +458,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260417_012",
-    "generated_date": "2026-04-17",
+    "id": "opp_20260418_012",
+    "generated_date": "2026-04-18",
     "company_id": "co_abf1f847ee36",
     "investor_id": null,
     "person_id": null,
@@ -468,12 +478,12 @@
       "sources": 6,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac40.3M EU grant \u00b7 bio-based composite production \u00b7 Sweden \u00b7 2 sources",
+    "ai_rationale": "\u20ac40.3M EU grant \u00b7 bio-based composite production \u00b7 2 sources \u00b7 Sweden factory expansion.",
     "triggers": [
       {
         "type": "growth",
         "text": "secures \u20ac40.3M EU grant to build full-scale factory in Sweden",
-        "time": "2w ago"
+        "time": "3w ago"
       },
       {
         "type": "funding",
@@ -495,8 +505,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260417_013",
-    "generated_date": "2026-04-17",
+    "id": "opp_20260418_013",
+    "generated_date": "2026-04-18",
     "company_id": "co_de6170cfbcc4",
     "investor_id": null,
     "person_id": null,
@@ -515,12 +525,12 @@
       "sources": 10,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$170M Series C \u00b7 AI debt intelligence \u00b7 $1.3B unicorn valuation \u00b7 4 sources",
+    "ai_rationale": "$170M Series C \u00b7 AI debt intelligence platform \u00b7 $1.3B valuation \u00b7 4 sources \u00b7 European fintech unicorn.",
     "triggers": [
       {
         "type": "funding",
         "text": "raises \u00a3130m in AI debt intelligence platform funding (4 sources)",
-        "time": "1w ago"
+        "time": "2w ago"
       },
       {
         "type": "sector",
@@ -532,8 +542,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260417_014",
-    "generated_date": "2026-04-17",
+    "id": "opp_20260418_014",
+    "generated_date": "2026-04-18",
     "company_id": "co_db660ab6f00d",
     "investor_id": null,
     "person_id": null,
@@ -551,12 +561,12 @@
       "sources": 11,
       "geo_weight": 0.8
     },
-    "ai_rationale": "\u20ac15M Series A \u00b7 autonomous airships \u00b7 NATO Innovation Fund led \u00b7 3 sources \u00b7 Europe air security focus.",
+    "ai_rationale": "\u20ac15M Series A \u00b7 autonomous airships \u00b7 NATO Innovation Fund led \u00b7 3 sources",
     "triggers": [
       {
         "type": "funding",
         "text": "raises \u20ac15m to secure Europe's skies with autonomous airships (3 sources)",
-        "time": "3d ago"
+        "time": "4d ago"
       },
       {
         "type": "sector",
@@ -568,8 +578,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260417_015",
-    "generated_date": "2026-04-17",
+    "id": "opp_20260418_015",
+    "generated_date": "2026-04-18",
     "company_id": "co_ea005aa2517a",
     "investor_id": null,
     "person_id": null,
@@ -587,12 +597,12 @@
       "sources": 9,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$40M Series B \u00b7 AI agents for engineering workflows \u00b7 3 sources \u00b7 \u20ac35M also reported in round.",
+    "ai_rationale": "Synera raises $40M Series B \u00b7 AI agents for engineering workflows \u00b7 3 sources \u00b7 Revaia investor confirmed.",
     "triggers": [
       {
         "type": "funding",
         "text": "raises \u20ac35 million; Connectome Health secures \u20ac2 million (3 sources)",
-        "time": "1d ago"
+        "time": "2d ago"
       },
       {
         "type": "sector",
