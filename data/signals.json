@@ -31256,5 +31256,194 @@
       "amount_raw": "\u20ac180M",
       "currency": "EUR"
     }
+  },
+  {
+    "id": "sig_5703c4c3851ab9ca",
+    "source_url": "https://www.deutsche-startups.de/2026/04/17/getsafe-kauft-helden-de-klett-uebernimmt-careloop-spine-erhaelt-3-millionen/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Getsafe acquires helden.de",
+    "published_at": "2026-04-17T13:55:00+00:00",
+    "ingested_at": "2026-04-19T07:19:37.646235+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_5d0ffa80e8fa"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_c24303f3a8b9af21",
+    "source_url": "https://www.deutsche-startups.de/2026/04/17/vivere-pixel-photonics-0to9-norta-ki-seo/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "hiring_wave",
+    "signal_tier": "tier_3_weak",
+    "headline": "Multiple German startups posting job openings across various roles",
+    "published_at": "2026-04-17T09:55:00+00:00",
+    "ingested_at": "2026-04-19T07:19:38.930250+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_6d19b04fbf8ccd56",
+    "source_url": "https://siliconcanals.com/sc-a-people-who-laugh-before-they-finish-telling-a-painful-story-arent-handling-it-well-theyre-releasing-the-listener-from-having-to-respond-to-it-seriously-which-is-a-skill-they-learned-from-people-w/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Psychology article on emotional coping mechanisms published by Silicon Canals",
+    "published_at": "2026-04-19T02:12:13+00:00",
+    "ingested_at": "2026-04-19T07:19:40.299233+00:00",
+    "geography": "Benelux",
+    "country": "",
+    "ai_confidence": 0.0,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_f75a681f35166330",
+    "source_url": "https://siliconcanals.com/t-psychology-says-true-class-and-financial-wealth-have-almost-no-correlation-some-of-the-classiest-people-youll-ever-meet-have-very-little-money-and-some-of-the-wealthiest-people-youll/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Psychology article on correlation between class and financial wealth published on Silicon Canals",
+    "published_at": "2026-04-18T23:57:04+00:00",
+    "ingested_at": "2026-04-19T07:19:41.884713+00:00",
+    "geography": "Asia",
+    "country": "",
+    "ai_confidence": 0.1,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_66493b2621767251",
+    "source_url": "https://thenextweb.com/news/europe-public-money-vc-scaleups-growth-problems",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "European Investment Fund raises \u20ac15 billion ETCI 2 fund to unlock \u20ac80 billion in scaleup funding",
+    "published_at": "2026-04-18T11:31:44+00:00",
+    "ingested_at": "2026-04-19T07:19:43.595057+00:00",
+    "geography": "DACH | Southern Europe",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_5cb24401246a"
+    ],
+    "investor_ids": [
+      "inv_5cb24401246a",
+      "inv_04c727142c39",
+      "inv_9cf0dad39a23"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 16500000000,
+      "amount_raw": "\u20ac15 billion",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_c55940d3e5903fb7",
+    "source_url": "https://thenextweb.com/news/nvidia-huang-deepseek-huawei-chips-horrible-outcome",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Nvidia CEO warns DeepSeek optimizing for Huawei chips would harm US interests",
+    "published_at": "2026-04-18T11:14:03+00:00",
+    "ingested_at": "2026-04-19T07:19:45.421502+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_8d4321d9"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_ecd7b976"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_cf2842c63c15462d",
+    "source_url": "https://thenextweb.com/news/palantir-thales-air-space-intelligence-faa-smart-ai-air-traffic",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "partnership",
+    "signal_tier": "tier_2_medium",
+    "headline": "Palantir, Thales, and Air Space Intelligence compete for FAA's SMART air traffic prediction AI contract",
+    "published_at": "2026-04-18T10:38:42+00:00",
+    "ingested_at": "2026-04-19T07:19:47.028760+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_db423281"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_3094e8079af72dfd",
+    "source_url": "https://thenextweb.com/news/cursor-anysphere-2-billion-funding-50-billion-valuation-ai-coding",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Cursor raises $2 billion at $50 billion valuation led by Andreessen Horowitz, Thrive Capital, and Nvidia",
+    "published_at": "2026-04-18T10:26:13+00:00",
+    "ingested_at": "2026-04-19T07:19:49.930949+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_46a4eebd20d8"
+    ],
+    "investor_ids": [
+      "inv_013",
+      "inv_8365f8634d0f",
+      "inv_8d4321d9"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2000000000,
+      "amount_raw": "$2 billion",
+      "currency": "USD",
+      "valuation": 50000000000
+    }
   }
 ]

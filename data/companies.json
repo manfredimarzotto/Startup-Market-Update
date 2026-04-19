@@ -7630,5 +7630,17 @@
     "hq_city": "San Francisco",
     "last_signal_at": "2026-04-17T10:44:53+00:00",
     "signal_count": 1
+  },
+  {
+    "id": "co_5d0ffa80e8fa",
+    "name": "Getsafe",
+    "domain": "getsafe.de",
+    "sector": "FinTech",
+    "sub_sector": "InsurTech",
+    "stage": "",
+    "hq_country": "DE",
+    "hq_city": null,
+    "last_signal_at": "2026-04-17T13:55:00+00:00",
+    "signal_count": 1
   }
 ]
