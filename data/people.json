@@ -5119,5 +5119,50 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "founder"
+  },
+  {
+    "id": "per_c673430004db",
+    "name": "Elad Gil",
+    "role": "AI investor, podcast co-host",
+    "company_id": "co_8073c5350194",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_2d85d30d5eaa",
+    "name": "Sarah Guo",
+    "role": "AI investor, podcast co-host",
+    "company_id": "co_8073c5350194",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_d9e9fa444a81",
+    "name": "Alex Bouaziz",
+    "role": "CEO of Deel",
+    "company_id": "co_8073c5350194",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_3b3ad1bbcbd0",
+    "name": "Nik Storonsky",
+    "role": "CEO",
+    "company_id": "co_a5c1835f2f1f",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_b1958d2f6997",
+    "name": "Connor Hayes",
+    "role": "Head of Threads",
+    "company_id": "co_4cc500db62ed",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
   }
 ]

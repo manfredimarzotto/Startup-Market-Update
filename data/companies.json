@@ -7642,5 +7642,89 @@
     "hq_city": null,
     "last_signal_at": "2026-04-17T13:55:00+00:00",
     "signal_count": 1
+  },
+  {
+    "id": "co_8acb19ad4bc4",
+    "name": "ScreenPoint Medical",
+    "domain": null,
+    "sector": "HealthTech",
+    "sub_sector": "AI-powered medical imaging and diagnostics",
+    "stage": "",
+    "hq_country": "NL",
+    "hq_city": "Nijmegen",
+    "last_signal_at": "2026-04-20T07:30:55+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_ee5acb6342d4",
+    "name": "Planetary",
+    "domain": null,
+    "sector": "DeepTech",
+    "sub_sector": "Bioeconomy, Fermentation",
+    "stage": "series_a",
+    "hq_country": "CH",
+    "hq_city": null,
+    "last_signal_at": "2026-04-20T07:00:03+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_1ae34c9c9bb2",
+    "name": "brainjo",
+    "domain": null,
+    "sector": "HealthTech",
+    "sub_sector": "Mental Health, Virtual Reality",
+    "stage": "seed",
+    "hq_country": "DE",
+    "hq_city": "Regensburg",
+    "last_signal_at": "2026-04-20T05:00:00+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_53b2d48279fe",
+    "name": "Delivery Hero",
+    "domain": "deliveryhero.com",
+    "sector": "FoodTech",
+    "sub_sector": "Food Delivery",
+    "stage": "",
+    "hq_country": "DE",
+    "hq_city": "Berlin",
+    "last_signal_at": "2026-04-20T07:35:08+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_77b30b8a8805",
+    "name": "Cerebras",
+    "domain": null,
+    "sector": "AI/ML",
+    "sub_sector": "AI Hardware",
+    "stage": "ipo",
+    "hq_country": "Other",
+    "hq_city": null,
+    "last_signal_at": "2026-04-20T07:13:15+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_8073c5350194",
+    "name": "Deel",
+    "domain": "deel.com",
+    "sector": "FinTech",
+    "sub_sector": "Payroll & Compliance",
+    "stage": "",
+    "hq_country": "Other",
+    "hq_city": null,
+    "last_signal_at": "2026-04-19T19:30:00+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_4cc500db62ed",
+    "name": "Threads",
+    "domain": "threads.net",
+    "sector": "Social Media",
+    "sub_sector": "Social Networking",
+    "stage": "",
+    "hq_country": "Other",
+    "hq_city": null,
+    "last_signal_at": "2026-04-19T14:14:54+00:00",
+    "signal_count": 1
   }
 ]

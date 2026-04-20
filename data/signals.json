@@ -31445,5 +31445,360 @@
       "currency": "USD",
       "valuation": 50000000000
     }
+  },
+  {
+    "id": "sig_1440daa007be0a66",
+    "source_url": "https://sifted.eu/articles/portuguese-startups-to-watch-according-to-investors-2026/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "14 Portuguese startups identified as ones to watch by investors",
+    "published_at": "2026-04-20T05:00:14+00:00",
+    "ingested_at": "2026-04-20T08:07:17.860823+00:00",
+    "geography": "Southern Europe",
+    "country": "PT",
+    "ai_confidence": 0.65,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_19fec9a1d0cc77e1",
+    "source_url": "https://www.eu-startups.com/2026/04/insight-partners-backed-screenpoint-medical-secures-e13-6-million-to-advance-ai-powered-breast-cancer-detection/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "ScreenPoint Medical raises \u20ac13.6M from Insight Partners and Siemens Healthineers for AI breast cancer detection",
+    "published_at": "2026-04-20T07:30:55+00:00",
+    "ingested_at": "2026-04-20T08:07:19.787658+00:00",
+    "geography": "Benelux",
+    "country": "NL",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_8acb19ad4bc4"
+    ],
+    "investor_ids": [
+      "inv_009",
+      "inv_216554390af0"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 14800000,
+      "amount_raw": "\u20ac13.6 million",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_70297e657d111459",
+    "source_url": "https://www.eu-startups.com/2026/04/swiss-startup-planetary-raises-nearly-e23-million-to-build-the-industrial-backbone-of-the-bioeconomy/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Swiss bioeconomy startup Planetary raises \u20ac23 million in Series A and credit financing",
+    "published_at": "2026-04-20T07:00:03+00:00",
+    "ingested_at": "2026-04-20T08:07:21.521180+00:00",
+    "geography": "DACH",
+    "country": "CH",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_ee5acb6342d4"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 33500000,
+      "amount_raw": "\u20ac23 million (Series A) + \u20ac6.3 million (credit)",
+      "round_stage": "Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_a18d2b72e89c58f6",
+    "source_url": "https://tech.eu/2026/04/20/european-tech-weekly-recap-more-than-75-tech-funding-deals-worth-over-eur19b/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "European tech sector records 75+ funding deals worth \u20ac1.9B in weekly tracking",
+    "published_at": "2026-04-20T08:00:00+00:00",
+    "ingested_at": "2026-04-20T08:07:23.187186+00:00",
+    "geography": "Nordics | DACH | UK | Benelux | Southern Europe",
+    "country": "",
+    "ai_confidence": 0.45,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2070000000,
+      "amount_raw": "\u20ac1.9B",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_bd9ff4bd9ae1388e",
+    "source_url": "https://tech.eu/2026/04/20/brainjo-expands-mental-healthcare-through-vr-and-secures-eur2m-in-seed-funding/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "brainjo secures \u20ac2M seed funding led by HTGF for VR-based mental healthcare expansion",
+    "published_at": "2026-04-20T05:00:00+00:00",
+    "ingested_at": "2026-04-20T08:07:25.052827+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_1ae34c9c9bb2"
+    ],
+    "investor_ids": [
+      "inv_56b77439d8ed"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2160000,
+      "amount_raw": "\u20ac2M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_cedbcafb7c8a9c21",
+    "source_url": "https://techfundingnews.com/uber-delivery-hero-stake-europe-delivery-consolidation/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Uber deepens investment in Delivery Hero with \u20ac270M deal",
+    "published_at": "2026-04-20T07:35:08+00:00",
+    "ingested_at": "2026-04-20T08:07:26.689354+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_53b2d48279fe"
+    ],
+    "investor_ids": [
+      "inv_74c860f63661"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 297000000,
+      "amount_raw": "\u20ac270M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_1953cd611eb9d1d3",
+    "source_url": "https://techfundingnews.com/cerebras-files-ipo-ai-infrastructure-demand-surges/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Cerebras files for IPO with $510M revenue and $23B valuation",
+    "published_at": "2026-04-20T07:13:15+00:00",
+    "ingested_at": "2026-04-20T08:07:28.057765+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_77b30b8a8805"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "round_stage": "IPO",
+      "valuation": 23000000000
+    }
+  },
+  {
+    "id": "sig_7c34be0bb5061e3f",
+    "source_url": "https://techfundingnews.com/brainjo-2m-seed-vr-adhd-therapy-children-germany/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "German startup brainjo raises \u20ac2M from HTGF to build prescribable VR therapy for children with ADHD",
+    "published_at": "2026-04-20T04:00:00+00:00",
+    "ingested_at": "2026-04-20T08:07:29.587917+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_1ae34c9c9bb2"
+    ],
+    "investor_ids": [
+      "inv_56b77439d8ed"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2160000,
+      "amount_raw": "\u20ac2M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_504dd2fcd1335eaf",
+    "source_url": "https://www.uktech.news/funding/urfuture-raises-1-7m-to-rebuild-entry-level-hiring-20260420",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Manchester-based HR tech startup Urfuture secures \u00a31.7m seed round for entry-level hiring platform",
+    "published_at": "2026-04-20T08:00:15+00:00",
+    "ingested_at": "2026-04-20T08:07:31.534046+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_05f1fe45c73d"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2145000,
+      "amount_raw": "\u00a31.7m",
+      "round_stage": "Seed",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_0611c46cc2ebeb4e",
+    "source_url": "https://techcrunch.com/2026/04/19/the-12-month-window/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Elad Gil discusses optimal exit timing and the 12-month value peak window for startups",
+    "published_at": "2026-04-19T19:30:00+00:00",
+    "ingested_at": "2026-04-20T08:07:34.352296+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_8073c5350194"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_c673430004db",
+      "per_2d85d30d5eaa",
+      "per_d9e9fa444a81",
+      "per_ae29f149ec0c",
+      "per_c80dd7193e85"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_2166c8dbe91671ac",
+    "source_url": "https://www.deutsche-startups.de/2026/04/20/die-realitaet-zeigt-dir-erst-was-wirklich-funktioniert/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "hiring_wave",
+    "signal_tier": "tier_3_weak",
+    "headline": "Multiple German startups and tech companies posting open positions across marketing, engineering, and management roles",
+    "published_at": "2026-04-20T06:14:00+00:00",
+    "ingested_at": "2026-04-20T08:07:35.998997+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.35,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_55a1a23db68bbe19",
+    "source_url": "https://thenextweb.com/news/revolut-ipo-two-years-storonsky",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Revolut CEO confirms IPO timeline of two years, targeting US listing after filing for US bank charter",
+    "published_at": "2026-04-20T07:07:04+00:00",
+    "ingested_at": "2026-04-20T08:07:38.509761+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_a5c1835f2f1f"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_3b3ad1bbcbd0"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_64ca3ca9cbfcaca0",
+    "source_url": "https://thenextweb.com/news/google-marvell-ai-chips-inference-tpu-broadcom",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "partnership",
+    "signal_tier": "tier_2_medium",
+    "headline": "Google in talks with Marvell to develop custom AI inference chips, diversifying chip design partners",
+    "published_at": "2026-04-19T15:17:39+00:00",
+    "ingested_at": "2026-04-20T08:07:39.897365+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_bbdefa29"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_12a7b0cd28d25159",
+    "source_url": "https://thenextweb.com/news/threads-website-redesign-direct-messages-desktop",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Threads launches redesigned web interface with direct messages, navigation sidebar, and single-feed layout",
+    "published_at": "2026-04-19T14:14:54+00:00",
+    "ingested_at": "2026-04-20T08:07:41.672263+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_4cc500db62ed"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_b1958d2f6997"
+    ],
+    "metadata": {}
   }
 ]
