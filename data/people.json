@@ -5164,5 +5164,77 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_9e3aa36b0b4d",
+    "name": "Andrius Kubilius",
+    "role": "EU Commissioner for Space and Defence",
+    "company_id": "co_20831220475c",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_673ef20d012c",
+    "name": "Cezary Raszel",
+    "role": "Founder",
+    "company_id": "co_1e6958fe2c4b",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_9bceb29700bb",
+    "name": "Wojciech Ozimek",
+    "role": "Founder",
+    "company_id": "co_1e6958fe2c4b",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_16d585ab1ab2",
+    "name": "Oyinkansola Adebayo",
+    "role": "Host",
+    "company_id": "co_13aaf5fcdb7a",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_720eee525cbe",
+    "name": "Jean-Baptiste Gaudemet",
+    "role": "SVP Strategic Innovation Lab",
+    "company_id": "co_c9e5107579ad",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_16d1e1b7ec5c",
+    "name": "Cain Fleming",
+    "role": "founder",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_52686932b76a",
+    "name": "Rukhsar Ahmed",
+    "role": "founder",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_f6c47516eb59",
+    "name": "Issy Wedlake",
+    "role": "Founder",
+    "company_id": "co_0aa4964cdf55",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
   }
 ]
