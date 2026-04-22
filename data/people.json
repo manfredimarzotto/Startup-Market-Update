@@ -5236,5 +5236,95 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "founder"
+  },
+  {
+    "id": "per_9f67df91c66f",
+    "name": "Cal Henderson",
+    "role": "Co-founder of Slack",
+    "company_id": "co_7d4e02d31a7e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_012410a44c12",
+    "name": "Thomas B\u00f6ck",
+    "role": "angel investor",
+    "company_id": "co_53982fbb4492",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_f8b26683624e",
+    "name": "Bastian Nominacher",
+    "role": "angel investor",
+    "company_id": "co_53982fbb4492",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_0c67e408827a",
+    "name": "Christian Schl\u00f6gel",
+    "role": "angel investor",
+    "company_id": "co_53982fbb4492",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_6d21fde2fec2",
+    "name": "Ed Crook",
+    "role": "Strategy and operation leader",
+    "company_id": "co_0392c25bfe20",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_1b80882c8cb9",
+    "name": "Nadav Dakner",
+    "role": "CEO",
+    "company_id": "co_e1df19f602df",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_46dc0a87f091",
+    "name": "R\u00e9my Eisenstein",
+    "role": "CEO",
+    "company_id": "co_e1df19f602df",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_4a64ea780181",
+    "name": "Suhas Vijayakumar",
+    "role": "Dr",
+    "company_id": "co_6e5d5bebcb7f",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_5ac89aefd006",
+    "name": "Yuna Yang",
+    "role": "Dr",
+    "company_id": "co_6e5d5bebcb7f",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_f9a9e34f1fe1",
+    "name": "David DeFranza",
+    "role": "Dr",
+    "company_id": "co_6e5d5bebcb7f",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
   }
 ]
