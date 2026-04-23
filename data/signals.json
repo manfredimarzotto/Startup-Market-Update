@@ -34283,5 +34283,903 @@
       "per_f9a9e34f1fe1"
     ],
     "metadata": {}
+  },
+  {
+    "id": "sig_d6b1a50fffa6be32",
+    "source_url": "https://sifted.eu/articles/ex-creandum-partner-launches-fund-to-help-scaleups-raise-capital-via-bonds/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_2_medium",
+    "headline": "Ex-Creandum partner launches fund to help scaleups raise capital via bonds",
+    "published_at": "2026-04-23T05:00:06+00:00",
+    "ingested_at": "2026-04-23T07:53:59.995672+00:00",
+    "geography": "Nordics",
+    "country": "",
+    "ai_confidence": 0.5,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_c97c53763f5619c8",
+    "source_url": "https://tech.eu/2026/04/23/wenite-secures-eur18-million-to-power-the-future-of-data-driven-hr/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Wenite secures \u20ac1.8 million funding to accelerate European expansion in HR tech",
+    "published_at": "2026-04-23T07:24:23+00:00",
+    "ingested_at": "2026-04-23T07:54:01.669348+00:00",
+    "geography": "Benelux",
+    "country": "BE",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_7cc878d510d0"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1944000,
+      "amount_raw": "\u20ac1.8 million",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_9efbed404ff27e95",
+    "source_url": "https://tech.eu/2026/04/23/decade-energy-secures-eur22m-to-electrify-logistics-depots-at-scale/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Decade Energy secures \u20ac22M funding to scale logistics depot electrification",
+    "published_at": "2026-04-23T06:00:00+00:00",
+    "ingested_at": "2026-04-23T07:54:03.606376+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_3301b52ec45a"
+    ],
+    "investor_ids": [
+      "inv_8cb7c40f7b0b",
+      "inv_b01ab716005f"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 23760000,
+      "amount_raw": "\u20ac22M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_4ae031eb9f62f821",
+    "source_url": "https://tech.eu/2026/04/23/univity-raises-eur27m-to-build-sovereign-space-connectivity-for-telecom-operators/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "UNIVITY raises \u20ac27M for sovereign space connectivity for telecom operators",
+    "published_at": "2026-04-23T06:00:00+00:00",
+    "ingested_at": "2026-04-23T07:55:49.080183+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_3fa1f24cfd5c"
+    ],
+    "investor_ids": [
+      "inv_982d3cec0c8e",
+      "inv_167f448f11f3",
+      "inv_8fd769190a3e",
+      "inv_dc4af45b"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 29160000,
+      "amount_raw": "\u20ac27M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_d12ef2045481092e",
+    "source_url": "https://tech.eu/2026/04/22/the-quantum-bottleneck-isnt-chips-its-lasers-and-vexlum-wants-to-fix-it/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Vexlum addresses quantum computing bottleneck in laser technology",
+    "published_at": "2026-04-22T10:00:00+00:00",
+    "ingested_at": "2026-04-23T07:55:51.138211+00:00",
+    "geography": "Nordics",
+    "country": "FI",
+    "ai_confidence": 0.45,
+    "company_ids": [
+      "co_03ca30b3a699"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_7e90f1a5e1d8"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_e5ebcc577ca2169c",
+    "source_url": "https://tech.eu/2026/04/22/nox-mobility-raises-eur2m-pre-seed-to-rethink-europes-night-trains/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Nox Mobility raises \u20ac2M pre-seed funding for European night train development",
+    "published_at": "2026-04-22T09:00:00+00:00",
+    "ingested_at": "2026-04-23T07:55:53.237744+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_4bc28c682800"
+    ],
+    "investor_ids": [
+      "inv_d4a454591e21"
+    ],
+    "person_ids": [
+      "per_a5f90399a05d"
+    ],
+    "metadata": {
+      "amount_usd": 2160000,
+      "amount_raw": "\u20ac2M",
+      "round_stage": "Pre-Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_2249a64e57710339",
+    "source_url": "https://tech.eu/2026/04/22/qmatter-secures-12m-to-tackle-quantum-scaling-challenges/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "QMatter raises $1.2M pre-seed funding to address quantum scaling challenges",
+    "published_at": "2026-04-22T08:00:00+00:00",
+    "ingested_at": "2026-04-23T07:55:55.064626+00:00",
+    "geography": "Nordics",
+    "country": "",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_dc13c9b6594a"
+    ],
+    "investor_ids": [
+      "inv_5126d350899e",
+      "inv_8f39092677d4",
+      "inv_6d05cd3aa2b6",
+      "inv_eb8624ac23c6"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1200000,
+      "amount_raw": "$1.2M",
+      "round_stage": "Pre-Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_192969087906bde0",
+    "source_url": "https://tech.eu/2026/04/22/calibre-emerges-from-stealth-with-33m-to-tackle-health-guesswork-through-causal-ai/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Calibre raises $3.3M to launch causal AI platform for proactive health",
+    "published_at": "2026-04-22T08:00:00+00:00",
+    "ingested_at": "2026-04-23T07:55:56.771552+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_0efc7ad87e82"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3300000,
+      "amount_raw": "$3.3M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_de2df6662dea40f6",
+    "source_url": "https://news.crunchbase.com/startups/salvaging-shutdowns-simpleclosure-dori-yona-qa/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "SimpleClosure launches Asset Hub marketplace to help startups sell assets during wind-down",
+    "published_at": "2026-04-22T11:00:43+00:00",
+    "ingested_at": "2026-04-23T07:55:58.702623+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_4231e3da2296"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_4447a6b551a8"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_453836c853fae30b",
+    "source_url": "https://news.crunchbase.com/venture/building-successful-startup-vertical-ai-schroder-mgv/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Industry expert discusses venture funding trends and startup strategy for AI-driven vertical solutions",
+    "published_at": "2026-04-22T11:00:28+00:00",
+    "ingested_at": "2026-04-23T07:56:00.596500+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_3974c36769b8"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_3e61d2ef1df70a53",
+    "source_url": "https://techfundingnews.com/eccasion-3-2m-funding-swapfiets-founders-used-ev-platform/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Ex-Swapfiets founders raise \u20ac3.2M for EV buying platform",
+    "published_at": "2026-04-23T07:00:00+00:00",
+    "ingested_at": "2026-04-23T07:56:02.541857+00:00",
+    "geography": "Benelux",
+    "country": "",
+    "ai_confidence": 0.75,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3456000,
+      "amount_raw": "\u20ac3.2M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_3f95cdb99a1cf40d",
+    "source_url": "https://techfundingnews.com/voima-ventures-superhero-capital-back-thestorages-e3-6m-round-to-slash-factory-energy-bills-by-70/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "TheStorage secures \u20ac3.6M funding from Voima Ventures and Superhero Capital to reduce factory energy bills by 70%",
+    "published_at": "2026-04-23T06:18:48+00:00",
+    "ingested_at": "2026-04-23T07:56:04.415572+00:00",
+    "geography": "Nordics",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_40af079c91f9"
+    ],
+    "investor_ids": [
+      "inv_28093bdbad5b",
+      "inv_001b85fd25ff"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3900000,
+      "amount_raw": "\u20ac3.6M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_90a7308a11b33280",
+    "source_url": "https://techfundingnews.com/univity-27m-series-a-vleo-5g-satellite-constellation-telecom-starlink-rival/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Bpifrance and Blast back UNIVITY with \u20ac27M to build a space network for telecoms",
+    "published_at": "2026-04-23T06:00:00+00:00",
+    "ingested_at": "2026-04-23T07:56:06.206730+00:00",
+    "geography": "Southern Europe",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_3fa1f24cfd5c"
+    ],
+    "investor_ids": [
+      "inv_dc4af45b",
+      "inv_982d3cec0c8e"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 29700000,
+      "amount_raw": "\u20ac27M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_1b20b3052b87f652",
+    "source_url": "https://techfundingnews.com/naturbeads-eu-grant-puglia-commercial-plant-biodegradable-microspheres/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Bath University spinout securing \u20ac4.1M to open Italian factory for plant-based microplastic alternatives",
+    "published_at": "2026-04-22T23:01:00+00:00",
+    "ingested_at": "2026-04-23T07:56:08.134143+00:00",
+    "geography": "Southern Europe",
+    "country": "GB",
+    "ai_confidence": 0.45,
+    "company_ids": [
+      "co_12209e64be3a"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4515000,
+      "amount_raw": "\u20ac4.1M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_36bdbc415923cb77",
+    "source_url": "https://techfundingnews.com/neocognition-40m-seed-self-learning-ai-agents-enterprise/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "NeoCognition emerges from stealth with $40M to train AI agents that learn on the job",
+    "published_at": "2026-04-22T15:38:28+00:00",
+    "ingested_at": "2026-04-23T07:56:09.671932+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_eae219f1f825"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 40000000,
+      "amount_raw": "$40M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_236c22e595d9035d",
+    "source_url": "https://techfundingnews.com/spacex-cursor-60b-acquisition-option-10b-collaboration-xai/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_2_medium",
+    "headline": "SpaceX could acquire Cursor for $60B with partnership on AI model training",
+    "published_at": "2026-04-22T15:04:27+00:00",
+    "ingested_at": "2026-04-23T07:56:11.625018+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.4,
+    "company_ids": [
+      "co_46a4eebd20d8"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 60000000000,
+      "amount_raw": "$60B",
+      "currency": "USD",
+      "valuation": 60000000000
+    }
+  },
+  {
+    "id": "sig_4cc93edad437c4af",
+    "source_url": "https://techfundingnews.com/european-climate-tech-startups-vcs-watching/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "13 European climate tech startups highlighted by top VCs",
+    "published_at": "2026-04-22T12:30:11+00:00",
+    "ingested_at": "2026-04-23T07:56:13.279668+00:00",
+    "geography": "Nordics | DACH | UK | Benelux | Southern Europe",
+    "country": "",
+    "ai_confidence": 0.35,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_f7ef499a5d0bc3b3",
+    "source_url": "https://techfundingnews.com/blue-energy-380m-funding-vxi-capital-factory-built-nuclear-plants/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Blue Energy raises $380M from VXI Capital for factory-built nuclear plants",
+    "published_at": "2026-04-22T10:49:44+00:00",
+    "ingested_at": "2026-04-23T07:56:14.991994+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_56b7a7c1a68b"
+    ],
+    "investor_ids": [
+      "inv_77705d766272"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 380000000,
+      "amount_raw": "$380M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_9e9b865b048e569b",
+    "source_url": "https://www.uktech.news/defence-tech/mod-courts-investors-in-defence-tech-push-20260422",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "partnership",
+    "signal_tier": "tier_2_medium",
+    "headline": "UK MoD seeks private investment to drive defence sector growth and military readiness",
+    "published_at": "2026-04-22T14:00:43+00:00",
+    "ingested_at": "2026-04-23T07:56:17.287257+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.72,
+    "company_ids": [
+      "co_5c8bc02b3e45"
+    ],
+    "investor_ids": [
+      "inv_a10872bf0b71",
+      "inv_914535a96c0e",
+      "inv_bd4ad04f1da0"
+    ],
+    "person_ids": [
+      "per_349c6ac54637",
+      "per_da342350d9c1"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_1d235d49f370f47c",
+    "source_url": "https://www.uktech.news/ai/locai-raises-1m-to-develop-its-off-cloud-ai-infrastructure-20260422",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Locai raises \u00a31m pre-seed funding for off-cloud AI infrastructure",
+    "published_at": "2026-04-22T10:00:42+00:00",
+    "ingested_at": "2026-04-23T07:56:18.980696+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_12e8d50d4b51"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1250000,
+      "amount_raw": "\u00a31m",
+      "round_stage": "Seed",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_fac603dc76dd5c43",
+    "source_url": "https://techcrunch.com/podcast/fusion-doesnt-have-a-normal-startup-timeline-and-investors-are-fine-with-that/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Fusion startups operating outside normal timelines while investors remain patient with sector",
+    "published_at": "2026-04-22T21:07:33+00:00",
+    "ingested_at": "2026-04-23T07:56:20.706756+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.25,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_5c4727ee317caf99",
+    "source_url": "https://techcrunch.com/2026/04/22/esther-and-anne-wojcicki-back-new-healthcare-accelerator-fund/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_2_medium",
+    "headline": "Esther and Anne Wojcicki back new healthcare accelerator and fund",
+    "published_at": "2026-04-22T14:00:00+00:00",
+    "ingested_at": "2026-04-23T07:56:22.824456+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.65,
+    "company_ids": [],
+    "investor_ids": [
+      "inv_cfade67a850a",
+      "inv_fc8b0e088b1e"
+    ],
+    "person_ids": [
+      "per_cfade67a850a",
+      "per_fc8b0e088b1e",
+      "per_64c46dff"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_f242781043698d3b",
+    "source_url": "https://www.deutsche-startups.de/2026/04/23/cfo-vom-kostenverwalter-zum-wachstumstreiber/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Guest article on CFO role evolution from cost manager to growth driver",
+    "published_at": "2026-04-23T06:15:00+00:00",
+    "ingested_at": "2026-04-23T07:56:24.526889+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_89fe0d37b6d72081",
+    "source_url": "https://www.deutsche-startups.de/2026/04/22/atmos-bekommt-257-millionen-atronus-erhaelt-11-millionen-linexa-sammelt-2-millionen-ein/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Atmos raises \u20ac25.7 million in funding",
+    "published_at": "2026-04-22T13:55:00+00:00",
+    "ingested_at": "2026-04-23T07:56:27.950199+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_9e4a4e317e3c"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 27800000,
+      "amount_raw": "25,7 Millionen",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_ad5e59d2adc1f777",
+    "source_url": "https://www.deutsche-startups.de/2026/04/22/5-neue-startups-maiasa-syntaccx-zerowait-iknowly-placed/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Feature article on 5 new startups: maiasa, syntaccx, ZeroWait, iknowly, Placed",
+    "published_at": "2026-04-22T11:55:00+00:00",
+    "ingested_at": "2026-04-23T07:56:29.715283+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.3,
+    "company_ids": [
+      "co_1c40a4cd5374"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_e5900d5661272b96",
+    "source_url": "https://www.deutsche-startups.de/2026/04/22/her-one-viora-null-euro-exit-liquidation-preference-wefox-healthtech/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "hiring_wave",
+    "signal_tier": "tier_3_weak",
+    "headline": "Startup Ticker job listings compilation featuring multiple hiring opportunities across German and European companies",
+    "published_at": "2026-04-22T09:55:00+00:00",
+    "ingested_at": "2026-04-23T07:56:31.774660+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_77888e476a03acbf",
+    "source_url": "https://www.deutsche-startups.de/2026/04/22/wachstum-ohne-zustellbarkeitsverlust-der-e-mail-marketing-fahrplan-fuer-startups/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Guest article on email marketing strategy for startups published on German startup news site",
+    "published_at": "2026-04-22T07:55:00+00:00",
+    "ingested_at": "2026-04-23T07:56:33.685618+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_e1d3602ab35a072e",
+    "source_url": "https://techround.co.uk/business/what-are-carbon-credits-for-business-and-how-do-they-work/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Educational article explaining carbon credits and their role in business sustainability strategies",
+    "published_at": "2026-04-22T09:17:15+00:00",
+    "ingested_at": "2026-04-23T07:56:35.554158+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.1,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_077b396a10c1"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_d5f814a9c475beae",
+    "source_url": "https://thenextweb.com/news/french-satellite-startup-univity-raises-e27m-series-a",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "French satellite startup Univity raises \u20ac27M Series A funding",
+    "published_at": "2026-04-23T07:23:02+00:00",
+    "ingested_at": "2026-04-23T07:56:37.258926+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_3fa1f24cfd5c"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 29700000,
+      "amount_raw": "\u20ac27M",
+      "round_stage": "Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_126b36b51563d733",
+    "source_url": "https://thenextweb.com/news/spacex-orbital-data-centres-ipo-risk-disclosure",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "SpaceX's IPO filing reveals orbital data centre plans face significant technical and commercial viability risks, contradicting Musk's earlier optimistic statements",
+    "published_at": "2026-04-22T20:21:15+00:00",
+    "ingested_at": "2026-04-23T07:56:39.543672+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_e78bdebae031"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_0aa99e39ee4a"
+    ],
+    "metadata": {
+      "valuation": 1750000000000
+    }
+  },
+  {
+    "id": "sig_062720b4fbc3e0f8",
+    "source_url": "https://thenextweb.com/news/vast-data-1b-raise-30b-valuation-nvidia-ai-storage",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "VAST Data raises $1B Series F at $30B valuation, betting on data layer as AI bottleneck",
+    "published_at": "2026-04-22T20:03:43+00:00",
+    "ingested_at": "2026-04-23T07:56:41.865373+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_6d8841f65703"
+    ],
+    "investor_ids": [
+      "inv_a2ef2b368f56",
+      "inv_23e0254d3caf",
+      "inv_8d4321d9",
+      "inv_f611beab4643",
+      "inv_11e74850959a"
+    ],
+    "person_ids": [
+      "per_5fe0e9eff028"
+    ],
+    "metadata": {
+      "amount_usd": 1000000000,
+      "amount_raw": "$1 billion",
+      "round_stage": "Series F",
+      "currency": "USD",
+      "valuation": 30000000000
+    }
+  },
+  {
+    "id": "sig_0bbfd04aec4fa485",
+    "source_url": "https://thenextweb.com/news/google-chrome-enterprise-ai-coworker-agentic-browser",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Google launches Chrome as agentic AI workplace platform with Auto Browse, Chrome Skills, and Enterprise Premium tier",
+    "published_at": "2026-04-22T19:23:08+00:00",
+    "ingested_at": "2026-04-23T07:56:43.725456+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_bbdefa29"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_eaf0b75c843fdb2b",
+    "source_url": "https://thenextweb.com/news/google-cloud-next-pichai-agentic-era-scale",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "expansion",
+    "signal_tier": "tier_1_strong",
+    "headline": "Google Cloud reports $70B annual revenue with $240B backlog and $175-185B capex plan at Cloud Next 2026",
+    "published_at": "2026-04-22T17:46:27+00:00",
+    "ingested_at": "2026-04-23T07:56:45.801917+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_bbdefa29"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_c945ce3ffb73"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_350953743699ff3d",
+    "source_url": "https://thenextweb.com/news/google-cloud-750m-partner-fund-agentic-ai",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Google announces $750M fund for partner agentic AI development at Cloud Next 2026",
+    "published_at": "2026-04-22T15:51:25+00:00",
+    "ingested_at": "2026-04-23T07:56:47.645154+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_bbdefa29"
+    ],
+    "investor_ids": [
+      "inv_bbdefa2950f4",
+      "inv_de3e7eef",
+      "inv_3e808ece8227",
+      "inv_344bff8b2788",
+      "inv_e4ffb7bd879b",
+      "inv_68bad0bf4a37"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 750000000,
+      "amount_raw": "$750M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_9ca92c718875ee80",
+    "source_url": "https://thenextweb.com/news/google-cloud-next-ai-agents-agentic-era",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Google launches Gemini Enterprise Agent Platform, rebranding Vertex AI with unified agentic capabilities across workspace and enterprise",
+    "published_at": "2026-04-22T14:26:39+00:00",
+    "ingested_at": "2026-04-23T07:56:49.414673+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_bbdefa29"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
   }
 ]

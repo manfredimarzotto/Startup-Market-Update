@@ -5326,5 +5326,95 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "partner"
+  },
+  {
+    "id": "per_7e90f1a5e1d8",
+    "name": "Jussi-Pekka Penttinen",
+    "role": "CEO and CTO",
+    "company_id": "co_03ca30b3a699",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_a5f90399a05d",
+    "name": "Tommaso Lu",
+    "role": "investor",
+    "company_id": "co_4bc28c682800",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_4447a6b551a8",
+    "name": "Dori Yona",
+    "role": "Founder",
+    "company_id": "co_4231e3da2296",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_3974c36769b8",
+    "name": "Marc Schr\u00f6der",
+    "role": "Partner at MGV",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_349c6ac54637",
+    "name": "John Healey",
+    "role": "Defence Secretary",
+    "company_id": "co_5c8bc02b3e45",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_da342350d9c1",
+    "name": "Rachel Reeves",
+    "role": "Chancellor",
+    "company_id": "co_5c8bc02b3e45",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_cfade67a850a",
+    "name": "Esther Wojcicki",
+    "role": "Investor",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_fc8b0e088b1e",
+    "name": "Anne Wojcicki",
+    "role": "Investor",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_5fe0e9eff028",
+    "name": "Dr Abdulla Al-Nuaimi",
+    "role": "leadership",
+    "company_id": "co_6d8841f65703",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_c945ce3ffb73",
+    "name": "Sundar Pichai",
+    "role": "CEO",
+    "company_id": "co_bbdefa29",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
   }
 ]
