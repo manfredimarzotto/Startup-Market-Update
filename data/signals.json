@@ -35181,5 +35181,1306 @@
     "investor_ids": [],
     "person_ids": [],
     "metadata": {}
+  },
+  {
+    "id": "sig_cdbbdc729c79f066",
+    "source_url": "https://sifted.eu/articles/verda-raises-e100m-to-build-european-hyperscaler/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Verda raises \u20ac100m to build European hyperscaler, plans 100+ hires and market expansion",
+    "published_at": "2026-04-24T08:00:53+00:00",
+    "ingested_at": "2026-04-24T08:05:20.454172+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_13a965e03bd5"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 108000000,
+      "amount_raw": "\u20ac100m",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_b237f62364c0704b",
+    "source_url": "https://sifted.eu/articles/european-vc-hiring-spring-2026/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "hiring_wave",
+    "signal_tier": "tier_3_weak",
+    "headline": "European venture capital firms hiring in spring 2026",
+    "published_at": "2026-04-24T05:00:12+00:00",
+    "ingested_at": "2026-04-24T08:05:22.287458+00:00",
+    "geography": "EU",
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_81eb85593e9187f0",
+    "source_url": "https://sifted.eu/articles/elon-musk-xai-mistral-partnership/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_2_medium",
+    "headline": "Elon Musk reportedly considered acquiring Mistral to compete with OpenAI and Anthropic",
+    "published_at": "2026-04-23T12:01:47+00:00",
+    "ingested_at": "2026-04-24T08:05:24.020266+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_c04bd5ebd10a"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_0aa99e39ee4a"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_f6a97235801f1a98",
+    "source_url": "https://www.eu-startups.com/2026/04/helsinki-based-ai-infrastructure-company-verda-raises-e100-million-plans-to-hire-100-people-by-year-end/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Verda raises \u20ac100 million for AI cloud infrastructure and international expansion",
+    "published_at": "2026-04-24T07:00:45+00:00",
+    "ingested_at": "2026-04-24T08:05:25.883922+00:00",
+    "geography": "Nordics",
+    "country": "FI",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_13a965e03bd5"
+    ],
+    "investor_ids": [
+      "inv_cb47ca2049ae",
+      "inv_4a3c907c559f",
+      "inv_072bbc789933",
+      "inv_45368cc3f409"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 117000000,
+      "amount_raw": "\u20ac100 million",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_a0e43a42374a8921",
+    "source_url": "https://www.eu-startups.com/2026/04/hrflow-ai-secures-e6-million-pre-series-a-to-build-hiring-superintelligence-to-tackle-unemployment/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "HrFlow.ai raises \u20ac6 million pre-Series A funding led by 115K and EmergingTech Ventures",
+    "published_at": "2026-04-24T05:49:19+00:00",
+    "ingested_at": "2026-04-24T08:05:28.618275+00:00",
+    "geography": "Benelux",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_253e50900d87"
+    ],
+    "investor_ids": [
+      "inv_899c1ecd0872",
+      "inv_5d050253e921",
+      "inv_095ebac3aa15"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 6500000,
+      "amount_raw": "\u20ac6 million",
+      "round_stage": "pre-Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_af703945c598e22f",
+    "source_url": "https://www.eu-startups.com/2026/04/the-pitch-doctor-christoph-sollich-joins-the-eu-startups-summit-2026-in-malta/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Christoph Sollich joins EU-Startups Summit 2026 as speaker in Malta",
+    "published_at": "2026-04-23T15:05:15+00:00",
+    "ingested_at": "2026-04-24T08:05:30.144831+00:00",
+    "geography": "Southern Europe",
+    "country": "",
+    "ai_confidence": 0.7,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_b6e0b65b7b35"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_24dbbfc53e8397ca",
+    "source_url": "https://www.eu-startups.com/2026/04/kurma-partners-closes-e215-million-biofund-iv-to-back-european-biotech-ventures-from-paris/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Kurma Partners closes \u20ac215 million Biofund IV for European BioTech ventures",
+    "published_at": "2026-04-23T14:41:56+00:00",
+    "ingested_at": "2026-04-24T08:05:31.981421+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_074e8cfb7b09"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 235000000,
+      "amount_raw": "\u20ac215 million",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_4b8bcb093b7cc3bb",
+    "source_url": "https://www.eu-startups.com/2026/04/zagreb-based-fasal-bio-secures-e7-million-to-replace-plastics-with-renewable-raw-materials/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Fasal Bio secures \u20ac7 million growth equity investment from BlackPeak Capital",
+    "published_at": "2026-04-23T10:00:48+00:00",
+    "ingested_at": "2026-04-24T08:05:34.041145+00:00",
+    "geography": "Southern Europe",
+    "country": "HR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7cd145845ce4"
+    ],
+    "investor_ids": [
+      "inv_a74612193849"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 7560000,
+      "amount_raw": "\u20ac7 million",
+      "round_stage": "Growth Equity",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_fa987634988d83d9",
+    "source_url": "https://www.eu-startups.com/2026/04/the-eu-startups-summit-2026-networking-guide-all-the-juicy-details/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "EU-Startups Summit 2026 scheduled for May 7-8 in Malta with 2,400 expected attendees",
+    "published_at": "2026-04-23T09:02:05+00:00",
+    "ingested_at": "2026-04-24T08:05:36.289398+00:00",
+    "geography": "Southern Europe",
+    "country": "",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_780a6e75fc3115b8",
+    "source_url": "https://www.eu-startups.com/2026/04/cloudsmith-raises-e61-5-million-series-c-to-control-and-secure-ai-driven-software-supply-chains/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Cloudsmith raises \u20ac61.5M Series C for AI-driven software supply chain management",
+    "published_at": "2026-04-23T08:20:33+00:00",
+    "ingested_at": "2026-04-24T08:05:38.094919+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_cf400b75ffe9"
+    ],
+    "investor_ids": [
+      "inv_2a86fc52b6d0",
+      "inv_009"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 72000000,
+      "amount_raw": "\u20ac61.5 million ($72 million)",
+      "round_stage": "Series C",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_788084f5d0837ca3",
+    "source_url": "https://www.eu-startups.com/2026/04/spacetech-startup-univity-raises-e27-million-to-position-europe-as-a-key-player-in-global-hybrid-connectivity/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "UNIVITY raises \u20ac27M Series A for space-based hybrid connectivity services",
+    "published_at": "2026-04-23T07:53:10+00:00",
+    "ingested_at": "2026-04-24T08:05:39.823215+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_3fa1f24cfd5c"
+    ],
+    "investor_ids": [
+      "inv_982d3cec0c8e",
+      "inv_167f448f11f3",
+      "inv_8fd769190a3e"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 29700000,
+      "amount_raw": "\u20ac27 million",
+      "round_stage": "Series A",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_9ffcb18a93fdc078",
+    "source_url": "https://www.eu-startups.com/2026/04/decade-energy-founded-by-the-team-behind-volta-trucks-secures-e22-million-to-scale-europes-depot-power-infrastructure/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Decade Energy secures \u20ac22 million funding led by Eiffel Investment Group and SET Ventures to scale European depot power infrastructure",
+    "published_at": "2026-04-23T06:53:19+00:00",
+    "ingested_at": "2026-04-24T08:05:41.636710+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_3301b52ec45a"
+    ],
+    "investor_ids": [
+      "inv_8cb7c40f7b0b",
+      "inv_b01ab716005f"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 23760000,
+      "amount_raw": "\u20ac22 million",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_1cc9e59c92b81b75",
+    "source_url": "https://tech.eu/2026/04/24/sofia-based-quillon-raises-15m-for-audit-grade-ai-in-accounting/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Sofia-based Quillon raises $1.5M pre-seed funding for audit-grade AI accounting platform",
+    "published_at": "2026-04-24T07:13:29+00:00",
+    "ingested_at": "2026-04-24T08:05:46.586938+00:00",
+    "geography": "Southern Europe",
+    "country": "BG",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7cb699c3cd32"
+    ],
+    "investor_ids": [
+      "inv_4688a94c"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1500000,
+      "amount_raw": "$1.5M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_25cb8f2cde1b33cf",
+    "source_url": "https://tech.eu/2026/04/23/balderton-adds-serial-entrepreneur-phil-chambers-to-its-partnership/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Balderton Capital appoints serial entrepreneur Phil Chambers as Partner for early-stage investments",
+    "published_at": "2026-04-23T11:42:29+00:00",
+    "ingested_at": "2026-04-24T08:05:48.238209+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_374350ac517b"
+    ],
+    "investor_ids": [
+      "inv_005"
+    ],
+    "person_ids": [
+      "per_4af031c7d7dc"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_3c654cc264c8ab20",
+    "source_url": "https://tech.eu/2026/04/23/thestorage-raises-eur36m-to-scale-industrial-thermal-energy-storage/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "TheStorage raises \u20ac3.6M seed funding led by Voima Ventures for industrial thermal energy storage",
+    "published_at": "2026-04-23T11:06:02+00:00",
+    "ingested_at": "2026-04-24T08:05:50.632525+00:00",
+    "geography": "Nordics",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_40af079c91f9"
+    ],
+    "investor_ids": [
+      "inv_28093bdbad5b"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3888000,
+      "amount_raw": "\u20ac3.6M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_44dcdbb7cc29a0c2",
+    "source_url": "https://tech.eu/2026/04/23/berlin-based-vrey-raises-eur33m-to-unlock-shared-roof-solar/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Berlin-based VREY raises \u20ac3.3M seed funding for shared-roof solar solutions",
+    "published_at": "2026-04-23T11:05:00+00:00",
+    "ingested_at": "2026-04-24T08:05:53.323959+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_329f195cd09c"
+    ],
+    "investor_ids": [
+      "inv_cb5495cda19c",
+      "inv_56b77439d8ed",
+      "inv_2bf98189"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3630000,
+      "amount_raw": "\u20ac3.3M",
+      "round_stage": "Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_93b33fed1286365a",
+    "source_url": "https://tech.eu/2026/04/23/legora-makes-second-acquisition-in-two-months/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Swedish legal tech unicorn Legora acquires Stockholm legal research startup Qura",
+    "published_at": "2026-04-23T10:45:00+00:00",
+    "ingested_at": "2026-04-24T08:05:56.173905+00:00",
+    "geography": "Nordics",
+    "country": "SE",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_22dc0248"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_264c3742367349cf",
+    "source_url": "https://tech.eu/2026/04/23/fintech-10-companies-that-raised-the-most-in-2025/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "European fintech funding landscape in 2025 shows active yet concentrated market with mix of VC, growth equity, and debt financing",
+    "published_at": "2026-04-23T08:30:00+00:00",
+    "ingested_at": "2026-04-24T08:05:58.642211+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.35,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_35473945c834295b",
+    "source_url": "https://tech.eu/2026/04/23/cloudsmith-raises-72m-series-c-to-secure-the-ai-era-software-supply-chain/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Cloudsmith raises $72M Series C led by TCV to secure AI-era software supply chain",
+    "published_at": "2026-04-23T08:00:00+00:00",
+    "ingested_at": "2026-04-24T08:06:00.252924+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_cf400b75ffe9"
+    ],
+    "investor_ids": [
+      "inv_2a86fc52b6d0",
+      "inv_009"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 72000000,
+      "amount_raw": "$72M",
+      "round_stage": "Series C",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_0a9c872260b689e3",
+    "source_url": "https://news.crunchbase.com/venture/cloneable-cloning-expert-worker-knowledge-ai-infrastructure/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Cloneable raises $4.6M seed funding for agentic AI to automate expert worker knowledge in utilities",
+    "published_at": "2026-04-23T12:00:34+00:00",
+    "ingested_at": "2026-04-24T08:06:02.566859+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_56be18a2b401"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4600000,
+      "amount_raw": "$4.6M",
+      "round_stage": "Seed",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_9daf0eef266378b8",
+    "source_url": "https://news.crunchbase.com/venture/modest-gains-for-electric-vehicle-funding-wayve/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "EV sector funding shows modest gains with mix of optimism and restraint",
+    "published_at": "2026-04-23T11:00:17+00:00",
+    "ingested_at": "2026-04-24T08:06:04.442093+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.35,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_9738509d129feb4e",
+    "source_url": "https://techfundingnews.com/verda-117m-funding-profitable-ai-gpu-cloud-finland/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Lifeline Ventures and Tesi back Verda in $117M funding round for cleaner hyperscaler AI cloud alternative",
+    "published_at": "2026-04-24T07:00:00+00:00",
+    "ingested_at": "2026-04-24T08:06:06.076369+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_13a965e03bd5"
+    ],
+    "investor_ids": [
+      "inv_cb47ca2049ae",
+      "inv_072bbc789933"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 117000000,
+      "amount_raw": "$117M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_9b867e8beebc75eb",
+    "source_url": "https://techfundingnews.com/eqt-takeover-kakaku-com-3-3b-valuation-japan-buyout/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_2_medium",
+    "headline": "EQT explores $3.3B takeover of Kakaku.com as Japan's PE boom hits its biggest internet company yet",
+    "published_at": "2026-04-23T13:49:29+00:00",
+    "ingested_at": "2026-04-24T08:06:07.832633+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_1c413f8cf7a1"
+    ],
+    "investor_ids": [
+      "inv_001"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3300000000,
+      "amount_raw": "$3.3B",
+      "currency": "USD",
+      "valuation": 3300000000
+    }
+  },
+  {
+    "id": "sig_96cd389a539da949",
+    "source_url": "https://techfundingnews.com/kurma-partners-biofund-iv-215m-european-biotech-vc/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Kurma Partners closes \u20ac215M Biofund IV, reaching \u20ac1B AUM with backing from EIF and Bpifrance",
+    "published_at": "2026-04-23T13:37:34+00:00",
+    "ingested_at": "2026-04-24T08:06:09.827266+00:00",
+    "geography": "DACH",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_074e8cfb7b09"
+    ],
+    "investor_ids": [
+      "inv_8cb7c40f7b0b",
+      "inv_dc4af45b"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 235000000,
+      "amount_raw": "\u20ac215M",
+      "currency": "EUR",
+      "valuation": 1090000000
+    }
+  },
+  {
+    "id": "sig_651a156ae19d7358",
+    "source_url": "https://techfundingnews.com/deepseek-20b-valuation-tencent-alibaba-first-funding-round/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Tencent and Alibaba to back DeepSeek at $20B+ valuation",
+    "published_at": "2026-04-23T12:49:15+00:00",
+    "ingested_at": "2026-04-24T08:06:11.417568+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_6f7ac1823da8"
+    ],
+    "investor_ids": [
+      "inv_9c8ae69b84f2",
+      "inv_047364b9be67"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "valuation": 20000000000
+    }
+  },
+  {
+    "id": "sig_596d4bb86c6c67c6",
+    "source_url": "https://techfundingnews.com/omni-120m-series-c-15b-valuation-semantic-layer-ai-data-governance/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Ex-Looker co-founders raise $120M at $1.5B valuation from ICONIQ for AI-powered enterprise analytics",
+    "published_at": "2026-04-23T12:23:10+00:00",
+    "ingested_at": "2026-04-24T08:06:13.255995+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.95,
+    "company_ids": [],
+    "investor_ids": [
+      "inv_c9c1361a"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 120000000,
+      "amount_raw": "$120M",
+      "currency": "USD",
+      "valuation": 1500000000
+    }
+  },
+  {
+    "id": "sig_03a8cdee29f82e14",
+    "source_url": "https://techfundingnews.com/anthropic-1-trillion-valuation-secondary-market-overtakes-openai/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Anthropic overtakes OpenAI with $1T secondary market valuation after 233% revenue surge",
+    "published_at": "2026-04-23T11:44:26+00:00",
+    "ingested_at": "2026-04-24T08:06:15.994948+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.45,
+    "company_ids": [
+      "co_c70eca6b0f88"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "valuation": 1000000000000
+    }
+  },
+  {
+    "id": "sig_e0a0f748d89ad256",
+    "source_url": "https://techfundingnews.com/vast-data-1b-series-f-30b-valuation-ai-data-infrastructure/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "VAST Data raises $1B from NVIDIA, tripling valuation to $30B",
+    "published_at": "2026-04-23T11:34:07+00:00",
+    "ingested_at": "2026-04-24T08:06:18.079964+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_6d8841f65703"
+    ],
+    "investor_ids": [
+      "inv_8d4321d9"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1000000000,
+      "amount_raw": "$1B",
+      "currency": "USD",
+      "valuation": 30000000000
+    }
+  },
+  {
+    "id": "sig_b34e66aa22de47f0",
+    "source_url": "https://www.uktech.news/news/investment-news/northern-gritstone-closes-20m-to-back-uk-life-sciences-20260423",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "new_fund",
+    "signal_tier": "tier_1_strong",
+    "headline": "Northern Gritstone closes \u00a320m funding to back UK life sciences and deep tech",
+    "published_at": "2026-04-23T14:00:24+00:00",
+    "ingested_at": "2026-04-24T08:06:20.011236+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_56d6db39d141"
+    ],
+    "investor_ids": [
+      "inv_41bc30b42626"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 25200000,
+      "amount_raw": "\u00a320m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_b4ec191d59431702",
+    "source_url": "https://www.uktech.news/news/investment-news/tech-funding-thrives-outside-of-london-report-reveals-20260423",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "UK venture capital investment increasingly flows to regional tech ecosystems outside London",
+    "published_at": "2026-04-23T13:00:51+00:00",
+    "ingested_at": "2026-04-24T08:06:22.503670+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.65,
+    "company_ids": [],
+    "investor_ids": [
+      "inv_ce749e840dca"
+    ],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_af0c22bee1edd4e5",
+    "source_url": "https://www.uktech.news/opinion/sovereign-ai-needs-a-channel-strategy-20260423",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "UK government launches Sovereign AI Unit with \u00a3500m commitment to scale AI companies",
+    "published_at": "2026-04-23T10:00:13+00:00",
+    "ingested_at": "2026-04-24T08:06:24.297215+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.6,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 625000000,
+      "amount_raw": "\u00a3500m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_c4c03a11a604cdd3",
+    "source_url": "https://www.uktech.news/climate-tech/naturbeads-secures-3-6m-to-set-up-italy-production-plant-20260423",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "expansion",
+    "signal_tier": "tier_1_strong",
+    "headline": "Naturbeads secures \u20ac4.1m EU funding to establish production plant in southern Italy",
+    "published_at": "2026-04-23T09:00:55+00:00",
+    "ingested_at": "2026-04-24T08:06:26.002881+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_995b9900b688"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4500000,
+      "amount_raw": "\u20ac4.1m (\u00a33.6m)",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_8edcaed6b8ca59cf",
+    "source_url": "https://www.uktech.news/ai/cloudsmith-raises-53m-to-accelerate-its-artifact-management-platform-20260423",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Cloudsmith raises $72m Series C to accelerate artifact management platform",
+    "published_at": "2026-04-23T08:00:47+00:00",
+    "ingested_at": "2026-04-24T08:06:28.057937+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_cf400b75ffe9"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 72000000,
+      "amount_raw": "$72m (\u00a353.4m)",
+      "round_stage": "Series C",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_6cf3103d620156e0",
+    "source_url": "https://techcrunch.com/2026/04/23/bob-iger-rejoins-thrive-capital-as-advisor-after-disney-exit/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Bob Iger rejoins Thrive Capital as advisor following Disney CEO exit",
+    "published_at": "2026-04-24T00:11:25+00:00",
+    "ingested_at": "2026-04-24T08:06:30.146730+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_456175e6cbb7"
+    ],
+    "investor_ids": [
+      "inv_8365f8634d0f"
+    ],
+    "person_ids": [
+      "per_9f480ce3e281",
+      "per_24b7b50592ab"
+    ],
+    "metadata": {
+      "valuation": 50000000000
+    }
+  },
+  {
+    "id": "sig_66a7d0a5ee405bb7",
+    "source_url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Sierra acquires YC-backed French AI startup Fragment to strengthen agent development in France",
+    "published_at": "2026-04-23T21:00:00+00:00",
+    "ingested_at": "2026-04-24T08:06:32.540434+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_dca6ec9510fc"
+    ],
+    "investor_ids": [
+      "inv_8aa206b0c985",
+      "inv_0e898208"
+    ],
+    "person_ids": [
+      "per_29cec27eadc8",
+      "per_6ab4e9f5d422",
+      "per_f6b30766e686",
+      "per_09fef5823f72"
+    ],
+    "metadata": {
+      "valuation": 10000000000
+    }
+  },
+  {
+    "id": "sig_1e7448b65619f0b4",
+    "source_url": "https://www.deutsche-startups.de/2026/04/24/ich-habe-lange-versucht-alles-allein-zu-stemmen/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "hiring_wave",
+    "signal_tier": "tier_3_weak",
+    "headline": "Job listings aggregation from deutsche-startups.de featuring multiple open positions across German companies",
+    "published_at": "2026-04-24T06:15:00+00:00",
+    "ingested_at": "2026-04-24T08:06:34.326696+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_f75b14e493fcfef2",
+    "source_url": "https://www.deutsche-startups.de/2026/04/23/blinkist-gruender-kaufen-ihr-startup-zurueck/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Blinkist founders acquire their startup back",
+    "published_at": "2026-04-23T13:55:00+00:00",
+    "ingested_at": "2026-04-24T08:06:37.351995+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_139627ec084a"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_46a0282ecbf0e973",
+    "source_url": "https://www.deutsche-startups.de/2026/04/23/eine-trennung-war-fuer-beide-seiten-die-bessere-option/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Interview article about separation being better option for both parties",
+    "published_at": "2026-04-23T11:55:00+00:00",
+    "ingested_at": "2026-04-24T08:06:39.071081+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_b653fced9c935e08",
+    "source_url": "https://www.deutsche-startups.de/2026/04/23/blinkist-personio-synera-neoh-fundraising-defensetech/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "hiring_wave",
+    "signal_tier": "tier_3_weak",
+    "headline": "Job postings aggregation from German startups and companies across multiple sectors",
+    "published_at": "2026-04-23T09:55:00+00:00",
+    "ingested_at": "2026-04-24T08:06:41.138043+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_ad0989d3d61a4201",
+    "source_url": "https://siliconcanals.com/v-people-who-start-businesses-in-their-50s-and-60s-have-an-advantage-no-25-year-old-can-replicate-theyve-already-failed-inside-someones-company-on-someones-dime-and-every-mistake-they-watched-a-boss-m/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Article discusses advantages of late-career entrepreneurs aged 50-60 over younger founders",
+    "published_at": "2026-04-23T17:45:48+00:00",
+    "ingested_at": "2026-04-24T08:06:42.735043+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_0cf0a0ccdc14ea92",
+    "source_url": "https://techround.co.uk/tech/22-year-old-built-seven-figure-tech-platform-bedroom-why-influence-next-asset-class/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_2_medium",
+    "headline": "Collabbay closes seven-figure pre-seed round led by seasoned CEOs and operators",
+    "published_at": "2026-04-23T22:00:34+00:00",
+    "ingested_at": "2026-04-24T08:06:45.044373+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_9f4845cb8cb2"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_13062fa09648"
+    ],
+    "metadata": {
+      "amount_raw": "seven-figure",
+      "round_stage": "Seed"
+    }
+  },
+  {
+    "id": "sig_69d0164604fef16c",
+    "source_url": "https://techround.co.uk/funding/naturbeads-secures-e4-1m-eu-funding-to-replace-microplastics-with-plant-based-alternative/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Naturbeads secures \u20ac4.1M EU funding for biodegradable microplastics alternative",
+    "published_at": "2026-04-23T14:00:24+00:00",
+    "ingested_at": "2026-04-24T08:06:47.344921+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_995b9900b688"
+    ],
+    "investor_ids": [
+      "inv_856ff802668f"
+    ],
+    "person_ids": [
+      "per_d3e2bf3f4003",
+      "per_077b396a10c1"
+    ],
+    "metadata": {
+      "amount_usd": 4516000,
+      "amount_raw": "\u20ac4.1M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_f63890ab1e3b1cd2",
+    "source_url": "https://techround.co.uk/artificial-intelligence/ai-whisperer-prompt-engineer-chief-ai-officer-welcome-to-the-weirdest-jobs-market-in-tech-history/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "New AI job titles emerging across tech industry including Prompt Engineer, AI Ethicist, and Chief AI Officer",
+    "published_at": "2026-04-23T12:30:36+00:00",
+    "ingested_at": "2026-04-24T08:06:49.505041+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_c05405a32278"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_00a99a8d31500934",
+    "source_url": "https://techround.co.uk/startups/what-is-a-camel-startup/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Article discusses emerging 'camel startup' business model emphasizing resilience over rapid growth",
+    "published_at": "2026-04-23T09:12:45+00:00",
+    "ingested_at": "2026-04-24T08:06:51.198342+00:00",
+    "geography": "UK",
+    "country": "",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_077b396a10c1"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_01036720227d1641",
+    "source_url": "https://thenextweb.com/news/deepseek-v4-pro-flash-launch-open-source",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "DeepSeek launches V4-Pro and V4-Flash open-source AI models",
+    "published_at": "2026-04-24T07:06:49+00:00",
+    "ingested_at": "2026-04-24T08:06:53.792566+00:00",
+    "geography": "Asia",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_6f7ac1823da8"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_80ac0347a6b249fe",
+    "source_url": "https://thenextweb.com/news/verda-117m-funding-lifeline-ventures-ai-cloud",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Verda raises $117 million to expand GPU cloud platform from Nordics to US, UK, and Asia",
+    "published_at": "2026-04-24T07:00:22+00:00",
+    "ingested_at": "2026-04-24T08:06:55.660083+00:00",
+    "geography": "Nordics",
+    "country": "FI",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_13a965e03bd5"
+    ],
+    "investor_ids": [
+      "inv_cb47ca2049ae",
+      "inv_4a3c907c559f",
+      "inv_072bbc789933",
+      "inv_45368cc3f409",
+      "inv_a951172eceba"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 117000000,
+      "amount_raw": "$117 million",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_e75681eacd569192",
+    "source_url": "https://thenextweb.com/news/norway-social-media-ban-under-16-age-verification",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_1_strong",
+    "headline": "Norway announces social media ban for children under 16 with age verification liability shifted to platforms",
+    "published_at": "2026-04-24T06:50:48+00:00",
+    "ingested_at": "2026-04-24T08:06:57.543126+00:00",
+    "geography": "Nordics",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_68c0d4a6cc8d"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_f053a93567eb1886",
+    "source_url": "https://thenextweb.com/news/meta-layoffs-8000-ai-restructuring-may-2026",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_1_strong",
+    "headline": "Meta cutting 8,000 jobs (10% workforce) to fund $115-135B AI infrastructure investment",
+    "published_at": "2026-04-23T20:15:56+00:00",
+    "ingested_at": "2026-04-24T08:06:59.617691+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ea3bd73e"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_b2a4b55862e0",
+      "per_3957d14a1230"
+    ],
+    "metadata": {
+      "amount_usd": 125000000000,
+      "amount_raw": "$115-135 billion",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_514b9e3958f9518f",
+    "source_url": "https://thenextweb.com/news/rilian-raises-17-5-million-to-bring-agentic-ai-to-sovereign-defence",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Rilian raises $17.5 million for agentic AI in sovereign defence",
+    "published_at": "2026-04-23T19:20:22+00:00",
+    "ingested_at": "2026-04-24T08:07:01.500102+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7c7dc452d3e2"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_0b0cc7594ce5"
+    ],
+    "metadata": {
+      "amount_usd": 17500000,
+      "amount_raw": "$17.5 million",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_83338202485cc8eb",
+    "source_url": "https://thenextweb.com/news/zapata-quantum-15m-financing",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Zapata Quantum raises $15 million after emerging from bankruptcy",
+    "published_at": "2026-04-23T18:59:43+00:00",
+    "ingested_at": "2026-04-24T08:07:03.075828+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_b36fa33ff5f2"
+    ],
+    "investor_ids": [
+      "inv_cd3fdb5da9f6"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 15000000,
+      "amount_raw": "$15 million",
+      "currency": "USD"
+    }
   }
 ]

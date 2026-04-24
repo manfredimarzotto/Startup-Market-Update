@@ -5416,5 +5416,113 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_b6e0b65b7b35",
+    "name": "Christoph Sollich",
+    "role": "Speaker / The Pitch Doctor",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_4af031c7d7dc",
+    "name": "Phil Chambers",
+    "role": "Partner",
+    "company_id": "co_374350ac517b",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_9f480ce3e281",
+    "name": "Bob Iger",
+    "role": "Advisor",
+    "company_id": "co_456175e6cbb7",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_24b7b50592ab",
+    "name": "Josh Kushner",
+    "role": "Founder",
+    "company_id": "co_456175e6cbb7",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_6ab4e9f5d422",
+    "name": "Clay Bavor",
+    "role": "Co-founder",
+    "company_id": "co_dca6ec9510fc",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_f6b30766e686",
+    "name": "Olivier Moindrot",
+    "role": "Co-founder of Fragment",
+    "company_id": "co_dca6ec9510fc",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_09fef5823f72",
+    "name": "Guillaume Genthial",
+    "role": "Co-founder of Fragment",
+    "company_id": "co_dca6ec9510fc",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_13062fa09648",
+    "name": "Che Zucconi",
+    "role": "Founder",
+    "company_id": "co_9f4845cb8cb2",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_d3e2bf3f4003",
+    "name": "Giovanna Laudisio",
+    "role": "CEO",
+    "company_id": "co_995b9900b688",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_68c0d4a6cc8d",
+    "name": "Jonas Gahr St\u00f8re",
+    "role": "Prime Minister",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_b2a4b55862e0",
+    "name": "Janelle Gale",
+    "role": "HR head",
+    "company_id": "co_ea3bd73e",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_0b0cc7594ce5",
+    "name": "Nick Pompeo",
+    "role": "Co-founder",
+    "company_id": "co_7c7dc452d3e2",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
   }
 ]
