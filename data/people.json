@@ -5524,5 +5524,140 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "founder"
+  },
+  {
+    "id": "per_bff8fae0ebf5",
+    "name": "Stefania Ditrani Seychell",
+    "role": "CEO",
+    "company_id": "co_c10d0906c572",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_0f9791f06558",
+    "name": "Phillip Chambers",
+    "role": "Partner",
+    "company_id": "co_374350ac517b",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_2e2b3074afd6",
+    "name": "Steve Ballmer",
+    "role": "investor",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_f76e0f5cd2ac",
+    "name": "Ifty Nasir",
+    "role": "Founder and CEO",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_ba1563df3eb9",
+    "name": "Chris Walker",
+    "role": "Report author, ChamberlainWalker Economics",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_f518086e7c29",
+    "name": "Richard Johnson",
+    "role": "UBC representative",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_9f30d9ffdb07",
+    "name": "Tina McKenzie",
+    "role": "Federation of Small Businesses",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_ac69e18daca0",
+    "name": "Joe Phelan",
+    "role": "Money.co.uk business savings expert",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_4bd4c0f55e84",
+    "name": "Alex Till",
+    "role": "National Enterprise Network Chairman",
+    "company_id": null,
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_173713f43a7a",
+    "name": "Jeu George",
+    "role": "Co-founder and CEO",
+    "company_id": "co_131897f912db",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_cc3245a50aa2",
+    "name": "Viren Baraiya",
+    "role": "Co-founder and CTO",
+    "company_id": "co_131897f912db",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_fd981f7f78f9",
+    "name": "Dilip Lukose",
+    "role": "Co-founder and CPO",
+    "company_id": "co_131897f912db",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_5476563080a7",
+    "name": "Alex Scherbakovsky",
+    "role": "General Partner at AVP",
+    "company_id": "co_131897f912db",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_0e91288be88e",
+    "name": "Abhishek Shukla",
+    "role": "Managing Director at Prosperity7 Ventures",
+    "company_id": "co_131897f912db",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_ce2dc7fbf21f",
+    "name": "Jamie Goldring",
+    "role": "CEO of Naveo Commerce",
+    "company_id": "co_131897f912db",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "c_suite"
   }
 ]

@@ -36482,5 +36482,1033 @@
       "amount_raw": "$15 million",
       "currency": "USD"
     }
+  },
+  {
+    "id": "sig_362147373e8cc5ed",
+    "source_url": "https://sifted.eu/articles/aleph-alpha-strikes-20bn-merger-deal-with-canadas-cohere/",
+    "source_id": "src_001",
+    "source_name": "Sifted RSS",
+    "source_domain": "sifted.eu",
+    "source_quality_weight": 4,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Aleph Alpha merges with Canada's Cohere in $20bn deal",
+    "published_at": "2026-04-24T09:30:20+00:00",
+    "ingested_at": "2026-04-25T07:18:12.590267+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_c59bb6e67991"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 20000000000,
+      "amount_raw": "$20bn",
+      "currency": "USD",
+      "valuation": 20000000000
+    }
+  },
+  {
+    "id": "sig_8ba79ac298646d89",
+    "source_url": "https://www.eu-startups.com/2026/04/weekly-funding-round-up-all-of-the-european-startup-funding-rounds-we-tracked-this-week-apr-20-apr-24/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_3_weak",
+    "headline": "Weekly European startup funding rounds tracking article (Apr. 20-24, 2026)",
+    "published_at": "2026-04-24T15:22:05+00:00",
+    "ingested_at": "2026-04-25T07:18:13.927107+00:00",
+    "geography": "EU",
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_9112b15350cb6bb3",
+    "source_url": "https://www.eu-startups.com/2026/04/1stcrwd-ceo-stefania-ditrani-seychell-joins-the-eu-startups-summit-2026-speaker-lineup/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "1stCRWD CEO Stefania Ditrani Seychell announced as speaker at EU-Startups Summit 2026",
+    "published_at": "2026-04-24T12:20:33+00:00",
+    "ingested_at": "2026-04-25T07:18:15.578941+00:00",
+    "geography": "Southern Europe",
+    "country": "",
+    "ai_confidence": 0.7,
+    "company_ids": [
+      "co_c10d0906c572"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_bff8fae0ebf5"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_8c9f42abb71d7a43",
+    "source_url": "https://www.eu-startups.com/2026/04/lyft-agrees-to-acquire-gett-in-push-for-broader-london-ground-transport-offering/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Lyft acquires black cab app Gett to expand London ground transport offering",
+    "published_at": "2026-04-24T11:42:13+00:00",
+    "ingested_at": "2026-04-25T07:18:16.988594+00:00",
+    "geography": "UK",
+    "country": "Other",
+    "ai_confidence": 0.92,
+    "company_ids": [
+      "co_09a2f4897466"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_4d8853be955784e4",
+    "source_url": "https://www.eu-startups.com/2026/04/delfts-foamlab-raises-e3-million-to-replace-fossil-based-plastics-with-its-bacterial-cellulose-foams/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Foamlab raises \u20ac3 million to scale bacterial cellulose foam production",
+    "published_at": "2026-04-24T10:28:06+00:00",
+    "ingested_at": "2026-04-25T07:18:18.628701+00:00",
+    "geography": "Benelux",
+    "country": "NL",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_5ea096099db2"
+    ],
+    "investor_ids": [
+      "inv_8a22fdf8eed7",
+      "inv_02b356f429fe",
+      "inv_661c4317a7ff"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 3240000,
+      "amount_raw": "\u20ac3 million",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_601c981301b169f6",
+    "source_url": "https://www.eu-startups.com/2026/04/cerca-magnetics-raises-e4-3-million-to-scale-wearable-brain-imaging-systems-powered-by-quantum-sensing/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Cerca Magnetics raises \u20ac4.3M Series A for wearable brain imaging with quantum sensing",
+    "published_at": "2026-04-24T09:15:54+00:00",
+    "ingested_at": "2026-04-25T07:18:21.230616+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_75fd8bcad37d"
+    ],
+    "investor_ids": [
+      "inv_382dd9dff2f1"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 4750000,
+      "amount_raw": "\u20ac4.3 million",
+      "round_stage": "Series A",
+      "currency": "EUR",
+      "valuation": 37500000
+    }
+  },
+  {
+    "id": "sig_bd7c59439ac3b796",
+    "source_url": "https://www.eu-startups.com/2026/04/paris-based-sillage-raises-e1-7-million-to-help-sales-teams-follow-the-right-signals/",
+    "source_id": "src_003",
+    "source_name": "EU-Startups",
+    "source_domain": "eu-startups.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Sillage raises \u20ac1.7 million pre-Seed to help sales teams identify buying signals",
+    "published_at": "2026-04-24T08:25:06+00:00",
+    "ingested_at": "2026-04-25T07:18:24.027015+00:00",
+    "geography": "Southern Europe",
+    "country": "FR",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ffd75e69918a"
+    ],
+    "investor_ids": [
+      "inv_2d54250bd567",
+      "inv_2f3d1a959e7f",
+      "inv_c656b6ec8fe4"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 2000000,
+      "amount_raw": "\u20ac1.7 million ($2 million)",
+      "round_stage": "pre-Seed",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_98cbd71e72bce9f7",
+    "source_url": "https://tech.eu/2026/04/24/verda-raises-117m-aleph-alpha-to-be-acquired-and-solving-the-quantum-bottleneck/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Verda raises $117M in funding",
+    "published_at": "2026-04-24T14:22:23+00:00",
+    "ingested_at": "2026-04-25T07:18:27.059439+00:00",
+    "geography": "Southern Europe",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_13a965e03bd5"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 117000000,
+      "amount_raw": "$117M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_be42f1c4256df74b",
+    "source_url": "https://tech.eu/2026/04/24/aleph-alpha-to-be-acquired-by-cohere/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "German AI startup Aleph Alpha acquired by Canadian AI lab Cohere",
+    "published_at": "2026-04-24T09:55:00+00:00",
+    "ingested_at": "2026-04-25T07:18:29.008410+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_c59bb6e67991"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_2d5c08af9337f10b",
+    "source_url": "https://tech.eu/2026/04/24/eu-ukraine-launches-eur160m-defence-innovation-programme-to-unlock-eur400m-in-financing/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "EU and Ukraine launch \u20ac160M defence innovation programme with \u20ac400M financing unlock",
+    "published_at": "2026-04-24T08:39:29+00:00",
+    "ingested_at": "2026-04-25T07:18:30.496308+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.75,
+    "company_ids": [
+      "co_e8f321cc7e28"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 172800000,
+      "amount_raw": "\u20ac160M",
+      "currency": "EUR"
+    }
+  },
+  {
+    "id": "sig_361bf4c08c885df5",
+    "source_url": "https://tech.eu/2026/04/24/verda-raises-117m-to-scale-ai-cloud-infrastructure-built-on-clean-nordic-power/",
+    "source_id": "src_005",
+    "source_name": "Tech.eu",
+    "source_domain": "tech.eu",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Verda raises $117M funding to scale AI cloud infrastructure on clean Nordic power",
+    "published_at": "2026-04-24T08:05:05+00:00",
+    "ingested_at": "2026-04-25T07:18:32.145202+00:00",
+    "geography": "Nordics",
+    "country": "FI",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_13a965e03bd5"
+    ],
+    "investor_ids": [
+      "inv_cb47ca2049ae",
+      "inv_4a3c907c559f"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 117000000,
+      "amount_raw": "$117M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_8de8d14f4bfaab02",
+    "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-autonomy-biotech-anthropic/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Amazon invests $5 billion in Anthropic in major AI funding round",
+    "published_at": "2026-04-24T18:18:35+00:00",
+    "ingested_at": "2026-04-25T07:18:33.462439+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_c70eca6b0f88"
+    ],
+    "investor_ids": [
+      "inv_cbc62794911f"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 5000000000,
+      "amount_raw": "$5 billion",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_11e07534317e488e",
+    "source_url": "https://news.crunchbase.com/public/ipo-pipeline-thawing-ai-semiconductors-clean-energy/",
+    "source_id": "src_006",
+    "source_name": "Crunchbase News",
+    "source_domain": "news.crunchbase.com",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Multiple venture-backed startups file S-1s for IPO across semiconductors, energy, biotech, and space tech sectors",
+    "published_at": "2026-04-24T11:00:40+00:00",
+    "ingested_at": "2026-04-25T07:18:35.195926+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.35,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_3854f758eee3d7d1",
+    "source_url": "https://techfundingnews.com/x-energy-1b-nasdaq-ipo-advanced-nuclear-reactors/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "X-energy raises $1B in the largest nuclear public equity offering of all time",
+    "published_at": "2026-04-24T16:22:48+00:00",
+    "ingested_at": "2026-04-25T07:18:36.620195+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_4af85202363f"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1000000000,
+      "amount_raw": "$1B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_4c892e0a533a7102",
+    "source_url": "https://techfundingnews.com/ohere-aleph-alpha-merger-20b-valuation-schwarz-group-600m/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Cohere merges with Aleph Alpha at $20B valuation to create transatlantic sovereign AI challenger",
+    "published_at": "2026-04-24T13:55:15+00:00",
+    "ingested_at": "2026-04-25T07:18:38.153069+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_72e8088a05b3"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "valuation": 20000000000
+    }
+  },
+  {
+    "id": "sig_d34db7b3b686b253",
+    "source_url": "https://techfundingnews.com/era-11m-funding-ai-hardware-intelligence-infrastructure/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Era raises $11M from Abstract Ventures and BoxGroup for AI-powered smart gadgets",
+    "published_at": "2026-04-24T13:39:34+00:00",
+    "ingested_at": "2026-04-25T07:18:39.500689+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_e0c216ce"
+    ],
+    "investor_ids": [
+      "inv_66ae9b449678",
+      "inv_643df11d26b7"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 11000000,
+      "amount_raw": "$11M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_40f95feac865f553",
+    "source_url": "https://techfundingnews.com/lyft-acquires-gett-uk-55m-freenow-european-expansion/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Lyft to acquire Gett UK for approximately $55M to strengthen London presence",
+    "published_at": "2026-04-24T12:50:35+00:00",
+    "ingested_at": "2026-04-25T07:18:40.866715+00:00",
+    "geography": "UK",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_09a2f4897466"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 55000000,
+      "amount_raw": "$55M",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_c8e0efc46d92b3c2",
+    "source_url": "https://techfundingnews.com/bending-spoons-20b-ipo-valuation-us-stock-market-milan/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Italy's Bending Spoons aims for $20B valuation in possible US IPO",
+    "published_at": "2026-04-24T11:48:33+00:00",
+    "ingested_at": "2026-04-25T07:18:42.472740+00:00",
+    "geography": "Southern Europe",
+    "country": "IT",
+    "ai_confidence": 0.65,
+    "company_ids": [
+      "co_6cf316ac6f58"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "valuation": 20000000000
+    }
+  },
+  {
+    "id": "sig_9c2972a7492ea099",
+    "source_url": "https://techfundingnews.com/project-prometheus-bezos-funding-38b-valuation-physics-ai/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Project Prometheus raises $10B, becomes one of most valuable five-month-old startups",
+    "published_at": "2026-04-24T11:33:43+00:00",
+    "ingested_at": "2026-04-25T07:18:43.900869+00:00",
+    "geography": null,
+    "country": "",
+    "ai_confidence": 0.6,
+    "company_ids": [
+      "co_a56fdcd3dd69"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 10000000000,
+      "amount_raw": "$10B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_579f36dbb3211b4e",
+    "source_url": "https://techfundingnews.com/deepseek-v4-model-huawei-chips-20b-valuation-china-ai/",
+    "source_id": "src_008",
+    "source_name": "TechFunding News",
+    "source_domain": "techfundingnews.com",
+    "source_quality_weight": 3,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_2_medium",
+    "headline": "DeepSeek launches long-awaited AI model after $20B valuation milestone",
+    "published_at": "2026-04-24T09:27:12+00:00",
+    "ingested_at": "2026-04-25T07:18:45.510428+00:00",
+    "geography": "Asia",
+    "country": "",
+    "ai_confidence": 0.6,
+    "company_ids": [
+      "co_6f7ac1823da8"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "valuation": 20000000000
+    }
+  },
+  {
+    "id": "sig_d439020a89efc00c",
+    "source_url": "https://www.uktech.news/funding/uk-tech-funding-roundup-this-weeks-deals-from-cloudsmith-to-locai-20260424",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Cloudsmith raises \u00a353m in AI management platform funding",
+    "published_at": "2026-04-24T13:00:05+00:00",
+    "ingested_at": "2026-04-25T07:18:46.814482+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_cf400b75ffe9"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 67000000,
+      "amount_raw": "\u00a353m",
+      "currency": "GBP"
+    }
+  },
+  {
+    "id": "sig_41746469977d8057",
+    "source_url": "https://www.uktech.news/news/investment-news/former-orbex-ceo-named-partner-at-balderton-capital-20260424",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "partnership",
+    "signal_tier": "tier_1_strong",
+    "headline": "Former Orbex CEO Phillip Chambers appointed partner at Balderton Capital",
+    "published_at": "2026-04-24T11:00:01+00:00",
+    "ingested_at": "2026-04-25T07:18:48.252509+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_374350ac517b"
+    ],
+    "investor_ids": [
+      "inv_005"
+    ],
+    "person_ids": [
+      "per_0f9791f06558"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_dc8467e0af97ec60",
+    "source_url": "https://www.uktech.news/ai/goodfolio-founder-20260424",
+    "source_id": "src_010",
+    "source_name": "UKTN",
+    "source_domain": "uktech.news",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "GOODFOLIO founder Omid Pakseresht discusses systems thinking approach in founder interview",
+    "published_at": "2026-04-24T10:00:21+00:00",
+    "ingested_at": "2026-04-25T07:18:49.918178+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_df3d5ff0a66e"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_ad49a8aa6e6b"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_7173b34b2b4bb1d1",
+    "source_url": "https://techcrunch.com/2026/04/24/steve-ballmer-blasts-founder-he-backed-who-pleaded-guilty-to-fraud-i-was-duped-and-feel-silly/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Steve Ballmer criticizes fraud conviction of founder he previously backed",
+    "published_at": "2026-04-24T23:32:11+00:00",
+    "ingested_at": "2026-04-25T07:18:51.554394+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.3,
+    "company_ids": [],
+    "investor_ids": [
+      "inv_2e2b3074afd6"
+    ],
+    "person_ids": [
+      "per_2e2b3074afd6"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_ff2b940026da73c6",
+    "source_url": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
+    "source_id": "src_011",
+    "source_name": "TechCrunch Venture",
+    "source_domain": "techcrunch.com",
+    "source_quality_weight": 4,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "ComfyUI reaches $500M valuation as creator demand for AI media control grows",
+    "published_at": "2026-04-24T19:49:35+00:00",
+    "ingested_at": "2026-04-25T07:18:52.975195+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.85,
+    "company_ids": [
+      "co_422332977c41"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_09ff1c2c"
+    ],
+    "metadata": {
+      "valuation": 500000000
+    }
+  },
+  {
+    "id": "sig_56ffb5d58334672e",
+    "source_url": "https://www.deutsche-startups.de/2026/04/24/adyen-kauft-talon-one/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Adyen acquires Talon.One for \u20ac750 million",
+    "published_at": "2026-04-24T13:55:00+00:00",
+    "ingested_at": "2026-04-25T07:18:55.479852+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_875a83259894"
+    ],
+    "investor_ids": [
+      "inv_ee46e2d141d5"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 825000000,
+      "amount_raw": "\u20ac750 million",
+      "currency": "EUR",
+      "valuation": 825000000
+    }
+  },
+  {
+    "id": "sig_7110befd27edc34b",
+    "source_url": "https://www.deutsche-startups.de/2026/04/24/5-frisch-geschluepfte-koelner-startups-auf-die-sich-ein-blick-lohnt-2/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Article about five newly launched Cologne startups",
+    "published_at": "2026-04-24T11:55:00+00:00",
+    "ingested_at": "2026-04-25T07:18:56.785544+00:00",
+    "geography": "DACH",
+    "country": "DE",
+    "ai_confidence": 0.2,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_6a29eeec6e171663",
+    "source_url": "https://www.deutsche-startups.de/2026/04/24/talon-one-adyen-quantistry-volocopter-solaris/",
+    "source_id": "src_012",
+    "source_name": "deutsche-startups.de",
+    "source_domain": "deutsche-startups.de",
+    "source_quality_weight": 3,
+    "signal_type": "hiring_wave",
+    "signal_tier": "tier_3_weak",
+    "headline": "Job listings aggregation from deutsche-startups.de featuring multiple open positions across marketing and business roles",
+    "published_at": "2026-04-24T09:55:00+00:00",
+    "ingested_at": "2026-04-25T07:18:58.575608+00:00",
+    "geography": "DACH",
+    "country": "",
+    "ai_confidence": 0.15,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_53156965f586400b",
+    "source_url": "https://siliconcanals.com/t-nobody-talks-about-why-a-small-morning-routine-can-quietly-change-a-whole-life-in-three-months-and-it-isnt-the-cold-plunge-or-the-journaling-or-the-protein-its-that-for-the-first-time-in-years-you/",
+    "source_id": "src_014",
+    "source_name": "Silicon Canals",
+    "source_domain": "siliconcanals.com",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "Opinion piece on morning routines and personal wellbeing published on Silicon Canals",
+    "published_at": "2026-04-25T02:14:50+00:00",
+    "ingested_at": "2026-04-25T07:19:00.099215+00:00",
+    "geography": "Asia",
+    "country": "",
+    "ai_confidence": 0.05,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {}
+  },
+  {
+    "id": "sig_d9daa20ebda7788b",
+    "source_url": "https://techround.co.uk/news/instagram-launched-disappearing-photo-app-instants-2026/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "product_launch",
+    "signal_tier": "tier_1_strong",
+    "headline": "Meta launches Instants, a standalone disappearing photo app, in Italy and Spain on Android",
+    "published_at": "2026-04-24T12:34:38+00:00",
+    "ingested_at": "2026-04-25T07:19:01.953293+00:00",
+    "geography": "Southern Europe",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_ea3bd73e"
+    ],
+    "investor_ids": [],
+    "person_ids": [
+      "per_c05405a32278"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_c2f9a698385d5c33",
+    "source_url": "https://techround.co.uk/startups/heavily-funded-industry-globally-software-why-investors-cautious/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "Software sector leads global funding with 18,282 rounds in 2025, but investor caution grows as seed funding drops 19.6%",
+    "published_at": "2026-04-24T12:00:43+00:00",
+    "ingested_at": "2026-04-25T07:19:06.102217+00:00",
+    "geography": "US",
+    "country": "",
+    "ai_confidence": 0.65,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_f76e0f5cd2ac"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_1ab60472add54205",
+    "source_url": "https://techround.co.uk/guides/welcome-from-wherever-you-are-uk-guide-remote-onboarding/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_3_weak",
+    "headline": "UK guide to remote onboarding best practices published",
+    "published_at": "2026-04-24T11:00:34+00:00",
+    "ingested_at": "2026-04-25T07:19:09.250531+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.2,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_b37a655d5180"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_86f144a675517439",
+    "source_url": "https://techround.co.uk/business/how-new-uk-business-rates-small-business-coworking/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "UK business rates reform threatens 150,000 coworking space workers with \u00a35,000+ annual cost increases",
+    "published_at": "2026-04-24T10:00:11+00:00",
+    "ingested_at": "2026-04-25T07:19:12.083573+00:00",
+    "geography": "UK",
+    "country": "GB",
+    "ai_confidence": 0.65,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_ba1563df3eb9",
+      "per_f518086e7c29",
+      "per_9f30d9ffdb07",
+      "per_ac69e18daca0",
+      "per_4bd4c0f55e84"
+    ],
+    "metadata": {}
+  },
+  {
+    "id": "sig_8e3941198bd39aa2",
+    "source_url": "https://techround.co.uk/startups/uae-startup-funding-holds-firm-despite-regional-mena-slowdown/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_2_medium",
+    "headline": "UAE startup funding remains resilient despite MENA regional slowdown to $941M in Q1 2026",
+    "published_at": "2026-04-24T09:19:57+00:00",
+    "ingested_at": "2026-04-25T07:19:13.911742+00:00",
+    "geography": "MENA",
+    "country": "",
+    "ai_confidence": 0.65,
+    "company_ids": [],
+    "investor_ids": [],
+    "person_ids": [
+      "per_077b396a10c1"
+    ],
+    "metadata": {
+      "amount_usd": 941000000,
+      "amount_raw": "$941 million",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_4e114287bc6f871c",
+    "source_url": "https://techround.co.uk/funding/orkes-raises-60-million-series-b-to-help-developers-deploy-ai-in-production/",
+    "source_id": "src_018",
+    "source_name": "TechRound",
+    "source_domain": "techround.co.uk",
+    "source_quality_weight": 2,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Orkes raises $60M Series B for AI workflow orchestration platform",
+    "published_at": "2026-04-24T09:17:32+00:00",
+    "ingested_at": "2026-04-25T07:19:16.739539+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_131897f912db"
+    ],
+    "investor_ids": [
+      "inv_eb5a94c0",
+      "inv_ceb95281973f",
+      "inv_0d262fc8d558",
+      "inv_d534f45144e9",
+      "inv_b9aa937b5201"
+    ],
+    "person_ids": [
+      "per_173713f43a7a",
+      "per_cc3245a50aa2",
+      "per_fd981f7f78f9",
+      "per_5476563080a7",
+      "per_0e91288be88e",
+      "per_ce2dc7fbf21f"
+    ],
+    "metadata": {
+      "amount_usd": 60000000,
+      "amount_raw": "$60 million",
+      "round_stage": "Series B",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_aaa4f2bb47849a11",
+    "source_url": "https://thenextweb.com/news/x-energy-ipo-billion-nuclear-ai-data-centres",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "X-Energy raises $1.02 billion in largest nuclear IPO on record at $23/share",
+    "published_at": "2026-04-24T20:33:04+00:00",
+    "ingested_at": "2026-04-25T07:19:18.194331+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_4af85202363f"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1020000000,
+      "amount_raw": "$1.02 billion",
+      "round_stage": "IPO",
+      "currency": "USD",
+      "valuation": 12000000000
+    }
+  },
+  {
+    "id": "sig_3382124498635579",
+    "source_url": "https://thenextweb.com/news/us-government-intel-stake-36-billion-chips-act",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "media_mention",
+    "signal_tier": "tier_1_strong",
+    "headline": "US government's Intel stake surges to $36B after CHIPS Act grants converted to equity, generating $26.5B unrealised gain",
+    "published_at": "2026-04-24T20:02:32+00:00",
+    "ingested_at": "2026-04-25T07:19:20.252890+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_7518ffbb"
+    ],
+    "investor_ids": [
+      "inv_9a9c51910f8d"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 8900000000,
+      "amount_raw": "$8.9B",
+      "currency": "USD",
+      "valuation": 363636363636
+    }
+  },
+  {
+    "id": "sig_6d80351bfc556b3d",
+    "source_url": "https://thenextweb.com/news/google-40-billion-anthropic-investment-gemini",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Google invests up to $40 billion in Anthropic with conditional performance targets",
+    "published_at": "2026-04-24T19:41:14+00:00",
+    "ingested_at": "2026-04-25T07:19:25.211490+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_c70eca6b0f88"
+    ],
+    "investor_ids": [
+      "inv_bbdefa2950f4"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 40000000000,
+      "amount_raw": "$40 billion",
+      "currency": "USD",
+      "valuation": 350000000000
+    }
+  },
+  {
+    "id": "sig_93e0a769a3e82ded",
+    "source_url": "https://thenextweb.com/news/x-energy-ipo-1-billion-amazon",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "funding_round",
+    "signal_tier": "tier_1_strong",
+    "headline": "Amazon-backed nuclear startup X-Energy raises $1.02 billion in IPO",
+    "published_at": "2026-04-24T07:59:33+00:00",
+    "ingested_at": "2026-04-25T07:19:26.573241+00:00",
+    "geography": "US",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_4af85202363f"
+    ],
+    "investor_ids": [
+      "inv_cbc62794911f"
+    ],
+    "person_ids": [],
+    "metadata": {
+      "amount_usd": 1020000000,
+      "amount_raw": "$1.02 billion",
+      "round_stage": "IPO",
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "sig_147958a509388c35",
+    "source_url": "https://thenextweb.com/news/cohere-aleph-alpha-merger-20-billion",
+    "source_id": "src_019",
+    "source_name": "TNW",
+    "source_domain": "thenextweb.com",
+    "source_quality_weight": 3,
+    "signal_type": "acquisition",
+    "signal_tier": "tier_1_strong",
+    "headline": "Cohere acquires Aleph Alpha in merger creating $20 billion transatlantic AI company",
+    "published_at": "2026-04-24T07:50:56+00:00",
+    "ingested_at": "2026-04-25T07:19:28.295957+00:00",
+    "geography": "DACH",
+    "country": "Other",
+    "ai_confidence": 0.95,
+    "company_ids": [
+      "co_72e8088a05b3"
+    ],
+    "investor_ids": [],
+    "person_ids": [],
+    "metadata": {
+      "valuation": 20000000000
+    }
   }
 ]
