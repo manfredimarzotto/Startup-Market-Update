@@ -8770,5 +8770,41 @@
     "hq_city": "California",
     "last_signal_at": "2026-04-24T09:17:32+00:00",
     "signal_count": 1
+  },
+  {
+    "id": "co_771327f1d944",
+    "name": "Snabbit",
+    "domain": null,
+    "sector": null,
+    "sub_sector": null,
+    "stage": "",
+    "hq_country": "Other",
+    "hq_city": null,
+    "last_signal_at": "2026-04-25T14:57:26+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_9c15e8160699",
+    "name": "Porsche",
+    "domain": "porsche.com",
+    "sector": "CleanTech",
+    "sub_sector": "Electric Vehicles",
+    "stage": "",
+    "hq_country": "DE",
+    "hq_city": "Stuttgart",
+    "last_signal_at": "2026-04-25T11:55:26+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_622d7c04efb2",
+    "name": "Human Intelligence",
+    "domain": null,
+    "sector": "HealthTech",
+    "sub_sector": "AI-driven biomedical research",
+    "stage": "",
+    "hq_country": "Other",
+    "hq_city": null,
+    "last_signal_at": "2026-04-25T11:32:03+00:00",
+    "signal_count": 1
   }
 ]

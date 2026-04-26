@@ -5659,5 +5659,14 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "c_suite"
+  },
+  {
+    "id": "per_67a37746b511",
+    "name": "James Zou",
+    "role": "Stanford professor, founder",
+    "company_id": "co_622d7c04efb2",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
   }
 ]
