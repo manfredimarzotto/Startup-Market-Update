@@ -5668,5 +5668,59 @@
     "investor_id": null,
     "linkedin_url": "",
     "relevance_tag": "founder"
+  },
+  {
+    "id": "per_9c04305912d2",
+    "name": "Markus Neumayr",
+    "role": "investor",
+    "company_id": "co_d52ba9e30ad3",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_478e4aff8c62",
+    "name": "Jan Sprengnetter",
+    "role": "investor",
+    "company_id": "co_d52ba9e30ad3",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_6d5e47f3306b",
+    "name": "Prof. Martin Kaiser",
+    "role": "investor",
+    "company_id": "co_d52ba9e30ad3",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_240b5b458bd4",
+    "name": "Gordana McNamara",
+    "role": "investor",
+    "company_id": "co_d52ba9e30ad3",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "partner"
+  },
+  {
+    "id": "per_c014c953c3eb",
+    "name": "Vladi",
+    "role": "founder",
+    "company_id": "co_1491fed6b7de",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
+  },
+  {
+    "id": "per_570d05029f82",
+    "name": "Storm Duncan",
+    "role": "Homeowner and investment banker",
+    "company_id": "co_c70eca6b0f88",
+    "investor_id": null,
+    "linkedin_url": "",
+    "relevance_tag": "founder"
   }
 ]

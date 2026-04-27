@@ -8822,5 +8822,137 @@
     "website": "",
     "linkedin_url": "",
     "last_signal_at": "2026-04-25T18:15:30+00:00"
+  },
+  {
+    "id": "inv_a4742e53e526",
+    "name": "Go Capital",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-27T08:24:24+00:00"
+  },
+  {
+    "id": "inv_361d9b421468",
+    "name": "Inco Ventures",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-27T08:24:24+00:00"
+  },
+  {
+    "id": "inv_9c04305912d2",
+    "name": "Markus Neumayr",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-27T07:15:29+00:00"
+  },
+  {
+    "id": "inv_478e4aff8c62",
+    "name": "Jan Sprengnetter",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-27T07:15:29+00:00"
+  },
+  {
+    "id": "inv_6d5e47f3306b",
+    "name": "Prof. Martin Kaiser",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-27T07:15:29+00:00"
+  },
+  {
+    "id": "inv_240b5b458bd4",
+    "name": "Gordana McNamara",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-27T07:15:29+00:00"
+  },
+  {
+    "id": "inv_140277226a97",
+    "name": "Elevator Ventures",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-27T05:54:26+00:00"
+  },
+  {
+    "id": "inv_83d0afac1a1e",
+    "name": "BMH Beteiligungs- Managementgesellschaft Hessen",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-27T05:54:26+00:00"
+  },
+  {
+    "id": "inv_60d05bd27ed7",
+    "name": "Nordic Makers",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-27T06:00:00+00:00"
+  },
+  {
+    "id": "inv_02f777505493",
+    "name": "Emblem",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-27T06:00:00+00:00"
+  },
+  {
+    "id": "inv_2f9cb7cda522",
+    "name": "Lovable",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-27T06:00:00+00:00"
+  },
+  {
+    "id": "inv_20fdaf6bdea2",
+    "name": "Sequoia Scout Fund",
+    "type": "vc",
+    "aum_estimate": "",
+    "focus_sectors": [],
+    "focus_geographies": [],
+    "website": "",
+    "linkedin_url": "",
+    "last_signal_at": "2026-04-27T06:00:00+00:00"
   }
 ]

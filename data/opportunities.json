@@ -1,12 +1,11 @@
 [
   {
-    "id": "opp_20260426_001",
-    "generated_date": "2026-04-26",
+    "id": "opp_20260427_001",
+    "generated_date": "2026-04-27",
     "company_id": "co_22dc0248",
     "investor_id": null,
     "person_id": null,
     "signal_ids": [
-      "sig_37ec0dd35ae1",
       "sig_6d76bca446789b71",
       "sig_73b617ff9232293c",
       "sig_336f1478da86b3ee",
@@ -17,20 +16,20 @@
       "per_d7b4477281ee",
       "per_bcc6d18c3c77"
     ],
-    "opportunity_score": 75,
+    "opportunity_score": 74,
     "score_breakdown": {
-      "events": 19,
+      "events": 18,
       "capital": 21,
       "momentum": 23,
       "sources": 12,
       "geo_weight": 1.0
     },
-    "ai_rationale": "$550M Series D \u00b7 Swedish legal AI \u00b7 $5.55B valuation \u00b7 2 acquisitions \u00b7 5 sources \u00b7 $100M ARR achieved",
+    "ai_rationale": "$550M Series D \u00b7 legal AI platform \u00b7 $100M ARR in 18 months \u00b7 4 sources \u00b7 acquired Walter AI and Qura.",
     "triggers": [
       {
         "type": "competitor",
         "text": "Swedish legal tech unicorn Legora acquires Stockholm legal research startup\u2026",
-        "time": "2d ago"
+        "time": "3d ago"
       },
       {
         "type": "funding",
@@ -47,8 +46,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260426_002",
-    "generated_date": "2026-04-26",
+    "id": "opp_20260427_002",
+    "generated_date": "2026-04-27",
     "company_id": "co_523fbad3a03d",
     "investor_id": null,
     "person_id": null,
@@ -66,7 +65,7 @@
       "sources": 7,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac1.4B rescue funding \u00b7 green-steel plant in Boden, Sweden \u00b7 3 sources \u00b7 EU green industrial policy support",
+    "ai_rationale": "\u20ac1.4B funding \u00b7 green steel plant in Boden, Sweden \u00b7 3 sources \u00b7 EU decarbonisation policy driver.",
     "triggers": [
       {
         "type": "funding",
@@ -83,8 +82,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260426_003",
-    "generated_date": "2026-04-26",
+    "id": "opp_20260427_003",
+    "generated_date": "2026-04-27",
     "company_id": "co_13a965e03bd5",
     "investor_id": null,
     "person_id": null,
@@ -105,12 +104,12 @@
       "sources": 17,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$117M funding round \u00b7 GPU cloud infrastructure on Nordic clean power \u00b7 6 sources \u00b7 expansion to US, UK, Asia.",
+    "ai_rationale": "Verda raises $117M \u00b7 GPU cloud infrastructure on Nordic clean power \u00b7 6 sources \u00b7 expansion to US, UK, Asia.",
     "triggers": [
       {
         "type": "funding",
         "text": "raises $117M in funding (6 sources)",
-        "time": "1d ago"
+        "time": "2d ago"
       },
       {
         "type": "sector",
@@ -122,8 +121,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260426_004",
-    "generated_date": "2026-04-26",
+    "id": "opp_20260427_004",
+    "generated_date": "2026-04-27",
     "company_id": "co_f21440892985",
     "investor_id": null,
     "person_id": null,
@@ -141,7 +140,7 @@
       "sources": 11,
       "geo_weight": 1.0
     },
-    "ai_rationale": "$20M Series A \u00b7 AI-powered financial compliance automation \u00b7 3 sources \u00b7 KYC processes for banks.",
+    "ai_rationale": "$20M Series A \u00b7 AI-powered financial compliance automation \u00b7 3 sources \u00b7 KYC process focus for banks.",
     "triggers": [
       {
         "type": "funding",
@@ -163,8 +162,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260426_005",
-    "generated_date": "2026-04-26",
+    "id": "opp_20260427_005",
+    "generated_date": "2026-04-27",
     "company_id": "co_7d4e02d31a7e",
     "investor_id": null,
     "person_id": null,
@@ -185,12 +184,12 @@
       "sources": 10,
       "geo_weight": 1.0
     },
-    "ai_rationale": "Realm raises $4.5M seed round \u00b7 AI agents for enterprise sales \u00b7 3 sources \u00b7 Slack and Deel founders backing.",
+    "ai_rationale": "Realm raises $4.5M seed round \u00b7 AI agents for enterprise sales \u00b7 3 sources \u00b7 led by Frontline Ventures.",
     "triggers": [
       {
         "type": "funding",
         "text": "raises \u20ac3.8 million Seed round to deploy AI agents in enterprise sales (3\u2026",
-        "time": "4d ago"
+        "time": "5d ago"
       },
       {
         "type": "sector",
@@ -207,8 +206,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260426_006",
-    "generated_date": "2026-04-26",
+    "id": "opp_20260427_006",
+    "generated_date": "2026-04-27",
     "company_id": null,
     "investor_id": "inv_c6d98ffa6a60",
     "person_id": null,
@@ -233,7 +232,7 @@
       "sources": 2,
       "geo_weight": 0.8
     },
-    "ai_rationale": "\u00a32bn quantum computing investment \u00b7 tech cluster funding \u00a391m total \u00b7 6 sources \u00b7 northern expansion priority.",
+    "ai_rationale": "\u00a32bn quantum computing investment \u00b7 \u00a31.7bn northern tech sectors \u00b7 \u00a350m farm AI/robotics fund \u00b7 6 sources \u00b7 tech cluster expansion across UK regions.",
     "triggers": [
       {
         "type": "funding",
@@ -255,8 +254,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260426_007",
-    "generated_date": "2026-04-26",
+    "id": "opp_20260427_007",
+    "generated_date": "2026-04-27",
     "company_id": "co_9e4a4e317e3c",
     "investor_id": null,
     "person_id": null,
@@ -275,12 +274,12 @@
       "sources": 13,
       "geo_weight": 0.8
     },
-    "ai_rationale": "ATMOS Space Cargo raises \u20ac25.7M Series A \u00b7 orbital transport and re-entry vehicles \u00b7 4 sources \u00b7 Europe's sovereign return-from-orbit capability.",
+    "ai_rationale": "\u20ac25.7M Series A \u00b7 orbital transport and re-entry vehicles \u00b7 4 sources \u00b7 Europe's sovereign return-from-orbit capability.",
     "triggers": [
       {
         "type": "funding",
         "text": "Atmos raises \u20ac25.7 million in funding (4 sources)",
-        "time": "3d ago"
+        "time": "4d ago"
       },
       {
         "type": "sector",
@@ -297,8 +296,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260426_008",
-    "generated_date": "2026-04-26",
+    "id": "opp_20260427_008",
+    "generated_date": "2026-04-27",
     "company_id": "co_9c7cea9aaa00",
     "investor_id": null,
     "person_id": null,
@@ -317,12 +316,12 @@
       "sources": 12,
       "geo_weight": 0.8
     },
-    "ai_rationale": "\u20ac28.7M Series A \u00b7 synthetic fuel infrastructure \u00b7 4 sources \u00b7 European gas supply focus.",
+    "ai_rationale": "$34M Series A \u00b7 synthetic gas infrastructure for Europe \u00b7 4 sources \u00b7 led by IQ Capital.",
     "triggers": [
       {
         "type": "funding",
         "text": "raises $34M to build synthetic gas infrastructure for Europe (4 sources)",
-        "time": "5d ago"
+        "time": "6d ago"
       },
       {
         "type": "sector",
@@ -334,8 +333,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260426_009",
-    "generated_date": "2026-04-26",
+    "id": "opp_20260427_009",
+    "generated_date": "2026-04-27",
     "company_id": "co_cf400b75ffe9",
     "investor_id": null,
     "person_id": null,
@@ -354,12 +353,12 @@
       "sources": 9,
       "geo_weight": 0.8
     },
-    "ai_rationale": "$72M Series C \u00b7 AI-driven software supply chain management \u00b7 4 sources \u00b7 artifact management platform",
+    "ai_rationale": "$72M Series C \u00b7 AI-driven software supply chain management \u00b7 4 sources \u00b7 artifact management platform.",
     "triggers": [
       {
         "type": "funding",
         "text": "raises \u00a353m in AI management platform funding (4 sources)",
-        "time": "1d ago"
+        "time": "2d ago"
       },
       {
         "type": "sector",
@@ -376,8 +375,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260426_010",
-    "generated_date": "2026-04-26",
+    "id": "opp_20260427_010",
+    "generated_date": "2026-04-27",
     "company_id": "co_ab74fe32d4bb",
     "investor_id": null,
     "person_id": null,
@@ -403,7 +402,7 @@
       "sources": 7,
       "geo_weight": 0.8
     },
-    "ai_rationale": "\"\u00a3500m Sovereign AI Unit launched \u00b7 UK AI company investment \u00b7 4 sources \u00b7 reduce US capital reliance\"",
+    "ai_rationale": "\u00a3500m Sovereign AI Unit launched \u00b7 UK AI company investment \u00b7 4 sources \u00b7 reduce US capital reliance.",
     "triggers": [
       {
         "type": "funding",
@@ -425,8 +424,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260426_011",
-    "generated_date": "2026-04-26",
+    "id": "opp_20260427_011",
+    "generated_date": "2026-04-27",
     "company_id": "co_101e32680e4b",
     "investor_id": null,
     "person_id": null,
@@ -453,7 +452,7 @@
       {
         "type": "funding",
         "text": "raises $225M Series A (4 sources)",
-        "time": "4w ago"
+        "time": "1mo ago"
       },
       {
         "type": "sector",
@@ -465,8 +464,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260426_012",
-    "generated_date": "2026-04-26",
+    "id": "opp_20260427_012",
+    "generated_date": "2026-04-27",
     "company_id": "co_232528f9daab",
     "investor_id": null,
     "person_id": null,
@@ -489,7 +488,7 @@
       "sources": 10,
       "geo_weight": 1.0
     },
-    "ai_rationale": "\u20ac3M pre-seed round \u00b7 circular construction materials \u00b7 3 sources \u00b7 Swedish startup",
+    "ai_rationale": "\u20ac3M pre-seed \u00b7 circular construction materials \u00b7 3 sources \u00b7 Swedish startup",
     "triggers": [
       {
         "type": "funding",
@@ -511,8 +510,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260426_013",
-    "generated_date": "2026-04-26",
+    "id": "opp_20260427_013",
+    "generated_date": "2026-04-27",
     "company_id": "co_aeeb61170ca9",
     "investor_id": null,
     "person_id": null,
@@ -531,7 +530,7 @@
       "sources": 13,
       "geo_weight": 0.8
     },
-    "ai_rationale": "\u20ac2M pre-seed \u00b7 autonomous sales agents \u00b7 4 sources \u00b7 Practica Capital led.",
+    "ai_rationale": "\u20ac2M pre-seed \u00b7 autonomous sales and revenue agents \u00b7 4 sources \u00b7 Pratica Capital led round.",
     "triggers": [
       {
         "type": "funding",
@@ -548,8 +547,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260426_014",
-    "generated_date": "2026-04-26",
+    "id": "opp_20260427_014",
+    "generated_date": "2026-04-27",
     "company_id": "co_8ed7ff25d0e5",
     "investor_id": null,
     "person_id": null,
@@ -576,7 +575,7 @@
       {
         "type": "funding",
         "text": "Round raises $6M for AI-powered finance automation platform (4 sources)",
-        "time": "1w ago"
+        "time": "2w ago"
       },
       {
         "type": "sector",
@@ -588,8 +587,8 @@
     "status": "new"
   },
   {
-    "id": "opp_20260426_015",
-    "generated_date": "2026-04-26",
+    "id": "opp_20260427_015",
+    "generated_date": "2026-04-27",
     "company_id": "co_655f62e663d8",
     "investor_id": null,
     "person_id": null,
@@ -611,7 +610,7 @@
       "sources": 10,
       "geo_weight": 1.0
     },
-    "ai_rationale": "Audicin raises $1.9M for nervous system regulation wearables \u00b7 3 sources \u00b7 Business Finland backing included.",
+    "ai_rationale": "Audicin raises $1.9M\u2013\u20ac1.6M \u00b7 nervous system regulation wearables \u00b7 3 sources \u00b7 Finland Business funding included.",
     "triggers": [
       {
         "type": "funding",

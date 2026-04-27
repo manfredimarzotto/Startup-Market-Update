@@ -8806,5 +8806,77 @@
     "hq_city": null,
     "last_signal_at": "2026-04-25T11:32:03+00:00",
     "signal_count": 1
+  },
+  {
+    "id": "co_322f43f66ad0",
+    "name": "Axomove",
+    "domain": null,
+    "sector": "HealthTech",
+    "sub_sector": "Digital Health, Rehabilitation, Prevention",
+    "stage": "series_a",
+    "hq_country": "FR",
+    "hq_city": "Lille",
+    "last_signal_at": "2026-04-27T08:24:24+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_d52ba9e30ad3",
+    "name": "Noreja",
+    "domain": null,
+    "sector": "AI/ML",
+    "sub_sector": "Process Intelligence",
+    "stage": "",
+    "hq_country": "AT",
+    "hq_city": "Vorarlberg",
+    "last_signal_at": "2026-04-27T07:15:29+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_9cd2198f82ee",
+    "name": "QuoIntelligence",
+    "domain": null,
+    "sector": "Cybersecurity",
+    "sub_sector": "Threat Intelligence",
+    "stage": "series_a",
+    "hq_country": "DE",
+    "hq_city": "Frankfurt",
+    "last_signal_at": "2026-04-27T05:54:26+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_1491fed6b7de",
+    "name": "Atech",
+    "domain": null,
+    "sector": "AI/ML",
+    "sub_sector": "Physical AI, Hardware",
+    "stage": "pre-seed",
+    "hq_country": "",
+    "hq_city": null,
+    "last_signal_at": "2026-04-27T06:00:00+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_eedc28b67837",
+    "name": "Crescendo",
+    "domain": null,
+    "sector": "AI/ML",
+    "sub_sector": null,
+    "stage": "",
+    "hq_country": "Other",
+    "hq_city": null,
+    "last_signal_at": "2026-04-27T07:00:00+00:00",
+    "signal_count": 1
+  },
+  {
+    "id": "co_9dceabd968a6",
+    "name": "Foundation Future Industries",
+    "domain": null,
+    "sector": "DeepTech",
+    "sub_sector": "Robotics",
+    "stage": "",
+    "hq_country": "Other",
+    "hq_city": "San Francisco",
+    "last_signal_at": "2026-04-26T12:27:08+00:00",
+    "signal_count": 1
   }
 ]
